@@ -1,0 +1,2 @@
+# PDF の本文抽出（mod/extract_text.py）にだけ使う。ほかのスクリプトは標準ライブラリのみ。
+pdfminer.six==20260107
