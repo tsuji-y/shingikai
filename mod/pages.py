@@ -21,7 +21,8 @@ BASE = "https://www.mod.go.jp"
 REPO = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO / "raw" / "mod" / "pages"
 
-SKIP_TAGS = {"script", "style", "noscript", "header", "footer", "nav"}
+# rt・rp はふりがな。本文に混ぜると「三島みしま 茂徳しげのり」のようになるので読み飛ばす
+SKIP_TAGS = {"script", "style", "noscript", "header", "footer", "nav", "rt", "rp"}
 HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
 # 段落の切れ目になるタグ。表の中ではセル内の改行として扱う。
 BREAK_TAGS = {"p", "li", "div", "section", "article", "ul", "ol", "dl", "dt", "dd", "br",

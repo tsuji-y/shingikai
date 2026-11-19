@@ -35,6 +35,7 @@ from urllib.parse import urlsplit
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import minutes  # noqa: E402
 import pages  # noqa: E402
+import persons  # noqa: E402
 from pages import Block, Link, nfkc  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
@@ -43,12 +44,12 @@ MANIFEST = REPO / "raw" / "mod" / "pages.csv"
 ROOT = "/j/policy/agenda/meeting/"
 
 PROFILE_FIELDS = ["council_id", "key", "value", "source"]
-MEMBER_FIELDS = ["council_id", "body", "group", "as_of", "as_of_raw", "name", "mark", "role",
-                 "title", "note", "source"]
+MEMBER_FIELDS = ["council_id", "body", "group", "as_of", "as_of_raw", "name", "kana", "mark", "role",
+                 "title", "note", "person_id", "source"]
 MEETING_FIELDS = ["meeting_id", "council_id", "body", "number", "label", "date", "date_raw", "time",
                   "agenda", "place", "attendees", "page", "n_documents", "found_by", "source"]
 ATTENDANCE_FIELDS = ["meeting_id", "council_id", "group", "seq", "name_raw", "surname", "role",
-                     "roster_match", "source"]
+                     "person_id", "person_basis", "source"]
 MINUTES_TYPES = ("議事要旨", "議事録")  # 冒頭に日時・場所・出席者が書かれている資料。この順に当たる
 DOCUMENT_FIELDS = ["council_id", "meeting_id", "section", "title", "doc_type", "url", "host",
                    "format", "text", "pages", "chars", "source"]
@@ -195,6 +196,7 @@ _MARK_NORMAL = str.maketrans({"◯": "○", "〇": "○"})
 _LEAD_MARKS = re.compile(r"^[" + MARKS + r"\s]+")
 _LEGEND = re.compile(r"([" + MARKS + r"])\s*印?\s*は\s*(.+?)(?=を|、|。|は|$)")
 _AS_OF = re.compile(r"現在")
+_KANA_NOTE = re.compile(r"\s*[(（]([ぁ-ゖァ-ヶー\s]+)[)）]$")
 
 
 def parse_legend(text: str) -> dict[str, str]:
@@ -281,6 +283,7 @@ class Builder:
         self.by_number_date: dict[tuple, dict] = {}
         self.recent: dict[tuple, dict] = {}
         self.attendance: list[dict] = []
+        self.persons: list[dict] = []
         self.warnings: list[str] = []
 
     # --- 会議 ---
@@ -516,6 +519,9 @@ class Builder:
         if cols["name"] is None or cols["name"] >= len(b.cells):
             return None
         mark, name = split_marks(b.cells[cols["name"]].text)
+        kana = _KANA_NOTE.search(name)  # 「中村 義人（なかむら よしと）」
+        if kana:
+            name, kana = name[:kana.start()].strip(), " ".join(kana.group(1).split())
         if not name:
             return None
 
@@ -524,7 +530,8 @@ class Builder:
             return flat(b.cells[i].text) if i is not None and i < len(b.cells) else ""
 
         row = {"council_id": cid, "body": body, "group": section, "as_of": as_of[0],
-               "as_of_raw": as_of[1], "name": name, "mark": mark, "role": "", "title": cell("title"),
+               "as_of_raw": as_of[1], "name": name, "kana": kana or "", "mark": mark, "role": "",
+               "title": cell("title"),
                "note": cell("note"), "source": source}
         self.members.append(row)
         return row
@@ -639,24 +646,14 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
         d["text"], d["pages"], d["chars"] = row.get("text", ""), row.get("pages", ""), row.get("chars", "")
         if d["meeting_id"] and d["doc_type"] in MINUTES_TYPES and d["url"] in texts:
             by_meeting.setdefault(d["meeting_id"], []).append(d)
-    surnames: dict[str, dict[str, set[str]]] = {}
-    for r in b.members:
-        surnames.setdefault(r["council_id"], {}).setdefault(r["name"].split(" ")[0], set()).add(r["name"])
-
     def attend(m: dict, raw: str, source: str) -> None:
-        roster = surnames.get(m["council_id"], {})
-        full_names = {n for names in roster.values() for n in names}
         for seq, (group, token) in enumerate(minutes.split_attendees(raw), 1):
             surname, role = minutes.split_name(token)
-            if not role and group in minutes.ROLES:
-                role = group  # 「座長：山谷 清志氏」のように、区分が役職になっている書き方
-            base = re.sub(r"(氏|様|さん)$", "", re.sub(r"\s*[(\[【〔].*$", "", token).strip())
-            match = base if base in full_names else ""
-            if not match and len(roster.get(surname, ())) == 1:
-                match = next(iter(roster[surname]))
+            if not role and group.split("/")[-1] in minutes.ROLES:
+                role = group.split("/")[-1]  # 「座長：山谷 清志氏」のように、区分が役職になっている書き方
             b.attendance.append({"meeting_id": m["meeting_id"], "council_id": m["council_id"],
                                  "group": group, "seq": seq, "name_raw": token, "surname": surname,
-                                 "role": role, "roster_match": match, "source": source})
+                                 "role": role, "source": source})
 
     dated_now: list[dict] = []  # 今回、資料から開催日が分かった会議
     for m in b.meetings:
@@ -675,6 +672,10 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
                 continue
             h = minutes.parse_header(text)
             date, _ = parse_date(h["date_raw"])
+            weekday = minutes._weekday_mismatch(date, h["date_raw"])
+            if weekday:
+                b.warnings.append(f"{m['meeting_id']}: 資料の記載「{h['date_raw'][:24]}」の曜日が日付と合わない"
+                                  f"（{date} は{weekday}曜）。開催日は要確認（{d['url']}）")
             if date and not m["date"]:
                 m["date"], m["date_raw"], used = date, h["date_raw"], True
             elif date and m["date"] != date:
@@ -694,6 +695,8 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
         if m["date"] and not had_date and m["number"] != "":
             dated_now.append(m)
     merge_dated(b, dated_now)
+    b.persons = persons.link(b.members, b.attendance, {m["meeting_id"]: m["date"] for m in b.meetings},
+                             b.councils.order)
 
 
 def merge_dated(b: Builder, dated_now: list[dict]) -> None:
@@ -816,6 +819,7 @@ def main() -> int:
         write_csv(DATA / "meetings.csv", MEETING_FIELDS, b.meetings)
         write_csv(DATA / "documents.csv", DOCUMENT_FIELDS, b.documents)
         write_csv(DATA / "attendance.csv", ATTENDANCE_FIELDS, b.attendance)
+        write_csv(DATA / "persons.csv", persons.PERSON_FIELDS, b.persons)
     with_meeting = sum(1 for d in b.documents if d["meeting_id"])
     print(f"概要 {len(b.profiles)} 行 / 委員 {len(b.members)} 行 / 会議 {len(b.meetings)} 件 / "
           f"資料 {len(b.documents)} 件（うち会議に結び付くもの {with_meeting} 件） / "

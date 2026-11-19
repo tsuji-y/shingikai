@@ -118,11 +118,49 @@ class NamesTest(unittest.TestCase):
         h = minutes.parse_header(text)
         self.assertEqual((h["time"], h["place"], h["agenda"]), ("10:00-11:27", "オンライン会議", "令和7年度政策評価書(案)"))
         self.assertEqual(minutes.split_attendees(h["attendees"]),
-                         [("座長", "山谷 清志氏(同志社大学 名誉教授)"), ("委員", "佐藤 達夫氏(取締役会長)"),
-                          ("委員", "南島 和久氏(龍谷大学教授)"), ("防衛省(主要な参加者)", "大臣官房企画評価課長"),
+                         [("有識者/座長", "山谷 清志氏(同志社大学 名誉教授)"), ("有識者/委員", "佐藤 達夫氏(取締役会長)"),
+                          ("有識者/委員", "南島 和久氏(龍谷大学教授)"), ("防衛省(主要な参加者)", "大臣官房企画評価課長"),
                           ("防衛省(主要な参加者)", "事業監理官(次期戦闘機担当)付技術計画調整官")])
         self.assertEqual(minutes.split_name("山谷 清志氏(同志社大学 名誉教授)"), ("山谷", ""))
         self.assertEqual(minutes.split_name("藤井 聡 (京都大学大学院工学研究科教授)[会長]"), ("藤井", "会長"))
+
+    def test_cases_found_by_the_sample_check(self):
+        # 空白 1 つで並べた委員
+        self.assertEqual([n for _, n in minutes.split_attendees("（委  員）\n田内会長 柴山会長代理 石田委員 片岡委員  清水委員  西谷委員 林委員")],
+                         ["田内会長", "柴山会長代理", "石田委員", "片岡委員", "清水委員", "西谷委員", "林委員"])
+        # 「山本／委員」の折り返しは区分の見出しではない
+        self.assertEqual(minutes.split_attendees("（委員）橋本委員、山本\n委員\n（防衛省）青木課長"),
+                         [("委員", "橋本委員"), ("委員", "山本委員"), ("防衛省", "青木課長")])
+        # 行頭に折り返された注記は区分の見出しではない。注記（敬称略・五十音順）は名前から落とす
+        self.assertEqual(minutes.split_attendees("（防衛省側）中谷防衛大臣、金子防衛大臣政務官\n（途中出席）、若宮防衛大臣補佐官\n（部会委員）井上委員、千葉委員（五十音順）"),
+                         [("防衛省側", "中谷防衛大臣"), ("防衛省側", "金子防衛大臣政務官(途中出席)"),
+                          ("防衛省側", "若宮防衛大臣補佐官"), ("部会委員", "井上委員"), ("部会委員", "千葉委員")])
+        # 上の区分の内訳
+        self.assertEqual(minutes.split_attendees("有識者（敬称略）\n黒江 哲郎（座長）\n防衛省側\n内部部局：防衛政策局長、人事教育局長\n航空自衛隊：航空幕僚副長"),
+                         [("有識者", "黒江 哲郎(座長)"), ("防衛省側/内部部局", "防衛政策局長"),
+                          ("防衛省側/内部部局", "人事教育局長"), ("防衛省側/航空自衛隊", "航空幕僚副長")])
+        # 見出しと同じ行に、間を空けて内容が続く
+        h = minutes.parse_header("第５回テスト会議 議事要旨\n１．日 時    令和７年４月３日（木）１０：００～１１：３０\n２．場 所    第１省議室\n３．出席者\n有識者\n榊原定征（座長）\n")
+        self.assertEqual((h["time"], h["place"]), ("10:00-11:30", "第1省議室"))
+        # 役職の読み取り
+        self.assertEqual(minutes.split_name("齋野委員(座長)"), ("齋野", "座長"))
+        self.assertEqual(minutes.split_name("西田 一平太 座長(笹川平和財団上席研究員)"), ("西田", "座長"))
+        self.assertEqual(minutes.split_name("半澤政策参与"), ("", ""))
+
+    def test_cases_found_by_the_second_check(self):
+        # ひらがなの艦名を含む行は名前の並び。文になっている行で出席者欄が終わる
+        text = ("第４回テスト会議\n１ 日 時 令和７年６月４日（水）１０：００～１２：００\n３ 出席者\n（海上自衛隊）\n"
+                "海上幕僚監部指揮通信情報部長、第２潜水隊群司令、\n護衛艦「くまの」艦長、潜水艦「ずいりゅう」艦長ほか\n"
+                "事務局より資料の説明を行い、その後、意\n見交換\n")
+        self.assertEqual([n for _, n in minutes.split_attendees(minutes.parse_header(text)["attendees"])],
+                         ["海上幕僚監部指揮通信情報部長", "第2潜水隊群司令", "護衛艦「くまの」艦長", "潜水艦「ずいりゅう」艦長"])
+        # 所属のかっこの中に残る「他」
+        self.assertEqual(minutes.split_attendees("【防衛省】\n家護谷  昌徳\n防衛装備庁プロジェクト管理部長  他"),
+                         [("防衛省", "家護谷 昌徳(防衛装備庁プロジェクト管理部長)")])
+
+    def test_weekday_check(self):
+        self.assertEqual(minutes._weekday_mismatch("2024-10-22", "令和６年１０月２２日（金）１４：００～"), "火")
+        self.assertEqual(minutes._weekday_mismatch("2024-12-11", "令和６年１２月１１日（水）"), "")
 
     def test_split_name(self):
         self.assertEqual(minutes.split_name("太田会長"), ("太田", "会長"))
@@ -172,9 +210,16 @@ class ApplyMinutesTest(unittest.TestCase):
                          ("2024-12-11", "14:00-16:00", "link+pdf"))
         self.assertEqual((m["x#104"]["date"], m["x#104"]["found_by"]), ("", "link"))
         first = b.attendance[0]
-        self.assertEqual((first["meeting_id"], first["group"], first["name_raw"], first["surname"], first["role"],
-                          first["roster_match"]), ("x#105", "委員", "太田会長", "太田", "会長", "太田 達也"))
-        self.assertEqual([a["roster_match"] for a in b.attendance[1:]], ["", "", "", ""])
+        self.assertEqual((first["meeting_id"], first["group"], first["name_raw"], first["surname"], first["role"]),
+                         ("x#105", "委員", "太田会長", "太田", "会長"))
+        # 名簿にいる太田は氏名の分かる人物に、いない委員は会議体ごとの仮の人物に、省側は結び付けない
+        self.assertEqual([(a["person_id"], a["person_basis"]) for a in b.attendance],
+                         [("太田達也", "surname"), ("x:能勢", "surname_only"), ("x:山宮", "surname_only"),
+                          ("x:諏訪", "surname_only"), ("", "")])
+        people = {p["person_id"]: p for p in b.persons}
+        self.assertEqual((people["太田達也"]["name"], people["太田達也"]["roster_councils"], people["太田達也"]["n_meetings"],
+                          people["太田達也"]["first_date"]), ("太田 達也", "x", 1, "2024-12-11"))
+        self.assertEqual(b.members[0]["person_id"], "太田達也")
 
     def test_date_only_row_is_merged_once_the_text_gives_the_date(self):
         html = ("<html><body><h1>テスト審議会</h1><table><tr><th>年月日</th><th>議題</th></tr>"
