@@ -1,0 +1,2 @@
+# Phase 3（mod/llm/）の Gemini API 呼び出しにだけ使う。
+google-genai>=1.0.0

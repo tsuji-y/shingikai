@@ -30,7 +30,7 @@ REPO = Path(__file__).resolve().parent.parent
 DOCUMENTS = REPO / "data" / "mod" / "documents.csv"
 FILES_DIR = REPO / "raw" / "mod" / "files"
 MANIFEST = REPO / "raw" / "mod" / "files.csv"
-FIELDS = ["url", "status", "content_type", "last_modified", "fetched_at", "bytes", "sha256", "note"]
+FIELDS = ["url", "status", "content_type", "last_modified", "fetched_at", "bytes", "sha256", "note", "release_url"]
 
 HOST = "www.mod.go.jp"
 USER_AGENT = "pdf-fetcher/1.0"
@@ -103,8 +103,11 @@ def local_path(url: str, root: Path = FILES_DIR) -> Path:
 def read_manifest(path: Path = MANIFEST) -> dict[str, dict[str, str]]:
     if not path.exists():
         return {}
+    rows: dict[str, dict[str, str]] = {}
     with path.open(encoding="utf-8", newline="") as f:
-        return {row["url"]: row for row in csv.DictReader(f)}
+        for row in csv.DictReader(f):
+            rows[row["url"]] = {k: row.get(k, "") for k in FIELDS}
+    return rows
 
 
 def write_manifest(rows: dict[str, dict[str, str]], path: Path = MANIFEST) -> None:
@@ -113,7 +116,8 @@ def write_manifest(rows: dict[str, dict[str, str]], path: Path = MANIFEST) -> No
     with tmp.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n", extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(rows[k] for k in sorted(rows))
+        for k in sorted(rows):
+            writer.writerow({field: rows[k].get(field, "") for field in FIELDS})
     for attempt in range(10):
         try:
             tmp.replace(path)

@@ -33,18 +33,22 @@
 | `mod/fetch_in_browser.js` | ブラウザの中でページを取得し、ページ束（JSON）として保存する（Python 取得不可時の代替） |
 | `mod/ingest_pages.py` | ページ束を `raw/mod/pages/` に展開し、台帳 `raw/mod/pages.csv`（`content_sha256` 含む）を更新する |
 | `mod/fetch_files.py` | `documents.csv` に載っている防衛省サイト上の PDF を取得・差し替え照合する |
+| `mod/archive_pdfs.py` | 取得済み PDF 原本を GitHub Releases（年別 / ベースライン）へ保管し、`release_url` を記録する |
 | `mod/extract_text.py` | PDF から本文を抽出する |
 | `mod/pages.py` | 保存した HTML を、見出し・表の行・段落の列に変換する |
 | `mod/minutes.py` | 議事要旨・議事録の本文の冒頭から、開催日時・場所・出席者を読み取る |
 | `mod/persons.py` | 委員名簿と出席記録から人物表を作り、各行を人物に結び付ける |
 | `mod/build_db.py` | 上の 3 つを使って `council_profiles`・`members`・`meetings`・`attendance`・`persons`・`documents` を作る |
 | `mod/make_check_sheet.py` | 抜き取り検証用の確認表（`checks/`）を作る |
+| `mod/llm/` | Gemini による補完（画像 PDF 文字起こし・出席者補完・資料要約・変更検討メモ・30 件評価） |
 | `data/mod/events.csv` | 表の差分から機械的に記録した更新イベント（追記のみ） |
 | `data/mod/members_history.csv` | 委員名簿が変わる前のスナップショット（時点付き） |
+| `data/mod/summaries.csv` | Gemini による資料の機械生成要約（モデル名・プロンプト版・入力 SHA-256 付き） |
+| `data/mod/llm_extractions.csv` | Gemini による文字起こし・出席者補完の記録（検証通過分のみ本体表へ反映） |
 | `raw/mod/pages/` | 取得した HTML。取得したバイト列のまま |
 | `tests/` | `python3 -m unittest discover -s tests` |
 
-`mod` は Ministry of Defense の略。コードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）だけ pdfminer.six を使う。Windows では `python3` の代わりに `python` を使う。
+`mod` は Ministry of Defense の略。基本のコードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）に `requirements.txt`（pdfminer.six）、Gemini 処理（`mod/llm/`）に `requirements-llm.txt`（google-genai）を使う。Windows では `python3` の代わりに `python` を使う。
 
 ## www.mod.go.jp のアクセス制約
 
@@ -114,11 +118,27 @@ python3 mod/extract_text.py                  # data/mod/text/ にテキストを
 python3 mod/build_db.py                      # 議事要旨・議事録の冒頭から開催日時・場所・出席者を補う
 ```
 
-- `fetch_files.py` は 2 秒間隔で 1 件ずつ取得し、403・429 が返ったら止まる。既定では台帳（`raw/mod/files.csv`）に SHA-256 が記録されていれば取得済みとして飛ばす（手元に PDF 原本がない環境でも全件を取り直さない）。PDF の本体（`raw/mod/files/`、約 350 MB）は Git に入れていない。
+- `fetch_files.py` は 2 秒間隔で 1 件ずつ取得し、403・429 が返ったら止まる。既定では台帳（`raw/mod/files.csv`）に SHA-256 が記録されていれば取得済みとして飛ばす（手元に PDF 原本がない環境でも全件を取り直さない）。PDF の本体（`raw/mod/files/`、約 350 MB）は Git に入れず、GitHub Releases に保管する。
+- 新規・差し替え PDF は日次ワークフロー（`.github/workflows/update.yml`）から `mod/archive_pdfs.py` で年別 Release（`pdfs-YYYY`）へ自動添付し、`raw/mod/files.csv` の `release_url` に記録する。手元の既存 421 件を一括アーカイブする場合は `python3 mod/archive_pdfs.py --bundle --tag pdfs-2026-baseline` を実行する。
 - 2026-11-19 に 422 件を取りに行き、421 件を保存した。1 件（再就職等監視分科会 第84回の議事要旨）はリンク切れで 404 だった。
 - `extract_text.py` だけは pdfminer.six を使う。`python -m venv .venv` で仮想環境を作り、`requirements.txt` を入れて実行する。
-- 画像だけの PDF からは本文が取れない。`texts.csv` の `note` に印を付けている（OCR はしていない）。
+- 画像だけの PDF からは本文が取れない。`texts.csv` の `note` に印を付けている。
 - PDF 側に文字への対応表がなく変換できなかった箇所は、`(cid:8494)` のような表記で残る（人名の一部で起きている）。
+
+## Gemini による補完と要約（Phase 3）
+
+既存の読み取り処理を置き換えずに、不足箇所（画像 PDF の文字起こし・出席者未抽出の議事要旨・資料の要約・日次の変更検討メモ）だけを Gemini（既定モデル: `gemini-2.5-flash`）で補う。API キーは環境変数（GitHub Actions では Secrets の `GEMINI_API_KEY`）から読み込む。
+
+```bash
+pip install -r requirements-llm.txt
+python3 -m mod.llm.run --task evaluate --out checks/llm_eval_30.md             # 30 会議の精度評価
+python3 -m mod.llm.run --task all --council rinri --backfill --max-llm-calls 5 # 1 会議体の少数確認
+python3 -m mod.llm.run --task all --backfill --max-llm-calls 150               # 既存資料の要約・補完（バッチ実行可）
+```
+
+- GitHub Actions からは `.github/workflows/llm_backfill.yml`（手動実行）で 30 件評価や既存 421 件のさかのぼり要約・補完を実行できる。日次の `update.yml` でも、`GEMINI_API_KEY` が設定されていれば本体更新とは別のステップ・別の commit として新規分のみ自動処理する。
+- 出席者・開催日の抽出結果は「氏名が空白を除いた原文にそのまま存在するか」「日付と曜日が整合するか」を自動検証し、検証を通った行（`validation_status=accepted`）だけを本体表へ反映する。通らない出力は `rejected` として `llm_extractions.csv` に記録して捨てる。
+- **注意（機械生成）**: `data/mod/summaries.csv` の要約および通知 Issue に投稿される変更の検討メモは Gemini による機械生成であり、誤りや省略を含みうる。引用や分析には必ず元の資料（`url` / `text`）を確認すること。
 
 ## 会議体・会議・資料・委員の表
 

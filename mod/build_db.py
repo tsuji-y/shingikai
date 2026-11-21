@@ -774,9 +774,76 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
             attend(m, m["attendees"].replace(" / ", "\n"), m["page"])
         if m["date"] and not had_date and m["number"] != "":
             dated_now.append(m)
+    _apply_llm_extractions(b, texts_path.parent / "llm_extractions.csv", dated_now)
     merge_dated(b, dated_now)
     b.persons = persons.link(b.members, b.attendance, {m["meeting_id"]: m["date"] for m in b.meetings},
                              b.councils.order)
+
+
+def _apply_llm_extractions(b: Builder, llm_path: Path, dated_now: list[dict]) -> None:
+    """検証通過済み（validation_status == 'accepted'）の LLM 抽出結果だけを空欄の補完に使う。"""
+    if not llm_path.exists():
+        return
+    import json
+
+    accepted: dict[str, dict[str, str]] = {}
+    with llm_path.open(encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            if r.get("task") != "extract" or r.get("validation_status") != "accepted":
+                continue
+            mid = r.get("meeting_id", "")
+            if mid:
+                accepted[mid] = r
+    if not accepted:
+        return
+
+    att_mids = {a["meeting_id"] for a in b.attendance}
+    for m in b.meetings:
+        r = accepted.get(m["meeting_id"])
+        if not r:
+            continue
+        had_date = bool(m["date"])
+        used = False
+        if r.get("date") and not m["date"]:
+            m["date"], m["date_raw"], used = r["date"], r.get("date_raw", ""), True
+        for key in ("time", "place", "agenda"):
+            if r.get(key) and not m[key]:
+                m[key], used = r[key], True
+        if m["meeting_id"] not in att_mids and r.get("attendees_json"):
+            try:
+                att_list = json.loads(r["attendees_json"])
+            except json.JSONDecodeError:
+                att_list = []
+            if isinstance(att_list, list) and att_list:
+                names = []
+                for seq, item in enumerate(att_list, 1):
+                    name_raw = str(item.get("name_raw") or "").strip()
+                    if not name_raw:
+                        continue
+                    surname = str(item.get("surname") or "").strip()
+                    role = str(item.get("role") or "").strip()
+                    if not surname and not role:
+                        surname, role = minutes.split_name(name_raw)
+                    b.attendance.append({
+                        "meeting_id": m["meeting_id"],
+                        "council_id": m["council_id"],
+                        "group": str(item.get("group") or "").strip(),
+                        "seq": seq,
+                        "name_raw": name_raw,
+                        "surname": surname,
+                        "role": role,
+                        "source": r.get("url", ""),
+                    })
+                    names.append(name_raw)
+                if names:
+                    if not m["attendees"]:
+                        m["attendees"] = " / ".join(names)
+                    att_mids.add(m["meeting_id"])
+                    used = True
+        if used and "llm" not in m["found_by"].split("+"):
+            m["found_by"] = (m["found_by"] + "+llm").lstrip("+")
+        if m["date"] and not had_date and m["number"] != "" and m not in dated_now:
+            dated_now.append(m)
 
 
 def merge_dated(b: Builder, dated_now: list[dict]) -> None:

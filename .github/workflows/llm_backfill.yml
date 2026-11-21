@@ -1,0 +1,106 @@
+name: Gemini Evaluate & Backfill (Phase 3)
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "実行モード（evaluate: 30件評価 / backfill: 既存資料の要約・補完）"
+        type: choice
+        required: true
+        default: "backfill"
+        options:
+          - evaluate
+          - backfill
+      task:
+        description: "backfill 時の対象タスク（all / summarize / extract / ocr）"
+        type: choice
+        required: false
+        default: "all"
+        options:
+          - all
+          - summarize
+          - extract
+          - ocr
+      max_llm_calls:
+        description: "1 回の実行での API 呼び出し上限（例: 100 / 450）"
+        required: false
+        default: "100"
+      council:
+        description: "特定の会議体 ID に絞る場合のみ指定（空なら全件）"
+        required: false
+        default: ""
+      dry_run:
+        description: "dry-run（API を呼ばずに件数だけ確認）"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mod-llm-backfill
+  cancel-in-progress: false
+
+jobs:
+  llm:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-llm.txt
+
+      - name: Run Gemini evaluation or backfill
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ "${{ inputs.dry_run }}" != "true" ] && [ -z "$GEMINI_API_KEY" ]; then
+            echo "Secrets に GEMINI_API_KEY を登録してから実行してください。" >&2
+            exit 1
+          fi
+          if [ "${{ inputs.mode }}" = "evaluate" ]; then
+            ARGS=(--task evaluate --out checks/llm_eval_30.md)
+            if [ "${{ inputs.dry_run }}" = "true" ]; then
+              ARGS+=(--dry-run)
+            fi
+            python3 -m mod.llm.run "${ARGS[@]}"
+            if [ -f checks/llm_eval_30.md ]; then
+              head -n 60 checks/llm_eval_30.md >> "$GITHUB_STEP_SUMMARY"
+            fi
+          else
+            ARGS=(--task "${{ inputs.task }}" --backfill --max-llm-calls "${{ inputs.max_llm_calls }}")
+            if [ -n "${{ inputs.council }}" ]; then
+              ARGS+=(--council "${{ inputs.council }}")
+            fi
+            if [ "${{ inputs.dry_run }}" = "true" ]; then
+              ARGS+=(--dry-run)
+            fi
+            python3 -m mod.llm.run "${ARGS[@]}"
+          fi
+
+      - name: Commit and push results
+        if: inputs.dry_run != true
+        run: |
+          if git diff --quiet -- data/mod/ checks/ ':(exclude)data/mod/rss_items.csv' && \
+             [ -z "$(git ls-files --others --exclude-standard -- data/mod/ checks/)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/mod/ checks/
+          git reset -- data/mod/rss_items.csv || true
+          if git diff --cached --quiet; then
+            echo "No staged changes."
+            exit 0
+          fi
+          git commit -m "Run Gemini ${{ inputs.mode }} (${{ inputs.task }}, $(TZ=Asia/Tokyo date +%Y-%m-%d))"
+          git pull --rebase
+          git push
