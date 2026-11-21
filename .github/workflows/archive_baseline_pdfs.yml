@@ -1,0 +1,49 @@
+name: Archive Baseline PDFs to GitHub Releases
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "作成・アップロード先の Release タグ"
+        required: false
+        default: "pdfs-2026-baseline"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mod-archive-baseline-pdfs
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch missing PDF originals (serial, 2s interval)
+        run: python3 mod/fetch_files.py --refetch-missing
+
+      - name: Bundle and upload baseline PDFs to GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 mod/archive_pdfs.py --bundle --tag "${{ inputs.tag || 'pdfs-2026-baseline' }}"
+
+      - name: Commit and push updated raw/mod/files.csv
+        run: |
+          if git diff --quiet -- raw/mod/files.csv; then
+            echo "No changes to raw/mod/files.csv."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw/mod/files.csv
+          git commit -m "Record baseline PDF release URLs (${{ inputs.tag || 'pdfs-2026-baseline' }})"
+          git pull --rebase
+          git push

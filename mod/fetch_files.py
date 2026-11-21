@@ -207,6 +207,7 @@ def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir:
         return summary
 
     for i, url in enumerate(todo, 1):
+        old = rows.get(url)
         row, body = fetcher(url)
         summary.checked += 1
         if body is not None:
@@ -214,9 +215,13 @@ def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(body)
             summary.saved.append(url)
+            if old and old.get("sha256") == row.get("sha256") and old.get("release_url"):
+                row["release_url"] = old["release_url"]
+            rows[url] = row
         else:
             summary.failed.append(url)
-        rows[url] = row
+            if not (refetch_missing and old and old.get("sha256")):
+                rows[url] = row
         write_manifest(rows, manifest)
         if body is None or i % 25 == 0 or i == len(todo):
             print(f"  {i}/{len(todo)} {row['status']} {row['bytes']} {row['note']} {url}", flush=True)
