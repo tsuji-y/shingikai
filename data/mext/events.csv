@@ -1,0 +1,175 @@
+detected_at,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T14:44:21+00:00,council_added,chukyo/chukyo0,,chukyo/chukyo0,,中央教育審議会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,tosho,,tosho,,教科用図書検定調査審議会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,daigaku,,daigaku,,大学設置・学校法人審議会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,kokuritu,,kokuritu,,国立大学法人評価委員会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,gijyutu/gijyutu0,,gijyutu/gijyutu0,,科学技術・学術審議会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,kokurituken,,kokurituken,,国立研究開発法人審議会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/kaihatu/016,,chousa/kaihatu/016,,原子力損害賠償紛争審査会,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/seisaku,,chousa/seisaku,,政策評価,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/doppou,,chousa/doppou,,独法評価,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/kokusai,,chousa/kokusai,,国際関係,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/shisetu,,chousa/shisetu,,文教施設,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/shougai,,chousa/shougai,,生涯学習政策,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/shotou,,chousa/shotou,,初等中等教育,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/koutou,,chousa/koutou,,高等教育,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/gijyutu,,chousa/gijyutu,,科学技術・学術政策,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/shinkou,,chousa/shinkou,,研究振興,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/kaihatu,,chousa/kaihatu,,研究開発,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,council_added,chousa/sonota,,chousa/sonota,,その他,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/doppou,,/b_menu/shingi/chousa/doppou/index.htm,,200,/b_menu/shingi/chousa/doppou/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/gijyutu,,/b_menu/shingi/chousa/gijyutu/index.htm,,200,/b_menu/shingi/chousa/gijyutu/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/kaihatu/016,,/b_menu/shingi/chousa/kaihatu/016/index.htm,,200,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/kaihatu,,/b_menu/shingi/chousa/kaihatu/index.htm,,200,/b_menu/shingi/chousa/kaihatu/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/kokusai,,/b_menu/shingi/chousa/kokusai/index.htm,,200,/b_menu/shingi/chousa/kokusai/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/koutou,,/b_menu/shingi/chousa/koutou/index.htm,,200,/b_menu/shingi/chousa/koutou/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/seisaku,,/b_menu/shingi/chousa/seisaku/index.htm,,200,/b_menu/shingi/chousa/seisaku/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/shinkou,,/b_menu/shingi/chousa/shinkou/index.htm,,200,/b_menu/shingi/chousa/shinkou/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/shisetu,,/b_menu/shingi/chousa/shisetu/index.htm,,200,/b_menu/shingi/chousa/shisetu/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/shotou,,/b_menu/shingi/chousa/shotou/index.htm,,200,/b_menu/shingi/chousa/shotou/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/shougai,,/b_menu/shingi/chousa/shougai/index.htm,,200,/b_menu/shingi/chousa/shougai/index.htm
+2026-11-21T14:44:21+00:00,page_added,chousa/sonota,,/b_menu/shingi/chousa/sonota/index.htm,,200,/b_menu/shingi/chousa/sonota/index.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/010201.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/010201.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/04031601.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/04031601.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/04031602.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/04031602.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/05091501.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/05091501.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/05091502.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/05091502.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/05091503.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/05091503.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gaiyou/1358759.htm,,200,/b_menu/shingi/chukyo/chukyo0/gaiyou/1358759.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html,,200,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/index.htm,,200,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00034.html,,200,/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00034.html
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00006.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00006.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00007.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00007.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00008.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00008.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00009.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00009.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00014.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00014.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00015.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00015.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00016.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00016.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00017.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00017.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00018.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00018.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00019.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1418287_00019.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/1420275_00017.htm,,200,/b_menu/shingi/chukyo/chukyo0/toushin/1420275_00017.htm
+2026-11-21T14:44:21+00:00,page_added,chukyo/chukyo0,,/b_menu/shingi/chukyo/chukyo0/toushin/index.html,,200,/b_menu/shingi/chukyo/chukyo0/toushin/index.html
+2026-11-21T14:44:21+00:00,page_added,daigaku,,/b_menu/shingi/daigaku/index.htm,,200,/b_menu/shingi/daigaku/index.htm
+2026-11-21T14:44:21+00:00,page_added,gijyutu/gijyutu0,,/b_menu/shingi/gijyutu/gijyutu0/index.htm,,200,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,page_added,kokuritu,,/b_menu/shingi/kokuritu/index.htm,,200,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,page_added,kokurituken,,/b_menu/shingi/kokurituken/index.htm,,200,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,page_added,,,/b_menu/shingi/main_b5.htm,,200,/b_menu/shingi/main_b5.htm
+2026-11-21T14:44:21+00:00,page_added,tosho,,/b_menu/shingi/tosho/index.htm,,200,/b_menu/shingi/tosho/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chukyo/chukyo0,chukyo/chukyo0#141,chukyo/chukyo0#141,,第141回【開催日時：令和7年2月21日（金曜日）10時00分～12時00分】 2025-02-21,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chukyo/chukyo0,chukyo/chukyo0#142,chukyo/chukyo0#142,,第142回【開催日時：令和7年3月17日（月曜日）10時00分～12時00分】 2025-03-17,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chukyo/chukyo0,chukyo/chukyo0#143,chukyo/chukyo0#143,,第143回【開催日時：令和7年10月24日（金曜日）13時00分～15時00分】 2025-10-24,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chukyo/chukyo0,chukyo/chukyo0#144,chukyo/chukyo0#144,,第144回【開催日時：令和8年8月21日（金曜日）10時00分～12時00分】 2026-08-21,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chukyo/chukyo0,chukyo/chukyo0#145,chukyo/chukyo0#145,,第145回【開催日時：令和8年10月20日（火曜日）15時30分～18時00分】 2026-10-20,/b_menu/shingi/chukyo/chukyo0/index.htm /b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html /b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00034.html
+2026-11-21T14:44:21+00:00,meeting_added,kokuritu,kokuritu#78,kokuritu#78,,第78回【開催日時：令和7年3月4日（火曜日）13時00分～15時00分】 2025-03-04,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokuritu,kokuritu#79,kokuritu#79,,第79回【開催日時：令和7年11月5日（水曜日）から10日（月曜日）】 2025-11-05,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokuritu,kokuritu#80,kokuritu#80,,第80回【開催日時：令和8年3月3日（火曜日）15時00分～17時00分】 2026-03-03,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokuritu,kokuritu#81,kokuritu#81,,第81回【開催日時：令和8年4月24日（金曜日）から30日（木曜日）】 2026-04-24,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokuritu,kokuritu#82,kokuritu#82,,第82回【開催日時：令和8年9月15日（火曜日）15時00分～17時00分】 2026-09-15,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,gijyutu/gijyutu0,gijyutu/gijyutu0#75,gijyutu/gijyutu0#75,,第75回【開催日時：令和7年1月29日（水曜日）13時00分～15時00分】 2025-01-29,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,gijyutu/gijyutu0,gijyutu/gijyutu0#76,gijyutu/gijyutu0#76,,第76回【開催日時：令和7年3月27日（木曜日）13時00分～15時00分】 2025-03-27,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,gijyutu/gijyutu0,gijyutu/gijyutu0#77,gijyutu/gijyutu0#77,,第77回【開催日時：令和7年7月15日（火曜日）13時00分～15時00分】 2025-07-15,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,gijyutu/gijyutu0,gijyutu/gijyutu0#78,gijyutu/gijyutu0#78,,第78回【開催日時：令和7年11月12日（水曜日）10時00分～12時00分】 2025-11-12,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,gijyutu/gijyutu0,gijyutu/gijyutu0#79,gijyutu/gijyutu0#79,,第79回【開催日時：令和8年4月27日（月曜日）14時00分～16時00分】 2026-04-27,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokurituken,kokurituken#36,kokurituken#36,,第36回【開催日時：令和7年8月19日（火曜日）14時00分～16時00分】 2025-08-19,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokurituken,kokurituken#37,kokurituken#37,,第37回【開催日時：令和8年1月28日（水曜日）10時00分～12時00分】 2026-01-28,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokurituken,kokurituken#38,kokurituken#38,,第38回【開催日時：令和8年5月19日（火曜日14時00分～16時00分）】 2026-05-19,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokurituken,kokurituken#39,kokurituken#39,,第39回【開催日時：令和8年8月3日（月曜日）14時00分～16時00分】 2026-08-03,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,kokurituken,kokurituken#40,kokurituken#40,,第40回【開催日時：令和8年8月5日（水曜日）15時00分～17時00分】 2026-08-05,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chousa/kaihatu/016,chousa/kaihatu/016#67,chousa/kaihatu/016#67,,第67回【開催日時：令和6年9月12日（木曜日）14時00分～15時58分】 2024-09-12,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chousa/kaihatu/016,chousa/kaihatu/016#68,chousa/kaihatu/016#68,,第68回【開催日時：令和7年1月27日（月曜日）13時33分～15時20分】 2025-01-27,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chousa/kaihatu/016,chousa/kaihatu/016#69,chousa/kaihatu/016#69,,第69回【開催日時：令和7年5月23日（金曜日）14時00分～15時27分】 2025-05-23,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chousa/kaihatu/016,chousa/kaihatu/016#70,chousa/kaihatu/016#70,,第70回【開催日時：令和8年2月18日（水曜日）10時00分～12時05分】 2026-02-18,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,meeting_added,chousa/kaihatu/016,chousa/kaihatu/016#71,chousa/kaihatu/016#71,,第71回【開催日時：令和8年7月3日（金曜日）14時59分～16時53分】 2026-07-03,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#144,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00033.html,,その他: 開催案内,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#144,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1422289_00029.htm,,議事録: 議事録,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#144,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/mext_0821.html,,資料: 配付資料,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#143,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00031.html,,その他: 開催案内,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#143,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1422289_00028.htm,,議事録: 議事録,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#143,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00030.html,,資料: 配付資料,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#142,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00030.html,,その他: 開催案内,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#142,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1422289_00027.htm,,議事録: 議事録,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#142,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00028.html,,資料: 配付資料,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#141,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00029.html,,その他: 開催案内,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#141,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1422289_00026.htm,,議事録: 議事録,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#141,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00027.html,,資料: 配付資料,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#141,www.mext.go.jp/b_menu/shingi/chukyo/chukyo0/giji_list/index.htm,,その他: 開催状況一覧を見る,/b_menu/shingi/chukyo/chukyo0/index.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20251224-mxt_soseisk01-100006164_1.pdf,,その他: 中央教育審議会機構図（第13期） (PDF:98KB) PDF,/b_menu/shingi/chukyo/chukyo0/gaiyou/04031602.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-01.pdf,,規程: 【資料1-1】「次期学習指導要領等に向けた審議まとめ」について (PDF:4.8MB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-02-1.pdf,,規程: 【資料1-2】次期学習指導要領等に向けた審議まとめ(1) (PDF:4.2MB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-02-2.pdf,,規程: 【資料1-2】次期学習指導要領等に向けた審議まとめ(2) (PDF:9.8MB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-02-3.pdf,,規程: 【資料1-2】次期学習指導要領等に向けた審議まとめ(3) (PDF:8.2MB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-02-4.pdf,,規程: 【資料1-2】次期学習指導要領等に向けた審議まとめ(3) (PDF:7.5MB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-03.pdf,,資料: 【資料2-1】教員養成部会における審議のまとめについて (PDF:1.7MB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/content/20261020-mxt-soseisk01-000052565-04.pdf,,資料: 【資料2-2】多様な専門性を有する質の高い教職員集団の形成を加速するための方策について（審議のまとめ) (PDF:489KB) PDF,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.adobe.com/jp/products/acrobat/readstep2.html,,その他: Get ADOBE READER,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.mext.go.jp/index.htm,,その他: 文部科学省ホームページトップへ,/b_menu/shingi/chukyo/chukyo0/gijiroku/1415607_00031.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,forms.cloud.microsoft/Pages/ResponsePage.aspx,,その他: 第145回中央教育審議会総会 報道関係者向け傍聴登録フォーム,/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00034.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,chukyo/chukyo0#145,www.youtube.com/live/tfarR_r5ncw,,その他: YouTube文部科学省会議専用チャンネル,/b_menu/shingi/chukyo/chukyo0/kaisai/1415012_00034.html
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20260716-mxt_koutou01-000051186_1.pdf,,資料: 認証評価機関の認証について（諮問） (PDF:447KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00006.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20260205-mxt_koutou01-000051212_1.pdf,,資料: 認証評価機関の認証について（諮問） (PDF:252KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00007.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20260821-mxt-soseisk01-000051747-01rr.pdf,,資料: 第5期教育振興基本計画の策定について（諮問） (PDF:209KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00008.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20260828-mxt_soseisk01-000051747-02rr.pdf,,資料: 第5期教育振興基本計画の策定について（諮問）【概要】 (PDF:484KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00008.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20260821-mxt-soseisk01-000051749-01.pdf,,資料: 第4次学校安全の推進に関する計画の策定について（諮問） (PDF:187KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00009.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20260825-mxt-soseisk01-000051749-02.pdf,,資料: 第4次学校安全の推進に関する計画の策定について（諮問）【概要】 (PDF:182KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1415877_00009.htm
+2026-11-21T14:44:21+00:00,document_added,chukyo/chukyo0,,www.mext.go.jp/content/20261117-mxt_koutou01-000053360_1.pdf,,報告書: 認証評価機関の認証について（答申） (PDF:136KB) PDF,/b_menu/shingi/chukyo/chukyo0/toushin/1420275_00017.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#82,www.mext.go.jp/b_menu/shingi/kokuritu/kaisai/1422346_00015.htm,,その他: 開催案内,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#82,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/mext_00011.html,,議事録: 議事録,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#82,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411366_00009.html,,資料: 配付資料,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#81,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411377_00019.htm,,議事要旨: 議事要旨,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#81,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411366_00007.html,,資料: 配付資料,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#80,www.mext.go.jp/b_menu/shingi/kokuritu/kaisai/1422346_00014.htm,,その他: 開催案内,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#80,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/mext_00010.html,,議事録: 議事録,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#80,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411366_00006.html,,資料: 配付資料,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#79,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411377_00018.htm,,議事要旨: 議事要旨,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#79,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411366_00004.html,,資料: 配付資料,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#78,www.mext.go.jp/b_menu/shingi/kokuritu/kaisai/1422346_00012.htm,,その他: 開催案内,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#78,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/mext_00009.html,,議事録: 議事録,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#78,www.mext.go.jp/b_menu/shingi/kokuritu/gijiroku/1411366_00002.html,,資料: 配付資料,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokuritu,kokuritu#78,www.mext.go.jp/b_menu/shingi/kokuritu/giji_list/index.htm,,その他: 開催状況一覧を見る,/b_menu/shingi/kokuritu/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#79,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/news/1414044_00021.htm,,その他: 開催案内,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#79,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/gijiroku/mext_00020.html,,議事録: 議事録,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#79,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/shiryo/mext_00023.html,,資料: 配付資料,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#78,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/news/1414044_00020.htm,,その他: 開催案内,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#78,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/gijiroku/mext_00019.html,,議事録: 議事録,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#78,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/shiryo/mext_00022.html,,資料: 配付資料,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#77,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/news/1414044_00019.htm,,その他: 開催案内,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#77,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/gijiroku/mext_00017.html,,議事録: 議事録,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#77,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/shiryo/mext_00021.html,,資料: 配付資料,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#76,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/news/1414044_00018.htm,,その他: 開催案内,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#76,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/gijiroku/mext_00015.html,,議事録: 議事録,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#76,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/shiryo/mext_00020.html,,資料: 配付資料,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#75,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/news/1414044_00017.htm,,その他: 開催案内,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#75,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/gijiroku/mext_00016.html,,議事録: 議事録,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#75,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/shiryo/mext_00019.html,,資料: 配付資料,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,gijyutu/gijyutu0,gijyutu/gijyutu0#75,www.mext.go.jp/b_menu/shingi/gijyutu/gijyutu0/giji_list/index.htm,,その他: 開催状況一覧を見る,/b_menu/shingi/gijyutu/gijyutu0/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#40,www.mext.go.jp/b_menu/shingi/kokurituken/kaisai/1416001_00031.htm,,その他: 開催案内,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#40,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1417862_00028.htm,,議事要旨: 議事要旨,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#39,www.mext.go.jp/b_menu/shingi/kokurituken/kaisai/1416001_00030.htm,,その他: 開催案内,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#39,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1417862_00027.htm,,議事要旨: 議事要旨,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#38,www.mext.go.jp/b_menu/shingi/kokurituken/kaisai/1416001_00029.htm,,その他: 開催案内,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#38,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1417862_00026.htm,,議事録: 議事録,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#38,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1420163_00028.htm,,資料: 配付資料,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#37,www.mext.go.jp/b_menu/shingi/kokurituken/kaisai/1416001_00028.htm,,その他: 開催案内,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#37,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1417862_00025.htm,,議事録: 議事録,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#37,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1420163_00027.htm,,資料: 配付資料,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#36,www.mext.go.jp/b_menu/shingi/kokurituken/kaisai/1416001_00027.htm,,その他: 開催案内,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#36,www.mext.go.jp/b_menu/shingi/kokurituken/gijiroku/1417862_00024.htm,,議事要旨: 議事要旨,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,kokurituken,kokurituken#36,www.mext.go.jp/b_menu/shingi/kokurituken/giji_list/index.htm,,その他: 開催状況一覧を見る,/b_menu/shingi/kokurituken/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#71,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/kaisai/1421120_00032.htm,,その他: 開催案内,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#71,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/gijiroku/1422768_00024.htm,,議事録: 議事録,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#71,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/shiryo/1421518_00035.htm,,資料: 配付資料,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#70,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/kaisai/1421120_00031.htm,,その他: 開催案内,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#70,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/gijiroku/1422768_00023.htm,,議事録: 議事録,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#70,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/shiryo/1421518_00032.htm,,資料: 配付資料,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#69,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/kaisai/1421120_00030.htm,,その他: 開催案内,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#69,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/gijiroku/1422768_00022.htm,,議事録: 議事録,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#69,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/shiryo/1421518_00031.htm,,資料: 配付資料,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#68,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/kaisai/1421120_00028.htm,,その他: 開催案内,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#68,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/gijiroku/1422768_00021.htm,,議事録: 議事録,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#68,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/shiryo/1421518_00030.htm,,資料: 配付資料,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#67,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/kaisai/1421120_00026.htm,,その他: 開催案内,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#67,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/gijiroku/1422768_00020.htm,,議事録: 議事録,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#67,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/shiryo/1421518_00028.htm,,資料: 配付資料,/b_menu/shingi/chousa/kaihatu/016/index.htm
+2026-11-21T14:44:21+00:00,document_added,chousa/kaihatu/016,chousa/kaihatu/016#67,www.mext.go.jp/b_menu/shingi/chousa/kaihatu/016/giji_list/index.htm,,その他: 開催状況一覧を見る,/b_menu/shingi/chousa/kaihatu/016/index.htm

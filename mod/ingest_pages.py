@@ -48,10 +48,13 @@ def content_hash(body: bytes) -> str:
 
 
 def local_path(url: str, root: Path = RAW_DIR) -> Path:
-    """サイト内パス（/j/.../x.html）に対応する保存先。"""
+    """サイト内パス（/j/.../x.html または /councils/foo）に対応する保存先。"""
     if not url.startswith("/") or ".." in url.split("/") or "\\" in url:
         raise ValueError(f"保存できないパス: {url!r}")
-    return root.joinpath(*url.strip("/").split("/"))
+    parts = [p for p in url.strip("/").split("/") if p]
+    if not parts or url.endswith("/") or not parts[-1].lower().endswith((".html", ".htm")):
+        parts.append("index.html")
+    return root.joinpath(*parts)
 
 
 def http_date_to_iso(value: str | None) -> str:

@@ -1,0 +1,9 @@
+url,text,pages,chars,sha256,note
+https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20070327.pdf,data/fsa/text/singi/singi_kigyou/gijiroku/soukai/20070327.txt,17,17419,a3fa0cebd34df8757a91727d4f0350c875a01e902cfbbe1ed1f495cad5f566b5,
+https://www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20080327.pdf,data/fsa/text/singi/singi_kigyou/gijiroku/soukai/20080327.txt,25,25991,9bd4b3b2d23485785d0de9643771a6e6d5138f4ecab7a7def0cddcdcc6ed4e32,
+https://www.fsa.go.jp/singi/singi_kigyou/meibo/20250919_kaikei.pdf,data/fsa/text/singi/singi_kigyou/meibo/20250919_kaikei.txt,1,570,737a2a3270ab134de9ffb0e2c6c4a9a8d500bd5b162851db39a46f1722c23eaf,
+https://www.fsa.go.jp/singi/singi_kigyou/meibo/20260424_soukai.pdf,data/fsa/text/singi/singi_kigyou/meibo/20260424_soukai.txt,1,361,2e8aa9d312c81ef3554dfabdee35561a93b042845795e48a5c15702716ed94c4,
+https://www.fsa.go.jp/singi/singi_kigyou/meibo/20261002_kansa.pdf,data/fsa/text/singi/singi_kigyou/meibo/20261002_kansa.txt,1,479,cbdef91e70d27f1297b7e621ce8faac56017495da2795a319128b6c665692741,
+https://www.fsa.go.jp/singi/singi_kigyou/meibo/20261029_hoshou.pdf,data/fsa/text/singi/singi_kigyou/meibo/20261029_hoshou.txt,1,495,fcb509dde3b92b7d45cd5927ad7d38382f79cee12a5ceab9aa49521f9d57bde4,
+https://www.fsa.go.jp/singi/singi_kigyou/meibo/230407_naibu.pdf,data/fsa/text/singi/singi_kigyou/meibo/230407_naibu.txt,1,398,9e0a2bfe357f723af01b8f31ba27c3926512431a981ced4efdddabf5d5d63813,
+https://www.fsa.go.jp/singi/singi_kinyu/meibo/260831.pdf,data/fsa/text/singi/singi_kinyu/meibo/260831.txt,1,400,c82a7d81fac49ccb9853601b9a739f3ab0b4cd4fbc4f6d10a8c2ee62abe8969d,

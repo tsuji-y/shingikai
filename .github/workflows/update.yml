@@ -1,8 +1,12 @@
-name: MOD Daily Update
+name: Council Database Daily Update
 
 on:
   workflow_dispatch:
     inputs:
+      agency:
+        description: "対象の省庁 ID（all なら全収録省庁、個別指定なら mod / digital / cfa 等）"
+        required: false
+        default: "all"
       council:
         description: "特定の会議体 ID に絞る場合のみ指定（空なら全件）"
         required: false
@@ -31,7 +35,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: mod-update
+  group: shingikai-update
   cancel-in-progress: false
 
 jobs:
@@ -54,49 +58,111 @@ jobs:
       - name: Run unit tests
         run: python3 -m unittest discover -s tests
 
-      - name: Run MOD update
+      - name: Run multi-agency update
         id: run_update
         run: |
           RUN_STARTED="$(date -u +%Y-%m-%dT%H:%M:%S+00:00)"
           echo "started=$RUN_STARTED" >> "$GITHUB_OUTPUT"
-          ARGS=(--no-llm --summary-out /tmp/update_summary.md)
+          rm -f /tmp/update_summary*.md
+
+          TARGET_AGENCY="${{ inputs.agency }}"
+          if [ -z "$TARGET_AGENCY" ] || [ "$TARGET_AGENCY" = "all" ]; then
+            AGENCIES=$(python3 -c 'import json; print(" ".join(json.load(open("agencies.json")).keys()))')
+          else
+            AGENCIES="$TARGET_AGENCY"
+          fi
+
+          COMMON_ARGS=(--no-llm)
           if [ -n "${{ inputs.council }}" ]; then
-            ARGS+=(--council "${{ inputs.council }}")
+            COMMON_ARGS+=(--council "${{ inputs.council }}")
           fi
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            ARGS+=(--dry-run)
+            COMMON_ARGS+=(--dry-run)
           fi
-          # 日曜（JST）または手動指定時は取得済み PDF の差し替え照合も行う
           DOW_JST="$(TZ=Asia/Tokyo date +%u)"
           if [ "${{ inputs.check_pdf_updates }}" = "true" ] || { [ "${{ github.event_name }}" = "schedule" ] && [ "$DOW_JST" = "7" ]; }; then
-            ARGS+=(--check-pdf-updates)
+            COMMON_ARGS+=(--check-pdf-updates)
           fi
-          python3 mod/update.py "${ARGS[@]}"
+
+          # 省庁ごとにドメインが完全に独立しているため、1 ドメイン 1 プロセス（2 秒間隔直列）を守りつつ
+          # 最大 6 省庁ずつ並列に更新チェックを行う
+           running=0
+          failed=0
+          for ag in $AGENCIES; do
+            if [ ! -f "raw/${ag}/pages.csv" ]; then
+              continue
+            fi
+            (
+              EXTRA_ARGS=()
+              if [ "$ag" != "mod" ]; then
+                EXTRA_ARGS+=(--pdf-types "議事録,議事要旨,名簿" --max-pdfs 15)
+              fi
+              python3 mod/update.py --agency "$ag" "${COMMON_ARGS[@]}" "${EXTRA_ARGS[@]}" \
+                --summary-out "/tmp/update_summary_${ag}.md"
+            ) &
+            running=$((running + 1))
+            if [ "$running" -ge 6 ]; then
+              wait -n || failed=1
+              running=$((running - 1))
+            fi
+          done
+          wait || failed=1
+
+          for f in /tmp/update_summary_*.md; do
+            if [ -s "$f" ]; then
+              ag_name="$(basename "$f" .md)"
+              ag_name="${ag_name#update_summary_}"
+              echo "# [${ag_name}]" >> /tmp/update_summary.md
+              cat "$f" >> /tmp/update_summary.md
+              echo "" >> /tmp/update_summary.md
+            fi
+          done
+
+          if [ "${{ inputs.dry_run }}" != "true" ]; then
+            python3 mod/cross_agency.py
+          else
+            python3 mod/cross_agency.py --dry-run
+          fi
+
+          if [ "$failed" -ne 0 ] && [ "$TARGET_AGENCY" != "all" ] && [ -n "$TARGET_AGENCY" ]; then
+            exit 1
+          fi
 
       - name: Archive newly fetched PDF originals to GitHub Releases
         if: inputs.dry_run != true
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 mod/archive_pdfs.py
+        run: |
+          TARGET_AGENCY="${{ inputs.agency }}"
+          if [ -z "$TARGET_AGENCY" ] || [ "$TARGET_AGENCY" = "all" ]; then
+            AGENCIES=$(python3 -c 'import json; print(" ".join(json.load(open("agencies.json")).keys()))')
+          else
+            AGENCIES="$TARGET_AGENCY"
+          fi
+          for ag in $AGENCIES; do
+            if [ -f "raw/${ag}/files.csv" ]; then
+              python3 mod/archive_pdfs.py --agency "$ag"
+            fi
+          done
 
       - name: Commit and push database updates if any
         if: inputs.dry_run != true
         run: |
           # RSS ジョブと競合しないよう data/mod/rss_items.csv は触らない
-          if git diff --quiet -- raw/mod/ data/mod/ ':(exclude)data/mod/rss_items.csv' && \
-             [ -z "$(git ls-files --others --exclude-standard -- raw/mod/ data/mod/)" ]; then
+          if git diff --quiet -- raw/ data/ ':(exclude)data/mod/rss_items.csv' && \
+             [ -z "$(git ls-files --others --exclude-standard -- raw/ data/)" ]; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add raw/mod/ data/mod/
+          git add raw/ data/
           git reset -- data/mod/rss_items.csv || true
           if git diff --cached --quiet; then
             echo "No staged changes."
             exit 0
           fi
-          git commit -m "Update MOD council database ($(TZ=Asia/Tokyo date +%Y-%m-%d))"
+          git commit -m "Update council database ($(TZ=Asia/Tokyo date +%Y-%m-%d))"
           git pull --rebase
           git push
 
@@ -113,7 +179,7 @@ jobs:
           cat /tmp/update_summary.md >> "$GITHUB_STEP_SUMMARY"
           TODAY="$(TZ=Asia/Tokyo date +%Y-%m-%d)"
           ISSUE_URL=$(gh issue create \
-            --title "[更新] 防衛省審議会データベースの更新（${TODAY}）" \
+            --title "[更新] 省庁審議会データベースの更新（${TODAY}）" \
             --body-file /tmp/update_summary.md)
           ISSUE_NUM="${ISSUE_URL##*/}"
           echo "issue_number=$ISSUE_NUM" >> "$GITHUB_OUTPUT"

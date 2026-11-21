@@ -1,0 +1,9 @@
+url,text,pages,chars,sha256,note
+https://www.moj.go.jp/content/000004317.pdf,data/moj/text/content/000004317.txt,30,39725,fa7050831a4865a81cf705f62ede6aeedd327c9d6c676e2e03ca97bda35e78e1,
+https://www.moj.go.jp/content/000004318.pdf,data/moj/text/content/000004318.txt,33,44167,9ae8c2b619d070f2b24511f618239c4162f325d0cdcc06af0a01c835644065c3,
+https://www.moj.go.jp/content/000004319.pdf,data/moj/text/content/000004319.txt,35,48230,563fef0cd976e3c57252d6d37dcb89ac47223f65ee5ccd19da55d2bea481b810,
+https://www.moj.go.jp/content/001461818.pdf,data/moj/text/content/001461818.txt,1,442,08a9e313dc7c387237e7eb978c531a0418ffeb1be5ec0b902b6f2b3fdf055aca,
+https://www.moj.go.jp/content/001467260.pdf,data/moj/text/content/001467260.txt,1,471,9f521c0d59c9a73b359146409fa219077b2a1d6e1d6aa55b02171d3d9688bfc2,
+https://www.moj.go.jp/content/001470007.pdf,data/moj/text/content/001470007.txt,1,668,492191da0557fc27bf3d3e33ffd2ebe7326ffb2657b8485bdab3ab903e1bf898,
+https://www.moj.go.jp/content/001470652.pdf,data/moj/text/content/001470652.txt,1,349,ccc1f57155d0138acc18d68fb6fa3b62c13cdaf530ff30f91e25a13dc48216cd,
+https://www.moj.go.jp/content/001473944.pdf,data/moj/text/content/001473944.txt,1,578,c2e7c4ab88b697271473a48c4e7513e28db37a1c1f28e2d723a9c374827308cf,

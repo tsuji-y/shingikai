@@ -1,0 +1,4 @@
+url,status,content_type,last_modified,fetched_at,bytes,sha256,note,release_url
+https://www.env.go.jp/content/000431762.pdf,200,application/pdf,2026-10-30T00:07:29+00:00,2026-11-21T14:42:31+00:00,174473,f5a89c916b7d6ada52411a511f2971a2f6dd8670f71dcad81f5385300485f655,,
+https://www.env.go.jp/council/content/03recycle06/000254505.pdf,200,application/pdf,2025-06-18T07:43:45+00:00,2026-11-21T14:42:34+00:00,239596,e0ace6b9e3399951ff59fe61f57c5a2bbf3b1827bf0b39805650451c6bc6dd3a,,
+https://www.env.go.jp/council/content/03recycle06/000323561.pdf,200,application/pdf,2026-09-08T03:08:23+00:00,2026-11-21T14:42:29+00:00,124340,9b951d07da8d00082badbbe879f06ed8a792e22fe7995c068ed06218074a31f5,,

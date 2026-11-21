@@ -134,7 +134,8 @@ def _profile_map(rows: list[dict[str, str]]) -> dict[tuple[str, str, str, int], 
     return out
 
 
-def diff_snapshots(before: Snapshot, after: Snapshot, detected_at: str = "") -> list[dict[str, str]]:
+def diff_snapshots(before: Snapshot, after: Snapshot, detected_at: str = "",
+                   index_urls: list[str] | None = None) -> list[dict[str, str]]:
     """更新前後のスナップショットを比較し、イベント行のリストを返す。"""
     if not detected_at:
         detected_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -155,7 +156,7 @@ def diff_snapshots(before: Snapshot, after: Snapshot, detected_at: str = "") -> 
         })
 
     # 1. 会議体の追加・名称変更・区分変更・一覧からの削除
-    index_source = build_db.ROOT + "index.html"
+    index_source = (index_urls[0] if index_urls else (build_db.ROOT + "index.html"))
     old_c = {r["council_id"]: r for r in before.councils}
     new_c = {r["council_id"]: r for r in after.councils}
     for cid, r in new_c.items():
@@ -335,7 +336,9 @@ def append_events(events: list[dict[str, str]], path: Path = EVENTS_CSV) -> None
 
 
 def check_regressions(before: Snapshot, after: Snapshot, changed_pages: set[str],
-                      changed_doc_keys: set[str] | None = None) -> RegressionReport:
+                      changed_doc_keys: set[str] | None = None,
+                      index_urls: list[str] | None = None,
+                      base_url: str = build_db.pages.BASE) -> RegressionReport:
     """回帰の検査（docs/update_plan.md 3.8 節）。
 
     前回の表にあって今回ない行を列挙し、変更のあったページまたは doc_key の変更（および
@@ -343,7 +346,8 @@ def check_regressions(before: Snapshot, after: Snapshot, changed_pages: set[str]
     """
     changed_doc_keys = set(changed_doc_keys or ())
     report = RegressionReport()
-    index_url = build_db.ROOT + "index.html"
+    idx_list = list(index_urls or [build_db.ROOT + "index.html"])
+    index_url = idx_list[0]
     councils_obj = build_db.Councils(after.councils or before.councils)
 
     changed_councils: set[str] = set()
@@ -361,7 +365,7 @@ def check_regressions(before: Snapshot, after: Snapshot, changed_pages: set[str]
     new_c_ids = {r["council_id"] for r in after.councils}
     for r in before.councils:
         if r["council_id"] not in new_c_ids:
-            explained = index_url in changed_pages
+            explained = bool(set(idx_list) & changed_pages)
             report.disappeared.append(DisappearedRow(
                 "councils.csv", r["council_id"], index_url, explained,
                 "一覧ページ変更" if explained else "一覧ページは未変更",
@@ -429,7 +433,7 @@ def check_regressions(before: Snapshot, after: Snapshot, changed_pages: set[str]
         if key not in new_att:
             src = a.get("source", "")
             src_dk = build_db.doc_key(src) if src.startswith("http") else ""
-            src_path = src[len(build_db.pages.BASE):] if src.startswith(build_db.pages.BASE) else src
+            src_path = src[len(base_url):] if src.startswith(base_url) else src
             meeting_srcs = old_meeting_sources.get(a["meeting_id"], set())
             if src_dk and src_dk in changed_doc_keys:
                 explained, reason = True, "資料(doc_key)の変更"

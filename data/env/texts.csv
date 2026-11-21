@@ -1,0 +1,4 @@
+url,text,pages,chars,sha256,note
+https://www.env.go.jp/content/000431762.pdf,data/env/text/content/000431762.txt,2,663,f5a89c916b7d6ada52411a511f2971a2f6dd8670f71dcad81f5385300485f655,
+https://www.env.go.jp/council/content/03recycle06/000254505.pdf,data/env/text/council/content/03recycle06/000254505.txt,1,509,e0ace6b9e3399951ff59fe61f57c5a2bbf3b1827bf0b39805650451c6bc6dd3a,
+https://www.env.go.jp/council/content/03recycle06/000323561.pdf,data/env/text/council/content/03recycle06/000323561.txt,1,483,9b951d07da8d00082badbbe879f06ed8a792e22fe7995c068ed06218074a31f5,

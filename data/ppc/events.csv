@@ -1,0 +1,48 @@
+detected_at,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T14:44:22+00:00,council_added,3nengotominaoshi_kentohkai,,3nengotominaoshi_kentohkai,,個人情報保護法のいわゆる３年ごと見直しに関する検討会,/personalinfo/kentohkai/
+2026-11-21T14:44:22+00:00,council_added,kondankai,,kondankai,,個人情報保護政策に関する懇談会,/personalinfo/kentohkai/
+2026-11-21T14:44:22+00:00,council_added,koutekikenkyukai,,koutekikenkyukai,,行政機関等の個人情報保護制度の在り方に関する研究会,/personalinfo/kentohkai/
+2026-11-21T14:44:22+00:00,page_added,,,/personalinfo/kentohkai/,,200,/personalinfo/kentohkai/
+2026-11-21T14:44:22+00:00,page_added,3nengotominaoshi_kentohkai,,/personalinfo/kentohkai/3nengotominaoshi_kentohkai,,200,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,page_added,kondankai,,/personalinfo/kentohkai/kondankai,,200,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,page_added,koutekikenkyukai,,/personalinfo/kentohkai/koutekikenkyukai,,200,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#1,3nengotominaoshi_kentohkai#1,,2024-07-31,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#2,3nengotominaoshi_kentohkai#2,,2024-09-05,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#3,3nengotominaoshi_kentohkai#3,,2024-09-26,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#4,3nengotominaoshi_kentohkai#4,,2024-10-11,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#5,3nengotominaoshi_kentohkai#5,,2024-11-12,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#6,3nengotominaoshi_kentohkai#6,,2024-11-28,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#7,3nengotominaoshi_kentohkai#7,,2024-12-18,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,meeting_added,kondankai,kondankai#1,kondankai#1,,2025-09-19,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,meeting_added,kondankai,kondankai#2,kondankai#2,,2026-02-02,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,meeting_added,kondankai,kondankai/※開催案内#3,kondankai/※開催案内#3,,2026-08-26,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,meeting_added,kondankai,kondankai/＜令和８年度＞#3,kondankai/＜令和８年度＞#3,,2026-09-01,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,meeting_added,koutekikenkyukai,koutekikenkyukai#1,koutekikenkyukai#1,,2026-11-19,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,,www.ppc.go.jp/files/pdf/minaoshi_kentokaihoukokusho_r6.pdf,,報告書: 個人情報保護法のいわゆる３年ごと見直しに関する検討会報告書（令和６年12月25日） (PDF : 2359KB)リンク先PDFファイルを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#7,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai7/,,その他: 第７回（令和６年12月18日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#6,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai6/,,その他: 第６回（令和６年11月28日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#5,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai5/,,その他: 第５回（令和６年11月12日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#4,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai4/,,その他: 第４回（令和６年10月11日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#3,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai3/,,その他: 第３回（令和６年９月26日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#2,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai2/,,その他: 第２回（令和６年９月５日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,3nengotominaoshi_kentohkai,3nengotominaoshi_kentohkai#1,www.ppc.go.jp/personalinfo/kentohkai/3nengotominaoshi_kentohkai1/,,その他: 第１回（令和６年７月31日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/3nengotominaoshi_kentohkai
+2026-11-21T14:44:22+00:00,document_added,kondankai,,www.ppc.go.jp/files/pdf/261001_kondankaigaiyou.pdf,,資料: 「個人情報保護政策に関する懇談会」について (PDF : 646KB)リンク先PDFファイルを別ウィンドウで開きます,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,document_added,kondankai,kondankai/※開催案内#3,www.ppc.go.jp/news/press/2026/260826/,,その他: 第３回個人情報保護政策に関する懇談会（令和８年８月26日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,document_added,kondankai,kondankai/＜令和８年度＞#3,www.ppc.go.jp/personalinfo/kentohkai/kondankai_3/,,その他: 第３回（令和８年９月１日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,document_added,kondankai,kondankai#2,www.ppc.go.jp/personalinfo/kentohkai/kondankai_2/,,その他: 第２回（令和８年２月２日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,document_added,kondankai,kondankai#1,www.ppc.go.jp/personalinfo/kentohkai/kondankai_1/,,その他: 第１回（令和７年９月19日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/kondankai
+2026-11-21T14:44:22+00:00,document_added,koutekikenkyukai,,www.ppc.go.jp/files/pdf/261119_koutekikenkyukai_kaisaiyoukou.pdf,,規程: 【開催要綱】 (PDF : 164KB)リンク先PDFファイルを別ウィンドウで開きます,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,document_added,koutekikenkyukai,,www.ppc.go.jp/files/pdf/261119_koutekikenkyukai_meibo.pdf,,名簿: 【構成員名簿（令和８年11月19日時点）】 (PDF : 83KB)リンク先PDFファイルを別ウィンドウで開きます,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,document_added,koutekikenkyukai,koutekikenkyukai#1,www.ppc.go.jp/personalinfo/kentohkai/koutekikenkyukai1/,,その他: 第１回（令和８年11月19日）リンク先コンテンツを別ウィンドウで開きます,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/荒井ひろみ,,国立研究開発法人理化学研究所革新知能統合研究センター,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/家中賢作,,つくば市政策イノベーション部デジタル政策課課長補佐,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/稲谷龍彦,,京都大学大学院法学研究科教授,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/大屋雄裕,,慶應義塾大学法学部法律学科教授,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/音無知展,,京都大学大学院法学研究科准教授,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/北山昇,,森・濱田松本法律事務所外国法共同事業パートナー弁護士,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/宍戸常寿,,東京大学大学院法学政治学研究科教授［座長］,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/玉堀雄一,,芽室町総務課ＤＸ推進係係長,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/友岡史仁,,日本大学法学部教授,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/成原慧,,九州大学大学院法学研究院・法学部准教授,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/畑中洋亮,,一般財団法人 GovTech 東京業務執行理事兼最高戦略責任者,/personalinfo/kentohkai/koutekikenkyukai
+2026-11-21T14:44:22+00:00,member_added,koutekikenkyukai,,koutekikenkyukai/行政機関等の個人情報保護制度の在り方に関する研究会/原田大樹,,京都大学法学系（大学院公共政策連携研究部）教授,/personalinfo/kentohkai/koutekikenkyukai

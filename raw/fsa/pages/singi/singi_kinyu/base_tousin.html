@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="thumbnail" content="https://www.fsa.go.jp/images/fsa_thumbnail.png">
+<!--<PageMap>
+<DataObject type="thumbnail">
+<Attribute name="src" value="https://www.fsa.go.jp/images/fsa_thumbnail.png"/>
+<Attribute name="width" value="192"/>
+<Attribute name="height" value="192"/>
+</DataObject>
+</PageMap>-->
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta data-navi="31">
+<title>答申・報告書等 ： 金融庁</title>
+<link rel="stylesheet" href="/libs/css/reset.css">
+<link rel="stylesheet" href="/libs/css/format.css">
+<link rel="stylesheet" media="(max-width: 767px)" href="/libs/css/layout_sp.css?v=5">
+<link rel="stylesheet" media="(min-width: 768px)" href="/libs/css/layout_pc.css?v=5">
+<link rel="stylesheet" media="(max-width: 767px)" href="/libs/css/general_sp.css">
+<link rel="stylesheet" media="(min-width: 768px)" href="/libs/css/general_pc.css">
+<link rel="stylesheet" href="/libs/css/common.css?v=3">
+<link rel="stylesheet" href="/libs/css/ikou_fsa.css?v=9">
+<link rel="icon" type="image/png" href="/images/icon.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<!-- CMS006 -->
+<!-- 参照するjQueryのバージョンを変更 -->
+<script src="/libs/js/jquery-3.7.1.min.js"></script>
+<!-- CMS006 END -->
+<script src="/libs/js/navi_fsa.js?date=20261001"></script>
+<script src="/libs/js/navi_set.js?date=20170620"></script>
+<script src="https://cdn.cistate.io/frontend-translator/latest/fsa/translator.js" charset="UTF-8"></script>
+<!-- Google tag (gtag.js) START -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JD08XY7G9K"></script>
+<script>
+if (location.pathname.indexOf("/preview/") != 0) {
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JD08XY7G9K');
+}
+</script>
+<!-- Google tag (gtag.js) END -->
+</head>
+<body id="common" class="top">
+
+<!-- noscript STRAT -->
+<noscript>
+<p id="noscript">このサイトの閲覧では、Javascriptを有効にしてください。</p>
+</noscript>
+<!-- noscript END -->
+
+<!-- header STRAT -->
+<header id="header" class="clearfix">
+<div class="inner">
+<p class="skiplinkbody"><a href="#main"><span>本文へ移動</span></a></p>
+<div id="logo">
+<span><a href="/index.html"><img class="logo-fsa_j" src="/images/title_j.svg" width="200" height="66" alt="金融庁"/></a></span>
+<span><a href="/common/about/kaikaku/slogan.html"><img src="/images/logo-slogan_j.svg" width="200" height="63" alt="金融行政のスローガン"/></a></span>
+</div>
+<div id="sp_menu">
+<!-- CMS006 -->
+<!-- buttonへ変更 -->
+<button type="button" class="search" aria-expanded="false" aria-controls="spsearchPanel"><img src="/images/btn_search_sp.svg" alt="">検索</button>
+<button type="button" id="sp_menu_btn" class="menu-trigger" aria-expanded="false" aria-controls="spMenu"><span>MENU</span></button>
+<!-- CMS006 END -->
+</div>
+<div id="header_menu">
+<div class="menu_box">
+<dl id="fontsize_box">
+<dt>文字サイズ</dt>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dd id="fontChange">
+<button type="button" id="fontL" class="large">大</button>
+<button type="button" id="fontM" class="middle">中</button>
+<button type="button" id="fontS" class="small">小</button>
+<!-- CMS006 END -->
+</dd>
+</dl>
+<button type="button" class="language_button" popovertarget="popover-from-ja-to-en" popovertargetaction="show" aria-controls="popover-from-ja-to-en"><img src="/libs/images/icon_lang_b.svg" alt=""><span lang="en">Language</span></button>
+<div id="popover-from-ja-to-en" popover="auto">
+    <div class="popover_window_body">
+        <ul lang="en">
+            <li>Global Site
+                <ul>
+                    <li><a href="/en/index.html">Financial Services Agency</a></li>
+                </ul>
+            </li>
+            <li class="only_Ja last_li">Machine translation
+                <ul>
+                    <li><a href="#" class="setLanguageEn">English</a></li>
+                </ul>
+            </li>
+            <li class ="only_En last_li"><a href="#" class="setLanguageJa">Back to Japanese</a></li>
+        </ul>
+    </div>
+    <div class="popover_window_header">
+        <button type="button" class="popover_window_button" popovertarget="popover-from-ja-to-en" popovertargetaction="hide">閉じる</button>
+    </div>
+</div>
+</div>
+<div class="search_sns_box">
+<!-- Google Searchここから -->
+<div id="spsearchPanel" class="search_area">
+<p class="search_text">サイト内検索</p>
+<script language="JavaScript" src="/libs/js/search.js?date=20250513"></script>
+</div>
+<!-- Google Searchここまで -->
+<div id="snsMenu" class="">
+<ul>
+<li><a href="https://x.com/fsa_JAPAN" target="_blank"><img style="width:45px;" alt="金融庁公式X（旧Twitter）（別ウィンドウ）" src="/libs/images/sns_btn_xb.png" /></a></li>
+<li><a href="https://www.youtube.com/channel/UCpIgZIDc-ptkZZTvzqlwGQg" target="_blank"><img style="width:45px;" alt="金融庁公式YouTubeチャンネル（別ウィンドウ）" src="/libs/images/sns_btn_youtube.png" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+<!-- header END -->
+
+<div id="conteinar">
+
+<!-- global_navi STRAT -->
+<nav id="global_navi" aria-label="グローバルナビ">
+<ul>
+<li class="global_panel"><a href="/index.html">ホーム</a></li>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<li class="global_panel"><button type="button" aria-controls="fsa_pcgmenu02" class="gmmenu">金融庁について</button><div class="Wrap" id="fsa_pcgmenu02"><div class="wrapInner"><p><a href="/common/about/index.html">金融庁について</a></p>
+<!-- CMS006 END -->
+<ul class="gmenu_second-level">
+<li><p><a href="/common/about/index.html#about_01">組織</a></p>
+<ul>
+<li><a href="/common/about/profile/index.html">大臣・副大臣・政務官</a></li>
+<li><a href="/common/about/fsainfo.html">金融庁の概要</a></li>
+<li><a href="/common/about/kaikaku/index.html">金融庁の改革</a></li>
+<li><a href="/koueki/index.html">所管の法人</a></li>
+<li><a href="/common/budget/index.html">予算・決算</a></li>
+<li><a href="/seisaku/index.html">政策評価</a></li>
+<li><a href="/common/recruit/index.html">採用情報</a></li>
+</ul>
+</li>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+</ul><button class="gmmenu-close">閉じる</button></div></div>
+</li>
+<li class="global_panel"><button type="button" aria-controls="fsa_pcgmenu03" class="gmmenu">報道・広報</button><div class="Wrap" id="fsa_pcgmenu03"><div class="wrapInner"><p><a href="/kouhou/index.html">報道・広報</a></p>
+<!-- CMS006 END -->
+<ul class="gmenu_second-level">
+<li><p><a href="/kouhou/index.html#press_releases_01">報道対応</a></p>
+<ul>
+<li><a href="/news/index.html">報道発表資料</a></li>
+<li><a href="/common/conference/index.html">記者会見</a></li>
+<li><a href="/common/conference/danwa/index.html">大臣談話等</a></li>
+</ul>
+</li>
+<li><p><a href="/kouhou/index.html#press_releases_02">広報活動</a></p>
+<ul>
+<li><a href="/access/index.html">アクセスＦＳＡ（広報誌）</a></li>
+<li><a href="/common/paper/index.html">白書・年次報告</a></li>
+<li><a href="/common/conference/danwa/index_kouen.html">職員による講演等</a></li>
+<li><a target="_blank" href="/frtc/kikou/index.html">職員による寄稿等<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+<li><a href="/user/index.html">利用者の方へ</a></li>
+<li><a href="/ordinary/chuui/chuui.html">注意喚起情報</a></li>
+<li><a href="/common/ronten/index.html">業界団体との意見交換会において金融庁が提起した主な論点</a></li>
+<li><a href="/common/popular.html">よく閲覧されているページ</a></li>
+</ul>
+</li>
+</ul><button class="gmmenu-close">閉じる</button></div></div>
+</li>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<li class="global_panel"><button type="button" aria-controls="fsa_pcgmenu04" class="gmmenu">政策・審議会</button><div class="Wrap" id="fsa_pcgmenu04"><div class="wrapInner"><p><a href="/policy/index.html">政策・審議会</a></p>
+<!-- CMS006 END -->
+<ul class="gmenu_second-level">
+<li><p><a href="/policy/index.html#policies_councils_01">基本方針等</a></p>
+<ul>
+<li><a href="/policy/summary.html">金融行政方針</a></li>
+<li><a href="/policy/fsa.html">政府方針における金融庁関連の施策</a></li>
+</ul>
+</li>
+<li><p><a href="/policy/index.html#policies_councils_02">政策テーマ・施策</a></p>
+<ul>
+<li><a href="/news/r8/202609/260915.html#sp_summary">政策テーマ等一覧（金融行政方針との関連）</a></li>
+<li><a href="/policy/index_sonota.html">政策テーマ等一覧（全体）</a></li>
+</ul>
+</li>
+<li><p><a href="/policy/index.html#policies_councils_03">審議会・研究会等</a></p>
+<ul>
+<li><a href="/singi/index.html">審議会・研究会等一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/policy/index.html#policies_councils_04">研究・調査</a></p>
+<ul>
+<li><a target="_blank" href="/frtc/index.html">金融研究センター<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+</ul>
+</li>
+</ul><button class="gmmenu-close">閉じる</button></div></div>
+</li>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<li class="global_panel"><button type="button" aria-controls="fsa_pcgmenu05" class="gmmenu">法令・指針等</button><div class="Wrap" id="fsa_pcgmenu05"><div class="wrapInner"><p><a href="/common/law/index.html">法令・指針等</a></p>
+<!-- CMS006 END -->
+<ul class="gmenu_second-level">
+<li><p><a href="/common/law/index.html#laws_regulations_01">所管法令等</a></p></li>
+<li><p><a href="/common/law/index.html#laws_regulations_02">検査・監督の基本方針等</a></p>
+<ul>
+<li><a href="/common/law/houshin.html">基本方針・ディスカッションペーパー一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/common/law/index.html#laws_regulations_03">監督指針・事務ガイドライン</a></p>
+<ul>
+<li><a href="/common/law/guide.html">監督指針一覧</a></li>
+<li><a href="/common/law/guide/kaisya/index.html">事務ガイドライン（第三分冊：金融会社関係）一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/common/law/index.html#laws_regulations_04">告示・ガイドライン・Ｑ＆Ａ等</a></p>
+<ul>
+<li><a href="/common/law/kokuji.html">告示・ガイドライン・Ｑ＆Ａ・法令解釈事例集一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/common/law/index.html#laws_regulations_05">金融上の行政処分等</a></p></li>
+</ul><button class="gmmenu-close">閉じる</button></div></div>
+</li>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<li class="global_panel"><button type="button" aria-controls="fsa_pcgmenu06" class="gmmenu">金融機関情報</button><div class="Wrap" id="fsa_pcgmenu06"><div class="wrapInner"><p><a href="/status/index.html">金融機関情報</a></p>
+<!-- CMS006 END -->
+<ul class="gmenu_second-level">
+<li><p><a href="/status/index.html#all_finance">全金融機関共通</a></p></li>
+<li><p><a href="/status/index.html#deposit">預金取扱金融機関（銀行等）関連</a></p></li>
+<li><p><a href="/status/index.html#insurance">保険会社関連</a></p></li>
+<li><p><a href="/status/index.html#financial_Instruments">金融商品取引業者等関連</a></p></li>
+<li><p><a href="/status/index.html#financial_company">金融会社関連</a></p></li>
+</ul><button class="gmmenu-close">閉じる</button></div></div>
+</li>
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<li class="global_panel"><button type="button" aria-controls="fsa_pcgmenu07" class="gmmenu">国際関係情報</button><div class="Wrap" id="fsa_pcgmenu07"><div class="wrapInner"><p><a href="/inter/index.html">国際関係情報</a></p>
+<!-- CMS006 END -->
+<ul class="gmenu_second-level">
+<li><p><a href="/inter/index.html#international_01">国際関係の取組み</a></p>
+<ul>
+<li><a href="/internationalfinancialcenter/" target="_blank">国際金融センター<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+<li><a href="/inter/glopac/index.html">金融庁グローバル金融連携センター（GLOPAC）</a></li>
+<li><a href="/ifiar/20161207-1.html">監査監督機関国際フォーラム（IFIAR）事務局への活動支援</a></li>
+</ul>
+</li>
+<li><p><a href="/inter/index.html#international_02">国際基準設定主体等の公表資料等</a></p>
+<ul>
+<li><a href="/inter/fsf/index.html">金融安定理事会（FSB）</a></li>
+<li><a href="/inter/bis/bis_menu.html">バーゼル銀行監督委員会（BCBS）</a></li>
+<li><a href="/inter/iai/index.html">保険監督者国際機構（IAIS）</a></li>
+<li><a href="/inter/ios/iosco_04.html">証券監督者国際機構（IOSCO）</a></li>
+<li><a href="/inter/fatf/fatf_menu.html">金融活動作業部会（FATF）</a></li>
+<li><a href="/inter/etc/etc_menu.html">その他</a></li>
+</ul>
+</li>
+</ul><button class="gmmenu-close">閉じる</button></div></div>
+</li>
+<li class="global_panel"><a href="/access/index.html" class="access_ver">アクセスＦＳＡ<span>（広報誌）</span></a></li>
+</ul>
+</nav>
+<!-- global_navi END -->
+
+<!-- content STRAT -->
+<article id="content">
+<div id="location">
+<ul>
+<li class="home">
+<a href="/index.html">ホーム</a>
+</li>
+<li>
+<a href="/singi/index.html">審議会・研究会等</a>
+</li>
+<li>
+<a href="/singi/singi_kinyu/base.html">金融審議会</a>
+</li>
+<li>
+答申・報告書等 
+</li>
+</ul>
+</div>
+
+<!-- main STRAT -->
+<div id="main">
+<p class="MT_note" lang="en" style="display:none;">Note: This page is machine translated. Translated pages are not necessarily correct.</p>
+<p class="share-button"><a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-lang="ja" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<div class="inner">
+<div class="fsc_report">
+ <h1>答申・報告書等</h1>
+ <h2>令和７事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和８年１月８日</span><a href="/singi/singi_kinyu/tosin/20260108.html">金融審議会「サステナビリティ情報の開示と保証のあり方に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和７年12月26日</span><a href="/singi/singi_kinyu/tosin/20251226.html">金融審議会「ディスクロージャーワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和７年12月26日</span><a href="/singi/singi_kinyu/tosin/20251226-2.html">金融審議会「市場制度ワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和７年12月18日</span><a href="/singi/singi_kinyu/tosin/20251218.html">金融審議会「地域金融力の強化に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和７年12月10日</span><a href="/singi/singi_kinyu/tosin/20251210.html">金融審議会「暗号資産制度に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和７年７月17日</span><a href="/singi/singi_kinyu/tosin/20250717.html">金融審議会「サステナビリティ情報の開示と保証のあり方に関するワーキング・グループ」中間論点整理の公表について</a></li>
+ </ul>
+ <h2>令和６事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和７年１月22日</span><a href="/singi/singi_kinyu/tosin/20250122.html">金融審議会「資金決済制度等に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和６年12月25日</span><a href="/singi/singi_kinyu/tosin/20241225.html">金融審議会「損害保険業等に関する制度等ワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和６年７月２日　</span><a href="/singi/singi_kinyu/tosin/20240702.html">金融審議会「市場制度ワーキング・グループ」報告の公表について</a></li>
+ </ul>
+ <h2>令和５事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和５年12月25日　</span><a href="/singi/singi_kinyu/tosin/20231225.html">金融審議会「公開買付制度・大量保有報告制度等ワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和５年12月12日　</span> <a href="/singi/singi_kinyu/tosin/20231212.html">金融審議会「市場制度ワーキング・グループ」・「資産運用に関するタスクフォース」報告書の公表について</a></li>
+ </ul>
+ <h2>令和４事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和５年２月10日　</span> <a href="/singi/singi_kinyu/tosin/20230210.html">金融審議会「事業性に着目した融資実務を支える制度のあり方等に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和４年12月27日　</span> <a href="/singi/singi_kinyu/tosin/20221227.html">金融審議会「ディスクロージャーワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和４年12月21日　</span> <a href="/singi/singi_kinyu/tosin/20221221.html">金融審議会「市場制度ワーキング・グループ」第二次中間整理の公表について</a></li>
+  <li><span>令和４年12月９日　</span><a href="/singi/singi_kinyu/tosin/20221209.html">金融審議会 市場制度ワーキング・グループ「顧客本位タスクフォース」中間報告の公表について</a></li>
+ </ul>
+ <h2>令和３事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和４年６月22日　</span> <a href="/singi/singi_kinyu/tosin/20220622.html">金融審議会「市場制度ワーキング・グループ」中間整理の公表について</a></li>
+  <li><span>令和４年６月13日　</span> <a href="/singi/singi_kinyu/tosin/20220613.html">金融審議会「ディスクロージャーワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和４年１月11日　</span> <a href="/singi/singi_kinyu/tosin/20220111.html">金融審議会「資金決済ワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和４年１月４日　</span> <a href="/singi/singi_kinyu/tosin/20220104.html">金融審議会「公認会計士制度部会」報告の公表について</a></li>
+ </ul>
+ <h2>令和２事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和３年６月18日　</span> <a href="/singi/singi_kinyu/tosin/20210618.html">金融審議会「市場制度ワーキング・グループ」第二次報告の公表について</a></li>
+  <li><span>令和３年６月２日　</span> <a href="/singi/singi_kinyu/tosin/20210602.html">金融審議会 市場制度ワーキング・グループ「最良執行のあり方等に関するタスクフォース」報告書の公表について</a></li>
+  <li><span>令和２年12月23日　</span> <a href="/singi/singi_kinyu/tosin/20201223.html">金融審議会「市場制度ワーキング・グループ」第一次報告の公表について</a></li>
+  <li><span>令和２年12月22日　</span> <a href="/singi/singi_kinyu/tosin/20201222.html">金融審議会 銀行制度等ワーキング・グループの報告書の公表について</a></li>
+  <li><span>令和２年８月５日　</span> <a href="/singi/singi_kinyu/tosin/20200805.html">金融審議会「市場ワーキング・グループ」報告書の公表について</a></li>
+ </ul>
+ <h2>令和元（平成31年）事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和元年12月27日　</span> <a href="/singi/singi_kinyu/market-str/report/20191227.html">金融審議会 市場ワーキング・グループ「市場構造専門グループ」報告書の公表について</a></li>
+  <li><span>令和元年12月20日　</span> <a href="/singi/singi_kinyu/tosin/20191220.html">金融審議会「決済法制及び金融サービス仲介法制に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>令和元年７月26日　</span> <a href="/singi/singi_kinyu/tosin/20190726.html">金融審議会 金融制度スタディ・グループ「「決済」法制及び金融サービス仲介法制に係る制度整備についての報告≪基本的な考え方≫」の公表について</a></li>
+ </ul>
+ <h2>平成30事務年度</h2>
+ <ul class="listtype02">
+  <li><span>令和元年６月３日　</span> <a href="/singi/singi_kinyu/tosin/20190603.html">金融審議会「市場ワーキング・グループ」報告書の公表について</a></li>
+  <li><span>平成31年１月16日　</span> <a href="/singi/singi_kinyu/tosin/20190116.html">金融審議会 金融制度スタディ・グループ「金融機関による情報の利活用に係る制度整備についての報告」の公表について</a></li>
+  <li><span>平成30年12月27日　</span> <a href="/singi/singi_kinyu/tosin/20181227.html">金融審議会 市場ワーキング・グループ「直接金融市場に関する現行規制の点検」のとりまとめについて</a></li>
+ </ul>
+ <h2>平成29事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成30年６月28日　</span> <a href="/singi/singi_kinyu/tosin/20180628.html">金融審議会「ディスクロージャーワーキング・グループ」報告の公表について</a></li>
+  <li><span>平成30年６月19日　</span> <a href="/singi/singi_kinyu/tosin/20180619.html">金融審議会「金融制度スタディ・グループ」中間整理の公表について</a></li>
+ </ul>
+ <h2>平成28事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成28年12月27日　</span> <a href="/singi/singi_kinyu/tosin/20161227-1.html">金融審議会「金融制度ワーキング・グループ」報告書の公表について</a></li>
+  <li><span>平成28年12月22日　</span> <a href="/singi/singi_kinyu/tosin/20161222-1.html">金融審議会「市場ワーキング・グループ」報告書の公表について</a></li>
+ </ul>
+ <h2>平成27事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成28年４月18日　</span> <a href="/singi/singi_kinyu/tosin/20160418-1.html">金融審議会「ディスクロージャーワーキング・グループ」報告の公表について</a></li>
+  <li><span>平成27年12月22日　</span> <a href="/singi/singi_kinyu/tosin/20151222-2.html">金融審議会「決済業務等の高度化に関するワーキング・グループ」報告の公表について</a></li>
+  <li><span>平成27年12月22日　</span> <a href="/singi/singi_kinyu/tosin/20151222-1.html">金融審議会「金融グループを巡る制度のあり方に関するワーキング・グループ」報告の公表について</a></li>
+ </ul>
+ <h2>平成26事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成27年４月28日　</span> <a href="/singi/singi_kinyu/tosin/20150428-1.html">金融審議会「決済業務等の高度化に関するスタディ・グループ」中間整理の公表について</a></li>
+  <li><span>平成27年１月28日　</span> <a href="/singi/singi_kinyu/tosin/20150128-1.html">金融審議会「投資運用等に関するワーキング・グループ」報告書の公表について</a></li>
+ </ul>
+ <h2>平成25事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成25年12月25日　</span> <a href="/singi/singi_kinyu/tosin/20131225-1.html">金融審議会「新規・成長企業へのリスクマネーの供給のあり方等に関するワーキング・グループ」報告書の公表について</a></li>
+ </ul>
+ <h2>平成24事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成25年６月11日　</span> <a href="/news/24/singi/20130611-2.html">金融審議会「保険商品・サービスの提供等の在り方に関するワーキング・グループ」報告書の公表について</a></li>
+  <li><span>平成25年１月28日　</span> <a href="/singi/singi_kinyu/tosin/20130128-1.html">金融審議会「金融システム安定等に資する銀行規制等の在り方に関するワーキング・グループ」報告書の公表について</a></li>
+  <li><span>平成24年12月25日　</span> <a href="/singi/singi_kinyu/tosin/20121225-1.html">金融審議会「インサイダー取引規制に関するワーキング・グループ」報告書の公表について</a></li>
+  <li><span>平成24年12月12日　</span> <a href="/singi/singi_kinyu/tosin/20121212-1.html">金融審議会「投資信託・投資法人法制の見直しに関するワーキング・グループ」最終報告の公表について</a></li>
+ </ul>
+ <h2>平成23事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成24年５月28日　</span> <a href="/singi/singi_kinyu/tosin/20120528-1.html">金融審議会「我が国金融業の中長期的な在り方に関するワーキング・グループ」の「我が国金融業の中長期的な在り方について（現状と展望）」の公表について</a></li>
+  <li><span>平成23年12月15日　</span> <a href="/singi/singi_kinyu/tosin/20111215-1.html">金融審議会「インサイダー取引規制に関するワーキング・グループ」報告書の公表について</a></li>
+  <li><span>平成23年12月７日　</span> <a href="/singi/singi_kinyu/tosin/20111207-1.html">金融審議会「保険会社のグループ経営に関する規制の在り方ワーキング・グループ」報告書の公表について</a></li>
+ </ul>
+ <h2>平成21事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成21年12月９日　</span> <a href="/singi/singi_kinyu/tosin/20091209-1.html">金融審議会金融分科会基本問題懇談会報告の公表について</a></li>
+ </ul>
+ <h2>平成20事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成21年６月29日　</span> <a href="/singi/singi_kinyu/tosin/20090629-1.html">金融審議会金融分科会第二部会協同組織金融機関のあり方に関するワーキング・グループ「中間論点整理報告書」の公表について</a></li>
+  <li><span>平成21年６月19日　</span> <a href="/singi/singi_kinyu/tosin/20090619-1.html">保険の基本問題に関するワーキング・グループ「中間論点整理」の公表について</a></li>
+  <li><span>平成21年６月17日　</span> <a href="/singi/singi_kinyu/tosin/20090617-1.html">金融審議会金融分科会「我が国金融・資本市場の国際化に関するスタディグループ」報告の公表について</a></li>
+  <li><span>平成21年１月14日　</span> <a href="/singi/singi_kinyu/tosin/20090114-1.html">金融審議会金融分科会第二部会報告の公表について</a></li>
+  <li><span>平成20年12月17日　</span> <a href="/singi/singi_kinyu/tosin/20081217-2.html">「金融審議会金融分科会第一部会報告」等の公表について</a></li>
+  <li><span>平成20年12月17日　</span> <a href="/singi/singi_kinyu/tosin/20081217-1.html">金融審議会金融分科会第一部会・第二部会合同会合報告の公表について</a></li>
+ </ul>
+ <h2>平成19事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成20年２月８日　</span> <a href="/singi/singi_kinyu/tosin/20080208-2.html">金融審議会金融分科会第二部会報告－保険法改正への対応について－の公表について</a></li>
+  <li><span>平成20年２月８日　</span> <a href="/singi/singi_kinyu/tosin/20080208-1.html">金融審議会金融分科会第二部会「中間論点整理～平成16年改正後の信託業法の施行状況及び福祉型の信託について～」の公表について</a></li>
+  <li><span>平成19年12月18日　</span> <a href="/singi/singi_kinyu/tosin/20071218-2.html">「金融審議会金融分科会第二部会報告」の公表について</a></li>
+  <li><span>平成19年12月18日　</span> <a href="/singi/singi_kinyu/tosin/20071218-1.html">「金融審議会金融分科会第一部会報告」等の公表について</a></li>
+ </ul>
+ <h2>平成18事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成19年６月13日　</span> <a href="/singi/singi_kinyu/tosin/20070613.html">金融審議会金融分科会「我が国金融・資本市場の国際化に関するスタディグループ」の「中間論点整理（第一次）」の公表について</a></li>
+  <li><span>平成19年４月５日　</span> <a href="/singi/singi_kinyu/tosin/20070405.html">地域密着型金融の取組みについての評価と今後の対応について―地域の情報集積を活用した持続可能なビジネスモデルの確立を―の公表について</a></li>
+  <li><span>平成18年12月22日　</span> <a id="h18_kaikeishi" name="h18_kaikeishi" href="/singi/singi_kinyu/tosin/20061222.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「－公認会計士・監査法人制度の充実・強化について－」（金融審議会公認会計士制度部会報告）</a></li>
+  <li><span>平成18年12月21日　</span> <a href="/singi/singi_kinyu/tosin/20061221.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">電子登録債権法（仮称）の制定に向けて～電子登録債権の管理機関のあり方を中心として～（金融審議会金融分科会第二部会・情報技術革新と金融制度に関するワーキンググループ）</a></li>
+ </ul>
+ <h2>平成17事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成18年４月26日　</span> <a href="/news/newsj/17/20060426-5.html">金融審議会金融分科会「情報技術革新と金融制度に関するワーキンググループ」の「新しい電子的支払サービスの発展に向けた課題について（座長メモ）」の公表について</a></li>
+  <li><span>平成18年１月26日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20060126.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「信託法改正に伴う信託業法の見直しについて」（金融審議会金融分科会第二部会報告）</a></li>
+  <li><span>平成17年12月22日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20051222_d1sir/00.html">「－投資サービス法（仮称）に向けて－金融審議会金融分科会第一部会報告の公表について」</a></li>
+  <li><span>平成17年７月７日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20050707_d1sir/00.html">「金融審議会金融分科会第一部会「中間整理」の公表について」</a></li>
+  <li><span>平成17年７月６日　</span> <a href="/news/newsj/17/sonota/f-20050706-1.html">「金融審議会金融分科会「情報技術革新と金融制度に関するワーキンググループ」の座長メモの公表について」</a></li>
+ </ul>
+ <h2>平成16事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成17年３月28日　</span> <a href="/news/newsj/16/f-20050328-3.html">「金融審議会金融分科会第二部会「リレーションシップバンキングのあり方に関するワーキンググループ」の座長メモの公表について」</a></li>
+  <li><span>平成16年12月24日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20041224_sir/00.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「ディスクロージャー制度の信頼性確保に向けて」（金融審議会金融分科会第一部会報告）</a></li>
+  <li><span>平成16年12月20日　</span> <a href="/singi/singi_kinyu/tosin/20041220.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「個人情報の保護に関する法律の全面施行に向けて」（金融審議会金融分科会特別部会）</a></li>
+  <li><span>平成16年12月14日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20041214_d2sir/a.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「根拠法のない共済への対応について」（金融審議会金融分科会第二部会報告）</a></li>
+  <li><span>平成16年12月14日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20041214_d2sir/b.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「保険契約者保護制度の見直しについて」（金融審議会金融分科会第二部会報告）</a></li>
+  <li><span>平成16年８月10日　</span> <a href="/news/newsj/16/singi/f-20040810-2.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「金融商品課税の一体化に関するこれまでの議論の経過」（金融税制スタディグループ座長メモ）</a></li>
+ </ul>
+ <h2>平成15事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成16年６月23日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20040623_sir/04.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「外国会社等の我が国における開示書類に係る制度上の整備・改善について」（金融審議会金融分科会第一部会報告）</a></li>
+  <li><span>平成16年６月23日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20040623_sir/01.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「外国為替証拠金取引に関する規制のあり方について」（金融審議会金融分科会第一部会報告）</a></li>
+  <li><span>平成16年６月22日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20040622_d2sir/01a.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「自己資本比率規制における繰延税金資産に関する算入の適正化及び自己資本のあり方について」（金融審議会金融分科会第二部会報告）</a></li>
+  <li><span>平成16年３月31日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20040331_d2sir_2.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「銀行等による保険販売規制の見直しについて」（金融審議会金融分科会第二部会報告）</a></li>
+  <li><span>平成15年12月24日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20031224_sir_b.html">「市場機能を中核とする金融システムに向けて」（金融審議会金融分科会第一部会報告）</a><br><a href="/en/refer/data/orfsfsc.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">英語版</a></li>
+  <li><span>平成15年11月17日　</span> <a id="h15_kaikeishi" name="h15_kaikeishi" href="/news/newsj/15/singi/f-20031117-3.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「専門職大学院における会計教育と公認会計士試験制度との連携について」（金融審議会公認会計士制度部会専門的教育課程についてのワーキングチーム報告）</a></li>
+  <li><span>平成15年７月28日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20030728_d2sir/houkoku2.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「金融機関に対する公的資金制度のあり方について」（金融審議会金融分科会第二部会報告）</a><br><a href="/news/newse/e20030728-2.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">英語版</a></li>
+  <li><span>平成15年７月28日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20030728_d2sir/houkoku1.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「信託業のあり方に関する中間報告書」（金融審議会金融分科会第二部会報告）</a></li>
+ </ul>
+ <h2>平成14事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成15年３月27日　</span> <a href="/news/newsj/14/singi/f-20030327-1.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「リレーションシップバンキングの機能強化に向けて」（金融審議会金融分科会第二部会報告）</a></li>
+  <li><span>平成15年２月７日　</span> <a id="kinri" name="kinri_tousin" href="/singi/singi_kinyu/siryou/f-cho20030207-sir/01.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「金融機関の流動性預金金利の最高限度の定めに関する答申」（金利調整分科会答申）</a></li>
+  <li><span>平成14年12月17日　</span> <a id="h14_kaikeishi" name="h14_kaikeishi" href="/news/newsj/14/singi/f-20021217-1.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「公認会計士監査制度の充実・強化」（金融審議会公認会計士制度部会報告）</a></li>
+  <li><span>平成14年12月16日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20021216_sir_b.html">「証券市場の改革促進」（金融審議会第一部会報告）</a></li>
+  <li><span>平成14年９月30日　</span> <a href="/singi/singi_kinyu/siryou/f-20020930-2b.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「中期的に展望した我が国金融システムの将来ビジョン」（金融審議会答申）</a><br><a href="/en/refer/councils/singie_kinyu/siryou/e20020930-1.html"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">英語版</a></li>
+  <li><span>平成14年９月５日　</span> <a href="/singi/singi_kinyu/siryou/f-20020905-1b.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「決済機能の安定確保のための方策について」（金融審議会答申）</a><br><a href="/news/newse/e20020905-1.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">英語版</a></li>
+ </ul>
+ <h2>平成13事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成14年２月25日　</span> <a href="/singi/singi_kinyu/tosin/f-20020225.html">「金融機関の流動性預金金利の最高限度の定めに関する答申」（金利調整分科会答申）</a>
+   <p><a href="/kouhou/kouhou_02/019_1403a.html#02">「金融機関の流動性預金の最高限度の定めに関する答申」（広報コーナー）</a></p></li>
+  <li><span>平成14年２月15日　</span> <a href="/singi/singi_kinyu/tosin/20020215.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「証券決済システムの改革及びこれに伴う投資家保護策について」</a></li>
+  <li><span>平成13年11月29日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai1/f-20011129a.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「投資信託目論見書の記載内容の改善についての考え方」</a></li>
+ </ul>
+ <h2>平成12事務年度</h2>
+ <ul class="listtype02">
+  <li><span>平成13年６月26日　</span> <a href="/singi/singi_kinyu/siryou/kinyu/dai2/f-20010626a.pdf"><img alt="PDF" class="pdf" height="16" width="16" src="/images/common/icon_pdf.gif">「銀行の株式保有に関する報告」</a>
+   <p><a href="/kouhou/kouhou_02/012_1307a.html#02">「銀行の株式保有制限および銀行保有株式取得機構（仮称）」（解説）（広報コーナー）</a></p></li>
+  <li><span>平成13年６月26日　</span> <a href="/singi/singi_kinyu/tosin/f-20010626-2.html">「金融審議会金融分科会第二部会報告「生命保険をめぐる総合的な検討に関する中間報告」に対する意見募集について(金融審議会による意見募集)」</a>
+   <p><a href="/kouhou/kouhou_02/012_1307a.html#01">「生命保険をめぐる総合的な検討に関する中間報告」（解説）（広報コーナー）</a></p></li>
+  <li><span>平成13年１月25日　</span> <a href="/singi/singi_kinyu/tosin/f-20010125-1.html">「金融審議会総会の開催について」</a></li>
+  <li><span>平成12年12月21日　</span> <a href="/singi/singi_kinyu/tosin/f-20001221-3.html">「第９回金融審議会総会報告」</a>
+   <p><a href="/kouhou/kouhou_01/006_1301a.html#05">「金融審議会報告書（解説）」（広報コーナー）</a></p></li>
+ </ul>
+</div>
+</div>
+</div>
+<!-- main END -->
+
+<!-- side STRAT -->
+<div id="side">
+</div>
+<!-- side END -->
+
+<section id="sitemap">
+<h2>サイトマップ</h2>
+<div class="inner">
+<dl>
+<div id="fsa_sitemap01">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dt><a href="/common/about/index.html">金融庁について</a><button type="button" class="more-links" aria-expanded="false" aria-controls="fsa_sitemap01"></button></dt>
+<!-- CMS006 END -->
+<dd><a href="/common/about/index.html#about_01">組織</a>
+<ul>
+<li><a href="/common/about/profile/index.html">大臣・副大臣・政務官</a></li>
+<li><a href="/common/about/fsainfo.html">金融庁の概要</a></li>
+<li><a href="/common/about/kaikaku/index.html">金融庁の改革</a></li>
+<li><a href="/koueki/index.html">所管の法人</a></li>
+<li><a href="/common/budget/index.html">予算・決算</a></li>
+<li><a href="/seisaku/index.html">政策評価</a></li>
+<li><a href="/common/recruit/index.html">採用情報</a></li>
+</ul>
+</dd>
+</div>
+<div id="fsa_sitemap02">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dt><a href="/kouhou/index.html">報道・広報</a><button type="button" class="more-links" aria-expanded="false" aria-controls="fsa_sitemap02"></button></dt>
+<!-- CMS006 END -->
+<dd><a href="/kouhou/index.html#press_releases_01">報道対応</a>
+<ul>
+<li><a href="/news/index.html">報道発表資料</a></li>
+<li><a href="/common/conference/index.html">記者会見</a></li>
+<li><a href="/common/conference/danwa/index.html">大臣談話等</a></li>
+</ul>
+</dd>
+<dd><a href="/kouhou/index.html#press_releases_02">広報活動</a>
+<ul>
+<li><a href="/access/index.html">アクセスＦＳＡ（広報誌）</a></li>
+<li><a href="/common/paper/index.html">白書・年次報告</a></li>
+<li><a href="/common/conference/danwa/index_kouen.html">職員による講演等</a></li>
+<li><a target="_blank" href="/frtc/kikou/index.html">職員による寄稿等<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+<li><a href="/user/index.html">利用者の方へ</a></li>
+<li><a href="/ordinary/chuui/chuui.html">注意喚起情報</a></li>
+<li><a href="/common/ronten/index.html">業界団体との意見交換会において金融庁が提起した主な論点</a></li>
+<li><a href="/common/popular.html">よく閲覧されているページ</a></li>
+</ul>
+</dd>
+</div>
+<div id="fsa_sitemap03">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dt><a href="/policy/index.html">政策・審議会</a><button type="button" class="more-links" aria-expanded="false" aria-controls="fsa_sitemap03"></button></dt>
+<!-- CMS006 END -->
+<dd><a href="/policy/index.html#policies_councils_01">基本方針等</a>
+<ul>
+<li><a href="/policy/summary.html">金融行政方針</a></li>
+<li><a href="/policy/fsa.html">政府方針における金融庁関連の施策</a></li>
+</ul>
+</dd>
+<dd><a href="/policy/index.html#policies_councils_02">政策テーマ・施策</a>
+<ul>
+<li><a href="/news/r8/202609/260915.html#sp_summary">政策テーマ等一覧（金融行政方針との関連）</a></li>
+<li><a href="/policy/index_sonota.html">政策テーマ等一覧（全体）</a></li>
+</ul>
+</dd>
+<dd><a href="/policy/index.html#policies_councils_03">審議会・研究会等</a>
+<ul>
+<li><a href="/singi/index.html">審議会・研究会等一覧</a></li>
+</ul>
+</dd>
+<dd><a href="/policy/index.html#policies_councils_04">研究・調査</a>
+<ul>
+<li><a target="_blank" href="/frtc/index.html">金融研究センター<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+</ul>
+</dd>
+</div>
+<div id="fsa_sitemap04">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dt><a href="/common/law/index.html">法令・指針等</a><button type="button" class="more-links" aria-expanded="false" aria-controls="fsa_sitemap04"></button></dt>
+<!-- CMS006 END -->
+<dd><a href="/common/law/index.html#laws_regulations_01">所管法令等</a></dd>
+<dd><a href="/common/law/index.html#laws_regulations_02">検査・監督の基本方針等</a>
+<ul>
+<li><a href="/common/law/houshin.html">基本方針・ディスカッションペーパー一覧</a></li>
+</ul>
+</dd>
+<dd><a href="/common/law/index.html#laws_regulations_03">監督指針・事務ガイドライン</a>
+<ul>
+<li><a href="/common/law/guide.html">監督指針一覧</a></li>
+<li><a href="/common/law/guide/kaisya/index.html">事務ガイドライン（第三分冊：金融会社関係）一覧</a></li>
+</ul>
+</dd>
+<dd><a href="/common/law/index.html#laws_regulations_04">告示・ガイドライン・Ｑ＆Ａ等</a>
+<ul>
+<li><a href="/common/law/kokuji.html">告示・ガイドライン・Ｑ＆Ａ・法令解釈事例集一覧</a></li>
+</ul>
+</dd>
+<dd><a href="/common/law/index.html#laws_regulations_05">金融上の行政処分等</a></dd>
+</div>
+<div id="fsa_sitemap05">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dt><a href="/status/index.html">金融機関情報</a><button type="button" class="more-links" aria-expanded="false" aria-controls="fsa_sitemap05"></button></dt>
+<!-- CMS006 END -->
+<dd><a href="/status/index.html#all_finance">全金融機関共通</a></dd>
+<dd><a href="/status/index.html#deposit">預金取扱金融機関（銀行等）関連</a></dd>
+<dd><a href="/status/index.html#insurance">保険会社関連</a></dd>
+<dd><a href="/status/index.html#financial_Instruments">金融商品取引業者等関連</a></dd>
+<dd><a href="/status/index.html#financial_company">金融会社関連</a></dd>
+</div>
+<div id="fsa_sitemap06">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+<dt><a href="/inter/index.html">国際関係情報</a><button type="button" class="more-links" aria-expanded="false" aria-controls="fsa_sitemap06"></button></dt>
+<!-- CMS006 END -->
+<dd><a href="/inter/index.html#international_01">国際関係の取組み</a>
+<ul>
+<li><a href="/internationalfinancialcenter/" target="_blank">国際金融センター<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+<li><a href="/inter/glopac/index.html">金融庁グローバル金融連携センター（GLOPAC）</a></li>
+<li><a href="/ifiar/20161207-1.html">監査監督機関国際フォーラム（IFIAR）事務局への活動支援</a></li>
+</ul>
+</dd>
+<dd><a href="/inter/index.html#international_02">国際基準設定主体等の公表資料等</a>
+<ul>
+<li><a href="/inter/fsf/index.html">金融安定理事会（FSB）</a></li>
+<li><a href="/inter/bis/bis_menu.html">バーゼル銀行監督委員会（BCBS）</a></li>
+<li><a href="/inter/iai/index.html">保険監督者国際機構（IAIS）</a></li>
+<li><a href="/inter/ios/iosco_04.html">証券監督者国際機構（IOSCO）</a></li>
+<li><a href="/inter/fatf/fatf_menu.html">金融活動作業部会（FATF）</a></li>
+<li><a href="/inter/etc/etc_menu.html">その他</a></li>
+</ul>
+</dd>
+</div>
+<div id="fsa_sitemap07">
+<dt><a href="/access/index.html">アクセスＦＳＡ（広報誌）</a></dt>
+<dd></dd>
+</div>
+</dl>
+</div>
+</section>
+<!-- content END -->
+
+<p id="pagetop"><a href="#header"><img src="/libs/images/pagetop_btn_j_ja.png" alt="" width="142" height="14"/><span>ページの先頭に戻る</span></a></p>
+</article>
+<!-- content END -->
+
+
+<!-- footer STRAT -->
+<footer id="footer">
+<div class="inner">
+<nav id="footer_menu" aria-label="フッターメニュー">
+<ul>
+<li><a href="/rules/index.html">利用規約・免責事項/著作権</a></li>
+<li><a href="/privacy/index.html">プライバシーポリシー</a></li>
+<li><a href="/accessibility.html">ウェブアクセシビリティ</a></li>
+<li><a href="/common/about/syozaiti/index.html">アクセス</a></li>
+<li><a href="https://www.fsa.go.jp/opinion/">御意見・問い合わせ</a></li>
+<li><a href="/search/index.html">各種情報検索サービス（EDINET等）</a></li>
+<li><a href="/link/index.html">関連リンク</a></li>
+</ul>
+</nav>
+<p id="corporate">金融庁/<span lang="en">Financial Services Agency, The Japanese Government</span>　（法人番号6000012010023）</p>
+<p id="copyright"><span lang="en">Copyright(C) 2017</span> 金融庁 <span lang="en">All Rights Reserved.</span></p>
+<address>〒100-8967 東京都千代田区霞が関3－2－1 中央合同庁舎第７号館<br>電話番号：03-3506-6000</address>
+</div>
+</footer>
+<!-- footer END -->
+
+</div>
+
+<!-- spMenu -->
+<section id="spMenu">
+<div class="inner">
+<ul>
+<li class="no_icon">
+<ul class="spMenu_function">
+    <li class="spMenu_language">
+        <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+            <button type="button" aria-controls="fsa_spmenu_function01" class="gmspmenu_language"><img src="/libs/images/icon_lang_w.svg" alt=""><span lang="en">Language</span></button><button type="button" aria-controls="fsa_spmenu_function01" class="gmspmenu"></button>
+<!-- CMS006 END -->
+        </div>
+        <ul lang="en" class="menu_second-level" id="fsa_spmenu_function01">
+            <li><a href="/en/index.html">Global Site<span class="sentence-space"></span>Financial Services Agency</a></li>
+            <li class="only_Ja last_li"><a href="#" class="setLanguageEn">Machine translation<span class="sentence-space"></span>English</a></li>
+            <li class="only_En last_li"><a href="#" class="setLanguageJa">Back to Japanese</a></li>
+        </ul>
+    </li>
+    <li id="sp_fontsize_box">
+        <p><img src="/libs/images/icon_font_w.svg" alt=""><span>文字サイズ</span></p>
+        <div id="sp_fontChange">
+            <button type="button" id="sp_fontL" class="large">大</button>
+            <button type="button" id="sp_fontM" class="middle">中</button>
+            <button type="button" id="sp_fontS" class="small">小</button>
+        </div>
+    </li>
+</ul>
+</li>
+<li class="no_icon">
+<ul>
+<li><a href="/index.html">ホーム</a></li>
+<li>
+    <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+        <a href="/common/about/index.html">金融庁について</a><button type="button" aria-controls="fsa_spmenu02" class="gmspmenu"></button>
+<!-- CMS006 END -->
+    </div>
+    <ul class="menu_second-level" id="fsa_spmenu02">
+<li><p><a href="/common/about/index.html#about_01">組織</a></p>
+<ul>
+<li><a href="/common/about/profile/index.html">大臣・副大臣・政務官</a></li>
+<li><a href="/common/about/fsainfo.html">金融庁の概要</a></li>
+<li><a href="/common/about/kaikaku/index.html">金融庁の改革</a></li>
+<li><a href="/koueki/index.html">所管の法人</a></li>
+<li><a href="/common/budget/index.html">予算・決算</a></li>
+<li><a href="/seisaku/index.html">政策評価</a></li>
+<li><a href="/common/recruit/index.html">採用情報</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+    <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+        <a href="/kouhou/index.html">報道・広報</a><button type="button" aria-controls="fsa_spmenu03" class="gmspmenu"></button>
+<!-- CMS006 END -->
+    </div>
+<ul class="menu_second-level" id="fsa_spmenu03">
+<li><p><a href="/kouhou/index.html#press_releases_01">報道対応</a></p>
+<ul>
+<li><a href="/news/index.html">報道発表資料</a></li>
+<li><a href="/common/conference/index.html">記者会見</a></li>
+<li><a href="/common/conference/danwa/index.html">大臣談話等</a></li>
+</ul>
+</li>
+<li><p><a href="/kouhou/index.html#press_releases_02">広報活動</a></p>
+<ul>
+<li><a href="/access/index.html">アクセスＦＳＡ（広報誌）</a></li>
+<li><a href="/common/paper/index.html">白書・年次報告</a></li>
+<li><a href="/common/conference/danwa/index_kouen.html">職員による講演等</a></li>
+<li><a target="_blank" href="/frtc/kikou/index.html">職員による寄稿等<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+<li><a href="/user/index.html">利用者の方へ</a></li>
+<li><a href="/ordinary/chuui/chuui.html">注意喚起情報</a></li>
+<li><a href="/common/ronten/index.html">業界団体との意見交換会において金融庁が提起した主な論点</a></li>
+<li><a href="/common/popular.html">よく閲覧されているページ</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+    <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+        <a href="/policy/index.html">政策・審議会</a><button type="button" aria-controls="fsa_spmenu04" class="gmspmenu"></button>
+<!-- CMS006 END -->
+    </div>
+<ul class="menu_second-level" id="fsa_spmenu04">
+<li><p><a href="/policy/index.html#policies_councils_01">基本方針等</a></p>
+<ul>
+<li><a href="/policy/summary.html">金融行政方針</a></li>
+<li><a href="/policy/fsa.html">政府方針における金融庁関連の施策</a></li>
+</ul>
+</li>
+<li><p><a href="/policy/index.html#policies_councils_02">政策テーマ・施策</a></p>
+<ul>
+<li><a href="/news/r8/202609/260915.html#sp_summary">政策テーマ等一覧（金融行政方針との関連）</a></li>
+<li><a href="/policy/index_sonota.html">政策テーマ等一覧（全体）</a></li>
+</ul>
+</li>
+<li><p><a href="/policy/index.html#policies_councils_03">審議会・研究会等</a></p>
+<ul>
+<li><a href="/singi/index.html">審議会・研究会等一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/policy/index.html#policies_councils_04">研究・調査</a></p>
+<ul>
+<li><a target="_blank" href="/frtc/index.html">金融研究センター<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+    <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+        <a href="/common/law/index.html">法令・指針等</a><button type="button" aria-controls="fsa_spmenu05" class="gmspmenu"></button>
+<!-- CMS006 END -->
+    </div>
+<ul class="menu_second-level" id="fsa_spmenu05">
+<li><p><a href="/common/law/index.html#laws_regulations_01">所管法令等</a></p></li>
+<li><p><a href="/common/law/index.html#laws_regulations_02">検査・監督の基本方針等</a></p>
+<ul>
+<li><a href="/common/law/houshin.html">基本方針・ディスカッションペーパー一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/common/law/index.html#laws_regulations_03">監督指針・事務ガイドライン</a></p>
+<ul>
+<li><a href="/common/law/guide.html">監督指針一覧</a></li>
+<li><a href="/common/law/guide/kaisya/index.html">事務ガイドライン（第三分冊：金融会社関係）一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/common/law/index.html#laws_regulations_04">告示・ガイドライン・Ｑ＆Ａ等</a></p>
+<ul>
+<li><a href="/common/law/kokuji.html">告示・ガイドライン・Ｑ＆Ａ・法令解釈事例集一覧</a></li>
+</ul>
+</li>
+<li><p><a href="/common/law/index.html#laws_regulations_05">金融上の行政処分等</a></p></li>
+</ul>
+</li>
+<li>
+    <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+        <a href="/status/index.html">金融機関情報</a><button type="button" aria-controls="fsa_spmenu06" class="gmspmenu"></button>
+<!-- CMS006 END -->
+    </div>
+<ul class="menu_second-level" id="fsa_spmenu06">
+<li><p><a href="/status/index.html#all_finance">全金融機関共通</a></p></li>
+<li><p><a href="/status/index.html#deposit">預金取扱金融機関（銀行等）関連</a></p></li>
+<li><p><a href="/status/index.html#insurance">保険会社関連</a></p></li>
+<li><p><a href="/status/index.html#financial_Instruments">金融商品取引業者等関連</a></p></li>
+<li><p><a href="/status/index.html#financial_company">金融会社関連</a></p></li>
+</ul>
+</li>
+<li>
+    <div class="title_of_menu_second-level">
+<!-- CMS006 -->
+<!-- 作業対象 -->
+        <a href="/inter/index.html">国際関係情報</a><button type="button" aria-controls="fsa_spmenu07" class="gmspmenu"></button>
+<!-- CMS006 END -->
+    </div>
+<ul class="menu_second-level" id="fsa_spmenu07">
+<li><p><a href="/inter/index.html#international_01">国際関係の取組み</a></p>
+<ul>
+<li><a href="/internationalfinancialcenter/" target="_blank">国際金融センター<img alt="新しいウィンドウで開きます" class="newwin" src="/images/common/icon_newwin.gif" style="width:1em;"></a></li>
+<li><a href="/inter/glopac/index.html">金融庁グローバル金融連携センター（GLOPAC）</a></li>
+<li><a href="/ifiar/20161207-1.html">監査監督機関国際フォーラム（IFIAR）事務局への活動支援</a></li>
+</ul>
+</li>
+<li><p><a href="/inter/index.html#international_02">国際基準設定主体等の公表資料等</a></p>
+<ul>
+<li><a href="/inter/fsf/index.html">金融安定理事会（FSB）</a></li>
+<li><a href="/inter/bis/bis_menu.html">バーゼル銀行監督委員会（BCBS）</a></li>
+<li><a href="/inter/iai/index.html">保険監督者国際機構（IAIS）</a></li>
+<li><a href="/inter/ios/iosco_04.html">証券監督者国際機構（IOSCO）</a></li>
+<li><a href="/inter/fatf/fatf_menu.html">金融活動作業部会（FATF）</a></li>
+<li><a href="/inter/etc/etc_menu.html">その他</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/access/index.html">アクセスＦＳＡ（広報誌）</a></li>
+</ul>
+</li>
+<li class="no_icon sns_sp"><p><strong>金融庁公式SNS</strong></p>
+<ul class="no_icon">
+<li><a href="https://x.com/fsa_JAPAN" target="_blank"><img style="width:45px;" alt="金融庁公式X（旧Twitter）（別ウィンドウ）" src="/libs/images/sns_btn_xb.png"></a></li>
+<li><a href="https://www.youtube.com/channel/UCpIgZIDc-ptkZZTvzqlwGQg" target="_blank"><img style="width:45px;" alt="金融庁公式YouTubeチャンネル（別ウィンドウ）" src="/libs/images/sns_btn_youtube.png"></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<!-- //SPMENU -->
+
+<script src="/libs/js/jquery.easing.1.3.js"></script>
+<script src="/libs/js/jquery.responsiveTabs.js"></script>
+<script src="/libs/js/jquery.cookie.js"></script>
+<script src="/libs/js/common.js?date=20260316"></script>
+<script src="/libs/js/common_fsa.js?date=20260915"></script>
+</body>
+</html>

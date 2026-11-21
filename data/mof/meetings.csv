@@ -1,0 +1,31 @@
+meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
+beps_kenkyukai#1,beps_kenkyukai,,1,,2024-06-21,令和6年6月21日,09:00-11:00,,,,,2,link+pdf,/about_mof/councils/beps_kenkyukai/index.html
+beps_kenkyukai#2,beps_kenkyukai,,2,,2025-02-12,令和7年2月12日,10:00-11:30,,,,,2,link+pdf,/about_mof/councils/beps_kenkyukai/index.html
+beps_kenkyukai#3,beps_kenkyukai,,3,,2025-10-31,令和7年10月31日,,,,,,1,link,/about_mof/councils/beps_kenkyukai/index.html
+beps_kenkyukai#4,beps_kenkyukai,,4,,2026-03-17,令和8年3月17日,,,,,,3,link,/about_mof/councils/beps_kenkyukai/index.html
+study_on_chain#1,study_on_chain,,1,,2026-10-08,令和8年10月8日,,,,,,2,link,/about_mof/councils/study_on_chain/index.html
+study_on_chain#2,study_on_chain,,2,,2026-10-30,令和8年10月30日,,,,,,1,link,/about_mof/councils/study_on_chain/index.html
+study_on_chain#3,study_on_chain,,3,,2026-11-20,令和8年11月20日,,,,,,1,link,/about_mof/councils/study_on_chain/index.html
+renrakukaigi#1,renrakukaigi,,1,,2024-12-17,令和6年12月17日,,,,,,1,link,/about_mof/councils/renrakukaigi/index.html
+renrakukaigi#2,renrakukaigi,,2,,2025-06-26,令和7年6月26日,,,,,,1,link,/about_mof/councils/renrakukaigi/index.html
+renrakukaigi#3,renrakukaigi,,3,,2026-06-29,令和8年6月29日,,,,,,1,link,/about_mof/councils/renrakukaigi/index.html
+meeting_of_cbdc#2,meeting_of_cbdc,,2,,2023-05-24,令和5年 5月24日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#3,meeting_of_cbdc,,3,,2023-06-16,令和5年 6月16日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#4,meeting_of_cbdc,,4,,2023-09-05,令和5年 9月 5日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#5,meeting_of_cbdc,,5,,2023-09-26,令和5年 9月26日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#6,meeting_of_cbdc,,6,,2023-10-13,令和5年10月13日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#7,meeting_of_cbdc,,7,,2023-11-22,令和5年11月22日,,,,,,1,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#8,meeting_of_cbdc,,8,,2023-12-13,令和5年12月13日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#9,meeting_of_cbdc,,9,,2024-05-28,令和6年 5月28日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#10,meeting_of_cbdc,,10,,2025-05-27,令和7年 5月27日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_cbdc#11,meeting_of_cbdc,,11,,2026-06-25,令和8年 6月25日,,,,,,2,link,/about_mof/councils/meeting_of_cbdc/index.html
+meeting_of_coin#1,meeting_of_coin,,1,,2026-06-04,令和8年 6月 4日,,,,,,2,link,/about_mof/councils/meeting_of_coin/index.html
+meeting_of_coin#2,meeting_of_coin,,2,,2026-08-19,令和8年 8月19日,,,,,,2,link,/about_mof/councils/meeting_of_coin/index.html
+meeting_of_cbdcre#1,meeting_of_cbdcre,,1,,2024-01-26,令和 6年 1月26日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#2,meeting_of_cbdcre,,2,,2024-03-12,令和 6年 3月12日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#3,meeting_of_cbdcre,,3,,2024-04-17,令和 6年 4月17日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#4,meeting_of_cbdcre,,4,,2024-10-03,令和 6年10月 3日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#5,meeting_of_cbdcre,,5,,2025-05-22,令和 7年 5月22日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#6,meeting_of_cbdcre,,6,,2025-10-24,令和 7年10月24日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#7,meeting_of_cbdcre,,7,,2026-06-19,令和 8年 6月19日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html
+meeting_of_cbdcre#8,meeting_of_cbdcre,,8,,2026-10-08,令和 8年10月 8日,,,,,,2,link,/about_mof/councils/meeting_of_cbdcre/index.html

@@ -116,15 +116,16 @@ def probe_once(kind: str, url: str, *, user_agent: str = USER_AGENT,
         )
 
 
-def run_probes(*, html_path: str = DEFAULT_HTML_PATH, pdf_url: str = DEFAULT_PDF_URL,
-               rss_url: str = DEFAULT_RSS_URL, manifest: Path = ingest_pages.MANIFEST,
+def run_probes(*, base_url: str = BASE, html_path: str = DEFAULT_HTML_PATH,
+               pdf_url: str = DEFAULT_PDF_URL, rss_url: str = DEFAULT_RSS_URL,
+               manifest: Path = ingest_pages.MANIFEST,
                user_agent: str = USER_AGENT, interval: float = INTERVAL,
                opener=urllib.request.urlopen) -> list[ProbeResult]:
     """HTML（通常・条件付き）・PDF・RSS の順に 1 件ずつ確認する。"""
     rows = ingest_pages.read_manifest(manifest)
     saved_lm = rows.get(html_path, {}).get("last_modified", "")
     ims = fetch_files.iso_to_http_date(saved_lm) if saved_lm else ""
-    html_url = BASE + html_path
+    html_url = base_url + html_path
 
     results: list[ProbeResult] = []
 
@@ -158,21 +159,24 @@ def run_probes(*, html_path: str = DEFAULT_HTML_PATH, pdf_url: str = DEFAULT_PDF
         results.append(r_cond)
 
     # 3. PDF
-    if interval > 0:
-        time.sleep(interval)
-    results.append(probe_once("pdf", pdf_url, user_agent=user_agent, opener=opener))
+    if pdf_url:
+        if interval > 0:
+            time.sleep(interval)
+        results.append(probe_once("pdf", pdf_url, user_agent=user_agent, opener=opener))
 
     # 4. RSS
-    if interval > 0:
-        time.sleep(interval)
-    results.append(probe_once("rss", rss_url, user_agent=user_agent, opener=opener))
+    if rss_url:
+        if interval > 0:
+            time.sleep(interval)
+        results.append(probe_once("rss", rss_url, user_agent=user_agent, opener=opener))
 
     return results
 
 
-def format_markdown(results: list[ProbeResult], user_agent: str = USER_AGENT) -> str:
+def format_markdown(results: list[ProbeResult], user_agent: str = USER_AGENT,
+                    host_label: str = "www.mod.go.jp") -> str:
     lines = [
-        "### www.mod.go.jp 疎通確認",
+        f"### {host_label} 疎通確認",
         "",
         f"- 実行日時（UTC）: `{results[0].checked_at if results else ''}`",
         f"- Python: `{platform.python_version()}` / OS: `{platform.system()} {platform.release()}`",
@@ -208,7 +212,10 @@ def format_plain(results: list[ProbeResult]) -> str:
 
 
 def main() -> int:
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
     ap.add_argument("--user-agent", default=USER_AGENT, help="送信する User-Agent（自己申告名）")
     ap.add_argument("--interval", type=float, default=INTERVAL, help="リクエスト間の待機秒数（2 秒以上推奨）")
     ap.add_argument("--json", action="store_true", help="JSON 形式で出力する")
@@ -216,11 +223,22 @@ def main() -> int:
     ap.add_argument("--require-html", action="store_true", help="HTML が 200 でなければ終了コード 1 を返す")
     args = ap.parse_args()
 
-    results = run_probes(user_agent=args.user_agent, interval=args.interval)
+    ag = agencies.get_agency(args.agency)
+    pdf_url = DEFAULT_PDF_URL if ag.agency_id == "mod" else ""
+    rss_url = next(iter(ag.rss_feeds.values()), "")
+    results = run_probes(
+        base_url=ag.base_url,
+        html_path=ag.index_urls[0],
+        pdf_url=pdf_url,
+        rss_url=rss_url,
+        manifest=ag.pages_manifest,
+        user_agent=args.user_agent,
+        interval=args.interval,
+    )
     if args.json:
         print(json.dumps([asdict(r) for r in results], ensure_ascii=False, indent=2))
     elif args.markdown:
-        print(format_markdown(results, user_agent=args.user_agent), end="")
+        print(format_markdown(results, user_agent=args.user_agent, host_label=ag.primary_host), end="")
     else:
         print(format_plain(results), end="")
 

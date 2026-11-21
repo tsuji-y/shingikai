@@ -1,129 +1,140 @@
 # shingikai
 
-防衛省の審議会等（[一覧ページ](https://www.mod.go.jp/j/policy/agenda/meeting/index.html)）について、会議体・各回のメタ情報・参加者・資料・議事録をまとめるデータベース。構築中。
+日本の主要 16 省庁（防衛省・デジタル庁・こども家庭庁・内閣官房・内閣府・農林水産省・財務省・法務省・環境省・金融庁・消費者庁・文部科学省・国土交通省・警察庁・個人情報保護委員会・厚生労働省）の審議会・有識者会議・検討会等について、会議体・各回のメタ情報・参加者・資料・議事録を統一スキーマで収録・日次追跡するデータベース。
 
-## 現状
+## 現状（16 省庁収録状況）
 
-2026-11-19 時点で、会議体の一覧、各会議体のページ（サイト内の全 123 ページ）から読み取れる会議・資料・委員名簿、防衛省サイトに置かれている PDF（421 件）の本文と、そこから読み取った開催日時・場所・出席者を収録した。
+2026-11-21 時点で、クラウド環境（GitHub Actions 標準ランナー）から安定取得可能な **全 16 省庁**（区分 A 14 省庁・区分 B 2 省庁）を対象に、計 **1,635 会議体・5,494 会議・14,421 資料・委員名簿 543 行・人物 556 人**を収録している（最新の省庁別集計は `data/all/agencies.csv`、省庁横断の委員兼任表は `data/all/persons_cross.csv` を参照）。
 
-| 表 | 件数 | 内容 |
-|---|---|---|
-| `data/mod/councils.csv` | 67 | 会議体の一覧 |
-| `data/mod/council_profiles.csv` | 164 | 会議体の概要（根拠法令・所掌事務など） |
-| `data/mod/members.csv` | 252 | 委員名簿（33 会議体） |
-| `data/mod/meetings.csv` | 933 | 各回の会議（53 会議体）。開催日が分かるのは 667 件 |
-| `data/mod/attendance.csv` | 2,307 | 各回の出席者、1 人 1 行（16 会議体の 164 会議） |
-| `data/mod/persons.csv` | 256 | 委員・有識者の人物表。名簿と出席記録を人物ごとにまとめたもの |
-| `data/mod/documents.csv` | 2,053 | 資料・議事録などへのリンク（うち 1,602 件が会議に結び付く） |
-| `data/mod/texts.csv`、`data/mod/text/` | 421 | PDF から抽出した本文（3,778 ページ、約 225 万字） |
-| `data/mod/rss_items.csv` | 425 | RSS の更新ログ（2026-09-01 以降） |
+| 省庁 ID | 省庁名 | 区分 | 会議体 (`councils`) | 会議 (`meetings`) | 資料 (`documents`) | 委員 (`members`) | 人物 (`persons`) | 保存 HTML (`pages`) | 抽出 PDF (`pdfs`) |
+|---|---|:---:|---:|---:|---:|---:|---:|---:|---:|
+| `mod` | 防衛省 | A | 67 | 933 | 2,053 | 253 | 257 | 123 | 421 |
+| `digital` | デジタル庁 | A | 69 | 252 | 356 | 67 | 48 | 45 | 7 |
+| `cfa` | こども家庭庁 | A | 92 | 235 | 342 | 57 | 56 | 40 | 4 |
+| `cas` | 内閣官房 | A | 283 | 474 | 1,662 | 0 | 14 | 45 | 8 |
+| `cao` | 内閣府 | A | 104 | 343 | 633 | 7 | 9 | 40 | 8 |
+| `maff` | 農林水産省 | A | 55 | 1,068 | 2,373 | 0 | 25 | 40 | 8 |
+| `mof` | 財務省 | A | 48 | 30 | 98 | 0 | 0 | 40 | 8 |
+| `moj` | 法務省 | A | 25 | 223 | 1,145 | 44 | 52 | 40 | 8 |
+| `env` | 環境省 | A | 138 | 852 | 1,607 | 50 | 38 | 40 | 3 |
+| `fsa` | 金融庁 | A | 88 | 19 | 212 | 34 | 34 | 40 | 8 |
+| `caa` | 消費者庁 | A | 21 | 90 | 417 | 19 | 19 | 40 | 8 |
+| `mext` | 文部科学省 | A | 18 | 25 | 91 | 0 | 0 | 40 | 0 |
+| `mlit` | 国土交通省 | A | 293 | 22 | 213 | 0 | 0 | 40 | 8 |
+| `npa` | 警察庁 | A | 2 | 27 | 808 | 0 | 0 | 2 | 8 |
+| `ppc` | 個人情報保護委員会 | B | 3 | 12 | 16 | 12 | 12 | 4 | 1 |
+| `mhlw` | 厚生労働省 | B | 329 | 889 | 2,205 | 0 | 0 | 40 | 8 |
+| **合計** | **16 省庁** | — | **1,635** | **5,494** | **14,421** | **543** | **556** | **659** | **516** |
 
-入っていないもの：
+- **区分 A（14 省庁）**: `Last-Modified` / `If-Modified-Since` による条件付き取得（`304 Not Modified`）と `content_sha256` の併用で追跡。
+- **区分 B（2 省庁: `ppc`, `mhlw`）**: 動的 CMS のため `Last-Modified` を返さないが、`content_sha256`（本文ハッシュ比較）により同一パイプラインで変更検知・追跡。
+- **区分 C（クラウド IP 遮断のため対象外とした 4 省庁）**: 経済産業省（403 CloudFront）、外務省（403 Akamai）、公正取引委員会（403 Akamai）、総務省（502 クラウド IP 拒否）。詳細と拡張工程表は [`docs/multi_ministry_plan.md`](docs/multi_ministry_plan.md) を参照。
 
-- 国立国会図書館のアーカイブ（WARP）にしかない資料の中身（PDF 1,297 件、一覧などの HTML 315 件）。防衛省のページは古い回を WARP へのリンクにしているので、古い回ほど、リンクの文言から分かる回次や開催日しか入っていない（後述）。
-- 画像だけの PDF（4 件）の本文。
+### ディレクトリ構成と主要ファイル
+
+省庁ごとのデータは `data/<agency>/` と `raw/<agency>/` に同じ表構成で格納し、省庁横断の集計表を `data/all/` に出力する。
 
 | パス | 内容 |
 |---|---|
-| `mod/poll_rss.py` | 防衛省 RSS 2 本を取得し、未収録の item を追記する |
-| `mod/check_access.py` | HTML（通常・条件付き）・PDF・RSS の疎通を確認する（Phase 0） |
-| `mod/check_updates.py` | 条件付き取得と `content_sha256` で変更ページ・新規ページ・消失を検知して保存する |
+| `agencies.json` | 全 16 省庁の URL・プレフィックス・取得階層・RSS 等の設定定義 |
+| `data/all/agencies.csv` | 全 16 省庁の収録件数・最終取得日時サマリ |
+| `data/all/persons_cross.csv` | 省庁横断の委員・有識者名寄せ表（複数省庁の審議会を兼任する有識者を一覧化） |
+| `data/all/recent_events.csv` | 全省庁の直近更新イベント一覧 |
+| `data/<agency>/councils.csv` | 会議体の一覧 |
+| `data/<agency>/council_profiles.csv` | 会議体の概要（根拠法令・所掌事務・設置趣旨など） |
+| `data/<agency>/members.csv` | 委員名簿（HTML の名簿表および名簿 PDF から抽出） |
+| `data/<agency>/meetings.csv` | 各回の会議（回次・開催日・時刻・場所・議題・出席者） |
+| `data/<agency>/attendance.csv` | 各回の出席者（1 人 1 行） |
+| `data/<agency>/persons.csv` | 省庁内の委員・有識者の人物表 |
+| `data/<agency>/documents.csv` | 資料・議事録・名簿等へのリンク（WARP 移動耐性用の `doc_key` 付き） |
+| `data/<agency>/texts.csv`、`data/<agency>/text/` | PDF から抽出した本文テキストと台帳 |
+| `data/<agency>/events.csv` | 表の差分から機械的に記録した更新イベント（追記のみ） |
+| `data/<agency>/members_history.csv` | 委員名簿が変わる前のスナップショット（時点付き） |
+| `raw/<agency>/pages.csv`、`raw/<agency>/pages/` | 取得した HTML の台帳（`content_sha256` 含む）と生バイト列 |
+| `raw/<agency>/files.csv` | 取得した PDF の台帳（SHA-256 と GitHub Releases の `release_url` を記録。PDF 本体は Git 外） |
+| `mod/agencies.py` | `agencies.json` の読み込みと汎用会議体一覧抽出 |
+| `mod/cross_agency.py` | 全省庁の表から `data/all/` の横断 3 表を生成する |
+| `mod/check_access.py` | HTML（通常・条件付き）・PDF・RSS の疎通を確認する（`--agency <id>` 対応） |
+| `mod/check_updates.py` | 条件付き取得と `content_sha256` で変更ページ・新規ページ・消失を検知して保存する（`--agency <id>` 対応） |
 | `mod/events.py` | 表の差分から `events.csv` を生成し、名簿履歴退避・回帰検査・RSS 取り込み漏れ検査を行う |
-| `mod/update.py` | 更新チェック→表再構築→PDF 取得・抽出→回帰検査・イベント記録を 1 コマンドで実行する |
-| `mod/fetch_in_browser.js` | ブラウザの中でページを取得し、ページ束（JSON）として保存する（Python 取得不可時の代替） |
-| `mod/ingest_pages.py` | ページ束を `raw/mod/pages/` に展開し、台帳 `raw/mod/pages.csv`（`content_sha256` 含む）を更新する |
-| `mod/fetch_files.py` | `documents.csv` に載っている防衛省サイト上の PDF を取得・差し替え照合する |
+| `mod/update.py` | 更新チェック→表再構築→PDF 取得・抽出→回帰検査・イベント記録を 1 コマンドで実行する（`--agency <id>` 対応） |
+| `mod/fetch_files.py` | `documents.csv` 上の PDF を取得・差し替え照合する（`--agency <id>`、`--types` 対応） |
 | `mod/archive_pdfs.py` | 取得済み PDF 原本を GitHub Releases（年別 / ベースライン）へ保管し、`release_url` を記録する |
-| `mod/extract_text.py` | PDF から本文を抽出する |
-| `mod/pages.py` | 保存した HTML を、見出し・表の行・段落の列に変換する |
-| `mod/minutes.py` | 議事要旨・議事録の本文の冒頭から、開催日時・場所・出席者を読み取る |
-| `mod/persons.py` | 委員名簿と出席記録から人物表を作り、各行を人物に結び付ける |
-| `mod/build_db.py` | 上の 3 つを使って `council_profiles`・`members`・`meetings`・`attendance`・`persons`・`documents` を作る |
-| `mod/make_check_sheet.py` | 抜き取り検証用の確認表（`checks/`）を作る |
+| `mod/extract_text.py` | PDF から本文を抽出する（`--agency <id>` 対応） |
+| `mod/pages.py`、`mod/minutes.py`、`mod/persons.py`、`mod/build_db.py` | HTML・PDF 議事要旨・名簿 PDF の構造化と人物名寄せ（`--agency <id>` 対応） |
 | `mod/llm/` | Gemini による補完（画像 PDF 文字起こし・出席者補完・資料要約・変更検討メモ・30 件評価） |
-| `data/mod/events.csv` | 表の差分から機械的に記録した更新イベント（追記のみ） |
-| `data/mod/members_history.csv` | 委員名簿が変わる前のスナップショット（時点付き） |
-| `data/mod/summaries.csv` | Gemini による資料の機械生成要約（モデル名・プロンプト版・入力 SHA-256 付き） |
-| `data/mod/llm_extractions.csv` | Gemini による文字起こし・出席者補完の記録（検証通過分のみ本体表へ反映） |
-| `raw/mod/pages/` | 取得した HTML。取得したバイト列のまま |
-| `tests/` | `python3 -m unittest discover -s tests` |
+| `tests/` | `python3 -m unittest discover -s tests`（73 テスト） |
 
-`mod` は Ministry of Defense の略。基本のコードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）に `requirements.txt`（pdfminer.six）、Gemini 処理（`mod/llm/`）に `requirements-llm.txt`（google-genai）を使う。Windows では `python3` の代わりに `python` を使う。
+`mod/` ディレクトリ名は最初に構築した防衛省（Ministry of Defense）に由来し、全 16 省庁共通のパイプラインとして動作する（`--agency` 省略時の既定値は `mod`）。基本のコードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）に `requirements.txt`（pdfminer.six）、Gemini 処理（`mod/llm/`）に `requirements-llm.txt`（google-genai）を使う。
 
-## www.mod.go.jp のアクセス制約
+## アクセス制約と巡回ルール
+
+すべての省庁サイトに対して以下の共通ルールを守る。
+- 1 ドメインあたり直列・**2 秒以上**の間隔（`--interval 2.0`）をあけ、自己申告の `User-Agent`（`rss-poller/1.0` / `pdf-fetcher/1.0`）を送信する。
+- `403`・`429` または `cf-mitigated` が返ったらリトライせず即座に停止する。ボット検証の突破・ステルス化・UA 偽装・URL 推測は一切行わない。
+- `robots.txt` および国立国会図書館インターネット資料収集保存事業（WARP）の規約を遵守する。
+
+### www.mod.go.jp の実測結果
 
 2026-11-19 と 2026-11-21 に実測した結果。
 
-| 対象 | 米国データセンター（11/19） | 国内 PC・Python 既定 UA（11/21） | 国内 PC・自前 UA `rss-poller/1.0`（11/21） |
+| 対象 | 米国データセンター（11/19） | 国内 PC・Python 既定 UA（11/21） | 国内 PC / GitHub Actions・自前 UA `rss-poller/1.0`（11/21） |
 |---|---|---|---|
-| HTML（通常取得） | 403（`cf-mitigated: challenge`） | 403（`cf-mitigated: challenge`） | 200（16 件すべて成功。本文は保存版と一致） |
+| HTML（通常取得） | 403（`cf-mitigated: challenge`） | 403（`cf-mitigated: challenge`） | 200（本文は保存版と一致） |
 | HTML（`If-Modified-Since`） | 未確認 | 未確認 | 304（本文なし） |
 | PDF | 200 | 200 | 200（`Last-Modified` あり） |
 | `/j/rss/update.xml`、`/j/rss/news.xml` | 200（自前 UA） | 403 | 200 |
 | `robots.txt` | 200（`Disallow` は `/a/` と `/sp/j/` のみ） | 200 | 200 |
 
-- 11/19 時点では国内回線 PC からも HTML が 403 になる事象があったため、日をまたいで安定して通るか、および GitHub Actions ランナーからの可否は `mod/check_access.py`（`.github/workflows/connectivity_check.yml`）で確認する。
-- HTML には Cloudflare が毎回異なる `cdn-cgi/challenge-platform` スクリプトを差し込む（123 ページ中 88 ページ）ため、生の SHA-256 は取得のたびに変わる。変更検知にはこの `<script>…</script>` を除いた `content_sha256` を使う。
-- 内容が同じでも `Last-Modified` が 1 秒ずれるページがある（123 ページ中 2 ページ）。
-- ボット検証は運営側が自動アクセスを弾くための仕組みなので、ステルス化・UA 偽装・ブラウザ自動操作などで突破しない。403・429 が返ったらリトライせず即停止し、必要に応じてブラウザ経由の取得に切り替える。PDF の URL を推測して総当たりすることもしない。
-- サイトのコンテンツは「公共データ利用規約（第1.0版）」に準拠して利用できる（[コンテンツの利用について](https://www.mod.go.jp/j/info/contents.html)）。
+- HTML には Cloudflare が毎回異なる `cdn-cgi/challenge-platform` スクリプトを差し込むページがあるため、変更検知にはこの `<script>…</script>` を除いた `content_sha256` を使う。
+- 各省庁サイトのコンテンツは「公共データ利用規約（第1.0版）」（PDL1.0）に準拠して利用できる。
 
 ### WARP
 
-防衛省のページは、古い回の資料や一覧を国立国会図書館のアーカイブ（WARP、`warp.da.ndl.go.jp`）へのリンクにしている。リンク先の `/info:ndljp/pid/…` は閲覧用の枠だけを返すページで、保存されている本体（PDF も HTML も）は枠の中に読み込まれる `/2025…/www.mod.go.jp/…` のような別の URL にある。WARP の `robots.txt` はこの `/20` で始まるパスを全ロボットに対して禁じている（ほかに `/search`、`/web/`、`/collections/`）。したがって WARP 上の本体はスクリプトで取得しない。WARP にしかない資料（PDF 1,297 件、一覧などの HTML 315 件）の中身は、このデータベースには入っていない。
-
-なお、取得済みの資料が後から WARP に移動しても本文・出席者が切れないよう、`documents.csv` に元のホスト＋パスを表す `doc_key` 列を持ち、`build_db.py` は `doc_key` で本文と結び付けている。
+防衛省などのページは、古い回の資料や一覧を国立国会図書館のアーカイブ（WARP、`warp.da.ndl.go.jp`）へのリンクにしている。WARP の `robots.txt` は保存本体パス（`/20` で始まるパス等）を全ロボットに対して禁じているため、WARP 上の本体はスクリプトで取得しない。なお、取得済みの資料が後から WARP に移動しても本文・出席者が切れないよう、`documents.csv` に元のホスト＋パスを表す `doc_key` 列を持ち、`build_db.py` は `doc_key` で本文と結び付けている。
 
 ## ページの取得と定期更新
 
-### 日次更新（Python で HTML を取得できる環境）
+### 日次更新（全 16 省庁対応）
 
 ```bash
-python3 mod/update.py --dry-run                 # 変更確認のみ（書き込みしない）
-python3 mod/update.py --council kousei_nyusatu  # 1 会議体だけ確認・更新
-python3 mod/update.py                           # 全ページの更新チェック→表再構築→PDF→回帰検査→イベント記録
-python3 mod/update.py --check-pdf-updates       # 週次：取得済み PDF の差し替え照合も実施
+python3 mod/update.py --agency mod --dry-run                 # 防衛省の変更確認のみ（--agency 省略時は mod）
+python3 mod/update.py --agency digital                       # デジタル庁の更新チェック→表再構築→PDF→回帰検査→イベント記録
+python3 mod/update.py --agency cfa --pdf-types 議事録,議事要旨,名簿 --max-pdfs 15
+python3 mod/update.py --agency mod --check-pdf-updates       # 週次：取得済み PDF の差し替え照合も実施
+python3 mod/cross_agency.py                                  # 全 16 省庁の横断表（data/all/）を更新
 ```
 
 - 403・429 または `cf-mitigated` が返った場合は即停止し、終了コード 1（未確認）で終了する。リトライしない。
 - 回帰の検査（変更のないページから行が消えていないかの確認）に失敗した場合は、表を元に戻して終了コード 2 で終了する。
-- 疎通のみ確認したい場合は `python3 mod/check_access.py` を使う。
+- 疎通のみ確認したい場合は `python3 mod/check_access.py --agency <id>` を使う。
 
 ### ブラウザ経由での代替取得（Python で 403 になる場合）
 
-1. ブラウザで www.mod.go.jp のページを開き、`mod/fetch_in_browser.js` を実行する。サイト内のパスを 1 件ずつ、2 秒強の間隔で取得し、403・429 が返ったら止まる。
-2. 保存されたページ束を展開する。
+1. ブラウザで対象ページを開き、`mod/fetch_in_browser.js` を実行する。サイト内のパスを 1 件ずつ、2 秒強の間隔で取得し、403・429 が返ったら止まる。
+2. 保存されたページ束を展開し、表を再構築する。
 
 ```bash
 python3 mod/ingest_pages.py mod_pages.json
-```
-
-3. 表を作り直し、イベント記録と回帰検査を行う（または単純に `python3 mod/build_db.py`）。
-
-```bash
 python3 mod/update.py --skip-fetch --changed-page /j/policy/agenda/meeting/<対象ページ>
 ```
 
-取得の対象は、一覧ページ、各会議体のトップページ、そこからたどれる `/j/policy/agenda/meeting/` 配下の HTML。2026-11-19 に 123 ページを取得し、未取得のサイト内ページは残っていない。`raw/mod/pages.csv` に URL・`Last-Modified`・取得日時・サイズ・SHA-256・`content_sha256`・消失カウントを記録している。
-
 ## PDF の取得と本文の抽出
 
-`documents.csv` に載っている www.mod.go.jp 上の PDF を取得し、本文をテキストにする。
+`documents.csv` に載っている各省庁サイト上の PDF を取得し、本文をテキストにする。
 
 ```bash
-python3 mod/fetch_files.py                   # 台帳に未収録の PDF だけ取得（raw/mod/files/ に保存）
-python3 mod/fetch_files.py --refetch-missing # 台帳にあるが手元にない原本を取り直す場合
-python3 mod/fetch_files.py --check-replaced  # 取得済み PDF の差し替えを条件付き取得で照合
-python3 mod/extract_text.py                  # data/mod/text/ にテキストを保存。台帳は data/mod/texts.csv
-python3 mod/build_db.py                      # 議事要旨・議事録の冒頭から開催日時・場所・出席者を補う
+python3 mod/fetch_files.py --agency mod                   # 台帳に未収録の PDF だけ取得（raw/<agency>/files/ に保存）
+python3 mod/fetch_files.py --agency digital --types 議事録,議事要旨,名簿
+python3 mod/fetch_files.py --agency mod --refetch-missing # 台帳にあるが手元にない原本を取り直す場合
+python3 mod/fetch_files.py --agency mod --check-replaced  # 取得済み PDF の差し替えを条件付き取得で照合
+python3 mod/extract_text.py --agency mod                  # data/<agency>/text/ にテキストを保存
+python3 mod/build_db.py --agency mod                      # 議事要旨・議事録・名簿 PDF から開催日時・出席者・委員名簿を補う
 ```
 
-- `fetch_files.py` は 2 秒間隔で 1 件ずつ取得し、403・429 が返ったら止まる。既定では台帳（`raw/mod/files.csv`）に SHA-256 が記録されていれば取得済みとして飛ばす（手元に PDF 原本がない環境でも全件を取り直さない）。PDF の本体（`raw/mod/files/`、約 350 MB）は Git に入れず、GitHub Releases に保管する。
-- 新規・差し替え PDF は日次ワークフロー（`.github/workflows/update.yml`）から `mod/archive_pdfs.py` で年別 Release（`pdfs-YYYY`）へ自動添付し、`raw/mod/files.csv` の `release_url` に記録する。手元の既存 421 件を一括アーカイブする場合は `python3 mod/archive_pdfs.py --bundle --tag pdfs-2026-baseline` を実行する。
-- 2026-11-19 に 422 件を取りに行き、421 件を保存した。1 件（再就職等監視分科会 第84回の議事要旨）はリンク切れで 404 だった。
-- `extract_text.py` だけは pdfminer.six を使う。`python -m venv .venv` で仮想環境を作り、`requirements.txt` を入れて実行する。
-- 画像だけの PDF からは本文が取れない。`texts.csv` の `note` に印を付けている。
-- PDF 側に文字への対応表がなく変換できなかった箇所は、`(cid:8494)` のような表記で残る（人名の一部で起きている）。
+- `fetch_files.py` は 2 秒間隔で 1 件ずつ取得し、403・429 が返ったら止まる。既定では台帳（`raw/<agency>/files.csv`）に SHA-256 が記録されていれば取得済みとして飛ばす。PDF の本体（`raw/*/files/`）は Git に入れず、GitHub Releases に保管する。
+- 新規・差し替え PDF は日次ワークフロー（`.github/workflows/update.yml`）から `mod/archive_pdfs.py --agency <id>` で年別 Release（`pdfs-YYYY` または `<agency>-pdfs-YYYY`）へ自動添付し、`raw/<agency>/files.csv` の `release_url` に記録する。防衛省のベースライン原本 421 件は Release `pdfs-2026-baseline` に一括保管済み。
+- `extract_text.py` は pdfminer.six を使う（`pip install -r requirements.txt`）。
 
 ## Gemini による補完と要約（Phase 3）
 
@@ -292,10 +303,10 @@ python3 mod/poll_rss.py
 
 ## 出典と利用条件
 
-収録しているのは、防衛省・自衛隊ウェブサイトで公開されている情報と、それを加工したものである。同サイトのコンテンツは「公共データ利用規約（第1.0版）」（PDL1.0）に準拠して利用できる。
+収録しているのは、各省庁ウェブサイト（防衛省・デジタル庁・こども家庭庁・内閣官房・内閣府・農林水産省・財務省・法務省・環境省・金融庁・消費者庁・文部科学省・国土交通省・警察庁・個人情報保護委員会・厚生労働省。各省庁のベース URL は `agencies.json` および `data/all/agencies.csv`）で公開されている情報と、それを加工したものである。各省庁サイトのコンテンツは「公共データ利用規約（第1.0版）」（PDL1.0）または政府標準利用規約（第2.0版）に準拠して利用できる。
 
-- `raw/mod/pages/`（取得した HTML）：出典：防衛省・自衛隊ウェブサイト（各ページの URL は `raw/mod/pages.csv`）、[PDL1.0](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)（2026年11月19日に利用）
-- `data/mod/text/`（PDF の本文）：防衛省・自衛隊ウェブサイトの PDF（各ファイルの URL は `data/mod/texts.csv`）から、本文を機械的に抽出して作成
-- `data/mod/` の各表：防衛省・自衛隊ウェブサイト（各行の `source`・`url` 列に元のページ・資料）を加工して作成
+- `raw/<agency>/pages/`（取得した HTML）：出典：各省庁ウェブサイト（各ページの URL は `raw/<agency>/pages.csv`）、[PDL1.0](https://www.digital.go.jp/resources/open_data/public_data_license_v1.0)（2026年11月19日〜21日に利用）
+- `data/<agency>/text/`（PDF の本文）：各省庁ウェブサイトの PDF（各ファイルの URL は `data/<agency>/texts.csv`）から、本文を機械的に抽出して作成
+- `data/<agency>/` および `data/all/` の各表：各省庁ウェブサイト（各行の `source`・`url` 列に元のページ・資料）を加工して作成
 
-抽出と加工は本リポジトリの作成者が行ったもので、防衛省が作成した情報そのものではない。機械的な読み取りによる誤りを含みうるので、引用や分析に使う際は元の資料を確認すること。
+抽出と加工は本リポジトリの作成者が行ったもので、各省庁が作成した情報そのものではない。機械的な読み取りによる誤りを含みうるので、引用や分析に使う際は元の資料を確認すること。

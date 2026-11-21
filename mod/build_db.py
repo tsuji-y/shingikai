@@ -282,23 +282,38 @@ def parse_councils(blocks: list[Block], existing: list[dict[str, str]] | None = 
 
 def sync_councils(councils_path: Path = DATA / "councils.csv", root: Path = pages.RAW_DIR,
                   index_url: str = ROOT + "index.html", now_iso: str = "",
-                  write: bool = True) -> list[dict[str, str]]:
+                  write: bool = True, agency_id: str = "mod") -> list[dict[str, str]]:
     """保存済みの一覧ページから councils.csv を更新する。"""
+    import agencies
+
     existing = load_councils(councils_path) if councils_path.exists() else []
     if not now_iso:
         now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-    blocks = pages.load(index_url, root)
-    updated = parse_councils(blocks, existing=existing, now_iso=now_iso)
+    if agency_id == "mod":
+        blocks = pages.load(index_url, root)
+        updated = parse_councils(blocks, existing=existing, now_iso=now_iso)
+    else:
+        ag = agencies.get_agency(agency_id)
+        idx_pages = []
+        for u in ag.index_urls:
+            p = pages.resolve_local_path(u, root)
+            if p.exists():
+                idx_pages.append((u, pages.load(u, root, base_url=ag.base_url)))
+        updated = agencies.extract_councils_generic(ag, idx_pages, existing=existing, now_iso=now_iso)
     if write and updated:
         write_csv(councils_path, COUNCIL_FIELDS, updated)
     return updated
 
 
 def council_dir(link: str) -> str:
-    """一覧のリンク（…/meeting/<dir>/index.html）から <dir>/ を返す。サイト外は ""。"""
-    if not link.startswith(ROOT):
+    """一覧のリンクからサイト内パスのプレフィックスを返す。サイト外は ""。"""
+    if not link.startswith("/"):
         return ""
-    return link[len(ROOT):].rsplit("/", 1)[0] + "/"
+    if link.endswith(("/index.html", "/index.htm")):
+        return link.rsplit("/", 1)[0] + "/"
+    if link.endswith((".html", ".htm")):
+        return link
+    return link.rstrip("/") + "/"
 
 
 class Councils:
@@ -309,12 +324,23 @@ class Councils:
                              key=lambda x: -len(x[0]))
 
     def of(self, url: str) -> dict[str, str] | None:
-        rest = url[len(ROOT):] if url.startswith(ROOT) else None
-        if rest is None:
+        if not url.startswith("/"):
             return None
+        norm = url.rstrip("/") + "/"
         for prefix, row in self.by_dir:
-            if rest.startswith(prefix):
-                return row
+            if prefix.endswith("/"):
+                if url.startswith(prefix) or norm.startswith(prefix):
+                    return row
+            else:
+                if url == prefix:
+                    return row
+                stem = (
+                    prefix.rsplit("_index.", 1)[0]
+                    if prefix.endswith(("_index.html", "_index.htm"))
+                    else prefix.rsplit(".", 1)[0]
+                )
+                if url.startswith(stem + "_") or url.startswith(stem + "/"):
+                    return row
         return None
 
 
@@ -323,7 +349,7 @@ class Councils:
 SECTION_KEYS = [("date", re.compile(r"^(年月日|日時|開催日時|開催日|日程)$")),
                 ("place", re.compile(r"^(場所|開催場所|会場)$")),
                 ("attendees", re.compile(r"^(出席者|出席委員|参加者)")),
-                ("agenda", re.compile(r"^(議題|議事|議事等|議題等)$"))]
+                ("agenda", re.compile(r"^(議題|議事|議事等|議題等|議事次第)$"))]
 _LEAD_NUMBERING = re.compile(r"^[\s(（]*[0-9０-９一二三四五六七八九十]+[\s)）.．、]*")
 
 
@@ -343,9 +369,12 @@ def flat(text: str) -> str:
 
 
 class Builder:
-    def __init__(self, councils: Councils, known_pages: set[str]):
+    def __init__(self, councils: Councils, known_pages: set[str],
+                 base_url: str = pages.BASE, hosts: tuple[str, ...] = ("www.mod.go.jp",)):
         self.councils = councils
         self.known_pages = known_pages
+        self.base_url = base_url
+        self.hosts = set(hosts)
         self.profiles: list[dict] = []
         self.members: list[dict] = []
         self.meetings: list[dict] = []
@@ -445,9 +474,9 @@ class Builder:
         if not is_index and not range_h1 and (
                 h1_number is not None or (h1_date and MINUTES_WORDS.search(h1))):
             page_meeting = self.meeting(cid, "", h1_number, h1_date, url, "page",
-                                        date_raw=h1_date_raw, label=h1, page=pages.BASE + url)
+                                        date_raw=h1_date_raw, label=h1, page=self.base_url + url)
             if MINUTES_WORDS.search(h1):
-                self.document(cid, page_meeting, "", Link(h1, pages.BASE + url), url)
+                self.document(cid, page_meeting, "", Link(h1, self.base_url + url), url)
             body = ""
         page_body = body
 
@@ -464,6 +493,7 @@ class Builder:
         as_of = ("", "")
         page_members: list[dict] = []
         sections: dict[str, list[str]] = {}
+        overview_lines: list[str] = []
 
         for b in blocks:
             if b.kind == "heading":
@@ -479,6 +509,9 @@ class Builder:
                     heading_meeting = (m, b.level)
                     for ln in b.links:
                         self.document(cid, m, b.text, ln, url)
+                elif self.base_url != pages.BASE and b.links:
+                    for ln in b.links:
+                        self.link(cid, body_of(b.text), page_meeting, b.text, ln, url, near=b.text)
                 continue
 
             context = heading_meeting[0] if heading_meeting else page_meeting
@@ -500,8 +533,31 @@ class Builder:
                     for row in page_members:
                         if row["mark"] and not row["role"]:
                             row["role"] = "・".join(legend[ch] for ch in row["mark"] if ch in legend)
-                if page_meeting is not None and section_key(section):
-                    sections.setdefault(section_key(section), []).append(flat(b.text))
+                if page_meeting is not None:
+                    skey = section_key(section)
+                    if skey:
+                        sections.setdefault(skey, []).append(flat(b.text))
+                    elif re.search(r"^(概要|開催情報|開催概要)$", _LEAD_NUMBERING.sub("", section).strip()):
+                        overview_lines.append(b.text)
+                elif is_index and self.base_url != pages.BASE and not b.links:
+                    m_kv = re.match(r"^([^：:\s]{2,15})[：:]\s*(.+)$", flat(b.text))
+                    if m_kv and PROFILE_KEY.search(m_kv.group(1)) and not is_date_only(m_kv.group(1)):
+                        self.profiles.append({
+                            "council_id": cid,
+                            "key": m_kv.group(1),
+                            "value": m_kv.group(2),
+                            "source": url,
+                        })
+                    elif (
+                        re.search(r"(?:^|の)(?:概要|趣旨|目的|開催について)$", _LEAD_NUMBERING.sub("", section).strip())
+                        and len(b.text) >= 15
+                    ):
+                        self.profiles.append({
+                            "council_id": cid,
+                            "key": section or "概要",
+                            "value": flat(b.text),
+                            "source": url,
+                        })
                 for ln in b.links:
                     self.link(cid, body, context, section, ln, url, near=b.text)
                 continue
@@ -554,6 +610,18 @@ class Builder:
                 value = " / ".join(sections.get(key, []))
                 if value and not m[key]:
                     m[key] = value
+            if overview_lines:
+                h = minutes.parse_header("\n".join(overview_lines))
+                if h["date_raw"] and not m["date"]:
+                    d_iso, _ = parse_date(h["date_raw"])
+                    if d_iso:
+                        m["date"], m["date_raw"] = d_iso, h["date_raw"]
+                        self.by_date.setdefault((cid, "", d_iso), m)
+                for key in ("time", "place"):
+                    if h[key] and not m[key]:
+                        m[key] = h[key]
+                if h["attendees"] and not m["attendees"]:
+                    m["attendees"] = " / ".join(" ".join(ln.split()) for ln in h["attendees"].split("\n") if ln.strip())
 
     def link(self, cid: str, body: str, context: dict | None, section: str, ln: Link, source: str,
              detect: bool = True, near: str = "") -> None:
@@ -566,20 +634,40 @@ class Builder:
             number = parse_number(ln.text)
             date, raw = parse_date(ln.text, ln.url)
             minutes = bool(MINUTES_WORDS.search(ln.text))
-            if not date and ln.text and ln.text in near:
+            if ln.text and ln.text in near:
                 at = near.index(ln.text)
                 after = near[at + len(ln.text):].split("\n", 1)[0][:30]
-                line = near[near.rfind("\n", 0, at) + 1:].split("\n", 1)[0]
-                if nfkc(after).lstrip().startswith(("(", "[", "【", "〔")):
-                    date, raw = parse_date(after)  # 「…議事要旨（平成26年8月28日）」
-                elif leading_date(line)[0]:
-                    date, raw = leading_date(line)  # 「（平成27年9月15日）議事録｜議決書」
-                    minutes = bool(MINUTES_WORDS.search(line))
+                line_start = near.rfind("\n", 0, at) + 1
+                line = near[line_start:].split("\n", 1)[0]
+                before = near[line_start:at].strip()
+                if not date:
+                    if nfkc(after).lstrip().startswith(("(", "[", "【", "〔")):
+                        date, raw = parse_date(after)  # 「…議事要旨（平成26年8月28日）」
+                    elif leading_date(line)[0]:
+                        date, raw = leading_date(line)  # 「（平成27年9月15日）議事録｜議決書」
+                        minutes = bool(MINUTES_WORDS.search(line))
+                if self.base_url != pages.BASE and before:
+                    head_clean = nfkc(before).lstrip("・●◯○■□◇▶▷ ")
+                    if _KAI.match(head_clean) or leading_date(head_clean)[0]:
+                        if number is None:
+                            number = parse_number(before)
+                        if not date:
+                            date, raw = parse_date(before)
+                        if MINUTES_WORDS.search(line):
+                            minutes = True
             if number is not None or (date and minutes):
                 meeting = self.meeting(cid, body, number, date, source, "link", date_raw=raw)
         split = urlsplit(ln.url)
-        in_site_page = (split.netloc == "www.mod.go.jp" and url_format(ln.url) == "html")
-        if meeting is None and (in_site_page or split.netloc not in ("www.mod.go.jp", "warp.da.ndl.go.jp")):
+        norm_link_path = split.path.rstrip("/") or "/"
+        in_site_page = (
+            split.netloc in self.hosts
+            and (url_format(ln.url) in ("html", "htm") or norm_link_path in self.known_pages)
+        )
+        if meeting is not None and in_site_page and (split.path in self.known_pages or norm_link_path in self.known_pages) and not MINUTES_WORDS.search(ln.text):
+            if not meeting["page"]:
+                meeting["page"] = ln.url
+            return
+        if meeting is None and (in_site_page or split.netloc not in (self.hosts | {"warp.da.ndl.go.jp"})):
             return  # 会議に結び付かないサイト内ページ・外部サイトへのリンクは案内なので載せない
         self.document(cid, meeting, section, ln, source)
 
@@ -663,7 +751,7 @@ def table_kind(heads: list[str]) -> str:
     joined = " ".join(heads)
     if "氏名" in joined or "委員名" in joined:
         return "members"
-    if re.search(r"年月日|開催日|日時|議事次第|議事概要|議事録|議事要旨|会議資料", joined):
+    if re.search(r"年月日|開催日|日時|日付|議事次第|議事概要|議事録|議事要旨|会議資料", joined):
         return "meetings"
     return "other"
 
@@ -671,7 +759,7 @@ def table_kind(heads: list[str]) -> str:
 def column_roles(heads: list[str]) -> list[str]:
     roles = []
     for i, h in enumerate(heads):
-        if re.search(r"年月日|開催日|日時", h):
+        if re.search(r"年月日|開催日|日時|日付", h):
             roles.append("date")
         elif re.search(r"開催回|区分|回数|回次", h) or (h == "" and i == 0):
             roles.append("label")
@@ -688,19 +776,22 @@ def column_roles(heads: list[str]) -> list[str]:
 
 def build(councils_path: Path = DATA / "councils.csv", manifest: Path = MANIFEST,
           root: Path = pages.RAW_DIR, texts: Path = DATA / "texts.csv",
-          repo: Path = REPO) -> Builder:
+          repo: Path = REPO, *, base_url: str = pages.BASE,
+          hosts: tuple[str, ...] = ("www.mod.go.jp",)) -> Builder:
     councils = Councils(load_councils(councils_path))
     with manifest.open(encoding="utf-8", newline="") as f:
         urls = [r["url"] for r in csv.DictReader(f)]
-    builder = Builder(councils, set(urls))
+    builder = Builder(councils, set(urls), base_url=base_url, hosts=hosts)
 
     def order(url: str):
         c = councils.of(url)
         return (councils.order[c["council_id"]] if c else 10**6, url != (c or {}).get("link"), url)
 
     for url in sorted(urls, key=order):
-        blocks = pages.load(url, root)
-        builder.page(url, blocks, split=separate_series(councils, builder.known_pages, url, blocks))
+        blocks = pages.load(url, root, base_url=base_url)
+        builder.page(url, blocks, split=separate_series(
+            councils, builder.known_pages, url, blocks, base_url=base_url, hosts=hosts
+        ))
     finish(builder)
     apply_minutes(builder, texts, repo=repo)
     return builder
@@ -776,8 +867,118 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
             dated_now.append(m)
     _apply_llm_extractions(b, texts_path.parent / "llm_extractions.csv", dated_now)
     merge_dated(b, dated_now)
+    _apply_pdf_rosters(b, texts, repo)
     b.persons = persons.link(b.members, b.attendance, {m["meeting_id"]: m["date"] for m in b.meetings},
                              b.councils.order)
+
+
+_PDF_ORG_WORDS = re.compile(
+    r"大学|大学院|株式会社|（株）|法人|研究|センター|協会|連合|機構|事務所|病院|クリニック|"
+    r"委員会|会議|審議会|検討会|省|庁|局|部|課|室|知事|市長|町長|村長|教授|准教授|講師|理事|幹事|監事|顧問|参与|社長|代表|"
+    r"委員|構成員|座長|会長|議長|主査|書記|庶務|事務局|関係官|"
+    r"弁護士|公認会計士|税理士|司法書士|行政書士|弁理士|社会保険労務士|建築士|保育士|博士|修士|"
+    r"長$|員$|者$|家$|師$"
+)
+_PDF_ROLE_PREFIX = re.compile(
+    r"^(座\s*長\s*代\s*理|副\s*座\s*長|座\s*長|委\s*員\s*長|副\s*委\s*員\s*長|会\s*長|主\s*査)\s+"
+)
+_PDF_GROUP_PREFIX = re.compile(r"^[（(【〔](構成員|委員|有識者|臨時委員|専門委員)[）)】〕]\s*")
+_PDF_SKIP_LINE = re.compile(
+    r"名簿|五十音順|敬称略|下記のとおり|規定に基づき|開催について|指名について|議長決定|閣議決定|別紙|^記$|[。、]$"
+)
+_PDF_KANJI_KANA = re.compile(r"^[◎○☆※]?[\u3040-\u30ff\u3400-\u9fff\u3005\u3006\uf900-\ufaff\s　]+$")
+
+
+def _is_pdf_person_name(s: str) -> bool:
+    s = s.strip().lstrip("◎○☆")
+    if not s or not _PDF_KANJI_KANA.match(s):
+        return False
+    compact = re.sub(r"\s+", "", s)
+    if not (2 <= len(compact) <= 6):
+        return False
+    if _PDF_ORG_WORDS.search(compact):
+        return False
+    return True
+
+
+def _apply_pdf_rosters(b: Builder, texts: dict[str, str], repo: Path) -> None:
+    """HTML に名簿表がない会議体について、doc_type=='名簿' の抽出テキストから委員名簿を補う。"""
+    councils_with_members = {m["council_id"] for m in b.members}
+    for d in b.documents:
+        cid = d["council_id"]
+        if cid in councils_with_members:
+            continue
+        if d["doc_type"] != "名簿" or d["doc_key"] not in texts:
+            continue
+        text_file = repo / texts[d["doc_key"]]
+        if not text_file.exists():
+            continue
+        text = text_file.read_text(encoding="utf-8")
+        lines = [ln.strip() for ln in "\n".join(text.split("\f")[:3]).splitlines() if ln.strip()]
+        as_of_iso, as_of_raw = "", ""
+        legend: dict[str, str] = {}
+        for ln in lines[:10]:
+            if not as_of_iso and len(ln) < 40:
+                iso, raw = parse_date(ln)
+                if iso:
+                    as_of_iso, as_of_raw = iso, raw
+            legend.update(parse_legend(ln))
+
+        extracted_rows: list[dict[str, str]] = []
+        i = 0
+        while i < len(lines):
+            ln = lines[i]
+            i += 1
+            if _PDF_SKIP_LINE.search(ln) or (
+                ln.startswith(("＜", "<", "※", "（", "(")) and not _PDF_GROUP_PREFIX.match(ln)
+            ):
+                continue
+            ln = _PDF_GROUP_PREFIX.sub("", ln).strip()
+            role = ""
+            m_role = _PDF_ROLE_PREFIX.match(ln)
+            if m_role:
+                role = re.sub(r"\s+", "", m_role.group(1))
+                ln = ln[m_role.end():].strip()
+
+            cand_name, cand_title = "", ""
+            if _is_pdf_person_name(ln) and re.search(r"[\s　]", ln.lstrip("◎○☆")):
+                if i < len(lines) and not _is_pdf_person_name(lines[i]) and not _PDF_SKIP_LINE.search(lines[i]):
+                    cand_name, cand_title = ln, lines[i]
+                    i += 1
+            else:
+                parts = [x.strip() for x in re.split(r"(?:[ \t]{2,}|　+)", ln) if x.strip()]
+                if len(parts) >= 2:
+                    best = None
+                    for k in range(1, min(6, len(parts))):
+                        cn = " ".join(parts[:k])
+                        ct = " ".join(parts[k:])
+                        if _is_pdf_person_name(cn) and not _is_pdf_person_name(ct) and len(ct) >= 2:
+                            best = (cn, ct)
+                    if best:
+                        cand_name, cand_title = best
+
+            if cand_name and cand_title:
+                mark = "◎" if cand_name.startswith("◎") else ("○" if cand_name.startswith("○") else "")
+                clean_name = re.sub(r"\s+", "", cand_name.lstrip("◎○☆"))
+                inferred_role = role or legend.get(mark, "") or ("座長" if mark == "◎" else "")
+                extracted_rows.append({
+                    "council_id": cid,
+                    "body": "",
+                    "group": d.get("section", "") or "構成員",
+                    "as_of": as_of_iso,
+                    "as_of_raw": as_of_raw,
+                    "name": clean_name,
+                    "kana": "",
+                    "mark": mark,
+                    "role": inferred_role,
+                    "title": cand_title,
+                    "note": "",
+                    "source": d.get("source", ""),
+                })
+
+        if len(extracted_rows) >= 3:
+            b.members.extend(extracted_rows)
+            councils_with_members.add(cid)
 
 
 def _apply_llm_extractions(b: Builder, llm_path: Path, dated_now: list[dict]) -> None:
@@ -887,13 +1088,14 @@ def merge_dated(b: Builder, dated_now: list[dict]) -> None:
         m["n_documents"] = counts.get(m["meeting_id"], 0)
 
 
-def separate_series(councils: Councils, known_pages: set[str], url: str, blocks: list[Block]) -> frozenset[str]:
+def separate_series(councils: Councils, known_pages: set[str], url: str, blocks: list[Block], *,
+                    base_url: str = pages.BASE, hosts: tuple[str, ...] = ("www.mod.go.jp",)) -> frozenset[str]:
     """回次を別々に数えている見出しを探す。
 
     見出しごとに会議を拾ってみて、同じ回次なのに開催日が違う見出しの組があれば、
     その見出しは別系列（総会と部会、年度ごとの通し番号など）とみなす。
     """
-    probe = Builder(councils, known_pages)
+    probe = Builder(councils, known_pages, base_url=base_url, hosts=hosts)
     probe.page(url, blocks, split_all=True)
     dates: dict[str, dict[int, str]] = {}
     for m in probe.meetings:
@@ -955,20 +1157,39 @@ def write_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
 
 
 def main() -> int:
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
+    ap.add_argument("--sync-councils", action="store_true", help="保存済み一覧ページから councils.csv も再生成する")
     ap.add_argument("--dry-run", action="store_true", help="CSV を書き換えない")
     args = ap.parse_args()
 
-    b = build()
+    ag = agencies.get_agency(args.agency)
+    if args.sync_councils or not ag.councils_csv.exists():
+        sync_councils(
+            ag.councils_csv, ag.raw_pages_dir, index_url=ag.index_urls[0],
+            write=not args.dry_run, agency_id=ag.agency_id,
+        )
+
+    b = build(
+        councils_path=ag.councils_csv,
+        manifest=ag.pages_manifest,
+        root=ag.raw_pages_dir,
+        texts=ag.data_dir / "texts.csv",
+        repo=ag.repo,
+        base_url=ag.base_url,
+        hosts=tuple(ag.hosts),
+    )
     if not args.dry_run:
-        write_csv(DATA / "council_profiles.csv", PROFILE_FIELDS, b.profiles)
-        write_csv(DATA / "members.csv", MEMBER_FIELDS, b.members)
-        write_csv(DATA / "meetings.csv", MEETING_FIELDS, b.meetings)
-        write_csv(DATA / "documents.csv", DOCUMENT_FIELDS, b.documents)
-        write_csv(DATA / "attendance.csv", ATTENDANCE_FIELDS, b.attendance)
-        write_csv(DATA / "persons.csv", persons.PERSON_FIELDS, b.persons)
+        write_csv(ag.data_dir / "council_profiles.csv", PROFILE_FIELDS, b.profiles)
+        write_csv(ag.data_dir / "members.csv", MEMBER_FIELDS, b.members)
+        write_csv(ag.data_dir / "meetings.csv", MEETING_FIELDS, b.meetings)
+        write_csv(ag.data_dir / "documents.csv", DOCUMENT_FIELDS, b.documents)
+        write_csv(ag.data_dir / "attendance.csv", ATTENDANCE_FIELDS, b.attendance)
+        write_csv(ag.data_dir / "persons.csv", persons.PERSON_FIELDS, b.persons)
     with_meeting = sum(1 for d in b.documents if d["meeting_id"])
-    print(f"概要 {len(b.profiles)} 行 / 委員 {len(b.members)} 行 / 会議 {len(b.meetings)} 件 / "
+    print(f"[{ag.agency_id}] 概要 {len(b.profiles)} 行 / 委員 {len(b.members)} 行 / 会議 {len(b.meetings)} 件 / "
           f"資料 {len(b.documents)} 件（うち会議に結び付くもの {with_meeting} 件） / "
           f"出席者 {len(b.attendance)} 行（{len({a['meeting_id'] for a in b.attendance})} 会議）"
           + ("（dry-run）" if args.dry_run else ""))

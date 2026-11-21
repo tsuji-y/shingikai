@@ -1,0 +1,734 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="keywords"
+		content="アイヌ政策推進会議, アイヌ, アイヌ政策, Ainu, アイヌ民族, アイヌ文化, イランカラプテ, irankarapte, 内閣官房, アイヌ総合政策室, 先住民族, 先住民族政策, 政策推進作業部会, 象徴空間, 共生空間, 民族共生, 民族共生の象徴となる空間" />
+	<meta name="description" content="政府のアイヌ政策推進会議・内閣官房アイヌ総合政策室のホームページです。アイヌ政策に関する情報をご覧になれます。" />
+	<title>アイヌ政策推進会議</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/text.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/960.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script charset="utf-8" type="text/javascript" src="/jp/n5-common/js/jquery-3.6.0.min_202204.js"></script>
+	<script type="text/javascript"
+		src="/jp/seisakukaigi/ainusuishin/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="/jp/seisakukaigi/ainusuishin/js/default.js"></script>
+
+	<!-- countdown用 start -->
+	<script language="JavaScript" type="text/javascript">
+		function CountdownTimer(elm, tl, mes) {
+			this.initialize.apply(this, arguments);
+		}
+		CountdownTimer.prototype = {
+			initialize: function (elm, tl, mes) {
+				this.elem = document.getElementById(elm);
+				this.tl = tl;
+				this.mes = mes;
+			}, countDown: function () {
+				var timer = '';
+				var today = new Date();
+				var day = Math.floor((this.tl - today) / (24 * 60 * 60 * 1000)) + 1;
+				var me = this;
+
+				if ((this.tl - today) > 0) {
+					if (day) timer += '<strong>民族共生象徴空間の一般公開<br>2020年4月24日まで'
+
+						+ '&emsp;あと&emsp; ' + '<span class="day">' + day + '日！</span><strong>';
+					this.elem.innerHTML = timer;
+					tid = setTimeout(function () { me.countDown(); }, 10);
+				} else {
+					this.elem.innerHTML = this.mes;
+					return;
+				}
+			}, addZero: function (num) { return ('0' + num).slice(-2); }
+		}
+		function CDT() {
+			var tl = new Date('2020/4/24');
+			var timer = new CountdownTimer('CDT', tl, '一般公開！');
+			timer.countDown();
+		}
+		window.onload = function () {
+			CDT();
+		}
+	</script>
+
+	<style type="text/css">
+		#CDT {
+			font-size: 12px;
+			color: #008000;
+		}
+
+		#CDT .day {
+			font-size: 24px;
+		}
+
+		.mt-15 {
+			margin-top: -1.5em;
+		}
+
+		.mt-1 {
+			margin-top: -1em;
+		}
+
+		.fw-bld {
+			font-weight: bold;
+		}
+
+		.top_btn {
+			margin-top: 0px;
+			text-align: right;
+		}
+
+		button01 {
+			display: inline-block;
+			padding: 15px 20px;
+			text-align: center;
+			font-weight: bold;
+			color: white;
+			font-size: 100%;
+			color: #000;
+			margin-top: 10px;
+			margin-left: 10px;
+			margin-right: 10px;
+			border: 3px solid #FFD966;
+			border-radius: 5px;
+			cursor: pointer;
+			background: #FFD966;
+		}
+
+		button01:hover {
+			opacity: 0.5;
+		}
+
+		.bcp {
+			background: #FFD966;
+			padding-top: 10px;
+			padding-left: 13px;
+			padding-right: 10px;
+			padding-bottom: 10px;
+			width: 100%;
+			font-size: 1.4em;
+			color: #000;
+			font-weight: bold;
+			margin-bottom: 1em;
+			margin-top: 0.5em;
+			border-radius: 4px;
+		}
+	</style>
+	<!-- countdown用 end -->
+
+</head>
+
+<body>
+
+	<!-- ラッパーここから -->
+	<div id="wrapper">
+		<div align="center">
+			<noscript>当サイトではJavaScriptを使用しております。ご利用のブラウザ環境によっては、機能が一部限定される場合があります。<br>ブラウザの設定でJavaScriptを有効にしていただくことにより、より快適にご利用いただけます。</noscript>
+		</div>
+
+		<!-- ヘッダーここから -->
+		<div id="header" class="container_12">
+
+			<!-- タイトルロゴここから -->
+			<div id="logo" class="grid_8">
+				<a href="index.html">
+					<img src="images/ainu_sougou_seisakushitsu_title.png" alt="内閣官房アイヌ総合政策室" />
+				</a>
+			</div> <!-- #logo.grid_8 -->
+			<!-- タイトルロゴここまで -->
+
+			<!-- ヘッダメニューここから -->
+			<div id="header_menu" class="grid_4">
+
+				<!-- 検索 -->
+				<div align="right">
+					<form action="http://www.cas.go.jp/ja_cas/search.html" method="get">
+						<input type="text" name="q" value="" id="MF_form_phrase" size="20" maxlength="2047"
+							tabindex="10" autocomplete="off" />
+						<input type="submit" value="検索" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input type="hidden" name="page" value="1" />
+					</form>
+				</div>
+
+				<ul>
+					<li><a href="https://forms.office.com/r/DpD0KRb0mJ">ご意見・ご感想</a></li>
+					<li><a href="index_e.html">English</a></li>
+					<li style="list-style:none !important;"><a
+							href="https://www.facebook.com/pages/%E3%82%A2%E3%82%A4%E3%83%8C%E6%96%87%E5%8C%96%E6%83%85%E5%A0%B1%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%94%E3%83%AA%E3%82%AB%E3%82%AB%E3%83%B3%E3%83%94/138160266338840"><img
+								src="images/fb_pirkakampi_small.png" width="173" height="40"
+								alt="FB。アイヌ文化情報オンライン。ピリカカンピ" /></a></li>
+				</ul>
+
+			</div> <!-- #header_menu.grid_4 -->
+			<div class="clear"></div>
+			<!-- ヘッダメニューここまで -->
+
+			<!-- ナビゲーションバーここから -->
+			<div id="global_nav" class="grid_12">
+				<ul>
+					<li><a href="index.html" class="nav_current">トップページ<span>新着情報などを紹介しています。</span></a></li>
+					<li><a href="policy.html">アイヌ政策の概要<span>政府のアイヌ政策の概要や最近の動向を紹介しています。</span></a></li>
+					<li><a href="documents.html">報 告 書 等<span>これまで取りまとめられた報告書を公開しています。</span></a></li>
+					<li><a href="meetings.html">会議開催状況等<span>アイヌ政策推進会議・作業部会の議事概要などを公開しています。</span></a></li>
+					<li><a href="return.html">遺骨返還<span>アイヌ遺骨等の返還手続きについて</span></a></li>
+					<li><a href="links.html">リ ン ク<span>関係機関へのリンクです。</span></a></li>
+				</ul>
+			</div> <!-- #global_nav.grid_12 -->
+			<!-- ナビゲーションバーここまで -->
+
+		</div> <!-- #header.container_12 -->
+		<div class="clear"></div>
+		<!-- ヘッダーここまで -->
+
+		<!-- メインコンテンツここから -->
+		<div id="main" class="container_12">
+			<div id="contents" class="grid_12">
+
+				<!-- バナーボタンここから -->
+				<div class="top_btn">
+					<a href="/jp/seisakukaigi/ainusuishin/jinkensoudan_madoguchi.html" target="_blank">
+						<button01>アイヌの方々に対する誹謗中傷等インターネット上の書き込み等に関する相談・連絡窓口はこちら</button01>
+					</a>
+				</div>
+				<!-- バナーボタンここまで -->
+
+				<!-- スライドショーここから -->
+				<div id="slide_container">
+					<div id="slides">
+
+						<!-- スライド1 -->
+						<div class="slide">
+							<div class="left" style="width:400px !important;">
+								<!--img src="slides/ainusuishin20260116.jpg" height="320" alt="相談・連絡窓口" /--><img
+									src="slides/ainusuishin20260116.jpg" height="320" alt="相談・連絡窓口" />
+							</div> <!-- .left -->
+							<div class="right" style="width:260px; word-break: break-all !important;">
+								<div class="bcp">アイヌの方々に対する誹謗中傷等インターネット上の書き込み等に関する相談・連絡窓口</div>
+								<span style="font-weight:normal; font-size: 1.2em;"><a
+										href="/jp/seisakukaigi/ainusuishin/jinkensoudan_madoguchi.html">https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/jinkensoudan_madoguchi.html</a></span>
+							</div> <!-- .right -->
+						</div> <!-- .slide1 -->
+
+
+						<!-- スライド2 -->
+						<div class="slide">
+							<div class="left">
+								<img src="slides/ainusuishin20251213.JPG" height="95%" alt="大臣" />
+							</div> <!-- .left -->
+							<div class="right">
+								<h6>アイヌ政策推進会議（第１６回）</h6>
+								<p>令和7年12月13日、アイヌ政策推進会議（第16回）が開催されました。</p>
+								<div>
+									・<a href="/jp/seisakukaigi/ainusuishin/dai16/gijisidai.html" target="_blank">議事次第</a>
+									・<a href="/jp/seisakukaigi/ainusuishin/dai16/haifu_siryou.html" target="_blank">配布資料</a>
+									・<a href="/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf" target="_blank">議事概要</a>
+								</div>
+							</div> <!-- .right -->
+						</div> <!-- .slide2 -->
+
+
+						<!-- スライド3 -->
+						<div class="slide">
+							<div class="left">
+								<img src="slides/upopoi.jpg" width="450" height="264" alt="" />
+							</div> <!-- .left -->
+							<div class="right">
+								<h6>民族共生象徴空間（愛称：ウポポイ）</h6>
+								<p class="mt-15">
+									民族共生象徴空間は、アイヌ文化の復興等に関するナショナルセンターとして北海道白老郡白老町に整備され、2020年（令和2年）7月12日に開業しました。<br>
+								</p>
+								<h6>ウポポイ公式サイト<br />
+									<span style="font-weight:normal"><a
+											href="https://ainu-upopoy.jp/">https://ainu-upopoy.jp/</a></span>
+								</h6>
+							</div> <!-- .right -->
+						</div> <!-- .slide3 -->
+
+
+						<!-- スライド4 -->
+						<div class="slide">
+							<div class="left">
+								<img src="slides/fb_pirkakampi_image.jpg" width="427" height="220" alt=""
+									id="onePhraseAinuLang" style="display:none;" />
+							</div> <!-- .left -->
+							<div class="right">
+								<h6>「ピ<font style="font-size:11px !important;">リ</font>カカンピ」Facebookページの開設</h6>
+								<p>平成25年5月17日、アイヌ政策関係機関による情報発信のためのFacebookページ<a
+										href="https://www.facebook.com/pages/%E3%82%A2%E3%82%A4%E3%83%8C%E6%96%87%E5%8C%96%E6%83%85%E5%A0%B1%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%94%E3%83%AA%E3%82%AB%E3%82%AB%E3%83%B3%E3%83%94/138160266338840"
+										target="_blank">アイヌ文化情報オンライン「ピ<font style="font-size:10px !important;">リ
+										</font>
+										カカンピ」</a>を開設しました。</p>
+								<p>運用ポリシーは<a href="pirkakampi_policy.html">こちら</a>をご覧ください。</p>
+								<p><a href="https://www.facebook.com/pages/%E3%82%A2%E3%82%A4%E3%83%8C%E6%96%87%E5%8C%96%E6%83%85%E5%A0%B1%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%83%94%E3%83%AA%E3%82%AB%E3%82%AB%E3%83%B3%E3%83%94/138160266338840"
+										target="_blank"><img src="images/fb_pirkakampi.png" width="260" height="60"
+											alt="FB。アイヌ文化情報オンライン。ピリカカンピ" /></a></p>
+							</div> <!-- .right -->
+						</div> <!-- .slide4 -->
+
+
+					</div> <!-- #slides -->
+				</div> <!-- #slide_container -->
+				<div class="clear"></div>
+				<!-- スライドショーここまで -->
+
+
+				<!-- トピックスここから -->
+				<div id="topics">
+					<h3>新着情報・トピックス</h3>
+
+					<div class="tabular-list">
+
+						<ul class="grid_12">
+
+							<li class="grid_2 alpha">令和8年5月19日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/return/04.html"
+									target="_blank">英国（自然史博物館）から返還されたアイヌ遺骨の出土地域への返還手続が開始されました。</a>
+							</li>
+
+							<li class="grid_2 alpha">令和7年12月24日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/jinkensoudan_madoguchi.html"
+									target="_blank">「アイヌの方々に対する誹謗中傷等インターネット上の書き込み等に関する相談・連絡窓口」のページが公開され<br />ました。</a>
+							</li>
+
+							<li class="grid_2 alpha">令和7年12月13日</li>
+							<li class="grid_10 omega">第16回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai16/gijisidai.html" target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai16/haifu_siryou.html" target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf"
+									target="_blank">議事概要（PDF／664KB）</a>）
+							</li>
+
+							<li class="grid_2 alpha">令和7年12月1日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/return/03.html"
+									target="_blank">英国（自然史博物館）所在のアイヌ遺骨の出土地域への返還手続が開始されました。</a></li>
+
+							<li class="grid_2 alpha">令和7年6月10日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/meetings.html"
+									target="_blank">EXPO2025
+									大阪・関西万博「イランカラ<span style="font-size: 75%;">プ</span>テ～アイヌ文化をウポポイから～」開催されます</a>
+							</li>
+
+							<li class="grid_2 alpha">令和7年4月25日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/pdf/r06_chousa.pdf"
+									target="_blank">「国民のアイヌに対する理解度についての意識調査」（令和６年度）の調査結果が公表されました。（PDF／602KB）</a>
+							</li>
+
+							<li class="grid_2 alpha">令和7年4月17日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/meetings.html"
+									target="_blank">EXPO2025
+									大阪・関西万博「アイヌ舞踊の披露 ウレ<span style="font-size: 80%;">シ</span>パ&nbsp; モシ<span
+										style="font-size: 80%;">リ</span>」観覧予約申込が開始されました。</a></li>
+
+							<li class="grid_2 alpha">令和7年2月28日</li>
+							<li class="grid_10 omega"><a href="return/02.html"
+									target="_blank">英国所在のアイヌ遺骨の出土地域への返還に係る他の団体からの申請等の有無の確認手続が開始されました。</a></li>
+
+							<li class="grid_2 alpha">令和6年7月30日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/return/01.html"
+									target="_blank">英国所在のアイヌ遺骨の出土地域への返還手続が開始されました。</a></li>
+
+							<li class="grid_2 alpha">令和6年7月9日</li>
+							<li class="grid_10 omega">第15回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai15/gijisidai.html" target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai15/haifu_siryou.html" target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／404KB）</a>）
+							</li>
+
+							<li class="grid_2 alpha">令和5年7月7日</li>
+							<li class="grid_10 omega">第14回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai14/gijisidai.html" target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai14/haifu_siryou.html" target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／349KB）</a>）
+							</li>
+
+							<li class="grid_2 alpha">令和5年5月30日</li>
+							<li class="grid_10 omega">第3回ウポポイへの来場促進に向けた連絡会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijisidai.html"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/haifu_siryou.html"
+									target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／113KB）</a>）</li>
+
+							<li class="grid_2 alpha">令和5年2月7日</li>
+							<li class="grid_10 omega">第2回ウポポイへの来場促進に向けた連絡会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijisidai.html"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/haifu_siryou.html"
+									target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／160KB）</a>）</li>
+
+							<li class="grid_2 alpha">令和4年11月1日</li>
+							<li class="grid_10 omega">第1回ウポポイへの来場促進に向けた連絡会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijisidai.html"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/haifu_siryou.html"
+									target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／98KB）</a>）</li>
+
+							<li class="grid_2 alpha">令和4年10月12日</li>
+							<li class="grid_10 omega"><a href="https://www.mlit.go.jp/report/press/hok01_hh_000046.html"
+									target="_blank">「民族共生象徴空間」(愛称：ウポポイ)」が無料開放されます！</a></li>
+
+							<li class="grid_2 alpha">令和4年7月14日</li>
+							<li class="grid_10 omega">第13回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai13/gijisidai.html" target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai13/haifu_siryou.html" target="_blank">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／306KB）</a>）
+							</li>
+
+							<li class="grid_2 alpha">令和4年7月13日</li>
+							<li class="grid_10 omega"><a href="pdf/20220713_hassin.pdf"
+									target="_blank">高橋はるみ文部科学大臣政務官がアイヌ政策推進会議の新しい座長代理に指名されました。（PDF／228KB）</a></li>
+
+							<li class="grid_2 alpha">令和3年7月30日</li>
+							<li class="grid_10 omega"><a href="pdf/20210730_hassin.pdf"
+									target="_blank">東京オリンピックにおけるアイヌ文化とウポポイの情報発信について（PDF／148KB）</a></li>
+
+							<li class="grid_2 alpha">令和3年7月19日</li>
+							<li class="grid_10 omega"><a href="pdf/20210719_hassin.pdf"
+									target="_blank">東京オリンピックにおけるアイヌ文化とウポポイの情報発信について（PDF／916KB）</a></li>
+
+							<li class="grid_2 alpha">令和3年6月10日</li>
+							<li class="grid_10 omega">第12回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai12/gijisidai.html">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai12/haifu_siryou.html">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf"
+									target="_blank">議事概要（PDF／392KB）</a>）
+							</li>
+
+							<li class="grid_2 alpha">令和3年6月9日</li>
+							<li class="grid_10 omega"><a href="pdf/20210609_simei.pdf"
+									target="_blank">和田義明内閣府大臣政務官がアイヌ政策推進会議の新しい座長代理に指名されました。（PDF／233KB）</a></li>
+
+							<li class="grid_2 alpha">令和2年6月19日</li>
+							<li class="grid_10 omega"><a href="pdf/20200619_kaigyou.pdf"
+									target="_blank">「民族共生象徴空間」（愛称：ウポポイ）の開業及び開業記念式典について（PDF／63KB）</a></li>
+
+							<li class="grid_2 alpha">令和2年6月2日</li>
+							<li class="grid_10 omega"><a href="pdf/20200602_nairan.pdf"
+									target="_blank">「民族共生象徴空間」（愛称：ウポポイ）における白老町民向け内覧会の実施について（PDF／53KB）</a></li>
+
+							<li class="grid_2 alpha">令和2年5月8日</li>
+							<li class="grid_10 omega"><a href="pdf/20200508_enki.pdf"
+									target="_blank">「民族共生象徴空間」（愛称：ウポポイ）の開業及び開園記念式典の延期について（PDF／59KB）</a></li>
+
+							<li class="grid_2 alpha">令和2年4月29日</li>
+							<li class="grid_10 omega"><a href="pdf/20200429_jokun.pdf"
+									target="_blank">令和２年春の叙勲について（PDF／88KB）</a></li>
+
+							<li class="grid_2 alpha">令和2年4月7日</li>
+							<li class="grid_10 omega"><a href="pdf/20200407_enki.pdf"
+									target="_blank">「民族共生象徴空間」（愛称：ウポポイ）の開業及び開園記念式典の延期について</a></li>
+
+							<li class="grid_2 alpha">令和2年2月17日</li>
+							<li class="grid_10 omega"><a href="pdf/20200210_kaisai.pdf"
+									target="_blank">「民族共生象徴空間」（愛称：ウポポイ）開園記念式典の開催について</a></li>
+
+							<li class="grid_2 alpha">令和元年9月6日</li>
+							<li class="grid_10 omega"><a
+									href="/jp/seisakukaigi/ainusuishin/policy.html#recent_history">「アイヌ施策の総合的かつ効果的な推進を図るための基本的な方針」が閣議決定されました。</a>
+							</li>
+
+							<li class="grid_2 alpha">令和元年7月29日</li>
+							<li class="grid_10 omega">アイヌ政策推進本部会合（第１回）が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/honbukaigou/dai1/gijisidai.html">議事次第・配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/honbukaigou/dai1/gijiroku.pdf" target="_blank">議事録</a>）
+							</li>
+
+							<li class="grid_2 alpha">令和元年5月17日</li>
+							<li class="grid_10 omega"><a
+									href="policy.html#recent_history">「アイヌの人々の誇りが尊重される社会を実現するための施策の推進に関する法律の施行期日を定める政令」及び「アイヌの人々の誇りが尊重される社会を実現するための施策の推進に関する法律施行令」が閣議決定されました。</a><!--・<a href="/jp/seisakukaigi/ainusuishin/dai11/gijigaiyou.pdf" target="_blank">議事概要</a> -->
+							</li>
+
+							<li class="grid_2 alpha">平成31年2月15日</li>
+							<li class="grid_10 omega"><a
+									href="policy.html#recent_history">「アイヌの人々の誇りが尊重される社会を実現するための施策の推進に関する法律案」が閣議決定されました。</a><!--・<a href="/jp/seisakukaigi/ainusuishin/dai11/gijigaiyou.pdf" target="_blank">議事概要</a> -->
+							</li>
+
+							<li class="grid_2 alpha">平成30年12月26日</li>
+							<li class="grid_10 omega"><a
+									href="documents.html">「大学の保管するアイヌ遺骨等の出土地域への返還手続に関するガイドライン」を公表しました。</a><!--・<a href="/jp/seisakukaigi/ainusuishin/dai11/gijigaiyou.pdf" target="_blank">議事概要</a> -->
+							</li>
+
+							<li class="grid_2 alpha">平成30年12月19日</li>
+							<li class="grid_10 omega">第11回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai11/gijisidai.html">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai11/haifu_siryou.html">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai11/gijigaiyou.pdf" target="_blank">議事概要</a>）</li>
+
+							<li class="grid_2 alpha">平成30年12月18日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/pdf/info_181218.pdf"
+									target="_blank">中村裕之文部科学大臣政務官がアイヌ政策推進会議の新しい座長代理に指名されました。</a></li>
+
+							<li class="grid_2 alpha">平成30年12月11日</li>
+							<li class="grid_10 omega">民族共生象徴空間の愛称（ウポポイ）及びロゴマークが決定しました。<a href="https://ainu-upopoy.jp/"
+									target="_blank">（お知らせ）</a></li>
+
+							<li class="grid_2 alpha">平成30年12月3日</li>
+							<li class="grid_10 omega"><a href="http://www.mlit.go.jp/report/press/hok01_hh_000031.html"
+									target="_blank">『民族共生象徴空間&emsp;開設PRｲﾍﾞﾝﾄ feel kamuy TOKYO』を開催します。</a></li>
+
+							<li class="grid_2 alpha">平成30年10月26日</li>
+							<li class="grid_10 omega">民族共生象徴空間ポータルサイトを開設しました。<a href="https://ainu-upopoy.jp/"
+									target="_blank">（お知らせ）</a></li>
+
+							<li class="grid_2 alpha">平成30年7月30日</li>
+							<li class="grid_10 omega">アイヌ総合政策室の移転について<a href="pdf/iten_180731.pdf"
+									target="_blank">（お知らせ）</a></li>
+
+							<li class="grid_2 alpha">平成30年5月14日</li>
+							<li class="grid_10 omega">第10回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai10/gijisidai.html">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai10/haifu_siryou.html">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai10/gijigaiyou.pdf" target="_blank">議事概要</a> ）
+							</li>
+
+							<li class="grid_2 alpha">平成30年4月27日</li>
+							<li class="grid_10 omega">第34回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai34/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai34/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成30年3月23日</li>
+							<li class="grid_10 omega">第33回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai33/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai33/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成30年3月1日</li>
+							<li class="grid_10 omega">アイヌ政策再構築に係る地域説明会（３月１２日（月）開催地：白老町）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300312_siraioi.pdf" target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（３月１１日（日）開催地：札幌市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300311_sapporo.pdf" target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（３月１１日（日）開催地：旭川市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300311_asahikawa.pdf" target="_blank">開催概要</a>）
+							</li>
+
+							<li class="grid_2 alpha">平成30年 2月20日</li>
+							<li class="grid_10 omega">
+								アイヌ政策再構築に係る地域説明会（３月５日（月）開催地：伊達市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300305_dategaiyou.pdf"
+									target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（３月４日（日）開催地：千歳市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300304_chitosegaiyou.pdf"
+									target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（２月２８日（水）開催地：平取町）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300228_hiratorigaiyou.pdf"
+									target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（２月２５日（日）開催地：東京都）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300225_toykogaiyou.pdf" target="_blank">開催概要</a>）
+							</li>
+
+							<li class="grid_2 alpha">平成30年 2月 9日</li>
+							<li class="grid_10 omega">アイヌ政策再構築に係る地域説明会（２月１５日（木）開催地：八雲町）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300215_kaisaigaiyou.pdf" target="_blank">開催概要</a>）
+							</li>
+							<li class="grid_2 alpha">平成30年 1月26日</li>
+							<li class="grid_10 omega"><a href="pdf/info_180126.pdf"
+									target="_blank">堀井学外務大臣政務官がアイヌ政策推進会議の新しい座長代理に指名されました。</a></li>
+
+							<li class="grid_2 alpha">平成30年 1月26日</li>
+							<li class="grid_10 omega">
+								アイヌ政策再構築に係る地域説明会（２月４日（日）開催地：新ひだか町）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300204_kaisaigaiyou.pdf"
+									target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（１月３１日（水）開催地：帯広市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300131_kaisaigaiyou.pdf"
+									target="_blank">開催概要</a>）<br>
+								アイヌ政策再構築に係る地域説明会（１月３０日（火）開催地：釧路市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h300130_kaisaigaiyou.pdf" target="_blank">開催概要</a> ）
+							</li>
+
+							<li class="grid_2 alpha">平成30年 1月19日</li>
+							<li class="grid_10 omega">先住民族国際シンポジウムを開催しました。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h291125_kaisaikekka.pdf" target="_blank">開催概要</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h291125_gijigaiyou.pdf" target="_blank">議事概要</a>
+								）
+							</li>
+
+							<li class="grid_2 alpha">平成29年12月11日</li>
+							<li class="grid_10 omega">アイヌ政策再構築に係る地域説明会（１２月１４日（木）開催地：網走市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h291214_tiikisetsumei.pdf" target="_blank">開催概要</a>）
+							</li>
+
+							<li class="grid_2 alpha">平成29年11月08日</li>
+							<li class="grid_10 omega">
+								先住民族国際シンポジウム『アイヌ文化復興に向けて～ニュージーランドから学ぶこと～』（１１月２５日（土）開催地：札幌市）を開催します。（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/h291125_symposium.pdf" target="_blank">開催概要</a>
+								）
+							</li>
+
+							<li class="grid_2 alpha">平成29年10月06日</li>
+							<li class="grid_10 omega">第32回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai32/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai32/gijigaiyou.pdf"
+									target="_blank">議事概要</a>）</li>
+
+							<li class="grid_2 alpha">平成29年07月31日</li>
+							<li class="grid_10 omega">ドイツからアイヌ遺骨が返還されました。 （<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/290731_gaiyou.pdf" target="_blank">概要</a>）</li>
+
+							<li class="grid_2 alpha">平成29年06月27日</li>
+							<li class="grid_10 omega">
+								『アイヌ文化の復興等を促進するための「民族共生の象徴となる空間」の整備及び管理運営に関する基本方針について』の一部変更が閣議決定されました。 （<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/290627kakugi.pdf" target="_blank">閣議決定本文</a>）
+							</li>
+
+							<li class="grid_2 alpha">平成29年05月23日</li>
+							<li class="grid_10 omega">第９回アイヌ政策推進会議が開催されました。 （<a
+									href="/jp/seisakukaigi/ainusuishin/dai9/gijisidai.html">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai9/haifu_siryou.html">配布資料</a> ・<a
+									href="/jp/seisakukaigi/ainusuishin/dai9/gijigaiyou.pdf" target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成29年04月21日</li>
+							<li class="grid_10 omega">第31回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai31/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai31/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成29年04月06日</li>
+							<li class="grid_10 omega"><a href="pdf/info_170406.pdf"
+									target="_blank">橘慶一郎復興副大臣がアイヌ政策推進会議の新しい座長代理に指名されました。</a></li>
+
+							<li class="grid_2 alpha">平成29年03月23日</li>
+							<li class="grid_10 omega">第30回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai30/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai30/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成29年02月16日</li>
+							<li class="grid_10 omega">第29回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai29/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai29/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成28年11月07日</li>
+							<li class="grid_10 omega">第28回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai28/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai28/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成28年10月06日</li>
+							<li class="grid_10 omega">第27回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai27/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai27/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成28年07月28日</li>
+							<li class="grid_10 omega">第26回政策推進作業部会が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai26/gijisidai.pdf"
+									target="_blank">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/seisakusuishin/dai26/gijigaiyou.pdf"
+									target="_blank">議事概要</a> ） </li>
+
+							<li class="grid_2 alpha">平成28年07月22日</li>
+							<li class="grid_10 omega">「民族共生象徴空間」基本構想が改定されました。 （<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/point20160726.pdf" target="_blank">ポイント</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/gaiyou20160726.pdf" target="_blank">概要</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/kousou20160726.pdf" target="_blank">全文</a>）</li>
+
+							<li class="grid_2 alpha">平成28年06月14日</li>
+							<li class="grid_10 omega"><a href="http://www.jinken.or.jp/archives/10348"
+									target="_blank">アイヌの方々のための電話相談事業の実施について </a></li>
+
+							<li class="grid_2 alpha">平成28年05月13日</li>
+							<li class="grid_10 omega">第8回アイヌ政策推進会議が開催されました。（<a
+									href="/jp/seisakukaigi/ainusuishin/dai8/gijisidai.html">議事次第</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai8/haifu_siryou.html">配布資料</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/dai8/gijigaiyou.pdf" target="_blank">議事概要</a> ）</li>
+
+							<li class="grid_2 alpha">平成28年05月13日</li>
+							<li class="grid_10 omega"><a href="/jp/seisakukaigi/ainusuishin/dai8/meishou.pdf"
+									target="_blank">第８回アイヌ政策推進会議において象徴空間及びその主要施設の正式名称が了承されました。</a></li>
+
+							<li class="grid_2 alpha">平成28年03月22日</li>
+							<li class="grid_10 omega">「国民のアイヌに対する理解度についての意識調査」の結果について<br>（<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/rikaido_houkoku160322.pdf"
+									target="_blank">調査報告書</a>・<a
+									href="/jp/seisakukaigi/ainusuishin/pdf/rikaido_siryou160322.pdf"
+									target="_blank">参考資料</a>）（<a
+									href="http://survey.gov-online.go.jp/tokubetu/tindex-all.html"
+									target="_blank">内閣府ホームページ</a>）</li>
+
+							<li class="grid_2 alpha">平成27年12月25日</li>
+							<li class="grid_10 omega"><a href="pdf/info_151225.pdf"
+									target="_blank">伊東良孝農林水産副大臣がアイヌ政策推進会議の新しい座長代理に指名されました。</a></li>
+
+							<li class="grid_2 alpha">平成26年06月13日</li>
+							<li class="grid_10 omega">
+								『アイヌ文化の復興等を促進するための「民族共生の象徴となる空間」の整備及び管理運営に関する基本方針について』が閣議決定されました。（<a
+									href="pdf/260613kakugi.pdf" target="_blank">閣議決定本文</a>）</li>
+
+						</ul> <!-- .grid_12 -->
+
+					</div> <!-- .tabular-list -->
+				</div> <!-- #topics -->
+
+				<p style="text-align:right;">
+					<img src="images/arrow-small.png" alt="" /> <a href="index.html#top">ページの先頭に戻る</a>
+				</p>
+				<!-- トピックスここまで -->
+
+				<!-- アイヌ政策推進会議説明ここから -->
+				<div id="about">
+					<h3>アイヌ政策推進会議について</h3>
+					<h4>アイヌ政策推進会議</h4>
+					<p>アイヌ政策推進会議では、<a href="/jp/seisakukaigi/ainusuishin/pdf/siryou1.pdf"
+							target="_blank">「アイヌ政策のあり方に関する有識者懇談会報告書」</a>（平成21年7月）を受け、アイヌの人々の意見を踏まえつつ、総合的かつ効果的なアイヌ政策を推進しています。
+					</p>
+
+					<h4>内閣官房アイヌ総合政策室</h4>
+					<p>内閣官房アイヌ総合政策室は、アイヌ政策推進会議の事務局を務めるとともに、政府のアイヌ政策に関する総合調整を行っています。</p>
+				</div> <!-- #about -->
+
+				<p style="text-align:right;">
+					<img src="images/arrow-small.png" alt="" /> <a href="index.html#top">ページの先頭に戻る</a>
+				</p>
+				<!-- アイヌ政策推進会議説明ここまで -->
+
+			</div> <!-- #contents.grid_12 -->
+			<div class="clear"></div>
+		</div> <!-- #main.container_12 -->
+		<!-- メインコンテンツここまで -->
+
+	</div> <!-- #wrapper -->
+	<!-- ラッパーここまで -->
+
+	<!-- フッターここから -->
+	<div id="footer">
+		<div class="container_12">
+			<div class="grid_12">
+				<p id="footer_logo">内閣官房アイヌ総合政策室</p>
+				<p>〒100-8918&emsp;東京都千代田区霞が関2-1-2&emsp;中央合同庁舎2号館13階</p>
+				<p>TEL: 03-3580-1790&emsp;FAX: 03-3580-1799</p>
+				<p>&copy; 2012 Comprehensive Ainu Policy Office, Cabinet Secretariat, Government of Japan. All
+					Rights
+					Reserved.</p>
+			</div> <!-- .grid_12 -->
+		</div> <!-- .container_12 -->
+	</div> <!-- #footer -->
+	<!-- フッターここまで -->
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+{
+  "mod": {
+    "name": "防衛省",
+    "tier": "A",
+    "stage": "1",
+    "base_url": "https://www.mod.go.jp",
+    "hosts": ["www.mod.go.jp"],
+    "index_urls": ["/j/policy/agenda/meeting/index.html"],
+    "page_prefixes": ["/j/policy/agenda/meeting/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 3,
+    "rss_feeds": {
+      "update": "https://www.mod.go.jp/j/rss/update.xml",
+      "news": "https://www.mod.go.jp/j/rss/news.xml"
+    }
+  },
+  "digital": {
+    "name": "デジタル庁",
+    "tier": "A",
+    "stage": "2A",
+    "base_url": "https://www.digital.go.jp",
+    "hosts": ["www.digital.go.jp"],
+    "index_urls": ["/councils"],
+    "page_prefixes": ["/councils/"],
+    "allow_extensionless_pages": true,
+    "max_depth": 2,
+    "rss_feeds": {
+      "news": "https://www.digital.go.jp/rss/news.xml"
+    }
+  },
+  "cfa": {
+    "name": "こども家庭庁",
+    "tier": "A",
+    "stage": "2A",
+    "base_url": "https://www.cfa.go.jp",
+    "hosts": ["www.cfa.go.jp"],
+    "index_urls": ["/councils/meetings", "/councils/shingikai"],
+    "page_prefixes": ["/councils/"],
+    "allow_extensionless_pages": true,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "cas": {
+    "name": "内閣官房",
+    "tier": "A",
+    "stage": "2B",
+    "base_url": "https://www.cas.go.jp",
+    "hosts": ["www.cas.go.jp"],
+    "index_urls": ["/jp/seisaku/index.html", "/jp/seisaku/abolition_list.html"],
+    "page_prefixes": ["/jp/seisaku/", "/jp/seisakukaigi/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "cao": {
+    "name": "内閣府",
+    "tier": "A",
+    "stage": "2B",
+    "base_url": "https://www.cao.go.jp",
+    "hosts": ["www.cao.go.jp", "www5.cao.go.jp", "www8.cao.go.jp", "wwwa.cao.go.jp"],
+    "index_urls": ["/council.html"],
+    "page_prefixes": ["/council", "/shingi", "/seisaku", "/bunken", "/pfi", "/kisei", "/consumer"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "maff": {
+    "name": "農林水産省",
+    "tier": "A",
+    "stage": "2C",
+    "base_url": "https://www.maff.go.jp",
+    "hosts": ["www.maff.go.jp", "www.rinya.maff.go.jp", "www.jfa.maff.go.jp"],
+    "index_urls": ["/j/council/index.html", "/j/study/index.html"],
+    "page_prefixes": ["/j/council/", "/j/study/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "mof": {
+    "name": "財務省",
+    "tier": "A",
+    "stage": "3",
+    "base_url": "https://www.mof.go.jp",
+    "hosts": ["www.mof.go.jp"],
+    "index_urls": ["/about_mof/councils/index.htm"],
+    "page_prefixes": ["/about_mof/councils/", "/policy/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "moj": {
+    "name": "法務省",
+    "tier": "A",
+    "stage": "3",
+    "base_url": "https://www.moj.go.jp",
+    "hosts": ["www.moj.go.jp"],
+    "index_urls": ["/shingikai_index.html", "/sonota_index.html", "/shingikaikako_index.html"],
+    "page_prefixes": ["/shingi", "/housei/", "/keiji/", "/minji/", "/jinken/", "/kyousei/", "/hogo/", "/nyuukoku/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "env": {
+    "name": "環境省",
+    "tier": "A",
+    "stage": "3",
+    "base_url": "https://www.env.go.jp",
+    "hosts": ["www.env.go.jp"],
+    "index_urls": ["/council/b_info.html", "/council/sonota.html", "/council/o_info.html"],
+    "page_prefixes": ["/council/"],
+    "allow_extensionless_pages": true,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "fsa": {
+    "name": "金融庁",
+    "tier": "A",
+    "stage": "3",
+    "base_url": "https://www.fsa.go.jp",
+    "hosts": ["www.fsa.go.jp"],
+    "index_urls": ["/singi/"],
+    "page_prefixes": ["/singi/"],
+    "allow_extensionless_pages": true,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "caa": {
+    "name": "消費者庁",
+    "tier": "A",
+    "stage": "3",
+    "base_url": "https://www.caa.go.jp",
+    "hosts": ["www.caa.go.jp"],
+    "index_urls": ["/notice/conference/"],
+    "page_prefixes": ["/policies/policy/", "/policies/council/", "/notice/conference/"],
+    "allow_extensionless_pages": true,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "mext": {
+    "name": "文部科学省",
+    "tier": "A",
+    "stage": "4",
+    "base_url": "https://www.mext.go.jp",
+    "hosts": ["www.mext.go.jp"],
+    "index_urls": ["/b_menu/shingi/main_b5.htm"],
+    "page_prefixes": ["/b_menu/shingi/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "mlit": {
+    "name": "国土交通省",
+    "tier": "A",
+    "stage": "4",
+    "base_url": "https://www.mlit.go.jp",
+    "hosts": ["www.mlit.go.jp"],
+    "index_urls": ["/policy/shingikai/index.html", "/policy/shingikai/shingikaiList.html"],
+    "page_prefixes": ["/policy/shingikai/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "npa": {
+    "name": "警察庁",
+    "tier": "A",
+    "stage": "4",
+    "base_url": "https://www.npa.go.jp",
+    "hosts": ["www.npa.go.jp"],
+    "index_urls": [
+      "/bureau/traffic/council/index.html",
+      "/bureau/safetylife/stalker/index.html"
+    ],
+    "page_prefixes": ["/bureau/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "ppc": {
+    "name": "個人情報保護委員会",
+    "tier": "B",
+    "stage": "4",
+    "base_url": "https://www.ppc.go.jp",
+    "hosts": ["www.ppc.go.jp"],
+    "index_urls": ["/personalinfo/kentohkai/"],
+    "page_prefixes": ["/personalinfo/kentohkai/"],
+    "allow_extensionless_pages": true,
+    "max_depth": 2,
+    "rss_feeds": {}
+  },
+  "mhlw": {
+    "name": "厚生労働省",
+    "tier": "B",
+    "stage": "4",
+    "base_url": "https://www.mhlw.go.jp",
+    "hosts": ["www.mhlw.go.jp"],
+    "index_urls": ["/stf/shingi/indexshingi.html", "/stf/shingi/other-kami.html"],
+    "page_prefixes": ["/stf/shingi/"],
+    "allow_extensionless_pages": false,
+    "max_depth": 2,
+    "rss_feeds": {}
+  }
+}

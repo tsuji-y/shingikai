@@ -22,12 +22,35 @@ REPO = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO / "raw" / "mod" / "pages"
 
 # rt・rp はふりがな。本文に混ぜると「三島みしま 茂徳しげのり」のようになるので読み飛ばす
-SKIP_TAGS = {"script", "style", "noscript", "header", "footer", "nav", "rt", "rp"}
+SKIP_TAGS = {"script", "style", "noscript", "header", "footer", "nav", "rt", "rp", "head", "aside"}
+VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+SKIP_ROLES = {"navigation", "banner", "contentinfo", "search"}
+SKIP_ATTR_RE = re.compile(
+    r"(?:^|[\s_-])(?:header|footer|gnav|global-nav|top_navi|sidenav|side-nav|local-nav|"
+    r"breadcrumb|breadcrumbs|topicpath|topicPathBlock|pankuzu|navigation-skip|skip-link|"
+    r"page-top|page_top|pageTop|adobe_reader|header_up_bg|tab_body|linkbar)(?:$|[\s_-])",
+    re.I,
+)
 HEADING_TAGS = {"h1", "h2", "h3", "h4", "h5", "h6"}
 # 段落の切れ目になるタグ。表の中ではセル内の改行として扱う。
 BREAK_TAGS = {"p", "li", "div", "section", "article", "ul", "ol", "dl", "dt", "dd", "br",
               "table", "caption", "blockquote", "pre", "hr", "figure", "figcaption"}
 NEW_WINDOW = "別ウィンドウで開く"
+
+
+def _should_skip_element(tag: str, attrs_dict: dict[str, str | None]) -> bool:
+    if tag in ("html", "body", "main"):
+        return False
+    if tag in SKIP_TAGS:
+        return True
+    role = (attrs_dict.get("role") or "").lower().strip()
+    if role in SKIP_ROLES:
+        return True
+    for attr in ("id", "class"):
+        val = attrs_dict.get(attr) or ""
+        if val and SKIP_ATTR_RE.search(val):
+            return True
+    return False
 
 
 @dataclass
@@ -56,6 +79,7 @@ class Block:
 
 def clean(text: str) -> str:
     """行ごとに空白を詰め、空行を落とす。"""
+    text = text.replace("\ufeff", "")
     lines = [re.sub(r"[ \t\r\f\v　\xa0]+", " ", ln).strip() for ln in text.split("\n")]
     return "\n".join(ln for ln in lines if ln)
 
@@ -70,7 +94,7 @@ class _Parser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.base_url = base_url
         self.blocks: list[Block] = []
-        self.skip = 0
+        self.skip_stack: list[str] = []
         self.headings: dict[int, str] = {}
         self.heading_level = 0
         self.buf: list[str] = []
@@ -112,12 +136,15 @@ class _Parser(HTMLParser):
 
     # --- イベント ---
     def handle_starttag(self, tag, attrs):
-        if tag in SKIP_TAGS:
-            self.skip += 1
-            return
-        if self.skip:
+        if self.skip_stack:
+            if tag not in VOID_TAGS:
+                self.skip_stack.append(tag)
             return
         a = dict(attrs)
+        if _should_skip_element(tag, a):
+            if tag not in VOID_TAGS:
+                self.skip_stack.append(tag)
+            return
         if tag == "table":
             if self.table_depth == 0:
                 self.flush_text()
@@ -153,10 +180,14 @@ class _Parser(HTMLParser):
                 self.flush_text()
 
     def handle_endtag(self, tag):
-        if tag in SKIP_TAGS:
-            self.skip = max(0, self.skip - 1)
-            return
-        if self.skip:
+        if self.skip_stack:
+            if tag == self.skip_stack[-1]:
+                self.skip_stack.pop()
+            elif tag in self.skip_stack:
+                while self.skip_stack and self.skip_stack[-1] != tag:
+                    self.skip_stack.pop()
+                if self.skip_stack:
+                    self.skip_stack.pop()
             return
         if tag == "table":
             self.table_depth = max(0, self.table_depth - 1)
@@ -199,7 +230,7 @@ class _Parser(HTMLParser):
                 self.flush_text()
 
     def handle_data(self, data):
-        if self.skip:
+        if self.skip_stack:
             return
         if self.href is not None:
             self.link_buf.append(data)
@@ -221,15 +252,22 @@ def decode(body: bytes) -> str:
         return body.decode("utf-8", errors="replace")
 
 
-def parse(html: str, url: str) -> list[Block]:
+def parse(html: str, url: str, base_url: str = BASE) -> list[Block]:
     """url はサイト内パス（/j/...）または絶対 URL。相対リンクの解決に使う。"""
-    parser = _Parser(urljoin(BASE, url))
+    parser = _Parser(urljoin(base_url, url))
     parser.feed(html)
     parser.close()
     return parser.blocks
 
 
-def load(url: str, root: Path = RAW_DIR) -> list[Block]:
+def resolve_local_path(url: str, root: Path = RAW_DIR) -> Path:
+    parts = [p for p in url.strip("/").split("/") if p]
+    if not parts or url.endswith("/") or not parts[-1].lower().endswith((".html", ".htm")):
+        parts.append("index.html")
+    return root.joinpath(*parts)
+
+
+def load(url: str, root: Path = RAW_DIR, base_url: str = BASE) -> list[Block]:
     """保存済みページをブロック列にして返す。url はサイト内パス。"""
-    path = root.joinpath(*url.strip("/").split("/"))
-    return parse(decode(path.read_bytes()), url)
+    path = resolve_local_path(url, root)
+    return parse(decode(path.read_bytes()), url, base_url=base_url)

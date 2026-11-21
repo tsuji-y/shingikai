@@ -1,0 +1,145 @@
+detected_at,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council,,fiscal_system_council,,財政制度等審議会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council/soukai,,fiscal_system_council/soukai,,総会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council/sub-of_fiscal_system,,fiscal_system_council/sub-of_fiscal_system,,財政制度分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council/sub-of_kkr,,fiscal_system_council/sub-of_kkr,,国家公務員共済組合分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council/sub-of_filp,,fiscal_system_council/sub-of_filp,,財政投融資分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council/sub-of_tabacco,,fiscal_system_council/sub-of_tabacco,,たばこ事業等分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,fiscal_system_council/sub-of_national_property,,fiscal_system_council/sub-of_national_property,,国有財産分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_foreign_exchange,,customs_foreign_exchange,,関税・外国為替等審議会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_foreign_exchange/soukai,,customs_foreign_exchange/soukai,,総会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_foreign_exchange/sub-of_customs,,customs_foreign_exchange/sub-of_customs,,関税分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_foreign_exchange/sub-foreign_exchange,,customs_foreign_exchange/sub-foreign_exchange,,外国為替等分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_disatisfaction_review,,customs_disatisfaction_review,,関税等不服審査会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_disatisfaction_review/soukai,,customs_disatisfaction_review/soukai,,総会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_disatisfaction_review/sub-customs,,customs_disatisfaction_review/sub-customs,,関税・知的財産分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_disatisfaction_review/sub-customs_old,,customs_disatisfaction_review/sub-customs_old,,関税分科会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,customs_disatisfaction_review/sub-movie,,customs_disatisfaction_review/sub-movie,,輸入映画部会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,mof-pt,,mof-pt,,財務省改革プロジェクトチーム,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,policy_evaluation,,policy_evaluation,,財務省政策評価懇談会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,kaikeiseido,,kaikeiseido,,会計制度研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,ebpm_benkyoukai,,ebpm_benkyoukai,,法人税のEBPMに関する勉強会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,nouzeikankyo_kenkyukai,,nouzeikankyo_kenkyukai,,納税環境整備に関する研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,beps_kenkyukai,,beps_kenkyukai,,新BEPS研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,trade_statistics,,trade_statistics,,貿易統計の在り方に関するワーキンググループ,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,epa,,epa,,EPA利用推進の取組に係る有識者勉強会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,syogakuyunyuwg,,syogakuyunyuwg,,急増する少額輸入貨物への対応に関するワーキンググループ,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,futorenbaiwg,,futorenbaiwg,,不当廉売関税の迂回防止に関するワーキンググループ,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,study_gov_debt_management,,study_gov_debt_management,,国の債務管理に関する研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_jgbsp,,meeting_of_jgbsp,,国債市場特別参加者会合,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_jgbi,,meeting_of_jgbi,,国債投資家懇談会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_jgbtr,,meeting_of_jgbtr,,国債トップリテーラー会議,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,gov_debt_management,,gov_debt_management,,国の債務管理の在り方に関する懇談会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_ilbe,,meeting_of_ilbe,,物価連動債の発行再開に関するワーキング・グループ,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,study_on_chain,,study_on_chain,,国債のオンチェーン対応に関する研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,renrakukaigi,,renrakukaigi,,産業投資機関 関係府省庁等実務者連絡会議,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_cbdc,,meeting_of_cbdc,,CBDC（中央銀行デジタル通貨）に関する有識者会議,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_coin,,meeting_of_coin,,日本のコンテンツ・地域資源等の国内外への発信を目的とする新たな貨幣のあり方に関する有識者懇談会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,meeting_of_cbdcre,,meeting_of_cbdcre,,CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,national_property/councils/mirai/miraizo_kenkyukai,,national_property/councils/mirai/miraizo_kenkyukai,,行政財産の未来像研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,jishin_kenkyukai,,jishin_kenkyukai,,地震保険制度等研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,jishin_benkyoukai,,jishin_benkyoukai,,地震保険制度と共済に係る勉強会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,financial_system/councils/dbjttunnyou,,financial_system/councils/dbjttunnyou,,(株)日本政策投資銀行の特定投資業務の運用等に関する検討会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,international_policy/councils/SouthEastAsia_Finance,,international_policy/councils/SouthEastAsia_Finance,,東南アジアの金融資本市場の発展・深化に向けた研究会,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,international_policy/councils/bop,,international_policy/councils/bop,,国際収支から見た日本経済の課題と処方箋,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,hyoka_zouhei,,hyoka_zouhei,,独立行政法人造幣局の業務実績評価に関する有識者会合,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,hyoka_insatsu,,hyoka_insatsu,,独立行政法人国立印刷局の業務実績評価に関する有識者会合,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,aboutNRIByushikishakaigo,,aboutNRIByushikishakaigo,,独立行政法人酒類総合研究所の業務実績評価に関する有識者会合,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,kyoudou,,kyoudou,,輸出入申告データを活用した共同研究に関する有識者会議,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,council_added,past_index,,past_index,,過去に開催した審議会・研究会等,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,page_added,beps_kenkyukai,,/about_mof/councils/beps_kenkyukai/index.html,,200,/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_disatisfaction_review,,/about_mof/councils/customs_disatisfaction_review/index.html,,200,/about_mof/councils/customs_disatisfaction_review/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_disatisfaction_review/soukai,,/about_mof/councils/customs_disatisfaction_review/soukai/index.html,,200,/about_mof/councils/customs_disatisfaction_review/soukai/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_disatisfaction_review/sub-customs,,/about_mof/councils/customs_disatisfaction_review/sub-customs/index.html,,200,/about_mof/councils/customs_disatisfaction_review/sub-customs/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_disatisfaction_review/sub-customs_old,,/about_mof/councils/customs_disatisfaction_review/sub-customs_old/index.html,,200,/about_mof/councils/customs_disatisfaction_review/sub-customs_old/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_disatisfaction_review/sub-movie,,/about_mof/councils/customs_disatisfaction_review/sub-movie/index.html,,200,/about_mof/councils/customs_disatisfaction_review/sub-movie/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_foreign_exchange,,/about_mof/councils/customs_foreign_exchange/index.html,,200,/about_mof/councils/customs_foreign_exchange/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_foreign_exchange/soukai,,/about_mof/councils/customs_foreign_exchange/soukai/index.html,,200,/about_mof/councils/customs_foreign_exchange/soukai/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_foreign_exchange/sub-foreign_exchange,,/about_mof/councils/customs_foreign_exchange/sub-foreign_exchange/index.html,,200,/about_mof/councils/customs_foreign_exchange/sub-foreign_exchange/index.html
+2026-11-21T14:40:53+00:00,page_added,customs_foreign_exchange/sub-of_customs,,/about_mof/councils/customs_foreign_exchange/sub-of_customs/index.html,,200,/about_mof/councils/customs_foreign_exchange/sub-of_customs/index.html
+2026-11-21T14:40:53+00:00,page_added,ebpm_benkyoukai,,/about_mof/councils/ebpm_benkyoukai/index.html,,200,/about_mof/councils/ebpm_benkyoukai/index.html
+2026-11-21T14:40:53+00:00,page_added,epa,,/about_mof/councils/epa/index.html,,200,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council,,/about_mof/councils/fiscal_system_council/index.html,,200,/about_mof/councils/fiscal_system_council/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council/soukai,,/about_mof/councils/fiscal_system_council/soukai/index.html,,200,/about_mof/councils/fiscal_system_council/soukai/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council/sub-of_filp,,/about_mof/councils/fiscal_system_council/sub-of_filp/index.html,,200,/about_mof/councils/fiscal_system_council/sub-of_filp/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council/sub-of_fiscal_system,,/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/index.html,,200,/about_mof/councils/fiscal_system_council/sub-of_fiscal_system/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council/sub-of_kkr,,/about_mof/councils/fiscal_system_council/sub-of_kkr/index.html,,200,/about_mof/councils/fiscal_system_council/sub-of_kkr/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council/sub-of_national_property,,/about_mof/councils/fiscal_system_council/sub-of_national_property/index.html,,200,/about_mof/councils/fiscal_system_council/sub-of_national_property/index.html
+2026-11-21T14:40:53+00:00,page_added,fiscal_system_council/sub-of_tabacco,,/about_mof/councils/fiscal_system_council/sub-of_tabacco/index.html,,200,/about_mof/councils/fiscal_system_council/sub-of_tabacco/index.html
+2026-11-21T14:40:53+00:00,page_added,futorenbaiwg,,/about_mof/councils/futorenbaiwg/index.html,,200,/about_mof/councils/futorenbaiwg/index.html
+2026-11-21T14:40:53+00:00,page_added,gov_debt_management,,/about_mof/councils/gov_debt_management/index.html,,200,/about_mof/councils/gov_debt_management/index.html
+2026-11-21T14:40:53+00:00,page_added,,,/about_mof/councils/index.htm,,200,/about_mof/councils/index.htm
+2026-11-21T14:40:53+00:00,page_added,jishin_kenkyukai,,/about_mof/councils/jishin_kenkyukai/index.html,,200,/about_mof/councils/jishin_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,page_added,kaikeiseido,,/about_mof/councils/kaikeiseido/index.html,,200,/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,page_added,meeting_of_cbdc,,/about_mof/councils/meeting_of_cbdc/index.html,,200,/about_mof/councils/meeting_of_cbdc/index.html
+2026-11-21T14:40:53+00:00,page_added,meeting_of_cbdcre,,/about_mof/councils/meeting_of_cbdcre/index.html,,200,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,page_added,meeting_of_coin,,/about_mof/councils/meeting_of_coin/index.html,,200,/about_mof/councils/meeting_of_coin/index.html
+2026-11-21T14:40:53+00:00,page_added,meeting_of_ilbe,,/about_mof/councils/meeting_of_ilbe/index.htm,,200,/about_mof/councils/meeting_of_ilbe/index.htm
+2026-11-21T14:40:53+00:00,page_added,meeting_of_jgbi,,/about_mof/councils/meeting_of_jgbi/index.html,,200,/about_mof/councils/meeting_of_jgbi/index.html
+2026-11-21T14:40:53+00:00,page_added,meeting_of_jgbsp,,/about_mof/councils/meeting_of_jgbsp/index.html,,200,/about_mof/councils/meeting_of_jgbsp/index.html
+2026-11-21T14:40:53+00:00,page_added,meeting_of_jgbtr,,/about_mof/councils/meeting_of_jgbtr/index.html,,200,/about_mof/councils/meeting_of_jgbtr/index.html
+2026-11-21T14:40:53+00:00,page_added,mof-pt,,/about_mof/councils/mof-pt/index.html,,200,/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,page_added,nouzeikankyo_kenkyukai,,/about_mof/councils/nouzeikankyo_kenkyukai/index.html,,200,/about_mof/councils/nouzeikankyo_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,page_added,policy_evaluation,,/about_mof/councils/policy_evaluation/index.html,,200,/about_mof/councils/policy_evaluation/index.html
+2026-11-21T14:40:53+00:00,page_added,renrakukaigi,,/about_mof/councils/renrakukaigi/index.html,,200,/about_mof/councils/renrakukaigi/index.html
+2026-11-21T14:40:53+00:00,page_added,study_gov_debt_management,,/about_mof/councils/study_gov_debt_management/index.html,,200,/about_mof/councils/study_gov_debt_management/index.html
+2026-11-21T14:40:53+00:00,page_added,study_on_chain,,/about_mof/councils/study_on_chain/index.html,,200,/about_mof/councils/study_on_chain/index.html
+2026-11-21T14:40:53+00:00,page_added,syogakuyunyuwg,,/about_mof/councils/syogakuyunyuwg/index.html,,200,/about_mof/councils/syogakuyunyuwg/index.html
+2026-11-21T14:40:53+00:00,page_added,trade_statistics,,/about_mof/councils/trade_statistics/index.htm,,200,/about_mof/councils/trade_statistics/index.htm
+2026-11-21T14:40:53+00:00,page_added,national_property/councils/mirai/miraizo_kenkyukai,,/policy/national_property/councils/mirai/miraizo_kenkyukai.html,,200,/policy/national_property/councils/mirai/miraizo_kenkyukai.html
+2026-11-21T14:40:53+00:00,document_added,fiscal_system_council/sub-of_tabacco,,www.mof.go.jp/about_mof/councils/fiscal_system_council/sub-of_tabacco/proceedings_hyouzi/index.html,,その他: 表示等部会（国立国会図書館へリンク）,/about_mof/councils/fiscal_system_council/sub-of_tabacco/index.html
+2026-11-21T14:40:53+00:00,document_added,mof-pt,,www.mof.go.jp/about_mof/councils/mof-pt/220419/01.pdf,,"その他: 表紙[59kb,PDF]",/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,document_added,mof-pt,,www.mof.go.jp/about_mof/councils/mof-pt/220419/all.pdf,,"その他: [1,442kb,PDF]",/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,document_added,mof-pt,,www.mof.go.jp/about_mof/councils/mof-pt/220419/02.pdf,,"その他: 目次[108kb,PDF]",/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,document_added,mof-pt,,www.mof.go.jp/about_mof/councils/mof-pt/220419/03.pdf,,"その他: 本文[493kb,PDF]",/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,document_added,mof-pt,,www.mof.go.jp/about_mof/councils/mof-pt/220419/04.pdf,,"資料: 資料目次[59kb,PDF]",/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,document_added,mof-pt,,www.mof.go.jp/about_mof/councils/mof-pt/220419/05.pdf,,"資料: 資料[1,080kb,PDF]",/about_mof/councils/mof-pt/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/1-1giziyoushi.pdf,,議事要旨: 議事要旨(PDF:172KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/1-2keiyakuhousiki.pdf,,資料: 資料(PDF:384KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/2-1giziyoushi.pdf,,議事要旨: 議事要旨(PDF:116KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/2-2yoteikakakunozyougennkousokusei.pdf,,資料: 資料(PDF:297KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/3giziyoushi.pdf,,議事要旨: 議事要旨(PDF:151KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/4-1giziyoushi.pdf,,議事要旨: 議事要旨(PDF:165KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/4-2kokyoutyoutatunofutaitekiseisaku.pdf,,資料: 資料(PDF:294KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/5giziyoushi.pdf,,議事要旨: 議事要旨(PDF:168KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/6-1giziyoushi.pdf,,議事要旨: 議事要旨(PDF:118KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,kaikeiseido,,www.mof.go.jp/about_mof/councils/kaikeiseido/6-2rontennseiri.pdf,,資料: 「会計制度（契約）に関する論点について」(PDF:390KB),/about_mof/councils/kaikeiseido/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/240621gijiyoshi.pdf,,議事要旨: 議事要旨(PDF:569KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/240621shiryo.pdf,,資料: 配付資料(PDF:2255KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/250212gijiyoshi.pdf,,議事要旨: 議事要旨(PDF:548KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/250212shiryo.pdf,,資料: 配布資料(PDF:3352KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/251031gijiyoshi.pdf,,議事要旨: 議事要旨(PDF:155KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/260317gijiyoshi.pdf,,議事要旨: 議事要旨(PDF:197KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/260317shiryo1.pdf,,資料: 配布資料１(PDF:1010KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,beps_kenkyukai,,www.mof.go.jp/about_mof/councils/beps_kenkyukai/260317shiryo2.pdf,,資料: 配布資料２(PDF:1835KB),/about_mof/councils/beps_kenkyukai/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/honbun.pdf,,報告書: EPA有識者勉強会報告書 本文,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten1.pdf,,資料: （別添１）関税に対する「戦略的思考」の必要性,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten2.pdf,,資料: （別添２）経営層の事業戦略×関税,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten3.pdf,,資料: （別添３）EPA・FTA活用における課題認識について,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten4.pdf,,資料: （別添４）外国税関におけるEPA手続の課題,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten5.pdf,,資料: （別添５）事業者の課題への対応,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten6.pdf,,資料: （別添６）経営層向けEPA活用パンフレット（案）,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten7.pdf,,資料: （別添７）民間専門家の課題と考えられる対応策,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten8.pdf,,資料: （別添８）通関業EPAアンケート概要,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten9.pdf,,資料: （別添９）韓国関税士,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,epa,,www.mof.go.jp/about_mof/councils/epa/betten10.pdf,,資料: （別添10）カナダ通関業会施策(,/about_mof/councils/epa/index.html
+2026-11-21T14:40:53+00:00,document_added,study_on_chain,,www.mof.go.jp/about_mof/councils/study_on_chain/o20260930.pdf,,開催案内: 「国債のオンチェーン対応に関する研究会」の開催について（令和８年９月30日）,/about_mof/councils/study_on_chain/index.html
+2026-11-21T14:40:53+00:00,document_added,renrakukaigi,,www.mof.go.jp/about_mof/councils/renrakukaigi/siryou3.pdf,,名簿: 設置根拠・構成員,/about_mof/councils/renrakukaigi/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdc,,www.mof.go.jp/about_mof/councils/meeting_of_cbdc/20231213torimatome.pdf,,報告書: ＣＢＤＣ（中央銀行デジタル通貨）に関する有識者会議 取りまとめ(PDF:1149KB),/about_mof/councils/meeting_of_cbdc/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdc,,www.mof.go.jp/about_mof/councils/meeting_of_cbdc/20231213torimatomegaiyou.pdf,,報告書: ＣＢＤＣ（中央銀行デジタル通貨）に関する有識者会議 取りまとめ（概要）(PDF:817KB),/about_mof/councils/meeting_of_cbdc/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdc,,www.mof.go.jp/about_mof/councils/meeting_of_cbdc/20231213omonagiron.pdf,,資料: （参考）ＣＢＤＣ（中央銀行デジタル通貨）に関する有識者会議の主な議論の紹介(PDF:436KB),/about_mof/councils/meeting_of_cbdc/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdc,,www.mof.go.jp/about_mof/councils/meeting_of_cbdc/20250527_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdc/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdc,,www.mof.go.jp/about_mof/councils/meeting_of_cbdc/20260625_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdc/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20251024_4_secchi2.pdf,,名簿: 根拠・構成員,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20240126kisoku.pdf,,規程: 運営規則,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20240417chuukanseiri.pdf,,その他: CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議 中間整理(PDF:380KB),/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20240417chuukanseirigaiyou.pdf,,資料: CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議 中間整理（概要）(PDF:423KB),/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20250522_2nd_InterimReport.pdf,,その他: CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議 第２次中間整理(PDF:536KB),/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20250522_2nd_InterimReport_summary_1.pdf,,資料: CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議 第２次中間整理（概要）(PDF:510KB),/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/contents/pdf/index_1.pdf,,報告書: CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議 進捗報告(PDF:1756KB),/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/contents/pdf/index_2.pdf,,報告書: CBDC（中央銀行デジタル通貨）に関する関係府省庁・日本銀行連絡会議 進捗報告（概要）(PDF:405KB),/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20241003_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20250522_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20251024_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20260619_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdcre/index.html
+2026-11-21T14:40:53+00:00,document_added,meeting_of_cbdcre,,www.mof.go.jp/about_mof/councils/meeting_of_cbdcre/20261008_agenda.pdf,,議事要旨: 議事要旨,/about_mof/councils/meeting_of_cbdcre/index.html

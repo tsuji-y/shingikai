@@ -1,0 +1,1091 @@
+detected_at,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T14:37:43+00:00,council_added,wwwa-acw,,wwwa-acw,,遺棄化学兵器処理事業に関する有識者会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-kaigi,,www8-kaigi,,宇宙開発利用の推進に関する関係府省等連絡調整会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-comittee,,www8-comittee,,宇宙政策委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-use_mtg,,www8-use_mtg,,宇宙利用の現在と未来に関する懇談会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-3,,www8-3,,沖縄振興開発金融公庫運営協議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-singikai,,www8-singikai,,沖縄振興審議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-9,,www8-9,,沖縄政策協議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-yosansenryaku,,www8-yosansenryaku,,科学技術イノベーション予算戦略会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-kisei-kaikaku,,www8-kisei-kaikaku,,規制改革推進会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-shingikai,,www8-shingikai,,休眠預金等活用審議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,npo-homepage-kyoujo-shakai,,npo-homepage-kyoujo-shakai,,共助社会づくり懇談会,/council.html
+2026-11-21T14:37:43+00:00,council_added,jftc-kyousouseisaku,,jftc-kyousouseisaku,,競争政策と公的再生支援の在り方に関する研究会（公正取引委員会）,/council.html
+2026-11-21T14:37:43+00:00,council_added,-suishin/kyoginoba/kyoginoba-index,,-suishin/kyoginoba/kyoginoba-index,,国と地方の協議の場,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-keizai-shimon,,www5-keizai-shimon,,経済財政諮問会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-k-s-kouzou,,www5-k-s-kouzou,,経済社会構造に関する有識者会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,kantei-seirousi,,kantei-seirousi,,経済の好循環実現に向けた政労使会議（首相官邸）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-getsurei,,www5-getsurei,,月例経済報告等に関する関係閣僚会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,wwwa-oaep,,wwwa-oaep,,原子力立地会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-9_2,,www8-9_2,,県都那覇市の振興に関する協議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,koeki-info-regulation,,koeki-info-regulation,,公益法人のガバナンスの更なる強化等に関する有識者会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,koeki-info-regulation_2,,koeki-info-regulation_2,,新しい時代の公益法人制度の在り方に関する有識者会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-koubuniinkai,,www8-koubuniinkai,,公文書管理委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-measure,,www8-measure,,高齢社会対策会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,bousai-h13,,bousai-h13,,国際防災連絡会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,mlit-council,,mlit-council,,国会等移転審議会（国土交通省）,/council.html
+2026-11-21T14:37:43+00:00,council_added,chisou-kokusentoc,,chisou-kokusentoc,,国家戦略特別区域諮問会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-kanshi,,www5-kanshi,,再就職等監視委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,cyber-cyber_anzen_hosyo,,cyber-cyber_anzen_hosyo,,サイバー対処能力強化法の施行等に関する有識者会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-forum,,www5-forum,,社会的責任に関する円卓会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,soumu-senkyoku,,soumu-senkyoku,,衆議院議員選挙区画定審議会（総務省）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-seisaku_iinkai,,www8-seisaku_iinkai,,障害者政策委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-kaikaku,,www8-kaikaku,,障がい者制度改革推進本部,/council.html
+2026-11-21T14:37:43+00:00,council_added,index,,index,,消費者委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,cas-s-portal,,cas-s-portal,,新技術等効果評価委員会（内閣官房）,/council.html
+2026-11-21T14:37:43+00:00,council_added,chisou-kokusentoc_2,,chisou-kokusentoc_2,,「スーパーシティ」構想の実現に向けた有識者懇談会,/council.html
+2026-11-21T14:37:43+00:00,council_added,zei-cho,,zei-cho,,税制調査会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-japan,,www5-japan,,政府調達苦情検討委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,kantei-suisinteam,,kantei-suisinteam,,セーフティ・ネットワーク実現チーム（首相官邸）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-future2,,www5-future2,,選択する未来2.0,/council.html
+2026-11-21T14:37:43+00:00,council_added,kantei-kaiyou,,kantei-kaiyou,,総合海洋政策本部（首相官邸）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-cstp,,www8-cstp,,総合科学技術・イノベーション会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-iryou,,www8-iryou,,創薬力向上のための官民協議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,cas-jinjikyoku,,cas-jinjikyoku,,退職手当審査会（内閣官房）,/council.html
+2026-11-21T14:37:43+00:00,council_added,invest-japan/committee,,invest-japan/committee,,対日直接投資推進会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,gender-danjo_kaigi,,gender-danjo_kaigi,,男女共同参画会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,gender-honbu,,gender-honbu,,男女共同参画推進本部,/council.html
+2026-11-21T14:37:43+00:00,council_added,gender-renkei,,gender-renkei,,男女共同参画推進連携会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-local_economy,,www5-local_economy,,地域経済に関する有識者懇談会,/council.html
+2026-11-21T14:37:43+00:00,council_added,soumu-chihou_seido,,soumu-chihou_seido,,地方制度調査会（総務省）,/council.html
+2026-11-21T14:37:43+00:00,council_added,-suishin/kaigi/kaigi-index,,-suishin/kaigi/kaigi-index,,地方分権改革有識者会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-taisaku,,www8-taisaku,,中央交通安全対策会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,bousai-chuobou,,bousai-chuobou,,中央防災会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,-suishin/honbu/honbu-index,,-suishin/honbu/honbu-index,,地方分権改革推進本部,/council.html
+2026-11-21T14:37:43+00:00,council_added,kantei-titeki2,,kantei-titeki2,,知的財産戦略本部（首相官邸）,/council.html
+2026-11-21T14:37:43+00:00,council_added,tochi-chosa/shingikai,,tochi-chosa/shingikai,,土地等利用状況審議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-council,,www8-council,,日本医療研究開発機構審議会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-barrier-free,,www8-barrier-free,,バリアフリー・ユニバーサルデザインに関する関係閣僚会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-mynumber,,www5-mynumber,,マイナンバーの利活用拡大のための検討タスクフォース,/council.html
+2026-11-21T14:37:43+00:00,council_added,midorisho/gakujutsusho/iinkai,,midorisho/gakujutsusho/iinkai,,みどりの学術賞選考委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-miryoku,,www8-miryoku,,魅力ある新国立公文書館の展示・運営の在り方に関する検討会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-iinkai,,www8-iinkai,,民間資金等活用事業推進委員会,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-kaigi_2,,www8-kaigi_2,,民間資金等活用事業推進会議,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-entaku,,www5-entaku,,「新しい公共」円卓会議（最終開催日：平成22年6月4日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-npc,,www5-npc,,「新しい公共」推進会議（最終開催日：平成24年10月16日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,gender-kento,,gender-kento,,アフガニスタンの女性支援に関する懇談会（最終開催日：平成24年7月9日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,sasshin/kondan,,sasshin/kondan,,行政改革に関する懇談会（最終開催日：平成24年8月7日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,gyouseisasshin,,gyouseisasshin,,行政刷新会議（最終開催日：平成24年11月26日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-keizaitaisaku,,www5-keizaitaisaku,,景気対応検討チーム（最終開催日：平成24年5月11日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-9_3,,www8-9_3,,宜野湾市の振興に関する協議会（最終開催日：平成26年9月12日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-seirousi,,warp-seirousi,,経済の好循環実現に向けた政労使会議（首相官邸）（最終開催日：平成27年6月18日）（国立国会図書館インターネット資料収集保存事業（WARP）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-koufukudo,,www5-koufukudo,,幸福度に関する研究会（最終開催日：平成24年9月28日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-kihon-kentoukai,,www8-kihon-kentoukai,,高齢社会対策の基本的在り方等に関する検討会（最終開催日：平成24年2月23日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-kentou,,www8-kentou,,国立公文書館の機能・施設の在り方等に関する調査検討会議（最終開催日：令和2年2月5日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,cas-s-portal_2,,cas-s-portal_2,,革新的事業活動評価委員会（内閣官房）（最終開催日：令和3年5月27日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,bousai-tamokutekisen,,bousai-tamokutekisen,,災害時多目的船に関する検討会（最終開催日：平成24年3月22日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,bousai-saigaitaisakuhousei,,bousai-saigaitaisakuhousei,,災害対策法制のあり方に関する研究会（最終開催日：平成23年12月6日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-energy,,www8-energy,,再生エネルギー等に関する規制等の総点検タスクフォース（最終開催日：令和６年３月22日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-meeting,,warp-meeting,,死因究明等推進会議（最終開催日：平成26年6月10日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-kyuumei,,warp-kyuumei,,死因究明等推進協議会（最終開催日：令和2年3月24日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-top,,warp-top,,仕事と生活の調和推進官民トップ会議（最終開催日：平成28年3月7日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-shisan,,www5-shisan,,資産の有効活用等に関する検討会（最終開催日：平成22年12月9日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-jissen-cu,,www5-jissen-cu,,実践キャリア・アップ戦略 専門タスクフォース、ワーキンググループ（最終開催日：平成27年3月26日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-kaikaku,,warp-kaikaku,,障がい者制度改革推進本部（最終開催日：平成24年3月12日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-jobcard,,www5-jobcard,,ジョブ・カード推進協議会（最終開催日：平成24年6月21日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-iinkai,,warp-iinkai,,成年後見制度利用促進委員会（最終開催日：平成29年12月1日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-kaigi,,warp-kaigi,,成年後見制度利用促進会議（最終開催日：平成29年3月24日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-taikijidou,,warp-taikijidou,,待機児童ゼロ特命チーム（最終開催日：平成22年11月29日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-investment,,www5-investment,,対日直接投資に関する有識者懇談会（最終開催日：平成26年4月15日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,-suishin/ayumi/chiiki-shuken/kaigi/kaigi-index,,-suishin/ayumi/chiiki-shuken/kaigi/kaigi-index,,地域主権戦略会議（最終開催日：平成24年11月8日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-bunken-iinkai,,warp-bunken-iinkai,,地方分権推進委員会（最終開催日：平成13年6月11日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-bunken,,warp-bunken,,地方分権改革推進会議（最終開催日：平成16年5月12日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-kaisai,,warp-kaisai,,地方分権改革推進委員会（最終開催日：平成22年3月19日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-deflation,,www5-deflation,,デフレ脱却等経済状況検討会議（最終開催日：平成24年11月12日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-dokkin,,www8-dokkin,,独占禁止法審査手続についての懇談会（最終開催日：平成26年12月24日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,npo-homepage-kaikeimeikaku-kenkyuu,,npo-homepage-kaikeimeikaku-kenkyuu,,特定非営利活動法人の会計の明確化に関する研究会（最終開催日：平成23年11月22日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,npo-homepage-2011ninteijittaiseido-riyou,,npo-homepage-2011ninteijittaiseido-riyou,,特定非営利活動法人の実態把握等に関する検討会（最終開催日：平成24年8月1日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-dokuritsu,,warp-dokuritsu,,内閣府独立行政法人評価委員会（最終開催日：平成27年3月20日） （国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-kaigi_2,,warp-kaigi_2,,日系定住外国人施策推進会議（最終開催日：平成30年6月12日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,www8-scj,,www8-scj,,日本学術会議の新たな展望を考える有識者会議（最終開催日：平成27年3月20日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,scjarikata/kondankai,,scjarikata/kondankai,,日本学術会議の在り方に関する有識者懇談会（最終開催日：令和６年12月18日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,esri-rtc,,esri-rtc,,日本経済懇談会（最終開催日：平成25年5月22日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,warp-barrier-free,,warp-barrier-free,,バリアフリー・ユニバーサルデザインに関する関係閣僚会議（最終開催日：平成29年4月3日）（国立国会図書館インターネット資料収集保存事業（WARP））,/council.html
+2026-11-21T14:37:43+00:00,council_added,bousai-higashinihon,,bousai-higashinihon,,東日本大震災における災害応急対策に関する検討会（最終開催日：平成23年11月24日）,/council.html
+2026-11-21T14:37:43+00:00,council_added,www5-re-infra-invest,,www5-re-infra-invest,,不動産・インフラ投資市場活性化方策に関する有識者会議（最終開催日：平成24年12月3日）,/council.html
+2026-11-21T14:37:43+00:00,page_added,-suishin/ayumi/chiiki-shuken/kaigi/kaigi-index,,/bunken-suishin/ayumi/chiiki-shuken/kaigi/kaigi-index.html,,200,/bunken-suishin/ayumi/chiiki-shuken/kaigi/kaigi-index.html
+2026-11-21T14:37:43+00:00,page_added,-suishin/honbu/honbu-index,,/bunken-suishin/honbu/honbu-index.html,,200,/bunken-suishin/honbu/honbu-index.html
+2026-11-21T14:37:43+00:00,page_added,-suishin/kaigi/kaigi-index,,/bunken-suishin/kaigi/kaigi-index.html,,200,/bunken-suishin/kaigi/kaigi-index.html
+2026-11-21T14:37:43+00:00,page_added,-suishin/kyoginoba/kyoginoba-index,,/bunken-suishin/kyoginoba/kyoginoba-index.html,,200,/bunken-suishin/kyoginoba/kyoginoba-index.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/1028.html,,200,/consumer/about/1028.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/cc_e-maga.html,,200,/consumer/about/cc_e-maga.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/kengi_teigen_iken.html,,200,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/kihonkeikaku.html,,200,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/prcontent.html,,200,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/schedule.html,,200,/consumer/about/schedule.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/about/search.html,,200,/consumer/about/search.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/en/e-index.html,,200,/consumer/en/e-index.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/index.html,,200,/consumer/index.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/link/gaibu_caa_top.html,,200,/consumer/link/gaibu_caa_top.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/link/gaibu_ncac_of_japan.html,,200,/consumer/link/gaibu_ncac_of_japan.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/link/index.html,,200,/consumer/link/index.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/opinion/index.html,,200,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/shinchaku/index.html,,200,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/sns/song.html,,200,/consumer/sns/song.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/sns/x.html,,200,/consumer/sns/x.html
+2026-11-21T14:37:43+00:00,page_added,index,,/consumer/sns/youtube.html,,200,/consumer/sns/youtube.html
+2026-11-21T14:37:43+00:00,page_added,,,/council.html,,200,/council.html
+2026-11-21T14:37:43+00:00,page_added,gyouseisasshin,,/gyouseisasshin/index.html,,200,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/ap_taskforce_05/agenda.html,,200,/invest-japan/committee/ap_taskforce_05/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/ap_taskforce_06/agenda.html,,200,/invest-japan/committee/ap_taskforce_06/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/ap_taskforce_07/agenda.html,,200,/invest-japan/committee/ap_taskforce_07/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/archive/index.html,,200,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/council_11/agenda.html,,200,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/council_12/agenda.html,,200,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/council_13/agenda.html,,200,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/council_14/agenda.html,,200,/invest-japan/committee/council_14/agenda.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/en_index.html,,200,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,page_added,invest-japan/committee,,/invest-japan/committee/index.html,,200,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,page_added,midorisho/gakujutsusho/iinkai,,/midorisho/gakujutsusho/iinkai.html,,200,/midorisho/gakujutsusho/iinkai.html
+2026-11-21T14:37:43+00:00,page_added,sasshin/kondan,,/sasshin/kondan/index.html,,200,/sasshin/kondan/index.html
+2026-11-21T14:37:43+00:00,page_added,scjarikata/kondankai,,/scjarikata/kondankai.html,,200,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,page_added,tochi-chosa/shingikai,,/tochi-chosa/shingikai.html,,200,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,page_added,zei-cho,,/zei-cho/gijiroku/ebpm/index.html,,200,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,page_added,zei-cho,,/zei-cho/index.html,,200,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,page_added,zei-cho,,/zei-cho/news/index.html,,200,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#1,index#1,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#2,index#2,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#3,index#3,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#4,index#4,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#5,index#5,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#6,index#6,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#7,index#7,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#8,index#8,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#9,index#9,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#10,index#10,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#11,index#11,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#12,index#12,,,/consumer/index.html /consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#13,index#13,,,/consumer/index.html /consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#14,index#14,,,/consumer/index.html /consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#15,index#15,,,/consumer/index.html /consumer/about/schedule.html /consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#16,index#16,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#17,index#17,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#18,index#18,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#19,index#19,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#20,index#20,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#80,index#80,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#81,index#81,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#82,index#82,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#83,index#83,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#90,index#90,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#91,index#91,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#92,index#92,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#93,index#93,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#94,index#94,,,/consumer/index.html /consumer/about/schedule.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#479,index#479,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#480,index#480,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#481,index#481,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#482,index#482,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#483,index#483,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#484,index#484,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#485,index#485,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#486,index#486,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#487,index#487,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#488,index#488,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#489,index#489,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#490,index#490,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#491,index#491,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#492,index#492,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#493,index#493,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#494,index#494,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#495,index#495,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#496,index#496,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#497,index#497,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#498,index#498,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#499,index#499,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#500,index#500,,,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#501,index#501,,,/consumer/index.html /consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index#502,index#502,,,/consumer/index.html /consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2009-12-14,index@2009-12-14,,2009-12-14,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2010-03-03,index@2010-03-03,,2010-03-03,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2010-03-25,index@2010-03-25,,2010-03-25,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2010-06-25,index@2010-06-25,,2010-06-25,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-03-04,index@2011-03-04,,2011-03-04,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-03-11,index@2011-03-11,,2011-03-11,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-06-10,index@2011-06-10,,2011-06-10,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-06-24,index@2011-06-24,,2011-06-24,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-07-15,index@2011-07-15,,2011-07-15,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-08-12,index@2011-08-12,,2011-08-12,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-08-23,index@2011-08-23,,2011-08-23,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-08-26,index@2011-08-26,,2011-08-26,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2011-12-02,index@2011-12-02,,2011-12-02,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-02-14,index@2012-02-14,,2012-02-14,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-03-27,index@2012-03-27,,2012-03-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-05-10,index@2012-05-10,,2012-05-10,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-05-29,index@2012-05-29,,2012-05-29,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-06-05,index@2012-06-05,,2012-06-05,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-06-12,index@2012-06-12,,2012-06-12,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-06-19,index@2012-06-19,,2012-06-19,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-07-13,index@2012-07-13,,2012-07-13,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2012-12-25,index@2012-12-25,,2012-12-25,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-02-26,index@2013-02-26,,2013-02-26,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-03-19,index@2013-03-19,,2013-03-19,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-05-28,index@2013-05-28,,2013-05-28,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-06-25,index@2013-06-25,,2013-06-25,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-07-23,index@2013-07-23,,2013-07-23,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-07-30,index@2013-07-30,,2013-07-30,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-07-31,index@2013-07-31,,2013-07-31,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-08-27,index@2013-08-27,,2013-08-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-11-12,index@2013-11-12,,2013-11-12,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-11-19,index@2013-11-19,,2013-11-19,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2013-12-17,index@2013-12-17,,2013-12-17,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-02-18,index@2014-02-18,,2014-02-18,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-02-25,index@2014-02-25,,2014-02-25,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-04-08,index@2014-04-08,,2014-04-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-05-27,index@2014-05-27,,2014-05-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-06-10,index@2014-06-10,,2014-06-10,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-07-15,index@2014-07-15,,2014-07-15,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-09-09,index@2014-09-09,,2014-09-09,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2014-10-07,index@2014-10-07,,2014-10-07,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2015-02-17,index@2015-02-17,,2015-02-17,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2015-05-08,index@2015-05-08,,2015-05-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2015-06-16,index@2015-06-16,,2015-06-16,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-01-07,index@2016-01-07,,2016-01-07,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-02-24,index@2016-02-24,,2016-02-24,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-04-26,index@2016-04-26,,2016-04-26,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-05-17,index@2016-05-17,,2016-05-17,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-05-24,index@2016-05-24,,2016-05-24,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-07-26,index@2016-07-26,,2016-07-26,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-08-23,index@2016-08-23,,2016-08-23,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-09-20,index@2016-09-20,,2016-09-20,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2016-12-06,index@2016-12-06,,2016-12-06,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-01-17,index@2017-01-17,,2017-01-17,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-01-31,index@2017-01-31,,2017-01-31,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-04-18,index@2017-04-18,,2017-04-18,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-05-23,index@2017-05-23,,2017-05-23,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-08-03,index@2017-08-03,,2017-08-03,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-08-08,index@2017-08-08,,2017-08-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-08-22,index@2017-08-22,,2017-08-22,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-11-08,index@2017-11-08,,2017-11-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2017-12-20,index@2017-12-20,,2017-12-20,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-01-17,index@2018-01-17,,2018-01-17,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-02-08,index@2018-02-08,,2018-02-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-03-08,index@2018-03-08,,2018-03-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-03-30,index@2018-03-30,,2018-03-30,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-05-31,index@2018-05-31,,2018-05-31,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-06-14,index@2018-06-14,,2018-06-14,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-08-02,index@2018-08-02,,2018-08-02,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-09-12,index@2018-09-12,,2018-09-12,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-12-19,index@2018-12-19,,2018-12-19,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2018-12-27,index@2018-12-27,,2018-12-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2019-03-27,index@2019-03-27,,2019-03-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2019-06-13,index@2019-06-13,,2019-06-13,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2019-08-08,index@2019-08-08,,2019-08-08,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2019-08-15,index@2019-08-15,,2019-08-15,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2019-08-30,index@2019-08-30,,2019-08-30,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-01-30,index@2020-01-30,,2020-01-30,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-05-29,index@2020-05-29,,2020-05-29,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-06-26,index@2020-06-26,,2020-06-26,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-08-28,index@2020-08-28,,2020-08-28,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-11-26,index@2020-11-26,,2020-11-26,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-12-03,index@2020-12-03,,2020-12-03,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2020-12-18,index@2020-12-18,,2020-12-18,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2021-04-16,index@2021-04-16,,2021-04-16,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2021-06-18,index@2021-06-18,,2021-06-18,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2021-07-16,index@2021-07-16,,2021-07-16,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2021-08-19,index@2021-08-19,,2021-08-19,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2021-12-17,index@2021-12-17,,2021-12-17,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2022-03-31,index@2022-03-31,,2022-03-31,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2022-09-02,index@2022-09-02,,2022-09-02,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2022-09-16,index@2022-09-16,,2022-09-16,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2022-11-28,index@2022-11-28,,2022-11-28,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2022-12-16,index@2022-12-16,,2022-12-16,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2023-03-28,index@2023-03-28,,2023-03-28,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2023-05-11,index@2023-05-11,,2023-05-11,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2023-05-12,index@2023-05-12,,2023-05-12,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2023-08-10,index@2023-08-10,,2023-08-10,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2024-04-22,index@2024-04-22,,2024-04-22,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2024-05-07,index@2024-05-07,,2024-05-07,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2024-06-18,index@2024-06-18,,2024-06-18,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2024-07-16,index@2024-07-16,,2024-07-16,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2024-09-27,index@2024-09-27,,2024-09-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2024-12-09,index@2024-12-09,,2024-12-09,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2025-07-09,index@2025-07-09,,2025-07-09,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2025-08-04,index@2025-08-04,,2025-08-04,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2026-02-24,index@2026-02-24,,2026-02-24,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index@2026-08-27,index@2026-08-27,,2026-08-27,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#182,index/消費者基本計画の検証・評価・監視#182,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#183,index/消費者基本計画の検証・評価・監視#183,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#206,index/消費者基本計画の検証・評価・監視#206,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#208,index/消費者基本計画の検証・評価・監視#208,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#209,index/消費者基本計画の検証・評価・監視#209,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#211,index/消費者基本計画の検証・評価・監視#211,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#235,index/消費者基本計画の検証・評価・監視#235,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#239,index/消費者基本計画の検証・評価・監視#239,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#244,index/消費者基本計画の検証・評価・監視#244,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#245,index/消費者基本計画の検証・評価・監視#245,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#246,index/消費者基本計画の検証・評価・監視#246,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#261,index/消費者基本計画の検証・評価・監視#261,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#262,index/消費者基本計画の検証・評価・監視#262,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#267,index/消費者基本計画の検証・評価・監視#267,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#269,index/消費者基本計画の検証・評価・監視#269,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#270,index/消費者基本計画の検証・評価・監視#270,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#287,index/消費者基本計画の検証・評価・監視#287,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#291,index/消費者基本計画の検証・評価・監視#291,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#292,index/消費者基本計画の検証・評価・監視#292,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#311,index/消費者基本計画の検証・評価・監視#311,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#312,index/消費者基本計画の検証・評価・監視#312,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#330,index/消費者基本計画の検証・評価・監視#330,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#331,index/消費者基本計画の検証・評価・監視#331,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#332,index/消費者基本計画の検証・評価・監視#332,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#333,index/消費者基本計画の検証・評価・監視#333,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#335,index/消費者基本計画の検証・評価・監視#335,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#337,index/消費者基本計画の検証・評価・監視#337,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#339,index/消費者基本計画の検証・評価・監視#339,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#340,index/消費者基本計画の検証・評価・監視#340,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#358,index/消費者基本計画の検証・評価・監視#358,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#359,index/消費者基本計画の検証・評価・監視#359,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#360,index/消費者基本計画の検証・評価・監視#360,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#361,index/消費者基本計画の検証・評価・監視#361,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#363,index/消費者基本計画の検証・評価・監視#363,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#364,index/消費者基本計画の検証・評価・監視#364,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#365,index/消費者基本計画の検証・評価・監視#365,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#366,index/消費者基本計画の検証・評価・監視#366,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#367,index/消費者基本計画の検証・評価・監視#367,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#368,index/消費者基本計画の検証・評価・監視#368,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#373,index/消費者基本計画の検証・評価・監視#373,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#383,index/消費者基本計画の検証・評価・監視#383,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#385,index/消費者基本計画の検証・評価・監視#385,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#386,index/消費者基本計画の検証・評価・監視#386,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#387,index/消費者基本計画の検証・評価・監視#387,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#390,index/消費者基本計画の検証・評価・監視#390,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#391,index/消費者基本計画の検証・評価・監視#391,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#393,index/消費者基本計画の検証・評価・監視#393,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#395,index/消費者基本計画の検証・評価・監視#395,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#404,index/消費者基本計画の検証・評価・監視#404,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#416,index/消費者基本計画の検証・評価・監視#416,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#418,index/消費者基本計画の検証・評価・監視#418,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#419,index/消費者基本計画の検証・評価・監視#419,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#420,index/消費者基本計画の検証・評価・監視#420,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#421,index/消費者基本計画の検証・評価・監視#421,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#422,index/消費者基本計画の検証・評価・監視#422,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#424,index/消費者基本計画の検証・評価・監視#424,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#426,index/消費者基本計画の検証・評価・監視#426,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#427,index/消費者基本計画の検証・評価・監視#427,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#428,index/消費者基本計画の検証・評価・監視#428,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#429,index/消費者基本計画の検証・評価・監視#429,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#430,index/消費者基本計画の検証・評価・監視#430,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#431,index/消費者基本計画の検証・評価・監視#431,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#434,index/消費者基本計画の検証・評価・監視#434,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#435,index/消費者基本計画の検証・評価・監視#435,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#436,index/消費者基本計画の検証・評価・監視#436,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#437,index/消費者基本計画の検証・評価・監視#437,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#439,index/消費者基本計画の検証・評価・監視#439,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#440,index/消費者基本計画の検証・評価・監視#440,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#441,index/消費者基本計画の検証・評価・監視#441,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#442,index/消費者基本計画の検証・評価・監視#442,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#444,index/消費者基本計画の検証・評価・監視#444,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#445,index/消費者基本計画の検証・評価・監視#445,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#446,index/消費者基本計画の検証・評価・監視#446,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#450,index/消費者基本計画の検証・評価・監視#450,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#484,index/消費者基本計画の検証・評価・監視#484,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#485,index/消費者基本計画の検証・評価・監視#485,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#486,index/消費者基本計画の検証・評価・監視#486,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#489,index/消費者基本計画の検証・評価・監視#489,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#491,index/消費者基本計画の検証・評価・監視#491,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#492,index/消費者基本計画の検証・評価・監視#492,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#493,index/消費者基本計画の検証・評価・監視#493,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#494,index/消費者基本計画の検証・評価・監視#494,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#496,index/消費者基本計画の検証・評価・監視#496,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#497,index/消費者基本計画の検証・評価・監視#497,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#498,index/消費者基本計画の検証・評価・監視#498,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#501,index/消費者基本計画の検証・評価・監視#501,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,index,index/消費者基本計画の検証・評価・監視#502,index/消費者基本計画の検証・評価・監視#502,,,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#3,zei-cho#3,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#4,zei-cho#4,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#5,zei-cho#5,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#6,zei-cho#6,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#7,zei-cho#7,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#8,zei-cho#8,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho#9,zei-cho#9,,,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/新着情報 2026年度#4,zei-cho/新着情報 2026年度#4,,,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/新着情報 2026年度#5,zei-cho/新着情報 2026年度#5,,,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/新着情報 2026年度#6,zei-cho/新着情報 2026年度#6,,,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/新着情報 2026年度#7,zei-cho/新着情報 2026年度#7,,,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/新着情報 2026年度#8,zei-cho/新着情報 2026年度#8,,,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/新着情報 2026年度#9,zei-cho/新着情報 2026年度#9,,,/zei-cho/news/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-09-01,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-09-01,,2026-09-01,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-10-09,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-10-09,,2026-10-09,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,meeting_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-11-10,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-11-10,,2026-11-10,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#4,invest-japan/committee#4,,,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#5,invest-japan/committee#5,,海外からの人材・資金を呼び込むためのタスクフォース （第５回） 会議資料 令和７年 会議結果,/invest-japan/committee/ap_taskforce_05/agenda.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#6,invest-japan/committee#6,,海外からの人材・資金を呼び込むためのタスクフォース （第６回） 会議資料 令和８年 会議結果,/invest-japan/committee/ap_taskforce_06/agenda.html /invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#7,invest-japan/committee#7,,海外からの人材・資金を呼び込むためのタスクフォース （第7回） 会議資料 令和8年 会議結果,/invest-japan/committee/ap_taskforce_07/agenda.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#8,invest-japan/committee#8,,,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#11,invest-japan/committee#11,,対日直接投資推進会議（第11回）会議資料,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#12,invest-japan/committee#12,,対日直接投資推進会議（第12回）会議資料,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#13,invest-japan/committee#13,,対日直接投資推進会議（第13回）会議資料,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee#14,invest-japan/committee#14,,対日直接投資推進会議（第14回）会議資料,/invest-japan/committee/council_14/agenda.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2014-04-25,invest-japan/committee@2014-04-25,,2014-04-25,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2014-06-05,invest-japan/committee@2014-06-05,,2014-06-05,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2015-03-17,invest-japan/committee@2015-03-17,,2015-03-17,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-01-07,invest-japan/committee@2016-01-07,,2016-01-07,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-04-01,invest-japan/committee@2016-04-01,,2016-04-01,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-05-20,invest-japan/committee@2016-05-20,,2016-05-20,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-08-17,invest-japan/committee@2016-08-17,,2016-08-17,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-10-06,invest-japan/committee@2016-10-06,,2016-10-06,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-11-17,invest-japan/committee@2016-11-17,,2016-11-17,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2016-12-22,invest-japan/committee@2016-12-22,,2016-12-22,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2017-04-24,invest-japan/committee@2017-04-24,,2017-04-24,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2017-05-10,invest-japan/committee@2017-05-10,,2017-05-10,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2018-05-17,invest-japan/committee@2018-05-17,,2018-05-17,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2019-04-16,invest-japan/committee@2019-04-16,,2019-04-16,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2020-07-28,invest-japan/committee@2020-07-28,,2020-07-28,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2020-10-26,invest-japan/committee@2020-10-26,,2020-10-26,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2020-11-26,invest-japan/committee@2020-11-26,,2020-11-26,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2021-03-29,invest-japan/committee@2021-03-29,,2021-03-29,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2021-05-21,invest-japan/committee@2021-05-21,,2021-05-21,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2021-06-02,invest-japan/committee@2021-06-02,,2021-06-02,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2022-03-30,invest-japan/committee@2022-03-30,,2022-03-30,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2022-05-13,invest-japan/committee@2022-05-13,,2022-05-13,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2022-09-28,invest-japan/committee@2022-09-28,,2022-09-28,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2022-10-13,invest-japan/committee@2022-10-13,,2022-10-13,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2022-12-23,invest-japan/committee@2022-12-23,,2022-12-23,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2023-03-28,invest-japan/committee@2023-03-28,,2023-03-28,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2023-04-19,invest-japan/committee@2023-04-19,,2023-04-19,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2023-04-26,invest-japan/committee@2023-04-26,,2023-04-26,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2024-01-31,invest-japan/committee@2024-01-31,,2024-01-31,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2024-04-10,invest-japan/committee@2024-04-10,,2024-04-10,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2024-05-13,invest-japan/committee@2024-05-13,,2024-05-13,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2025-04-01,invest-japan/committee@2025-04-01,,2025-04-01,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2025-04-30,invest-japan/committee@2025-04-30,,2025-04-30,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2025-05-29,invest-japan/committee@2025-05-29,,2025-05-29,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2025-06-02,invest-japan/committee@2025-06-02,,2025-06-02,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2026-04-13,invest-japan/committee@2026-04-13,,2026-04-13,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2026-06-01,invest-japan/committee@2026-06-01,,2026-06-01,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,invest-japan/committee,invest-japan/committee@2026-07-02,invest-japan/committee@2026-07-02,,2026-07-02,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#1,tochi-chosa/shingikai#1,,2022-07-25,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#2,tochi-chosa/shingikai#2,,2022-10-11,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#3,tochi-chosa/shingikai#3,,2022-12-16,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#4,tochi-chosa/shingikai#4,,2023-05-12,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#5,tochi-chosa/shingikai#5,,2023-06-30,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#6,tochi-chosa/shingikai#6,,2023-09-11,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#7,tochi-chosa/shingikai#7,,2023-11-29,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#8,tochi-chosa/shingikai#8,,2023-12-26,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#9,tochi-chosa/shingikai#9,,2024-03-29,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#10,tochi-chosa/shingikai#10,,2024-12-23,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#11,tochi-chosa/shingikai#11,,2025-03-10,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#12,tochi-chosa/shingikai#12,,2025-06-09,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#13,tochi-chosa/shingikai#13,,2025-10-08,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#14,tochi-chosa/shingikai#14,,2025-12-05,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,tochi-chosa/shingikai,tochi-chosa/shingikai#15,tochi-chosa/shingikai#15,,2026-03-23,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,meeting_added,sasshin/kondan,sasshin/kondan#5,sasshin/kondan#5,,2012-09-06,/sasshin/kondan/index.html
+2026-11-21T14:37:43+00:00,meeting_added,sasshin/kondan,sasshin/kondan#6,sasshin/kondan#6,,2012-08-07,/sasshin/kondan/index.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#1,scjarikata/kondankai#1,,第１回 2023-08-29,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#2,scjarikata/kondankai#2,,第２回 2023-09-06,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#3,scjarikata/kondankai#3,,第３回 2023-09-25,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#4,scjarikata/kondankai#4,,第４回 2023-11-02,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#5,scjarikata/kondankai#5,,第５回 2023-11-09,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#6,scjarikata/kondankai#6,,第６回 2023-11-20,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#7,scjarikata/kondankai#7,,第７回 2023-11-30,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#8,scjarikata/kondankai#8,,第８回 2023-12-13,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#9,scjarikata/kondankai#9,,第９回 2023-12-18,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#10,scjarikata/kondankai#10,,第10回 2023-12-21,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#11,scjarikata/kondankai#11,,第11回 2024-06-07,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#12,scjarikata/kondankai#12,,第12回 2024-07-29,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#13,scjarikata/kondankai#13,,第13回 2024-11-29,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#14,scjarikata/kondankai#14,,第14回 2024-12-13,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,meeting_added,scjarikata/kondankai,scjarikata/kondankai#15,scjarikata/kondankai#15,,第15回 2024-12-18,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,-suishin/kyoginoba/kyoginoba-index,,www.cao.go.jp/bunken-suishin/doc/kyoginoba-gaiyo.pdf,,資料: 概要(PDF形式：138KB)PDFを別ウィンドウで開きます,/bunken-suishin/kyoginoba/kyoginoba-index.html
+2026-11-21T14:37:43+00:00,document_added,-suishin/kyoginoba/kyoginoba-index,,www.cao.go.jp/bunken-suishin/doc/kyoginoba.pdf,,その他: 法律(PDF形式：90KB)PDFを別ウィンドウで開きます,/bunken-suishin/kyoginoba/kyoginoba-index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#15,www.cao.go.jp/consumer/kabusoshiki/ai_technology/015/kaisai/index.html,,その他: 第15回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#94,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/094/kaisai/index.html,,その他: 第94回 公共料金等専門調査会,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer//doc/katsuyou.pdf,,その他: 授業で使ってみませんか（チラシ）（PDF形式：849KB）PDFを別ウィンドウで開きます,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer//doc/sns3.pdf,,その他: 消費者委員会SNS案内（チラシ）（PDF形式：1947KB）PDFを別ウィンドウで開きます,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#502,www.cao.go.jp/consumer/iinkai/2026/502/shiryou/index.html,,資料: 消費者委員会本会議（第502回）の資料を掲載しました。,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#14,www.cao.go.jp/consumer/kabusoshiki/ai_technology/014/shiryou/index.html,,資料: 第14回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#13,www.cao.go.jp/consumer/kabusoshiki/ai_technology/013/shiryou/index.html,,資料: 第13回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#501,www.cao.go.jp/consumer/iinkai/2026/501/shiryou/index.html,,資料: 消費者委員会本会議（第501回）の資料を掲載しました。,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#12,www.cao.go.jp/consumer/kabusoshiki/ai_technology/012/shiryou/index.html,,資料: 第12回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/about/doc/202609_categolized.pdf,,報告書: 建議・提言・意見の分野別分類（PDF形式：203KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2026-08-27,www.cao.go.jp/consumer/iinkaikouhyou/2026/0827_iken.html,,その他: 消費者基本計画の施策の取組状況等に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2026-02-24,www.cao.go.jp/consumer/iinkaikouhyou/2026/0224_iken1.html,,その他: 一般乗用旅客自動車運送事業（東京都特別区・武三地区）の運賃の改定案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2025-08-04,www.cao.go.jp/consumer/iinkaikouhyou/2025/0804_iken2.html,,その他: クライミング施設における消費者安全に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2025-08-04,www.cao.go.jp/consumer/iinkaikouhyou/2025/0804_iken1.html,,資料: レスキューサービスに関する消費者問題についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2025-07-09,www.cao.go.jp/consumer/iinkaikouhyou/2025/0709_iken.html,,その他: 「東日本旅客鉄道の鉄道事業における旅客運賃の上限変更案」に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2024-12-09,www.cao.go.jp/consumer/iinkaikouhyou/2024/1209_iken.html,,その他: 消費者をエンパワーするデジタル技術に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2024-09-27,www.cao.go.jp/consumer/iinkaikouhyou/2024/0927_iken.html,,その他: 次期消費者基本計画策定に向けた消費者委員会意見（第2回）,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2024-07-16,www.cao.go.jp/consumer/iinkaikouhyou/2024/0716_iken.html,,その他: サプリメント食品に係る消費者問題に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2024-06-18,www.cao.go.jp/consumer/iinkaikouhyou/2024/0618_iken.html,,その他: 「ＮＴＴ東西の加入電話、公衆電話、ＩＳＤＮの料金に係る基準料金指数の算出方法の変更案」に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2024-05-07,www.cao.go.jp/consumer/iinkaikouhyou/2024/0507_iken.html,,その他: 「定形郵便物（25グラム以下のものに限る。）及び料金上限規制の対象となる25グラム以下の信書便物の料金の上限の改定案」に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2024-04-22,www.cao.go.jp/consumer/iinkaikouhyou/2024/0422_iken.html,,その他: 次期消費者基本計画策定に向けた消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2023-08-10,www.cao.go.jp/consumer/iinkaikouhyou/2023/0810_iken2.html,,報告書: 多数消費者被害に係る消費者問題に関する意見～消費者法分野におけるルール形成の在り方等検討ワーキング・グループ 報告書を受けて～,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2023-08-10,www.cao.go.jp/consumer/iinkaikouhyou/2023/0810_iken.html,,その他: チャットを利用した勧誘の規制等の在り方に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2023-05-12,www.cao.go.jp/consumer/iinkaikouhyou/2023/0512_iken.html,,その他: 特定小売供給約款の変更認可申請に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2023-03-28,www.cao.go.jp/consumer/iinkaikouhyou/2023/0328_iken.html,,その他: 消費者基本計画工程表の改定素案（令和5年3月）等に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-12-16,www.cao.go.jp/consumer/iinkaikouhyou/2022/1216_iken.html,,その他: 消費者基本計画等の実施状況に関する検証・評価及び消費者基本計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-09-16,www.cao.go.jp/consumer/iinkaikouhyou/2022/0916_iken.html,,その他: 一般乗用旅客自動車運送事業（東京都特別区・武三地区）の運賃の改定案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-09-02,www.cao.go.jp/consumer/iinkaikouhyou/2022/0902_iken2.html,,その他: SNSを利用して行われる取引に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-09-02,www.cao.go.jp/consumer/iinkaikouhyou/2022/0902_iken1.html,,その他: 消費者教育の推進に関する基本的な方針の変更に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-03-31,www.cao.go.jp/consumer/iinkaikouhyou/2022/0331_iken.html,,その他: 消費者基本計画工程表の改定素案（令和4年3月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-12-17,www.cao.go.jp/consumer/iinkaikouhyou/2021/1217_iken2.html,,その他: 消費者基本計画等の実施状況に関する検証・評価及び消費者基本計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-12-17,www.cao.go.jp/consumer/iinkaikouhyou/2021/1217_iken1.html,,その他: 成年年齢引下げに伴う若年者の消費者被害防止に向けた対応策に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-08-19,www.cao.go.jp/consumer/iinkaikouhyou/2021/0819_iken2.html,,報告書: 自主規制の実効的な整備・運用の在り方に関する消費者委員会意見～消費者法分野におけるルール形成の在り方等検討ワーキング・グループ報告書を受けて～,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-08-19,www.cao.go.jp/consumer/iinkaikouhyou/2021/0819_iken1.html,,報告書: 事業者による消費者関連情報の積極的な活用を促すための対応策・環境整備に関する意見～消費者関連情報の提供の在り方検討ワーキング・グループ報告書を受けて～,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-07-16,www.cao.go.jp/consumer/iinkaikouhyou/2021/0716_iken.html,,その他: 電力託送料金制度等の詳細設計の在り方に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-06-18,www.cao.go.jp/consumer/iinkaikouhyou/2021/0618_iken.html,,その他: 「東日本電信電話株式会社及び西日本電信電話株式会社の提供する特定電気通信役務の基準料金指数の設定」等に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2021-04-16,www.cao.go.jp/consumer/iinkaikouhyou/2021/0416_iken.html,,その他: 消費者基本計画及び工程表の改定素案（令和3年3月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-12-18,www.cao.go.jp/consumer/iinkaikouhyou/2020/1218_iken.html,,その他: 消費者基本計画等の実施状況に関する検証・評価及び消費者基本計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-12-03,www.cao.go.jp/consumer/iinkaikouhyou/2020/1203_iken.html,,その他: フィッシング問題への取組に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-11-26,www.cao.go.jp/consumer/iinkaikouhyou/2020/1126_iken.html,,その他: 一般乗用旅客自動車運送事業（東京都特別区・武三地区）の運賃組替えの事後検証に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-08-28,www.cao.go.jp/consumer/iinkaikouhyou/2020/0828_iken2.html,,報告書: 2040年頃の消費者行政が目指すべき姿とその実現に向けた対応策等に関する意見 ～地方消費者行政専門調査会報告書を受けて～,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-08-28,www.cao.go.jp/consumer/iinkaikouhyou/2020/0828_iken.html,,その他: 賠償負担金・廃炉円滑化負担金の算入に伴う電力託送料金変更案の算定に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-06-26,www.cao.go.jp/consumer/iinkaikouhyou/2020/0620_iken.html,,その他: 「悪質なお試し商法」に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-05-29,www.cao.go.jp/consumer/iinkaikouhyou/2020/0529_iken.html,,その他: 消費者基本計画工程表の素案（令和2年5月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2020-01-30,www.cao.go.jp/consumer/iinkaikouhyou/2020/0130_iken.html,,その他: 次期消費者基本計画案（令和元年12月）及び工程表策定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-08-30,www.cao.go.jp/consumer/iinkaikouhyou/2019/0830_iken.html,,資料: いわゆる「販売預託商法」に関する消費者問題についての消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-08-15,www.cao.go.jp/consumer/iinkaikouhyou/2019/0815_4_iken.html,,その他: 北海道旅客鉄道株式会社の運賃の改定案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-08-15,www.cao.go.jp/consumer/iinkaikouhyou/2019/0815_3_iken.html,,その他: 消費税率引上げに伴う鉄道運賃の改定案（北海道旅客鉄道株式会社を除く）に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-08-15,www.cao.go.jp/consumer/iinkaikouhyou/2019/0815_2_iken.html,,その他: 消費税率引上げに伴う東京都特別区に係るタクシー運賃の改定案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-08-15,www.cao.go.jp/consumer/iinkaikouhyou/2019/0815_1_iken.html,,その他: 消費税率引上げに伴うバス運賃の改定案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-08-08,www.cao.go.jp/consumer/iinkaikouhyou/2019/0808_iken.html,,資料: 産業構造審議会商務流通情報分科会割賦販売小委員会中間整理についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-06-13,www.cao.go.jp/consumer/iinkaikouhyou/2019/0613_2_iken.html,,その他: 消費者法（取引分野）におけるルール形成の在り方等に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-06-13,www.cao.go.jp/consumer/iinkaikouhyou/2019/0613_1_iken.html,,その他: 消費税率の引上げに伴う定形郵便物等の上限料金の改定案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2019-03-27,www.cao.go.jp/consumer/iinkaikouhyou/2019/0327_iken.html,,その他: 消費者基本計画工程表の改定素案（平成31年２月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-12-19,www.cao.go.jp/consumer/iinkaikouhyou/2018/1219_2_iken.html,,その他: 消費者基本計画の実施状況に関する検証・評価及び計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-12-19,www.cao.go.jp/consumer/iinkaikouhyou/2018/1219_1_iken.html,,その他: 電気の経過措置料金解除に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-09-12,www.cao.go.jp/consumer/iinkaikouhyou/2018/0912_iken.html,,資料: 次期消費者基本計画策定に向けた基本的な考え方についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-08-02,www.cao.go.jp/consumer/iinkaikouhyou/2018/0802_iken.html,,その他: 関西電力による大飯原子力発電所３・４号機の再稼働に伴う電気料金値下げ後のフォローアップに関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-06-14,www.cao.go.jp/consumer/iinkaikouhyou/2018/0614_iken.html,,その他: 「東日本電信電話株式会社及び西日本電信電話株式会社の提供する特定電気通信役務の基準料金指数の設定」等に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-05-31,www.cao.go.jp/consumer/iinkaikouhyou/2018/0531_iken.html,,資料: 電力・ガス小売自由化に関する課題についての消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-03-30,www.cao.go.jp/consumer/iinkaikouhyou/2018/0330_iken.html,,その他: 消費者基本計画工程表の改定素案（平成30年２月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-03-08,www.cao.go.jp/consumer/iinkaikouhyou/2018/0308_iken.html,,その他: 消費者契約法の一部を改正する法律案に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-02-08,www.cao.go.jp/consumer/iinkaikouhyou/2018/0208_iken.html,,その他: 消費者教育の推進に関する基本的な方針の変更案に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-01-17,www.cao.go.jp/consumer/iinkaikouhyou/2018/0117_iken2.html,,その他: 四国電力による伊方原子力発電所３号機の再稼動後の追加フォローアップに関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-01-17,www.cao.go.jp/consumer/iinkaikouhyou/2018/0117_iken1.html,,その他: 中部電力による電気料金値上げ後のフォローアップに関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-12-20,www.cao.go.jp/consumer/iinkaikouhyou/2017/1220_iken2.html,,その他: 食品衛生規制等の見直しに関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-12-20,www.cao.go.jp/consumer/iinkaikouhyou/2017/1220_iken1.html,,その他: 消費者基本計画の実施状況に関する検証・評価及び計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-11-08,www.cao.go.jp/consumer/iinkaikouhyou/2017/1108_iken.html,,その他: 消費者教育の推進に関する基本的な方針の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-08-22,www.cao.go.jp/consumer/iinkaikouhyou/2017/0822_iken.html,,その他: 関西電力による高浜原子力発電所3・4号機の再稼働に伴う電気料金値下げ後のフォローアップに関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-08-03,www.cao.go.jp/consumer/iinkaikouhyou/2017/20170803_iken.html,,その他: 不動産特定共同事業法に基づく小規模不動産特定共同事業に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-05-23,www.cao.go.jp/consumer/iinkaikouhyou/2017/0523_iken_2.html,,資料: 電力・ガス小売自由化に関する課題についての消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-05-23,www.cao.go.jp/consumer/iinkaikouhyou/2017/0523_iken_1.html,,その他: 消費者基本計画工程表の改定素案（平成29年4月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-04-18,www.cao.go.jp/consumer/iinkaikouhyou/2017/0418_iken.html,,資料: 北海道電力、東北電力、関西電力、四国電力及び九州電力による電気料金値上げ後のフォローアップに関する消費者委員会意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-01-31,www.cao.go.jp/consumer/iinkaikouhyou/2017/0131_iken.html,,その他: 消費者基本計画の実施状況に関する検証・評価及び計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-01-17,www.cao.go.jp/consumer/iinkaikouhyou/2017/20170117_iken.html,,報告書: 「健康食品の表示・広告の適正化に向けた対応策と、特定保健用食品の制度・運用見直しについての建議」の実施報告に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-12-06,www.cao.go.jp/consumer/iinkaikouhyou/2016/1206_iken.html,,その他: 一般乗用旅客自動車運送事業(東京都特別区・武三地区)の運賃組替え案に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-09-20,www.cao.go.jp/consumer/iinkaikouhyou/2016/0920_iken.html,,資料: スマホゲームに関する消費者問題についての意見－注視すべき観点,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-08-23,www.cao.go.jp/consumer/iinkaikouhyou/2016/0823_iken.html,,その他: 消費者庁等における各種試行を踏まえた今後の取組に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-05-24,www.cao.go.jp/consumer/iinkaikouhyou/2016/0524_iken.html,,その他: 消費者基本計画工程表の改定素案（平成28年4月）に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-05-17,www.cao.go.jp/consumer/iinkaikouhyou/2016/0517_iken.html,,資料: 「電力小売自由化について注視すべき論点」に関する消費者委員会意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-04-26,www.cao.go.jp/consumer/iinkaikouhyou/2016/0426_iken.html,,資料: 東京電力による電気料金値上げ後のフォローアップに関する消費者委員会意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-02-24,www.cao.go.jp/consumer/iinkaikouhyou/2016/0224_iken.html,,その他: 消費者基本計画の実施状況に関する検証・評価及び計画工程表の改定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2015-06-16,www.cao.go.jp/consumer/iinkaikouhyou/2015/0616_iken.html,,その他: 「東日本電信電話株式会社及び西日本電信電話株式会社の提供する特定電気通信役務の基準料金指数の設定」等に関する消費者委員会の意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2015-05-08,www.cao.go.jp/consumer/iinkaikouhyou/2015/0508_iken.html,,資料: 関西電力による家庭用電気料金値上げ認可申請に対する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2015-02-17,www.cao.go.jp/consumer/iinkaikouhyou/2015/0217_iken.html,,その他: 次期消費者基本計画の素案（平成27年2月）等に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-10-07,www.cao.go.jp/consumer/iinkaikouhyou/2014/1007_iken.html,,資料: 北海道電力による家庭用電気料金値上げ認可申請に対する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-09-09,www.cao.go.jp/consumer/iinkaikouhyou/2014/0909_iken.html,,名簿: いわゆる名簿屋等に関する今後検討すべき課題についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-07-15,www.cao.go.jp/consumer/iinkaikouhyou/2014/0715_iken.html,,その他: 「パーソナルデータの利活用に関する制度改正大綱」に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-05-27,www.cao.go.jp/consumer/iinkaikouhyou/2014/0527_iken.html,,その他: 消費者基本計画の改定素案（平成26年５月）等に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-04-08,www.cao.go.jp/consumer/iinkaikouhyou/2014/0408_iken2.html,,その他: 商品先物取引法における不招請勧誘禁止規制の緩和策に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-04-08,www.cao.go.jp/consumer/iinkaikouhyou/2014/0408_iken1.html,,資料: 中部電力による家庭用電気料金値上げ認可申請に対する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-02-25,www.cao.go.jp/consumer/iinkaikouhyou/2014/0225_iken2.html,,その他: 消費者基本計画の実施状況に関する検証・評価及び計画の見直しに向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-02-25,www.cao.go.jp/consumer/iinkaikouhyou/2014/0225_iken1.html,,その他: クラウドファンディングに係る制度整備に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-02-18,www.cao.go.jp/consumer/iinkaikouhyou/2014/0218_iken4.html,,資料: 消費税率の引上げに伴う東京都特別区に係るタクシー運賃の改定案に関する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-02-18,www.cao.go.jp/consumer/iinkaikouhyou/2014/0218_iken3.html,,資料: 消費税率の引上げに伴うバス運賃の改定案に関する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-02-18,www.cao.go.jp/consumer/iinkaikouhyou/2014/0218_iken2.html,,資料: 消費税率の引上げに伴う鉄道運賃の改定案に関する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-02-18,www.cao.go.jp/consumer/iinkaikouhyou/2014/0218_iken1.html,,資料: 消費税率の引上げに伴うＪＴのたばこ小売価格の改定案に関する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-12-17,www.cao.go.jp/consumer/iinkaikouhyou/2013/1217_iken.html,,その他: 「食品表示等適正化対策」に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-11-19,www.cao.go.jp/consumer/iinkaikouhyou/2013/1119_iken.html,,資料: 消費税率の引上げに伴う定形郵便物等の上限料金の改定案に関する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-11-12,www.cao.go.jp/consumer/iinkaikouhyou/2013/1112_iken.html,,その他: 商品先物取引における不招請勧誘禁止規制に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-08-27,www.cao.go.jp/consumer/iinkaikouhyou/2013/0827_kangaekata.html,,その他: インターネットを通じた消費者の財産被害問題に関する消費者委員会としての現時点の考え方,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-07-31,www.cao.go.jp/consumer/iinkaikouhyou/2013/0731_iken.html,,資料: 北海道電力による家庭用電気料金値上げ認可申請に対する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-07-30,www.cao.go.jp/consumer/iinkaikouhyou/2013/0730_iken.html,,資料: 東北電力及び四国電力による家庭用電気料金値上げ認可申請に対する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-07-23,www.cao.go.jp/consumer/iinkaikouhyou/2013/20130723_iken.html,,資料: 公益通報者保護制度に関する意見 －消費者庁の実態調査を踏まえた今後の取組について－,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-06-25,www.cao.go.jp/consumer/iinkaikouhyou/2013/0625_iken.html,,報告書: 「消費者白書」及び「消費者安全法に基づく国会報告」への意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-05-28,www.cao.go.jp/consumer/iinkaikouhyou/2013/0528_iken.html,,その他: 消費者基本計画の改定素案（平成25年4月）等に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-03-19,www.cao.go.jp/consumer/iinkaikouhyou/2013/0319_iken.html,,資料: 関西電力及び九州電力による家庭用電気料金値上げ認可申請に対する消費者委員会の意見について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2013-02-26,www.cao.go.jp/consumer/iinkaikouhyou/2013/0226_iken.html,,その他: 消費者基本計画の実施状況に関する検証・評価及び計画の見直しに向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-12-25,www.cao.go.jp/consumer/iinkaikouhyou/2012/1225_iken.html,,その他: 消費者教育の推進に関する基本方針の策定に向けた意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-07-13,www.cao.go.jp/consumer/iinkaikouhyou/2012/0713_iken.html,,その他: 東京電力の家庭用電気料金の値上げ認可申請に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-06-19,www.cao.go.jp/consumer/iinkaikouhyou/2012/0620_kangaekata.html,,その他: 東京電力の家庭用電気料金値上げ認可申請に関する消費者委員会としての現時点の考え方,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-06-12,www.cao.go.jp/consumer/iinkaikouhyou/2012/0612_iken.html,,報告書: 「消費者事故等に関する情報の集約及び分析の取りまとめ結果の報告」に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-06-05,www.cao.go.jp/consumer/iinkaikouhyou/2012/0605_kangaekata.html,,その他: 「健康食品の表示等の在り方」に関する考え方－健康食品の利用者アンケートの分析結果を踏まえて－,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-05-29,www.cao.go.jp/consumer/iinkaikouhyou/2012/0529_iken.html,,その他: 消費者基本計画の改定素案（平成24年4月）等に対する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-05-10,www.cao.go.jp/consumer/iinkaikouhyou/2012/0510_seimei.html,,資料: 委員長声明 －家庭用電気料金値上げに係る認可申請について－,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-03-27,www.cao.go.jp/consumer/iinkaikouhyou/2012/0327_iken.html,,その他: 消費者基本計画の平成23年度の実施状況に関する検証・評価及び計画の見直しに向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2012-02-14,www.cao.go.jp/consumer/iinkaikouhyou/2012/0214_iken.html,,報告書: 「消費者事故等に関する情報の集約及び分析の取りまとめ結果の報告」に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-12-02,www.cao.go.jp/consumer/iinkaikouhyou/2011/1202_iken.html,,報告書: 「国民生活センターの在り方の見直しに関する検証会議」中間取りまとめ（座長試案）についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-08-26,www.cao.go.jp/consumer/iinkaikouhyou/2011/0826_kojinjyouhou.html,,資料: 個人情報保護制度について,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-08-26,www.cao.go.jp/consumer/iinkaikouhyou/2011/0826_iken.html,,その他: 集団的消費者被害救済制度の今後の検討に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-08-23,www.cao.go.jp/consumer/iinkaikouhyou/2011/0823_chukanseiri.html,,その他: 「健康食品の表示の在り方」に関する中間整理,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-08-12,www.cao.go.jp/consumer/iinkaikouhyou/2011/0812_iken.html,,資料: 原料原産地表示拡大の進め方についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-07-15,www.cao.go.jp/consumer/iinkaikouhyou/2011/0715_iken.html,,資料: 「国民生活センターの在り方の見直し」に関する検討についての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-06-24,www.cao.go.jp/consumer/iinkaikouhyou/2011/0624_iken.html,,報告書: 「消費者事故等に関する情報の集約及び分析の取りまとめ結果の報告」に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-06-10,www.cao.go.jp/consumer/iinkaikouhyou/2011/0610_iken.html,,資料: 消費者行政体制の一層の強化について－「国民生活センターの在り方の見直しに係るタスクフォース」中間整理についての意見－,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-06-10,www.cao.go.jp/consumer/iinkaikouhyou/2011/0610_iken2.html,,資料: 消費者基本計画の平成22年度の実施状況に関する検証・評価及び計画の見直しについての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-03-11,www.cao.go.jp/consumer/iinkaikouhyou/2011/110311_iken.html,,資料: 公益通報者保護制度の見直しについての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2011-03-04,www.cao.go.jp/consumer/iinkaikouhyou/2011/110304_iken.html,,報告書: 「消費者事故等に関する情報の集約及び分析の取りまとめ結果の報告」に関する意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2010-06-25,www.cao.go.jp/consumer/iinkaikouhyou/2010/0625_ikensho.html,,報告書: 消費者安全法に基づく国会報告について今後重視されるべき基本的視点,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2010-03-25,www.cao.go.jp/consumer/iinkaikouhyou/2010/100325_shiten.html,,資料: 消費者基本計画の検証・評価・監視についての視点,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2010-03-03,www.cao.go.jp/consumer/iinkaikouhyou/2010/100303_iken.html,,その他: 消費者基本計画策定に向けての意見,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2009-12-14,www.cao.go.jp/consumer/iinkaikouhyou/2009/091214_chihoushohishagyousei.html,,その他: 地方消費者行政の充実強化に向けて,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2025-07-09,www.cao.go.jp/consumer/content/20250709_toshin_4.pdf,,報告書: 消費者法制度のパラダイムシフトについての答申（PDF形式：194KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2025-07-09,www.cao.go.jp/consumer/iinkaikouhyou/2025/doc/202507_para_houkoku1.pdf,,報告書: 【別添】消費者法制度のパラダイムシフトに関する専門調査会報告書（PDF形式：827KB） PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2025-07-09,www.cao.go.jp/consumer/iinkaikouhyou/2025/doc/202507_para_houkoku2.pdf,,"報告書: 消費者法制度のパラダイムシフトに関する専門調査会報告書（概要）（PDF形式：1,242KB） PDFを別ウィンドウで開きます",/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2023-05-11,www.cao.go.jp/consumer/content/20230511_toshin2.pdf,,報告書: 電力市場における競争環境整備に向けた諸課題についての答申（PDF形式：194KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2023-05-11,www.cao.go.jp/consumer/content/20230511_iken1.pdf,,資料: 【別添】電力市場における競争環境整備に向けた諸課題に関する消費者委員会意見（PDF形式：590KB） PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-11-28,www.cao.go.jp/consumer/content/20221128_toshin2.pdf,,報告書: 電力託送料金の妥当性についての答申（PDF形式：121KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2022-11-28,www.cao.go.jp/consumer/content/20221128_iken2_2.pdf,,資料: 【別添】電力託送料金の妥当性に関する公共料金等専門調査会意見（PDF形式：1.7MB） PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-12-27,www.cao.go.jp/consumer/content/20181227_toushin.pdf,,報告書: 公益通報者保護法の規律の在り方や行政の果たすべき役割等に係る方策についての答申（PDF形式：155KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2018-12-27,www.cao.go.jp/consumer/kabusoshiki/koueki/doc/20181227_koueki_houkoku.pdf,,報告書: 【別添】公益通報者保護専門調査会報告書（PDF形式：1255KB） PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-08-08,www.cao.go.jp/consumer/content/20171019_20170808_sk_toshin.pdf,,報告書: 消費者契約法の規律の在り方についての答申（二次答申）（PDF形式：32KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2017-08-08,www.cao.go.jp/consumer/content/20171019_20170808_sk_toshin_betu.pdf,,報告書: 【別添】消費者契約法専門調査会報告書 （PDF形式：495KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-07-26,www.cao.go.jp/consumer/content/20171023_20160726_takuso_toshin.pdf,,報告書: 電力託送料金の査定方法等に関する答申（PDF形式：41KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-07-26,www.cao.go.jp/consumer/content/20171023_20160726_takuso_toshin_betu.pdf,,報告書: 【別添】電力託送料金に関する調査会報告書（PDF形式：207KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-07-26,www.cao.go.jp/consumer/content/20180105_20160726_takuso_toshin_betu_shiryou.pdf,,報告書: 【別添】電力託送料金に関する調査会報告書 資料編（PDF形式：960KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-01-07,www.cao.go.jp/consumer/content/20171023_20160107_sk_toshin.pdf,,報告書: 消費者契約法の規律の在り方についての答申（一次答申）（PDF形式：122KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-01-07,www.cao.go.jp/consumer/content/20171023_20160107_sk_toshin_betu.pdf,,報告書: 【別添】消費者契約法専門調査会報告書 （PDF形式：487KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-01-07,www.cao.go.jp/consumer/content/20171023_20160107_ts_toshin.pdf,,報告書: 特定商取引法の規律の在り方についての答申（PDF形式：88KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2016-01-07,www.cao.go.jp/consumer/content/20171023_20160107_ts_toshin_betu.pdf,,報告書: 【別添】特定商取引法専門調査会報告書 （PDF形式：518KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index@2014-06-10,www.cao.go.jp/consumer/iinkaikouhyou/2014/20140610_toshin.pdf,,報告書: 不当景品類及び不当表示防止法上の不当表示規制の実効性を確保するための課徴金制度の導入等の違反行為に対する措置の在り方について（答申）（PDF形式：424KB）PDFを別ウィンドウで開きます,/consumer/about/kengi_teigen_iken.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#498,www.cao.go.jp/consumer/iinkai/2026/498/shiryou/index.html,,その他: 第498回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#497,www.cao.go.jp/consumer/iinkai/2026/497/shiryou/index.html,,その他: 第497回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#496,www.cao.go.jp/consumer/iinkai/2026/496/shiryou/index.html,,その他: 第496回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#494,www.cao.go.jp/consumer/iinkai/2026/494/shiryou/index.html,,その他: 第494回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#493,www.cao.go.jp/consumer/iinkai/2026/493/shiryou/index.html,,その他: 第493回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#492,www.cao.go.jp/consumer/iinkai/2026/492/shiryou/index.html,,その他: 第492回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#491,www.cao.go.jp/consumer/iinkai/2026/491/shiryou/index.html,,その他: 第491回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#489,www.cao.go.jp/consumer/iinkai/2026/489/shiryou/index.html,,その他: 第489回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#486,www.cao.go.jp/consumer/iinkai/2026/486/shiryou/index.html,,その他: 第486回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#485,www.cao.go.jp/consumer/iinkai/2026/485/shiryou/index.html,,その他: 第485回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#484,www.cao.go.jp/consumer/iinkai/2026/484/shiryou/index.html,,その他: 第484回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#450,www.cao.go.jp/consumer/iinkai/2024/450/shiryou/index.html,,その他: 第450回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#446,www.cao.go.jp/consumer/iinkai/2024/446/shiryou/index.html,,その他: 第446回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#445,www.cao.go.jp/consumer/iinkai/2024/445/shiryou/index.html,,その他: 第445回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#444,www.cao.go.jp/consumer/iinkai/2024/444/shiryou/index.html,,その他: 第444回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#442,www.cao.go.jp/consumer/iinkai/2024/442/shiryou/index.html,,その他: 第442回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#441,www.cao.go.jp/consumer/iinkai/2024/441/shiryou/index.html,,その他: 第441回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#440,www.cao.go.jp/consumer/iinkai/2024/440/shiryou/index.html,,その他: 第440回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#439,www.cao.go.jp/consumer/iinkai/2024/439/shiryou/index.html,,その他: 第439回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#437,www.cao.go.jp/consumer/iinkai/2024/437/shiryou/index.html,,その他: 第437回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#436,www.cao.go.jp/consumer/iinkai/2024/436/shiryou/index.html,,その他: 第436回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#435,www.cao.go.jp/consumer/iinkai/2024/435/shiryou/index.html,,その他: 第435回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#434,www.cao.go.jp/consumer/iinkai/2024/434/shiryou/index.html,,その他: 第434回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#431,www.cao.go.jp/consumer/iinkai/2024/431/shiryou/index.html,,その他: 第431回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#430,www.cao.go.jp/consumer/iinkai/2024/430/shiryou/index.html,,その他: 第430回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#429,www.cao.go.jp/consumer/iinkai/2024/429/shiryou/index.html,,その他: 第429回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#428,www.cao.go.jp/consumer/iinkai/2024/428/shiryou/index.html,,その他: 第428回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#427,www.cao.go.jp/consumer/iinkai/2024/427/shiryou/index.html,,その他: 第427回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#426,www.cao.go.jp/consumer/iinkai/2024/426/shiryou/index.html,,その他: 第426回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#424,www.cao.go.jp/consumer/iinkai/2024/424/shiryou/index.html,,その他: 第424回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#422,www.cao.go.jp/consumer/iinkai/2024/422/shiryou/index.html,,その他: 第422回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#421,www.cao.go.jp/consumer/iinkai/2024/421/shiryou/index.html,,その他: 第421回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#420,www.cao.go.jp/consumer/iinkai/2023/420/shiryou/index.html,,その他: 第420回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#419,www.cao.go.jp/consumer/iinkai/2023/419/shiryou/index.html,,その他: 第419回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#418,www.cao.go.jp/consumer/iinkai/2023/418/shiryou/index.html,,その他: 第418回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#416,www.cao.go.jp/consumer/iinkai/2023/416/shiryou/index.html,,その他: 第416回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#404,www.cao.go.jp/consumer/iinkai/2023/404/shiryou/index.html,,その他: 第404回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#395,www.cao.go.jp/consumer/iinkai/2023/395/shiryou/index.html,,その他: 第395回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#393,www.cao.go.jp/consumer/iinkai/2023/393/shiryou/index.html,,その他: 第393回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#391,www.cao.go.jp/consumer/iinkai/2023/391/shiryou/index.html,,その他: 第391回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#390,www.cao.go.jp/consumer/iinkai/2023/390/shiryou/index.html,,その他: 第390回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#387,www.cao.go.jp/consumer/iinkai/2022/387/shiryou/index.html,,その他: 第387回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#386,www.cao.go.jp/consumer/iinkai/2022/386/shiryou/index.html,,その他: 第386回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#385,www.cao.go.jp/consumer/iinkai/2022/385/shiryou/index.html,,その他: 第385回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#383,www.cao.go.jp/consumer/iinkai/2022/383/shiryou/index.html,,その他: 第383回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#373,www.cao.go.jp/consumer/iinkai/2022/373/shiryou/index.html,,その他: 第373回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#368,www.cao.go.jp/consumer/iinkai/2022/368/shiryou/index.html,,その他: 第368回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#367,www.cao.go.jp/consumer/iinkai/2022/367/shiryou/index.html,,その他: 第367回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#366,www.cao.go.jp/consumer/iinkai/2022/366/shiryou/index.html,,その他: 第366回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#365,www.cao.go.jp/consumer/iinkai/2022/365/shiryou/index.html,,その他: 第365回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#364,www.cao.go.jp/consumer/iinkai/2022/364/shiryou/index.html,,その他: 第364回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#363,www.cao.go.jp/consumer/iinkai/2022/363/shiryou/index.html,,その他: 第363回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#361,www.cao.go.jp/consumer/iinkai/2021/361/shiryou/index.html,,その他: 第361回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#360,www.cao.go.jp/consumer/iinkai/2021/360/shiryou/index.html,,その他: 第360回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#359,www.cao.go.jp/consumer/iinkai/2021/359/shiryou/index.html,,その他: 第359回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#358,www.cao.go.jp/consumer/iinkai/2021/358/shiryou/index.html,,その他: 第358回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#340,www.cao.go.jp/consumer/iinkai/2021/340/shiryou/index.html,,その他: 第340回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#339,www.cao.go.jp/consumer/iinkai/2021/339/shiryou/index.html,,その他: 第339回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#337,www.cao.go.jp/consumer/iinkai/2021/337/shiryou/index.html,,その他: 第337回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#335,www.cao.go.jp/consumer/iinkai/2021/335/shiryou/index.html,,その他: 第335回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#333,www.cao.go.jp/consumer/iinkai/2020/333/shiryou/index.html,,その他: 第333回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#332,www.cao.go.jp/consumer/iinkai/2020/332/shiryou/index.html,,その他: 第332回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#331,www.cao.go.jp/consumer/iinkai/2020/331/shiryou/index.html,,その他: 第331回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#330,www.cao.go.jp/consumer/iinkai/2020/330/shiryou/index.html,,その他: 第330回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#311,www.cao.go.jp/consumer/iinkai/2019/311/shiryou/index.html,,その他: 第311回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#312,www.cao.go.jp/consumer/iinkai/2019/312/shiryou/index.html,,その他: 第312回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#291,www.cao.go.jp/consumer/iinkai/2019/291/shiryou/index.html,,その他: 第291回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#292,www.cao.go.jp/consumer/iinkai/2019/292/shiryou/index.html,,その他: 第292回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#287,www.cao.go.jp/consumer/iinkai/2018/287/shiryou/index.html,,その他: 第287回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#267,www.cao.go.jp/consumer/iinkai/2018/267/shiryou/index.html,,その他: 第267回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#269,www.cao.go.jp/consumer/iinkai/2018/269/shiryou/index.html,,その他: 第269回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#270,www.cao.go.jp/consumer/iinkai/2018/270/shiryou/index.html,,その他: 第270回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#261,www.cao.go.jp/consumer/iinkai/2017/261/shiryou/index.html,,その他: 第261回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#262,www.cao.go.jp/consumer/iinkai/2017/262/shiryou/index.html,,その他: 第262回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#244,www.cao.go.jp/consumer/iinkai/2017/244/shiryou/index.html,,その他: 第244回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#245,www.cao.go.jp/consumer/iinkai/2017/245/shiryou/index.html,,その他: 第245回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#246,www.cao.go.jp/consumer/iinkai/2017/246/shiryou/index.html,,その他: 第246回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#235,www.cao.go.jp/consumer/iinkai/2016/235/shiryou/index.html,,その他: 第235回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#239,www.cao.go.jp/consumer/iinkai/2016/239/shiryou/index.html,,その他: 第239回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#206,www.cao.go.jp/consumer/iinkai/2015/206/shiryou/index.html,,その他: 第206回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#208,www.cao.go.jp/consumer/iinkai/2015/208/shiryou/index.html,,その他: 第208回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#209,www.cao.go.jp/consumer/iinkai/2015/209/shiryou/index.html,,その他: 第209回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#211,www.cao.go.jp/consumer/iinkai/2016/211/shiryou/index.html,,その他: 第211回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#182,www.cao.go.jp/consumer/iinkai/2015/182/shiryou/index.html,,その他: 第182回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,index/消費者基本計画の検証・評価・監視#183,www.cao.go.jp/consumer/iinkai/2015/183/shiryou/index.html,,その他: 第183回 消費者委員会本会議,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20260827_iken.pdf,,その他: 意見（PDF形式：258KB）PDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20240927_iken.pdf,,その他: 意見（PDF形式：382KB）PDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20240927_iken_betsu_2.pdf,,資料: 【参考】概要（PDF形式：434KB）PDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20240422_iken2.pdf,,その他: 意見（PDF形式：586KB）PDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20240422_iken_2.pdf,,資料: 添付資料（PDF形式：1.6MB）PDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20240422_iken_betsu.pdf,,資料: 【参考】概要（PDF形式：427KB）PDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20240603_toshin.pdf,,その他: PDF形式：279KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20230328_iken.pdf,,その他: PDF形式：397KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20221216_iken.pdf,,その他: PDF形式：396KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20220331_iken.pdf,,その他: PDF形式：385KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20211217_iken2.pdf,,その他: PDF形式：402KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20210416_iken.pdf,,その他: PDF形式：466KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20201218_iken.pdf,,その他: PDF形式：380KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20200529_iken.pdf,,その他: PDF形式：464KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20200130_iken.pdf,,その他: PDF形式：344KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20180913_20180912_iken.pdf,,その他: PDF形式：270KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20190327_iken.pdf,,その他: PDF形式：278KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20181219_iken_2.pdf,,その他: PDF形式：278KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20180330_20180330_iken.pdf,,その他: PDF形式：187KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20171221_20171220_iken_1.pdf,,その他: PDF形式：152KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20171020_20170523_iken_1.pdf,,その他: PDF形式：24KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20171020_20170131_iken.pdf,,その他: PDF形式：23KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20171023_20160524_iken.pdf,,その他: PDF形式：25KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20171025_20160224_iken.pdf,,その他: PDF形式：15KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20171024_20150217_iken.pdf,,その他: PDF形式：347KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20140530_20140527_iken.pdf,,その他: PDF形式：322KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20140226_20140225_iken2.pdf,,その他: PDF形式：21KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20130529_20130528_iken.pdf,,その他: PDF形式：189KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20130301_20130226_iken_.pdf,,その他: PDF形式：24KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20120601_20120529_iken.pdf,,その他: PDF形式：196KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20120329_20120327_iken.pdf,,その他: PDF形式：140KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20110622_20110610_iken2.pdf,,その他: PDF形式：13KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20110729_100325_shiten.pdf,,その他: PDF形式：16KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/content/20101126_100303_iken.pdf,,その他: PDF形式：24KBPDFを別ウィンドウで開きます,/consumer/about/kihonkeikaku.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-1.pdf,,その他: ある日のコンちゃんとコミズク（PDF形式：250KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-2.pdf,,その他: SNSに潜むトラブルに注意しよう（PDF形式：76KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-3.pdf,,その他: SNSトラブル防止のポイント（PDF形式：157KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-4.pdf,,その他: ある日のコンちゃんとコミズク（PDF形式：204KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-5.pdf,,その他: フィッシング詐欺7つのチェックポイント（PDF形式：82KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-6.pdf,,その他: ある日のコンちゃんとコミズク（PDF形式：201KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-7.pdf,,その他: 旅行予約事前チェックリスト（PDF形式：893KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/character/x-8.pdf,,その他: オンライン旅行予約のTips（PDF形式：940KB）PDFを別ウィンドウで開きます,/consumer/about/prcontent.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/doc/e-about_image.pdf,,その他: Overview of the Consumer Commission and consumer administration in Japan(click here for larger view[PDF：195KB])open pdf in a new window,/consumer/en/e-index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/opinion/2026/2601_ikenyoubou.pdf,,報告書: 消費者委員会に寄せられた要望書・意見書・声明文等一覧（R8年1月分） （PDF形式：279KB）PDFを別ウィンドウで開きます,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/opinion/2026/2602_ikenyoubou.pdf,,報告書: 消費者委員会に寄せられた要望書・意見書・声明文等一覧（R8年2月分） （PDF形式：242KB）PDFを別ウィンドウで開きます,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/opinion/2026/2603_ikenyoubou.pdf,,報告書: 消費者委員会に寄せられた要望書・意見書・声明文等一覧（R8年3月分） （PDF形式：119KB）PDFを別ウィンドウで開きます,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/opinion/2026/2604_ikenyoubou.pdf,,報告書: 消費者委員会に寄せられた要望書・意見書・声明文等一覧（R8年4月分） （PDF形式：236KB）PDFを別ウィンドウで開きます,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/opinion/2026/2605_ikenyoubou.pdf,,報告書: 消費者委員会に寄せられた要望書・意見書・声明文等一覧（R8年5月分） （PDF形式：98KB）PDFを別ウィンドウで開きます,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,document_added,index,,www.cao.go.jp/consumer/opinion/2026/2606_ikenyoubou.pdf,,報告書: 消費者委員会に寄せられた要望書・意見書・声明文等一覧（R8年6月分） （PDF形式：121KB）PDFを別ウィンドウで開きます,/consumer/opinion/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#11,www.cao.go.jp/consumer/kabusoshiki/ai_technology/011/shiryou/index.html,,資料: 第11回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#10,www.cao.go.jp/consumer/kabusoshiki/ai_technology/010/shiryou/index.html,,資料: 第10回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#500,www.cao.go.jp/consumer/iinkai/2026/500/shiryou/index.html,,資料: 消費者委員会本会議（第500回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#9,www.cao.go.jp/consumer/kabusoshiki/ai_technology/009/shiryou/index.html,,資料: 第9回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#20,www.cao.go.jp/consumer/kabusoshiki/payment/020/shiryou/index.html,,資料: 第20回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#499,www.cao.go.jp/consumer/iinkai/2026/499/shiryou/index.html,,資料: 消費者委員会本会議（第499回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#82,www.cao.go.jp/consumer/kabusoshiki/syokuhinhyouji/bukai/082/gijiroku/index.html,,議事録: 第82回 食品表示部会の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#83,www.cao.go.jp/consumer/kabusoshiki/syokuhinhyouji/bukai/083/shiryou/index.html,,資料: 第83回 食品表示部会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#8,www.cao.go.jp/consumer/kabusoshiki/ai_technology/008/shiryou/index.html,,資料: 第8回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#82,www.cao.go.jp/consumer/kabusoshiki/syokuhinhyouji/bukai/082/shiryou/index.html,,資料: 第82回 食品表示部会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#19,www.cao.go.jp/consumer/kabusoshiki/payment/019/shiryou/index.html,,資料: 第19回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#7,www.cao.go.jp/consumer/kabusoshiki/ai_technology/007/shiryou/index.html,,資料: 第7回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#18,www.cao.go.jp/consumer/kabusoshiki/payment/018/shiryou/index.html,,資料: 第18回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#6,www.cao.go.jp/consumer/kabusoshiki/ai_technology/006/shiryou/index.html,,資料: 第6回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#492,www.cao.go.jp/consumer/iinkai/2026/492/gijiroku/index.html,,議事録: 消費者委員会本会議（第492回）の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#493,www.cao.go.jp/consumer/iinkai/2026/493/gijiroku/index.html,,議事録: 消費者委員会本会議（第493回）の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#17,www.cao.go.jp/consumer/kabusoshiki/payment/017/shiryou/index.html,,資料: 第17回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#495,www.cao.go.jp/consumer/iinkai/2026/495/shiryou/index.html,,資料: 消費者委員会本会議（第495回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#4,www.cao.go.jp/consumer/kabusoshiki/ai_technology/004/gijiroku/index.html,,議事録: 第4回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#5,www.cao.go.jp/consumer/kabusoshiki/ai_technology/005/shiryou/index.html,,資料: 第5回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#489,www.cao.go.jp/consumer/iinkai/2026/489/gijiroku/index.html,,議事録: 消費者委員会本会議（第489回）の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#4,www.cao.go.jp/consumer/kabusoshiki/ai_technology/004/shiryou/index.html,,資料: 第4回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#490,www.cao.go.jp/consumer/iinkai/2026/490/shiryou/index.html,,資料: 消費者委員会本会議（第490回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#16,www.cao.go.jp/consumer/kabusoshiki/payment/016/shiryou/index.html,,資料: 第16回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#488,www.cao.go.jp/consumer/iinkai/2026/488/shiryou/index.html,,資料: 消費者委員会本会議（第488回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#15,www.cao.go.jp/consumer/kabusoshiki/payment/015/shiryou/index.html,,資料: 第15回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#487,www.cao.go.jp/consumer/iinkai/2026/487/shiryou/index.html,,資料: 消費者委員会本会議（第487回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#3,www.cao.go.jp/consumer/kabusoshiki/ai_technology/003/shiryou/index.html,,資料: 第3回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#93,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/093/gijiroku/index.html,,議事録: 第93回 公共料金等専門調査会の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#2,www.cao.go.jp/consumer/kabusoshiki/ai_technology/002/shiryou/index.html,,資料: 第2回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#14,www.cao.go.jp/consumer/kabusoshiki/payment/014/shiryou/index.html,,資料: 第14回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#13,www.cao.go.jp/consumer/kabusoshiki/payment/013/shiryou/index.html,,資料: 第13回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#93,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/093/shiryou/index.html,,資料: 第93回 公共料金等専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#92,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/092/gijiroku/index.html,,議事録: 第92回 公共料金等専門調査会の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#483,www.cao.go.jp/consumer/iinkai/2026/483/shiryou/index.html,,資料: 消費者委員会本会議（第483回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#1,www.cao.go.jp/consumer/kabusoshiki/ai_technology/001/gijiroku/index.html,,議事録: 第1回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#482,www.cao.go.jp/consumer/iinkai/2026/482/shiryou/index.html,,資料: 消費者委員会本会議（第482回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#92,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/092/shiryou/index.html,,資料: 第92回 公共料金等専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#1,www.cao.go.jp/consumer/kabusoshiki/ai_technology/001/shiryou/index.html,,資料: 第1回 人工知能（ＡＩ）技術の利用と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#479,www.cao.go.jp/consumer/iinkai/2026/479/gijiroku/index.html,,議事録: 消費者委員会本会議（第479回）の議事録を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#81,www.cao.go.jp/consumer/kabusoshiki/syokuhinhyouji/bukai/081/shiryou/index.html,,資料: 第81回 食品表示部会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#481,www.cao.go.jp/consumer/iinkai/2026/481/shiryou/index.html,,資料: 消費者委員会本会議（第481回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#91,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/091/shiryou/index.html,,資料: 第91回 公共料金等専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#480,www.cao.go.jp/consumer/iinkai/2026/480/shiryou/index1.html,,資料: 消費者委員会本会議（第480回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#12,www.cao.go.jp/consumer/kabusoshiki/payment/012/shiryou/index.html,,資料: 第12回 支払手段の多様化と消費者問題に関する専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#80,www.cao.go.jp/consumer/kabusoshiki/syokuhinhyouji/bukai/080/shiryou/index.html,,資料: 第80回 食品表示部会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#90,www.cao.go.jp/consumer/kabusoshiki/kokyoryokin/senmon/090/shiryou/index.html,,資料: 第90回 公共料金等専門調査会の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,index,index#479,www.cao.go.jp/consumer/iinkai/2026/479/shiryou/index.html,,資料: 消費者委員会本会議（第479回）の資料を掲載しました。,/consumer/shinchaku/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#9,www.cao.go.jp/zei-cho/gijiroku/ebpm/2026/index.html,,その他: 第９回税制のEBPMに関する専門家会合の記者会見録を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#9,www.cao.go.jp/zei-cho/gijiroku/ebpm/2026/8ebpm9kai.html,,資料: 第９回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#6,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2026/8digital-noukan6kai.html,,資料: 第６回経済社会のデジタル化への対応と納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#5,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2026/8digital-noukan5kai.html,,資料: 第５回経済社会のデジタル化への対応と納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#7,www.cao.go.jp/zei-cho/gijiroku/ebpm/index.html,,議事録: 第７回税制のEBPMに関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#8,www.cao.go.jp/zei-cho/gijiroku/ebpm/2026/8ebpm8kai.html,,資料: 第８回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#4,www.cao.go.jp/zei-cho/gijiroku/life/2026/8life4kai.html,,資料: 第４回活力ある長寿社会に向けたライフコースに中立な税制に関する専門家会合会議資料を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#7,www.cao.go.jp/zei-cho/gijiroku/ebpm/2026/8ebpm7kai.html,,資料: 第７回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#3,www.cao.go.jp/zei-cho/gijiroku/life/2025/index.html,,議事録: 第３回活力ある長寿社会に向けたライフコースに中立な税制に関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#4,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2025/index.html,,議事録: 第４回経済社会のデジタル化への対応と納税環境整備に関する専門家会合の議事録を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#6,www.cao.go.jp/zei-cho/gijiroku/ebpm/2025/index.html,,議事録: 第６回税制のEBPMに関する専門家会合の議事録を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho#6,www.cao.go.jp/zei-cho/gijiroku/zeicho/2025/index.html,,議事録: 第6回税制調査会の議事録及び記者会見録を掲載しました,/zei-cho/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-11-10,www.cao.go.jp/zei-cho/content/8ebpm9kaiken.pdf,,その他: 記者会見録 (PDF形式:185KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-10-09,www.cao.go.jp/zei-cho/content/8ebpm8kaiken.pdf,,その他: 記者会見録 (PDF形式:133KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-09-01,www.cao.go.jp/zei-cho/content/8ebpm7kaigiji.pdf,,議事録: 議事録 (PDF形式:338KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,document_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-09-01,www.cao.go.jp/zei-cho/content/8ebpm7kaiken.pdf,,その他: 記者会見録 (PDF形式:147KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/ebpm/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/about_council.pdf,,名簿: 趣旨・構成員等（PDF形式：212KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2026.pdf,,その他: 対日直接投資促進プログラム(2026)（令和８年７月２日）（PDF形式：323KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2026_summary.pdf,,資料: 対日直接投資促進プログラム（2026）（概要）（令和８年７月２日）（PDF形式：322KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2025.pdf,,その他: 対日直接投資促進プログラム2025（令和７年６月２日）（PDF形式：339KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2025_summary.pdf,,資料: 対日直接投資促進プログラム2025（概要）（令和７年６月２日）（PDF形式：154KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/yuusen_program.pdf,,その他: 対日直接投資加速化に向けた優先プログラム（令和６年５月13日）（PDF形式：356KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/yuusen_program_summary.pdf,,資料: 対日直接投資加速化に向けた優先プログラム（概要）（令和６年５月13日）（PDF形式：492KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/action_plan.pdf,,その他: 海外からの人材・資金を呼び込むためのアクションプラン（令和５年４月26日）（PDF形式：342KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/action_plan__gaiyou.pdf,,資料: 海外からの人材・資金を呼び込むためのアクションプランの概要（令和５年４月26日）（PDF形式：270KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2026-07-02,www.cao.go.jp/invest-japan/committee/council_14/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2026-07-02,www.cao.go.jp/invest-japan/committee/council_14/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:402KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-06-02,www.cao.go.jp/invest-japan/committee/council_13/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-06-02,www.cao.go.jp/invest-japan/committee/council_13/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:402KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2024-05-13,www.cao.go.jp/invest-japan/committee/council_12/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2024-05-13,www.cao.go.jp/invest-japan/committee/council_12/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:410KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2023-04-26,www.cao.go.jp/invest-japan/committee/council_11/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/about_taskforce_2023.pdf,,その他: 海外からの人材・資金を呼び込むためのタスクフォースの設置（令和５年４月26日）（PDF形式：111KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/tf_uneiyouryou.pdf,,規程: 海外からの人材・資金を呼び込むためのタスクフォース運営要領（PDF形式：217KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2026-06-01,www.cao.go.jp/invest-japan/committee/ap_taskforce_07/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2026-06-01,www.cao.go.jp/invest-japan/committee/ap_taskforce_07/gizigaiyou.pdf,,議事要旨: 議事概要（PDF形式：509KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2026-04-13,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2026-04-13,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/gizigaiyou.pdf,,議事要旨: 議事概要（PDF形式：522KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-05-29,www.cao.go.jp/invest-japan/committee/ap_taskforce_05/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-05-29,www.cao.go.jp/invest-japan/committee/ap_taskforce_05/gizigaiyou.pdf,,議事要旨: 議事概要（PDF形式：384KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-04-30,www.cao.go.jp/invest-japan/committee/ap_taskforce_04/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-04-30,www.cao.go.jp/invest-japan/committee/ap_taskforce_04/gizigaiyou.pdf,,議事要旨: 議事概要（PDF形式：471KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-04-01,www.cao.go.jp/invest-japan/committee/ap_taskforce_03/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2025-04-01,www.cao.go.jp/invest-japan/committee/ap_taskforce_03/gizigaiyou.pdf,,議事要旨: 議事概要（PDF形式：407KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2024-04-10,www.cao.go.jp/invest-japan/committee/ap_taskforce_02/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2024-04-10,www.cao.go.jp/invest-japan/committee/ap_taskforce_02/gijiyoushi.pdf,,議事要旨: 議事概要（PDF形式：425KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2024-01-31,www.cao.go.jp/invest-japan/committee/ap_taskforce_01/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2024-01-31,www.cao.go.jp/invest-japan/committee/ap_taskforce_01/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：353KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mainpolicy_wg/member.pdf,,名簿: 「対日直接投資促進戦略」重点事項推進ワーキング・グループの構成員（PDF形式：174KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mainpolicy_wg/working_group.pdf,,その他: 「対日直接投資促進戦略」重点事項推進ワーキンググループの設置（令和４年５月13日）（PDF形式：11KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mainpolicy_wg/working_group_en.pdf,,"その他: Establishment of the Working Group for Addressing Main Policy Agenda for”Strategy for Promoting Foreign Direct Investment in Japan”（Provisional Translation）（May 13,2022）（PDF形式：78KB）PDFを別ウィンドウで開きます",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2023-04-19,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_05/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2023-04-19,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_05/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：200KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2023-03-28,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_04/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2023-03-28,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_04/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：290KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-12-23,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_03/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-12-23,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_03/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：364KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-10-13,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_02/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-10-13,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_02/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：409KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-09-28,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_01/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-09-28,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_01/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：420KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mlstrategy_wg/jutenjikou.pdf,,報告書: 対日直接投資促進に向けて重点的に進めるべき事項（対日直接投資促進のための中長期戦略検討ワーキング・グループ取りまとめ）（令和４年４月20日）（PDF形式：253KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/jutenjikou_en.pdf,,"その他: Main Policy Agenda for Promoting Foreign Direct Investment in Japan -Compiled by Members of the Working Group for Creating Medium and Long-term Strategy to Promote Foreign Direct Investment in Japan- （Provisional Translation）（April 20,2022） (PDF:193KB)open pdf in a new window",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mlstrategy_wg/torimatome.pdf,,報告書: 対日直接投資促進のための中長期戦略検討ワーキング・グループ取りまとめ（令和３年５月26日）（PDF形式：133KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mlstrategy_wg/torimatomegaiyou.pdf,,報告書: 対日直接投資促進のための中長期戦略検討ワーキング・グループ取りまとめの概要（令和３年５月26日）（PDF形式：42KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mlstrategy_wg/member.pdf,,名簿: 対日直接投資促進のための中長期戦略検討ワーキング・グループ 構成員（PDF形式：17KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/working_group.pdf,,その他: 対日直接投資促進のための中長期戦略検討ワーキンググループの設置（令和２年７月28日）（PDF形式：14KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/working_group_en.pdf,,"その他: Establishment of Working Group for Examining Medium and Long-term Strategy for Promoting Foreign Direct Investment in Japan (July 28, 2020)（PDF形式：14KB）PDFを別ウィンドウで開きます",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-03-30,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_05/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-03-30,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_05/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：96KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2021-05-21,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_04/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2021-05-21,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_04/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：40KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2021-03-29,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_03/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2021-03-29,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_03/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：81KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2020-11-26,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_02/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2020-11-26,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_02/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：73KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2020-10-26,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_01/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2020-10-26,www.cao.go.jp/invest-japan/committee/mlstrategy_wg_01/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：72KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/compilation_report_jp.pdf,,報告書: 「規制・行政手続見直しワーキング・グループとりまとめ」（平成29年4月24日）（PDF形式：350KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/compilation_report_summary_jp.pdf,,報告書: 「規制・行政手続見直しワーキング・グループとりまとめ」概要（平成29年4月24日）（PDF形式：192KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/compilation_report_en.pdf,,"その他: Final Report (April 24, 2017) (PDF:206KB)PDFを別ウィンドウで開きます",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/compilation_report_summary_en.pdf,,"その他: Final Report (Summary) (April 24, 2017) (PDF:68KB)PDFを別ウィンドウで開きます",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/immediate_report_jp.pdf,,報告書: 「緊急報告」（平成28年12月22日）（PDF形式：247KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/immediate_report_summary_jp.pdf,,報告書: 「緊急報告」概要（平成28年12月22日）（PDF形式：203KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/immediate_report_en.pdf,,"その他: Immediate Report (December 22, 2016) (PDF:136KB)PDFを別ウィンドウで開きます",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/immediate_report_summary_en.pdf,,"その他: Immediate Report (Summary) (December 22, 2016) (PDF:65KB)PDFを別ウィンドウで開きます",/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/about_simplify_wg.pdf,,開催案内: 規制・行政手続見直しワーキング・グループの開催について（PDF形式：107KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/about_simplify_wg_en.pdf,,その他: Working Group for Revising Regulations and Administrative Procedures (PDF:20KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/member_simplify_wg.pdf,,名簿: 規制・行政手続見直しワーキング・グループ 構成員（PDF形式：102KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/schedule_simplify_wg.pdf,,その他: 対日直接投資推進会議での規制・行政手続の抜本的簡素化の進め方（PDF形式：129KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/schedule_simplify_wg_en.pdf,,その他: Steps to be taken to fundamentally simplify regulations and administrative procedures (PDF:94KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2017-04-24,www.cao.go.jp/invest-japan/committee/simplify_wg_05/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2017-04-24,www.cao.go.jp/invest-japan/committee/simplify_wg_05/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：332KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-12-22,www.cao.go.jp/invest-japan/committee/simplify_wg_04/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-12-22,www.cao.go.jp/invest-japan/committee/simplify_wg_04/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：351KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-11-17,www.cao.go.jp/invest-japan/committee/simplify_wg_03/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-11-17,www.cao.go.jp/invest-japan/committee/simplify_wg_03/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：371KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-10-06,www.cao.go.jp/invest-japan/committee/simplify_wg_02/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-10-06,www.cao.go.jp/invest-japan/committee/simplify_wg_02/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：386KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-08-17,www.cao.go.jp/invest-japan/committee/simplify_wg_01/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-08-17,www.cao.go.jp/invest-japan/committee/simplify_wg_01/gaiyou.pdf,,議事要旨: 議事概要（PDF形式：359KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/about_taskforce.pdf,,名簿: 趣旨・構成員等（PDF形式：104KB）PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-01-07,www.cao.go.jp/invest-japan/committee/task_02/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-01-07,www.cao.go.jp/invest-japan/committee/task_02/gaiyou.pdf,,議事要旨: 議事概要(PDF形式:156KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2014-06-05,www.cao.go.jp/invest-japan/committee/task_01/agenda.html,,資料: 会議資料,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2014-06-05,www.cao.go.jp/invest-japan/committee/task_01/gaiyou.pdf,,議事要旨: 議事概要(PDF形式:164KB)PDFを別ウィンドウで開きます,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#5,www.cao.go.jp/invest-japan/committee/ap_taskforce_05/shidai.pdf,,議事次第: 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_05/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#6,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/shidai.pdf,,議事次第: 議事次第(PDF形式:93KB)PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_06/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#6,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/siryo1.pdf,,資料: 資料１ 対日直接投資の現状（PDF形式：790KB）PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_06/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#6,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/siryo2.pdf,,資料: 資料２ 「対日直接投資促進プログラム2025」のフォローアップ（PDF形式：770KB）PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_06/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#6,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/siryo3.pdf,,資料: 資料３ ヒアリング結果（PDF形式：231KB）PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_06/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#6,www.cao.go.jp/invest-japan/committee/ap_taskforce_06/siryo4.pdf,,資料: 資料４ プログラム改訂に向けた主な論点（PDF形式：163KB）PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_06/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#7,www.cao.go.jp/invest-japan/committee/ap_taskforce_07/shidai.pdf,,議事次第: 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_07/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#7,www.cao.go.jp/invest-japan/committee/ap_taskforce_07/siryo1.pdf,,資料: 資料１ 改訂プログラム骨子案（PDF形式：321KB）PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_07/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#7,www.cao.go.jp/invest-japan/committee/ap_taskforce_07/siryo2.pdf,,資料: 資料２ ヴァンサン氏提出資料（PDF形式：274KB）PDFを別ウィンドウで開きます,/invest-japan/committee/ap_taskforce_07/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/jutenjikou_working_group.pdf,,その他: 「対日直接投資促進戦略」重点事項推進ワーキンググループの設置（令和４年５月13日）（PDF形式：110KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/chuchoki.pdf,,その他: 対日直接投資促進戦略（令和３年６月２日）（PDF形式：141KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/chuchoki_gaiyou.pdf,,資料: 対日直接投資促進戦略の概要（令和３年６月２日）（PDF形式：47KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/2021_strategy.pdf,,その他: 「対日直接投資促進のための中長期戦略2021」策定に向けた方針（令和２年７月28日）（PDF形式：32KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/sokushin_program_jp.pdf,,その他: 「地域への対日直接投資 集中強化・促進プログラム」（平成31年４月16日）（PDF形式：37KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/sokushin_program_summary_jp.pdf,,資料: 「地域への対日直接投資 集中強化・促進プログラム」概要（平成31年４月16日）（PDF形式：197KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/support_program_jp.pdf,,その他: 「地域への対日直接投資サポートプログラム」（平成30年５月17日）（PDF形式：128KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/policy_package_jp.pdf,,その他: 「グローバル・ハブを目指した対日直接投資促進のための政策パッケージ」（平成28年５月20日）（PDF形式：315KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/policy_package_summary_jp.pdf,,資料: 「グローバル・ハブを目指した対日直接投資促進のための政策パッケージ」概要（平成28年５月20日）（PDF形式：135KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/promise_ja.pdf,,その他: 「外国企業の日本への誘致に向けた５つの約束」（平成27年３月17日）（PDF形式：229KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-05-13,www.cao.go.jp/invest-japan/committee/council_10/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2022-05-13,www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:310KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2021-06-02,www.cao.go.jp/invest-japan/committee/council_09/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2020-07-28,www.cao.go.jp/invest-japan/committee/council_08/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2019-04-16,www.cao.go.jp/invest-japan/committee/council_07/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2019-04-16,www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:61KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2018-05-17,www.cao.go.jp/invest-japan/committee/council_06/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2018-05-17,www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:50KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2017-05-10,www.cao.go.jp/invest-japan/committee/council_05/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2017-05-10,www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:286KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-05-20,www.cao.go.jp/invest-japan/committee/council_04/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-05-20,www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:287KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-04-01,www.cao.go.jp/invest-japan/committee/council_03/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2016-04-01,www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:316KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2015-03-17,www.cao.go.jp/invest-japan/committee/council_02/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2015-03-17,www.cao.go.jp/invest-japan/committee/council_02/interview.html,,その他: 会見要旨,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2015-03-17,www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:297KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2014-04-25,www.cao.go.jp/invest-japan/committee/council_01/agenda.html,,資料: 会議資料,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee@2014-04-25,www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf,,議事要旨: 議事要旨(PDF形式:283KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www5.cao.go.jp/keizai-shimon/kaigi/special/investment/report.pdf,,報告書: 対日直接投資に関する有識者懇談会 報告書（PDF形式：726KB）（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/program.pdf,,その他: 対日直接投資加速プログラム【改定版】（平成20年12月）（PDF形式：241KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/follow-up0810.pdf,,その他: 対日直接投資加速プログラムフォローアップ（平成20年10月）（PDF形式：531KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/20060620-3.pdf,,その他: 対日直接投資加速プログラム（平成18年6月）（PDF形式：40KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/guideline.pdf,,規程: 運営要領（PDF形式：64KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/members.pdf,,名簿: 委員会名簿（PDF形式：63KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/recommendations_20080520.pdf,,資料: 説明資料（PDF形式：145KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/recommendations_1_20080519.pdf,,その他: 目次（PDF形式：90KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/recommendations_2_20080519.pdf,,その他: 本体（PDF形式：317KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/recommendations_3_20080519.pdf,,資料: 資料集（PDF形式：771KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/establishment.pdf,,規程: 設置について（PDF形式：13KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#8,www.cao.go.jp/invest-japan/committee/archive/20060620-1.pdf,,資料: 対日直接投資促進策の推進について（第８回対日投資会議声明）(PDF形式：16KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#6,www.cao.go.jp/invest-japan/committee/archive/seimei_150327.pdf,,資料: 対日直接投資促進策の推進について（第６回対日投資会議声明）(PDF形式：117KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#4,www.cao.go.jp/invest-japan/committee/archive/seimei_990427.pdf,,その他: 対日投資を通じて多様な知恵の時代へ（第４回対日投資会議声明）(PDF形式：102KB)PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/archive/abolishment.pdf,,資料: 廃止について（PDF形式：60KB）PDFを別ウィンドウで開きます,/invest-japan/committee/archive/index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#11,www.cao.go.jp/invest-japan/committee/council_11/shidai.pdf,,議事次第: 議事次第(PDF形式:38KB)PDFを別ウィンドウで開きます,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#11,www.cao.go.jp/invest-japan/committee/council_11/shiryo_01.pdf,,資料: 資料１ 海外からの人材・資金を呼び込むためのアクションプラン（案）（PDF形式：342KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#11,www.cao.go.jp/invest-japan/committee/council_11/shiryo_02.pdf,,資料: 資料２ 海外からの人材・資金を呼び込むためのアクションプラン（案）の概要（PDF形式：59KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#11,www.cao.go.jp/invest-japan/committee/council_11/haihu_01.pdf,,開催案内: 配付資料１ 対日直接投資推進会議の開催について（PDF形式：107KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#11,www.cao.go.jp/invest-japan/committee/council_11/haihu_02.pdf,,資料: 配付資料２ 海外からの人材・資金を呼び込むためのアクションプラン（案）の概要（PDF形式：225KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_11/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#12,www.cao.go.jp/invest-japan/committee/council_12/shidai.pdf,,議事次第: 議事次第(PDF形式:112KB)PDFを別ウィンドウで開きます,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#12,www.cao.go.jp/invest-japan/committee/council_12/shiryo_01.pdf,,資料: 資料１ 「海外からの人材・資金を呼び込むためのアクションプラン」におけるフォローアップ一覧（PDF形式：653KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#12,www.cao.go.jp/invest-japan/committee/council_12/bessi.pdf,,資料: 「海外からの人材・資金を呼び込むためのアクションプラン」の100施策の進捗状況（概要）（PDF形式：379KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#12,www.cao.go.jp/invest-japan/committee/council_12/shiryo_02.pdf,,資料: 資料２ 「対日直接投資加速化に向けた優先プログラム」（案） 概要（PDF形式：492KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#12,www.cao.go.jp/invest-japan/committee/council_12/shiryo_03.pdf,,資料: 資料３ 「対日直接投資加速化に向けた優先プログラム」（案） （PDF形式：62KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#12,www.cao.go.jp/invest-japan/committee/council_12/haifu_01.pdf,,開催案内: 配付資料１ 対日直接投資推進会議の開催について（PDF形式：212KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_12/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#13,www.cao.go.jp/invest-japan/committee/council_13/shidai.pdf,,議事次第: 議事次第(PDF形式:42KB)PDFを別ウィンドウで開きます,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#13,www.cao.go.jp/invest-japan/committee/council_13/siryo1.pdf,,資料: 資料１ 対日直接投資促進プログラム2025（案）（PDF形式：339KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#13,www.cao.go.jp/invest-japan/committee/council_13/siryo3.pdf,,資料: 資料３ 村井 全国知事会会長提出資料（PDF形式：100KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#13,www.cao.go.jp/invest-japan/committee/council_13/about_council.pdf,,開催案内: 配付資料１ 対日直接投資推進会議の開催について（PDF形式：212KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#13,www.cao.go.jp/invest-japan/committee/council_13/about_taskforce_2023.pdf,,資料: 配付資料２ 海外からの人材・資金を呼び込むためのタスクフォースの設置（PDF形式：111KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_13/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#14,www.cao.go.jp/invest-japan/committee/council_14/shidai.pdf,,議事次第: 議事次第(PDF形式:98KB)PDFを別ウィンドウで開きます,/invest-japan/committee/council_14/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#14,www.cao.go.jp/invest-japan/committee/council_14/siryo1.pdf,,資料: 資料１ 対日直接投資促進プログラム（2026）（案）（PDF形式：319KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_14/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#14,www.cao.go.jp/invest-japan/committee/council_14/about_council1.pdf,,開催案内: 配付資料１ 対日直接投資推進会議の開催について（PDF形式：212K3）PDFを別ウィンドウで開きます,/invest-japan/committee/council_14/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,invest-japan/committee#14,www.cao.go.jp/invest-japan/committee/council_14/about_taskforce_2023.pdf,,資料: 配付資料２ 海外からの人材・資金を呼び込むためのタスクフォースの設置（PDF形式：229KB）PDFを別ウィンドウで開きます,/invest-japan/committee/council_14/agenda.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2026_en.pdf,,その他: Full Document(PDF:273KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2026_summary_en.pdf,,その他: Full Document(PDF:161KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2025_en.pdf,,その他: Full Document(PDF:233KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/program2025_summary_en.pdf,,その他: Summary(PDF:155KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/yuusen_program_en.pdf,,その他: Full Document(PDF:243KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/action_plan_en.pdf,,その他: Full Document(PDF:204KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/mainpolicy_wg_03/chukanseili_working_group_en.pdf,,"その他: Interim Report（Direction of Initiatives）（Provisional Translation）（December 23,2022） (PDF:154KB)open pdf in a new window",/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/menber_wga.pdf,,その他: Members（PDF：50KB）open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/menber_wge.pdf,,その他: Members（PDF：50KB）open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/immediate_report_en.pdf,,"その他: Immediate Report (December 22, 2016) (PDF:136KB)open pdf in a new window",/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/immediate_report_summary_en.pdf,,"その他: Immediate Report (Summary) (December 22, 2016) (PDF:65KB)open pdf in a new window",/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/compilation_report_en.pdf,,"その他: Final Report (April 24, 2017) (PDF:206KB)open pdf in a new window",/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/simplify_regulations_and_procedures/compilation_report_summary_en.pdf,,"その他: Final Report (Summary) (April 24, 2017) (PDF:68KB)open pdf in a new window",/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/committee/simplify_wg_01/shiryo_03_en.pdf,,その他: Meeting material 3 (PDF:184KB)open pdf in a new window,/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,invest-japan/committee,,www.cao.go.jp/invest-japan/policy/investment_advisor_assignment_system/implementation_en.pdf,,"その他: ""Implemention of the Investment Advisor Assignment System"" (January 7, 2016) (PDF:60KB)open pdf in a new window",/invest-japan/committee/en_index.html
+2026-11-21T14:37:43+00:00,document_added,-suishin/kaigi/kaigi-index,,www.cao.go.jp/bunken-suishin/doc/r05/kaisaikonkyo_01.pdf,,開催案内: 地方分権改革有識者会議の開催について(平成25年4月5日(令和5年6月5日一部改正)内閣府特命担当大臣（地方分権改革）決定) (PDF形式：107KB)PDFを別ウィンドウで開きます,/bunken-suishin/kaigi/kaigi-index.html
+2026-11-21T14:37:43+00:00,document_added,-suishin/kaigi/kaigi-index,,www.cao.go.jp/bunken-suishin/doc/r05/kaisaikonkyo_02.pdf,,開催案内: 専門部会の開催について(平成25年5月15日(令和5年6月5日一部改正)地方分権改革有識者会議座長決定) (PDF形式：115KB)PDFを別ウィンドウで開きます,/bunken-suishin/kaigi/kaigi-index.html
+2026-11-21T14:37:43+00:00,document_added,-suishin/honbu/honbu-index,,www.cao.go.jp/bunken-suishin/doc/secchikonkyo01.pdf,,規程: 地方分権改革推進本部の設置について(平成25年3月8日閣議決定) (PDF形式：165KB),/bunken-suishin/honbu/honbu-index.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,,www.cao.go.jp/tochi-chosa/doc/shingikaikisoku.pdf,,規程: 土地等利用状況審議会運営規則（PDF形式：168KB）PDFを別ウィンドウで開きます,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,,www.cao.go.jp/tochi-chosa/doc/meibo.pdf,,名簿: 土地等利用状況審議会委員等名簿（PDF形式：197KB）PDFを別ウィンドウで開きます,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#1,www.cao.go.jp/tochi-chosa/shingikai/20220725.html,,その他: 第１回土地等利用状況審議会（令和4年7月25日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#2,www.cao.go.jp/tochi-chosa/shingikai/20221011.html,,その他: 第２回土地等利用状況審議会（令和4年10月11日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#3,www.cao.go.jp/tochi-chosa/shingikai/20221216.html,,その他: 第３回土地等利用状況審議会（令和4年12月16日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#4,www.cao.go.jp/tochi-chosa/shingikai/20230512.html,,その他: 第４回土地等利用状況審議会（令和5年5月12日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#5,www.cao.go.jp/tochi-chosa/shingikai/20230630.html,,その他: 第５回土地等利用状況審議会（令和5年6月30日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#6,www.cao.go.jp/tochi-chosa/shingikai/20230911.html,,その他: 第６回土地等利用状況審議会（令和5年9月11日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#7,www.cao.go.jp/tochi-chosa/shingikai/20231129.html,,その他: 第７回土地等利用状況審議会（令和5年11月29日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#8,www.cao.go.jp/tochi-chosa/shingikai/20231226.html,,その他: 第８回土地等利用状況審議会（令和5年12月26日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#9,www.cao.go.jp/tochi-chosa/shingikai/20240329.html,,その他: 第９回土地等利用状況審議会（令和6年3月29日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#10,www.cao.go.jp/tochi-chosa/shingikai/20241223.html,,その他: 第10回土地等利用状況審議会（令和6年12月23日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#11,www.cao.go.jp/tochi-chosa/shingikai/20250310.html,,その他: 第11回土地等利用状況審議会（令和7年3月10日）（書面による審議）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#12,www.cao.go.jp/tochi-chosa/shingikai/20250609.html,,その他: 第12回土地等利用状況審議会（令和7年6月9日）（書面による審議）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#13,www.cao.go.jp/tochi-chosa/shingikai/20251008.html,,その他: 第13回土地等利用状況審議会（令和7年10月8日）（書面による審議）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#14,www.cao.go.jp/tochi-chosa/shingikai/20251205.html,,その他: 第14回土地等利用状況審議会（令和7年12月5日）（書面による審議）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,tochi-chosa/shingikai,tochi-chosa/shingikai#15,www.cao.go.jp/tochi-chosa/shingikai/20260323.html,,その他: 第15回土地等利用状況審議会（令和8年3月23日）,/tochi-chosa/shingikai.html
+2026-11-21T14:37:43+00:00,document_added,midorisho/gakujutsusho/iinkai,,www.cao.go.jp/midorisho/gakujutsusho/pdf/iinkai.pdf,,資料: みどりの学術賞選考委員会について（PDF形式：10KB）PDFを別ウィンドウで開きます,/midorisho/gakujutsusho/iinkai.html
+2026-11-21T14:37:43+00:00,document_added,sasshin/kondan,sasshin/kondan#5,www.cao.go.jp/sasshin/kondan/meeting/2012.html,,議事要旨: 2012年09月06日 行政改革に関する懇談会（第５回及び第６回）議事概要を掲載しました。,/sasshin/kondan/index.html
+2026-11-21T14:37:43+00:00,document_added,sasshin/kondan,sasshin/kondan#6,www.cao.go.jp/sasshin/kondan/meeting/2012/0807/agenda.html,,その他: 2012年08月07日 行政改革に関する懇談会（第６回）を開催しました。,/sasshin/kondan/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/gyouseisasshin/,,資料: 行政刷新（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/sasshin/kaigi.html,,資料: 行政刷新会議（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/sasshin/oshirase/shiryo.html,,資料: 事業仕分け第1弾 平成21年11月実施（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/sasshin/shiwake.html,,資料: 事業仕分け第2弾 平成22年4～5月実施（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/sasshin/shiwake3/,,資料: 事業仕分け第3弾 平成22年10～11月実施（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/sasshin/seisaku-shiwake/,,報告書: 提言型政策仕分け 平成23年11月（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,gyouseisasshin,,www.cao.go.jp/sasshin/kisei-shiwake/,,資料: 規制仕分け 平成23年3月（国立国会図書館インターネット資料収集保存事業（WARP）ホームページに移動します）別ウィンドウで開きます,/gyouseisasshin/index.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,,www.cao.go.jp/scjarikata/kondankai/kondankai_kaisai-kettei.pdf,,開催案内: 日本学術会議の在り方に関する有識者懇談会の開催について（PDF形式：114KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,,www.cao.go.jp/scjarikata/kondankai/meibo.pdf,,名簿: 日本学術会議の在り方に関する有識者懇談会 構成員名簿（PDF形式：191KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,,www.cao.go.jp/scjarikata/kondankai/kaisai-kettei.pdf,,規程: ワーキング・グループの開催及び運営について（PDF形式：104KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,,www.cao.go.jp/scjarikata/kondankai/hokoku.pdf,,報告書: 世界最高のナショナルアカデミーを目指して～日本学術会議の在り方に関する有識者懇談会最終報告書～（PDF形式：422KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,,www.cao.go.jp/scjarikata/kondankai/point.pdf,,報告書: 日本学術会議の在り方に関する有識者懇談会最終報告書のポイント（PDF形式：191KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,,www.cao.go.jp/scjarikata/kondankai/chukanhokoku.pdf,,報告書: 日本学術会議の在り方に関する有識者懇談会中間報告（PDF形式：510KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#15,www.cao.go.jp/scjarikata/kondankai/20241218shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#15,www.cao.go.jp/scjarikata/20241218gijiroku.pdf,,その他: （PDF形式：399KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#14,www.cao.go.jp/scjarikata/kondankai/20241213shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#14,www.cao.go.jp/scjarikata/20241213gijiroku.pdf,,その他: （PDF形式：457KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#13,www.cao.go.jp/scjarikata/kondankai/20241129shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#13,www.cao.go.jp/scjarikata/20241129gijiroku.pdf,,その他: （PDF形式：433KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#12,www.cao.go.jp/scjarikata/kondankai/20240729shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#12,www.cao.go.jp/scjarikata/20240729gijiroku.pdf,,その他: （PDF形式：464KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#11,www.cao.go.jp/scjarikata/kondankai/20240607shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#11,www.cao.go.jp/scjarikata/20240607gijiroku.pdf,,その他: （PDF形式：434KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#10,www.cao.go.jp/scjarikata/kondankai/20231221shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#10,www.cao.go.jp/scjarikata/20231221gijiroku.pdf,,その他: （PDF形式：390KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#9,www.cao.go.jp/scjarikata/kondankai/20231218shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#9,www.cao.go.jp/scjarikata/20231218gijiroku.pdf,,その他: （PDF形式：436KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#8,www.cao.go.jp/scjarikata/kondankai/20231213shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#8,www.cao.go.jp/scjarikata/20231213gijiroku.pdf,,その他: （PDF形式：419KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#7,www.cao.go.jp/scjarikata/kondankai/20231130shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#7,www.cao.go.jp/scjarikata/20231130gijiroku.pdf,,その他: （PDF形式：441KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#6,www.cao.go.jp/scjarikata/kondankai/20231120shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#6,www.cao.go.jp/scjarikata/20231120gijiroku.pdf,,その他: （PDF形式：431KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#5,www.cao.go.jp/scjarikata/kondankai/20231109shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#5,www.cao.go.jp/scjarikata/20231109gijiroku.pdf,,その他: （PDF形式：443KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#4,www.cao.go.jp/scjarikata/kondankai/20231102shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#4,www.cao.go.jp/scjarikata/20231102gijiroku.pdf,,その他: （PDF形式：446KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#3,www.cao.go.jp/scjarikata/kondankai/20230925shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#3,www.cao.go.jp/scjarikata/20230925gijiroku.pdf,,その他: （PDF形式：456KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#2,www.cao.go.jp/scjarikata/kondankai/20230906shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#2,www.cao.go.jp/scjarikata/20230906gijiroku.pdf,,その他: （PDF形式：460KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#1,www.cao.go.jp/scjarikata/kondankai/shiryo.html,,資料: 懇談会資料,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,document_added,scjarikata/kondankai,scjarikata/kondankai#1,www.cao.go.jp/scjarikata/20230829gijiroku.pdf,,その他: （PDF形式：460KB）PDFを別ウィンドウで開きます,/scjarikata/kondankai.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/秋池玲子,,ボストン・コンサルティング・グループ  日本共同代表,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/石黒憲彦,,独立行政法人日本貿易振興機構  理事長,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/伊藤元重,,東京大学  名誉教授,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/大田弘子,,政策研究大学院大学  学長,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/菰田正信,,三井不動産株式会社  代表取締役会長,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/神保寛子,,西村あさひ法律事務所・外国法共同事業  パートナー,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,member_added,invest-japan/committee,,invest-japan/committee/決定文書等/髙島宗一郎,,福岡市長,/invest-japan/committee/index.html
+2026-11-21T14:37:43+00:00,profile_added,tochi-chosa/shingikai,,tochi-chosa/shingikai:審議会の趣旨,,土地等利用状況審議会は、重要土地等調査法に関し、生活関連施設を定める政令の制定又は改廃の立案、注視区域及び特別注視区域の指定や注視区域内にある土地等の利用者に対する勧告について意見を聴取するとともに、その他重要事項について調査審議することを目的として、重要土地等調査法第14条に基づき設置された審議会です。,/tochi-chosa/shingikai.html

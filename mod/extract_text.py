@@ -66,25 +66,36 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
 
 
 def main() -> int:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
     ap.add_argument("--limit", type=int, default=0)
     args = ap.parse_args()
+
+    ag = agencies.get_agency(args.agency)
+    files_dir = ag.raw_files_dir
+    files_manifest = ag.files_manifest
+    text_dir = ag.data_dir / "text"
+    texts_csv = ag.data_dir / "texts.csv"
+    documents_csv = ag.data_dir / "documents.csv"
 
     from pdfminer.high_level import extract_text  # 標準ライブラリ外。ここでだけ読み込む
 
     logging.getLogger("pdfminer").setLevel(logging.ERROR)
-    done = {r["url"]: r for r in read_csv(TEXTS)}
-    doc_types = {r["url"]: r["doc_type"] for r in read_csv(DOCUMENTS)}
-    todo = [r for r in read_csv(FILES_MANIFEST)
+    done = {r["url"]: r for r in read_csv(texts_csv)}
+    doc_types = {r["url"]: r["doc_type"] for r in read_csv(documents_csv)}
+    todo = [r for r in read_csv(files_manifest)
             if r["sha256"] and done.get(r["url"], {}).get("sha256") != r["sha256"]]
     todo.sort(key=lambda r: (doc_types.get(r["url"]) not in FIRST, r["url"]))
     if args.limit:
         todo = todo[:args.limit]
-    print(f"抽出済み {len(done)} 件 / 今回 {len(todo)} 件", flush=True)
+    print(f"[{ag.agency_id}] 抽出済み {len(done)} 件 / 今回 {len(todo)} 件", flush=True)
 
     for i, r in enumerate(todo, 1):
         url = r["url"]
-        src = FILES_DIR.joinpath(*url_parts(url))
+        src = files_dir.joinpath(*url_parts(url))
         row = {"url": url, "text": "", "pages": "", "chars": "0", "sha256": r["sha256"], "note": ""}
         started = time.time()
         try:
@@ -93,7 +104,7 @@ def main() -> int:
             row["note"] = f"抽出失敗: {type(e).__name__}: {e}"[:200]
         else:
             text = normalize(raw)
-            out = text_path(url)
+            out = text_path(url, text_dir)
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(text, encoding="utf-8", newline="\n")
             row["text"] = out.relative_to(REPO).as_posix()
@@ -105,9 +116,9 @@ def main() -> int:
         took = time.time() - started
         if i % 20 == 0 or i == len(todo) or took > 20 or row["note"]:
             print(f"  {i}/{len(todo)} {row['pages']}p {row['chars']}字 {took:.0f}s {row['note']} {url[-60:]}", flush=True)
-            write_csv(TEXTS, list(done.values()))
-    write_csv(TEXTS, list(done.values()))
-    print(f"台帳 {len(done)} 件", flush=True)
+            write_csv(texts_csv, list(done.values()))
+    write_csv(texts_csv, list(done.values()))
+    print(f"[{ag.agency_id}] 台帳 {len(done)} 件", flush=True)
     return 0
 
 

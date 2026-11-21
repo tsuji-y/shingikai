@@ -64,14 +64,18 @@ def iso_to_http_date(value: str) -> str:
     return format_datetime(dt.astimezone(timezone.utc), usegmt=True)
 
 
-def targets(documents: Path = DOCUMENTS, council: str = "") -> list[str]:
+def targets(documents: Path = DOCUMENTS, council: str = "",
+            hosts: list[str] | None = None, doc_types: set[str] | None = None) -> list[str]:
     """取得対象の URL（重複なし、documents.csv の順）。"""
+    allowed_hosts = set(hosts or [HOST])
     seen: dict[str, None] = {}
     with documents.open(encoding="utf-8", newline="") as f:
         for row in csv.DictReader(f):
             if council and row.get("council_id") != council:
                 continue
-            if row["host"] == HOST and row["format"] == "pdf":
+            if doc_types and row.get("doc_type") not in doc_types:
+                continue
+            if row["host"] in allowed_hosts and row["format"] == "pdf":
                 seen.setdefault(row["url"])
     return list(seen)
 
@@ -94,8 +98,9 @@ def select_targets(urls: list[str], rows: dict[str, dict[str, str]], *,
 
 
 def local_path(url: str, root: Path = FILES_DIR) -> Path:
-    parts = [unquote(p) for p in urlsplit(url).path.strip("/").split("/")]
-    if urlsplit(url).netloc != HOST or not parts or any(p in ("", ".", "..") or "\\" in p for p in parts):
+    sp = urlsplit(url)
+    parts = [unquote(p) for p in sp.path.strip("/").split("/")]
+    if not sp.netloc or not parts or any(p in ("", ".", "..") or "\\" in p for p in parts):
         raise ValueError(f"保存できない URL: {url!r}")
     return root.joinpath(*parts)
 
@@ -190,11 +195,12 @@ def fetch(url: str, max_bytes: int = MAX_BYTES, *, if_modified_since: str = "",
 
 def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir: Path = FILES_DIR, *,
               limit: int = 0, retry: bool = False, refetch_missing: bool = False,
-              council: str = "", dry_run: bool = False, interval: float = INTERVAL,
+              council: str = "", hosts: list[str] | None = None, doc_types: set[str] | None = None,
+              dry_run: bool = False, interval: float = INTERVAL,
               fetcher=fetch) -> FetchSummary:
     """未取得の PDF を取得する。403・429 なら Blocked を送出する。"""
     rows = read_manifest(manifest)
-    all_urls = targets(documents, council=council)
+    all_urls = targets(documents, council=council, hosts=hosts, doc_types=doc_types)
     todo = select_targets(all_urls, rows, retry=retry, refetch_missing=refetch_missing, files_dir=files_dir)
     if limit:
         todo = todo[:limit]
@@ -231,11 +237,12 @@ def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir:
 
 
 def check_replaced(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir: Path = FILES_DIR, *,
-                   limit: int = 0, council: str = "", dry_run: bool = False,
+                   limit: int = 0, council: str = "", hosts: list[str] | None = None,
+                   doc_types: set[str] | None = None, dry_run: bool = False,
                    interval: float = INTERVAL, fetcher=fetch) -> FetchSummary:
     """取得済み PDF を条件付き取得で照合し、差し替えを検知する。"""
     rows = read_manifest(manifest)
-    all_urls = targets(documents, council=council)
+    all_urls = targets(documents, council=council, hosts=hosts, doc_types=doc_types)
     to_check = [u for u in all_urls if rows.get(u, {}).get("sha256")]
     if limit:
         to_check = to_check[:limit]
@@ -274,23 +281,38 @@ def check_replaced(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files
 
 
 def main() -> int:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
     ap.add_argument("--limit", type=int, default=0, help="取得する件数の上限（0 は無制限）")
     ap.add_argument("--retry", action="store_true", help="前回 200 以外だったものも取り直す")
     ap.add_argument("--refetch-missing", action="store_true", help="台帳にあるが手元にない PDF を取り直す")
     ap.add_argument("--check-replaced", action="store_true", help="取得済み PDF を条件付き取得で照合し、差し替えを検知する")
     ap.add_argument("--council", default="", help="対象の会議体 ID を絞る")
+    ap.add_argument("--types", default="", help="取得する doc_type をカンマ区切りで絞る（例: 議事録,議事要旨,名簿）")
     ap.add_argument("--dry-run", action="store_true", help="書き込みを行わない")
     args = ap.parse_args()
 
+    ag = agencies.get_agency(args.agency)
+    documents = ag.data_dir / "documents.csv"
+    manifest = ag.files_manifest
+    files_dir = ag.raw_files_dir
+    hosts = [ag.primary_host]
+    doc_types = {t.strip() for t in args.types.split(",") if t.strip()} or None
+
     try:
         if args.check_replaced:
-            res = check_replaced(limit=args.limit, council=args.council, dry_run=args.dry_run)
-            print(f"照合 {res.checked} 件 / 差し替え {len(res.replaced)} 件 / エラー {len(res.failed)} 件", flush=True)
+            res = check_replaced(documents, manifest, files_dir, limit=args.limit,
+                                 council=args.council, hosts=hosts, doc_types=doc_types,
+                                 dry_run=args.dry_run)
+            print(f"[{ag.agency_id}] 照合 {res.checked} 件 / 差し替え {len(res.replaced)} 件 / エラー {len(res.failed)} 件", flush=True)
         else:
-            res = fetch_new(limit=args.limit, retry=args.retry, refetch_missing=args.refetch_missing,
-                            council=args.council, dry_run=args.dry_run)
-            print(f"保存 {len(res.saved)} 件 / 保存できなかったもの {len(res.failed)} 件", flush=True)
+            res = fetch_new(documents, manifest, files_dir, limit=args.limit, retry=args.retry,
+                            refetch_missing=args.refetch_missing, council=args.council,
+                            hosts=hosts, doc_types=doc_types, dry_run=args.dry_run)
+            print(f"[{ag.agency_id}] 保存 {len(res.saved)} 件 / 保存できなかったもの {len(res.failed)} 件", flush=True)
     except Blocked as e:
         print(f"中断: {e}", file=sys.stderr)
         return 1

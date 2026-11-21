@@ -1,0 +1,613 @@
+detected_at,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T14:44:22+00:00,council_added,s504_kokudokaihatsu01,,s504_kokudokaihatsu01,,国土開発幹線自動車道建設会議,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s501_ogasawara01,,s501_ogasawara01,,小笠原諸島振興開発審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s101_kokudo01,,s101_kokudo01,,国土審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_suishin01,,s103_suishin01,,推進部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_ijuunichiikikyojuu01,,s104_ijuunichiikikyojuu01,,移住・二地域居住等促進専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_chiikiseikatu01,,s104_chiikiseikatu01,,地域生活圏専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kikakumonitoring,,s104_kikakumonitoring,,企画・モニタリング専門委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_keikaku03,,s103_keikaku03,,計画部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kokudo_keikakusuishin01,,s103_kokudo_keikakusuishin01,,計画推進部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_monitoring01,,s104_monitoring01,,企画・モニタリング専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kasegerukokudo01,,s104_kasegerukokudo01,,稼げる国土専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_sumitsudzukerarerukokudo01,,s104_sumitsudzukerarerukokudo01,,住み続けられる国土専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_keikakusuishin_kokudokanri01,,s104_keikakusuishin_kokudokanri01,,国土管理専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_choukitennbou01,,s104_choukitennbou01,,国土の長期展望専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kokudo_keikaku02,,s103_kokudo_keikaku02,,計画部会（第２次）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_seisaku01,,s103_seisaku01,,政策部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_bousaikokudo01,,s203_bousaikokudo01,,防災国土づくり委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_tyoukitenbou01,,s104_tyoukitenbou01,,長期展望委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kokudoseisaku,,s103_kokudoseisaku,,国土政策検討委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_shuraku01,,s104_shuraku01,,集落課題検討委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_keikaku01,,s103_keikaku01,,計画部会（第１次）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_lifesyle01,,s104_lifesyle01,,ライフスタイル・生活専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_sangyotenbo01,,s104_sangyotenbo01,,産業展望・東アジア連携専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_jiritsu01,,s104_jiritsu01,,自立地域社会専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kokudokiban01,,s104_kokudokiban01,,国土基盤専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kokudokanri01,,s104_kokudokanri01,,持続可能な国土管理専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_shutoken01,,s103_shutoken01,,首都圏整備部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kinkiken01,,s103_kinkiken01,,近畿圏整備部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_chubuken01,,s103_chubuken01,,中部圏整備部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kouiki01,,s104_kouiki01,,広域自立・成長政策委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_daitosi01,,s504_daitosi01,,大都市圏政策ワーキングチーム（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_hantou01,,s103_hantou01,,半島振興対策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_chousa01,,s103_chousa01,,調査改革部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kihon01,,s103_kihon01,,基本政策部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_keniki01,,s103_keniki01,,圏域部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_daitoshiken01,,s103_daitoshiken01,,大都市圏制度調査専門委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_tochiseisaku01,,s102_tochiseisaku01,,土地政策分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_tokubetu01,,s103_tokubetu01,,特別部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_fudousan01,,s103_fudousan01,,不動産鑑定評価部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_toushi01,,s104_toushi01,,投資不動産鑑定評価基準等検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_minaoshi01,,s104_minaoshi01,,不動産鑑定評価制度見直し検討小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kakaku01,,s104_kakaku01,,価格等調査に係るガイドライン検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kikaku01,,s103_kikaku01,,企画部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_fudousan01,,s104_fudousan01,,不動産投資市場検討小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_miriyouchi01,,s104_miriyouchi01,,低・未利用地対策検討小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_chisekichousa01,,s104_chisekichousa01,,地籍調査促進検討小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_bijyonn01,,s104_bijyonn01,,中長期ビジョン策定検討小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s104_kokudotyousa01,,s104_kokudotyousa01,,国土調査のあり方に関する検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kokudo01,,s103_kokudo01,,国土利用計画部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_mizushigen01,,s102_mizushigen01,,水資源開発分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_tonegawa01,,s103_tonegawa01,,利根川・荒川部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_toyokawa01,,s103_toyokawa01,,豊川部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kisogawa01,,s103_kisogawa01,,木曽川部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_yodogawa01,,s103_yodogawa01,,淀川部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_yoshinogawa01,,s103_yoshinogawa01,,吉野川部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_tikugogawa01,,s103_tikugogawa01,,筑後川部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_chousakikaku01,,s103_chousakikaku01,,調査企画部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_ryuuikisougou01,,s103_ryuuikisougou01,,流域総合水管理のあり方検討部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_hokkaido01,,s102_hokkaido01,,北海道開発分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_hokkaido_keikakusuishin03,,s103_hokkaido_keikakusuishin03,,計画推進部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_hokkaido_keikaku01,,s103_hokkaido_keikaku01,,計画部会（令和３～令和７年度）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_hokkaido_keikakusuishin01,,s103_hokkaido_keikakusuishin01,,計画推進部会（平成28～令和3年度）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_hokkaido_keikaku,,s103_hokkaido_keikaku,,計画部会（平成26～28年度）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_keikakusuisin02,,s103_keikakusuisin02,,計画推進部会（平成23～25年度）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_keikaku02,,s103_keikaku02,,計画部会（平成19～20年度）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kihon02,,s103_kihon02,,基本政策部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kikakuchousa01,,s103_kikakuchousa01,,企画調査部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_gousetsu01,,s102_gousetsu01,,豪雪地帯対策分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_sanson01,,s102_sanson01,,山村振興対策分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_tokushudojou01,,s102_tokushudojou01,,特殊土壌地帯対策分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_ritou01,,s102_ritou01,,離島振興対策分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_ritousitei,,s103_ritousitei,,離島指定検討部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_shutokenseibi01,,s102_shutokenseibi01,,首都圏整備分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_kinkichubu01,,s102_kinkichubu01,,近畿圏・中部圏整備分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s102_hanto01,,s102_hanto01,,半島振興対策分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s201_shakai01,,s201_shakai01,,社会資本整備審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_keikaku01,,s203_keikaku01,,計画部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_senmon01,,s204_senmon01,,専門小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_koutuuseisaku01,,s204_koutuuseisaku01,,交通政策基本計画小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kihonmondai01,,s204_kihonmondai01,,基本問題小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_zizokukoutsuu01,,s204_zizokukoutsuu01,,持続可能な社会の実現に向けた交通政策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_kankyo01,,s103_kankyo01,,環境部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_green,,s204_green,,グリーン社会小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_recycle01,,s204_recycle01,,建設リサイクル推進施策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s404_anzenhosho,,s404_anzenhosho,,エネルギー・経済安全保障小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s103_gijutsu01,,s103_gijutsu01,,技術部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s201_menntenannsu01,,s201_menntenannsu01,,社会資本メンテナンス戦略小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s201_gijyutsusyashikaku01,,s201_gijyutsusyashikaku01,,技術者資格制度小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s201_chikakuukan01,,s201_chikakuukan01,,地下空間の利活用に関する安全技術の確立に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_management02,,s204_management02,,インフラマネジメント戦略小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kokudokotsugijutsugyousei01,,s204_kokudokotsugijutsugyousei01,,国土交通技術行政の基本政策懇談会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_greenwg,,s204_greenwg,,グリーン社会ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_bunnyaoudann01,,s204_bunnyaoudann01,,分野横断的技術政策ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_shoukouki01,,s203_shoukouki01,,昇降機等事故調査部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_kokyoyouchi01,,s202_kokyoyouchi01,,公共用地分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_sangyo01,,s202_sangyo01,,産業分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_hudousan01,,s203_hudousan01,,不動産部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_kensetu01,,s203_kensetu01,,建設部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kihonmondai,,s204_kihonmondai,,基本問題小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_jutakutakuchi01,,s202_jutakutakuchi01,,住宅宅地分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_mannsyon03,,s202_mannsyon03,,マンション政策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_minkanchintai01,,s203_minkanchintai01,,民間賃貸住宅部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_reform01,,s203_reform01,,既存住宅・リフォーム部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_jutakusafetynet01,,s204_jutakusafetynet01,,新たな住宅セーフティネット検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_mannsyonr601,,s204_mannsyonr601,,マンション政策小委員会（令和６年度）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_mannsyon01,,s204_mannsyon01,,マンション政策小委員会（令和元年度）（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kizonjutakuryutsu,,s204_kizonjutakuryutsu,,既存住宅流通市場活性化のための優良な住宅ストックの形成及び消費者保護の充実に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_akiyataisaku,,s204_akiyataisaku,,空き家対策小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_toshirekishi01,,s202_toshirekishi01,,都市計画・歴史的風土分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_keikaku02,,s203_keikaku02,,都市計画部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_toshikeikakukihonmondai,,s204_toshikeikakukihonmondai,,都市計画基本問題小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_toshishisetsuwg01,,s204_toshishisetsuwg01,,都市施設ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_management01,,s204_management01,,新たな時代の都市マネジメント小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_tosikeikakunokihon01,,s202_tosikeikakunokihon01,,都市政策の基本的な課題と方向検討小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_anzen_anshinmachidukuri01,,s202_anzen_anshinmachidukuri01,,安全・安心まちづくり小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_toshikeikakuseido02,,s204_toshikeikakuseido02,,都市計画制度小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_gesuidou01,,s204_gesuidou01,,下水道小委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_koutuukihon2,,s204_koutuukihon2,,交通基本法案検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_rekishi01,,s203_rekishi01,,歴史的風土部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_asukamura01,,s204_asukamura01,,明日香村小委員会（平成20～21年度）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_asukamura02,,s204_asukamura02,,明日香村小委員会（平成26年度）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_asukamura30_01,,s204_asukamura30_01,,明日香村小委員会（平成30年度）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_asukamura_r6_01,,s204_asukamura_r6_01,,明日香村小委員会（令和６年度）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kotohozon,,s204_kotohozon,,古都保存のあり方検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_kasen01,,s202_kasen01,,河川分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_r-jigyouhyouka01,,s204_r-jigyouhyouka01,,事業評価小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kikouhendou01,,s204_kikouhendou01,,気候変動に適応した治水対策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kasenkanri01,,s204_kasenkanri01,,ユビキタス情報社会にむけた次世代の河川管理のあり方検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_jizokutei01,,s204_jizokutei01,,安全を持続的に確保するための今後の河川管理のあり方検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_gesuidou02,,s204_gesuidou02,,下水道小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_daikibohanran01,,s204_daikibohanran01,,大規模氾濫に対する減災のための治水対策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_daikibokouikigouu01,,s304_daikibokouikigouu01,,大規模広域豪雨を踏まえた水災害対策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kikouhendousuigaitaisaku01,,s204_kikouhendousuigaitaisaku01,,気候変動を踏まえた水災害対策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_doshasaigai01,,s204_doshasaigai01,,土砂災害防止対策小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_kasenkikai01,,s202_kasenkikai01,,河川機械設備小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_ryuuikisougou,,s204_ryuuikisougou,,流域総合水管理のあり方検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_douro01,,s202_douro01,,道路分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_seisaku01,,s203_seisaku01,,基本政策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_butsuryu01,,s204_butsuryu01,,物流小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kokudokannsenn,,s204_kokudokannsenn,,国土幹線道路部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_chukyoken01,,s204_chukyoken01,,中京圏小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_renkei,,s204_renkei,,本州・九州連携小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_jigyouhyouka01,,s203_jigyouhyouka01,,事業評価部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_mentenansu01,,s204_mentenansu01,,道路メンテナンス技術小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_dourogijyutsu01,,s204_dourogijyutsu01,,道路技術小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_tihousyou,,s204_tihousyou,,地方小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_koutukihonnhou1,,s204_koutukihonnhou1,,交通基本法案検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_yuuryou01,,s203_yuuryou01,,有料道路部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_kannsen01,,s203_kannsen01,,幹線道路部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s202_kenchiku01,,s202_kenchiku01,,建築分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_kentikukijyun,,s203_kentikukijyun,,建築基準制度部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_seido01,,s203_seido01,,基本制度部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_kenchikushi01,,s204_kenchikushi01,,建築士制度小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_hoshukijun01,,s204_hoshukijun01,,業務報酬基準・工事監理小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_taisaku01,,s203_taisaku01,,建築物等事故・災害対策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_teikihoukoku01,,s204_teikihoukoku01,,定期報告制度等ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_setugaitaisaku01,,s204_setugaitaisaku01,,建築物雪害対策ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_syoukouki01,,s204_syoukouki01,,昇降機等安全審査ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_energy01,,s203_energy01,,住宅・建築物省エネルギー部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_shisetsu01,,s203_shisetsu01,,官公庁施設部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_jigyouhyouka01,,s204_jigyouhyouka01,,事業評価小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_asubesuto01,,s203_asubesuto01,,アスベスト対策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s203_kenntikukannkyou,,s203_kenntikukannkyou,,建築環境部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_syouenerugii,,s204_syouenerugii,,省エネルギー判断基準小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_lcco201,,s204_lcco201,,ＬＣＣＯ２配慮建築物小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s204_handan01,,s204_handan01,,建築物エネルギー消費性能基準等小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s301_kotsu01,,s301_kotsu01,,交通政策審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_kotsutaikei01,,s302_kotsutaikei01,,交通体系分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_keikaku01,,s303_keikaku01,,計画部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_senmon01,,s304_senmon01,,専門小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_koutuuseisaku01,,s304_koutuuseisaku01,,交通政策基本計画小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_kihonmondai01,,s304_kihonmondai01,,基本問題小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_zizokukoutsuu01,,s304_zizokukoutsuu01,,持続可能な社会の実現に向けた交通政策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kankyo01,,s303_kankyo01,,環境部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_yusou01,,s304_yusou01,,輸送事業者判断基準検討,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_recycle01,,s304_recycle01,,建設リサイクル推進施策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_haisyutsuwaku01,,s304_haisyutsuwaku01,,排出枠の割当方式検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_koukyoukoutu01,,s303_koukyoukoutu01,,地域公共交通部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_butsuryu201,,s303_butsuryu201,,物流部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_butsuryutaikei01,,s304_butsuryutaikei01,,物流体系小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_butsuryuservice01,,s304_butsuryuservice01,,物流サービス小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_goudou01,,s304_goudou01,,交通政策審議会陸上交通分科会自動車部会・交通体系分科会物流部会 合同小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_kihonnhou01,,s304_kihonnhou01,,交通基本法案検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_gijutsu01,,s302_gijutsu01,,技術分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_gijutsu01,,s303_gijutsu01,,技術部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_kanko01,,s302_kanko01,,観光分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_rikujo01,,s302_rikujo01,,陸上交通分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_tetsudo01,,s303_tetsudo01,,鉄道部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_network01,,s304_network01,,ネットワーク・サービス小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gijutsuanzen01,,s304_gijutsuanzen01,,技術・安全小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_sinkansen01,,s304_sinkansen01,,中央新幹線小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_seibi01,,s304_seibi01,,整備新幹線小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_seikan01,,s304_seikan01,,青函共用走行区間技術検討WG,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_seikan02,,s304_seikan02,,青函共用走行区間等高速化検討ＷＧ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_arikata01,,s304_arikata01,,東京圏における今後の都市鉄道のあり方に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_tokyochikatetsunetwork,,s304_tokyochikatetsunetwork,,東京圏における今後の地下鉄ネットワークのあり方等に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_arikata02,,s304_arikata02,,鉄道運賃・料金制度のあり方に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_arikata03,,s304_arikata03,,今後の整備新幹線の貸付のあり方に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_network02,,s304_network02,,持続可能な鉄道ネットワークの在り方に関する検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_hokurikushinkansen01,,s304_hokurikushinkansen01,,北陸新幹線（敦賀・新大阪間）小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_jidousha01,,s303_jidousha01,,自動車部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_taxi01,,s304_taxi01,,タクシー事業を巡る諸問題に関する検討ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gijutsuanzen01wg,,s304_gijutsuanzen01wg,,技術安全ワーキンググループ（2010-2011年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gijutsuanzen02wg,,s304_gijutsuanzen02wg,,技術安全ワーキンググループ（2015-2016年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gijutsuanzen03wg,,s304_gijutsuanzen03wg,,技術安全ワーキンググループ（2020年～）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gijutsuanzen04wg,,s304_gijutsuanzen04wg,,技術安全ワーキンググループ（2025年～）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jidoushanenpi01,,s304_jidoushanenpi01,,自動車燃費基準小委員会（2010-2011年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jidoushanenpi02,,s304_jidoushanenpi02,,自動車燃費基準小委員会（2014年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jidoushanenpi03,,s304_jidoushanenpi03,,自動車燃費基準小委員会（2015年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jidoushanenpi04,,s304_jidoushanenpi04,,自動車燃費基準小委員会（2016年～）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_future,,s304_future,,豊かな未来社会に向けた自動車行政の新たな展開に関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jidouunten01,,s304_jidouunten01,,自動運転等先進技術に係る制度整備小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s201_jidouunntenn01,,s201_jidouunntenn01,,自動運転ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_goudou02,,s304_goudou02,,交通政策審議会陸上交通分科会自動車部会・交通体系分科会物流部会 合同小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_kaiji01,,s302_kaiji01,,海事分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_senin01,,s303_senin01,,船員部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_naikokosenunkogyo01,,s304_naikokosenunkogyo01,,全国内航鋼船運航業最低賃金専門部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_kaijoryokakuunsogyo01,,s304_kaijoryokakuunsogyo01,,海上旅客運送業最低賃金専門部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_mizusaki01,,s304_mizusaki01,,水先小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gyogyo01,,s304_gyogyo01,,漁業（かつお・まぐろ）最低賃金専門部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_saiteichinnginn,,s304_saiteichinnginn,,最低賃金小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gyogyo02,,s304_gyogyo02,,漁業（いか釣り）最低賃金専門部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_senpakuanzen01,,s303_senpakuanzen01,,船舶交通安全部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_kourohyousiki01,,s304_kourohyousiki01,,航路標識・情報提供等小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kihonseisaku01,,s303_kihonseisaku01,,基本政策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kaijiinnovation01,,s303_kaijiinnovation01,,海事イノベーション部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kokusaikaijouyusou,,s303_kokusaikaijouyusou,,国際海上輸送部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_kouwan01,,s302_kouwan01,,港湾分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kouwanbousai01,,s303_kouwanbousai01,,防災部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_bousai01,,s303_bousai01,,防災・保全部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_anzen01,,s303_anzen01,,安全・維持管理部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kankyo02,,s303_kankyo02,,環境部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_youjouhuuryoku01,,s304_youjouhuuryoku01,,洋上風力促進小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kankyo03,,s303_kankyo03,,環境・安全等部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_butsuryu01,,s303_butsuryu01,,物流・産業部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_jigyouhyouka01,,s303_jigyouhyouka01,,事業評価部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_kouku01,,s302_kouku01,,航空分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_betsushushi01,,s303_betsushushi01,,空港別収支部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kukoseibi01,,s303_kukoseibi01,,空港整備部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_koukuhoan01,,s303_koukuhoan01,,航空保安システム整備部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_kihonseisaku,,s303_kihonseisaku,,基本政策部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_shutokenkuko01,,s304_shutokenkuko01,,首都圏空港機能強化技術検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,S304_haneda01,,S304_haneda01,,羽田発着枠配分基準検討小委員会（2012年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s04_haneda2019,,s04_haneda2019,,羽田発着枠配分基準検討小委員会（2019年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_haneda2024,,s304_haneda2024,,羽田発着枠配分基準検討小委員会（2024年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_haneda2026,,s304_haneda2026,,羽田発着枠配分基準検討小委員会（2026年）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_koutekisien01,,s304_koutekisien01,,公的支援に関する競争政策検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jigyouhyouka,,s304_jigyouhyouka,,事業評価小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s303_gijyutuanzen01,,s303_gijyutuanzen01,,技術・安全部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_gijutsukiseikento01,,s304_gijutsukiseikento01,,技術規制検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_kokukikensaseidokento01,,s304_kokukikensaseidokento01,,航空機検査制度等検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_mujinkokuki,,s304_mujinkokuki,,無人航空機の有人地帯における目視外飛行（レベル４）の実現に向けた検討小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s304_jyouin,,s304_jyouin,,乗員政策等検討合同小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s302_kishou01,,s302_kishou01,,気象分科会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s501_unyu01,,s501_unyu01,,運輸審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_unyu01,,s503_unyu01,,運輸安全確保部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s501_kokuritsu01,,s501_kokuritsu01,,国立研究開発法人審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_doboku01,,s503_doboku01,,土木研究所部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_kenchiku01,,s503_kenchiku01,,建築研究所部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_nmrienri01,,s503_nmrienri01,,海上技術安全研究所・電子航法研究所部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_kouwankuko01,,s503_kouwankuko01,,港湾空港技術研究所部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_kaijyokowankoku01,,s503_kaijyokowankoku01,,海上・港湾・航空技術研究所部会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s501_chuokensetsugyo01,,s501_chuokensetsugyo01,,中央建設業審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_kihonmondai,,s504_kihonmondai,,基本問題小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_kensetsukouji01,,s504_kensetsukouji01,,中央建設業審議会建設工事標準請負契約約款改正ワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_koukikijun01,,s504_koukikijun01,,工期に関する基準の作成に関するワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_roumuhikijun01,,s504_roumuhikijun01,,労務費の基準に関するワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_tochikantei01,,s504_tochikantei01,,土地鑑定委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_tochikantei02,,s504_tochikantei02,,土地鑑定委員会鑑定評価書小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_chuokenchikushi01,,s504_chuokenchikushi01,,中央建築士審査会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s504_firstclass01,,s504_firstclass01,,一級建築士試験制度の見直しに関する小委員会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s401_dokuritsu01,,s401_dokuritsu01,,独立行政法人評価委員会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_doboku01,,s402_doboku01,,土木研究所分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kenchiku01,,s402_kenchiku01,,建築研究所分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_koutsu01,,s402_koutsu01,,交通関係研究所分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s403_utyu01,,s403_utyu01,,宇宙航空研究開発機構部会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kouwankuko01,,s402_kouwankuko01,,港湾空港技術研究所分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kyoiku01,,s402_kyoiku01,,教育機関分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_jidosha01,,s402_jidosha01,,自動車検査分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_tetsudo01,,s402_tetsudo01,,鉄道建設・運輸施設整備支援機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kanko01,,s402_kanko01,,国際観光振興機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_suishigen01,,s402_suishigen01,,水資源機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_jidoushajiko01,,s402_jidoushajiko01,,自動車事故対策機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kuko01,,s402_kuko01,,空港周辺整備機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kaijo01,,s402_kaijo01,,海上災害防止センター分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_toshisaisei01,,s402_toshisaisei01,,都市再生機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_amami01,,s402_amami01,,奄美群島振興開発基金分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_kousokudouro01,,s402_kousokudouro01,,日本高速道路保有・債務返済機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s402_jutakukinyu01,,s402_jutakukinyu01,,住宅金融支援機構分科会（廃止）,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s501_amami01,,s501_amami01,,奄美群島振興開発審議会,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_amami,,s503_amami,,奄美群島振興開発基金の今後のあり方に関するワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,s503_amamiyakuwariwg,,s503_amamiyakuwariwg,,奄美群島振興開発基金の役割の検証に関するワーキンググループ,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,council_added,shingikaiList,,shingikaiList,,審議会・委員会等,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,page_added,,,/policy/shingikai/index.html,,200,/policy/shingikai/index.html
+2026-11-21T14:44:22+00:00,page_added,s101_kokudo01,,/policy/shingikai/s101_kokudo01.html,,200,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,page_added,s102_tochiseisaku01,,/policy/shingikai/s102_tochiseisaku01.html,,200,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,page_added,s103_chousa01,,/policy/shingikai/s103_chousa01.html,,200,/policy/shingikai/s103_chousa01.html
+2026-11-21T14:44:22+00:00,page_added,s103_chubuken01,,/policy/shingikai/s103_chubuken01.html,,200,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,page_added,s103_daitoshiken01,,/policy/shingikai/s103_daitoshiken01.html,,200,/policy/shingikai/s103_daitoshiken01.html
+2026-11-21T14:44:22+00:00,page_added,s103_hantou01,,/policy/shingikai/s103_hantou01.html,,200,/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,page_added,s103_keikaku01,,/policy/shingikai/s103_keikaku01.html,,200,/policy/shingikai/s103_keikaku01.html
+2026-11-21T14:44:22+00:00,page_added,s103_keikaku03,,/policy/shingikai/s103_keikaku03.html,,200,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,page_added,s103_keniki01,,/policy/shingikai/s103_keniki01.html,,200,/policy/shingikai/s103_keniki01.html
+2026-11-21T14:44:22+00:00,page_added,s103_kihon01,,/policy/shingikai/s103_kihon01.html,,200,/policy/shingikai/s103_kihon01.html
+2026-11-21T14:44:22+00:00,page_added,s103_kinkiken01,,/policy/shingikai/s103_kinkiken01.html,,200,/policy/shingikai/s103_kinkiken01.html
+2026-11-21T14:44:22+00:00,page_added,s103_kokudo_keikaku02,,/policy/shingikai/s103_kokudo_keikaku02.html,,200,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,page_added,s103_kokudo_keikakusuishin01,,/policy/shingikai/s103_kokudo_keikakusuishin01.html,,200,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,page_added,s103_kokudoseisaku,,/policy/shingikai/s103_kokudoseisaku.html,,200,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,page_added,s103_seisaku01,,/policy/shingikai/s103_seisaku01.html,,200,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,page_added,s103_shutoken01,,/policy/shingikai/s103_shutoken01.html,,200,/policy/shingikai/s103_shutoken01.html
+2026-11-21T14:44:22+00:00,page_added,s103_suishin01,,/policy/shingikai/s103_suishin01.html,,200,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,page_added,s103_tokubetu01,,/policy/shingikai/s103_tokubetu01.html,,200,/policy/shingikai/s103_tokubetu01.html
+2026-11-21T14:44:22+00:00,page_added,s104_chiikiseikatu01,,/policy/shingikai/s104_chiikiseikatu01.html,,200,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,page_added,s104_choukitennbou01,,/policy/shingikai/s104_choukitennbou01.html,,200,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,page_added,s104_ijuunichiikikyojuu01,,/policy/shingikai/s104_ijuunichiikikyojuu01.html,,200,/policy/shingikai/s104_ijuunichiikikyojuu01.html
+2026-11-21T14:44:22+00:00,page_added,s104_jiritsu01,,/policy/shingikai/s104_jiritsu01.html,,200,/policy/shingikai/s104_jiritsu01.html
+2026-11-21T14:44:22+00:00,page_added,s104_kasegerukokudo01,,/policy/shingikai/s104_kasegerukokudo01.html,,200,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,page_added,s104_keikakusuishin_kokudokanri01,,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html,,200,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,page_added,s104_kikakumonitoring,,/policy/shingikai/s104_kikakumonitoring.html,,200,/policy/shingikai/s104_kikakumonitoring.html
+2026-11-21T14:44:22+00:00,page_added,s104_kokudokanri01,,/policy/shingikai/s104_kokudokanri01.html,,200,/policy/shingikai/s104_kokudokanri01.html
+2026-11-21T14:44:22+00:00,page_added,s104_kokudokiban01,,/policy/shingikai/s104_kokudokiban01.html,,200,/policy/shingikai/s104_kokudokiban01.html
+2026-11-21T14:44:22+00:00,page_added,s104_kouiki01,,/policy/shingikai/s104_kouiki01.html,,200,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,page_added,s104_lifesyle01,,/policy/shingikai/s104_lifesyle01.html,,200,/policy/shingikai/s104_lifesyle01.html
+2026-11-21T14:44:22+00:00,page_added,s104_monitoring01,,/policy/shingikai/s104_monitoring01.html,,200,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,page_added,s104_sangyotenbo01,,/policy/shingikai/s104_sangyotenbo01.html,,200,/policy/shingikai/s104_sangyotenbo01.html
+2026-11-21T14:44:22+00:00,page_added,s104_shuraku01,,/policy/shingikai/s104_shuraku01.html,,200,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,page_added,s104_sumitsudzukerarerukokudo01,,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html,,200,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,page_added,s104_tyoukitenbou01,,/policy/shingikai/s104_tyoukitenbou01.html,,200,/policy/shingikai/s104_tyoukitenbou01.html
+2026-11-21T14:44:22+00:00,page_added,s203_bousaikokudo01,,/policy/shingikai/s203_bousaikokudo01.html,,200,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,page_added,s501_ogasawara01,,/policy/shingikai/s501_ogasawara01.html,,200,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,page_added,s504_daitosi01,,/policy/shingikai/s504_daitosi01.html,,200,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,page_added,s504_kokudokaihatsu01,,/policy/shingikai/s504_kokudokaihatsu01.html,,200,/policy/shingikai/s504_kokudokaihatsu01.html
+2026-11-21T14:44:22+00:00,page_added,shingikaiList,,/policy/shingikai/shingikaiList.html,,200,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#1,shingikaiList#1,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#2,shingikaiList#2,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#3,shingikaiList#3,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#4,shingikaiList#4,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#6,shingikaiList#6,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#7,shingikaiList#7,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#13,shingikaiList#13,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,meeting_added,shingikaiList,shingikaiList#28,shingikaiList#28,,,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,s501_ogasawara01,,www.mlit.go.jp/policy/shingikai/content/002021502.pdf,,議事録: 議事録（PDF形式：323KB）PDF形式,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,document_added,s501_ogasawara01,,www.mlit.go.jp/policy/shingikai/content/001908073.pdf,,議事録: 議事録（PDF形式：440KB）PDF形式,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,document_added,s501_ogasawara01,,www.mlit.go.jp/policy/shingikai/content/001855051.pdf,,議事録: 議事録（PDF形式：536KB）PDF形式,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,document_added,s501_ogasawara01,,www.mlit.go.jp/policy/shingikai/content/001758703.pdf,,議事録: 議事録（PDF形式：1.1MB）PDF形式,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,document_added,s501_ogasawara01,,www.mlit.go.jp/policy/shingikai/content/001622763.pdf,,議事録: 議事録（PDF形式：286KB）PDF形式,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,document_added,s501_ogasawara01,,www.mlit.go.jp/policy/shingikai/content/001516227.pdf,,資料: 令和７年度小笠原諸島振興開発審議会現地視察の概要,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/policy/shingikai/content/002045156.pdf,,議事録: 議事録（PDF形式：351KB）PDF形式,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/policy/shingikai/content/002001447.pdf,,議事録: 議事録（PDF形式：90KB）PDF形式,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/policy/shingikai/content/001623666.pdf,,議事録: 議事録（PDF形式：266KB）PDF形式,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/policy/shingikai/content/001619922.pdf,,議事録: 議事録（PDF形式：364KB）PDF形式,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/policy/shingikai/content/001612929.pdf,,議事録: 議事録（PDF形式：1.1MB）PDF形式,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/policy/shingikai/content/001989291.pdf,,資料: 令和７年度国土審議会現地視察の概要,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/common/000015429.pdf,,その他: 国土交通省設置法（抄）,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/common/001360977.pdf,,その他: 国土審議会令,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s101_kokudo01,,www.mlit.go.jp/common/000015437.pdf,,規程: 国土審議会運営規則,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s103_suishin01,,www.mlit.go.jp/policy/shingikai/content/001984565.pdf,,議事録: 議事録（PDF形式：457KB）PDF形式,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_suishin01,,www.mlit.go.jp/policy/shingikai/content/001900939.pdf,,議事録: 議事録（PDF形式：471KB）PDF形式,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_suishin01,,www.mlit.go.jp/policy/shingikai/content/001764996.pdf,,議事録: 議事録（PDF形式：763KB）PDF形式,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_suishin01,,www.mlit.go.jp/policy/shingikai/content/001724035.pdf,,議事録: 議事録（PDF形式：246KB）PDF形式,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_suishin01,,www.mlit.go.jp/policy/shingikai/content/001707846.pdf,,議事録: 議事録（PDF形式：411KB）PDF形式,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,document_added,s104_ijuunichiikikyojuu01,,www.mlit.go.jp/policy/shingikai/content/001721246.pdf,,議事録: 議事録（PDF形式：174KB）PDF形式,/policy/shingikai/s104_ijuunichiikikyojuu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_ijuunichiikikyojuu01,,www.mlit.go.jp/policy/shingikai/content/001714498.pdf,,議事録: 議事録（PDF形式：98KB）PDF形式,/policy/shingikai/s104_ijuunichiikikyojuu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_ijuunichiikikyojuu01,,www.mlit.go.jp/policy/shingikai/content/001711131.pdf,,議事録: 議事録（PDF形式：480KB）PDF形式,/policy/shingikai/s104_ijuunichiikikyojuu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_chiikiseikatu01,,www.mlit.go.jp/policy/shingikai/content/001899894.pdf,,議事録: 議事録（PDF形式：480KB）PDF形式,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_chiikiseikatu01,,www.mlit.go.jp/policy/shingikai/content/001884861.pdf,,議事録: 議事録（PDF形式：516KB）PDF形式,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_chiikiseikatu01,,www.mlit.go.jp/policy/shingikai/content/001869405.pdf,,議事録: 議事録（PDF形式：528KB）PDF形式,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_chiikiseikatu01,,www.mlit.go.jp/policy/shingikai/content/001860011.pdf,,議事要旨: 議事要旨（PDF形式：1.9MB）PDF形式,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kikakumonitoring,,www.mlit.go.jp/policy/shingikai/content/002045042.pdf,,議事録: 議事録（PDF形式：531KB）PDF形式,/policy/shingikai/s104_kikakumonitoring.html
+2026-11-21T14:44:22+00:00,document_added,s104_kikakumonitoring,,www.mlit.go.jp/policy/shingikai/content/002015231.pdf,,議事録: 議事録（PDF形式：478KB）PDF形式,/policy/shingikai/s104_kikakumonitoring.html
+2026-11-21T14:44:22+00:00,document_added,s104_kikakumonitoring,,www.mlit.go.jp/policy/shingikai/content/002003003.pdf,,議事録: 議事録（PDF形式：541KB）PDF形式,/policy/shingikai/s104_kikakumonitoring.html
+2026-11-21T14:44:22+00:00,document_added,s103_keikaku03,,www.mlit.go.jp/policy/shingikai/content/001617781.pdf,,議事録: 議事録（PDF形式：375KB）PDF形式,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,document_added,s103_keikaku03,,www.mlit.go.jp/policy/shingikai/content/001610727.pdf,,議事録: 議事録（PDF形式：1.1MB）PDF形式,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,document_added,s103_keikaku03,,www.mlit.go.jp/policy/shingikai/content/001600514.pdf,,議事録: 議事録（PDF形式：956KB）PDF形式,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,document_added,s103_keikaku03,,www.mlit.go.jp/policy/shingikai/content/001589585.pdf,,議事録: 議事録（PDF形式：1.1MB）PDF形式,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,document_added,s103_keikaku03,,www.mlit.go.jp/policy/shingikai/content/001584811.pdf,,議事録: 議事録（PDF形式：1.3MB）PDF形式,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikakusuishin01,,www.mlit.go.jp/common/001417200.pdf,,議事録: 議事録（PDF形式：886KB）PDF形式,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikakusuishin01,,www.mlit.go.jp/policy/shingikai/content/001385738.pdf,,議事録: 議事録（PDF形式：348KB）PDF形式,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikakusuishin01,,www.mlit.go.jp/common/001294333.pdf,,議事録: 議事録（PDF形式：654KB）PDF形式,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikakusuishin01,,www.mlit.go.jp/common/001264228.pdf,,議事録: 議事録（PDF形式：371KB）PDF形式,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikakusuishin01,,www.mlit.go.jp/common/001195202.pdf,,議事録: 議事録（PDF形式：367KB）PDF形式,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,document_added,s104_monitoring01,,www.mlit.go.jp/common/001300014.pdf,,議事録: 議事録（PDF形式：149KB）PDF形式,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,document_added,s104_monitoring01,,www.mlit.go.jp/common/001288361.pdf,,議事録: 議事録（PDF形式：136KB）PDF形式,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,document_added,s104_monitoring01,,www.mlit.go.jp/common/001282203.pdf,,議事録: 議事録（PDF形式：354KB）PDF形式,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,document_added,s104_monitoring01,,www.mlit.go.jp/common/001272116.pdf,,議事録: 議事録（PDF形式：383KB）PDF形式,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,document_added,s104_monitoring01,,www.mlit.go.jp/common/001272119.pdf,,議事録: 議事録（PDF形式：367KB）PDF形式,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kasegerukokudo01,,www.mlit.go.jp/policy/shingikai/content/001329920.pdf,,その他: ローカル版「知的対流拠点」づくりマニュアル（改訂版）（PDF形式：7.8MB）PDF形式,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kasegerukokudo01,,www.mlit.go.jp/common/001287474.pdf,,その他: 新たな時代における「予定調和なき対流」によるイノベーション創出～「地方に到来したチャンス」を最大限に活かした「稼げる国土」の形成～（PDF形式：3.7MB）PDF形式,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kasegerukokudo01,,www.mlit.go.jp/common/001286684.pdf,,議事録: 議事録（PDF形式：130KB）PDF形式,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kasegerukokudo01,,www.mlit.go.jp/common/001279291.pdf,,議事録: 議事録（PDF形式：127KB）PDF形式,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kasegerukokudo01,,www.mlit.go.jp/common/001269929.pdf,,議事録: 議事録（PDF形式：140KB）PDF形式,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_sumitsudzukerarerukokudo01,,www.mlit.go.jp/common/001299637.pdf,,議事録: 議事録（PDF形式：723KB）PDF形式,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_sumitsudzukerarerukokudo01,,www.mlit.go.jp/common/001286144.pdf,,議事録: 議事録（PDF形式：760KB）PDF形式,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_sumitsudzukerarerukokudo01,,www.mlit.go.jp/common/001273168.pdf,,議事録: 議事録（PDF形式：372KB）PDF形式,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_keikakusuishin_kokudokanri01,,www.mlit.go.jp/policy/shingikai/content/001411484.pdf,,議事録: 議事録（PDF形式：286KB）PDF形式,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,document_added,s104_keikakusuishin_kokudokanri01,,www.mlit.go.jp/policy/shingikai/content/001408566.pdf,,議事録: 議事録（PDF形式：431KB）PDF形式,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,document_added,s104_keikakusuishin_kokudokanri01,,www.mlit.go.jp/policy/shingikai/content/001398446.pdf,,議事録: 議事録（PDF形式：428KB）PDF形式,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,document_added,s104_keikakusuishin_kokudokanri01,,www.mlit.go.jp/policy/shingikai/content/001382857.pdf,,議事録: 議事録（PDF形式：344KB）PDF形式,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,document_added,s104_choukitennbou01,,www.mlit.go.jp/policy/shingikai/content/001410223.pdf,,議事録: 議事録（PDF形式：500KB）PDF形式,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,document_added,s104_choukitennbou01,,www.mlit.go.jp/policy/shingikai/content/001402593.pdf,,議事録: 議事録（PDF形式：297KB）PDF形式,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,document_added,s104_choukitennbou01,,www.mlit.go.jp/policy/shingikai/content/001399598.pdf,,議事録: 議事録（PDF形式：338KB）PDF形式,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,document_added,s104_choukitennbou01,,www.mlit.go.jp/policy/shingikai/content/001389158.pdf,,議事録: 議事録（PDF形式：352KB）PDF形式,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikaku02,,www.mlit.go.jp/common/001102274.pdf,,議事録: 議事録（PDF形式：308KB）PDF形式,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikaku02,,www.mlit.go.jp/common/001102275.pdf,,議事録: 議事録（PDF形式：352KB）PDF形式,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikaku02,,www.mlit.go.jp/common/001095797.pdf,,議事録: 議事録（PDF形式：335KB）PDF形式,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudo_keikaku02,,www.mlit.go.jp/common/001095795.pdf,,議事録: 議事録（PDF形式：406KB）PDF形式,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,document_added,s103_seisaku01,,www.mlit.go.jp/common/000183824.pdf,,議事録: 議事録（PDF形式：259KB）PDF形式,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s103_seisaku01,,www.mlit.go.jp/common/000163744.pdf,,議事録: 議事録（PDF形式：355KB）PDF形式,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s103_seisaku01,,www.mlit.go.jp/common/000146745.pdf,,議事録: 議事録（PDF形式：335KB）PDF形式,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s103_seisaku01,,www.mlit.go.jp/common/000132289.pdf,,議事録: 議事録（PDF形式：336KB）PDF形式,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s103_seisaku01,,www.mlit.go.jp/common/000043513.pdf,,議事録: 議事録（PDF形式：381KB）PDF形式,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s203_bousaikokudo01,,www.mlit.go.jp/common/000165021.pdf,,議事録: 議事録（PDF形式：292KB）PDF形式,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s203_bousaikokudo01,,www.mlit.go.jp/common/000161920.pdf,,議事録: 議事録（PDF形式：325KB）PDF形式,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s203_bousaikokudo01,,www.mlit.go.jp/common/000149183.pdf,,議事録: 議事録（PDF形式：338KB）PDF形式,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s203_bousaikokudo01,,www.mlit.go.jp/common/000149182.pdf,,議事録: 議事録（PDF形式：318KB）PDF形式,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,document_added,s104_tyoukitenbou01,,www.mlit.go.jp/common/000137217.pdf,,議事録: 議事録（PDF形式：318KB）PDF形式,/policy/shingikai/s104_tyoukitenbou01.html
+2026-11-21T14:44:22+00:00,document_added,s104_tyoukitenbou01,,www.mlit.go.jp/common/000133394.pdf,,議事録: 議事録（PDF形式：337KB）PDF形式,/policy/shingikai/s104_tyoukitenbou01.html
+2026-11-21T14:44:22+00:00,document_added,s104_tyoukitenbou01,,www.mlit.go.jp/common/000126439.pdf,,議事録: 議事録（PDF形式：366KB）PDF形式,/policy/shingikai/s104_tyoukitenbou01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000135303.pdf,,報告書: 最終報告本文,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000135304.pdf,,報告書: 最終報告概要（PDF形式：344KB）PDF形式,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000132831.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000136153.pdf,,議事録: 議事録（PDF形式：507KB）PDF形式,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000125154.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127088.pdf,,議事録: 議事録（PDF形式：150KB）PDF形式,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000125922.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127152.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127637.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000129777.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000128464.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000133793.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000130834.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000133794.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000125843.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127137.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127397.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000129222.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000129224.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000132428.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000131003.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000132429.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000135814.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000125958.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127969.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127016.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000128042.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127647.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000128833.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000127882.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000129264.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000128644.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000132692.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000129661.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000133073.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000131536.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000133121.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000132691.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s103_kokudoseisaku,,www.mlit.go.jp/common/000135402.pdf,,議事録: 議事録,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000056919.pdf,,報告書: 中間とりまとめ本文,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000056920.pdf,,報告書: 中間とりまとめのポイント（PDF形式：108KB）PDF形式,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000055865.pdf,,議事要旨: 議事概要,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000110971.pdf,,議事録: 議事録（PDF形式：266KB）PDF形式,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000053411.pdf,,議事要旨: 議事概要,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000110970.pdf,,議事録: 議事録（PDF形式：342KB）PDF形式,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000051913.pdf,,議事要旨: 議事概要,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000110969.pdf,,議事録: 議事録（PDF形式：319KB）PDF形式,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000049672.pdf,,議事要旨: 議事概要,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s104_shuraku01,,www.mlit.go.jp/common/000053941.pdf,,議事録: 議事録（PDF形式：336KB）PDF形式,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,document_added,s103_shutoken01,,www.mlit.go.jp/common/000041534.pdf,,議事録: 議事録（PDF形式：306KB）PDF形式,/policy/shingikai/s103_shutoken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_shutoken01,,www.mlit.go.jp/singikai/kokudosin/shutoken/3/01.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_shutoken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_shutoken01,,www.mlit.go.jp/common/000012749.pdf,,議事録: 議事録（PDF形式：73KB）PDF形式,/policy/shingikai/s103_shutoken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kinkiken01,,www.mlit.go.jp/common/000039267.pdf,,議事録: 議事録（PDF形式：266KB）PDF形式,/policy/shingikai/s103_kinkiken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kinkiken01,,www.mlit.go.jp/common/000012366.pdf,,議事録: 議事録（PDF形式：153KB）PDF形式,/policy/shingikai/s103_kinkiken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_kinkiken01,,www.mlit.go.jp/common/000012747.pdf,,議事録: 議事録（PDF形式：88KB）PDF形式,/policy/shingikai/s103_kinkiken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_chubuken01,,www.mlit.go.jp/common/000043697.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_chubuken01,,www.mlit.go.jp/common/000043698.pdf,,議事録: 議事録（PDF形式：331KB）PDF形式,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_chubuken01,,www.mlit.go.jp/singikai/kokudosin/chubuken/2/gijigaiyou.pdf,,議事要旨: 議事要旨,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_chubuken01,,www.mlit.go.jp/common/000012751.pdf,,議事録: 議事録（PDF形式：99KB）PDF形式,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,document_added,s103_chubuken01,,www.mlit.go.jp/common/000012750.pdf,,議事録: 議事録（PDF形式：371KB）PDF形式,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000117177.pdf,,議事要旨: 議事要旨,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000134647.pdf,,議事録: 議事録（PDF形式：296KB）PDF形式,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000051123.pdf,,議事要旨: 議事要旨,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000054435.pdf,,議事録: 議事録（PDF形式：278KB）PDF形式,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000050364.pdf,,議事録: 議事録（PDF形式：342KB）PDF形式,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000049006.pdf,,議事録: 議事録（PDF形式：352KB）PDF形式,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000042465.pdf,,議事要旨: 議事要旨,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000045621.pdf,,議事録: 議事録（PDF形式：303KB）PDF形式,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000117181.pdf,,報告書: 広域自立・成長政策委員会中間取りまとめ,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s104_kouiki01,,www.mlit.go.jp/common/000117178.pdf,,報告書: 中間取りまとめ本文,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000110162.pdf,,議事要旨: 議事要旨,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000110161.pdf,,議事録: 議事録（PDF形式：243KB）PDF形式,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000052564.pdf,,議事要旨: 議事要旨,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000052565.pdf,,議事録: 議事録（PDF形式：296KB）PDF形式,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000051078.pdf,,議事要旨: 議事要旨,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000051079.pdf,,議事録: 議事録（PDF形式：306KB）PDF形式,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000048964.pdf,,議事要旨: 議事要旨,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000048963.pdf,,議事録: 議事録（PDF形式：98KB）PDF形式,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000045578.pdf,,議事要旨: 議事要旨,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000045575.pdf,,議事録: 議事録（PDF形式：92KB）PDF形式,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s504_daitosi01,,www.mlit.go.jp/common/000116845.pdf,,報告書: 中間とりまとめ本文,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,document_added,s103_hantou01,,www.mlit.go.jp/policy/shingikai/content/001897411.pdf,,議事録: 議事録（PDF形式：472KB）PDF形式,/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,document_added,s103_hantou01,,www.mlit.go.jp/policy/shingikai/content/001749956.pdf,,議事録: 議事録（PDF形式：331KB）PDF形式,/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,document_added,s103_hantou01,,www.mlit.go.jp/policy/shingikai/content/001712745.pdf,,議事録: 議事録（PDF形式：361KB）PDF形式,/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,document_added,s103_hantou01,,www.mlit.go.jp/policy/shingikai/content/001593823.pdf,,議事録: 議事録（PDF形式：1.4MB）PDF形式,/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,document_added,s102_tochiseisaku01,,www.mlit.go.jp/policy/shingikai/content/002011218.pdf,,議事録: 議事録（PDF形式：306KB）PDF形式,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s102_tochiseisaku01,,www.mlit.go.jp/policy/shingikai/content/001891419.pdf,,議事録: 議事録（PDF形式：362KB）PDF形式,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s102_tochiseisaku01,,www.mlit.go.jp/policy/shingikai/content/001883290.pdf,,議事録: 議事録（PDF形式：335KB）PDF形式,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s102_tochiseisaku01,,www.mlit.go.jp/policy/shingikai/content/001618142.pdf,,議事録: 議事録（PDF形式：394KB）PDF形式,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s102_tochiseisaku01,,www.mlit.go.jp/policy/shingikai/content/001485923.pdf,,議事録: 議事録（PDF形式：384KB）PDF形式,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,document_added,s103_tokubetu01,,www.mlit.go.jp/policy/shingikai/content/001321041.pdf,,議事録: 議事録（PDF形式：1.4MB）PDF形式,/policy/shingikai/s103_tokubetu01.html
+2026-11-21T14:44:22+00:00,document_added,s103_tokubetu01,,www.mlit.go.jp/common/001279974.pdf,,議事録: 議事録（PDF形式：628KB）PDF形式,/policy/shingikai/s103_tokubetu01.html
+2026-11-21T14:44:22+00:00,document_added,s103_tokubetu01,,www.mlit.go.jp/common/001275702.pdf,,議事録: 議事録（PDF形式：694KB）PDF形式,/policy/shingikai/s103_tokubetu01.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#4,www.mlit.go.jp/policy/shingikai/s404_anzenhosho.html,,その他: 社会資本整備審議会環境部会・交通政策審議会交通体系分科会環境部会エネルギー・経済安全保障小委員会 第４回合同会議,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#2,www.mlit.go.jp/policy/shingikai/s304_network02.html,,その他: 第２回 交通政策審議会 陸上分科会 鉄道部会 持続可能な鉄道ネットワークの在り方に関する 検討小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#1,www.mlit.go.jp/policy/shingikai/s304_hokurikushinkansen01.html,,その他: 第１回交通政策審議会 陸上分科会 鉄道部会 北陸新幹線（敦賀・新大阪間）小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#28,www.mlit.go.jp/policy/shingikai/s204_dourogijyutsu01.html,,その他: 第２８回社会資本整備審議会 道路分科会 道路技術小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#1,www.mlit.go.jp/policy/shingikai/s504_firstclass01.html,,その他: 第１回一級建築士試験制度の見直しに関する小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#7,www.mlit.go.jp/policy/shingikai/s204_renkei.html,,その他: 第７回本州・九州連携小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#1,www.mlit.go.jp/policy/shingikai/s304_gyogyo01.html,,その他: 2026年度第1回,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#13,www.mlit.go.jp/policy/shingikai/s504_roumuhikijun01.html,,その他: 第13回 中央建設業審議会 労務費の基準に関するワーキンググループ,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#6,www.mlit.go.jp/policy/shingikai/s204_management02.html,,その他: 第６回インフラマネジメント戦略小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#1,www.mlit.go.jp/policy/shingikai/s503_kaijyokowankoku01.html,,その他: 令和８年度第１回海上・港湾・航空技術研究所部会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,document_added,shingikaiList,shingikaiList#3,www.mlit.go.jp/policy/shingikai/s304_haneda2026.html,,その他: 第３回羽田発着枠配分基準検討小委員会,/policy/shingikai/shingikaiList.html
+2026-11-21T14:44:22+00:00,profile_added,s504_kokudokaihatsu01,,s504_kokudokaihatsu01:概要,,国土開発幹線自動車道建設法及び高速自動車国道法により定められた事項の審議,/policy/shingikai/s504_kokudokaihatsu01.html
+2026-11-21T14:44:22+00:00,profile_added,s501_ogasawara01,,s501_ogasawara01:概要,,小笠原諸島振興開発特別措置法第４７条,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,profile_added,s501_ogasawara01,,s501_ogasawara01:概要,,旧島民の帰島及び小笠原諸島の振興開発に関し重要な事項を調査審議する。,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,profile_added,s501_ogasawara01,,s501_ogasawara01:概要,,国土政策局特別地域振興官付（29-712・29-723）,/policy/shingikai/s501_ogasawara01.html
+2026-11-21T14:44:22+00:00,profile_added,s101_kokudo01,,s101_kokudo01:概要,,一 国土交通大臣の諮問に応じて国土の利用、開発及び保全に関する総合的かつ基本的な政策について調査審議すること。,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s101_kokudo01,,s101_kokudo01:概要,,二 国土形成計画法、国土利用計画法、首都圏整備法、首都圏近郊緑地保全法、近畿圏整備法、近畿圏の近郊整備区域及び都市開発区域の整備及び開発に関する法律、近畿圏の保全区域の整備に関する法律、中部圏開発整備法、中部圏の都市整備区域、都市開発区域及び保全区域の整備等に関する法律、北海道開発法、土地基本法、地価公示法、国土調査法、国土調査促進特別措置法、水資源開発促進法、低開発地域工業開発促進法及び豪雪地帯対策特別措置法の規定によりその権限に属させられた事項を処理すること。,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s101_kokudo01,,s101_kokudo01:概要,,国土政策局総務課（29151）,/policy/shingikai/s101_kokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_suishin01,,s103_suishin01:概要,,国土形成計画法（昭和二十五年法律第二百五号）第二条第一項に規定する国土形成計画の実施に関し必要な事項について調査審議し、その結果を審議会に報告する。,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_suishin01,,s103_suishin01:概要,,国土政策局総合計画課（内線29-334）,/policy/shingikai/s103_suishin01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_ijuunichiikikyojuu01,,s104_ijuunichiikikyojuu01:概要,,委員会は、国土形成計画の推進に関し、移住・二地域居住等を促進するために講ずべき施策のあり方について調査し、その結果を部会に報告する。,/policy/shingikai/s104_ijuunichiikikyojuu01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_ijuunichiikikyojuu01,,s104_ijuunichiikikyojuu01:概要,,国土政策局地方政策課（内線29-431）,/policy/shingikai/s104_ijuunichiikikyojuu01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_chiikiseikatu01,,s104_chiikiseikatu01:概要,,委員会は、国土形成計画の推進に関し、「地域生活圏」の形成を促進するために講ずべき施策のあり方について調査し、その結果を部会に報告する。,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_chiikiseikatu01,,s104_chiikiseikatu01:概要,,国土政策局総合計画課（内線29-429）,/policy/shingikai/s104_chiikiseikatu01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kikakumonitoring,,s104_kikakumonitoring:概要,,委員会は、国土形成計画（以下「計画」という。）の推進に関し、計画のモニタリングに関する事項及び計画の推進に関する重要事項について調査し、その結果を部会に報告する。,/policy/shingikai/s104_kikakumonitoring.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kikakumonitoring,,s104_kikakumonitoring:概要,,国土政策局総合計画課（内29-334）,/policy/shingikai/s104_kikakumonitoring.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keikaku03,,s103_keikaku03:概要,,全国の区域について定める国土形成計画及び国土利用計画に関し必要な事項について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keikaku03,,s103_keikaku03:概要,,国土政策局総務課（29-151）,/policy/shingikai/s103_keikaku03.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudo_keikakusuishin01,,s103_kokudo_keikakusuishin01:概要,,2016年2月18日（2021年7月2日廃止）,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudo_keikakusuishin01,,s103_kokudo_keikakusuishin01:概要,,国土形成計画法（昭和二十五年法律第二百五号）第二条第一項に規定する国土形成計画の実施に関し必要な事項について調査審議し、その結果を審議会に報告する,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudo_keikakusuishin01,,s103_kokudo_keikakusuishin01:概要,,国土政策局総務課（29-151）,/policy/shingikai/s103_kokudo_keikakusuishin01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_monitoring01,,s104_monitoring01:概要,,2016年4月19日（2021年7月2日廃止）,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_monitoring01,,s104_monitoring01:概要,,委員会は、国土形成計画の推進に関し、計画のモニタリングに関する事項及び計画の推進に関する重要事項（他の委員会の所掌に属するものは除く。）について調査し、その結果を部会に報告する。,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_monitoring01,,s104_monitoring01:概要,,国土政策局総合計画課（29317）,/policy/shingikai/s104_monitoring01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kasegerukokudo01,,s104_kasegerukokudo01:概要,,2016年4月19日（2019年3月20日廃止）,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kasegerukokudo01,,s104_kasegerukokudo01:概要,,委員会は、国土形成計画の推進に関し、我が国が活力を維持、向上するため、我が国の経済成長を支える「稼げる国土」の形成を進めるために講ずべき施策のあり方について調査し、その結果を部会に報告する。,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kasegerukokudo01,,s104_kasegerukokudo01:概要,,国土政策局総合計画課（29326）,/policy/shingikai/s104_kasegerukokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_sumitsudzukerarerukokudo01,,s104_sumitsudzukerarerukokudo01:概要,,2016年4月19日（2019年4月19日廃止）,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_sumitsudzukerarerukokudo01,,s104_sumitsudzukerarerukokudo01:概要,,委員会は、国土形成計画の推進に関し、人口減少地域の住民の生活を守り、「住み続けられる国土」を維持するために講ずべき施策のあり方について調査し、その結果を部会に報告する。,/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_sumitsudzukerarerukokudo01,,s104_sumitsudzukerarerukokudo01:概要,,"国土政策局総合計画課（29315,29318）",/policy/shingikai/s104_sumitsudzukerarerukokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_keikakusuishin_kokudokanri01,,s104_keikakusuishin_kokudokanri01:概要,,2016年4月19日（2021年7月2日廃止）,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_keikakusuishin_kokudokanri01,,s104_keikakusuishin_kokudokanri01:概要,,委員会は、国土形成計画の推進に関し、人口減少下における持続可能な国土の管理・利用を推進するための施策のあり方について調査し、その結果を部会に報告する。,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_keikakusuishin_kokudokanri01,,s104_keikakusuishin_kokudokanri01:概要,,国土政策局総合計画課国土管理企画室（29384）,/policy/shingikai/s104_keikakusuishin_kokudokanri01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_choukitennbou01,,s104_choukitennbou01:概要,,2019年5月21日（2021年7月2日廃止）,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_choukitennbou01,,s104_choukitennbou01:概要,,委員会は、人口減少の進行、急速な高齢化等を踏まえた国土の長期展望を行い、将来的な国土の重要課題について調査し、その結果を部会に報告する。,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_choukitennbou01,,s104_choukitennbou01:概要,,国土政策局総合計画課（29318、29327）,/policy/shingikai/s104_choukitennbou01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudo_keikaku02,,s103_kokudo_keikaku02:概要,,2014年9月18日（2016年2月18日廃止）,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudo_keikaku02,,s103_kokudo_keikaku02:概要,,全国の区域について定める国土利用計画及び国土形成計画に関し必要な事項について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudo_keikaku02,,s103_kokudo_keikaku02:概要,,国土政策局総務課（29151）,/policy/shingikai/s103_kokudo_keikaku02.html
+2026-11-21T14:44:22+00:00,profile_added,s103_seisaku01,,s103_seisaku01:概要,,国土形成計画法第2条に基づく国土形成計画の実施に関し必要な事項について調査審議し、その結果を審議会に報告する。,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_seisaku01,,s103_seisaku01:概要,,国土政策局総務課（29151）,/policy/shingikai/s103_seisaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s203_bousaikokudo01,,s203_bousaikokudo01:概要,,災害に強い国土構造への再構築に係る重要課題について調査審議する。,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s203_bousaikokudo01,,s203_bousaikokudo01:概要,,国土政策局総合計画課（29367）,/policy/shingikai/s203_bousaikokudo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_tyoukitenbou01,,s104_tyoukitenbou01:概要,,人口減少の進行、急速な高齢化等を踏まえた国土の長期展望を行い、将来的な国土の重要課題について調査審議する。,/policy/shingikai/s104_tyoukitenbou01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_tyoukitenbou01,,s104_tyoukitenbou01:概要,,国土政策局総合計画課（２９３２７）,/policy/shingikai/s104_tyoukitenbou01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudoseisaku,,s103_kokudoseisaku:概要,,大都市圏戦略、官民連携による内発的地域戦略づくりに係る政策、新たな公共の担い手によるコミュニティづくりに係る政策等に関する事項について調査審議する。,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kokudoseisaku,,s103_kokudoseisaku:概要,,国土計画局広域地方整備政策課（２９４４３）,/policy/shingikai/s103_kokudoseisaku.html
+2026-11-21T14:44:22+00:00,profile_added,s104_shuraku01,,s104_shuraku01:概要,,高齢化が進む過疎集落の機能維持・経済基盤の再構築等のために講ずべき施策のあり方について調査審議し、その結果を政策部会に報告する。,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_shuraku01,,s104_shuraku01:概要,,国土政策局総合計画課（29365）,/policy/shingikai/s104_shuraku01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keikaku01,,s103_keikaku01:概要,,2005年9月7日（2009年4月21日廃止）,/policy/shingikai/s103_keikaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keikaku01,,s103_keikaku01:概要,,全国の区域について定める国土利用計画及び国土形成計画に関し必要な事項について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_keikaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keikaku01,,s103_keikaku01:概要,,国土計画局総務課（29151）,/policy/shingikai/s103_keikaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_lifesyle01,,s104_lifesyle01:概要,,多様な価値観の中で想定されるライフスタイル、生活圏域のあり方、生活の場としての都市に関わる諸問題の観点から、全国の区域について定める国土形成計画に関する専門の事項を調査する,/policy/shingikai/s104_lifesyle01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_lifesyle01,,s104_lifesyle01:概要,,国土計画局総合計画課（29363）,/policy/shingikai/s104_lifesyle01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_sangyotenbo01,,s104_sangyotenbo01:概要,,我が国の国際競争力や、東アジアとの都市間連携の観点から、全国の区域について定める国土形成計画に関する専門の事項を調査する,/policy/shingikai/s104_sangyotenbo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_sangyotenbo01,,s104_sangyotenbo01:概要,,国土計画局総合計画課（29356）,/policy/shingikai/s104_sangyotenbo01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_jiritsu01,,s104_jiritsu01:概要,,人口減少が進展する中で、多様な社会的サービスを持続的に提供する仕組みや、地域の自立的な取組による地域活性化の観点から、全国の区域について定める国土形成計画に関する専門の事項を調査する,/policy/shingikai/s104_jiritsu01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_jiritsu01,,s104_jiritsu01:概要,,国土計画局総合計画課（29365）,/policy/shingikai/s104_jiritsu01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kokudokiban01,,s104_kokudokiban01:概要,,経済のグローバル化への対応や国民生活の安全・安心・安定の確保に資する国土基盤整備の観点から、全国の区域について定める国土形成計画に関する専門の事項を調査する,/policy/shingikai/s104_kokudokiban01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kokudokiban01,,s104_kokudokiban01:概要,,国土計画局総合計画課（29352）,/policy/shingikai/s104_kokudokiban01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kokudokanri01,,s104_kokudokanri01:概要,,全国の区域について定める国土利用計画に関する専門の事項を調査する。また、国民の生活の基盤である国土を適切に利用して将来の世代によりよい状態で継承するため、持続可能な国土管理の観点から、全国の区域について定める国土形成計画に関する専門の事項を調査する,/policy/shingikai/s104_kokudokanri01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kokudokanri01,,s104_kokudokanri01:概要,,国土計画局総合計画課（29354）,/policy/shingikai/s104_kokudokanri01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_shutoken01,,s103_shutoken01:概要,,首都圏整備法（昭和３１年法律第８３号）及び首都圏近郊緑地保全法（昭和４１年法律第１０１号）の規定に基づき審議会の権限に属させられた事項その他首都圏の整備に関する重要事項について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_shutoken01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_shutoken01,,s103_shutoken01:概要,,国土計画局広域地方整備政策課大都市圏制度企画室（29521）,/policy/shingikai/s103_shutoken01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kinkiken01,,s103_kinkiken01:概要,,近畿圏整備法（昭和３８年法律第１２９号）、近畿圏の近郊整備区域及び都市開発区域の整備及び開発に関する法律（昭和３９年法律第１４５号）及び近畿圏の保全区域の整備に関する法律（昭和４２年法律第１０３号）の規定に基づき審議会の権限に属させられた事項その他近畿圏の整備に関する重要事項について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_kinkiken01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kinkiken01,,s103_kinkiken01:概要,,国土計画局広域地方整備政策課大都市圏制度企画室（29527）,/policy/shingikai/s103_kinkiken01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_chubuken01,,s103_chubuken01:概要,,中部圏開発整備法（昭和４１年法律第１０２号）及び中部圏の都市整備区域、都市開発区域及び保全区域の整備等に関する法律（昭和４２年法律第１０２号）の規定に基づき審議会の権限に属させられた事項その他中部圏の整備に関する重要事項について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_chubuken01,,s103_chubuken01:概要,,国土計画局広域地方整備政策課（29523）,/policy/shingikai/s103_chubuken01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kouiki01,,s104_kouiki01:概要,,広域ブロック自立的発展、成長基盤システム、大都市圏制度等に関する政策のあり方について調査審議し、その結果を各部会に報告する。,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,profile_added,s104_kouiki01,,s104_kouiki01:概要,,国土計画局広域地方整備政策課（29453）,/policy/shingikai/s104_kouiki01.html
+2026-11-21T14:44:22+00:00,profile_added,s504_daitosi01,,s504_daitosi01:概要,,大都市圏制度に関する政策のあり方について調査審議し、その結果を委員会に報告する。,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,profile_added,s504_daitosi01,,s504_daitosi01:概要,,国土計画局広域地方整備政策課（２９５２３）,/policy/shingikai/s504_daitosi01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_hantou01,,s103_hantou01:概要,,半島振興計画に関する事項その他半島振興に関する重要事項を調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_hantou01,,s103_hantou01:概要,,"国土政策局地域振興課半島振興室（29552,29553）",/policy/shingikai/s103_hantou01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_chousa01,,s103_chousa01:概要,,2003年6月23日（平成17年9月7日付けで廃止）,/policy/shingikai/s103_chousa01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_chousa01,,s103_chousa01:概要,,次に掲げる事項について最近の経済社会情勢の変化を踏まえつつ調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_chousa01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_chousa01,,s103_chousa01:概要,,二 国土計画制度の改革について,/policy/shingikai/s103_chousa01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_chousa01,,s103_chousa01:概要,,国土計画局総務課（29151）,/policy/shingikai/s103_chousa01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kihon01,,s103_kihon01:概要,,2001年3月15日（平成15年6月23日付けで調査改革部会に改組）,/policy/shingikai/s103_kihon01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kihon01,,s103_kihon01:概要,,次に掲げる事項について最近の経済社会情勢の変化を踏まえつつ調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_kihon01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kihon01,,s103_kihon01:概要,,一 全国総合開発計画「２１世紀の国土のグランドデザイン」（平成１０年３月３１日閣議決定）の推進状況及び課題に関する事項,/policy/shingikai/s103_kihon01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kihon01,,s103_kihon01:概要,,二 新たな国土計画体系のあり方に関する事項,/policy/shingikai/s103_kihon01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_kihon01,,s103_kihon01:概要,,国土計画局総務課（29151）,/policy/shingikai/s103_kihon01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keniki01,,s103_keniki01:概要,,一体として総合的な国土の形成を推進することが必要な地域の区分のあり方について調査審議し、その結果を国土審議会に報告する,/policy/shingikai/s103_keniki01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_keniki01,,s103_keniki01:概要,,国土計画局総務課（29151）,/policy/shingikai/s103_keniki01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_daitoshiken01,,s103_daitoshiken01:概要,,社会経済情勢の変化を踏まえた大都市圏制度の在り方について調査審議し、その結果を首都圏整備部会等に報告する,/policy/shingikai/s103_daitoshiken01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_daitoshiken01,,s103_daitoshiken01:概要,,国土計画局広域地方整備政策課大都市圏制度企画室（29463）,/policy/shingikai/s103_daitoshiken01.html
+2026-11-21T14:44:22+00:00,profile_added,s102_tochiseisaku01,,s102_tochiseisaku01:概要,,国土利用計画法、土地基本法、地価公示法、国土調査促進特別措置法等の規定により審議会の権限に属せられた事項などを処理する,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s102_tochiseisaku01,,s102_tochiseisaku01:概要,,不動産・建設経済局土地政策課（30635）,/policy/shingikai/s102_tochiseisaku01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_tokubetu01,,s103_tokubetu01:概要,,所有者不明土地問題に関する制度の方向性等に関する事項及び中長期的課題として人口減少社会における土地制度のあり方について調査審議し、その結果を土地政策分科会に報告する。,/policy/shingikai/s103_tokubetu01.html
+2026-11-21T14:44:22+00:00,profile_added,s103_tokubetu01,,s103_tokubetu01:概要,,土地・建設産業局企画課（30626）,/policy/shingikai/s103_tokubetu01.html

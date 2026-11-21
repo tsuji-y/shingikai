@@ -1,0 +1,404 @@
+detected_at,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T14:40:52+00:00,council_added,singi_kinyu/base,,singi_kinyu/base,,金融審議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kinyu/base_tousin,,singi_kinyu/base_tousin,,答申・報告書等,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kinyu/base_gijiroku,,singi_kinyu/base_gijiroku,,議事録・資料等,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kigyou/top,,singi_kigyou/top,,企業会計審議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kigyou/top_tousin,,singi_kigyou/top_tousin,,答申・報告書等,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kigyou/top_gijiroku,,singi_kigyou/top_gijiroku,,議事録・資料等,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_zidousya/zid_base,,singi_zidousya/zid_base,,自動車損害賠償責任保険審議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,soff,,soff,,金融機能強化審査会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kigyoukachi-tanpo/kigyoukachi-tanpo,,kigyoukachi-tanpo/kigyoukachi-tanpo,,事業性融資推進本部,/singi/
+2026-11-21T14:40:52+00:00,council_added,kinyukiki,,kinyukiki,,金融危機対応会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,kabushikishijoukouzou,,kabushikishijoukouzou,,株式市場構造の在り方に関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,digital_2026,,digital_2026,,デジタル・分散型金融への対応のあり方等に関する研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,ai_onchain,,ai_onchain,,AI時代を見据えたオンチェーン金融フォーラム,/singi/
+2026-11-21T14:40:52+00:00,council_added,riskmanagement,,riskmanagement,,企業のリスクマネジメントの高度化に向けた検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,revision_corporategovernance,,revision_corporategovernance,,コーポレートガバナンス・コードの改訂に関する有識者会議（令和７年度）,/singi/
+2026-11-21T14:40:52+00:00,council_added,ai_forum,,ai_forum,,金融庁 AI官民フォーラム,/singi/
+2026-11-21T14:40:52+00:00,council_added,nisa_kaigi,,nisa_kaigi,,NISAに関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,startup,,startup,,スタートアップ企業等への成長資金供給等に関する懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,naibukansa,,naibukansa,,金融機関の内部監査高度化に関する懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,sokaimaekaiji,,sokaimaekaiji,,有価証券報告書の定時株主総会前の開示に向けた環境整備に関する連絡協議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,stewardship,,stewardship,,スチュワードシップ・コードに関する有識者会議（令和６年度）,/singi/
+2026-11-21T14:40:52+00:00,council_added,pqc,,pqc,,預金取扱金融機関の耐量子計算機暗号への対応に関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,carbon_credit,,carbon_credit,,カーボン・クレジット取引に関する金融インフラのあり方等に係る検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,vc,,vc,,ベンチャーキャピタルに関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,japan_corporate_governance_forum,,japan_corporate_governance_forum,,ジャパン・コーポレート・ガバナンス・フォーラム,/singi/
+2026-11-21T14:40:52+00:00,council_added,transition_finance,,transition_finance,,トランジション・ファイナンス環境整備検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,sustainable_finance,,sustainable_finance,,サステナブルファイナンス有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,chuukinken,,chuukinken,,中国金融研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,follow-up,,follow-up,,スチュワードシップ・コード及びコーポレートガバナンス・コードのフォローアップ会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_trouble,,singi_trouble,,金融トラブル連絡調整協議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,sonpo,,sonpo,,損害保険業の構造的課題と競争のあり方に関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,dialogue,,dialogue,,サステナビリティ投資商品の充実に向けたダイアログ,/singi/
+2026-11-21T14:40:52+00:00,council_added,scenario_data,,scenario_data,,気候変動リスク・機会の評価等に向けたシナリオ・データ関係機関懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,impact,,impact,,インパクト投資等に関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,decarbonization,,decarbonization,,脱炭素等に向けた金融機関等の取組みに関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,coronakansakyougikai,,coronakansakyougikai,,新型コロナウイルス感染症の影響を踏まえた企業決算・監査等への対応に係る連絡協議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,esg_hyouka,,esg_hyouka,,ESG評価・データ提供機関等に係る専門分科会,/singi/
+2026-11-21T14:40:52+00:00,council_added,social_impact,,social_impact,,ソーシャルプロジェクトのインパクト指標等の検討に関する関係府省庁会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,arikataken,,arikataken,,事業者を支える融資・再生実務のあり方に関する研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kaikeikansanoarikata,,kaikeikansanoarikata,,会計監査の在り方に関する懇談会（令和３事務年度）,/singi/
+2026-11-21T14:40:52+00:00,council_added,suisai,,suisai,,火災保険水災料率に関する有識者懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,shotokukazei_ittaika,,shotokukazei_ittaika,,金融所得課税の一体化に関する研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,social_bond,,social_bond,,ソーシャルボンド検討会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,shomen_oin,,shomen_oin,,金融業界における書面・押印・対面手続の見直しに向けた検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kansaninkyougikai,,kansaninkyougikai,,株式新規上場（IPO）に係る監査事務所の選任等に関する連絡協議会,/singi/
+2026-11-21T14:40:52+00:00,council_added,keizaikachi,,keizaikachi,,経済価値ベースのソルベンシー規制等に関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,jyouhouteikyou,,jyouhouteikyou,,会計監査についての情報提供の充実に関する懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,yuusiken,,yuusiken,,融資に関する検査・監督実務についての研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,otcfx2018/otcfx2018,,otcfx2018/otcfx2018,,店頭ＦＸ業者の決済リスクへの対応に関する有識者検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kakei,,kakei,,家計の安定的な資産形成に関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,roundtable,,roundtable,,外為決済リスクに係るラウンドテーブル,/singi/
+2026-11-21T14:40:52+00:00,council_added,kabushiki,,kabushiki,,株式新規上場引受に関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,monitoring,,monitoring,,金融モニタリング有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,governance_code,,governance_code,,監査法人のガバナンス・コードに関する有識者検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kessai_kanmin,,kessai_kanmin,,決済高度化官民推進会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,fintech_venture,,fintech_venture,,フィンテック・ベンチャーに関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,kinyuchukai,,kinyuchukai,,金融仲介の改善に向けた検討会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,corporategovernance,,corporategovernance,,コーポレートガバナンス・コードの策定に関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,shihyo,,shihyo,,金融指標の規制のあり方に関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kasseika,,kasseika,,金融・資本市場活性化有識者会合,/singi/
+2026-11-21T14:40:52+00:00,council_added,kyouikukenkyukaitou/kenkyukai,,kyouikukenkyukaitou/kenkyukai,,金融経済教育研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,chushoukigyou,,chushoukigyou,,中小企業における個人保証等の在り方研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,adr-followup,,adr-followup,,金融ADR制度のフォローアップに関する有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,kan-min,,kan-min,,官民ラウンドテーブル,/singi/
+2026-11-21T14:40:52+00:00,council_added,kaikeisi,,kaikeisi,,公認会計士制度に関する懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,derivative,,derivative,,店頭デリバティブ市場規制にかかる検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,kaijiseidowg,,kaijiseidowg,,開示制度ワーキング・グループ,/singi/
+2026-11-21T14:40:52+00:00,council_added,torihikijo,,torihikijo,,総合的な取引所検討チーム,/singi/
+2026-11-21T14:40:52+00:00,council_added,zeiseichousa,,zeiseichousa,,金融税制調査会,/singi/
+2026-11-21T14:40:52+00:00,council_added,zeiseikenkyu,,zeiseikenkyu,,金融税制研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,tajusaimu,,tajusaimu,,多重債務者対策本部有識者会議,/singi/
+2026-11-21T14:40:52+00:00,council_added,solvency,,solvency,,ソルベンシー・マージン比率の算出基準等に関する検討チーム,/singi/
+2026-11-21T14:40:52+00:00,council_added,inspection_m,,inspection_m,,金融検査マニュアル改訂に関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,edinet,,edinet,,EDINET(電子開示)の高度化に関する協議会 実務者検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,ashigin_ukezara,,ashigin_ukezara,,足利銀行の受皿選定に関するワーキンググループ,/singi/
+2026-11-21T14:40:52+00:00,council_added,tm_ken,,tm_ken,,信託検査マニュアルに関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,mdth_kon,,mdth_kon,,証券会社の市場仲介機能等に関する懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,infosec_ken,,infosec_ken,,情報セキュリティに関する検討会,/singi/
+2026-11-21T14:40:52+00:00,council_added,se-kon,,se-kon,,証券取引所のあり方等に関する有識者懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_ins_p,,singi_ins_p,,保険商品の販売勧誘のあり方に関する検討チーム,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kasikin/singi_kasikin,,singi_kasikin/singi_kasikin,,貸金業制度等に関する懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_keizai_kyouiku/keizai_kyouiku,,singi_keizai_kyouiku/keizai_kyouiku,,金融経済教育懇談会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_fccsg/singi_fccsg,,singi_fccsg/singi_fccsg,,偽造キャッシュカード問題に関するスタディグループ,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_hyoutei/singi_hyoutei,,singi_hyoutei/singi_hyoutei,,評定制度研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_zeisei/si_zeisei,,singi_zeisei/si_zeisei,,金融税制に関する研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_kikan/singi_kikan,,singi_kikan/singi_kikan,,金融機関の自己資本充実に関する税制研究会,/singi/
+2026-11-21T14:40:52+00:00,council_added,singi_nihon/si_nihon,,singi_nihon/si_nihon,,日本型金融システムと行政の将来ビジョン懇話会,/singi/
+2026-11-21T14:40:52+00:00,council_added,index,,index,,審議会・研究会等一覧,/singi/
+2026-11-21T14:40:52+00:00,page_added,index,,/singi/,,200,/singi/
+2026-11-21T14:40:52+00:00,page_added,ai_forum,,/singi/ai_forum/index.html,,200,/singi/ai_forum/index.html
+2026-11-21T14:40:52+00:00,page_added,ai_onchain,,/singi/ai_onchain/index.html,,200,/singi/ai_onchain/index.html
+2026-11-21T14:40:52+00:00,page_added,arikataken,,/singi/arikataken/index.html,,200,/singi/arikataken/index.html
+2026-11-21T14:40:52+00:00,page_added,carbon_credit,,/singi/carbon_credit/index.html,,200,/singi/carbon_credit/index.html
+2026-11-21T14:40:52+00:00,page_added,chuukinken,,/singi/chuukinken/index.html,,200,/singi/chuukinken/index.html
+2026-11-21T14:40:52+00:00,page_added,coronakansakyougikai,,/singi/coronakansakyougikai/index.html,,200,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,page_added,decarbonization,,/singi/decarbonization/index.html,,200,/singi/decarbonization/index.html
+2026-11-21T14:40:52+00:00,page_added,dialogue,,/singi/dialogue/index.html,,200,/singi/dialogue/index.html
+2026-11-21T14:40:52+00:00,page_added,digital_2026,,/singi/digital_2026/index.html,,200,/singi/digital_2026/index.html
+2026-11-21T14:40:52+00:00,page_added,esg_hyouka,,/singi/esg_hyouka/index.html,,200,/singi/esg_hyouka/index.html
+2026-11-21T14:40:52+00:00,page_added,follow-up,,/singi/follow-up/index.html,,200,/singi/follow-up/index.html
+2026-11-21T14:40:52+00:00,page_added,impact,,/singi/impact/index.html,,200,/singi/impact/index.html
+2026-11-21T14:40:52+00:00,page_added,japan_corporate_governance_forum,,/singi/japan_corporate_governance_forum/index.html,,200,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,page_added,kabushikishijoukouzou,,/singi/kabushikishijoukouzou/index.html,,200,/singi/kabushikishijoukouzou/index.html
+2026-11-21T14:40:52+00:00,page_added,kigyoukachi-tanpo/kigyoukachi-tanpo,,/singi/kigyoukachi-tanpo/kigyoukachi-tanpo.html,,200,/singi/kigyoukachi-tanpo/kigyoukachi-tanpo.html
+2026-11-21T14:40:52+00:00,page_added,kinyukiki,,/singi/kinyukiki/index.html,,200,/singi/kinyukiki/index.html
+2026-11-21T14:40:52+00:00,page_added,naibukansa,,/singi/naibukansa/index.html,,200,/singi/naibukansa/index.html
+2026-11-21T14:40:52+00:00,page_added,nisa_kaigi,,/singi/nisa_kaigi/index.html,,200,/singi/nisa_kaigi/index.html
+2026-11-21T14:40:52+00:00,page_added,pqc,,/singi/pqc/index.html,,200,/singi/pqc/index.html
+2026-11-21T14:40:52+00:00,page_added,revision_corporategovernance,,/singi/revision_corporategovernance/index.html,,200,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,page_added,riskmanagement,,/singi/riskmanagement/index.html,,200,/singi/riskmanagement/index.html
+2026-11-21T14:40:52+00:00,page_added,scenario_data,,/singi/scenario_data/index.html,,200,/singi/scenario_data/index.html
+2026-11-21T14:40:52+00:00,page_added,singi_kigyou/top,,/singi/singi_kigyou/top.html,,200,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,page_added,singi_kigyou/top_gijiroku,,/singi/singi_kigyou/top_gijiroku.html,,200,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,page_added,singi_kigyou/top_tousin,,/singi/singi_kigyou/top_tousin.html,,200,/singi/singi_kigyou/top_tousin.html
+2026-11-21T14:40:52+00:00,page_added,singi_kinyu/base,,/singi/singi_kinyu/base.html,,200,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,page_added,singi_kinyu/base_gijiroku,,/singi/singi_kinyu/base_gijiroku.html,,200,/singi/singi_kinyu/base_gijiroku.html
+2026-11-21T14:40:52+00:00,page_added,singi_kinyu/base_tousin,,/singi/singi_kinyu/base_tousin.html,,200,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,page_added,singi_trouble,,/singi/singi_trouble/index.html,,200,/singi/singi_trouble/index.html
+2026-11-21T14:40:52+00:00,page_added,singi_zidousya/zid_base,,/singi/singi_zidousya/zid_base.html,,200,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,page_added,social_impact,,/singi/social_impact/index.html,,200,/singi/social_impact/index.html
+2026-11-21T14:40:52+00:00,page_added,soff,,/singi/soff/index.html,,200,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,page_added,sokaimaekaiji,,/singi/sokaimaekaiji/index.html,,200,/singi/sokaimaekaiji/index.html
+2026-11-21T14:40:52+00:00,page_added,sonpo,,/singi/sonpo/index.html,,200,/singi/sonpo/index.html
+2026-11-21T14:40:52+00:00,page_added,startup,,/singi/startup/index.html,,200,/singi/startup/index.html
+2026-11-21T14:40:52+00:00,page_added,stewardship,,/singi/stewardship/index.html,,200,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,page_added,sustainable_finance,,/singi/sustainable_finance/index.html,,200,/singi/sustainable_finance/index.html
+2026-11-21T14:40:52+00:00,page_added,transition_finance,,/singi/transition_finance/index.html,,200,/singi/transition_finance/index.html
+2026-11-21T14:40:52+00:00,page_added,vc,,/singi/vc/index.html,,200,/singi/vc/index.html
+2026-11-21T14:40:52+00:00,meeting_added,singi_kinyu/base_tousin,singi_kinyu/base_tousin#9,singi_kinyu/base_tousin#9,,2000-12-21,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,meeting_added,singi_zidousya/zid_base,singi_zidousya/zid_base#152,singi_zidousya/zid_base#152,,,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,meeting_added,stewardship,stewardship#1,stewardship#1,,,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,meeting_added,stewardship,stewardship#2,stewardship#2,,,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,meeting_added,stewardship,stewardship#3,stewardship#3,,,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,meeting_added,stewardship,stewardship#4,stewardship#4,,,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,meeting_added,stewardship,stewardship#5,stewardship#5,,,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,meeting_added,stewardship,stewardship#6,stewardship#6,,,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,meeting_added,sustainable_finance,sustainable_finance#30,sustainable_finance#30,,,/singi/sustainable_finance/index.html
+2026-11-21T14:40:52+00:00,meeting_added,singi_trouble,singi_trouble#3,singi_trouble#3,,,/singi/singi_trouble/index.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base,,www.fsa.go.jp/singi/singi_kinyu/meibo/260831.pdf,,名簿: 金融審議会委員名簿（令和８年８月31日現在）,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/tosin/20061222.pdf,,報告書: PDF「－公認会計士・監査法人制度の充実・強化について－」（金融審議会公認会計士制度部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/tosin/20061221.pdf,,その他: PDF電子登録債権法（仮称）の制定に向けて～電子登録債権の管理機関のあり方を中心として～（金融審議会金融分科会第二部会・情報技術革新と金融制度に関するワーキンググループ）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20060126.pdf,,報告書: PDF「信託法改正に伴う信託業法の見直しについて」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai1/f-20041224_sir/00.pdf,,報告書: PDF「ディスクロージャー制度の信頼性確保に向けて」（金融審議会金融分科会第一部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/tosin/20041220.pdf,,その他: PDF「個人情報の保護に関する法律の全面施行に向けて」（金融審議会金融分科会特別部会）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20041214_d2sir/a.pdf,,報告書: PDF「根拠法のない共済への対応について」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20041214_d2sir/b.pdf,,報告書: PDF「保険契約者保護制度の見直しについて」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/news/newsj/16/singi/f-20040810-2.pdf,,その他: PDF「金融商品課税の一体化に関するこれまでの議論の経過」（金融税制スタディグループ座長メモ）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai1/f-20040623_sir/04.pdf,,報告書: PDF「外国会社等の我が国における開示書類に係る制度上の整備・改善について」（金融審議会金融分科会第一部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai1/f-20040623_sir/01.pdf,,報告書: PDF「外国為替証拠金取引に関する規制のあり方について」（金融審議会金融分科会第一部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20040622_d2sir/01a.pdf,,報告書: PDF「自己資本比率規制における繰延税金資産に関する算入の適正化及び自己資本のあり方について」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20040331_d2sir_2.pdf,,報告書: PDF「銀行等による保険販売規制の見直しについて」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/en/refer/data/orfsfsc.pdf,,その他: PDF英語版,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/news/newsj/15/singi/f-20031117-3.pdf,,報告書: PDF「専門職大学院における会計教育と公認会計士試験制度との連携について」（金融審議会公認会計士制度部会専門的教育課程についてのワーキングチーム報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20030728_d2sir/houkoku2.pdf,,報告書: PDF「金融機関に対する公的資金制度のあり方について」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/news/newse/e20030728-2.pdf,,その他: PDF英語版,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20030728_d2sir/houkoku1.pdf,,報告書: PDF「信託業のあり方に関する中間報告書」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/news/newsj/14/singi/f-20030327-1.pdf,,報告書: PDF「リレーションシップバンキングの機能強化に向けて」（金融審議会金融分科会第二部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/f-cho20030207-sir/01.pdf,,報告書: PDF「金融機関の流動性預金金利の最高限度の定めに関する答申」（金利調整分科会答申）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/news/newsj/14/singi/f-20021217-1.pdf,,報告書: PDF「公認会計士監査制度の充実・強化」（金融審議会公認会計士制度部会報告）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/f-20020930-2b.pdf,,報告書: PDF「中期的に展望した我が国金融システムの将来ビジョン」（金融審議会答申）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/f-20020905-1b.pdf,,報告書: PDF「決済機能の安定確保のための方策について」（金融審議会答申）,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/news/newse/e20020905-1.pdf,,その他: PDF英語版,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/tosin/20020215.pdf,,資料: PDF「証券決済システムの改革及びこれに伴う投資家保護策について」,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai1/f-20011129a.pdf,,資料: PDF「投資信託目論見書の記載内容の改善についての考え方」,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,,www.fsa.go.jp/singi/singi_kinyu/siryou/kinyu/dai2/f-20010626a.pdf,,報告書: PDF「銀行の株式保有に関する報告」,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kinyu/base_tousin,singi_kinyu/base_tousin#9,www.fsa.go.jp/singi/singi_kinyu/tosin/f-20001221-3.html,,報告書: 「第９回金融審議会総会報告」,/singi/singi_kinyu/base_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/kijun/20201106_kansa.pdf,,その他: 監査基準（令和２年11月６日時点）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/kijun/20201106_chukan.pdf,,その他: 中間監査基準（令和２年11月６日時点）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/news/r5/sonota/20240327-2/07.pdf,,その他: 監査に関する品質管理基準（令和６年３月12日時点）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/news/r5/sonota/20240327-2/06.pdf,,その他: 期中レビュー基準（令和６年３月12日時点）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/kijun/20130326_fusei_risk.pdf,,その他: 監査における不正リスク対応基準（平成25年３月26日時点）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/kijun/20230407_naibutousei_kansa.pdf,,報告書: 財務報告に係る内部統制の評価及び監査の基準並びに財務報告に係る内部統制の評価及び監査に関する実施基準（令和５年４月７日時点）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/meibo/20260424_soukai.pdf,,名簿: 企業会計審議会 委員名簿(令和８年４月24日現在),/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/meibo/20250919_kaikei.pdf,,名簿: 会計部会 委員等名簿(令和７年９月19日現在),/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/meibo/20261002_kansa.pdf,,名簿: 監査部会 委員等名簿(令和８年10月２日現在),/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/meibo/230407_naibu.pdf,,名簿: 内部統制部会 委員等名簿(令和５年４月７日現在),/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/meibo/20261029_hoshou.pdf,,名簿: サステナビリティ情報保証部会 委員等名簿(令和８年10月29日現在),/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/03a.pdf,,報告書: IFRSに関する欧州調査出張（フランス・ドイツ・EFRAG）調査報告書概要（PDF:149KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/03b.pdf,,報告書: IFRSに関する北米調査出張（米国）調査報告書概要（PDF:165KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/03c.pdf,,報告書: IFRSに関する北米調査出張（カナダ）調査報告書概要（PDF:167KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/03d.pdf,,報告書: IFRSに関するアジア調査出張（中国）調査報告書概要（PDF:135KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/03e.pdf,,報告書: IFRSに関するアジア調査出張（韓国）調査報告書概要（PDF:132KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/04a.pdf,,報告書: IFRSに関する欧州調査出張（フランス・ドイツ・EFRAG）調査報告書（PDF:410KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/04b.pdf,,報告書: IFRSに関する北米調査出張（米国）調査報告書（PDF:308KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/04c.pdf,,報告書: IFRSに関する北米調査出張（カナダ）調査報告書（PDF:297KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/04d.pdf,,報告書: IFRSに関するアジア調査出張（中国）調査報告書（PDF:355KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top,,www.fsa.go.jp/singi/singi_kigyou/siryou/soukai/20120217/04e.pdf,,報告書: IFRSに関するアジア調査出張（韓国）調査報告書（PDF:322KB）,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_tousin,,www.fsa.go.jp/news/newsj/14/singi/f-20021206-2/01.pdf,,報告書: PDF「中間監査基準の改訂に関する意見書」,/singi/singi_kigyou/top_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_tousin,,www.fsa.go.jp/news/newsj/14/singi/f-20020809-1/f-20020809c.pdf,,報告書: PDF「固定資産の減損に係る会計基準の設定に関する意見書」,/singi/singi_kigyou/top_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_tousin,,www.fsa.go.jp/news/newsj/14/singi/f-20020809-1/f-20020809e.pdf,,報告書: PDF「中間監査基準の改訂に関する意見書（公開草案）」,/singi/singi_kigyou/top_tousin.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_gijiroku,,www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20080327.pdf,,議事録: PDF議事録,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_gijiroku,,www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20070327.pdf,,議事録: PDF議事録,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_gijiroku,,www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/20070215.pdf,,議事録: PDF議事録,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_gijiroku,,www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/f-20051028_s-giji.pdf,,議事録: PDF議事録,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_gijiroku,,www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/f-20050128_s-giji.pdf,,議事録: PDF議事録,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,document_added,singi_kigyou/top_gijiroku,,www.fsa.go.jp/singi/singi_kigyou/gijiroku/soukai/f-20041129_s-giji.pdf,,議事録: PDF議事録,/singi/singi_kigyou/top_gijiroku.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/meibo/meibo_20260430.pdf,,名簿: 自動車損害賠償責任保険審議会委員名簿（令和８年４月30日時点）,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,singi_zidousya/zid_base#152,www.fsa.go.jp/singi/singi_zidousya/siryou/20260430/20260430.html,,報告書: 第152回・第153回自動車損害賠償責任保険審議会の取りまとめ資料の公表について,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20260430.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20250117.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20240119.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20230120.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20210118-2.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20210113.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20200122.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/siryou/20190116/simon-tousin.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20170119.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20160121.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20140129.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20130117.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20110120.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20100119.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,singi_zidousya/zid_base,,www.fsa.go.jp/singi/singi_zidousya/tosin/20090123.pdf,,報告書: 諮問・答申,/singi/singi_zidousya/zid_base.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/member20260902.pdf,,名簿: 金融機能強化審査会委員名簿,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20230830/31_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20230830/31_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20230511/30_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20230511/30_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20220901/29_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20220901/29_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20220304/28_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20220304/28_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20210909/27_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20210902/26_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20210902/26_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20200826/25_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20200826/25_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20190808/24_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20190808/24_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20180906/23_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20180906/23_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20180830/22_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20180830/22_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20170830/21_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20170830/21_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20160802/20_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20160802/20_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20150812/19_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20150812/19_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20150731/18_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20150731/18_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20140806/17_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20140806/17_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20140306/16_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20140306/16_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20120911/15_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20120911/15_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20120808/14_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20120808/14_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20120802/13_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20120802/13_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20120801/12_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20120801/12_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20111206/11_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20111206/11_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20110912/10_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20110912/10_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20110803/09_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20110803/09_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/08_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/08_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/07_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/07_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/06_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/06_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/05_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20130614/05_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20090311/04_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20090311/04_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20081017/03_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20081017/03_b.pdf,,資料: PDF資料１,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20081017/03_c.pdf,,資料: PDF資料２,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20060912/02_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20060912/02_b.pdf,,資料: PDF資料１,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20060912/02_c.pdf,,資料: PDF資料２,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20060912/02_d.pdf,,資料: PDF資料３,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/gijiroku/20040806/01_a.pdf,,議事録: PDF議事録,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,soff,,www.fsa.go.jp/singi/soff/siryou/20040806/01_b.pdf,,資料: PDF資料,/singi/soff/index.html
+2026-11-21T14:40:52+00:00,document_added,riskmanagement,,www.fsa.go.jp/singi/riskmanagement/meibo.pdf,,名簿: 「企業のリスクマネジメントの高度化に向けた検討会」メンバー等名簿（PDF：71KB）,/singi/riskmanagement/index.html
+2026-11-21T14:40:52+00:00,document_added,revision_corporategovernance,,www.fsa.go.jp/singi/revision_corporategovernance/2025/01-1.pdf,,開催案内: 「コーポレートガバナンス・コードの改訂に関する有識者会議」（令和７年度）の開催について,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,document_added,revision_corporategovernance,,www.fsa.go.jp/singi/revision_corporategovernance/2025/01-2.pdf,,名簿: （別紙）「コーポレートガバナンス・コードの改訂に関する有識者会議」（令和７年度）メンバー名簿,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,document_added,nisa_kaigi,,www.fsa.go.jp/singi/nisa_kaigi/member.pdf,,名簿: 「NISAに関する有識者会議」メンバー等名簿,/singi/nisa_kaigi/index.html
+2026-11-21T14:40:52+00:00,document_added,sokaimaekaiji,,www.fsa.go.jp/singi/sokaimaekaiji/member.pdf,,資料: 別紙（PDF：33KB）,/singi/sokaimaekaiji/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/r6/singi/20250626/01.pdf,,その他: 「責任ある機関投資家」の諸原則《日本版スチュワードシップ・コード》～投資と対話を通じて企業の持続的成長を促すために～,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/250826.pdf,,報告書: 大量保有報告制度における「重要提案行為等」・「共同保有者」に関する法令・Q&A等の整理～機関投資家と投資先企業の建設的な対話に向けて～,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/legalissue.pdf,,その他: 日本版スチュワードシップ・コードの策定を踏まえた法的論点に係る考え方の整理,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/r2/singi/20210611-1/01.pdf,,その他: 投資家と企業の対話ガイドライン,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/r6/singi/20250626/03.pdf,,その他: スチュワードシップ・コードの第三次改訂に当たって,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/r6/singi/20250626/04.pdf,,資料: 第三次改訂案に対するご意見の概要及びそれに対する回答,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/01-1.pdf,,開催案内: 「スチュワードシップ・コードに関する有識者会議」（令和６年度）の開催について,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/01-2.pdf,,名簿: （別紙）「スチュワードシップ・コードに関する有識者会議」（令和６年度）メンバー名簿,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/r1/singi/20200324/03.pdf,,資料: 再改訂案に対する日本語のご意見の概要及びそれに対する回答,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/r1/singi/20200324/04.pdf,,資料: 再改訂案に対する英語のご意見の概要及びそれに対する回答,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/2019/01-1.pdf,,開催案内: 「スチュワードシップ・コードに関する有識者検討会」（令和元年度）の開催について,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/2019/01-3.pdf,,名簿: （別紙）「スチュワードシップ・コードに関する有識者検討会」（令和元年度）メンバー名簿,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/29/singi/20170529/03.pdf,,資料: 改訂案に対するご意見の概要及びそれに対する回答,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/news/29/singi/20170529/04.pdf,,資料: 英訳版の改訂案に対するご意見の概要及びそれに対する回答,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/02-1.pdf,,開催案内: 「スチュワードシップ・コードに関する有識者検討会」の開催について（PDF：97KB）,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/02-2.pdf,,名簿: （別紙）「スチュワードシップ・コードに関する有識者検討会」メンバー名簿（PDF：128KB）,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/status/stewardship/kikan.pdf,,その他: 機関投資家等の皆さまへ（PDF：131KB）,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#6,www.fsa.go.jp/singi/stewardship/siryou/20140227.html,,資料: 第6回 コード策定時検討会の資料,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#6,www.fsa.go.jp/singi/stewardship/gijiroku/20140226.html,,議事録: 第6回 コード策定時検討会の議事録,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#5,www.fsa.go.jp/singi/stewardship/siryou/20131226.html,,資料: 第5回 コード策定時検討会の資料,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#5,www.fsa.go.jp/singi/stewardship/gijiroku/20131226.html,,議事録: 第5回 コード策定時検討会の議事録,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#4,www.fsa.go.jp/singi/stewardship/siryou/20131127.html,,資料: 第4回 コード策定時検討会の資料,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#4,www.fsa.go.jp/singi/stewardship/gijiroku/20131127.html,,議事録: 第4回 コード策定時検討会の議事録,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#3,www.fsa.go.jp/singi/stewardship/siryou/20131018.html,,資料: 第3回 コード策定時検討会の資料,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#3,www.fsa.go.jp/singi/stewardship/gijiroku/20131018.html,,議事録: 第3回 コード策定時検討会の議事録,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#2,www.fsa.go.jp/singi/stewardship/siryou/20130918.html,,資料: 第2回 コード策定時検討会の資料,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#2,www.fsa.go.jp/singi/stewardship/gijiroku/20130918.html,,議事録: 第2回 コード策定時検討会の議事録,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#1,www.fsa.go.jp/singi/stewardship/siryou/20130806.html,,資料: 第1回 コード策定時検討会の資料,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,stewardship#1,www.fsa.go.jp/singi/stewardship/gijiroku/20130806.html,,議事録: 第1回 コード策定時検討会の議事録,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,stewardship,,www.fsa.go.jp/singi/stewardship/01.pdf,,開催案内: 「日本版スチュワードシップ・コードに関する有識者検討会」の開催について（PDF：132KB）,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,document_added,pqc,,www.fsa.go.jp/singi/pqc/meibo.pdf,,名簿: 「預金取扱金融機関の耐量子計算機暗号への対応に関する検討会」メンバー等名簿（PDF：261KB）,/singi/pqc/index.html
+2026-11-21T14:40:52+00:00,document_added,carbon_credit,,www.fsa.go.jp/singi/carbon_credit/j_member.pdf,,その他: 「カーボン・クレジット取引に関する金融インフラのあり方等に係る検討会」メンバー,/singi/carbon_credit/index.html
+2026-11-21T14:40:52+00:00,document_added,vc,,www.fsa.go.jp/singi/vc/meibo.pdf,,名簿: 「ベンチャーキャピタルに関する有識者会議」メンバー等名簿,/singi/vc/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/12.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/10.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/09.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/07_08.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/actionprogram_2024.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/06.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/actionprogram.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/05.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/04.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/03.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,japan_corporate_governance_forum,,www.fsa.go.jp/singi/japan_corporate_governance_forum/01_02.pdf,,その他: 英語,/singi/japan_corporate_governance_forum/index.html
+2026-11-21T14:40:52+00:00,document_added,sustainable_finance,,www.fsa.go.jp/singi/sustainable_finance/jmembers062026.pdf,,名簿: 「サステナブルファイナンス有識者会議」メンバー等名簿,/singi/sustainable_finance/index.html
+2026-11-21T14:40:52+00:00,document_added,sustainable_finance,sustainable_finance#30,www.fsa.go.jp/news/r8/singi/20260805.html,,資料: 「サステナブルファイナンス有識者会議（第30回）意見要旨」の公表について,/singi/sustainable_finance/index.html
+2026-11-21T14:40:52+00:00,document_added,chuukinken,,www.fsa.go.jp/singi/chuukinken/siryou/20261113list.pdf,,名簿: 「中国金融研究会」メンバー名簿,/singi/chuukinken/index.html
+2026-11-21T14:40:52+00:00,document_added,follow-up,,www.fsa.go.jp/singi/follow-up/250602.pdf,,名簿: 「スチュワードシップ・コード及びコーポレートガバナンス・コードのフォローアップ会議」のメンバー名簿（PDF：137KB）,/singi/follow-up/index.html
+2026-11-21T14:40:52+00:00,document_added,follow-up,,www.fsa.go.jp/singi/follow-up/02.pdf,,規程: 「スチュワードシップ・コード及びコーポレートガバナンス・コードのフォローアップ会議」の運営要領（PDF:99KB）,/singi/follow-up/index.html
+2026-11-21T14:40:52+00:00,document_added,follow-up,,www.fsa.go.jp/singi/follow-up/statements_3.pdf,,報告書: 機関投資家による実効的なスチュワードシップ活動のあり方～企業の持続的な成長に向けた「建設的な対話」の充実のために～（「スチュワードシップ・コード及びコーポレートガバナンス・コードのフォローアップ会議」意見書（３））（PDF：137KB）,/singi/follow-up/index.html
+2026-11-21T14:40:52+00:00,document_added,follow-up,,www.fsa.go.jp/singi/follow-up/statements_2.pdf,,報告書: 会社の持続的成長と中長期的な企業価値の向上に向けた取締役会のあり方（「スチュワードシップ・コード及びコーポレートガバナンス・コードのフォローアップ会議」意見書（２））（PDF：145KB）,/singi/follow-up/index.html
+2026-11-21T14:40:52+00:00,document_added,follow-up,,www.fsa.go.jp/singi/follow-up/statements.pdf,,報告書: コーポレートガバナンス・コードへの対応状況と今後の会議の運営方針（「スチュワードシップ・コード及びコーポレートガバナンス・コードのフォローアップ会議」意見書（１））（PDF：170KB）,/singi/follow-up/index.html
+2026-11-21T14:40:52+00:00,document_added,singi_trouble,singi_trouble#3,www.fsa.go.jp/singi/singi_trouble/siryou/f-20010117-3.html,,資料: 苦情・紛争処理手続の透明化に関するアンケートについて(第３回),/singi/singi_trouble/index.html
+2026-11-21T14:40:52+00:00,document_added,sonpo,,www.fsa.go.jp/singi/sonpo/meibo.pdf,,名簿: 「損害保険業の構造的課題と競争のあり方に関する有識者会議」メンバー等名簿（PDF：84KB）,/singi/sonpo/index.html
+2026-11-21T14:40:52+00:00,document_added,scenario_data,,www.fsa.go.jp/singi/scenario_data/members202406.pdf,,その他: 「気候変動リスク・機会の評価に向けたシナリオ・データ関係機関懇談会」メンバー,/singi/scenario_data/index.html
+2026-11-21T14:40:52+00:00,document_added,impact,,www.fsa.go.jp/singi/impact/202402jmembers.pdf,,名簿: 「インパクト投資等に関する検討会」メンバー等名簿,/singi/impact/index.html
+2026-11-21T14:40:52+00:00,document_added,decarbonization,,www.fsa.go.jp/singi/decarbonization/jmembers.pdf,,名簿: 「脱炭素等に向けた金融機関等の取組みに関する検討会」メンバー等名簿,/singi/decarbonization/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.meti.go.jp/press/2020/02/20210205001/20210205001.html,,資料: 「産業競争力強化法等の一部を改正する等の法律案」の閣議決定について,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.meti.go.jp/press/2020/02/20210203002/20210203002.html,,その他: ハイブリッド型バーチャル株主総会の実施ガイド（別冊）実施事例集,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.fsa.go.jp/singi/coronakansakyougikai/01.pdf,,その他: 新型コロナウイルス感染症の影響を踏まえた企業決算・監査等への対応（骨子）,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.meti.go.jp/press/2020/05/20200522010/20200522010.html,,資料: 株主の皆様へのお願い -定時株主総会における感染拡大防止策について-,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.moj.go.jp/content/001319873.pdf,,規程: 会社法施行規則及び会社計算規則の一部改正について,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.fsa.go.jp/ordinary/coronavirus202001/11.pdf,,資料: 継続会（会社法３１７条）について,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,coronakansakyougikai,,www.meti.go.jp/speeches/danwa/2020/20200424.html,,資料: 企業決算・監査及び株主総会の対応について,/singi/coronakansakyougikai/index.html
+2026-11-21T14:40:52+00:00,document_added,arikataken,,www.fsa.go.jp/singi/arikataken/iinmeibo.pdf,,その他: 事業者を支える融資・再生実務のあり方に関する研究会 メンバー（令和３年10月25日現在）,/singi/arikataken/index.html
+2026-11-21T14:40:52+00:00,document_added,arikataken,,www.fsa.go.jp/singi/arikataken/rontenseiri2.pdf,,"その他: 「事業者を支える融資・再生実務のあり方に関する研究会」論点整理2.0（令和３年11月30日公表）（PDF：2,602KB）",/singi/arikataken/index.html
+2026-11-21T14:40:52+00:00,document_added,arikataken,,www.fsa.go.jp/singi/arikataken/rontenseiri.pdf,,"その他: 「事業者を支える融資・再生実務のあり方に関する研究会」論点整理（令和２年12月25日公表）（PDF：3,491KB）",/singi/arikataken/index.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/神作裕之,,会長 / 学習院大学法学部教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/委員岩下直行,,京都大学名誉教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/上田亮子,,京都大学経営管理大学院客員教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/翁百合,,株式会社日本総合研究所シニアフェロー,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/加藤貴仁,,東京大学大学院法学政治学研究科教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/川口恭弘,,同志社大学法学部教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/河村芳彦,,キオクシアホールディングス株式会社 副社長執行役員 財務統括責任者,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/北尾早霧,,アジア開発銀行研究所シニアエコノミスト,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/河野康子,,一般財団法人日本消費者協会理事,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/小林,,いずみ オムロン株式会社社外取締役,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/小原成朗,,日本労働組合総連合会総合政策推進局総合局長,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/中林,,真理子 明治大学商学部教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/野澤康隆,,トパーズ・リージョナル・パートナーズ株式会社代表取締役会長,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/星岳雄,,東京大学名誉教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/松井智予,,東京大学大学院法学政治学研究科教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/山本和彦,,中央大学法務研究科教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/山本眞弓,,弁護士（アルク法律事務所）,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kinyu/base,,singi_kinyu/base/委員名簿/渡辺安虎,,東京大学大学院経済学研究科及び公共政策大学院教授,/singi/singi_kinyu/base.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/現職,,会,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/長徳賀芳弘,,京都先端科学大学理事・副学長・経済経営学部長・教,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/委員井口譲二,,ニッセイアセットマネジメント(株)執行役員 チーフ・コ,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/引頭麻実,,味の素(株)社外取締役、三井不動産(株)社外取締役,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/小倉加奈子,,公認会計士,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/金子裕子,,公認会計士,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/阪智香,,関西学院大学商学部教授,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/佐々木啓吾,,住友化学(株)常務執行役員,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/佐藤雅之,,日揮ホールディングス(株)代表取締役会長 CEO,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/田代桂子,,(株)大和証券グループ本社 取締役兼顧問,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/林隆敏,,関西学院大学商学部教授,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/堀江正之,,日本大学商学部特任教授,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/松岡直美,,ソニー銀行(株)代表取締役副社長,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/松元暢子,,慶應義塾大学法学部教授,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/米山正樹,,東京大学大学院経済学研究科教授,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,member_added,singi_kigyou/top,,singi_kigyou/top/委員名簿/幹事宇野直紀,,法務省民事局参事官,/singi/singi_kigyou/top.html
+2026-11-21T14:40:52+00:00,profile_added,kabushikishijoukouzou,,kabushikishijoukouzou:趣旨,,近年、私設取引システム（PTS）での取引が増加するなど取引の場の多様化が進展している状況を踏まえ、我が国の株式市場構造の在り方について検討を行うため、「株式市場構造の在り方に関する有識者会議」を開催します。,/singi/kabushikishijoukouzou/index.html
+2026-11-21T14:40:52+00:00,profile_added,digital_2026,,digital_2026:趣旨,,AI時代の決済は、「24時間365日連続稼働」、「商流・物流と繋がるプログラマビリティ」、「決済基盤として信頼される安定性・安全性」の要素を備えた、ブロックチェーン技術を基盤とする「オンチェーン金融」の推進と、既存の金融インフラ（オフチェーン金融）とのベストミックスが重要です。,/singi/digital_2026/index.html
+2026-11-21T14:40:52+00:00,profile_added,digital_2026,,digital_2026:趣旨,,このため、金融庁は、AI時代を見据えた「オンチェーン金融」の実現に向け、「AI時代を見据えたオンチェーン金融フォーラム」を立ち上げ、関係省庁等において、「オンチェーン金融」の社会実装の推進等に向けた検討を行うこととしています。,/singi/digital_2026/index.html
+2026-11-21T14:40:52+00:00,profile_added,digital_2026,,digital_2026:趣旨,,こうした中、「オンチェーン金融」を発展させる環境整備として、様々な資産のトークン化やステーブルコイン、DEX・DeFiやウォレット提供業者に関する制度の在り方等について点検・検討を行うため、「デジタル・分散型金融への対応のあり方等に関する研究会」を開催します。,/singi/digital_2026/index.html
+2026-11-21T14:40:52+00:00,profile_added,revision_corporategovernance,,revision_corporategovernance:開催について,,受付時間：平日10時00分～17時00分,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,profile_added,revision_corporategovernance,,revision_corporategovernance:開催について,,電話番号：０５７０－０１６８１１（ＩＰ電話からは０３－５２５１－６８１１）,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,profile_added,revision_corporategovernance,,revision_corporategovernance:開催について,,（注）金融行政等に関する一般的なご質問等は金融サービス利用者相談室で承ります。,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,profile_added,revision_corporategovernance,,revision_corporategovernance:開催について,,企画市場局企業開示課（庁内用3659、3624）,/singi/revision_corporategovernance/index.html
+2026-11-21T14:40:52+00:00,profile_added,ai_forum,,ai_forum:趣旨,,本年３月に「AIディスカッションペーパー（第1.0版）」を公表し、金融庁は、金融機関等による健全なAIの利活用を後押ししていく方針を明らかにしました。AIのユースケースや導入方法等によってリスクも異なる中、リスクベース・アプローチの下でリスクを適切にコントロールしつつ、経営陣の適切な理解と主体的な関与の下で顧客利便性や業務効率化の向上に繋がる取組みが進展していくことを期待していますが、そのような取組みを着実に進めていただくために、AIのユースケース及びガバナンス構築に向けた取組事例の共有や、規制の適用関係の明確化等を通じて、金融機関等の皆様がAIを活用したチャレンジに安心して取り組むことができる環境整備に努めていきたいと考えています。,/singi/ai_forum/index.html
+2026-11-21T14:40:52+00:00,profile_added,ai_forum,,ai_forum:趣旨,,そこで、本フォーラムでは、取組事例の共有や実務上の課題の深掘りなど、金融機関やAIモデル開発者、ベンダー、アカデミア、関係省庁等の官民の様々な関係者の皆様をお招きして、多面的な議論を行う予定です。,/singi/ai_forum/index.html
+2026-11-21T14:40:52+00:00,profile_added,nisa_kaigi,,nisa_kaigi:趣旨,,家計の安定的な資産形成の促進の観点から、NISAについて、効果検証を行いつつ、その制度や運用上の改善点を検討します。具体的には、政策目的を踏まえた効果検証やつみたて投資枠における対象商品の考え方の整理等を行います。,/singi/nisa_kaigi/index.html
+2026-11-21T14:40:52+00:00,profile_added,startup,,startup:趣旨,,規制改革実施計画（令和６年６月21日閣議決定）の内容を踏まえ、非上場株式の発行市場・流通市場を活性化することを通じて我が国のスタートアップ企業等の円滑な資金供給を図っていく観点から、市場関係者のニーズ等に基づく非上場株式の取引制度の課題等に関する検討を行うため、今般、日本証券業協会において「スタートアップ企業等への成長資金供給等に関する懇談会」が開催されることとなり、金融庁としてもこの会議を共催する形で参画し議論を進めていくこととしています。,/singi/startup/index.html
+2026-11-21T14:40:52+00:00,profile_added,startup,,startup:趣旨,,詳細は、以下の日本証券業協会ウェブサイトをご参照ください。,/singi/startup/index.html
+2026-11-21T14:40:52+00:00,profile_added,naibukansa,,naibukansa:１．趣旨,,今般、「現状と課題」の更新等に関し、関係機関や外部有識者との議論等を通じて、信用を前提とする金融機関全体の内部監査水準の向上を促し、国内外のステークホルダーの信頼確保に資するような目線を提示するとともに、金融セクター以外の事業会社や海外金融監督当局も活用できる目線を提供することを目的に、「金融機関の内部監査高度化に関する懇談会」を開催します。,/singi/naibukansa/index.html
+2026-11-21T14:40:52+00:00,profile_added,stewardship,,stewardship:開催について,,2019年コード改訂時の検討会,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,profile_added,stewardship,,stewardship:開催について,,スチュワードシップ・コードに関する有識者検討会（令和元年度）,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,profile_added,stewardship,,stewardship:開催について,,2017年コード改訂時の検討会,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,profile_added,stewardship,,stewardship:開催について,,スチュワードシップ・コードに関する有識者検討会,/singi/stewardship/index.html
+2026-11-21T14:40:52+00:00,profile_added,stewardship,,stewardship:開催について,,日本版スチュワードシップ・コードに関する有識者検討会,/singi/stewardship/index.html

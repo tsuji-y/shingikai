@@ -193,21 +193,33 @@ def upload_baseline_bundle(*, manifest: Path = fetch_files.MANIFEST, files_dir: 
 
 
 def main() -> int:
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--tag", default="", help="アップロード先の Release タグ（既定: pdfs-YYYY）")
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
+    ap.add_argument("--tag", default="", help="アップロード先の Release タグ（既定: <agency>-pdfs-YYYY）")
     ap.add_argument("--repo", default="", help="GitHub リポジトリ（owner/repo。省略時は origin から自動判定）")
     ap.add_argument("--bundle", action="store_true", help="手元の対象 PDF を tar.gz にまとめて 1 本でアップロードする")
     ap.add_argument("--dry-run", action="store_true", help="アップロードと台帳更新を行わず対象だけ表示する")
     args = ap.parse_args()
 
+    ag = agencies.get_agency(args.agency)
+    year = datetime.now(timezone.utc).year
     if args.bundle:
-        tag = args.tag or f"pdfs-{datetime.now(timezone.utc).year}-baseline"
-        res = upload_baseline_bundle(tag=tag, repo_slug=args.repo, dry_run=args.dry_run)
+        tag = args.tag or f"{ag.release_tag_prefix}-{year}-baseline"
+        res = upload_baseline_bundle(
+            manifest=ag.files_manifest, files_dir=ag.raw_files_dir,
+            tag=tag, repo_slug=args.repo, dry_run=args.dry_run,
+        )
     else:
-        res = upload_incremental(tag=args.tag, repo_slug=args.repo, dry_run=args.dry_run)
+        tag = args.tag or f"{ag.release_tag_prefix}-{year}"
+        res = upload_incremental(
+            manifest=ag.files_manifest, files_dir=ag.raw_files_dir,
+            tag=tag, repo_slug=args.repo, dry_run=args.dry_run,
+        )
 
     tag_str = "（dry-run）" if args.dry_run else ""
-    print(f"PDF アーカイブ対象: {len(res)} 件{tag_str}")
+    print(f"[{ag.agency_id}] PDF アーカイブ対象: {len(res)} 件{tag_str}")
     for url, rel_url in res[:20]:
         print(f"  {url} -> {rel_url}")
     if len(res) > 20:

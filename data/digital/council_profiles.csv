@@ -1,0 +1,33 @@
+council_id,key,value,source
+social-promotion,設置根拠,デジタル庁設置法第14条,/councils/social-promotion
+social-promotion-executive,設置根拠,デジタル社会推進会議議長決定,/councils/social-promotion-executive
+ai-advisory-board,設置根拠,デジタル社会推進会議議長決定,/councils/ai-advisory-board
+data-strategy-wg,設置根拠,デジタル社会推進会議議長決定,/councils/data-strategy-wg
+trust-dx-sub-wg,設置根拠,データ戦略推進ワーキンググループ主査代理決定,/councils/trust-dx-sub-wg
+data-platform-sub-wg,設置根拠,データ戦略推進ワーキンググループ主査代理決定,/councils/data-platform-sub-wg
+ebpm,設置根拠,データ戦略推進ワーキンググループ主査代理決定,/councils/ebpm
+ebpm-executive,設置根拠,EBPM推進委員会会長決定,/councils/ebpm-executive
+ai_digital,設置根拠,閣議決定,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,1. 急激な人口減少に対応し、我が国の経済成長の実現や公共サービスの維持・強化を図るため、AIによるリスクの最小化を前提に、AI・デジタルの徹底活用による社会変革（AX／DX）を推進する。これに向けて、経済社会の規制・制度及び運用ルールの見直し、AI・デジタル基盤の在り方の検討、AX／DXの社会実装等を政府横断で推進するため、AI・デジタル改革推進会議（以下「会議」という。）を開催する。,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,2. 会議の構成員は、次のとおりとする。ただし、議長は、必要があると認めるときは、次に掲げる国務大臣以外の国務大臣を構成員として参加させ、又は関係者の出席を求めることができる。,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,議長：内閣官房長官、AI・デジタル改革推進担当大臣,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,副議長：AX社会実装担当大臣、内閣府特命担当大臣（規制改革）、内閣府特命担当大臣（人工知能戦略）、デジタル大臣,/councils/ai_digital
+ai_digital,構成員,地域未来戦略担当大臣、法制度検証・改革担当大臣、行政改革担当大臣、内閣府特命担当大臣（経済財政政策）、総務大臣、財務大臣、経済産業大臣並びにAI・デジタル改革、規制改革及び行政改革に関し優れた識見を有する者のうちから議長が指名する者,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,3. 会議の庶務は、内閣官房、内閣府その他関係行政機関の協力を得て、デジタル庁において処理する。,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,4. 前各項に定めるもののほか、会議の運営に関する事項その他必要な事項は、議長が定める。,/councils/ai_digital
+ai_digital,AI・デジタル改革推進会議の開催について,附則 デジタル行財政改革会議の開催について（令和5年10月6日閣議決定）は、廃止する。ただし、廃止前のデジタル行財政改革会議が検討した事項等については、会議に引き継がれるものとする。,/councils/ai_digital
+kyotsu,趣旨,「デジタル社会の実現に向けた重点計画」（令和6年（2024年）6月21日閣議決定）の「第6 国・地方デジタル共通基盤の整備・運用に関する基本方針」に基づき、システムの共通化を国と地方公共団体が連携して取り組むため、共通化の対象候補を選定することや、制度所管府省庁が策定する共通化を推進するための方針の案への同意を行うこと等を主な任務とする国・地方デジタル共通基盤推進連絡協議会（以下「連絡協議会」という。）を開催する。,/councils/kyotsu
+kyotsuwt,趣旨,国と地方のデジタル基盤の整備・運用に向けて、共通化の対象候補の選定や、制度所管府省庁が策定する共通化を推進するための方針の案への同意等に当たり、課題の整理や個別論点の検討等を行うため、国・地方デジタル共通基盤推進連絡協議会ワーキングチーム（以下「ワーキングチーム」という。）を開催する。,/councils/kyotsuwt
+administrative-research,設置根拠,内閣総理大臣決定,/councils/administrative-research
+administrative-research-wg,設置根拠,内閣総理大臣決裁,/councils/administrative-research-wg
+administrative-research-wg-legal-practice-team,設置根拠,デジタル副大臣決裁,/councils/administrative-research-wg-legal-practice-team
+administrative-research-wg-technology_based_regulatory_reform,設置根拠,デジタル副大臣決裁,/councils/administrative-research-wg-technology_based_regulatory_reform
+social-concept,設置根拠,デジタル大臣決定,/councils/social-concept
+digital-cybersecurity,設置根拠,デジタル大臣、経済産業大臣申合せ,/councils/digital-cybersecurity
+mynumber-digital-basis-wg,設置根拠,デジタル大臣決定,/councils/mynumber-digital-basis-wg
+compliance,設置根拠,デジタル大臣決定,/councils/compliance
+mynumber-all-check,設置根拠,デジタル大臣決定,/councils/mynumber-all-check
+children-data-linkage-team,設置根拠,関係府省庁申合せ,/councils/children-data-linkage-team
+mynumbercard-promotion,設置根拠,関係省庁申合せ,/councils/mynumbercard-promotion
+mynumber-insurance-card,設置根拠,関係府省庁申合せ,/councils/mynumber-insurance-card
+local-governments,設置根拠,関係省庁申合せ,/councils/local-governments

@@ -25,12 +25,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import agencies  # noqa: E402
 import build_db  # noqa: E402
 import check_updates  # noqa: E402
 import events  # noqa: E402
 import extract_text  # noqa: E402
 import fetch_files  # noqa: E402
 import ingest_pages  # noqa: E402
+import pages  # noqa: E402
 import persons  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
@@ -62,6 +64,7 @@ class UpdateOutcome:
 
 
 def _write_built_tables(b: build_db.Builder, data_dir: Path) -> None:
+    data_dir.mkdir(parents=True, exist_ok=True)
     build_db.write_csv(data_dir / "council_profiles.csv", build_db.PROFILE_FIELDS, b.profiles)
     build_db.write_csv(data_dir / "members.csv", build_db.MEMBER_FIELDS, b.members)
     build_db.write_csv(data_dir / "meetings.csv", build_db.MEETING_FIELDS, b.meetings)
@@ -134,26 +137,30 @@ def _extract_new_texts(files_manifest: Path, files_dir: Path, text_dir: Path,
     return len(todo)
 
 
-def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
+def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | None = None,
                pages_manifest: Path | None = None, raw_pages_dir: Path | None = None,
                files_manifest: Path | None = None, raw_files_dir: Path | None = None,
                council: str = "", limit: int = 0, max_new_pages: int = check_updates.MAX_NEW_PAGES,
-               dry_run: bool = False, skip_fetch: bool = False, skip_pdf: bool = False,
-               check_pdf_updates: bool = False, changed_pages_hint: list[str] | None = None,
+               discover_unfetched: bool = False, pdf_types: set[str] | None = None,
+               max_pdfs: int = 0, dry_run: bool = False, skip_fetch: bool = False,
+               skip_pdf: bool = False, check_pdf_updates: bool = False,
+               changed_pages_hint: list[str] | None = None,
                interval: float = check_updates.INTERVAL, summary_out: Path | None = None,
                page_fetcher=check_updates.fetch_page, pdf_fetcher=fetch_files.fetch,
                text_extractor=_extract_new_texts) -> UpdateOutcome:
-    data_dir = data_dir or (repo / "data" / "mod")
-    pages_manifest = pages_manifest or (repo / "raw" / "mod" / "pages.csv")
-    raw_pages_dir = raw_pages_dir or (repo / "raw" / "mod" / "pages")
-    files_manifest = files_manifest or (repo / "raw" / "mod" / "files.csv")
-    raw_files_dir = raw_files_dir or (repo / "raw" / "mod" / "files")
+    ag = agencies.get_agency(agency_id, repo=repo)
+    data_dir = data_dir or ag.data_dir
+    pages_manifest = pages_manifest or ag.pages_manifest
+    raw_pages_dir = raw_pages_dir or ag.raw_pages_dir
+    files_manifest = files_manifest or ag.files_manifest
+    raw_files_dir = raw_files_dir or ag.raw_files_dir
     councils_csv = data_dir / "councils.csv"
     documents_csv = data_dir / "documents.csv"
     texts_csv = data_dir / "texts.csv"
     text_dir = data_dir / "text"
     events_csv = data_dir / "events.csv"
     members_history_csv = data_dir / "members_history.csv"
+    allowed_pdf_hosts = [ag.primary_host]
 
     outcome = UpdateOutcome()
     now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -162,7 +169,10 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
     before = events.load_snapshot(data_dir, pages_manifest, files_manifest)
     baseline_warnings: list[str] = []
     if not skip_fetch and councils_csv.exists() and pages_manifest.exists():
-        baseline_warnings = build_db.build(councils_csv, pages_manifest, raw_pages_dir, texts_csv, repo=repo).warnings
+        baseline_warnings = build_db.build(
+            councils_csv, pages_manifest, raw_pages_dir, texts_csv,
+            repo=repo, base_url=ag.base_url, hosts=ag.hosts,
+        ).warnings
     backups = _backup_tables(data_dir)
 
     # 2. ページの更新チェック
@@ -171,12 +181,14 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
     if not skip_fetch:
         try:
             check_res = check_updates.check_pages(
+                agency_id=agency_id,
                 manifest=pages_manifest,
                 raw_dir=raw_pages_dir,
                 councils_path=councils_csv,
                 council=council,
                 limit=limit,
                 max_new_pages=max_new_pages,
+                discover_unfetched=discover_unfetched,
                 dry_run=dry_run,
                 interval=interval,
                 fetcher=page_fetcher,
@@ -198,7 +210,7 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
     pending_pdfs = []
     if not skip_pdf and documents_csv.exists():
         pending_pdfs = fetch_files.select_targets(
-            fetch_files.targets(documents_csv, council=council),
+            fetch_files.targets(documents_csv, council=council, hosts=allowed_pdf_hosts, doc_types=pdf_types),
             fetch_files.read_manifest(files_manifest),
             files_dir=raw_files_dir,
         )
@@ -206,13 +218,18 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
         return outcome
 
     # 3. 表の作り直し（一覧ページが変わっていれば councils.csv も同期）
-    index_url = build_db.ROOT + "index.html"
-    if index_url in affected_pages or skip_fetch:
-        index_file = ingest_pages.local_path(index_url, raw_pages_dir)
-        if index_file.exists():
-            build_db.sync_councils(councils_csv, raw_pages_dir, index_url=index_url, now_iso=now_iso, write=True)
+    index_set = {agencies.normalize_path(u) for u in ag.index_urls} | set(ag.index_urls)
+    if (index_set & affected_pages) or not councils_csv.exists() or skip_fetch:
+        if any(pages.resolve_local_path(u, raw_pages_dir).exists() for u in ag.index_urls):
+            build_db.sync_councils(
+                councils_csv, raw_pages_dir, index_url=ag.index_urls[0],
+                now_iso=now_iso, write=True, agency_id=agency_id,
+            )
 
-    built = build_db.build(councils_csv, pages_manifest, raw_pages_dir, texts_csv, repo=repo)
+    built = build_db.build(
+        councils_csv, pages_manifest, raw_pages_dir, texts_csv,
+        repo=repo, base_url=ag.base_url, hosts=ag.hosts,
+    )
     _write_built_tables(built, data_dir)
 
     # 4. PDF 取得・差し替え照合・本文抽出・再構築
@@ -221,7 +238,8 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
         try:
             pdf_res = fetch_files.fetch_new(
                 documents_csv, files_manifest, raw_files_dir,
-                council=council, dry_run=False, interval=interval, fetcher=pdf_fetcher,
+                limit=max_pdfs, council=council, hosts=allowed_pdf_hosts, doc_types=pdf_types,
+                dry_run=False, interval=interval, fetcher=pdf_fetcher,
             )
             outcome.saved_pdfs = list(pdf_res.saved)
             for u in pdf_res.saved:
@@ -229,7 +247,8 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
             if check_pdf_updates:
                 rep_res = fetch_files.check_replaced(
                     documents_csv, files_manifest, raw_files_dir,
-                    council=council, dry_run=False, interval=interval, fetcher=pdf_fetcher,
+                    limit=max_pdfs, council=council, hosts=allowed_pdf_hosts, doc_types=pdf_types,
+                    dry_run=False, interval=interval, fetcher=pdf_fetcher,
                 )
                 outcome.replaced_pdfs = [u for u, _, _ in rep_res.replaced]
                 for u in outcome.replaced_pdfs:
@@ -243,12 +262,18 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
 
         if outcome.saved_pdfs or outcome.replaced_pdfs:
             text_extractor(files_manifest, raw_files_dir, text_dir, texts_csv, documents_csv, repo)
-            built = build_db.build(councils_csv, pages_manifest, raw_pages_dir, texts_csv, repo=repo)
+            built = build_db.build(
+                councils_csv, pages_manifest, raw_pages_dir, texts_csv,
+                repo=repo, base_url=ag.base_url, hosts=ag.hosts,
+            )
             _write_built_tables(built, data_dir)
 
     # 5. 回帰の検査（3.8 節）
     after = events.load_snapshot(data_dir, pages_manifest, files_manifest)
-    reg = events.check_regressions(before, after, affected_pages, changed_doc_keys)
+    reg = events.check_regressions(
+        before, after, affected_pages, changed_doc_keys,
+        index_urls=ag.index_urls, base_url=ag.base_url,
+    )
     if not reg.ok:
         _restore_tables(backups)
         lines = [f"回帰の検査に失敗しました（説明できない行の消失 {len(reg.unexplained)} 件）:"]
@@ -263,12 +288,15 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
     base_warn_set = set(baseline_warnings)
     outcome.new_warnings = [w for w in built.warnings if w not in base_warn_set] if baseline_warnings or not skip_fetch else []
 
+    events.ensure_csv_header(events_csv, events.EVENT_FIELDS)
+    events.ensure_csv_header(members_history_csv, events.MEMBER_HISTORY_FIELDS)
+
     archived = events.archive_members_history(
         before.members, after.members, history_path=members_history_csv, recorded_at=now_iso, write=True,
     )
     outcome.archived_members = len(archived)
 
-    ev_list = events.diff_snapshots(before, after, detected_at=now_iso)
+    ev_list = events.diff_snapshots(before, after, detected_at=now_iso, index_urls=ag.index_urls)
     events.append_events(ev_list, path=events_csv)
     outcome.events = ev_list
 
@@ -285,12 +313,19 @@ def run_update(*, repo: Path = REPO, data_dir: Path | None = None,
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
     ap.add_argument("--dry-run", action="store_true", help="書き込み・push・LLM 呼び出しを行わない")
     ap.add_argument("--no-llm", action="store_true", help="Gemini の処理をスキップする（Phase 1 では既定）")
     ap.add_argument("--council", default="", help="対象の会議体 ID を絞る")
     ap.add_argument("--limit", type=int, default=0, help="チェックする既存ページ数の上限")
     ap.add_argument("--max-new-pages", type=int, default=check_updates.MAX_NEW_PAGES,
                     help="1 回に取得する新規ページの上限")
+    ap.add_argument("--discover-unfetched", action="store_true",
+                    help="保存済みページ内の未取得リンクも新規取得キューに加える")
+    ap.add_argument("--pdf-types", default="",
+                    help="取得する PDF の doc_type をカンマ区切りで絞る（例: 議事録,議事要旨,名簿）")
+    ap.add_argument("--max-pdfs", type=int, default=0,
+                    help="1 回に取得する新規 PDF の上限（0 は無制限）")
     ap.add_argument("--max-llm-calls", type=int, default=20, help="1 回の実行での LLM 呼び出し上限（Phase 3 用）")
     ap.add_argument("--check-pdf-updates", action="store_true",
                     help="取得済み PDF 全件を条件付き取得で照合し、差し替えを検知する")
@@ -304,10 +339,15 @@ def main() -> int:
                     help="変更通知用の Markdown（Issue 本文）を書き出すパス")
     args = ap.parse_args()
 
+    pdf_types = {t.strip() for t in args.pdf_types.split(",") if t.strip()} or None
     out = run_update(
+        agency_id=args.agency,
         council=args.council,
         limit=args.limit,
         max_new_pages=args.max_new_pages,
+        discover_unfetched=args.discover_unfetched,
+        pdf_types=pdf_types,
+        max_pdfs=args.max_pdfs,
         dry_run=args.dry_run,
         skip_fetch=args.skip_fetch,
         skip_pdf=args.skip_pdf,
@@ -322,11 +362,11 @@ def main() -> int:
 
     tag = "（dry-run）" if args.dry_run else ""
     if not (out.changed_pages or out.new_pages or out.gone_pages or out.saved_pdfs or out.replaced_pdfs or out.events):
-        print(f"変更なし{tag}")
+        print(f"[{args.agency}] 変更なし{tag}")
         return 0
 
     print(
-        f"更新完了{tag}: 変更ページ {len(out.changed_pages)} / 新規ページ {len(out.new_pages)} / "
+        f"[{args.agency}] 更新完了{tag}: 変更ページ {len(out.changed_pages)} / 新規ページ {len(out.new_pages)} / "
         f"消失 {len(out.gone_pages)} / 新規PDF {len(out.saved_pdfs)} / 差し替えPDF {len(out.replaced_pdfs)} / "
         f"イベント {len(out.events)} 件 / 名簿履歴退避 {out.archived_members} 行"
     )

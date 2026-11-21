@@ -1,0 +1,102 @@
+meeting_id,council_id,group,seq,name_raw,surname,role,person_id,person_basis,source
+ainusuishin#1,ainusuishin,,1,岡田内閣府特命担当大臣(アイヌ施策担当)(冒頭のみ),,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,,2,内閣官房 吉井アイヌ総合政策室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,,3,田村アイヌ総合政策室次長国土交通省 橋本北海道局長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,,4,寺本北海道局総務課長文化庁 杉浦文化庁次長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,,5,寺本企画調整課長北海道 小玉北海道副知事,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,,6,相田北海道環境生活部アイヌ政策監,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,公財,7,アイヌ民族文化財団 常本理事長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#1,ainusuishin,公財,8,對馬副理事長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai1/gijigaiyou.pdf
+ainusuishin#2,ainusuishin,,1,内閣官房 吉井アイヌ総合政策室長国土交通省 田村北海道局審議官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf
+ainusuishin#2,ainusuishin,,2,寺本北海道局総務課長文化庁 寺本企画調整課長北海道庁 小玉北海道副知事,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf
+ainusuishin#2,ainusuishin,,3,相田北海道環境生活部アイヌ政策監,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf
+ainusuishin#2,ainusuishin,公財,4,アイヌ民族文化財団 常本理事長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf
+ainusuishin#2,ainusuishin,公財,5,對馬副理事長※橋本北海道局長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf
+ainusuishin#2,ainusuishin,公財,6,杉浦文化庁次長は欠席,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai2/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,,1,内閣官房アイヌ総合政策室 吉井室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,,2,田村次長国土交通省 橋本北海道局 長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,,3,増田北海道局総務課長文化庁 杉浦次長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,,4,寺本企画調整課長北海道庁 小玉北海道副知事,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,,5,相田北海道環境生活部アイヌ政策監,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,公財,6,アイヌ民族文化財団 常本理事長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#3,ainusuishin,公財,7,對馬副理事長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/raijousokushin_renraku/dai3/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,1,加藤内閣官房長官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,2,和田 内閣府大臣政務官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,3,秋元委員,秋元,委員,ainusuishin:秋元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,4,大川委員,大川,委員,ainusuishin:大川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,5,大西委員,大西,委員,ainusuishin:大西,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,6,加藤委員,加藤,委員,ainusuishin:加藤,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,7,坂元委員,坂元,委員,ainusuishin:坂元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,8,佐々木委員,佐々木,委員,ainusuishin:佐々木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,9,鈴木委員,鈴木,委員,ainusuishin:鈴木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,10,常本委員,常本,委員,ainusuishin:常本,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,11,中村委員,中村,委員,ainusuishin:中村,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,12,丸子委員,丸子,委員,ainusuishin:丸子,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,13,八幡委員杉田内閣官房副長官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,14,藤井内閣官房副長官補,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,15,岡本アイヌ総合政策室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#12,ainusuishin,,16,後藤アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,1,松野内閣官房長官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,2,高橋文部科学大臣政務官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,3,大川委員,大川,委員,ainusuishin:大川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,4,大西委員,大西,委員,ainusuishin:大西,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,5,加藤委員,加藤,委員,ainusuishin:加藤,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,6,坂元委員,坂元,委員,ainusuishin:坂元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,7,佐々木委員,佐々木,委員,ainusuishin:佐々木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,8,鈴木委員,鈴木,委員,ainusuishin:鈴木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,9,常本委員,常本,委員,ainusuishin:常本,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,10,中村委員,中村,委員,ainusuishin:中村,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,11,丸子委員,丸子,委員,ainusuishin:丸子,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,12,栗生内閣官房副長官,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,13,藤井内閣官房副長官補,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,14,小原アイヌ総合政策室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#13,ainusuishin,,15,橋本アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,1,岡田内閣府特命担当大臣(アイヌ施策)(座長),,座長,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,2,和田内閣府副大臣(座長代理),,座長代理,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,3,秋元委員,秋元,委員,ainusuishin:秋元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,4,大川委員,大川,委員,ainusuishin:大川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,5,大西委員,大西,委員,ainusuishin:大西,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,6,加藤委員,加藤,委員,ainusuishin:加藤,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,7,坂元委員,坂元,委員,ainusuishin:坂元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,8,佐々木委員,佐々木,委員,ainusuishin:佐々木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,9,鈴木委員,鈴木,委員,ainusuishin:鈴木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,10,常本委員,常本,委員,ainusuishin:常本,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,11,中村委員,中村,委員,ainusuishin:中村,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,12,丸子委員,丸子,委員,ainusuishin:丸子,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,13,八幡委員,八幡,委員,ainusuishin:八幡,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,14,吉井内閣官房アイヌ総合政策室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,15,橋本内閣官房アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#14,ainusuishin,,16,杉浦内閣官房アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,1,自見 内閣府特命担当大臣(アイヌ施策)(座長),,座長,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,2,船橋総務大臣政務官(座長代理),,座長代理,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,3,秋元委員,秋元,委員,ainusuishin:秋元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,4,石森委員,石森,委員,ainusuishin:石森,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,5,宇治委員,宇治,委員,ainusuishin:宇治,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,6,大川委員,大川,委員,ainusuishin:大川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,7,小川委員,小川,委員,ainusuishin:小川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,8,坂元委員,坂元,委員,ainusuishin:坂元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,9,佐々木委員,佐々木,委員,ainusuishin:佐々木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,10,鈴木委員,鈴木,委員,ainusuishin:鈴木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,11,常本委員,常本,委員,ainusuishin:常本,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,12,丸子委員,丸子,委員,ainusuishin:丸子,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,13,八幡委員,八幡,委員,ainusuishin:八幡,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,14,松浦内閣官房アイヌ総合政策室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,15,柿崎内閣官房アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#15,ainusuishin,,16,合田内閣官房アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai15/gijigaiyou.pdf
+ainusuishin#16,ainusuishin,,1,黄川田内閣府特命担当大臣(アイヌ施策)(座長),,座長,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,2,秋元委員,秋元,委員,ainusuishin:秋元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,3,石森委員,石森,委員,ainusuishin:石森,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,4,宇治委員,宇治,委員,ainusuishin:宇治,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,5,大川委員,大川,委員,ainusuishin:大川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,6,小川委員,小川,委員,ainusuishin:小川,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,7,大西委員,大西,委員,ainusuishin:大西,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,8,坂元委員(オンライン),坂元,委員,ainusuishin:坂元,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,9,佐々木委員,佐々木,委員,ainusuishin:佐々木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,10,鈴木委員,鈴木,委員,ainusuishin:鈴木,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,11,常本委員,常本,委員,ainusuishin:常本,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,12,丸子委員,丸子,委員,ainusuishin:丸子,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,13,八幡委員,八幡,委員,ainusuishin:八幡,surname_only,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,14,渡邊内閣官房アイヌ総合政策室長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,15,石川内閣官房アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,16,日向内閣官房アイヌ総合政策室長代理,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
+ainusuishin#16,ainusuishin,,17,𠮷田内閣官房アイヌ総合政策室次長〇𠮷田次長,,,,,https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai16/gijigaiyo.pdf
