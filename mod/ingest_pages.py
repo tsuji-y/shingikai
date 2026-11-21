@@ -18,6 +18,7 @@ import base64
 import csv
 import hashlib
 import json
+import re
 import sys
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -25,7 +26,25 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 RAW_DIR = REPO / "raw" / "mod" / "pages"
 MANIFEST = REPO / "raw" / "mod" / "pages.csv"
-FIELDS = ["url", "status", "last_modified", "fetched_at", "bytes", "sha256"]
+FIELDS = ["url", "status", "last_modified", "fetched_at", "bytes", "sha256", "content_sha256", "missing_count"]
+
+_SCRIPT_RE = re.compile(rb"<script\b[^>]*>.*?</script>", re.S | re.I)
+_CF_MARKER = b"cdn-cgi/challenge-platform"
+
+
+def strip_cf_script(body: bytes) -> bytes:
+    """Cloudflare が差し込む cdn-cgi/challenge-platform を含む <script>…</script> を除く。"""
+    return _SCRIPT_RE.sub(lambda m: b"" if _CF_MARKER in m.group(0) else m.group(0), body)
+
+
+def has_cf_script(body: bytes) -> bool:
+    """Cloudflare の差し込みスクリプトを含むか。"""
+    return any(_CF_MARKER in m.group(0) for m in _SCRIPT_RE.finditer(body))
+
+
+def content_hash(body: bytes) -> str:
+    """差し込みスクリプトを除いた本文の SHA-256。変更検知に使う。"""
+    return hashlib.sha256(strip_cf_script(body)).hexdigest()
 
 
 def local_path(url: str, root: Path = RAW_DIR) -> Path:
@@ -47,17 +66,21 @@ def http_date_to_iso(value: str | None) -> str:
 def read_manifest(path: Path = MANIFEST) -> dict[str, dict[str, str]]:
     if not path.exists():
         return {}
+    rows: dict[str, dict[str, str]] = {}
     with path.open(encoding="utf-8", newline="") as f:
-        return {row["url"]: row for row in csv.DictReader(f)}
+        for row in csv.DictReader(f):
+            rows[row["url"]] = {k: row.get(k, "") for k in FIELDS}
+    return rows
 
 
 def write_manifest(rows: dict[str, dict[str, str]], path: Path = MANIFEST) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(".tmp")
     with tmp.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n")
+        writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n", extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(rows[k] for k in sorted(rows))
+        for k in sorted(rows):
+            writer.writerow({field: rows[k].get(field, "") for field in FIELDS})
     tmp.replace(path)
 
 
@@ -80,15 +103,35 @@ def ingest(records: list[dict], rows: dict[str, dict[str, str]], root: Path = RA
             "fetched_at": rec.get("fetched_at", ""),
             "bytes": str(len(body)),
             "sha256": hashlib.sha256(body).hexdigest(),
+            "content_sha256": content_hash(body),
+            "missing_count": "",
         }
         saved += 1
     return saved, skipped
 
 
+def backfill_content_hashes(rows: dict[str, dict[str, str]], root: Path = RAW_DIR) -> int:
+    """保存済みの HTML から content_sha256 が空の行を埋める。"""
+    updated = 0
+    for url, row in rows.items():
+        if row.get("content_sha256"):
+            continue
+        path = local_path(url, root)
+        if not path.exists():
+            continue
+        row["content_sha256"] = content_hash(path.read_bytes())
+        updated += 1
+    return updated
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("bundles", nargs="+", type=Path)
+    ap.add_argument("bundles", nargs="*", type=Path)
+    ap.add_argument("--backfill", action="store_true", help="保存済み HTML から content_sha256 を埋める")
     args = ap.parse_args()
+
+    if not args.bundles and not args.backfill:
+        ap.error("bundle を指定するか --backfill を付けてください")
 
     rows = read_manifest()
     total = 0
@@ -99,6 +142,9 @@ def main() -> int:
         print(f"{bundle.name}: 保存 {saved} 件 / 対象外 {len(skipped)} 件")
         for s in skipped:
             print(f"  {s}", file=sys.stderr)
+    if args.backfill:
+        filled = backfill_content_hashes(rows)
+        print(f"content_sha256 補完: {filled} 件")
     write_manifest(rows)
     print(f"台帳 {len(rows)} 件（今回 {total} 件）")
     return 0

@@ -43,6 +43,7 @@ DATA = REPO / "data" / "mod"
 MANIFEST = REPO / "raw" / "mod" / "pages.csv"
 ROOT = "/j/policy/agenda/meeting/"
 
+COUNCIL_FIELDS = ["council_id", "section", "name", "link", "note", "first_seen"]
 PROFILE_FIELDS = ["council_id", "key", "value", "source"]
 MEMBER_FIELDS = ["council_id", "body", "group", "as_of", "as_of_raw", "name", "kana", "mark", "role",
                  "title", "note", "person_id", "source"]
@@ -52,7 +53,7 @@ ATTENDANCE_FIELDS = ["meeting_id", "council_id", "group", "seq", "name_raw", "su
                      "person_id", "person_basis", "source"]
 MINUTES_TYPES = ("議事要旨", "議事録")  # 冒頭に日時・場所・出席者が書かれている資料。この順に当たる
 DOCUMENT_FIELDS = ["council_id", "meeting_id", "section", "title", "doc_type", "url", "host",
-                   "format", "text", "pages", "chars", "source"]
+                   "format", "text", "pages", "chars", "source", "doc_key"]
 
 # ---------------------------------------------------------------- 日付と回次
 
@@ -189,6 +190,19 @@ def url_format(url: str) -> str:
     return ext or "html"
 
 
+_WARP_PATH = re.compile(r"^/info:ndljp/pid/\d+/([^/]+)(/.*)$")
+
+
+def doc_key(url: str) -> str:
+    """資料を同定するキー。WARP の URL からは元のホストとパスを取り出す。"""
+    sp = urlsplit(url)
+    if sp.netloc == "warp.da.ndl.go.jp":
+        m = _WARP_PATH.match(sp.path)
+        if m:
+            return m.group(1) + m.group(2)
+    return sp.netloc + sp.path if sp.netloc else url
+
+
 # ---------------------------------------------------------------- 名簿
 
 MARKS = "◎○◯〇●◇□△☆★"
@@ -220,6 +234,64 @@ def split_marks(cell: str) -> tuple[str, str]:
 def load_councils(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8", newline="") as f:
         return list(csv.DictReader(f))
+
+
+def _external_council_id(url: str) -> str:
+    sp = urlsplit(url)
+    host = sp.netloc.split(".")
+    host_tag = host[1] if len(host) >= 3 and host[0] == "www" else (host[0] if host else "ext")
+    parts = [p for p in sp.path.strip("/").split("/") if p and not p.endswith((".html", ".htm"))]
+    tail = parts[-1] if parts else "index"
+    return f"{host_tag}-{tail}"
+
+
+def parse_councils(blocks: list[Block], existing: list[dict[str, str]] | None = None,
+                   now_iso: str = "") -> list[dict[str, str]]:
+    """一覧ページ（/j/policy/agenda/meeting/index.html）のブロック列から会議体一覧を作る。"""
+    existing = existing or []
+    by_link = {r["link"]: r for r in existing}
+    by_id = {r["council_id"]: r for r in existing}
+    prefix = pages.BASE + ROOT
+    rows: list[dict[str, str]] = []
+    for b in blocks:
+        if b.kind != "text" or not b.path:
+            continue
+        section = b.path[-1]
+        if b.links:
+            for ln in b.links:
+                if ln.url.startswith(prefix):
+                    link = ln.url[len(pages.BASE):]
+                    cid = link[len(ROOT):].rsplit("/", 1)[0]
+                else:
+                    link = ln.url
+                    prev = by_link.get(link)
+                    cid = prev["council_id"] if prev else _external_council_id(link)
+                prev = by_link.get(link) or by_id.get(cid)
+                rows.append({
+                    "council_id": cid,
+                    "section": section,
+                    "name": ln.text,
+                    "link": link,
+                    "note": "",
+                    "first_seen": prev["first_seen"] if prev and prev.get("first_seen") else now_iso,
+                })
+        elif rows:
+            rows[-1]["note"] = (rows[-1]["note"] + " " + b.text).strip()
+    return rows
+
+
+def sync_councils(councils_path: Path = DATA / "councils.csv", root: Path = pages.RAW_DIR,
+                  index_url: str = ROOT + "index.html", now_iso: str = "",
+                  write: bool = True) -> list[dict[str, str]]:
+    """保存済みの一覧ページから councils.csv を更新する。"""
+    existing = load_councils(councils_path) if councils_path.exists() else []
+    if not now_iso:
+        now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+    blocks = pages.load(index_url, root)
+    updated = parse_councils(blocks, existing=existing, now_iso=now_iso)
+    if write and updated:
+        write_csv(councils_path, COUNCIL_FIELDS, updated)
+    return updated
 
 
 def council_dir(link: str) -> str:
@@ -344,7 +416,7 @@ class Builder:
         self.documents.append({"council_id": cid, "meeting": meeting, "section": section,
                                "title": link.text, "doc_type": doc_type(link.text), "url": link.url,
                                "host": urlsplit(link.url).netloc, "format": url_format(link.url),
-                               "source": source})
+                               "source": source, "doc_key": doc_key(link.url)})
 
     # --- 1 ページ ---
     def page(self, url: str, blocks: list[Block], split: frozenset[str] = frozenset(),
@@ -414,10 +486,15 @@ class Builder:
             body = body_of(section)
 
             if b.kind == "text":
-                if _AS_OF.search(b.text) and len(b.text) < 40:
-                    iso, _ = parse_date(b.text)
+                stripped = b.text.strip("[]［］〔〕()（） ")
+                if len(b.text) < 40 and (
+                    _AS_OF.search(b.text)
+                    or (section and re.search(r"委員|名簿|構成員", section)
+                        and b.text != stripped and is_date_only(stripped))
+                ):
+                    iso, _ = parse_date(stripped)
                     if iso:
-                        as_of = (iso, b.text.strip("[]［］〔〕()（） "))
+                        as_of = (iso, stripped)
                 legend = parse_legend(b.text)
                 if legend:
                     for row in page_members:
@@ -610,7 +687,8 @@ def column_roles(heads: list[str]) -> list[str]:
 
 
 def build(councils_path: Path = DATA / "councils.csv", manifest: Path = MANIFEST,
-          root: Path = pages.RAW_DIR, texts: Path = DATA / "texts.csv") -> Builder:
+          root: Path = pages.RAW_DIR, texts: Path = DATA / "texts.csv",
+          repo: Path = REPO) -> Builder:
     councils = Councils(load_councils(councils_path))
     with manifest.open(encoding="utf-8", newline="") as f:
         urls = [r["url"] for r in csv.DictReader(f)]
@@ -624,7 +702,7 @@ def build(councils_path: Path = DATA / "councils.csv", manifest: Path = MANIFEST
         blocks = pages.load(url, root)
         builder.page(url, blocks, split=separate_series(councils, builder.known_pages, url, blocks))
     finish(builder)
-    apply_minutes(builder, texts)
+    apply_minutes(builder, texts, repo=repo)
     return builder
 
 
@@ -638,13 +716,15 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
     extracted: dict[str, dict[str, str]] = {}
     if texts_path.exists():
         with texts_path.open(encoding="utf-8", newline="") as f:
-            extracted = {r["url"]: r for r in csv.DictReader(f)}
-    texts = {url: r["text"] for url, r in extracted.items() if r["text"]}
+            extracted = {doc_key(r["url"]): r for r in csv.DictReader(f)}
+    texts = {k: r["text"] for k, r in extracted.items() if r["text"]}
     by_meeting: dict[str, list[dict]] = {}
     for d in b.documents:
-        row = extracted.get(d["url"], {})
+        dk = d.get("doc_key") or doc_key(d["url"])
+        d["doc_key"] = dk
+        row = extracted.get(dk, {})
         d["text"], d["pages"], d["chars"] = row.get("text", ""), row.get("pages", ""), row.get("chars", "")
-        if d["meeting_id"] and d["doc_type"] in MINUTES_TYPES and d["url"] in texts:
+        if d["meeting_id"] and d["doc_type"] in MINUTES_TYPES and dk in texts:
             by_meeting.setdefault(d["meeting_id"], []).append(d)
     def attend(m: dict, raw: str, source: str) -> None:
         for seq, (group, token) in enumerate(minutes.split_attendees(raw), 1):
@@ -661,7 +741,7 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
         had_date = bool(m["date"])
         docs = sorted(by_meeting.get(m["meeting_id"], []), key=lambda d: MINUTES_TYPES.index(d["doc_type"]))
         for d in docs:
-            text = (repo / texts[d["url"]]).read_text(encoding="utf-8")
+            text = (repo / texts[d["doc_key"]]).read_text(encoding="utf-8")
             title = " ".join([ln for ln in text.split("\n") if ln.strip()][:3])
             title_number = parse_number(title)
             # 合同開催（「第5回 / 第6回(総会)合同」）では、表題がもう一方の回次になっていることがある

@@ -26,15 +26,21 @@
 | パス | 内容 |
 |---|---|
 | `mod/poll_rss.py` | 防衛省 RSS 2 本を取得し、未収録の item を追記する |
-| `mod/fetch_in_browser.js` | ブラウザの中でページを取得し、ページ束（JSON）として保存する |
-| `mod/ingest_pages.py` | ページ束を `raw/mod/pages/` に展開し、台帳 `raw/mod/pages.csv` を更新する |
-| `mod/fetch_files.py` | `documents.csv` に載っている防衛省サイト上の PDF を取得する |
+| `mod/check_access.py` | HTML（通常・条件付き）・PDF・RSS の疎通を確認する（Phase 0） |
+| `mod/check_updates.py` | 条件付き取得と `content_sha256` で変更ページ・新規ページ・消失を検知して保存する |
+| `mod/events.py` | 表の差分から `events.csv` を生成し、名簿履歴退避・回帰検査・RSS 取り込み漏れ検査を行う |
+| `mod/update.py` | 更新チェック→表再構築→PDF 取得・抽出→回帰検査・イベント記録を 1 コマンドで実行する |
+| `mod/fetch_in_browser.js` | ブラウザの中でページを取得し、ページ束（JSON）として保存する（Python 取得不可時の代替） |
+| `mod/ingest_pages.py` | ページ束を `raw/mod/pages/` に展開し、台帳 `raw/mod/pages.csv`（`content_sha256` 含む）を更新する |
+| `mod/fetch_files.py` | `documents.csv` に載っている防衛省サイト上の PDF を取得・差し替え照合する |
 | `mod/extract_text.py` | PDF から本文を抽出する |
 | `mod/pages.py` | 保存した HTML を、見出し・表の行・段落の列に変換する |
 | `mod/minutes.py` | 議事要旨・議事録の本文の冒頭から、開催日時・場所・出席者を読み取る |
 | `mod/persons.py` | 委員名簿と出席記録から人物表を作り、各行を人物に結び付ける |
 | `mod/build_db.py` | 上の 3 つを使って `council_profiles`・`members`・`meetings`・`attendance`・`persons`・`documents` を作る |
 | `mod/make_check_sheet.py` | 抜き取り検証用の確認表（`checks/`）を作る |
+| `data/mod/events.csv` | 表の差分から機械的に記録した更新イベント（追記のみ） |
+| `data/mod/members_history.csv` | 委員名簿が変わる前のスナップショット（時点付き） |
 | `raw/mod/pages/` | 取得した HTML。取得したバイト列のまま |
 | `tests/` | `python3 -m unittest discover -s tests` |
 
@@ -42,24 +48,44 @@
 
 ## www.mod.go.jp のアクセス制約
 
-2026-11-19 にクラウド環境（米国のデータセンター経由）から実測した結果。国内回線の PC からも、HTML は 403、PDF と RSS は 200 だった。
+2026-11-19 と 2026-11-21 に実測した結果。
 
-| 対象 | スクリプトからの結果 |
-|---|---|
-| HTML・ディレクトリ URL・`sitemap.xml` | 403。Cloudflare のボット検証（`cf-mitigated: challenge`） |
-| PDF | 200 |
-| `/j/rss/update.xml`、`/j/rss/news.xml` | 200。ただし Python 既定の User-Agent では 403 |
-| `robots.txt` | 200。`Disallow` は `/a/` と `/sp/j/` のみ |
+| 対象 | 米国データセンター（11/19） | 国内 PC・Python 既定 UA（11/21） | 国内 PC・自前 UA `rss-poller/1.0`（11/21） |
+|---|---|---|---|
+| HTML（通常取得） | 403（`cf-mitigated: challenge`） | 403（`cf-mitigated: challenge`） | 200（16 件すべて成功。本文は保存版と一致） |
+| HTML（`If-Modified-Since`） | 未確認 | 未確認 | 304（本文なし） |
+| PDF | 200 | 200 | 200（`Last-Modified` あり） |
+| `/j/rss/update.xml`、`/j/rss/news.xml` | 200（自前 UA） | 403 | 200 |
+| `robots.txt` | 200（`Disallow` は `/a/` と `/sp/j/` のみ） | 200 | 200 |
 
-ボット検証は運営側が自動アクセスを弾くための仕組みなので、ステルス化などで突破しない。検証が出ない経路で取得する。PDF の URL を推測して総当たりすることもしない。
-
-HTML は通常のブラウザ（国内回線の Chrome）で開けば検証は表示されない。そこで HTML はブラウザの中で取得している（次節）。サイトのコンテンツは「公共データ利用規約（第1.0版）」に準拠して利用できる（[コンテンツの利用について](https://www.mod.go.jp/j/info/contents.html)）。
+- 11/19 時点では国内回線 PC からも HTML が 403 になる事象があったため、日をまたいで安定して通るか、および GitHub Actions ランナーからの可否は `mod/check_access.py`（`.github/workflows/connectivity_check.yml`）で確認する。
+- HTML には Cloudflare が毎回異なる `cdn-cgi/challenge-platform` スクリプトを差し込む（123 ページ中 88 ページ）ため、生の SHA-256 は取得のたびに変わる。変更検知にはこの `<script>…</script>` を除いた `content_sha256` を使う。
+- 内容が同じでも `Last-Modified` が 1 秒ずれるページがある（123 ページ中 2 ページ）。
+- ボット検証は運営側が自動アクセスを弾くための仕組みなので、ステルス化・UA 偽装・ブラウザ自動操作などで突破しない。403・429 が返ったらリトライせず即停止し、必要に応じてブラウザ経由の取得に切り替える。PDF の URL を推測して総当たりすることもしない。
+- サイトのコンテンツは「公共データ利用規約（第1.0版）」に準拠して利用できる（[コンテンツの利用について](https://www.mod.go.jp/j/info/contents.html)）。
 
 ### WARP
 
 防衛省のページは、古い回の資料や一覧を国立国会図書館のアーカイブ（WARP、`warp.da.ndl.go.jp`）へのリンクにしている。リンク先の `/info:ndljp/pid/…` は閲覧用の枠だけを返すページで、保存されている本体（PDF も HTML も）は枠の中に読み込まれる `/2025…/www.mod.go.jp/…` のような別の URL にある。WARP の `robots.txt` はこの `/20` で始まるパスを全ロボットに対して禁じている（ほかに `/search`、`/web/`、`/collections/`）。したがって WARP 上の本体はスクリプトで取得しない。WARP にしかない資料（PDF 1,297 件、一覧などの HTML 315 件）の中身は、このデータベースには入っていない。
 
-## ページの取得
+なお、取得済みの資料が後から WARP に移動しても本文・出席者が切れないよう、`documents.csv` に元のホスト＋パスを表す `doc_key` 列を持ち、`build_db.py` は `doc_key` で本文と結び付けている。
+
+## ページの取得と定期更新
+
+### 日次更新（Python で HTML を取得できる環境）
+
+```bash
+python3 mod/update.py --dry-run                 # 変更確認のみ（書き込みしない）
+python3 mod/update.py --council kousei_nyusatu  # 1 会議体だけ確認・更新
+python3 mod/update.py                           # 全ページの更新チェック→表再構築→PDF→回帰検査→イベント記録
+python3 mod/update.py --check-pdf-updates       # 週次：取得済み PDF の差し替え照合も実施
+```
+
+- 403・429 または `cf-mitigated` が返った場合は即停止し、終了コード 1（未確認）で終了する。リトライしない。
+- 回帰の検査（変更のないページから行が消えていないかの確認）に失敗した場合は、表を元に戻して終了コード 2 で終了する。
+- 疎通のみ確認したい場合は `python3 mod/check_access.py` を使う。
+
+### ブラウザ経由での代替取得（Python で 403 になる場合）
 
 1. ブラウザで www.mod.go.jp のページを開き、`mod/fetch_in_browser.js` を実行する。サイト内のパスを 1 件ずつ、2 秒強の間隔で取得し、403・429 が返ったら止まる。
 2. 保存されたページ束を展開する。
@@ -68,25 +94,27 @@ HTML は通常のブラウザ（国内回線の Chrome）で開けば検証は�
 python3 mod/ingest_pages.py mod_pages.json
 ```
 
-3. 表を作り直す。
+3. 表を作り直し、イベント記録と回帰検査を行う（または単純に `python3 mod/build_db.py`）。
 
 ```bash
-python3 mod/build_db.py
+python3 mod/update.py --skip-fetch --changed-page /j/policy/agenda/meeting/<対象ページ>
 ```
 
-取得の対象は、一覧ページ、各会議体のトップページ、そこからたどれる `/j/policy/agenda/meeting/` 配下の HTML。2026-11-19 に 123 ページを取得し、未取得のサイト内ページは残っていない。`raw/mod/pages.csv` に URL・`Last-Modified`・取得日時・サイズ・SHA-256 を記録している。
+取得の対象は、一覧ページ、各会議体のトップページ、そこからたどれる `/j/policy/agenda/meeting/` 配下の HTML。2026-11-19 に 123 ページを取得し、未取得のサイト内ページは残っていない。`raw/mod/pages.csv` に URL・`Last-Modified`・取得日時・サイズ・SHA-256・`content_sha256`・消失カウントを記録している。
 
 ## PDF の取得と本文の抽出
 
 `documents.csv` に載っている www.mod.go.jp 上の PDF を取得し、本文をテキストにする。
 
 ```bash
-python3 mod/fetch_files.py      # raw/mod/files/ に保存。台帳は raw/mod/files.csv
-python3 mod/extract_text.py     # data/mod/text/ にテキストを保存。台帳は data/mod/texts.csv
-python3 mod/build_db.py         # 議事要旨・議事録の冒頭から開催日時・場所・出席者を補う
+python3 mod/fetch_files.py                   # 台帳に未収録の PDF だけ取得（raw/mod/files/ に保存）
+python3 mod/fetch_files.py --refetch-missing # 台帳にあるが手元にない原本を取り直す場合
+python3 mod/fetch_files.py --check-replaced  # 取得済み PDF の差し替えを条件付き取得で照合
+python3 mod/extract_text.py                  # data/mod/text/ にテキストを保存。台帳は data/mod/texts.csv
+python3 mod/build_db.py                      # 議事要旨・議事録の冒頭から開催日時・場所・出席者を補う
 ```
 
-- `fetch_files.py` は 2 秒間隔で 1 件ずつ取得し、403・429 が返ったら止まる。取得済みのものは飛ばす。PDF の本体（`raw/mod/files/`、約 350 MB）は Git に入れていない。
+- `fetch_files.py` は 2 秒間隔で 1 件ずつ取得し、403・429 が返ったら止まる。既定では台帳（`raw/mod/files.csv`）に SHA-256 が記録されていれば取得済みとして飛ばす（手元に PDF 原本がない環境でも全件を取り直さない）。PDF の本体（`raw/mod/files/`、約 350 MB）は Git に入れていない。
 - 2026-11-19 に 422 件を取りに行き、421 件を保存した。1 件（再就職等監視分科会 第84回の議事要旨）はリンク切れで 404 だった。
 - `extract_text.py` だけは pdfminer.six を使う。`python -m venv .venv` で仮想環境を作り、`requirements.txt` を入れて実行する。
 - 画像だけの PDF からは本文が取れない。`texts.csv` の `note` に印を付けている（OCR はしていない）。
@@ -161,6 +189,7 @@ python3 mod/build_db.py         # 議事要旨・議事録の冒頭から開催�
 | `doc_type` | 文言から機械的に付けた種別（議事録、議事要旨、議事次第、資料、報告書、規程、開催案内など） |
 | `url`、`host`、`format` | リンク先。`host` は `www.mod.go.jp` か `warp.da.ndl.go.jp` がほとんど |
 | `text`、`pages`、`chars` | 本文を抽出済みの PDF について、テキストファイルのパス、ページ数、文字数。`chars` が 0 に近いものは画像の PDF |
+| `doc_key` | 資料の同定キー（`www.mod.go.jp/...`）。WARP への移動後も元のホスト・パスを保つ |
 
 会議に結び付かないサイト内ページ・外部サイトへのリンクは、案内とみなして載せていない。
 
