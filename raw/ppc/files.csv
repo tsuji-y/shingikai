@@ -1,2 +1,2 @@
 url,status,content_type,last_modified,fetched_at,bytes,sha256,note,release_url
-https://www.ppc.go.jp/files/pdf/261119_koutekikenkyukai_meibo.pdf,200,application/pdf,2026-11-19T06:44:26+00:00,2026-11-21T14:44:32+00:00,84955,db5cbde0105bd444f4044d9bf5595bfb2cac5261cd676474ec58ca1c98bd5ff0,,
+https://www.ppc.go.jp/files/pdf/261119_koutekikenkyukai_meibo.pdf,200,application/pdf,2026-11-19T06:44:26+00:00,2026-11-21T15:37:27+00:00,84955,db5cbde0105bd444f4044d9bf5595bfb2cac5261cd676474ec58ca1c98bd5ff0,,https://github.com/tsuji-y/shingikai/releases/download/ppc-pdfs-2026-baseline/shingikai-ppc-pdfs-2026-baseline.tar.gz#files/pdf/261119_koutekikenkyukai_meibo.pdf
