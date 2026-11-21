@@ -7,6 +7,7 @@ on:
     - cron: "37 10 * * *"
 
 permissions:
+  actions: read
   contents: write
   issues: write
 
@@ -65,4 +66,27 @@ jobs:
             gh issue comment "$EXISTING" --body-file stale_rss.md
           else
             gh issue create --title "$TITLE" --body-file stale_rss.md
+          fi
+
+      - name: Check HTML update workflow liveness (7 days)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          LAST_OK=$(gh run list --workflow update.yml --status success -L 1 --json createdAt --jq '.[0].createdAt // empty')
+          if [ -z "$LAST_OK" ]; then
+            echo "update.yml has no completed successful run yet (skipping liveness alert until first run)."
+            exit 0
+          fi
+          IS_STALE=$(python3 -c 'import sys; from datetime import datetime, timezone, timedelta; last = datetime.fromisoformat(sys.argv[1].replace("Z", "+00:00")); print("1" if datetime.now(timezone.utc) - last >= timedelta(days=7) else "0")' "$LAST_OK")
+          if [ "$IS_STALE" = "0" ]; then
+            echo "update.yml liveness OK (last success: $LAST_OK)"
+            exit 0
+          fi
+          TITLE="[監視] HTML の更新チェックが 7 日以上成功していません"
+          BODY="直近の \`update.yml\` 成功日時: \`${LAST_OK}\`（7 日以上前）。Actions のログを確認してください。"
+          EXISTING=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh issue create --title "$TITLE" --body "$BODY"
           fi

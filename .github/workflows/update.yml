@@ -1,0 +1,98 @@
+name: MOD Daily Update
+
+on:
+  workflow_dispatch:
+    inputs:
+      council:
+        description: "特定の会議体 ID に絞る場合のみ指定（空なら全件）"
+        required: false
+        default: ""
+      dry_run:
+        description: "dry-run（ファイル変更・commit・Issue 作成をしない）"
+        type: boolean
+        required: false
+        default: false
+      check_pdf_updates:
+        description: "取得済み PDF の差し替え照合も実施する"
+        type: boolean
+        required: false
+        default: false
+  schedule:
+    # 07:17 JST (22:17 UTC) — 毎時 0 分を避ける
+    - cron: "17 22 * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: mod-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests
+
+      - name: Run MOD update
+        id: run_update
+        run: |
+          ARGS=(--no-llm --summary-out /tmp/update_summary.md)
+          # PDF 原本の保管先（GitHub Releases 等）が確定するまでは HTML 更新のみを本番実行する
+          ARGS+=(--skip-pdf)
+          if [ -n "${{ inputs.council }}" ]; then
+            ARGS+=(--council "${{ inputs.council }}")
+          fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS+=(--dry-run)
+          fi
+          if [ "${{ inputs.check_pdf_updates }}" = "true" ]; then
+            ARGS+=(--check-pdf-updates)
+          fi
+          python3 mod/update.py "${ARGS[@]}"
+
+      - name: Commit and push changes if any
+        if: inputs.dry_run != true
+        run: |
+          # RSS ジョブと競合しないよう data/mod/rss_items.csv は触らない
+          if git diff --quiet -- raw/mod/ data/mod/ ':(exclude)data/mod/rss_items.csv' && \
+             [ -z "$(git ls-files --others --exclude-standard -- raw/mod/ data/mod/)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw/mod/ data/mod/
+          git reset -- data/mod/rss_items.csv || true
+          if git diff --cached --quiet; then
+            echo "No staged changes."
+            exit 0
+          fi
+          git commit -m "Update MOD council database ($(TZ=Asia/Tokyo date +%Y-%m-%d))"
+          git pull --rebase
+          git push
+
+      - name: Create notification issue if events or new warnings occurred
+        if: inputs.dry_run != true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -s /tmp/update_summary.md ]; then
+            echo "No events or new warnings."
+            exit 0
+          fi
+          cat /tmp/update_summary.md >> "$GITHUB_STEP_SUMMARY"
+          TODAY="$(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          gh issue create \
+            --title "[更新] 防衛省審議会データベースの更新（${TODAY}）" \
+            --body-file /tmp/update_summary.md
