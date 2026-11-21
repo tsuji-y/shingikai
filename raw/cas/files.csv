@@ -1,4 +1,9 @@
 url,status,content_type,last_modified,fetched_at,bytes,sha256,note,release_url
+https://www.cas.go.jp/jp/seisaku/jieikan/dai1/gaiyou.pdf,200,application/pdf,2026-03-13T12:43:10+00:00,2026-11-21T15:09:35+00:00,192903,49ab438194d59739ec5b9247265495ed99f80841cef0e3b9d850fc403335f9a7,,
+https://www.cas.go.jp/jp/seisaku/jieikan/dai2/gaiyou.pdf,200,application/pdf,2026-03-13T12:43:10+00:00,2026-11-21T15:09:37+00:00,197754,42fc26b3c6fc7b1994d99774beb37c1dc4514de6eb6d5e754d474ed4a195fa3c,,
+https://www.cas.go.jp/jp/seisaku/jieikan/dai3/gaiyou.pdf,200,application/pdf,2026-03-13T12:43:10+00:00,2026-11-21T15:09:40+00:00,210144,3134bd557a3d56ff9c5f516b80416bcb2357151d4de7daecec86a516aa83089d,,
+https://www.cas.go.jp/jp/seisaku/jieikan/dai4/gaiyou.pdf,200,application/pdf,2026-03-13T12:43:10+00:00,2026-11-21T15:09:43+00:00,225597,5163da95fcae90b568fbe737a20a64762493b20c2589ad7fdb7939679c985d42,,
+https://www.cas.go.jp/jp/seisaku/jieikan/dai5/gaiyou.pdf,200,application/pdf,2026-03-13T12:43:10+00:00,2026-11-21T15:09:46+00:00,210669,f67a22a27aaac005310c8c8a576819e7bc400a0a097343c02ccf0685995146cc,,
 https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai12/gijigaiyou.pdf,200,application/pdf,2026-03-14T18:35:19+00:00,2026-11-21T14:40:07+00:00,401016,e8012928e2681bb01a690c14421f5d90c939ed1dad15a7d88fe5a9c788710f27,,
 https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai13/gijigaiyou.pdf,200,application/pdf,2026-03-14T18:35:19+00:00,2026-11-21T14:40:04+00:00,312531,1a14dc22269f6242293fe8bfb6d2819be40c6fab05a7387c624ea2690a8ef4b0,,
 https://www.cas.go.jp/jp/seisakukaigi/ainusuishin/dai14/gijigaiyou.pdf,200,application/pdf,2026-03-14T18:35:19+00:00,2026-11-21T14:39:52+00:00,357247,b72c083102efec5945bc680da0e194d5f17c38f973496c56bd2bf449a3684dc7,,

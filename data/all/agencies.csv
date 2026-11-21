@@ -2,7 +2,7 @@ agency_id,name,tier,stage,base_url,councils,meetings,documents,members,persons,p
 mod,防衛省,A,1,https://www.mod.go.jp,67,933,2053,253,257,123,421,2026-11-21T12:16:27+00:00
 digital,デジタル庁,A,2A,https://www.digital.go.jp,69,252,356,67,48,45,7,2026-11-21T14:31:20+00:00
 cfa,こども家庭庁,A,2A,https://www.cfa.go.jp,92,235,342,57,56,40,4,2026-11-21T14:30:53+00:00
-cas,内閣官房,A,2B,https://www.cas.go.jp,283,474,1662,0,14,45,8,2026-11-21T14:39:44+00:00
+cas,内閣官房,A,2B,https://www.cas.go.jp,283,480,1687,0,15,52,13,2026-11-21T15:09:33+00:00
 cao,内閣府,A,2B,https://www.cao.go.jp,104,343,633,7,9,40,8,2026-11-21T14:39:53+00:00
 maff,農林水産省,A,2C,https://www.maff.go.jp,55,1068,2373,0,25,40,8,2026-11-21T14:39:26+00:00
 mof,財務省,A,3,https://www.mof.go.jp,48,30,98,0,0,40,8,2026-11-21T14:43:14+00:00

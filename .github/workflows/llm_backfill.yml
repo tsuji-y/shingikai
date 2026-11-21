@@ -3,6 +3,10 @@ name: Gemini Evaluate & Backfill (Phase 3)
 on:
   workflow_dispatch:
     inputs:
+      agency:
+        description: "対象の省庁 ID（既定: mod）"
+        required: false
+        default: "mod"
       mode:
         description: "実行モード（evaluate: 30件評価 / backfill: 既存資料の要約・補完）"
         type: choice
@@ -39,7 +43,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: mod-llm-backfill
+  group: shingikai-llm-backfill
   cancel-in-progress: false
 
 jobs:
@@ -65,17 +69,22 @@ jobs:
             echo "Secrets に GEMINI_API_KEY を登録してから実行してください。" >&2
             exit 1
           fi
+          AGENCY="${{ inputs.agency || 'mod' }}"
           if [ "${{ inputs.mode }}" = "evaluate" ]; then
-            ARGS=(--task evaluate --out checks/llm_eval_30.md)
+            OUT_FILE="checks/llm_eval_30_${AGENCY}.md"
+            if [ "$AGENCY" = "mod" ]; then
+              OUT_FILE="checks/llm_eval_30.md"
+            fi
+            ARGS=(--agency "$AGENCY" --task evaluate --out "$OUT_FILE")
             if [ "${{ inputs.dry_run }}" = "true" ]; then
               ARGS+=(--dry-run)
             fi
             python3 -m mod.llm.run "${ARGS[@]}"
-            if [ -f checks/llm_eval_30.md ]; then
-              head -n 60 checks/llm_eval_30.md >> "$GITHUB_STEP_SUMMARY"
+            if [ -f "$OUT_FILE" ]; then
+              head -n 60 "$OUT_FILE" >> "$GITHUB_STEP_SUMMARY"
             fi
           else
-            ARGS=(--task "${{ inputs.task }}" --backfill --max-llm-calls "${{ inputs.max_llm_calls }}")
+            ARGS=(--agency "$AGENCY" --task "${{ inputs.task }}" --backfill --max-llm-calls "${{ inputs.max_llm_calls }}")
             if [ -n "${{ inputs.council }}" ]; then
               ARGS+=(--council "${{ inputs.council }}")
             fi
@@ -88,19 +97,19 @@ jobs:
       - name: Commit and push results
         if: inputs.dry_run != true
         run: |
-          if git diff --quiet -- data/mod/ checks/ ':(exclude)data/mod/rss_items.csv' && \
-             [ -z "$(git ls-files --others --exclude-standard -- data/mod/ checks/)" ]; then
+          if git diff --quiet -- data/ checks/ ':(exclude)data/mod/rss_items.csv' && \
+             [ -z "$(git ls-files --others --exclude-standard -- data/ checks/)" ]; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/mod/ checks/
+          git add data/ checks/
           git reset -- data/mod/rss_items.csv || true
           if git diff --cached --quiet; then
             echo "No staged changes."
             exit 0
           fi
-          git commit -m "Run Gemini ${{ inputs.mode }} (${{ inputs.task }}, $(TZ=Asia/Tokyo date +%Y-%m-%d))"
+          git commit -m "Run Gemini ${{ inputs.mode }} (${{ inputs.agency || 'mod' }}, ${{ inputs.task }}, $(TZ=Asia/Tokyo date +%Y-%m-%d))"
           git pull --rebase
           git push

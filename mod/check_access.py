@@ -215,7 +215,7 @@ def main() -> int:
     import agencies
 
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（all なら全 16 省庁、既定: mod）")
     ap.add_argument("--user-agent", default=USER_AGENT, help="送信する User-Agent（自己申告名）")
     ap.add_argument("--interval", type=float, default=INTERVAL, help="リクエスト間の待機秒数（2 秒以上推奨）")
     ap.add_argument("--json", action="store_true", help="JSON 形式で出力する")
@@ -223,30 +223,44 @@ def main() -> int:
     ap.add_argument("--require-html", action="store_true", help="HTML が 200 でなければ終了コード 1 を返す")
     args = ap.parse_args()
 
-    ag = agencies.get_agency(args.agency)
-    pdf_url = DEFAULT_PDF_URL if ag.agency_id == "mod" else ""
-    rss_url = next(iter(ag.rss_feeds.values()), "")
-    results = run_probes(
-        base_url=ag.base_url,
-        html_path=ag.index_urls[0],
-        pdf_url=pdf_url,
-        rss_url=rss_url,
-        manifest=ag.pages_manifest,
-        user_agent=args.user_agent,
-        interval=args.interval,
+    ag_list = (
+        list(agencies.load_agencies().values())
+        if args.agency == "all"
+        else [agencies.get_agency(args.agency)]
     )
-    if args.json:
-        print(json.dumps([asdict(r) for r in results], ensure_ascii=False, indent=2))
-    elif args.markdown:
-        print(format_markdown(results, user_agent=args.user_agent, host_label=ag.primary_host), end="")
-    else:
-        print(format_plain(results), end="")
 
-    if args.require_html:
-        html_ok = any(r.kind == "html" and r.status == "200" and not r.cf_mitigated for r in results)
-        if not html_ok:
-            return 1
-    return 0
+    all_results: list[ProbeResult] = []
+    any_failed = False
+    for idx, ag in enumerate(ag_list):
+        if idx > 0 and args.interval > 0:
+            time.sleep(args.interval)
+        pdf_url = DEFAULT_PDF_URL if ag.agency_id == "mod" else ""
+        rss_url = next(iter(ag.rss_feeds.values()), "")
+        results = run_probes(
+            base_url=ag.base_url,
+            html_path=ag.index_urls[0],
+            pdf_url=pdf_url,
+            rss_url=rss_url,
+            manifest=ag.pages_manifest,
+            user_agent=args.user_agent,
+            interval=args.interval,
+        )
+        all_results.extend(results)
+        if not args.json:
+            if args.markdown:
+                print(format_markdown(results, user_agent=args.user_agent, host_label=f"{ag.name} ({ag.primary_host})"), end="")
+            else:
+                if len(ag_list) > 1:
+                    print(f"[{ag.agency_id}] {ag.name} ({ag.primary_host})")
+                print(format_plain(results), end="")
+        if args.require_html:
+            html_ok = any(r.kind == "html" and r.status == "200" and not r.cf_mitigated for r in results)
+            if not html_ok:
+                any_failed = True
+
+    if args.json:
+        print(json.dumps([asdict(r) for r in all_results], ensure_ascii=False, indent=2))
+    return 1 if any_failed else 0
 
 
 if __name__ == "__main__":

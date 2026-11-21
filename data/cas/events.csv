@@ -2382,3 +2382,41 @@ detected_at,event_type,council_id,meeting_id,target_key,before,after,source
 2026-11-21T14:37:43+00:00,document_added,hukushuto,,www.cas.go.jp/jp/seisaku/hukushuto/pdf/20261030_kojinjouhou-kanrikitei.pdf,,規程: 国家社会機能継続性確保施策・副首都整備推進本部保有個人情報等管理規程（令和８年10月30日国家社会機能継続性確保施策・副首都整備推進本部長決定）（PDF／262KB）,/jp/seisaku/hukushuto/index.html
 2026-11-21T14:37:43+00:00,document_added,hukushuto,,www.cas.go.jp/jp/seisaku/hukushuto/pdf/20261030_kojinjouhou-hogo.pdf,,資料: 国家社会機能継続性確保施策・副首都整備推進本部における個人情報の保護に関する法律に基づく電磁的記録についての開示の方法について （令和８年10月30日国家社会機能継続性確保施策・副首都整備推進本部長決定）（PDF／131KB）,/jp/seisaku/hukushuto/index.html
 2026-11-21T14:37:43+00:00,document_added,hukushuto,,www.cas.go.jp/jp/seisaku/hukushuto/pdf/20261030_jouhoukoukaihou-shobun-kijun.pdf,,その他: 国家社会機能継続性確保施策・副首都整備推進本部における情報公開法に基づく処分に係る審査基準（令和８年10月30日国家社会機能継続性確保施策・副首都整備推進本部長決定）（PDF／364KB）,/jp/seisaku/hukushuto/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai1/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai2/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai3/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai4/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai5/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai5/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai6/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai6/index.html
+2026-11-21T15:09:17+00:00,page_added,jieikan,,/jp/seisaku/jieikan/index.html,,200,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,meeting_added,jieikan,jieikan#1,jieikan#1,,第１回 2024-10-25,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,meeting_added,jieikan,jieikan#2,jieikan#2,,第２回 2024-11-08,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,meeting_added,jieikan,jieikan#3,jieikan#3,,第３回 2024-11-26,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,meeting_added,jieikan,jieikan#4,jieikan#4,,第４回 2024-12-20,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,meeting_added,jieikan,jieikan#5,jieikan#5,,第５回 2025-06-10,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai5/index.html
+2026-11-21T15:09:17+00:00,meeting_added,jieikan,jieikan#6,jieikan#6,,第６回 2025-12-22,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai6/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,,www.cas.go.jp/jp/seisaku/jieikan/pdf/konkyo.pdf,,その他: 設置根拠（PDF／111KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai1/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/dai1/gaiyou.pdf,,議事要旨: 議事要旨（PDF／188KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai2/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/dai2/gaiyou.pdf,,議事要旨: 議事要旨（PDF／194KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai3/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/dai3/gaiyou.pdf,,議事要旨: 議事要旨（PDF／206KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/dai4/gaiyou.pdf,,議事要旨: 議事要旨（PDF／221KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#5,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai5/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#5,www.cas.go.jp/jp/seisaku/jieikan/dai5/gaiyou.pdf,,議事要旨: 議事要旨（PDF／206KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#6,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai6/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#6,www.cas.go.jp/jp/seisaku/jieikan/dai6/gaiyou.pdf,,議事要旨: 議事要旨（PDF／194KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,,www.cas.go.jp/jp/seisaku/jieikan/pdf/kihon_houshin.pdf,,その他: 自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する基本方針（PDF／536KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai1/siryou.pdf,,その他: 第１回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／509KB）,/jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai1/sankou.pdf,,"資料: 第１回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／1,340KB）",/jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai2/siryou.pdf,,その他: 第２回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／453KB）,/jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai2/sankou.pdf,,"資料: 第２回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／2,170KB）",/jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai3/siryou.pdf,,"その他: 第３回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／1,933KB）",/jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai3/sankou.pdf,,"資料: 第３回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／2,943KB）",/jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/siryou1.pdf,,その他: 第４回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／877KB）,/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/siryou2.pdf,,その他: 自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する基本方針（案）（PDF／536KB）,/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/sankou.pdf,,"資料: 第４回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／1,127KB）",/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#5,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai5/siryou.pdf,,"その他: 第５回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／3,851KB）",/jp/seisaku/jieikan/gijisidai/dai5/index.html
+2026-11-21T15:09:17+00:00,document_added,jieikan,jieikan#6,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai6/shiryo.pdf,,その他: 第６回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立（PDF／857KB）,/jp/seisaku/jieikan/gijisidai/dai6/index.html

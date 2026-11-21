@@ -1,4 +1,42 @@
 detected_at,agency_id,event_type,council_id,meeting_id,target_key,before,after,source
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai1/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai2/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai3/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai4/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai5/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai5/index.html
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/gijisidai/dai6/index.html,,200,/jp/seisaku/jieikan/gijisidai/dai6/index.html
+2026-11-21T15:09:17+00:00,cas,page_added,jieikan,,/jp/seisaku/jieikan/index.html,,200,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,meeting_added,jieikan,jieikan#1,jieikan#1,,第１回 2024-10-25,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,cas,meeting_added,jieikan,jieikan#2,jieikan#2,,第２回 2024-11-08,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,cas,meeting_added,jieikan,jieikan#3,jieikan#3,,第３回 2024-11-26,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,cas,meeting_added,jieikan,jieikan#4,jieikan#4,,第４回 2024-12-20,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,cas,meeting_added,jieikan,jieikan#5,jieikan#5,,第５回 2025-06-10,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai5/index.html
+2026-11-21T15:09:17+00:00,cas,meeting_added,jieikan,jieikan#6,jieikan#6,,第６回 2025-12-22,/jp/seisaku/jieikan/index.html /jp/seisaku/jieikan/gijisidai/dai6/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,,www.cas.go.jp/jp/seisaku/jieikan/pdf/konkyo.pdf,,その他: 設置根拠（PDF／111KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai1/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/dai1/gaiyou.pdf,,議事要旨: 議事要旨（PDF／188KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai2/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/dai2/gaiyou.pdf,,議事要旨: 議事要旨（PDF／194KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai3/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/dai3/gaiyou.pdf,,議事要旨: 議事要旨（PDF／206KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/dai4/gaiyou.pdf,,議事要旨: 議事要旨（PDF／221KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#5,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai5/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#5,www.cas.go.jp/jp/seisaku/jieikan/dai5/gaiyou.pdf,,議事要旨: 議事要旨（PDF／206KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#6,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai6/index.html,,議事次第: 議事次第・配付資料,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#6,www.cas.go.jp/jp/seisaku/jieikan/dai6/gaiyou.pdf,,議事要旨: 議事要旨（PDF／194KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,,www.cas.go.jp/jp/seisaku/jieikan/pdf/kihon_houshin.pdf,,その他: 自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する基本方針（PDF／536KB）,/jp/seisaku/jieikan/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai1/siryou.pdf,,その他: 第１回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／509KB）,/jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#1,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai1/sankou.pdf,,"資料: 第１回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／1,340KB）",/jp/seisaku/jieikan/gijisidai/dai1/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai2/siryou.pdf,,その他: 第２回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／453KB）,/jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#2,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai2/sankou.pdf,,"資料: 第２回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／2,170KB）",/jp/seisaku/jieikan/gijisidai/dai2/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai3/siryou.pdf,,"その他: 第３回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／1,933KB）",/jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#3,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai3/sankou.pdf,,"資料: 第３回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／2,943KB）",/jp/seisaku/jieikan/gijisidai/dai3/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/siryou1.pdf,,その他: 第４回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／877KB）,/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/siryou2.pdf,,その他: 自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する基本方針（案）（PDF／536KB）,/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#4,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai4/sankou.pdf,,"資料: 第４回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（参考資料）（PDF／1,127KB）",/jp/seisaku/jieikan/gijisidai/dai4/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#5,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai5/siryou.pdf,,"その他: 第５回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立に関する関係閣僚会議（PDF／3,851KB）",/jp/seisaku/jieikan/gijisidai/dai5/index.html
+2026-11-21T15:09:17+00:00,cas,document_added,jieikan,jieikan#6,www.cas.go.jp/jp/seisaku/jieikan/gijisidai/dai6/shiryo.pdf,,その他: 第６回自衛官の処遇・勤務環境の改善及び新たな生涯設計の確立（PDF／857KB）,/jp/seisaku/jieikan/gijisidai/dai6/index.html
 2026-11-21T14:44:22+00:00,ppc,council_added,koutekikenkyukai,,koutekikenkyukai,,行政機関等の個人情報保護制度の在り方に関する研究会,/personalinfo/kentohkai/
 2026-11-21T14:44:22+00:00,ppc,page_added,koutekikenkyukai,,/personalinfo/kentohkai/koutekikenkyukai,,200,/personalinfo/kentohkai/koutekikenkyukai
 2026-11-21T14:44:22+00:00,ppc,meeting_added,koutekikenkyukai,koutekikenkyukai#1,koutekikenkyukai#1,,2026-11-19,/personalinfo/kentohkai/koutekikenkyukai
@@ -961,41 +999,3 @@ detected_at,agency_id,event_type,council_id,meeting_id,target_key,before,after,s
 2026-11-21T14:44:22+00:00,mlit,council_added,s402_tetsudo01,,s402_tetsudo01,,鉄道建設・運輸施設整備支援機構分科会（廃止）,/policy/shingikai/index.html
 2026-11-21T14:44:22+00:00,mlit,council_added,s402_suishigen01,,s402_suishigen01,,水資源機構分科会（廃止）,/policy/shingikai/index.html
 2026-11-21T14:44:22+00:00,mlit,council_added,s402_kyoiku01,,s402_kyoiku01,,教育機関分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_kuko01,,s402_kuko01,,空港周辺整備機構分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_kouwankuko01,,s402_kouwankuko01,,港湾空港技術研究所分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_koutsu01,,s402_koutsu01,,交通関係研究所分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_kousokudouro01,,s402_kousokudouro01,,日本高速道路保有・債務返済機構分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_kenchiku01,,s402_kenchiku01,,建築研究所分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_kanko01,,s402_kanko01,,国際観光振興機構分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_kaijo01,,s402_kaijo01,,海上災害防止センター分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_jutakukinyu01,,s402_jutakukinyu01,,住宅金融支援機構分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_jidoushajiko01,,s402_jidoushajiko01,,自動車事故対策機構分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_jidosha01,,s402_jidosha01,,自動車検査分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_doboku01,,s402_doboku01,,土木研究所分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s402_amami01,,s402_amami01,,奄美群島振興開発基金分科会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s401_dokuritsu01,,s401_dokuritsu01,,独立行政法人評価委員会（廃止）,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_zizokukoutsuu01,,s304_zizokukoutsuu01,,持続可能な社会の実現に向けた交通政策検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_yusou01,,s304_yusou01,,輸送事業者判断基準検討,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_youjouhuuryoku01,,s304_youjouhuuryoku01,,洋上風力促進小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_tokyochikatetsunetwork,,s304_tokyochikatetsunetwork,,東京圏における今後の地下鉄ネットワークのあり方等に関する小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_taxi01,,s304_taxi01,,タクシー事業を巡る諸問題に関する検討ワーキンググループ,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_sinkansen01,,s304_sinkansen01,,中央新幹線小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_shutokenkuko01,,s304_shutokenkuko01,,首都圏空港機能強化技術検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_senmon01,,s304_senmon01,,専門小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_seikan02,,s304_seikan02,,青函共用走行区間等高速化検討ＷＧ,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_seikan01,,s304_seikan01,,青函共用走行区間技術検討WG,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_seibi01,,s304_seibi01,,整備新幹線小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_saiteichinnginn,,s304_saiteichinnginn,,最低賃金小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_recycle01,,s304_recycle01,,建設リサイクル推進施策検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_network02,,s304_network02,,持続可能な鉄道ネットワークの在り方に関する検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_network01,,s304_network01,,ネットワーク・サービス小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_naikokosenunkogyo01,,s304_naikokosenunkogyo01,,全国内航鋼船運航業最低賃金専門部会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_mujinkokuki,,s304_mujinkokuki,,無人航空機の有人地帯における目視外飛行（レベル４）の実現に向けた検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_mizusaki01,,s304_mizusaki01,,水先小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_koutuuseisaku01,,s304_koutuuseisaku01,,交通政策基本計画小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_koutekisien01,,s304_koutekisien01,,公的支援に関する競争政策検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_kourohyousiki01,,s304_kourohyousiki01,,航路標識・情報提供等小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_kokukikensaseidokento01,,s304_kokukikensaseidokento01,,航空機検査制度等検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_kihonnhou01,,s304_kihonnhou01,,交通基本法案検討小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_kihonmondai01,,s304_kihonmondai01,,基本問題小委員会,/policy/shingikai/index.html
-2026-11-21T14:44:22+00:00,mlit,council_added,s304_kaijoryokakuunsogyo01,,s304_kaijoryokakuunsogyo01,,海上旅客運送業最低賃金専門部会,/policy/shingikai/index.html

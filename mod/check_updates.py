@@ -256,12 +256,15 @@ def filter_urls(urls: list[str], *, council: str = "",
 def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
                 raw_dir: Path | None = None, councils_path: Path | None = None,
                 council: str = "", limit: int = 0, max_new_pages: int = MAX_NEW_PAGES,
-                discover_unfetched: bool = False, dry_run: bool = False,
+                discover_unfetched: bool = False, tier_mode: str = "all",
+                recent_days: int = 60, dry_run: bool = False,
                 interval: float = INTERVAL, fetcher=fetch_page) -> CheckResult:
     """台帳のページをチェックし、変更・新規ページを保存する。
 
     403・429 で遮断された場合はファイルや台帳を書き換えずに Blocked を送出する。
     """
+    from datetime import timedelta
+
     ag = agencies.get_agency(agency_id)
     manifest = manifest if manifest is not None else ag.pages_manifest
     raw_dir = raw_dir if raw_dir is not None else ag.raw_pages_dir
@@ -293,6 +296,22 @@ def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
             council_rows = agencies.extract_councils_generic(ag, idx_loaded)
 
     target_urls = filter_urls(sorted(rows), council=council, councils_path=councils_path)
+    if tier_mode == "top_and_recent" and target_urls:
+        top_set = set(ag.index_urls) | {agencies.normalize_path(u) for u in ag.index_urls}
+        for r in council_rows:
+            lk = r.get("link", "")
+            if lk.startswith("/"):
+                top_set.add(lk)
+                top_set.add(agencies.normalize_path(lk))
+                if lk.endswith("/"):
+                    top_set.add(lk + "index.html")
+        cutoff_iso = (datetime.now(timezone.utc) - timedelta(days=recent_days)).isoformat(timespec="seconds")
+        filtered = [
+            u for u in target_urls
+            if u in top_set or (rows[u].get("last_modified") or rows[u].get("fetched_at") or "") >= cutoff_iso
+        ]
+        if filtered:
+            target_urls = filtered
     if limit:
         target_urls = target_urls[:limit]
 
@@ -303,16 +322,28 @@ def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
     first_request = True
 
     # 初回ブートストラップ（台帳が空）のときは一覧ページをシードにする
+    councils_obj = build_db.Councils(council_rows) if council_rows else None
     if not rows:
         for idx_u in ag.index_urls:
             if idx_u not in queued_or_known:
                 queued_or_known.add(idx_u)
                 new_queue.append(idx_u)
+    elif council and not target_urls and council_rows:
+        for r in council_rows:
+            if r["council_id"] == council and r["link"].startswith("/"):
+                lk = r["link"] + "index.html" if (r["link"].endswith("/") and not ag.allow_extensionless_pages) else agencies.normalize_path(r["link"])
+                if lk not in queued_or_known:
+                    queued_or_known.add(lk)
+                    new_queue.append(lk)
     elif discover_unfetched:
         for u in sorted(rows):
             p = pages.resolve_local_path(u, raw_dir)
             if p.exists():
                 for link_path in discover_html_links(u, p.read_bytes(), agency=ag, council_rows=council_rows):
+                    if council and councils_obj:
+                        c = councils_obj.of(link_path)
+                        if not c or c["council_id"] != council:
+                            continue
                     if link_path not in queued_or_known:
                         queued_or_known.add(link_path)
                         new_queue.append(link_path)
@@ -450,6 +481,10 @@ def main() -> int:
     ap.add_argument("--max-new-pages", type=int, default=MAX_NEW_PAGES, help="1 回に取得する新規ページの上限")
     ap.add_argument("--discover-unfetched", action="store_true",
                     help="保存済みページ内の未取得リンクも新規取得キューに加える")
+    ap.add_argument("--tier-mode", choices=("all", "top_and_recent"), default="all",
+                    help="2段階チェック（top_and_recent: 一覧・会議体トップ＋直近更新ページのみ巡回）")
+    ap.add_argument("--recent-days", type=int, default=60,
+                    help="--tier-mode top_and_recent 時に巡回する直近日数（既定: 60）")
     ap.add_argument("--interval", type=float, default=INTERVAL, help="リクエスト間の待機秒数")
     args = ap.parse_args()
 
@@ -460,6 +495,8 @@ def main() -> int:
             limit=args.limit,
             max_new_pages=args.max_new_pages,
             discover_unfetched=args.discover_unfetched,
+            tier_mode=args.tier_mode,
+            recent_days=args.recent_days,
             dry_run=args.dry_run,
             interval=args.interval,
         )

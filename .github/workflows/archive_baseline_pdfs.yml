@@ -3,16 +3,20 @@ name: Archive Baseline PDFs to GitHub Releases
 on:
   workflow_dispatch:
     inputs:
-      tag:
-        description: "作成・アップロード先の Release タグ"
+      agency:
+        description: "対象の省庁 ID（all なら全収録省庁、個別指定なら mod / digital / cfa 等）"
         required: false
-        default: "pdfs-2026-baseline"
+        default: "mod"
+      tag:
+        description: "作成・アップロード先の Release タグ（省略時は <agency>-pdfs-YYYY-baseline）"
+        required: false
+        default: ""
 
 permissions:
   contents: write
 
 concurrency:
-  group: mod-archive-baseline-pdfs
+  group: shingikai-archive-baseline-pdfs
   cancel-in-progress: false
 
 jobs:
@@ -27,23 +31,37 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fetch missing PDF originals (serial, 2s interval)
-        run: python3 mod/fetch_files.py --refetch-missing
-
-      - name: Bundle and upload baseline PDFs to GitHub Release
+      - name: Fetch missing PDF originals and bundle to GitHub Releases
         env:
           GH_TOKEN: ${{ github.token }}
-        run: python3 mod/archive_pdfs.py --bundle --tag "${{ inputs.tag || 'pdfs-2026-baseline' }}"
-
-      - name: Commit and push updated raw/mod/files.csv
         run: |
-          if git diff --quiet -- raw/mod/files.csv; then
-            echo "No changes to raw/mod/files.csv."
+          TARGET="${{ inputs.agency }}"
+          if [ -z "$TARGET" ] || [ "$TARGET" = "all" ]; then
+            AGENCIES=$(python3 -c 'import json; print(" ".join(json.load(open("agencies.json")).keys()))')
+          else
+            AGENCIES="$TARGET"
+          fi
+          for ag in $AGENCIES; do
+            if [ ! -f "raw/${ag}/files.csv" ]; then
+              continue
+            fi
+            python3 mod/fetch_files.py --agency "$ag" --refetch-missing
+            TAG_ARGS=(--agency "$ag" --bundle)
+            if [ -n "${{ inputs.tag }}" ] && [ "$TARGET" != "all" ]; then
+              TAG_ARGS+=(--tag "${{ inputs.tag }}")
+            fi
+            python3 mod/archive_pdfs.py "${TAG_ARGS[@]}"
+          done
+
+      - name: Commit and push updated raw/*/files.csv
+        run: |
+          if git diff --quiet -- raw/*/files.csv; then
+            echo "No changes to raw/*/files.csv."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add raw/mod/files.csv
-          git commit -m "Record baseline PDF release URLs (${{ inputs.tag || 'pdfs-2026-baseline' }})"
+          git add raw/*/files.csv
+          git commit -m "Record baseline PDF release URLs (${{ inputs.agency || 'mod' }})"
           git pull --rebase
           git push

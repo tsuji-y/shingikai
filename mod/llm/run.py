@@ -67,7 +67,10 @@ def _urls_from_events(ev_rows: list[dict[str, str]], documents_csv: Path) -> set
 
 
 def main() -> int:
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
     ap.add_argument("--task", choices=("all", "ocr", "extract", "summarize", "review", "evaluate"),
                     default="all", help="実行するタスク")
     ap.add_argument("--model", default=DEFAULT_MODEL, help="使用する Gemini モデル")
@@ -75,7 +78,7 @@ def main() -> int:
                     help="1 回の実行での API 呼び出し上限（既定 20）")
     ap.add_argument("--council", default="", help="対象の会議体 ID を絞る")
     ap.add_argument("--backfill", action="store_true",
-                    help="既存の未処理本文（最大 421 件）も対象に含める")
+                    help="既存の未処理本文も対象に含める")
     ap.add_argument("--events-since", default="",
                     help="この日時（UTC ISO）以降のイベントを対象に新規資料・検討メモを処理する")
     ap.add_argument("--review-out", type=Path, default=None,
@@ -84,6 +87,13 @@ def main() -> int:
                     help="--task evaluate の出力先")
     ap.add_argument("--dry-run", action="store_true", help="API 呼び出しや書き込みを行わない")
     args = ap.parse_args()
+
+    ag = agencies.get_agency(args.agency)
+    data_dir = ag.data_dir
+    raw_files_dir = ag.raw_files_dir
+    text_llm_dir = data_dir / "text_llm"
+    extractions_csv = data_dir / "llm_extractions.csv"
+    summaries_csv = data_dir / "summaries.csv"
 
     if args.task == "evaluate":
         if args.dry_run:
@@ -94,11 +104,16 @@ def main() -> int:
         except LLMError as e:
             print(f"エラー: {e}", file=sys.stderr)
             return 1
-        items = evaluate(client, n=min(30, args.max_llm_calls) if args.max_llm_calls < 30 else 30)
+        items = evaluate(
+            client,
+            n=min(30, args.max_llm_calls) if args.max_llm_calls < 30 else 30,
+            repo=REPO,
+            data_dir=data_dir,
+        )
         report = format_report(items, model=args.model, seed=20261119)
         args.out.parent.mkdir(parents=True, exist_ok=True)
         args.out.write_text(report, encoding="utf-8", newline="\n")
-        print(f"評価レポート出力: {args.out} ({len(items)} 会議)")
+        print(f"[{ag.agency_id}] 評価レポート出力: {args.out} ({len(items)} 会議)")
         return 0
 
     if args.dry_run:
@@ -113,52 +128,61 @@ def main() -> int:
             return 1
 
     budget = CallBudget(limit=args.max_llm_calls)
-    ev_rows = _recent_events(DATA / "events.csv", args.events_since)
-    target_urls = _urls_from_events(ev_rows, DATA / "documents.csv") if not args.backfill else None
+    ev_rows = _recent_events(data_dir / "events.csv", args.events_since)
+    target_urls = _urls_from_events(ev_rows, data_dir / "documents.csv") if not args.backfill else None
 
     if args.task in ("all", "ocr"):
-        st = ocr_image_pdfs(client, budget, council=args.council, dry_run=args.dry_run)
-        print(f"[ocr] 処理 {st.processed} / 採用 {st.accepted} / 却下 {st.rejected} / スキップ {st.skipped}")
+        st = ocr_image_pdfs(
+            client, budget, repo=REPO, data_dir=data_dir, raw_files_dir=raw_files_dir,
+            text_llm_dir=text_llm_dir, extractions_csv=extractions_csv,
+            council=args.council, dry_run=args.dry_run,
+        )
+        print(f"[{ag.agency_id}][ocr] 処理 {st.processed} / 採用 {st.accepted} / 却下 {st.rejected} / スキップ {st.skipped}")
         for err in st.errors:
             print(f"  {err}", file=sys.stderr)
 
     extracted_accepted = 0
     if args.task in ("all", "extract"):
         st = extract_missing_attendance(
-            client, budget, council=args.council, target_urls=target_urls,
+            client, budget, repo=REPO, data_dir=data_dir, extractions_csv=extractions_csv,
+            council=args.council, target_urls=target_urls,
             backfill=args.backfill, dry_run=args.dry_run,
         )
         extracted_accepted = st.accepted
-        print(f"[extract] 処理 {st.processed} / 採用 {st.accepted} / 却下 {st.rejected} / スキップ {st.skipped}")
+        print(f"[{ag.agency_id}][extract] 処理 {st.processed} / 採用 {st.accepted} / 却下 {st.rejected} / スキップ {st.skipped}")
         for err in st.errors:
             print(f"  {err}", file=sys.stderr)
 
     if extracted_accepted > 0 and not args.dry_run:
         # 検証を通過した抽出結果を既存の規則で本体表へ反映（ID は既存規則で付与）
-        built = build_db.build()
-        update._write_built_tables(built, DATA)
-        print(f"[build_db] 検証済み LLM 抽出 {extracted_accepted} 件を本体表へ反映")
+        built = build_db.build(
+            ag.councils_csv, ag.pages_manifest, ag.raw_pages_dir, data_dir / "texts.csv",
+            repo=REPO, base_url=ag.base_url, hosts=ag.hosts,
+        )
+        update._write_built_tables(built, data_dir)
+        print(f"[{ag.agency_id}][build_db] 検証済み LLM 抽出 {extracted_accepted} 件を本体表へ反映")
 
     if args.task in ("all", "summarize"):
         st = summarize_documents(
-            client, budget, council=args.council, target_urls=target_urls,
+            client, budget, repo=REPO, data_dir=data_dir, summaries_csv=summaries_csv,
+            council=args.council, target_urls=target_urls,
             backfill=args.backfill, dry_run=args.dry_run,
         )
-        print(f"[summarize] 処理 {st.processed} / 採用 {st.accepted} / 却下 {st.rejected} / スキップ {st.skipped}")
+        print(f"[{ag.agency_id}][summarize] 処理 {st.processed} / 採用 {st.accepted} / 却下 {st.rejected} / スキップ {st.skipped}")
         for err in st.errors:
             print(f"  {err}", file=sys.stderr)
 
     if args.task in ("all", "review") and ev_rows:
-        memo = review_changes(client, budget, ev_rows, summaries_csv=SUMMARIES_CSV, dry_run=args.dry_run)
+        memo = review_changes(client, budget, ev_rows, summaries_csv=summaries_csv, dry_run=args.dry_run)
         if memo:
             if args.review_out:
                 args.review_out.parent.mkdir(parents=True, exist_ok=True)
                 args.review_out.write_text(memo, encoding="utf-8", newline="\n")
-                print(f"[review] 検討メモ出力: {args.review_out}")
+                print(f"[{ag.agency_id}][review] 検討メモ出力: {args.review_out}")
             else:
                 print(memo)
 
-    print(f"LLM 呼び出し合計: {budget.used} / {budget.limit}")
+    print(f"[{ag.agency_id}] LLM 呼び出し合計: {budget.used} / {budget.limit}")
     return 0
 
 
