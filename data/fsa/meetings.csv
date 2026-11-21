@@ -1,6 +1,9 @@
 meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
 singi_kinyu/base_tousin#9,singi_kinyu/base_tousin,,9,,2000-12-21,平成12年12月21日,,,,,,1,link,/singi/singi_kinyu/base_tousin.html
 singi_zidousya/zid_base#152,singi_zidousya/zid_base,,152,,,,,,,,,1,link,/singi/singi_zidousya/zid_base.html
+ai_forum#2,ai_forum,,2,「金融庁 AI官民フォーラム」（第２回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251024.html,53,page,/singi/ai_forum/gijiyoshi/20251024.html /singi/ai_forum/siryou/20250912.html
+ai_forum#3,ai_forum,,3,「金融庁 AI官民フォーラム」（第３回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251112.html,53,page,/singi/ai_forum/gijiyoshi/20251112.html /singi/ai_forum/siryou/20251028.html
+ai_forum#4,ai_forum,,4,「金融庁 AI官民フォーラム」（第４回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20260122.html,53,page,/singi/ai_forum/gijiyoshi/20260122.html /singi/ai_forum/siryou/20251218.html
 stewardship#1,stewardship,,1,,,,,,,,,2,link,/singi/stewardship/index.html
 stewardship#2,stewardship,,2,,,,,,,,,2,link,/singi/stewardship/index.html
 stewardship#3,stewardship,,3,,,,,,,,,2,link,/singi/stewardship/index.html
@@ -18,3 +21,35 @@ japan_corporate_governance_forum#10,japan_corporate_governance_forum,,10,,,,,,,,
 japan_corporate_governance_forum#12,japan_corporate_governance_forum,,12,,,,,,,,,1,link,/singi/japan_corporate_governance_forum/index.html
 sustainable_finance#30,sustainable_finance,,30,,,,,,,,,1,link,/singi/sustainable_finance/index.html
 singi_trouble#3,singi_trouble,,3,,,,,,,,,1,link,/singi/singi_trouble/index.html
+kyouikukenkyukaitou/kenkyukai#1,kyouikukenkyukaitou/kenkyukai,,1,,2012-11-08,平成24年11月8日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#2,kyouikukenkyukaitou/kenkyukai,,2,,2012-11-27,平成24年11月27日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#3,kyouikukenkyukaitou/kenkyukai,,3,,2012-12-05,平成24年12月5日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#4,kyouikukenkyukaitou/kenkyukai,,4,,2013-01-29,平成25年1月29日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#5,kyouikukenkyukaitou/kenkyukai,,5,,2013-02-27,平成25年2月27日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#6,kyouikukenkyukaitou/kenkyukai,,6,,2013-03-22,平成25年3月22日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#7,kyouikukenkyukaitou/kenkyukai,,7,,2013-04-17,平成25年4月17日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kan-min#2,kan-min,,2,,2013-05-13,平成25年5月13日,,,,,,1,link,/singi/kan-min/index.html
+kan-min#3,kan-min,,3,,2014-03-27,平成26年3月27日,,,,,,1,link,/singi/kan-min/index.html
+singi_keizai_kyouiku/keizai_kyouiku#1,singi_keizai_kyouiku/keizai_kyouiku,,1,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#2,singi_keizai_kyouiku/keizai_kyouiku,,2,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#3,singi_keizai_kyouiku/keizai_kyouiku,,3,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#4,singi_keizai_kyouiku/keizai_kyouiku,,4,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#5,singi_keizai_kyouiku/keizai_kyouiku,,5,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#6,singi_keizai_kyouiku/keizai_kyouiku,,6,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#7,singi_keizai_kyouiku/keizai_kyouiku,,7,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#8,singi_keizai_kyouiku/keizai_kyouiku,,8,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_hyoutei/singi_hyoutei#2,singi_hyoutei/singi_hyoutei,,2,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#3,singi_hyoutei/singi_hyoutei,,3,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#4,singi_hyoutei/singi_hyoutei,,4,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#5,singi_hyoutei/singi_hyoutei,,5,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#6,singi_hyoutei/singi_hyoutei,,6,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#7,singi_hyoutei/singi_hyoutei,,7,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#8,singi_hyoutei/singi_hyoutei,,8,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#9,singi_hyoutei/singi_hyoutei,,9,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#10,singi_hyoutei/singi_hyoutei,,10,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#11,singi_hyoutei/singi_hyoutei,,11,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#12,singi_hyoutei/singi_hyoutei,,12,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#13,singi_hyoutei/singi_hyoutei,,13,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#14,singi_hyoutei/singi_hyoutei,,14,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#15,singi_hyoutei/singi_hyoutei,,15,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_zeisei/si_zeisei#1,singi_zeisei/si_zeisei,,1,,2003-10-24,平成15年10月24日,,,,,,1,link,/singi/singi_zeisei/si_zeisei.html

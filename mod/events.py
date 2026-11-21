@@ -387,10 +387,12 @@ def check_regressions(before: Snapshot, after: Snapshot, changed_pages: set[str]
     for key, r in _member_map(before.members).items():
         if key not in new_members:
             src = r.get("source", "")
-            explained = src in changed_pages
+            explained = src in changed_pages or (
+                r["council_id"] in changed_councils and bool(changed_doc_keys or (changed_pages - set(before.pages)))
+            )
             report.disappeared.append(DisappearedRow(
                 "members.csv", f"{r['council_id']}/{r['name']}", src, explained,
-                "変更ページ" if explained else "元ページは未変更",
+                "変更ページまたは新規取得資料" if explained else "元ページは未変更",
             ))
 
     # 4. meetings.csv
@@ -417,13 +419,22 @@ def check_regressions(before: Snapshot, after: Snapshot, changed_pages: set[str]
             report.disappeared.append(DisappearedRow("meetings.csv", mid, " ".join(sorted(srcs)), explained, reason))
 
     # 5. documents.csv (keyed by (council_id, doc_key) so WARP moves are NOT disappearances)
+    from urllib.parse import urlsplit
+
     new_doc_keys = {(d["council_id"], _doc_key_of(d)) for d in after.documents}
     for d in before.documents:
         dk = _doc_key_of(d)
         if (d["council_id"], dk) not in new_doc_keys:
             src = d.get("source", "")
-            explained = src in changed_pages or dk in changed_doc_keys
-            reason = "変更ページまたは doc_key 変更" if explained else "元ページは未変更"
+            target_path = urlsplit(d.get("url", "")).path
+            promoted_to_page = (
+                target_path in changed_pages
+                or target_path.rstrip("/") in changed_pages
+                or target_path in after.pages
+                and target_path not in before.pages
+            )
+            explained = src in changed_pages or dk in changed_doc_keys or promoted_to_page
+            reason = "変更ページ・doc_key変更・会議ページ昇格" if explained else "元ページは未変更"
             report.disappeared.append(DisappearedRow("documents.csv", f"{d['council_id']}:{dk}", src, explained, reason))
 
     # 6. attendance.csv

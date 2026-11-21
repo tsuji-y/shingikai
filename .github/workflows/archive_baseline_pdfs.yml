@@ -41,11 +41,26 @@ jobs:
           else
             AGENCIES="$TARGET"
           fi
+
+          # 1 ドメイン 1 プロセス（2 秒間隔直列）を守りつつ、未アーカイブ PDF を最大 6 省庁並列で再取得
+          running=0
           for ag in $AGENCIES; do
             if [ ! -f "raw/${ag}/files.csv" ]; then
               continue
             fi
-            python3 mod/fetch_files.py --agency "$ag" --refetch-missing
+            python3 mod/fetch_files.py --agency "$ag" --refetch-missing --only-unarchived &
+            running=$((running + 1))
+            if [ "$running" -ge 6 ]; then
+              wait -n || true
+              running=$((running - 1))
+            fi
+          done
+          wait
+
+          for ag in $AGENCIES; do
+            if [ ! -f "raw/${ag}/files.csv" ]; then
+              continue
+            fi
             TAG_ARGS=(--agency "$ag" --bundle)
             if [ -n "${{ inputs.tag }}" ] && [ "$TARGET" != "all" ]; then
               TAG_ARGS+=(--tag "${{ inputs.tag }}")

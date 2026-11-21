@@ -82,6 +82,7 @@ def targets(documents: Path = DOCUMENTS, council: str = "",
 
 def select_targets(urls: list[str], rows: dict[str, dict[str, str]], *,
                    retry: bool = False, refetch_missing: bool = False,
+                   only_unarchived: bool = False,
                    files_dir: Path = FILES_DIR) -> list[str]:
     """取得する URL を選ぶ。既定では台帳に SHA-256 があれば取得済みとして飛ばす。"""
     todo = []
@@ -89,9 +90,13 @@ def select_targets(urls: list[str], rows: dict[str, dict[str, str]], *,
         done = rows.get(url)
         if done and done.get("sha256"):
             if refetch_missing and not local_path(url, files_dir).exists():
+                if only_unarchived and done.get("release_url"):
+                    continue
                 todo.append(url)
             continue
         if done and not done.get("sha256") and not retry:
+            continue
+        if only_unarchived and (not done or not done.get("sha256")):
             continue
         todo.append(url)
     return todo
@@ -195,13 +200,17 @@ def fetch(url: str, max_bytes: int = MAX_BYTES, *, if_modified_since: str = "",
 
 def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir: Path = FILES_DIR, *,
               limit: int = 0, retry: bool = False, refetch_missing: bool = False,
+              only_unarchived: bool = False,
               council: str = "", hosts: list[str] | None = None, doc_types: set[str] | None = None,
               dry_run: bool = False, interval: float = INTERVAL,
               fetcher=fetch) -> FetchSummary:
     """未取得の PDF を取得する。403・429 なら Blocked を送出する。"""
     rows = read_manifest(manifest)
     all_urls = targets(documents, council=council, hosts=hosts, doc_types=doc_types)
-    todo = select_targets(all_urls, rows, retry=retry, refetch_missing=refetch_missing, files_dir=files_dir)
+    todo = select_targets(
+        all_urls, rows, retry=retry, refetch_missing=refetch_missing,
+        only_unarchived=only_unarchived, files_dir=files_dir,
+    )
     if limit:
         todo = todo[:limit]
     summary = FetchSummary()
@@ -289,6 +298,8 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=0, help="取得する件数の上限（0 は無制限）")
     ap.add_argument("--retry", action="store_true", help="前回 200 以外だったものも取り直す")
     ap.add_argument("--refetch-missing", action="store_true", help="台帳にあるが手元にない PDF を取り直す")
+    ap.add_argument("--only-unarchived", action="store_true",
+                    help="台帳に sha256 があり release_url が未設定のものだけを対象にする")
     ap.add_argument("--check-replaced", action="store_true", help="取得済み PDF を条件付き取得で照合し、差し替えを検知する")
     ap.add_argument("--council", default="", help="対象の会議体 ID を絞る")
     ap.add_argument("--types", default="", help="取得する doc_type をカンマ区切りで絞る（例: 議事録,議事要旨,名簿）")
@@ -310,8 +321,8 @@ def main() -> int:
             print(f"[{ag.agency_id}] 照合 {res.checked} 件 / 差し替え {len(res.replaced)} 件 / エラー {len(res.failed)} 件", flush=True)
         else:
             res = fetch_new(documents, manifest, files_dir, limit=args.limit, retry=args.retry,
-                            refetch_missing=args.refetch_missing, council=args.council,
-                            hosts=hosts, doc_types=doc_types, dry_run=args.dry_run)
+                            refetch_missing=args.refetch_missing, only_unarchived=args.only_unarchived,
+                            council=args.council, hosts=hosts, doc_types=doc_types, dry_run=args.dry_run)
             print(f"[{ag.agency_id}] 保存 {len(res.saved)} 件 / 保存できなかったもの {len(res.failed)} 件", flush=True)
     except Blocked as e:
         print(f"中断: {e}", file=sys.stderr)

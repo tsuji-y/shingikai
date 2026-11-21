@@ -336,7 +336,11 @@ def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
                     queued_or_known.add(lk)
                     new_queue.append(lk)
     elif discover_unfetched:
-        for u in sorted(rows):
+        idx_set = set(ag.index_urls) | {agencies.normalize_path(u) for u in ag.index_urls}
+        ordered_existing = [u for u in ag.index_urls if u in rows] + [
+            u for u in sorted(rows) if u not in idx_set
+        ]
+        for u in ordered_existing:
             p = pages.resolve_local_path(u, raw_dir)
             if p.exists():
                 for link_path in discover_html_links(u, p.read_bytes(), agency=ag, council_rows=council_rows):

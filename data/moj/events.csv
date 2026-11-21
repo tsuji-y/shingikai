@@ -938,3 +938,129 @@ detected_at,event_type,council_id,meeting_id,target_key,before,after,source
 2026-11-21T14:40:53+00:00,member_added,1/kanbou_houkyo_kyougikai_index,,1/kanbou_houkyo_kyougikai_index/２ 委員/おか,,岡,/shingi1/kanbou_houkyo_kyougikai_index.html
 2026-11-21T14:40:53+00:00,member_added,1/kanbou_houkyo_kyougikai_index,,1/kanbou_houkyo_kyougikai_index/２ 委員/ひろ,,大,/shingi1/kanbou_houkyo_kyougikai_index.html
 2026-11-21T14:40:53+00:00,member_added,1/kanbou_houkyo_kyougikai_index,,1/kanbou_houkyo_kyougikai_index/２ 委員/ただ,,地,/shingi1/kanbou_houkyo_kyougikai_index.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou14.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou14.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html,,200,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_houkyouiku_index.html,,200,/shingi1/kanbou_houkyo_kyougikai_houkyouiku_index.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html,,200,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_qa01.html,,200,/shingi1/kanbou_houkyo_kyougikai_qa01.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_qa02.html,,200,/shingi1/kanbou_houkyo_kyougikai_qa02.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_qa03.html,,200,/shingi1/kanbou_houkyo_kyougikai_qa03.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_qa04.html,,200,/shingi1/kanbou_houkyo_kyougikai_qa04.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_qa_index.html,,200,/shingi1/kanbou_houkyo_kyougikai_qa_index.html
+2026-11-21T15:29:11+00:00,page_added,1/kanbou_houkyo_kyougikai_index,,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html,,200,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#12,1/kanbou_houkyo_kyougikai_index#12,,法教育推進協議会（第１２回）議事概要 2006-12-22,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#13,1/kanbou_houkyo_kyougikai_index#13,,法教育推進協議会（第１３回）議事概要 2007-02-06,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,1/kanbou_houkyo_kyougikai_index#15,,法教育推進協議会（第１５回）議事概要 2007-07-19,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,1/kanbou_houkyo_kyougikai_index#16,,法教育推進協議会（第１６回）議事概要 2007-09-10,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,1/kanbou_houkyo_kyougikai_index#17,,法教育推進協議会（第１７回）議事概要 2007-12-19,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#18,1/kanbou_houkyo_kyougikai_index#18,,法教育推進協議会（第１８回）議事概要 2008-04-16,/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,1/kanbou_houkyo_kyougikai_index#19,,法教育推進協議会（第１９回）議事概要 2009-03-16,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/「私法分野教育の充実と法教育の更なる発展に向けて」について#14,1/kanbou_houkyo_kyougikai_index/「私法分野教育の充実と法教育の更なる発展に向けて」について#14,,,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/ルールづくり#14,1/kanbou_houkyo_kyougikai_index/ルールづくり#14,,,/shingi1/kanbou_houkyo_kyougikai_qa01.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/司法#14,1/kanbou_houkyo_kyougikai_index/司法#14,,,/shingi1/kanbou_houkyo_kyougikai_qa04.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/小学生を対象とした法教育教材例の作成について#14,1/kanbou_houkyo_kyougikai_index/小学生を対象とした法教育教材例の作成について#14,,,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/憲法の意義#14,1/kanbou_houkyo_kyougikai_index/憲法の意義#14,,,/shingi1/kanbou_houkyo_kyougikai_qa03.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/法教育Ｑ＆Ａ#14,1/kanbou_houkyo_kyougikai_index/法教育Ｑ＆Ａ#14,,,/shingi1/kanbou_houkyo_kyougikai_houkyouiku_index.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/私法と消費者保護#14,1/kanbou_houkyo_kyougikai_index/私法と消費者保護#14,,,/shingi1/kanbou_houkyo_kyougikai_qa02.html
+2026-11-21T15:29:11+00:00,meeting_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index/Ｑ＆Ａ集#14,1/kanbou_houkyo_kyougikai_index/Ｑ＆Ａ集#14,,,/shingi1/kanbou_houkyo_kyougikai_qa_index.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#12,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html,,議事要旨: 法教育推進協議会（第１２回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#12,www.moj.go.jp/content/000004285.pdf,,資料: (１) 「日本国憲法の保障する「基本的人権」の意味について －「法教育」との関連において－」,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#12,www.moj.go.jp/content/000004286.pdf,,その他: (２) 公民を学んで,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#12,www.moj.go.jp/content/000004287.pdf,,その他: (３) Ｑ＆Ａ目次（案）,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#12,www.adobe.com/jp/products/acrobat/readstep2.html,,その他: Adobe Readerのダウンロードページへ,/shingi1/kanbou_houkyo_kyougikai_gaiyou12.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#13,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html,,議事要旨: 法教育推進協議会（第１３回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#13,www.moj.go.jp/content/000004328.pdf,,資料: (１) 「民法分野における法教育の今後について」,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#13,www.moj.go.jp/content/000004329.pdf,,その他: (２) 「消費者教育の今後の方向性」,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#13,www.moj.go.jp/content/000004330.pdf,,その他: (３) 「消費者教育の体系シート－ライフステージに応じた領域別目標－」,/shingi1/kanbou_houkyo_kyougikai_gaiyou13.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#14,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou14.html,,議事要旨: 法教育推進協議会（第１４回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou14.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#14,www.moj.go.jp/content/000004288.pdf,,資料: (１) 「法教育推進協議会の協議の状況について（案）」,/shingi1/kanbou_houkyo_kyougikai_gaiyou14.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html,,議事要旨: 法教育推進協議会（第１５回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004289.pdf,,資料: (１) 法教育推進協議会の協議の状況について,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004292.pdf,,名簿: (２) 法教育推進協議会委員名簿,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004293.pdf,,規程: (３) 法教育推進協議会開催要領（案）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004294.pdf,,その他: (４) 裁判所における法教育の取組み,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004295.pdf,,資料: (５－１) 日本弁護士連合会における法教育の取組（市民のための法教育委員会の活動について）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004296.pdf,,その他: (５－２) 日本弁護士連合会における法教育の取組（弁護士・弁護士会における法教育に関する最近の活動）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004297.pdf,,資料: (６) 日本司法書士会連合会における法教育の取組（平成１７年度中・高生に対する法律教育への会員派遣について）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004298.pdf,,資料: (７) 鈴木委員資料（私法分野における法教育について）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004299.pdf,,資料: (８) 大村委員資料,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000001687.pdf,,その他: (１) あかれんが（Ｖｏｌ．１９）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004300.pdf,,その他: (２) 法教育夏季セミナー２００７,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004290.pdf,,その他: (３) 高校生模擬裁判選手権,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/content/000004291.pdf,,その他: (４) ０７’法教育シンポジウムＩｎ東京（案）,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#15,www.moj.go.jp/alaya/preview,,その他: 戻る,/shingi1/kanbou_houkyo_kyougikai_gaiyou15.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html,,議事要旨: 法教育推進協議会（第１６回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,www.moj.go.jp/content/000004301.pdf,,規程: (１) 法教育推進協議会開催要領,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,www.moj.go.jp/content/000004302.pdf,,名簿: (２) 小学校教材作成部会構成員名簿,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,www.moj.go.jp/content/000004303.pdf,,資料: (３) 磯山委員資料（小学校社会科における法教育の可能性）,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,www.moj.go.jp/content/000004304.pdf,,資料: (４) 小林教諭資料（法教育の授業実践～６年「法律や裁判について考えよう」～）,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#16,www.moj.go.jp/content/000004305.pdf,,規程: (５) 細谷委員資料（学習指導要領（教科等）における法教育関連記述一覧）,/shingi1/kanbou_houkyo_kyougikai_gaiyou16.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html,,議事要旨: 法教育推進協議会（第１７回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004306.pdf,,名簿: (１) 小学校教材作成部会構成員名簿,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004307.pdf,,名簿: (２) 私法分野教育検討部会構成員名簿,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004308.pdf,,資料: (３)－１ 臼井教諭資料,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004309.pdf,,資料: (３)－２ 梅田教諭資料,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004310.pdf,,資料: (３)－３ 木村教諭資料,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004311.pdf,,資料: (３)－４ 小林教諭資料,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004312.pdf,,資料: (４) 文部科学省神山専門官資料（教育課程部会におけるこれまでの審議のまとめ）,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#17,www.moj.go.jp/content/000004313.pdf,,資料: (５) 鈴木委員資料（私法分野への展開について）,/shingi1/kanbou_houkyo_kyougikai_gaiyou17.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#18,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html,,議事要旨: 法教育推進協議会（第１８回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#18,www.moj.go.jp/content/000004336.pdf,,その他: (１) 法教育の幾つかの問題,/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#18,www.moj.go.jp/content/000004337.pdf,,名簿: (２) 法教育推進協議会委員等名簿,/shingi1/kanbou_houkyo_kyougikai_gaiyou18.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html,,議事要旨: 法教育推進協議会（第１９回）議事概要,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/content/000004338.pdf,,その他: (１)－１ 私法分野教育の充実と法教育の更なる発展に向けて（案）,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/content/000004339.pdf,,その他: (１)－２ 「約束をすること、守ること」に関する教材,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/content/000004340.pdf,,その他: (１)－３ 「経済活動を支える私法の基本的な考え方及び雇用・労働問題」に関する教材,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/content/000004341.pdf,,その他: (１)－４ 「現代社会をとらえる見方や考え方ときまり・契約」に関する教材,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/content/000004342.pdf,,その他: (１)－５ 「労働を巡る法と歴史」に関する教材,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index#19,www.moj.go.jp/content/000004343.pdf,,名簿: (２) 法教育推進協議会委員名簿,/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004344.pdf,,資料: 小学生を対象とした法教育教材例の作成について,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004345.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004346.doc,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004347.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021110.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021111.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021112.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004348.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004349.doc,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004350.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021113.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021114.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021115.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000077150.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000077151.doc,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000077152.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000077153.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000077154.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000077155.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_kyouzai_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004354.pdf,,その他: 私法分野教育の充実と法教育の更なる発展に向けて,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004355.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004356.doc,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004357.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021119.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021120.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021121.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004358.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004359.xls,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004360.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021122.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021123.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021124.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004361.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004362.doc,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004363.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021125.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021126.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021127.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004364.doc,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004365.xls,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000004366.doc,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021128.jtd,,その他: 教材,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021129.jtd,,その他: 指導計画,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html
+2026-11-21T15:29:11+00:00,document_added,1/kanbou_houkyo_kyougikai_index,,www.moj.go.jp/content/000021130.jtd,,その他: ワークシート,/shingi1/kanbou_houkyo_kyougikai_shiryou_top.html

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<meta name="keywords" content="首相官邸,政府,内閣,総理,内閣官房,人身取引" />
+	<meta name="description" content="人身取引は重大な人権侵害であり、また、深刻な国際問題であることから、犯罪対策閣僚会議の下で「人身取引対策推進会議」を開催しています。" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>人身取引対策推進会議</title>
+	<script charset="utf-8" type="text/javascript" src="/jp/n5-common/js/jquery-3.6.0.min_202204.js"></script>
+	<script src="/jp/seisakukaigi/common/js/quicks.js" type="text/javascript"></script>
+	<style type="text/css">
+		/*全体の設定*/
+		body {text-align: center; /*全体を中央寄せ*/ line-height: 130%;	/*行間の調整*/}
+		/*要素のクリア*/
+		*+html .clearfix {display: inline-block; display: inline; zoom: 1;}
+		* html .clearfix {display: inline-block; display: inline; zoom: 1;}
+		.clearfix:after {content: "."; display: block; height: 0px; clear: both; visibility: hidden;}
+		/*パンくずエリアの設定*/
+		div.breadcrumb {font-size: 80%;	vertical-align: middle;	padding: 4px 6px 4px 0;}
+		div.breadcrumb span {color: #333333; padding: 0 0 0 6px;}
+		div.breadcrumb a {color: #0000ff;	padding: 0 0 0 6px;}
+		/*各種Hタグの設定*/
+		h5 {position: relative; padding: 0 0 0.2em 30px; color: #000; font-size: 100%; margin:3em 0 -1em 0.2em; font-weight:normal;}
+		h5:before {position: absolute;	top: 4px; left: 5px; width: 10px; height: 10px; border: 1px solid #000; content: "";}
+		/*背景が黄色のボックス*/
+		div.box_type_b {background-color: #ffffcc;	line-height: 1.5em;	padding: 1.5em 1.5em; border: 1px solid #999999; border-radius: 2px; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 2px rgba(255, 255, 255, 0.3) inset, 0 0 10px rgba(0, 0, 0, 0.1) inset,	0 1px 20px rgba(0, 0, 0, 0.1);	margin: 3em auto; width: 85%; text-align: left;}
+		/*リストの設定*/
+		/*リスト共通設定*/
+		ul {margin: 1em 0;}
+		ol {margin: 1em 0;}
+		li {margin: 0.8em 0;}
+		/*リスト記号なし*/
+		ul.listnone {list-style: none; margin-left: -1em;}
+		/*テーブル設定*/
+		/*テーブル共通設定*/
+		th {font-weight: normal;background-color: #F7F8E0;	padding: 0.5em;}
+		td {padding: 0.5em;}
+		.nowrap {white-space: nowrap;}
+		/*汎用型テーブル*/
+		.blocktable99 {width: 99%; border-collapse: collapse; margin: 1em 0 1em 1.5em;}
+		.blocktable70 {width: 80%; border-collapse: collapse; margin: 1em 0 1em 1.5em;}
+		/*議事次第専用*/
+		.blocktable99 td {vertical-align: top; padding: 5px 10px;}
+		.blocktable70 td {vertical-align: top; padding: 5px 10px;}
+		/*フォントサイズ*/
+		.fs80 {font-size: 80%;}
+		/*フォントカラー*/
+		span.red {color: #FF0000;}
+		span.rose {color: #FF0040;}
+		/*各種マージン*/
+		.mt0_5 {margin-top: 0.5em;}
+		.mt1 {margin-top: 1em;}
+		.mt1_5 {margin-top: 1.5em;}
+		.mt2 {margin-top: 2em;}
+		.mt2_5 {margin-top: 2.5em;}
+		.mt3 {margin-top: 3em;}
+		.mt3_5 {margin-top: 3.5em;}
+		.mt4 {margin-top: 4em;}
+		.mt4_5 {margin-top: 4.5em;}
+		.mt5 {margin-top: 5em;}
+		.mb1 {margin-bottom: 1em;}
+		.mb1_5 {margin-bottom: 1.5em;}
+		.mb2 {margin-bottom: 2em;}
+		.mb2_5 {margin-bottom: 2.5em;}
+		.mb3 {margin-bottom: 3em;}
+		.mb3_5 {margin-bottom: 3.5em;}
+		.mb4 {margin-bottom: 4em;}
+		.mb4_5 {margin-bottom: 4.5em;}
+		.mb5 {margin-bottom: 5em;}
+		.mr1 {margin-right: 1em;}
+		.mr1_5 {margin-right: 1.5em;}
+		.mr2 {margin-right: 2em;}
+		.mr2_5 {margin-right: 2.5em;}
+		.mr3 {margin-right: 3em;}
+		.mr3_5 {margin-right: 3.5em;}
+		.mr4 {margin-right: 4em;}
+		.mr4_5 {margin-right: 4.5em;}
+		.mr5 {margin-right: 5em;}
+		.ml1 {margin-left: 1em;}
+		.ml1_5 {margin-left: 1.5em;}
+		.ml2 {margin-left: 2em;}
+		.ml2_5 {margin-left: 2.5em;}
+		.ml3 {margin-left: 3em;}
+		.ml3_5 {margin-left: 3.5em;}
+		.ml4 {margin-left: 4em;}
+		.ml4_5 {margin-left: 4.5em;}
+		.ml5 {margin-left: 5em;}
+		/*各種パディング*/
+		.pl1 {padding-left: 1em;}
+		.pl2 {padding-left: 2em;}
+		.pl3 {padding-left: 3em;}
+		.pr1 {padding-right: 1em;}
+		.pr2 {padding-right: 2em;}
+		.pr3 {padding-right: 3em;}
+		.pt1 {padding-top: 1em;}
+		.pt2 {padding-top: 2em;}
+		.pt3 {padding-top: 3em;}
+		.pb1 {padding-bottom: 1em;}
+		.pb2 {padding-bottom: 2em;}
+		.pb3 {padding-bottom: 3em;}
+		/*各種インデント*/
+		.indent1 {text-indent: 1em; padding-left: -1em;}
+		.indent2 {text-indent: 2em; padding-left: -2em;}
+		.indent3 {text-indent: 3em; padding-left: -3em;}
+		.indent4 {text-indent: 4em; padding-left: -4em;}
+		.indent5 {text-indent: 5em; padding-left: -5em;}
+		.indent6 {text-indent: 6em; padding-left: -6em;}
+		.rindent1 {padding-left: 1em; text-indent: -1em;}
+		.rindent2 {padding-left: 2em; text-indent: -2em;}
+		.rindent3 {padding-left: 3em; text-indent: -3em;}
+		.rindent4 {padding-left: 4em; text-indent: -4em;}
+		.rindent5 {padding-left: 5em;text-indent: -5em;}
+		/*HRタグ設定*/
+		hr {border: none; border-top: solid 1px #ccc; height: 1px; color: #ffffff; margin: 3em 0 2em 0;}
+		/*PDFアイコン自動付与*/
+		a img {border-style: none;}
+		a[href$=".pdf"] {background: url(/jp/seisakukaigi/common/images/pdf_icon.gif) no-repeat 100% 50%;/* 背景を一度だけリンクの後ろ側に持ってくる */padding: 4px 16px 4px 2px;/* 余白を上下と左に取る */}
+		/*ページレイアウト設定*/
+		/*大枠*/
+		#site-box {width: 800px; margin: 0 auto; text-align: center;}
+		/*ヘッダー*/
+		#head {width: 800px; height: 96px; margin: 0 auto; text-align: left;}
+		/*パンくず*/
+		#breadcrumb_area {width: 800px; margin: 0 auto; text-align: left;}
+		/*タイトルロゴ*/
+		#title {width: 700px; margin: 1em auto; text-align: left;}
+		/*コンテントエリア*/
+		#contents {width: 650px; margin: 0 auto; text-align: left;}
+		/*フッター設定*/
+		#footer {color: #070719; font-size: 80%; text-align: left; margin: 10em auto 0 -10px; padding: 20px 10px 10px 10px; border-top: 1px solid #808080;	width: 650px;}
+		*+html #footer {display: inline-block; display: inline; zoom: 1;}
+		* html #footer {display: inline-block; display: inline; zoom: 1;}
+		#footer:after {content: "."; display: block; height: 0px; clear: both; visibility: hidden; display: none;}
+		#footer .outline {position: relative;}
+		#footer_l {float: left;	width: 510px; line-height: 1.3em;}
+		#footer_m {float: right; width: 140px; position: absolute; bottom: -5px; right: -20px;}
+		#footer_m a {background: url(/jp/seisakukaigi/common/images/listicon1.gif) no-repeat 0 0.4em; padding: 0 0 0 15px;	color: #171717;}
+		#footer_r {float: right; position: absolute; bottom: 0;	right: 0;}
+	</style>
+</head>
+
+<body>
+	<!-- ページエリアstart -->
+	<div id="site-box">
+
+		<!-- ヘッダーstart -->
+		<div id="head">
+			<img src="/images/header/seisaku2009.gif" width="800" height="96" usemap="#map1" border="0" alt="政策会議">
+			<map name="map1" id="map1">
+				<area shape="rect" coords="600,3,784,30" alt="内閣官房" href="/">
+				<area shape="rect" coords="674,52,785,74" alt="トップページへ" href="/">
+			</map>
+		</div>
+		<!-- ヘッダーend -->
+
+
+		<!-- パンくずstart -->
+		<div id="breadcrumb_area">
+			<div class="breadcrumb">
+				<a href="/">トップ</a> &gt; <a href="/jp/seisakukaigi/">会議等一覧</a>
+				&gt; 人身取引対策推進会議
+			</div>
+		</div>
+	</div>
+	<!-- パンくずend -->
+
+
+	<!--タイトルロゴ -->
+	<div id="title">
+		<img src="jinsintorihiki.gif" width="700" height="50" alt="人身取引対策推進会議">
+	</div>
+	<!-- タイトルロゴend -->
+
+
+	<!--コンテンツ -->
+	<div id="contents">
+
+		<div class="box_type_b indent1">
+			人身取引は重大な人権侵害であり、また、深刻な国際問題であることから、犯罪対策閣僚会議の下で「人身取引対策推進会議」を開催しています。
+		</div>
+
+		<h5><a href="pdf/konkyo.pdf" target="_blank">根拠</a>&emsp;・ <a href="pdf/kouseiin.pdf" target="_blank">構成員</a></h5>
+
+		<h5>開催状況</h5>
+
+		<table class="blocktable70">
+
+			<tr>
+				<td>第13回会合&emsp;令和８年９月15日</td>
+				<td><a href="dai13/gijishidai.pdf" target="_blank">議事次第・資料</a></td>
+				<td><a href="dai13/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+
+			<tr>
+				<td>第12回会合&emsp;令和８年１月16日</td>
+				<td><a href="dai12/gijishidai.pdf" target="_blank">議事次第・資料</a></td>
+				<td><a href="dai12/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+			<tr>
+				<td>第11回会合&emsp;令和７年８月26日<br>（持ち回り開催）</td>
+				<td><a href="dai11/gijisidai.pdf" target="_blank">議事次第</a></td>
+			</tr>
+			<tr>
+				<td>第10回会合&emsp;令和６年７月25日<br>（持ち回り開催）</td>
+				<td><a href="dai10/gijisidai.pdf" target="_blank">議事次第</a></td>
+			</tr>
+			<tr>
+				<td>第９回会合&emsp;令和５年６月30日<br>（持ち回り開催）</td>
+				<td><a href="dai9/gijisidai.pdf" target="_blank">議事次第</a></td>
+			</tr>
+			<tr>
+				<td>第８回会合 令和４年 ６月22日<br>（持ち回り開催）</td>
+				<td><a href="dai8/gijisidai.pdf" target="_blank">議事次第</a></td>
+			</tr>
+			<tr>
+				<td>第７回会合 令和３年 ６月７日<br>（持ち回り開催）</td>
+				<td><a href="dai7/gijisidai.pdf" target="_blank">議事次第</a></td>
+			</tr>
+			<tr>
+				<td>第６回会合 令和２年 ５月25日<br>（持ち回り開催）</td>
+				<td><a href="dai6/gijisidai.pdf" target="_blank">議事次第</a></td>
+			</tr>
+			<tr>
+				<td>第５回会合 令和元年 ５月24日</td>
+				<td><a href="dai5/gijisidai.pdf" target="_blank">議事次第</a></td>
+				<td><a href="dai5/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+			<tr>
+				<td>第４回会合 平成30年 ５月18日</td>
+				<td><a href="dai4/gijisidai.pdf" target="_blank">議事次第</a></td>
+				<td><a href="dai4/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+
+			<tr>
+				<td>第３回会合 平成29年 ５月30日</td>
+				<td><a href="dai3/gijisidai.pdf" target="_blank">議事次第</a></td>
+				<td><a href="dai3/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+			<tr>
+				<td>第２回会合 平成28年 ５月25日</td>
+				<td><a href="dai2/gijisidai.pdf" target="_blank">議事次第</a></td>
+				<td><a href="dai2/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+			<tr>
+				<td>第１回会合 平成27年 ５月８日</td>
+				<td><a href="pdf/gijisidai.pdf" target="_blank">議事次第</a></td>
+				<td><a href="pdf/gijiroku.pdf" target="_blank">議事録</a></td>
+			</tr>
+
+		</table>
+
+
+		<h5>決定</h5>
+
+		<p class="pl2">令和８年９月15日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai13/honbun.pdf" target="_blank">本文</a>／<a href="dai13/gaiyou.pdf" target="_blank">概要</a><!-- ／<a href="dai13/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))</a>／<a href="dai13/eigoban_gaiyo.pdf" target="_blank">Outline(English)</a> -->］</p>
+
+		<p class="pl2">令和７年８月26日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai11/honbun.pdf" target="_blank">本文</a>／<a href="dai11/gaiyou.pdf" target="_blank">概要</a>／<a href="dai11/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))</a>／<a href="dai11/eigoban_gaiyo.pdf" target="_blank">Outline(English)</a>］</p>
+		<p class="pl2">令和６年７月25日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai10/honbun.pdf" target="_blank">本文</a>／<a href="dai10/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation)) </a>／<a href="dai10/eigoban_gaiyou.pdf" target="_blank">Outline(English)</a>］</p>
+		<p class="pl2">令和５年６月30日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai9/honbun.pdf" target="_blank">本文</a>／<a href="dai9/gaiyou.pdf" target="_blank">概要</a>／<a href="dai9/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))</a>／<a href="dai9/eigoban_gaiyou.pdf" target="_blank">Outline(English)</a>］</p>
+		<p class="pl2">令和４年 ６月22日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai8/honbun.pdf" target="_blank">本文</a>／<a href="dai8/gaiyou.pdf" target="_blank">概要</a>／<a href="dai8/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))</a>／<a href="dai8/eigoban_gaiyou.pdf" target="_blank">Outline(English)</a>］</p>
+		<p class="pl2">令和３年 ６月７日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai7/honbun.pdf" target="_blank">本文</a>／<a href="dai7/gaiyou.pdf" target="_blank">概要</a>／<a href="dai7/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))</a>／<a href="dai7/eigoban_gaiyou.pdf" target="_blank">Outline(English)</a>］</p>
+		<p class="pl2">令和２年 ５月25日&emsp;人身取引（性的サービスや労働の強要等）対策に関する取組について［<a href="dai6/honbun.pdf" target="_blank">本文</a>／<a href="dai6/gaiyou.pdf" target="_blank">概要</a>／<a href="dai5/eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))</a>／<a href="dai5/eigoban_gaiyou.pdf" target="_blank">Outline(English)</a>］</p>
+		<p class="pl2">令和元年 ５月24日&emsp;人身取引対策に関する取組について［<a href="dai5/honbun.pdf" target="_blank">本文</a>／<a href="dai5/gaiyou.pdf" target="_blank">概要</a>／<a href="dai5/eigoban.pdf" target="_blank">Full text(English(Provisional translation))</a>］</p>
+		<p class="pl2">平成30年 ５月18日&emsp;人身取引対策に関する取組について［<a href="dai4/honbun.pdf" target="_blank">本文</a>／<a href="dai4/gaiyou.pdf" target="_blank">概要</a>／<a href="dai4/eigoban.pdf" target="_blank">Full text(English(Provisional translation))</a>］</p>
+		<p class="pl2">平成29年 ５月30日&emsp;人身取引対策に関する取組について［<a href="dai3/honbun.pdf" target="_blank">本文</a>／<a href="dai3/gaiyou.pdf" target="_blank">概要</a>／<a href="dai3/eigoban.pdf" target="_blank">Full text(English(Provisional translation))</a>］</p>
+		<p class="pl2">平成28年 ５月20日&emsp;人身取引対策に関する取組について［<a href="dai2/honbun.pdf" target="_blank">本文</a>／<a href="dai2/gaiyou.pdf" target="_blank">概要</a>／<a href="dai2/eigoban.pdf" target="_blank">Full text(English(Provisional translation))</a>］</p>
+		<p class="pl2">平成27年 ５月８日&emsp;人身取引対策に関する取組について［<a href="pdf/honbun1.pdf" target="_blank">本文</a>／<a href="pdf/gaiyou1.pdf" target="_blank">概要</a>／<a href="pdf/eigoban.pdf" target="_blank">Full	text(English(Provisional translation))</a></p>
+
+		<h5>人身取引対策行動計画2026&emsp;［<a href="pdf/2026_keikaku/honbun.pdf" target="_blank">本文</a>／<a href="pdf/2026_keikaku/gaiyo.pdf" target="_blank">概要</a><!-- ／<a	href="dai9/20221220_eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))	</a>／<a href="dai9/eigoban_gaiyou.pdf" target="_blank">Outline(English(Provisional translation))</a> -->］</h5>
+
+		<h5>人身取引対策行動計画2022&emsp;［<a href="/jp/seisakukaigi/hanzai/kettei/221220/honbun-2.pdf" target="_blank">本文</a>／<a href="/jp/seisakukaigi/hanzai/kettei/221220/gaiyou-2.pdf" target="_blank">概要</a>／<a	href="dai9/20221220_eigoban_honbun.pdf" target="_blank">Full text(English(Provisional translation))	</a>／<a href="dai9/eigoban_gaiyou.pdf" target="_blank">Outline(English(Provisional translation))</a>］</h5>
+
+		<h5>人身取引対策行動計画2014&emsp;［<a href="pdf/honbun2.pdf" target="_blank">本文</a>／<a href="pdf/gaiyou2.pdf" target="_blank">概要</a>／<a href="pdf/english-ver.pdf" target="_blank">Full text(English(Provisional translation))</a>］</h5>
+
+
+		<h5><a href="pdf/260930_hogo_manual.pdf" target="_blank">人身取引事案の取扱方法（被害者の保護に関する措置）について</a></h5>
+
+		<h5><a href="pdf/260930_ninchi_manual.pdf" target="_blank">人身取引事案の取扱方法（被害者の認知に関する措置）について</a></h5>
+		<h5><a href="https://www.mofa.go.jp/policy/i_crime/people/pamphlet.pdf" target="_blank">英語版パンフレット&emsp;"Japan’s Actions to Combat Trafficking in Persons"（PDF）</a> <img src="/jp/seisakukaigi/common/images/external_link.png" alt="別ウィンドウで開きます" /></h5>
+		<h5><a href="pdf/soudan.pdf" target="_blank">人身取引に関する情報提供・御相談等はこちら</a></h5>
+
+		<h5>関係省庁ホームページへのリンク</h5>
+
+		<table class="blocktable99">
+			<tr>
+				<td>政府広報オンラインの人身取引対策に関する情報はこちら&nbsp;&nbsp;（<a href="http://www.gov-online.go.jp/useful/article/201111/3.html" target="_blank">政府広報オンライン</a> <img src="/jp/seisakukaigi/common/images/external_link.png" alt="別ウィンドウで開きます" />）</td>
+			</tr>
+			<tr>
+				<td>人身取引事案の取締り状況等はこちら&nbsp;&nbsp;（<a href="https://www.npa.go.jp/bureau/safetylife/hoan/jinshintorihiki/index.html" target="_blank">警察庁</a> <img src="/jp/seisakukaigi/common/images/external_link.png" alt="別ウィンドウで開きます" />）</td>
+			</tr>
+			<tr>
+				<td>人身取引に関する出入国管理等の取組はこちら&nbsp;&nbsp;（<a href="https://www.moj.go.jp/isa/publications/materials/zinsin_index.html" target="_blank">出入国在留管理庁</a> <img src="/jp/seisakukaigi/common/images/external_link.png" alt="別ウィンドウで開きます" />）（<a href="http://www.mofa.go.jp/mofaj/toko/visa/topics/jinshin.html" target="_blank">外務省</a> <img src="/jp/seisakukaigi/common/images/external_link.png"	alt="別ウィンドウで開きます" />）</td>
+			</tr>
+			<tr>
+				<td>人身取引に関する国際的取組はこちら&nbsp;&nbsp;（<a href="http://www.mofa.go.jp/mofaj/gaiko/jinshin/index.html" target="_blank">外務省</a> <img src="/jp/seisakukaigi/common/images/external_link.png" alt="別ウィンドウで開きます" />）</td>
+			</tr>
+			<tr>
+				<td>人身取引被害者に関する対応等はこちら&nbsp;&nbsp;（<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/kodomo_kosodate/dv/index_00023.html" target="_blank">厚生労働省</a> <img src="/jp/seisakukaigi/common/images/external_link.png" alt="別ウィンドウで開きます" />）</td>
+			</tr>
+		</table>
+
+		<h5>お知らせ</h5>
+		<p class="indent2"><a href="https://public-comment.e-gov.go.jp/pcm/download?seqNo=0000321735" target="_blank">「人身取引対策行動計画2026（仮称）」（案）に関する意見募集結果について</a></p>
+
+		<p class="indent2"><a href="https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCM1040&id=060221031&Mode=1" target="_blank">「人身取引対策行動計画2022（仮称）」（案）に関する意見募集結果について</a></p>
+		<p class="indent2"><a href="pdf/boshukekka.pdf" target="_blank">「人身取引対策行動計画2014（仮称）」（案）に関する意見の募集結果について</a></p>
+
+		<div id="footer">
+			<div class="outline clearfix">
+				<div id="footer_l">
+					<b>内閣官房副長官補室</b><br>
+					〒100-8968&emsp;東京都千代田区永田町１－６－１<br>
+					TEL. 03-5253-2111（内線82434）
+				</div>
+				<div id="footer_m">
+					<a href="#head">ページトップへ戻る</a>
+				</div>
+			</div>
+		</div>
+		<!--コンテンツ end -->
+	</div>
+
+</body>
+
+</html>

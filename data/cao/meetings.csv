@@ -1,57 +1,85 @@
 meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
-index#1,index,,1,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#2,index,,2,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#3,index,,3,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#4,index,,4,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#5,index,,5,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#6,index,,6,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#7,index,,7,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#8,index,,8,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#9,index,,9,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#10,index,,10,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#11,index,,11,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#12,index,,12,,,,,,,,,2,link,/consumer/index.html /consumer/shinchaku/index.html
-index#13,index,,13,,,,,,,,,2,link,/consumer/index.html /consumer/shinchaku/index.html
-index#14,index,,14,,,,,,,,,2,link,/consumer/index.html /consumer/shinchaku/index.html
-index#15,index,,15,,,,,,,,,2,link,/consumer/index.html /consumer/about/schedule.html /consumer/shinchaku/index.html
-index#16,index,,16,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#17,index,,17,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#18,index,,18,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#19,index,,19,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#20,index,,20,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#80,index,,80,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#81,index,,81,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#82,index,,82,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#83,index,,83,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#90,index,,90,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#91,index,,91,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#92,index,,92,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#93,index,,93,,,,,,,,,2,link,/consumer/shinchaku/index.html
+index#1,index,,1,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#2,index,,2,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#3,index,,3,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#4,index,,4,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#5,index,,5,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#6,index,,6,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#7,index,,7,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#8,index,,8,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#9,index,,9,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#10,index,,10,,,,,,,,,2,link,/consumer/shinchaku/2025/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#11,index,,11,,,,,,,,,2,link,/consumer/shinchaku/2025/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#12,index,,12,,,,,,,,,2,link,/consumer/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#13,index,,13,,,,,,,,,2,link,/consumer/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#14,index,,14,,,,,,,,,2,link,/consumer/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#15,index,,15,,,,,,,,,2,link,/consumer/index.html /consumer/about/schedule.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#16,index,,16,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#17,index,,17,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#18,index,,18,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#19,index,,19,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#20,index,,20,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#80,index,,80,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#81,index,,81,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#82,index,,82,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#83,index,,83,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#90,index,,90,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#91,index,,91,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#92,index,,92,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#93,index,,93,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
 index#94,index,,94,,,,,,,,,1,link,/consumer/index.html /consumer/about/schedule.html
-index#479,index,,479,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#480,index,,480,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#481,index,,481,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#482,index,,482,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#483,index,,483,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#484,index,,484,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#485,index,,485,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#486,index,,486,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#487,index,,487,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#488,index,,488,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#489,index,,489,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#490,index,,490,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#491,index,,491,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#492,index,,492,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#493,index,,493,,,,,,,,,2,link,/consumer/shinchaku/index.html
-index#494,index,,494,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#495,index,,495,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#496,index,,496,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#497,index,,497,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#498,index,,498,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#499,index,,499,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#500,index,,500,,,,,,,,,1,link,/consumer/shinchaku/index.html
-index#501,index,,501,,,,,,,,,1,link,/consumer/index.html /consumer/shinchaku/index.html
-index#502,index,,502,,,,,,,,,1,link,/consumer/index.html /consumer/shinchaku/index.html
+index#451,index,,451,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#452,index,,452,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#453,index,,453,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#454,index,,454,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#455,index,,455,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#456,index,,456,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#457,index,,457,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#458,index,,458,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#459,index,,459,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#460,index,,460,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#461,index,,461,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#462,index,,462,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#463,index,,463,,,,,,,,,2,link,/consumer/shinchaku/2025/index.html
+index#464,index,,464,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#465,index,,465,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#466,index,,466,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#467,index,,467,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#468,index,,468,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#469,index,,469,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#470,index,,470,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#471,index,,471,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#472,index,,472,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#473,index,,473,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#474,index,,474,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#475,index,,475,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#476,index,,476,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#477,index,,477,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#478,index,,478,,,,,,,,,1,link,/consumer/shinchaku/2025/index.html
+index#479,index,,479,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#480,index,,480,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#481,index,,481,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#482,index,,482,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#483,index,,483,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#484,index,,484,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#485,index,,485,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#486,index,,486,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#487,index,,487,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#488,index,,488,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#489,index,,489,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#490,index,,490,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#491,index,,491,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#492,index,,492,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#493,index,,493,,,,,,,,,2,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#494,index,,494,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#495,index,,495,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#496,index,,496,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#497,index,,497,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#498,index,,498,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#499,index,,499,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#500,index,,500,,,,,,,,,1,link,/consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#501,index,,501,,,,,,,,,1,link,/consumer/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
+index#502,index,,502,,,,,,,,,1,link,/consumer/index.html /consumer/shinchaku/2026/index.html /consumer/shinchaku/index.html
 index@2009-12-14,index,,,,2009-12-14,2009年12月14日,,,,,,1,table,/consumer/about/kengi_teigen_iken.html
 index@2010-03-03,index,,,,2010-03-03,2010年3月3日,,,,,,1,table,/consumer/about/kengi_teigen_iken.html
 index@2010-03-25,index,,,,2010-03-25,2010年3月25日,,,,,,1,table,/consumer/about/kengi_teigen_iken.html
@@ -263,11 +291,16 @@ zei-cho/新着情報 2026年度#9,zei-cho,新着情報 2026年度,9,,,,,,,,,2,li
 zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-09-01,zei-cho,税制のEBPMに関する専門家会合 2026年度,,,2026-09-01,2026年 / 9月1日,,,WEB会議(財務省第1特別会議室を含む) ○赤井座長 ただいまから「税制のEBPMに関する専門家会合」の第7回を開会いたします。,,,3,table+pdf,/zei-cho/gijiroku/ebpm/index.html
 zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-10-09,zei-cho,税制のEBPMに関する専門家会合 2026年度,,,2026-10-09,2026年 / 10月9日,,,,,,2,table,/zei-cho/gijiroku/ebpm/index.html
 zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-11-10,zei-cho,税制のEBPMに関する専門家会合 2026年度,,,2026-11-10,2026年 / 11月10日,,,,,,2,table,/zei-cho/gijiroku/ebpm/index.html
-invest-japan/committee#4,invest-japan/committee,,4,,,,,,,,,1,link,/invest-japan/committee/archive/index.html
-invest-japan/committee#5,invest-japan/committee,,5,海外からの人材・資金を呼び込むためのタスクフォース （第５回） 会議資料 令和７年 会議結果,,,,対日直接投資促進プログラム2025（案）について / 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_05/agenda.html,2,page,/invest-japan/committee/ap_taskforce_05/agenda.html
-invest-japan/committee#6,invest-japan/committee,,6,海外からの人材・資金を呼び込むためのタスクフォース （第６回） 会議資料 令和８年 会議結果,,,,・「対日直接投資促進プログラム2025」のフォローアップ / ・プログラム改訂に向けた主な論点について / 議事次第(PDF形式:93KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_06/agenda.html,7,page+link,/invest-japan/committee/ap_taskforce_06/agenda.html /invest-japan/committee/archive/index.html
-invest-japan/committee#7,invest-japan/committee,,7,海外からの人材・資金を呼び込むためのタスクフォース （第7回） 会議資料 令和8年 会議結果,,,,・改訂プログラム骨子案について / 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_07/agenda.html,4,page,/invest-japan/committee/ap_taskforce_07/agenda.html
-invest-japan/committee#8,invest-japan/committee,,8,,,,,,,,,1,link,/invest-japan/committee/archive/index.html
+invest-japan/committee#1,invest-japan/committee,,1,海外からの人材・資金を呼び込むためのタスクフォース （第１回） 会議資料 令和６年 会議結果,,,,・「海外からの人材・資金を呼び込むためのアクションプラン」のフォローアップ / 議事次第(PDF形式:95KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_01/agenda.html,49,page,/invest-japan/committee/ap_taskforce_01/agenda.html /invest-japan/committee/council_01/agenda.html /invest-japan/committee/mainpolicy_wg_01/agenda.html /invest-japan/committee/mlstrategy_wg_01/agenda.html
+invest-japan/committee#2,invest-japan/committee,,2,海外からの人材・資金を呼び込むためのタスクフォース （第２回） 会議資料 令和６年 会議結果,,,,・「海外からの人材・資金を呼び込むためのアクションプラン」重点事項加速化プログラム（仮称）骨子案について / 議事次第(PDF形式:94KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_02/agenda.html,45,page,/invest-japan/committee/ap_taskforce_02/agenda.html /invest-japan/committee/council_02/agenda.html /invest-japan/committee/mainpolicy_wg_02/agenda.html /invest-japan/committee/mlstrategy_wg_02/agenda.html
+invest-japan/committee#3,invest-japan/committee,,3,海外からの人材・資金を呼び込むためのタスクフォース （第３回） 会議資料 令和７年 会議結果,,,,・「対日直接投資加速化に向けた優先プログラム」のフォローアップ / ・次期プログラムのとりまとめに向けた主な論点について / 議事次第(PDF形式:41KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_03/agenda.html,34,page,/invest-japan/committee/ap_taskforce_03/agenda.html /invest-japan/committee/council_03/agenda.html /invest-japan/committee/mainpolicy_wg_03/agenda.html /invest-japan/committee/mlstrategy_wg_03/agenda.html
+invest-japan/committee#4,invest-japan/committee,,4,海外からの人材・資金を呼び込むためのタスクフォース （第４回） 会議資料 令和７年 会議結果,,,,次期プログラム骨子案について / 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_04/agenda.html,26,page+link,/invest-japan/committee/ap_taskforce_04/agenda.html /invest-japan/committee/archive/index.html /invest-japan/committee/council_04/agenda.html /invest-japan/committee/mainpolicy_wg_04/agenda.html /invest-japan/committee/mlstrategy_wg_04/agenda.html
+invest-japan/committee#5,invest-japan/committee,,5,海外からの人材・資金を呼び込むためのタスクフォース （第５回） 会議資料 令和７年 会議結果,,,,対日直接投資促進プログラム2025（案）について / 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_05/agenda.html,34,page,/invest-japan/committee/ap_taskforce_05/agenda.html /invest-japan/committee/council_05/agenda.html /invest-japan/committee/mainpolicy_wg_05/agenda.html /invest-japan/committee/mlstrategy_wg_05/agenda.html /invest-japan/committee/simplify_wg_05/agenda.html
+invest-japan/committee#6,invest-japan/committee,,6,海外からの人材・資金を呼び込むためのタスクフォース （第６回） 会議資料 令和８年 会議結果,,,,・「対日直接投資促進プログラム2025」のフォローアップ / ・プログラム改訂に向けた主な論点について / 議事次第(PDF形式:93KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_06/agenda.html,18,page+link,/invest-japan/committee/ap_taskforce_06/agenda.html /invest-japan/committee/archive/index.html /invest-japan/committee/council_06/agenda.html
+invest-japan/committee#7,invest-japan/committee,,7,海外からの人材・資金を呼び込むためのタスクフォース （第7回） 会議資料 令和8年 会議結果,,,,・改訂プログラム骨子案について / 議事次第(PDF形式:89KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/ap_taskforce_07/agenda.html,22,page,/invest-japan/committee/ap_taskforce_07/agenda.html /invest-japan/committee/council_07/agenda.html
+invest-japan/committee#8,invest-japan/committee,,8,対日直接投資推進会議（第８回）会議資料 令和２年 会議結果,,,,「対日直接投資促進のための中長期戦略2021」策定に向けた方針 / 対日直接投資促進のための中長期戦略検討ワーキンググループの設置 / 議事次第(PDF形式:12KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/council_08/agenda.html,11,link+page,/invest-japan/committee/archive/index.html /invest-japan/committee/council_08/agenda.html
+invest-japan/committee#9,invest-japan/committee,,9,対日直接投資推進会議（第９回）会議資料,,,,対日直接投資促進戦略について / 議事次第(PDF形式:10KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/council_09/agenda.html,8,page,/invest-japan/committee/council_09/agenda.html
+invest-japan/committee#10,invest-japan/committee,,10,対日直接投資推進会議（第10回）会議資料,,,,対日直接投資促進に向けて重点的に進めるべき事項 / 「対日直接投資促進戦略」重点事項推進ワーキング・グループの設置（案） / 議事次第(PDF形式:13KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/council_10/agenda.html,19,page,/invest-japan/committee/council_10/agenda.html
 invest-japan/committee#11,invest-japan/committee,,11,対日直接投資推進会議（第11回）会議資料,,,,海外からの人材・資金を呼び込むためのアクションプラン / 海外からの人材・資金を呼び込むためのタスクフォースの設置 / 議事次第(PDF形式:38KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/council_11/agenda.html,6,page,/invest-japan/committee/council_11/agenda.html
 invest-japan/committee#12,invest-japan/committee,,12,対日直接投資推進会議（第12回）会議資料,,,,「海外からの人材・資金を呼び込むためのアクションプラン」フォローアップ / 「対日直接投資加速化に向けた優先プログラム」（案） / 議事次第(PDF形式:112KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/council_12/agenda.html,7,page,/invest-japan/committee/council_12/agenda.html
 invest-japan/committee#13,invest-japan/committee,,13,対日直接投資推進会議（第13回）会議資料,,,,対日直接投資促進プログラム2025（案）について / 議事次第(PDF形式:42KB)PDFを別ウィンドウで開きます,,,https://www.cao.go.jp/invest-japan/committee/council_13/agenda.html,6,page,/invest-japan/committee/council_13/agenda.html
@@ -294,17 +327,17 @@ invest-japan/committee@2021-05-21,invest-japan/committee,,,,2021-05-21,令和３
 invest-japan/committee@2021-06-02,invest-japan/committee,,,,2021-06-02,令和３年６月２日,,,,,,1,table,/invest-japan/committee/archive/index.html
 invest-japan/committee@2022-03-30,invest-japan/committee,,,,2022-03-30,令和４年３月30日,,,,,,2,table,/invest-japan/committee/index.html
 invest-japan/committee@2022-05-13,invest-japan/committee,,,,2022-05-13,令和４年５月13日,,,,,,2,table,/invest-japan/committee/archive/index.html
-invest-japan/committee@2022-09-28,invest-japan/committee,,,,2022-09-28,令和４年９月28日,,,,,,2,table,/invest-japan/committee/index.html
-invest-japan/committee@2022-10-13,invest-japan/committee,,,,2022-10-13,令和４年10月13日,,,,,,2,table,/invest-japan/committee/index.html
-invest-japan/committee@2022-12-23,invest-japan/committee,,,,2022-12-23,令和４年12月23日,,,,,,2,table,/invest-japan/committee/index.html
-invest-japan/committee@2023-03-28,invest-japan/committee,,,,2023-03-28,令和５年３月28日,,,,,,2,table,/invest-japan/committee/index.html
-invest-japan/committee@2023-04-19,invest-japan/committee,,,,2023-04-19,令和５年４月19日,,,,,,2,table,/invest-japan/committee/index.html
+invest-japan/committee@2022-09-28,invest-japan/committee,,,,2022-09-28,令和４年９月28日,15:00-16:40,,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<政府側> / 山 際 大志郎 経済財政政策担当大臣 / 藤 丸 敏 内閣府副大臣(経済財政政策) / 鈴 木 英 敬 内閣府大臣政務官(経済財政政策) / (他、内閣府、内閣官房、経済産業省、外務省、 / 総務省、法務省、文部科学省より事務方出席) / <ワーキング・グループ> / 座長 伊 藤 元 重 東京大学 名誉教授 / 構成員 浅 井 英里子 GEジャパン株式会社 代表取締役社長 / 同 清 田 耕 造 慶應義塾大学産業研究所 教授 / 同 神 保 寛 子 西村あさひ法律事務所 パートナー / 同 髙 島 宗一郎 福岡市長 / 同 日 色 保 日本マクドナルドホールディングス / 株式会社代表取締役社長兼CEO / 同 山 田 和 広 カーライル・ジャパン・エルエルシー / マネージングディレクター 日本代表 / 同 リヨネル・ヴァンサン / ルフェーブル・ペルティエ・エ・アソシエ / 外国法事務弁護士法人 マネージングパートナー / (議事次第),,2,table+pdf,/invest-japan/committee/index.html
+invest-japan/committee@2022-10-13,invest-japan/committee,,,,2022-10-13,令和４年10月13日,13:00-14:30,,中央合同庁舎8号館5階共用C会議室 ※オンライン併用,<ワーキング・グループ> / 座長 伊 藤 元 重 東京大学 名誉教授 / 座長代理 仲 條 一 哉 独立行政法人日本貿易振興機構 理事 / 構成員 清 田 耕 造 慶應義塾大学産業研究所 教授 / 同 神 保 寛 子 西村あさひ法律事務所 パートナー / 同 日 色 保 日本マクドナルドホールディングス / 株式会社代表取締役社長兼CEO / 同 山 田 和 広 カーライル・ジャパン・エルエルシー / マネージングディレクター 日本代表 / <政府側> / 山 際 大志郎 経済財政政策担当大臣 / 藤 丸 敏 内閣府副大臣(経済財政政策) / 鈴 木 英 敬 内閣府大臣政務官(経済財政政策) / (他、金融庁、デジタル庁、厚生労働省、農林水産省、経済産業省 / 国土交通省、観光庁、内閣府より事務方出席) / (議事次第),,2,table+pdf,/invest-japan/committee/index.html
+invest-japan/committee@2022-12-23,invest-japan/committee,,,,2022-12-23,令和４年12月23日,14:00-15:30,,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<ワーキング・グループ> / 座長 伊 藤 元 重 東京大学 名誉教授 / 座長代理 仲 條 一 哉 独立行政法人日本貿易振興機構 理事 / 構成員 浅井 英里子 GEジャパン株式会社 代表取締役社長 / 同 神 保 寛 子 西村あさひ法律事務所 パートナー / 同 リヨネル・ヴァンサン ルフェーブル・ペルティエ・エ・アソシエ / 外国法事務弁護士法人 / マネージングパートナー / <政府側> / 後 藤 茂 之 経済財政政策担当大臣 / 藤 丸 敏 内閣府副大臣(経済財政政策) / 鈴 木 英 敬 内閣府大臣政務官( 経済財政政策) / (他、総務省、経済産業省、内閣官房、内閣府より事務方出席) / (議事次第),,2,table+pdf,/invest-japan/committee/index.html
+invest-japan/committee@2023-03-28,invest-japan/committee,,,,2023-03-28,令和５年３月28日,17:00-18:30,,中央合同庁舎8号館8階特別中会議室 ※オンライン併用,<政府側> / 後 藤 茂 之 経済財政政策担当大臣 / 藤 丸 敏 内閣府副大臣(経済財政政策) / 鈴 木 英 敬 内閣府大臣政務官(経済財政政策) / (他、経済産業省、文部科学省、出入国在留管理庁より事務方 / 出席) / <ワーキング・グループ委員> / 座長 伊 藤 元 重 東京大学 名誉教授 / 座長代理 仲 條 一 哉 独立行政法人日本貿易振興機構 理事 / 構成員 浅 井 英里子 GEジャパン株式会社 代表取締役社長 / 同 清 田 耕 造 慶應義塾大学産業研究所 教授 / 同 神 保 寛 子 西村あさひ法律事務所 パートナー / 同 髙 島 宗一郎 福岡市長 / 同 山 田 和 広 カーライル・ジャパン・エルエルシー / マネージングディレクター 日本代表 / 同 リヨネル・ヴァンサン / ルフェーブル・ペルティエ・エ・アソシエ / 外国法事務弁護士法人 / マネージングパートナー / <鈴木直道委員代理> / 土 屋 俊 亮 北海道副知事 / 1,,2,table+pdf,/invest-japan/committee/index.html
+invest-japan/committee@2023-04-19,invest-japan/committee,,,,2023-04-19,令和５年４月19日,15:00-16:00,,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<政府側> / 後 藤 茂 之 経済財政政策担当大臣 / 藤 丸 敏 内閣府副大臣(経済財政政策) / 鈴 木 英 敬 内閣府大臣政務官(経済財政政策) / (他、総務省、外務省、金融庁、経済産業省より事務方出席) / <ワーキング・グループ> / 座長 伊 藤 元 重 東京大学 名誉教授 / 座長代理 仲 條 一 哉 独立行政法人日本貿易振興機構 理事 / 構成員 浅 井 英里子 GEジャパン株式会社 代表取締役社長 / 同 神 保 寛 子 西村あさひ法律事務所 パートナー / 同 髙 島 宗一郎 福岡市長(オンライン) / 同 日 色 保 日本マクドナルドホールディングス / 株式会社代表取締役社長兼CEO(オンライン) / 同 リヨネル・ヴァンサン ルフェーブル・ペルティエ・エ・アソシエ / 外国法事務弁護士法人 マネージングパートナ / (議事次第),,2,table+pdf,/invest-japan/committee/index.html
 invest-japan/committee@2023-04-26,invest-japan/committee,,,,2023-04-26,令和５年４月26日,,,,,,1,table,/invest-japan/committee/index.html
-invest-japan/committee@2024-01-31,invest-japan/committee,,,,2024-01-31,令和6年1月31日,,,,,,2,table,/invest-japan/committee/index.html
-invest-japan/committee@2024-04-10,invest-japan/committee,,,,2024-04-10,令和6年4月10日,,,,,,2,table,/invest-japan/committee/index.html
+invest-japan/committee@2024-01-31,invest-japan/committee,,,,2024-01-31,令和6年1月31日,17:00-18:00,「海外からの人材・資金を呼び込むためのアクションプラン」のフォローアップ,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<政府側> / 井林 辰徳 / 石川 昭政 / 古賀 友一郎 / 渡辺 孝一 / 高村 正大 / 吉田 宣弘 / (他、内閣官房、金融庁、法務省、文部科学省、厚生労働省より事務方出席) / 内閣府副大臣 / 内閣府副大臣 / 内閣府大臣政務官 / 総務副大臣 / 外務大臣政務官 / 経済産業大臣政務官 / <有識者> / 清田 耕造 / 神保 寛子 / 高島 宗一郎 / 仲條 一哉 / 日色 保 / 山田 和広 / 慶應義塾大学産業研究所 教授 / 西村あさひ法律事務所 パートナー / 福岡市長 / 独立行政法人日本貿易振興機構 理事 / 日本マクドナルドホールディングス株式会社 代表取締役 / 社長兼CEO / カーライル・ジャパン・エルエルシー マネージング / ディレクター日本代表 / ケネス・レブラン デービス・ポーク・アンド・ウォードウェル外国法事務,,2,table+pdf,/invest-japan/committee/index.html
+invest-japan/committee@2024-04-10,invest-japan/committee,,,,2024-04-10,令和6年4月10日,16:00-17:15,,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<政府側> / 井林 辰徳 / 石川 昭政 / 工藤 彰三 / 渡辺 孝一 / 高村 正大 / 岩田 和親 / 門山 宏哲 / 安江 伸夫 / (他、金融庁より事務方出席) / 内閣府副大臣 / 内閣府副大臣 / 内閣府副大臣 / 総務副大臣 / 外務大臣政務官 / 経済産業副大臣 / 法務副大臣 / 文部科学大臣政務官 / <有識者> / 伊藤 元重 / リヨネル・ヴァンサン ルフェーブル・ペルティエ・エ・アソシエ / 東京大学 名誉教授 / 神保 寛子 / 高島 宗一郎 / 仲條 一哉 / 日色 保 / 山田 和広 / ケネス・レブラン / 外国法事務 弁護士法人 マネージングパートナー / 西村あさひ法律事務所 パートナー,,2,table+pdf,/invest-japan/committee/index.html
 invest-japan/committee@2024-05-13,invest-japan/committee,,,,2024-05-13,令和６年５月13日,15:00-15:40,,中央合同庁舎8号館8階特別中 会議室 ※オンライン併用,<政府側> / 新藤 義孝 / 井林 辰徳 / 神田 潤一 / 石川 昭政 / 渡辺 孝一 / 高村 正大 / 上月 良祐 / (他、内閣府、金融庁、法務省より事務方出席) / 内閣府特命担当大臣(経済財政政策) / 内閣府副大臣 / 内閣府大臣政務官 / 内閣府副大臣 / 総務副大臣 / 外務大臣政務官 / 経済産業副大臣 / <アドバイザー> / 石黒 憲彦 / 独立行政法人日本貿易振興機構 理事長 / 東京大学名誉教授 / 伊藤 元重 / マークゥス・シュールマン在日ドイツ商工会議所専務理事/駐日ドイツ / 神保 寛子 / チャールズ・レイク / 商工特別代表 / 西村あさひ法律事務所・外国法共同事業 / パートナー / アフラック生命保険株式会社 代表取締役会長 / 原 一郎 / 中島 正信,,2,table+pdf,/invest-japan/committee/index.html
-invest-japan/committee@2025-04-01,invest-japan/committee,,,,2025-04-01,令和7年4月1日,,,,,,2,table,/invest-japan/committee/index.html
-invest-japan/committee@2025-04-30,invest-japan/committee,,,,2025-04-30,令和7年4月30日,,,,,,2,table,/invest-japan/committee/index.html
+invest-japan/committee@2025-04-01,invest-japan/committee,,,,2025-04-01,令和7年4月1日,17:00-17:50,・「対日直接投資加速化に向けた優先プログラム」のフォローアップ / ・次期プログラムのとりまとめに向けた主な論点について1,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<政府側> / 瀬戸 隆一 / 穂坂 泰 / 鳩山 二郎 / 阿達 雅志 / 英利アルフィヤ / 古賀友一郎 / 神田 潤一 / 武部 新 / (他、金融庁より事務方出席) / 内閣府副大臣 / 内閣府副大臣 / 内閣府副大臣 / 総務副大臣 / 外務大臣政務官 / 経済産業副大臣 / 法務大臣政務官 / 文部科学副大臣 / <有識者> / リヨネル・ヴァンサン ルフェーブル・ペルティエ・エ・アソシエ / 清田 耕造 / 神保 寛子 / 高島 宗一郎 / 仲條 一哉 / 山田 和広 / ケネス・レブラン / 外国法事務 弁護士法人 マネージングパートナー / 慶應義塾大学産業研究所 教授 / 西村あさひ法律事務所・外国法共同事業パートナー / 福岡市長(※代理参加:富田経済観光文化局理事),,2,table+pdf,/invest-japan/committee/index.html
+invest-japan/committee@2025-04-30,invest-japan/committee,,,,2025-04-30,令和7年4月30日,17:00-17:40,,中央合同庁舎8号館8階特別大会議室 ※オンライン併用,<政府側> / 瀬戸 隆一 / 穂坂 泰 / 内閣府副大臣(主宰) / 内閣府副大臣(規制改革担当) / 今井 絵理子 / 内閣府大臣政務官 / (新しい地方経済・生活環境創生本部、地方創生担当) / 川崎 ひでと / 総務大臣政務官 / 藤井 比早之 / 外務副大臣 / 竹内 真二 / 高村 正大 / 野中 厚 / 経済産業大臣政務官 / 法務副大臣 / 文部科学副大臣 / (他、金融庁より事務方出席) / <有識者> / 伊藤 元重 / 東京大学名誉教授 / リヨネル・ヴァンサン ルフェーブル・ペルティエ・エ・アソシエ外国法事務弁護士法人 / 神保 寛子 / 鈴木 直道 / 仲條 一哉 / 日色 保 / マネージングパートナー / 西村あさひ法律事務所・外国法共同事業 パートナー / 北海道知事 (代理 北海道庁大矢次世代社会戦略監),,2,table+pdf,/invest-japan/committee/index.html
 invest-japan/committee@2025-05-29,invest-japan/committee,,,,2025-05-29,令和7年5月29日,17:00-17:40,対日直接投資促進プログラム 2025(案)について,中央合同庁舎8号館共用C会議室 ※オンライン併用,内閣府副大臣(規制改革担当) / <政府側> / 瀬戸 隆一 内閣府副大臣(主宰) / 鳩山 二郎 内閣府副大臣(新しい地方経済・生活環境創生本部、地方創生担当) / 穂坂 泰 / 宮路 拓馬 外務副大臣 / 加藤 明良 経済産業大臣政務官 / 高村 正大 法務副大臣 / 赤松 健 / (他、金融庁、総務省より事務方出席) / 文部科学大臣政務官 / <有識者> / 伊藤 元重 東京大学名誉教授 / 清田 耕造 慶應義塾大学産業研究所 教授 / 神保 寛子 西村あさひ法律事務所・外国法共同事業 パートナー / 鈴木 直道 北海道知事(代理:山田グローバル戦略推進監) / 仲條 一哉 独立行政法人日本貿易振興機構 理事 / 日色 保 ウォルト・ディズニー・ジャパン株式会社 代表取締役社長 / ケネス・レブラン デービス・ポーク・アンド・ウォードウェル / 外国法事務弁護士事務所 / (他、福岡市より事務方御 出席) / (議事次第),,2,table+pdf,/invest-japan/committee/index.html
 invest-japan/committee@2025-06-02,invest-japan/committee,,,,2025-06-02,令和７年６月２日,12:15-12:30,対日直接投資促進プログラム 2025(案)について,中央合同庁舎8号館共用C会議室,<政府側> / 赤澤 亮正 / 瀬戸 隆一 / 西野 太亮 / 穂坂 泰 / 内閣府特命担当大臣(経済財政政策)(主宰) / 内閣府副大臣 / 内閣府大臣政務官 / 内閣府副大臣(規制改革担当) / 英利 アルフィヤ / 外務大臣政務官 / 加藤 明良 / 経済産業大臣政務官 / (他、内閣官房新しい地方経済・生活環境創生担当、 内閣府地方創生担当、 金融庁、 / 総務省、法務省より事務方出席) / <アドバイザー> / 石黒 憲彦 / 独立行政法人日本貿易振興機構 理事長 / マークゥス・シュールマン 在日ドイツ商工会議所専務理事/駐日ドイツ商工特別代表 / 神保 寛子 / 西村あさひ法律事務所・外国法共同事業 パートナー / 髙島 宗一郎 福岡市長 / 菰田 正信 三井不動産株式会社 代表取締役会長 / (代理 一般社団法人日本経済団体連合会 森田 清隆 国際経済本部長) / (議事次第),,2,table+pdf,/invest-japan/committee/index.html
 invest-japan/committee@2026-04-13,invest-japan/committee,,,,2026-04-13,令和8年4月13日,16:50-17:45,,中央合同庁舎8号館5 階共用 C 会議室 ※オンライン併用,<政府側> / 岩田 和親 / 津島 淳 / 堀内 詔子 / 堀井 巌 / 山田 賢司 / 三谷 英弘 / 中村 裕之 / 内閣府副大臣(経済財政政策、 規制改革担当) <主宰> / 内閣府副大臣(地域未来戦略、地方創生担当) / 総務副大臣 / 外務副大臣 / 経済産業副大臣 / 法務副大臣 / 文部科学副大臣 / (その他、内閣府科学技術・イノベーション推進事務局、金融庁、厚生労働省、国土交 / 通省、環境省より事務方が 出席) / <有識者> / 伊藤 元重 / 河田 美緒 / 東京大学 名誉教授 / 独立行政法人日本貿易振興機構 理事 / 清田 耕造 慶應義塾大学産業研究所 教授 / ケネス・レブラン / デービス・ポーク・アンド・ウォードウェル外国法事務弁護士事務所 / パートナー / 神保 寛子 / 西村あさひ法律事務所・外国法共同事業 パートナー / 高島 宗一郎 / 福岡市長 (代理 福岡市経済観光文化局 伊勢川理事),,2,table+pdf,/invest-japan/committee/index.html

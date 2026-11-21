@@ -1,0 +1,4 @@
+url,status,content_type,last_modified,fetched_at,bytes,sha256,note,release_url
+https://www.mext.go.jp/content/20250523-mxt_san-gen01-000042613-07.pdf,200,application/pdf,2025-05-23T04:00:29+00:00,2026-11-21T15:32:43+00:00,234724,a16fe57f3f776d3a82c80c122d35b0f4079f2590e4eeb3418bb833399b8aeb64,,
+https://www.mext.go.jp/content/20260218-mxt_san-gen01-000047068-13.pdf,200,application/pdf,2026-02-18T00:00:19+00:00,2026-11-21T15:32:46+00:00,236087,d915c686c39d74fb9dc3af73b951d1cbc11ead53e88b263fa726e23fd0e6ef4c,,
+https://www.mext.go.jp/content/20260703-mxt_san-gen01-000050562-17.pdf,200,application/pdf,2026-07-03T05:01:16+00:00,2026-11-21T15:32:49+00:00,189845,6d1903b04e6d16fcda660328dd09f11b3a1694c837bd0b56a95c27ccf28627df,,
