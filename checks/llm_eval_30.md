@@ -1,243 +1,627 @@
 # Phase 3 Gemini 抽出評価レポート
 
-- モデル: `gemini-2.5-flash` / プロンプト版: `extract-v1`
-- サンプル: 20 会議（seed=20261119、`make_check_sheet.py` と同一抽出方式）
+- モデル: `gemini-3.5-flash-lite` / プロンプト版: `extract-v1`
+- サンプル: 30 会議（seed=20261119、`make_check_sheet.py` と同一抽出方式）
 
 ## 集計
 
 | 指標 | 件数 | 割合 |
 |---|---:|---:|
-| 自動検証通過 | 0 / 20 | 0.0% |
-| 開催日一致 | 0 / 20 | 0.0% |
-| 時刻一致 | 0 / 20 | 0.0% |
-| 場所一致 | 0 / 20 | 0.0% |
-| 出席者完全一致 | 0 / 20 | 0.0% |
-| API/解釈エラー | 20 / 20 | 100.0% |
+| 自動検証通過 | 25 / 30 | 83.3% |
+| 開催日一致 | 30 / 30 | 100.0% |
+| 時刻一致 | 27 / 30 | 90.0% |
+| 場所一致 | 30 / 30 | 100.0% |
+| 出席者完全一致 | 13 / 30 | 43.3% |
+| API/解釈エラー | 0 / 30 | 0.0% |
 
 ## 各会議の比較
 
 | # | meeting_id | 検証 | 日付 | 時刻 | 場所 | 出席者 (既存/LLM/一致) | 備考 |
 |---:|---|---|---|---|---|---:|---|
-| 1 | `rinri#95` | DIFF | DIFF | DIFF | DIFF | 5/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 2 | `rinri#103` | DIFF | DIFF | DIFF | DIFF | 5/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 3 | `shi-chu#10` | DIFF | DIFF | DIFF | DIFF | 11/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 4 | `jinji/再就職等監視分科会#63` | DIFF | DIFF | DIFF | DIFF | 13/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 5 | `jinji/処遇・給与部会#10` | DIFF | DIFF | DIFF | DIFF | 14/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 6 | `jinji/職員処遇問題部会#40` | DIFF | DIFF | DIFF | DIFF | 6/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 7 | `cho-shin#182` | DIFF | DIFF | DIFF | DIFF | 16/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 8 | `seisaku#43` | DIFF | DIFF | DIFF | DIFF | 12/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 9 | `keiyaku_seido#39` | DIFF | DIFF | DIFF | DIFF | 12/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 10 | `bouei_shisetsu#10` | DIFF | DIFF | DIFF | DIFF | 15/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 11 | `harassment#7` | DIFF | DIFF | DIFF | DIFF | 12/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 12 | `kiban#8` | DIFF | DIFF | DIFF | DIFF | 23/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 13 | `cap_build#3` | DIFF | DIFF | DIFF | DIFF | 6/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 14 | `blood-transfusion#1` | DIFF | DIFF | DIFF | DIFF | 14/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 15 | `drastic-reinforcement/総会#5` | DIFF | DIFF | DIFF | DIFF | 30/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 16 | `drastic-reinforcement/総会#6` | DIFF | DIFF | DIFF | DIFF | 26/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 17 | `sds#5` | DIFF | DIFF | DIFF | DIFF | 18/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 18 | `space_domain#1` | DIFF | DIFF | DIFF | DIFF | 20/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 19 | `dstb#9` | DIFF | DIFF | DIFF | DIFF | 21/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
-| 20 | `ts-ships#3` | DIFF | DIFF | DIFF | DIFF | 7/0/0 | Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message' |
+| 1 | `rinri#95` | OK | OK | OK | OK | 5/5/5 |  |
+| 2 | `rinri#103` | DIFF | OK | DIFF | OK | 5/5/5 | 時刻形式が不正: '14時30分～17時30分' |
+| 3 | `rinri#105` | OK | OK | OK | OK | 5/5/5 |  |
+| 4 | `shi-chu#10` | DIFF | OK | DIFF | OK | 11/11/0 | 時刻形式が不正: '10時30分～11時30分' |
+| 5 | `jinji/再就職等監視分科会#63` | OK | OK | OK | OK | 13/13/13 |  |
+| 6 | `jinji/再就職等監視分科会#74` | DIFF | OK | OK | OK | 14/14/14 | date_raw の曜日不一致（2024-10-22 は火曜: '令和６年１０月２２日（金）'） |
+| 7 | `jinji/処遇・給与部会#10` | OK | OK | OK | OK | 14/14/14 |  |
+| 8 | `jinji/職員処遇問題部会#40` | OK | OK | OK | OK | 6/6/6 |  |
+| 9 | `cho-shin#176` | OK | OK | OK | OK | 15/15/14 |  |
+| 10 | `cho-shin#177` | OK | OK | OK | OK | 15/15/13 |  |
+| 11 | `cho-shin#181` | OK | OK | OK | OK | 15/15/14 |  |
+| 12 | `cho-shin#182` | OK | OK | OK | OK | 16/16/14 |  |
+| 13 | `cho-shin#197` | OK | OK | OK | OK | 16/16/14 |  |
+| 14 | `seisaku#43` | DIFF | OK | DIFF | OK | 12/12/6 | 時刻形式が不正: '1430-1601' |
+| 15 | `keiyaku_seido#39` | DIFF | OK | OK | OK | 12/12/12 | date_raw の曜日不一致（2025-05-16 は金曜: '令和７年５月１６日（木）'） |
+| 16 | `bouei_shisetsu#9` | OK | OK | OK | OK | 16/16/16 |  |
+| 17 | `bouei_shisetsu#10` | OK | OK | OK | OK | 15/15/10 |  |
+| 18 | `harassment#7` | OK | OK | OK | OK | 12/12/12 |  |
+| 19 | `kiban#8` | OK | OK | OK | OK | 23/23/22 |  |
+| 20 | `kiban#9` | OK | OK | OK | OK | 16/16/15 |  |
+| 21 | `cap_build#3` | OK | OK | OK | OK | 6/6/6 |  |
+| 22 | `blood-transfusion#1` | OK | OK | OK | OK | 14/14/13 |  |
+| 23 | `blood-transfusion#5` | OK | OK | OK | OK | 16/16/15 |  |
+| 24 | `drastic-reinforcement/総会#5` | OK | OK | OK | OK | 30/30/25 |  |
+| 25 | `drastic-reinforcement/総会#6` | OK | OK | OK | OK | 26/26/26 |  |
+| 26 | `drastic-reinforcement/総会#7` | OK | OK | OK | OK | 24/24/24 |  |
+| 27 | `sds#5` | OK | OK | OK | OK | 18/18/14 |  |
+| 28 | `space_domain#1` | OK | OK | OK | OK | 20/20/19 |  |
+| 29 | `dstb#9` | OK | OK | OK | OK | 21/21/20 |  |
+| 30 | `ts-ships#3` | OK | OK | OK | OK | 7/7/1 |  |
 
 ## 食い違いの詳細（原文確認用）
-
-### `rinri#95`
-
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/rinri/pdf/giji_95.pdf>
-- 既存: date=`` time=`` place=`` (5名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
-
-```text
-```
 
 ### `rinri#103`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/rinri/pdf/giji_103.pdf>
-- 既存: date=`` time=`` place=`` (5名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2024-07-29` time=`14:30-17:30` place=`防衛省A棟2階 陸幕G4会議室` (5名)
+- LLM: date=`2024-07-29` time=`14時30分～17時30分` place=`防衛省Ａ棟２階 陸幕Ｇ４会議室` (5名)
+- 検証エラー: 時刻形式が不正: '14時30分～17時30分'
 
 ```text
+第１０３回自衛隊員倫理審査会議事録
+１  日  時
+    令和６年７月２９日（月）１４時３０分～１７時３０分
+２  場  所
+    防衛省Ａ棟２階  陸幕Ｇ４会議室
+３  出席者
+    （委  員）  太田会長、能勢委員、山宮委員、諏訪委員
+    （防衛省）  五木田服務管理官
+４  議  事
+(１)  開会の辞
+○  太田会長  只今より「第１０３回自衛隊員倫理審査会」を開催させていただきます。
 ```
 
 ### `shi-chu#10`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/shi-chu/pdf/giji_10.pdf>
-- 既存: date=`` time=`` place=`` (11名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2024-04-23` time=`10:30-11:30` place=`防衛省D棟7階第1会議室(新宿区市谷本村町5番1号)` (11名)
+- LLM: date=`2024-04-23` time=`10時30分～11時30分` place=`防衛省Ｄ棟７階第１会議室（新宿区市谷本村町５番１号）` (11名)
+- 検証エラー: 時刻形式が不正: '10時30分～11時30分'
 
 ```text
+第１０回防衛施設中央審議会議事録
+  １．日  時：令和６年４月２３日（火）１０時３０分～１１時３０分
+  ２．場  所：防衛省Ｄ棟７階第１会議室（新宿区市谷本村町５番１号）
+  ３．出席者：
+  （委  員）
+青木  節子（慶應義塾大学大学院教授）
+阿部  達也（青山学院大学教授）
+岩間  陽子（政策研究大学院大学教授）
+河瀬  由美子（名古屋駅前公証役場公証人）
+中西  寛（京都大学大学院教授）
+廣瀬  祐子（ジャーナリスト）
+渡部  恒雄（笹川平和財団上席フェロー）
+  （防衛省）
+      大和  太郎（地方協力局長）
+      村井  勝（地方協力局総務課長）
+      掛水  雅俊（大臣官房参事官）
+      織田  雄一（大臣官房参事官）
 ```
 
-### `jinji/再就職等監視分科会#63`
+### `jinji/再就職等監視分科会#74`
 
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/jinji/pdf/giji_saishushoku_20230726.pdf>
-- 既存: date=`` time=`` place=`` (13名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/jinji/pdf/giji_saishushoku_20241022.pdf>
+- 既存: date=`2024-10-22` time=`10:00-11:40` place=`防衛省E1棟6階 再就職等監視室` (14名)
+- LLM: date=`2024-10-22` time=`10:00-11:40` place=`防衛省Ｅ１棟６階 再就職等監視室` (14名)
+- 検証エラー: date_raw の曜日不一致（2024-10-22 は火曜: '令和６年１０月２２日（金）'）
 
 ```text
+第７４回再就職等監視分科会  議事要旨
+１  会議の日時及び場所
+（１）日時
+      令和６年１０月２２日（金）１０：００～１１：４０
+（２）場所
+      防衛省Ｅ１棟６階  再就職等監視室
+２  出席者
+    （分科会委員）
+峰分科会長、岩村委員、土田委員、永野委員、森永委員
+（再就職等監察官）
+  宮田監察官、一條監察官、小澤監察官、鈴木監察官、西畠監察官、藤井監察
+官、山中監察官、吉村監察官
+    （防衛省側）
+      渡邊再就職等監視室長ほか
+３  議題
+（１）第７３回再就職等監視分科会議事録及び議事要旨の確認について
+（２）第７３回再就職等監視分科会で決定した管理職隊員以外の隊員の予備的調査
+等の調査状況について
+（３）管理職隊員（令和６年度第１四半期受領分）の再就職状況の確認等について
+４  審議の概要及び結果
+（１）第７３回再就職等監視分科会議事録及び議事要旨について確認された。
+（２）第７３回再就職等監視分科会で決定した管理職隊員以外の隊員の予備的調
 ```
 
-### `jinji/処遇・給与部会#10`
+### `cho-shin#176`
 
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/jinji/pdf/giji_shoguu_10_03.pdf>
-- 既存: date=`` time=`` place=`` (14名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/cho-shin/giji/pdf/176.pdf>
+- 既存: date=`2022-10-19` time=`10:00-12:40` place=`防衛省庁舎A棟11階第1省議室` (15名)
+- LLM: date=`2022-10-19` time=`10:00-12:40` place=`防衛省庁舎Ａ棟１１階第１省議室` (15名)
 
 ```text
+第１７６回防衛調達審議会議事要旨
+１  日時
+令和４年１０月１９日（水）１０時００分～１２時４０分
+２  場所
+防衛省庁舎Ａ棟１１階第１省議室
+３  出席者
+（委  員）
+河村会長、片岡委員、柴山委員、西谷委員、藤川委員、星委員
+（防衛省）
+防衛装備庁 春日原長官官房審議官、萬浪装備政策部長、森調達管理部長、柴田調
+達事業部長、渡野監察監査・評価官（事務局）
+中島統幕首席後方補給官、上田陸幕装備計画部長、海幕装備計画部長代理装備需
+品課課長、小島空幕装備計画部長
+４  議題
+（１）随意契約に係るサンプリング調査審議（令和３年度  陸上自衛隊九州補給処）
+（２）１者応札・１者応募案件に係るサンプリング調査審議及び仕様書等に係るサンプ
+リング調査審議（陸上自衛隊）
+（３）１者応札・１者応募案件に係るサンプリング調査審議及び仕様書等に係るサンプ
+リング調査審議（防衛装備庁（第２回））
+（４）次回の日程等
+５  議事概要
+（１）随意契約に係るサンプリング調査審議（令和３年度  陸上自衛隊九州補給処）
+      令和３年度に陸上自衛隊九州補給処が締結した契約の中から、サンプリング調査
 ```
 
-### `jinji/職員処遇問題部会#40`
+### `cho-shin#177`
 
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/jinji/pdf/giji_shokuin_40.pdf>
-- 既存: date=`` time=`` place=`` (6名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/cho-shin/giji/pdf/177.pdf>
+- 既存: date=`2022-11-16` time=`10:00-13:00` place=`防衛省庁舎A棟11階第1省議室` (15名)
+- LLM: date=`2022-11-16` time=`10:00-13:00` place=`防衛省庁舎Ａ棟１１階第１省議室` (15名)
 
 ```text
+第１７７回防衛調達審議会議事要旨
+１  日時
+令和４年１１月１６日（水）１０時００分～１３時００分
+２  場所
+防衛省庁舎Ａ棟１１階第１省議室
+３  出席者
+（委  員）
+河村会長、片岡委員、柴山委員、西谷委員、藤川委員、星委員
+（防衛省）
+防衛装備庁 春日原長官官房審議官、萬浪装備政策部長、森調達管理部長、柴田調
+達事業部長、渡野監察監査・評価官（事務局）
+中島統幕首席後方補給官、陸幕装備計画部長代理装備計画課補給管理班長、伊藤
+海幕装備計画部長、小島空幕装備計画部長
+４  議題
+（１）随意契約に係るサンプリング調査審議
+（２）１者応札・１者応募案件に係るサンプリング調査審議及び仕様書等に係るサンプ
+リング調査審議
+（３）第１７４回防衛調達審議会  後日回答案件調査審議
+（４）次回の日程等
+５  議事概要
+（１）随意契約に係るサンプリング調査審議
+      令和３年度に航空自衛隊第３補給処が締結した契約の中から、サンプリング調査
+```
+
+### `cho-shin#181`
+
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/cho-shin/giji/pdf/181.pdf>
+- 既存: date=`2023-05-24` time=`10:00-12:00` place=`防衛省庁舎A棟11階第1省議室` (15名)
+- LLM: date=`2023-05-24` time=`10:00-12:00` place=`防衛省庁舎Ａ棟１１階第１省議室` (15名)
+
+```text
+第１８１回  防衛調達審議会議事要旨
+１  日時
+令和５年５月２４日（水）１０時００分～１２時００分
+２  場所
+防衛省庁舎Ａ棟１１階第１省議室
+３  出席者
+（委  員）
+田内会長 柴山会長代理 石田委員 片岡委員  清水委員  西谷委員 林委員
+（防衛省）
+防衛装備庁 春日原長官官房審議官、森調達管理部長、柴田調達事業部長、渡野監察
+監査・評価官（事務局）
+統幕首席後方補給官代理後方補給官（補給）、陸幕装備計画部長代理装備計画部装備
+計画課補給管理班長、伊藤海幕装備計画部長、小島空幕装備計画部長
+４  議題
+（１）１者応札・１者応募案件に係るサンプリング調査審議及び仕様書等に係るサンプリ
+ング調査審議（令和４年度  防衛装備庁（第１回））
+（２）調達不祥事防止の取り組みについて
+（３）令和４年度防衛調達審議会活動概要
+（４）次回の日程等
+５  議事概要
+（１）１者応札・１者応募案件に係るサンプリング調査審議及び仕様書等に係るサンプリ
+ング調査審議（令和４年度  防衛装備庁（第１回））
 ```
 
 ### `cho-shin#182`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/cho-shin/giji/pdf/182.pdf>
-- 既存: date=`` time=`` place=`` (16名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2023-07-19` time=`10:00-11:45` place=`防衛省庁舎A棟11階第1省議室` (16名)
+- LLM: date=`2023-07-19` time=`10:00-11:45` place=`防衛省庁舎Ａ棟１１階第１省議室` (16名)
 
 ```text
+第１８２回  防衛調達審議会議事要旨
+１  日時
+令和５年７月１９日（水）１０時００分～１１時４５分
+２  場所
+防衛省庁舎Ａ棟１１階第１省議室
+３  出席者
+（委  員）
+田内会長 柴山会長代理 石田委員 片岡委員  清水委員  西谷委員 林委員
+（防衛省）
+防衛装備庁 西脇長官官房審議官、坂本装備政策部長、森調達管理部長、久澤調達事
+業部長、渡野監察監査・評価官（事務局）
+栁統幕首席後方補給官、陸幕装備計画部長代理装備計画部装備計画課補給管理班長、
+伊藤海幕装備計画部長、小島空幕装備計画部長
+４  議題
+（１）随意契約に係るサンプリング調査審議（令和４年度  防衛装備庁（第１回））
+（２）随意契約に係るサンプリング調査審議（令和４年度  防衛装備庁（第２回））
+（３）早期装備化推進制度について
+（４）次回の日程等
+５  議事概要
+（１）随意契約に係るサンプリング調査審議（令和４年度  防衛装備庁（第１回））
+令和４年度に防衛装備庁が締結した契約の中から、サンプリング調査審議の対象と
+```
+
+### `cho-shin#197`
+
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/cho-shin/giji/pdf/197.pdf>
+- 既存: date=`2025-11-19` time=`10:00-12:25` place=`防衛省庁舎D棟3階第1庁議室` (16名)
+- LLM: date=`2025-11-19` time=`10:00-12:25` place=`防衛省庁舎Ｄ棟３階第１庁議室` (16名)
+
+```text
+第１９７回  防衛調達審議会議事要旨
+１  日時
+令和７年１１月１９日（水）１０時００分～１２時２５分
+２  場所
+防衛省庁舎Ｄ棟３階第１庁議室
+３  出席者
+（委  員）
+田内会長  柴山会長代理  石田委員  片岡委員  清水委員  西谷委員  林委員
+（防衛省）
+防衛装備庁  滝澤長官官房審議官、小杉装備政策部長、藤重調達管理部長、鈴木調達事業部
+長、秋田監察監査・評価官（事務局）
+金山統幕後方計画部長、池田陸幕装備計画部長、星海幕装備計画部長、藤永空幕装備計画部
+長
+４  議題
+（１）随意契約に係るサンプリング調査審議（令和６年度  防衛装備庁（第２回））
+（２）１者応札・１者応募案件に係るサンプリング調査審議及び仕様書等に係るサンプリング調
+査審議（令和６年度  防衛装備庁（第２回））
+（３）次回の日程等
+５  議事概要
+（１）随意契約に係るサンプリング調査審議（令和６年度  防衛装備庁（第２回））
+令和６年度に防衛装備庁調達事業部艦船調達官付誘導武器室が締結した契約の中から、
 ```
 
 ### `seisaku#43`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/seisaku/pdf/gijigaiyou43.pdf>
-- 既存: date=`` time=`` place=`` (12名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2022-11-24` time=`14:30-16:01` place=`オンライン会議` (12名)
+- LLM: date=`2022-11-24` time=`1430-1601` place=`オンライン会議` (12名)
+- 検証エラー: 時刻形式が不正: '1430-1601'
 
 ```text
+第４３回防衛省政策評価に関する有識者会議議事概要
+１．会議概要
+日時：令和４年１１月２４日（木）  １４３０－１６０１
+開催要領：オンライン会議
+参加者：
+・防衛省（主要な参加者）
+  大臣官房政策立案総括審議官
+  大臣官房企画評価課長
+  防衛装備庁長官官房監察監査・評価官
+  防衛装備庁プロジェクト管理部事業監理官（誘導武器・統合装備担当）
+  防衛装備庁プロジェクト管理部事業監理官（艦船担当）付
+  防衛装備庁技術戦略部技術計画官
+・有識者
+        座長：山谷  清志氏（同志社大学大学院  総合政策科学研究科教授）
+        委員：山田  澤明氏（北海道大学東京オフィス所長・特任教授）
+              佐藤  達夫氏（株式会社グローバルインサイト  取締役会長）
+              南島  和久氏（龍谷大学  政策学部教授）
+              佐藤  丙午氏（拓殖大学  国際学部教授）
+              松尾  亜紀子氏（慶應義塾大学  理工学部教授）
+    会議資料：令和４年度政策評価書（案）事前評価（研究開発）
+              有識者からのご意見等に対する担当部局の回答
+    説明内容：総事業費が１０億円以上の新規研究開発  １４件
+              １４件のうち、以下２事業については個別説明を実施し、その他の１
+２件については、概要の説明を実施
+              ・ミサイルシステム  ＨＧＶ対処用誘導弾システムの研究
 ```
 
 ### `keiyaku_seido#39`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/keiyaku_seido/pdf/giji_39.pdf>
-- 既存: date=`` time=`` place=`` (12名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2025-05-16` time=`10:00-12:00` place=`防衛省D棟3階 第1庁議室` (12名)
+- LLM: date=`2025-05-16` time=`10:00-12:00` place=`防衛省Ｄ棟３階 第１庁議室` (12名)
+- 検証エラー: date_raw の曜日不一致（2025-05-16 は金曜: '令和７年５月１６日（木）'）
 
 ```text
+契約制度研究会（第３９回）議事要旨
+１．日  時
+令和７年５月１６日（木）１０：００～１２：００
+２．場  所
+防衛省Ｄ棟３階  第１庁議室
+３．出席者
+（委  員）尾畑会長、鈴木委員、髙橋委員、中村委員、西谷委員、橋本委員、山本
+委員
+（防衛省）防衛装備庁装備政策部長、防衛装備庁装備政策課長、防衛装備庁調達管理
+部長、防衛装備庁調達企画課長、防衛装備庁調達事業部長
+４．議  事
+    試作研究請負契約特別条項及び研究委託契約特別条項の改正について
+５．発言内容
 ```
 
 ### `bouei_shisetsu#10`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/bouei_shisetsu/pdf/10_gijiyoshi.pdf>
-- 既存: date=`` time=`` place=`` (15名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2024-04-09` time=`15:30-17:00` place=`防衛省庁舎D棟7階 第1会議室` (15名)
+- LLM: date=`2024-04-09` time=`15:30-17:00` place=`防衛省庁舎Ｄ棟７階  第１会議室` (15名)
 
 ```text
-```
-
-### `harassment#7`
-
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/harassment/pdf/gijiroku07.pdf>
-- 既存: date=`` time=`` place=`` (12名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
-
-```text
+第１０回防衛施設整備に関する有識者会議
+議  事  概  要
+１  日時等
+（１）日  時：令和６年４月９日（火）１５時３０分～１７時００分
+（２）場  所：防衛省庁舎Ｄ棟７階  第１会議室
+（３）出席者：
+  【委  員】
+藤井   聡  （京都大学大学院工学研究科教授）［会長］
+上野   武  （千葉大学名誉教授）［会長代理］
+谷口  綾子 （筑波大学大学院システム情報工学研究科教授）
+成田  一郎 （(公社)日本ファシリティマネジメント協会専務理事）
+横田   弘  （北海道大学名誉教授）
+  【防衛省】
+大臣官房施設監、井上大臣官房審議官、施設計画課長、施設整備官、
+提供施設計画官、施設技術管理官、施設政策室長、契約制度企画室長、
+統括事業監理室長、防護施設研究室長
+２  議  題
+施設の強靱化の実現に向けて
+３  議事概要
+施設の強靱化に係る取組状況について、防衛省から説明した後、討議を実施
+４  討議概要
 ```
 
 ### `kiban#8`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/kiban/pdf/20241105_05.pdf>
-- 既存: date=`` time=`` place=`` (23名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2024-11-05` time=`10:30-12:00` place=`グランドヒル市ヶ谷` (23名)
+- LLM: date=`2024-11-05` time=`10:30-12:00` place=`グランドヒル市ヶ谷` (23名)
 
 ```text
+第８回防衛省・自衛隊の人的基盤の強化に関する有識者検討会
+議事要旨
+１  日時
+令和６年１１月５日（火）１０３０～１２００
+２  場所
+グランドヒル市ヶ谷
+３  出席者
+（有識者）齋野委員（座長）、奥本委員、黒江委員、佐藤委員、中田委員、
+久江委員、松元委員、山崎委員
+（防衛省）人事教育局長、
+大臣官房政策立案総括審議官、統合幕僚監部総務部長、
+陸上幕僚監部人事教育部長、海上幕僚監部人事教育部長、
+航空幕僚監部人事教育部長、
+秘書課長、防衛計画課長、サイバー整備課長、人事計画・補任課長、
+給与課長、人材育成課長、厚生課長、装備政策課長、技術戦略課長
+４  議事等
+（１）防衛省より、「人的基盤の抜本的強化に関する検討委員会」中間報告、
+「防衛省サイバー人材戦略」及び「自衛官の処遇・勤務環境の改善及び新たな
 ```
 
-### `cap_build#3`
+### `kiban#9`
 
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/cap_build/pdf/gijigaiyou_20250717.pdf>
-- 既存: date=`` time=`` place=`` (6名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/kiban/pdf/20260331_03.pdf>
+- 既存: date=`2026-03-31` time=`10:00-11:30` place=`防衛省A棟11階 第1省議室` (16名)
+- LLM: date=`2026-03-31` time=`10:00-11:30` place=`防衛省Ａ棟１１階  第１省議室` (16名)
 
 ```text
+第９回防衛省・自衛隊の人的基盤の強化に関する有識者検討会
+議事要旨
+１  日時
+令和８年３月３１日（火）１０００～１１３０
+２  場所
+防衛省Ａ棟１１階  第１省議室
+３  出席者
+（有識者）齋野委員（座長）、奥本委員、黒江委員、中田委員、
+久江委員、山崎委員
+（防衛省）防衛副大臣、人事教育局長、大臣官房政策立案総括審議官、統合幕
+僚監部総務部長、陸上幕僚監部人事教育部長、海上幕僚監部人事教
+育部長、航空幕僚監部人事教育計画課長、人事計画・補任課長、給
+与課長、人材育成課長
+４  議事等
+（１）防衛省より、「人的基盤の強化に係る取組状況について」及び本有識者検討
+会の解散について説明がなされた。
 ```
 
 ### `blood-transfusion#1`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/blood-transfusion/pdf/gijiyoushi01.pdf>
-- 既存: date=`` time=`` place=`` (14名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2023-10-06` time=`14:00-16:00` place=`グランドヒル市ヶ谷 3階「翡翠」` (14名)
+- LLM: date=`2023-10-06` time=`14:00-16:00` place=`グランドヒル市ヶ谷  ３階「翡翠」` (14名)
 
 ```text
+第１回防衛省・自衛隊の戦傷医療における輸血に関する検討会
+議事要旨
+１  日時
+    令和５年１０月６日（金）  １４時００分～１６時００分
+２  場所
+    グランドヒル市ヶ谷  ３階「翡翠」
+３  出席者
+  （有識者）鈴木委員（座長）、岡崎委員、清住委員、千先委員、松本委員、宮田委員
+  （防衛省）松本防衛大臣政務官、大臣官房衛生監、統合幕僚監部首席後方補給官、
+            陸上幕僚監部衛生部長、海上幕僚監部首席衛生官、航空幕僚監部首席衛生官、
+            人事教育局人事計画・補任課長、人事教育局衛生官
+４  議事等
+（１）  冒頭、松本防衛大臣政務官より開会の挨拶がなされた。
+（２）  防衛省より、「自衛隊衛生の組織・能力等の概要」、「国家防衛戦略等における衛生
+```
+
+### `blood-transfusion#5`
+
+- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/blood-transfusion/pdf/gijiyoushi05.pdf>
+- 既存: date=`2024-01-29` time=`16:00-17:30` place=`グランドヒル市ヶ谷 3階「翡翠」` (16名)
+- LLM: date=`2024-01-29` time=`16:00-17:30` place=`グランドヒル市ヶ谷  ３階「翡翠」` (16名)
+
+```text
+第５回防衛省・自衛隊の戦傷医療における輸血に関する検討会
+議事要旨
+１  日時
+    令和６年１月２９日（月）  １６時００分～１７時３０分
+２  場所
+    グランドヒル市ヶ谷  ３階「翡翠」
+３  出席者
+  （有識者）鈴木委員（座長）、大友委員、岡崎委員、清住委員、千先委員、松本委員、
+宮田委員、武藤委員
+  （防衛省）松本防衛大臣政務官、大臣官房衛生監、統合幕僚監部首席後方補給官（代理）、
+            陸上幕僚監部衛生部長、海上幕僚監部首席衛生官、航空幕僚監部首席衛生官、
+            人事教育局人事計画・補任課長、人事教育局衛生官
+４  議事等
+（１）  松本防衛大臣政務官より開会の挨拶がなされた。
+（２）  座長より、「防衛省・自衛隊の戦傷医療における輸血に関する検討会提言書（案）」
 ```
 
 ### `drastic-reinforcement/総会#5`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/drastic-reinforcement/pdf/siryo05_03.pdf>
-- 既存: date=`` time=`` place=`` (30名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2025-04-03` time=`14:00-16:00` place=`第1省議室` (30名)
+- LLM: date=`2025-04-03` time=`14:00-16:00` place=`第１省議室` (30名)
 
 ```text
-```
-
-### `drastic-reinforcement/総会#6`
-
-- 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/drastic-reinforcement/pdf/siryo06_03.pdf>
-- 既存: date=`` time=`` place=`` (26名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
-
-```text
+防衛力の抜本的強化に関する有識者会議（総会）（第５回）
+１．日 時    令和７年４月３日（木）１４００～１６００
+２．場 所    第１省議室
+３．出席者
+（有識者）
+榊原定征（座長）、北岡伸一（座長代理）、澤田純、島田和久、
+杉山晋輔、橋本和仁、森本敏、柳川範之、山口寿一、山崎幸二、
+若田部昌澄（敬称略）
+（防衛省側）
+大臣（途中出席）、副大臣（途中出席）、金子防衛大臣政務官
+（途中出席）、若宮防衛大臣補佐官、半澤政策参与、増田防衛
+事務次官、加野防衛審議官、萬浪大臣官房長、上田防衛政策局
+次長、青柳整備計画局長、青木人事教育局長、田中地方協力局
+長、石川防衛装備庁長官、小野統幕総括官、森下陸幕長、八木
+海幕副長、内倉空幕長、江川情報本部長、有田参事官
+４．議事内容
+①若宮防衛大臣補佐官、榊原座長より開催挨拶。
+②有田参事官より【資料１】、【資料２】について説明。
 ```
 
 ### `sds#5`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/sds/pdf/giji_05.pdf>
-- 既存: date=`` time=`` place=`` (18名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2025-08-06` time=`09:30-17:30` place=`航空自衛隊入間基地` (18名)
+- LLM: date=`2025-08-06` time=`09:30-17:30` place=`航空自衛隊入間基地` (18名)
 
 ```text
+第５回特定秘密漏えい事案等に係る再発防止策に関する有識者会議
+（議事概要）
+１  日  時  令和７年８月６日（水）０９：３０～１７：３０
+２  場  所  航空自衛隊入間基地
+３  出席者
+  有識者（敬称略）
+黒江  哲郎（座長）、只木  誠（座長代理）、池田  陽子、関谷  純平、
+髙橋  秀雄
+    防衛省側
+    （内部部局）
+防衛政策局次長、秘密制度監察官（公文書監理官）、防衛政策局調査課長、
+大臣官房参事官、同情報保全企画室長ほか
+    （航空自衛隊）
+航空幕僚監部運用支援・情報部長、同情報課情報保全室長、中部航空方面隊
+司令官、同副司令官、中部航空警戒管制団司令、同副司令、中部航空警戒管
+制団中部防空管制群司令、第２輸送航空隊第４０２飛行隊長ほか
+４  議事内容
+  ・  航空自衛隊における再発防止策について説明
+・  中部航空警戒管制団中部防空管制群及び第２輸送航空隊第４０２飛行隊の視
 ```
 
 ### `space_domain#1`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/space_domain/pdf/siryo01_03.pdf>
-- 既存: date=`` time=`` place=`` (20名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2025-07-28` time=`16:30-17:30` place=`防衛省第1省議室` (20名)
+- LLM: date=`2025-07-28` time=`16:30-17:30` place=`防衛省第１省議室` (20名)
 
 ```text
+第１回宇宙領域アドバイザリーボード
+議事要旨
+1 日時等
+（１）日時：令和７年７月２８日（月）１６時３０分～１７時３０分
+（２）場所：防衛省第１省議室
+（３）出席者：
+  【委  員】
+    山川  宏   (宇宙航空研究開発機構（JAXA）理事長）[座長]
+    瀧口  太  （宇宙航空研究開発機構（JAXA）理事）
+    木村  康則 （科学技術振興機構（JST）研究開発戦略センター上席フェロー）
+  遠藤  典子（早稲田大学研究院 教授）
+  森  聡    （慶應義塾大学法学部 教授）
+小泉  悠  （東京大学先端科学技術研究センター 准教授）
+  【防衛省】
+    事務次官、官房長、防衛政策局長、防衛政策課長、戦略企画参事官、
+調査課長
+（防衛装備庁）
+技術戦略課長、事業監理官（宇宙・地上装備担当）
+（統合幕僚監部）
+  計画課長、運用第１課付１佐
+（陸上幕僚監部）
+    指揮通信システム課長
+（海上幕僚監部）
+  防衛調整官
+（航空幕僚監部）
 ```
 
 ### `dstb#9`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/dstb/pdf/siryo09_04.pdf>
-- 既存: date=`` time=`` place=`` (21名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2026-10-16` time=`10:00-11:00` place=`防衛省D棟3階 第1庁議室` (21名)
+- LLM: date=`2026-10-16` time=`10:00-11:00` place=`防衛省Ｄ棟３階 第１庁議室` (21名)
 
 ```text
+第９回  防衛科学技術委員会（ＤＳＴＢ）
+１．日  時  令和８年１０月１６日（金）１０００～１１００
+２．場  所  防衛省Ｄ棟３階  第１庁議室
+３．出席者
+【委員】
+前川  禎通（委員長）、石塚  満、岩本  愛𠮷、上野山  勝也、
+上山  隆大、遠藤  典子、後藤  厚宏、柴田  弘、宝野  和博、
+松澤  昭、三島  茂徳  （敬称略）
+【オブザーバー】
+（防衛装備庁）
+南  技術戦略部長、藤井  革新技術戦略官、海江田  技術戦略課長
+（文部科学省）
+清浦  科学技術・学術政策局長、
+武田  大臣官房審議官（科学技術・学術政策局担当）、
+近藤  研究開発戦略課長、小川  国際研究開発政策課長
+（経済産業省）
+菊川  イノベーション・環境局長、杉江  イノベーション政策課長、
+石川  イノベーション創出新事業推進課長
+４．議事内容
+・資料１について防衛装備庁から説明
+・資料２について経済産業省から説明
 ```
 
 ### `ts-ships#3`
 
 - 原資料: <https://www.mod.go.jp/j/policy/agenda/meeting/ts-ships/pdf/siryo03_01.pdf>
-- 既存: date=`` time=`` place=`` (7名)
-- LLM: date=`` time=`` place=`` (0名)
-- 実行エラー: Gemini API 呼び出し失敗: ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://aistudio.google.com/docs/get-started).', 'status': 'NOT_FOUND'}}
+- 既存: date=`2025-09-29` time=`11:00-13:00` place=`防衛省庁舎D棟3階第1庁議室` (7名)
+- LLM: date=`2025-09-29` time=`11:00-13:00` place=`防衛省庁舎Ｄ棟３階第１庁議室` (7名)
 
 ```text
+艦船の技術上の基準に関する検討会
+（第３回）
+議事概要
+１.日時等
+（１）日時：令和７年９月２９日（月）１１：００～１３：００
+（２）場所：防衛省庁舎Ｄ棟３階第１庁議室
+２.出席者
+【部外有識者】
+岩﨑  洋一
+元海上自衛隊補給本部副本部長
+岡  正義
+国立研究開発法人海上・港湾・航空技術研究所海上技
+術安全研究所デジタルトランスフォーメーション PT
+リーダー
+金子  博文（座長代理）  一般財団法人日本海事協会開発本部技術研究所ストラ
+テジックアドバイザー
+牧  敦生
+国立大学法人大阪大学工学部教授
+三島  茂徳（座長）
+元防衛装備庁防衛技監
+村井  基彦
+国立大学法人横浜国立大学理工学部教授
+【防衛省】
+家護谷  昌徳
+防衛装備庁プロジェクト管理部長  他
 ```
 
