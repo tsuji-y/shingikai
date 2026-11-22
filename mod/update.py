@@ -141,8 +141,8 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
                pages_manifest: Path | None = None, raw_pages_dir: Path | None = None,
                files_manifest: Path | None = None, raw_files_dir: Path | None = None,
                council: str = "", limit: int = 0, max_new_pages: int = check_updates.MAX_NEW_PAGES,
-               discover_unfetched: bool = False, tier_mode: str = "all",
-               recent_days: int = 60, pdf_types: set[str] | None = None,
+               discover_unfetched: bool = False, discover_tops_only: bool = False,
+               tier_mode: str = "all", recent_days: int = 60, pdf_types: set[str] | None = None,
                max_pdfs: int = 0, dry_run: bool = False, skip_fetch: bool = False,
                skip_pdf: bool = False, check_pdf_updates: bool = False,
                changed_pages_hint: list[str] | None = None,
@@ -190,6 +190,7 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
                 limit=limit,
                 max_new_pages=max_new_pages,
                 discover_unfetched=discover_unfetched,
+                discover_tops_only=discover_tops_only,
                 tier_mode=tier_mode,
                 recent_days=recent_days,
                 dry_run=dry_run,
@@ -325,6 +326,8 @@ def main() -> int:
                     help="1 回に取得する新規ページの上限")
     ap.add_argument("--discover-unfetched", action="store_true",
                     help="保存済みページ内の未取得リンクも新規取得キューに加える")
+    ap.add_argument("--discover-tops-only", action="store_true",
+                    help="councils.csv の未取得会議体トップページだけを新規取得キューに加える")
     ap.add_argument("--tier-mode", choices=("all", "top_and_recent"), default="all",
                     help="2段階チェック（top_and_recent: 一覧・会議体トップ＋直近更新ページのみ巡回）")
     ap.add_argument("--recent-days", type=int, default=60,
@@ -353,6 +356,7 @@ def main() -> int:
         limit=args.limit,
         max_new_pages=args.max_new_pages,
         discover_unfetched=args.discover_unfetched,
+        discover_tops_only=args.discover_tops_only,
         tier_mode=args.tier_mode,
         recent_days=args.recent_days,
         pdf_types=pdf_types,

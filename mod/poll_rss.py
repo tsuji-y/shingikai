@@ -57,12 +57,14 @@ def fetch(url: str) -> bytes:
         raise FeedError(f"{url}: {e.reason}") from e
 
 
-def is_council_related(feed: str, title: str, link: str) -> bool:
+def is_council_related(feed: str, title: str, link: str,
+                       prefixes: tuple[str, ...] = (MEETING_PREFIX,)) -> bool:
     """審議会ページ配下の更新、または件名に会議体らしい語を含む item。"""
-    return link.startswith(MEETING_PREFIX) or bool(COUNCIL_TITLE.search(title))
+    return any(link.startswith(p) for p in prefixes) or bool(COUNCIL_TITLE.search(title))
 
 
-def parse(feed: str, raw: bytes, first_seen: str) -> list[dict[str, str]]:
+def parse(feed: str, raw: bytes, first_seen: str, *,
+          base_url: str = BASE, prefixes: tuple[str, ...] = (MEETING_PREFIX,)) -> list[dict[str, str]]:
     if b"<!DOCTYPE" in raw[:2048] or b"<!ENTITY" in raw:
         raise FeedError(f"{feed}: DTD/ENTITY を含む応答は処理しない")
     try:
@@ -79,18 +81,20 @@ def parse(feed: str, raw: bytes, first_seen: str) -> list[dict[str, str]]:
             return (item.findtext(tag) or "").strip()
 
         pub = text("pubDate")
-        if not pub or not text("link"):
+        raw_link = text("link")
+        if not pub or not raw_link:
             raise FeedError(f"{feed}: pubDate または link のない item: {text('title')!r}")
+        link = raw_link[len(base_url):] if raw_link.startswith(base_url + "/") else raw_link
         rows.append({
             "feed": feed,
             "pub_date": parsedate_to_datetime(pub).isoformat(),
             "title": text("title"),
-            "link": text("link"),
+            "link": link,
             "guid": text("guid"),
             "category": text("category"),
             "description": text("description"),
             "content": text(CONTENT_NS),
-            "council_related": "1" if is_council_related(feed, text("title"), text("link")) else "0",
+            "council_related": "1" if is_council_related(feed, text("title"), link, prefixes=prefixes) else "0",
             "first_seen": first_seen,
         })
     if not rows:
@@ -132,30 +136,43 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
 
 
 def main() -> int:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import agencies
+
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
+    ap.add_argument("--out", type=Path, default=None)
     ap.add_argument("--dry-run", action="store_true", help="CSV を書き換えない")
     args = ap.parse_args()
+
+    ag = agencies.get_agency(args.agency)
+    feeds = ag.rss_feeds or (FEEDS if ag.agency_id == "mod" else {})
+    if not feeds:
+        print(f"[{ag.agency_id}] RSS フィードは設定されていません")
+        return 0
+    out_path = args.out or (ag.data_dir / "rss_items.csv")
+    prefixes = tuple(ag.page_prefixes)
 
     first_seen = datetime.now(timezone.utc).isoformat(timespec="seconds")
     incoming = []
     try:
-        for feed, url in FEEDS.items():
-            incoming += parse(feed, fetch(url), first_seen)
+        for feed, url in feeds.items():
+            incoming += parse(feed, fetch(url), first_seen, base_url=ag.base_url, prefixes=prefixes)
     except FeedError as e:
         # 片方でも失敗したら何も書かない（次回の実行で両方取り直す）。
         print(f"取得失敗: {e}", file=sys.stderr)
         return 1
 
-    merged, new = merge(read_csv(args.out), incoming)
+    merged, new = merge(read_csv(out_path), incoming)
     if new and not args.dry_run:
-        write_csv(args.out, merged)
+        write_csv(out_path, merged)
 
     council = [r for r in new if r["council_related"] == "1"]
-    print(f"取得 {len(incoming)} 件 / 新規 {len(new)} 件 / うち審議会関連 {len(council)} 件"
+    print(f"[{ag.agency_id}] 取得 {len(incoming)} 件 / 新規 {len(new)} 件 / うち審議会関連 {len(council)} 件"
           + ("（dry-run）" if args.dry_run else ""))
     for r in council:
-        print(f"  {r['pub_date'][:10]} [{r['feed']}] {r['title']} {BASE}{r['link']}")
+        link_full = ag.base_url + r["link"] if r["link"].startswith("/") else r["link"]
+        print(f"  {r['pub_date'][:10]} [{r['feed']}] {r['title']} {link_full}")
     return 0
 
 

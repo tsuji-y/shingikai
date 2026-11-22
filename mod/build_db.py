@@ -873,10 +873,10 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
 
 
 _PDF_ORG_WORDS = re.compile(
-    r"大学|大学院|株式会社|（株）|法人|研究|センター|協会|連合|機構|事務所|病院|クリニック|"
+    r"大学|大学院|株式会社|（株）|\(株\)|法人|研究|センター|協会|連合|機構|事務所|病院|クリニック|裁判所|"
     r"委員会|会議|審議会|検討会|省|庁|局|部|課|室|知事|市長|町長|村長|教授|准教授|講師|理事|幹事|監事|顧問|参与|社長|代表|"
-    r"委員|構成員|座長|会長|議長|主査|書記|庶務|事務局|関係官|"
-    r"弁護士|公認会計士|税理士|司法書士|行政書士|弁理士|社会保険労務士|建築士|保育士|博士|修士|"
+    r"委員|構成員|座長|会長|議長|主査|書記|庶務|事務局|関係官|現職|氏名|役職|備考|"
+    r"弁護士|公認会計士|税理士|司法書士|行政書士|弁理士|社会保険労務士|建築士|保育士|博士|修士|芸人|ジャーナリスト|"
     r"長$|員$|者$|家$|師$"
 )
 _PDF_ROLE_PREFIX = re.compile(
@@ -887,11 +887,12 @@ _PDF_SKIP_LINE = re.compile(
     r"名簿|五十音順|敬称略|下記のとおり|規定に基づき|開催について|指名について|議長決定|閣議決定|別紙|^記$|[。、]$"
 )
 _PDF_KANJI_KANA = re.compile(r"^[◎○☆※]?[\u3040-\u30ff\u3400-\u9fff\u3005\u3006\uf900-\ufaff\s　]+$")
+_PDF_ONLY_HIRA = re.compile(r"^[ぁ-んー\s　]+$")
 
 
 def _is_pdf_person_name(s: str) -> bool:
     s = s.strip().lstrip("◎○☆")
-    if not s or not _PDF_KANJI_KANA.match(s):
+    if not s or not _PDF_KANJI_KANA.match(s) or _PDF_ONLY_HIRA.match(s):
         return False
     compact = re.sub(r"\s+", "", s)
     if not (2 <= len(compact) <= 6):
@@ -942,17 +943,31 @@ def _apply_pdf_rosters(b: Builder, texts: dict[str, str], repo: Path) -> None:
 
             cand_name, cand_title = "", ""
             if _is_pdf_person_name(ln) and re.search(r"[\s　]", ln.lstrip("◎○☆")):
-                if i < len(lines) and not _is_pdf_person_name(lines[i]) and not _PDF_SKIP_LINE.search(lines[i]):
+                if (
+                    i < len(lines)
+                    and len(lines[i]) >= 3
+                    and not _PDF_ONLY_HIRA.match(lines[i])
+                    and not _is_pdf_person_name(lines[i])
+                    and not _PDF_SKIP_LINE.search(lines[i])
+                ):
                     cand_name, cand_title = ln, lines[i]
                     i += 1
             else:
-                parts = [x.strip() for x in re.split(r"(?:[ \t]{2,}|　+)", ln) if x.strip()]
+                if _PDF_ORG_WORDS.search(re.sub(r"\s+", "", ln)[:8]):
+                    continue
+                parts = [x.strip() for x in re.split(r"[\s　]+", ln) if x.strip()]
                 if len(parts) >= 2:
                     best = None
                     for k in range(1, min(6, len(parts))):
                         cn = " ".join(parts[:k])
                         ct = " ".join(parts[k:])
-                        if _is_pdf_person_name(cn) and not _is_pdf_person_name(ct) and len(ct) >= 2:
+                        if (
+                            _is_pdf_person_name(cn)
+                            and not _is_pdf_person_name(ct)
+                            and not _PDF_ONLY_HIRA.match(ct)
+                            and not re.match(r"^[学省庁局課部会所院社](?:\s|$)", ct)
+                            and len(ct) >= 2
+                        ):
                             best = (cn, ct)
                     if best:
                         cand_name, cand_title = best

@@ -27,19 +27,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Poll MOD RSS feeds
-        run: python3 mod/poll_rss.py
+      - name: Poll RSS feeds (MOD & Digital Agency)
+        run: |
+          python3 mod/poll_rss.py --agency mod
+          python3 mod/poll_rss.py --agency digital
 
       - name: Commit and push rss_items.csv if changed
         run: |
-          if git diff --quiet -- data/mod/rss_items.csv; then
+          if git diff --quiet -- data/mod/rss_items.csv data/digital/rss_items.csv && \
+             [ -z "$(git ls-files --others --exclude-standard -- data/mod/rss_items.csv data/digital/rss_items.csv)" ]; then
             echo "No RSS updates."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/mod/rss_items.csv
-          git commit -m "Update MOD RSS items ($(TZ=Asia/Tokyo date +%Y-%m-%d))"
+          git add data/mod/rss_items.csv data/digital/rss_items.csv
+          git commit -m "Update RSS items ($(TZ=Asia/Tokyo date +%Y-%m-%d))"
           git pull --rebase
           git push
 

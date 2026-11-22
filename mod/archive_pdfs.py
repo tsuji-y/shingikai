@@ -98,8 +98,8 @@ def ensure_release(tag: str, repo_slug: str, title: str, notes: str, *, runner=s
 
 
 def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path = fetch_files.FILES_DIR,
-                       tag: str = "", repo_slug: str = "", dry_run: bool = False,
-                       runner=subprocess.run) -> list[tuple[str, str]]:
+                       tag: str = "", agency_name: str = "防衛省", repo_slug: str = "",
+                       dry_run: bool = False, runner=subprocess.run) -> list[tuple[str, str]]:
     """未アーカイブのローカル PDF を年別 Release にアップロードし、台帳の release_url を更新する。"""
     rows = fetch_files.read_manifest(manifest)
     todo = [r for r in rows.values() if needs_upload(r, files_dir)]
@@ -116,8 +116,8 @@ def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path
         ensure_release(
             tag,
             repo_slug,
-            title=f"MOD Council PDFs ({tag})",
-            notes="防衛省審議会等の取得済み PDF 原本アーカイブ（出典：防衛省・自衛隊ウェブサイト、PDL1.0）。",
+            title=f"{agency_name} 審議会等 PDF ({tag})",
+            notes=f"{agency_name}審議会等の取得済み PDF 原本アーカイブ（出典：{agency_name}ウェブサイト、PDL1.0）。",
             runner=runner,
         )
 
@@ -145,8 +145,8 @@ def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path
 
 
 def upload_baseline_bundle(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path = fetch_files.FILES_DIR,
-                           tag: str = "pdfs-2026-baseline", bundle_name: str = "",
-                           repo_slug: str = "", dry_run: bool = False,
+                           tag: str = "pdfs-2026-baseline", agency_name: str = "防衛省",
+                           bundle_name: str = "", repo_slug: str = "", dry_run: bool = False,
                            runner=subprocess.run) -> list[tuple[str, str]]:
     """手元の取得済み PDF 原本を 1 本の tar.gz にまとめて Release へアップロードする。"""
     rows = fetch_files.read_manifest(manifest)
@@ -169,8 +169,8 @@ def upload_baseline_bundle(*, manifest: Path = fetch_files.MANIFEST, files_dir: 
     ensure_release(
         tag,
         repo_slug,
-        title=f"MOD Council PDFs Baseline ({tag})",
-        notes=f"防衛省審議会等の既存 PDF 原本一括アーカイブ（{len(todo)} 件。出典：防衛省・自衛隊ウェブサイト、PDL1.0）。",
+        title=f"{agency_name} 審議会等 PDF Baseline ({tag})",
+        notes=f"{agency_name}審議会等の既存 PDF 原本一括アーカイブ（{len(todo)} 件。出典：{agency_name}ウェブサイト、PDL1.0）。",
         runner=runner,
     )
     with tempfile.TemporaryDirectory() as td:
@@ -209,13 +209,13 @@ def main() -> int:
         tag = args.tag or f"{ag.release_tag_prefix}-{year}-baseline"
         res = upload_baseline_bundle(
             manifest=ag.files_manifest, files_dir=ag.raw_files_dir,
-            tag=tag, repo_slug=args.repo, dry_run=args.dry_run,
+            tag=tag, agency_name=ag.name, repo_slug=args.repo, dry_run=args.dry_run,
         )
     else:
         tag = args.tag or f"{ag.release_tag_prefix}-{year}"
         res = upload_incremental(
             manifest=ag.files_manifest, files_dir=ag.raw_files_dir,
-            tag=tag, repo_slug=args.repo, dry_run=args.dry_run,
+            tag=tag, agency_name=ag.name, repo_slug=args.repo, dry_run=args.dry_run,
         )
 
     tag_str = "（dry-run）" if args.dry_run else ""

@@ -86,7 +86,7 @@ jobs:
 
           # 省庁ごとにドメインが完全に独立しているため、1 ドメイン 1 プロセス（2 秒間隔直列）を守りつつ
           # 最大 6 省庁ずつ並列に更新チェックを行う
-           running=0
+          running=0
           failed=0
           for ag in $AGENCIES; do
             if [ ! -f "raw/${ag}/pages.csv" ]; then
@@ -95,7 +95,7 @@ jobs:
             (
               EXTRA_ARGS=()
               if [ "$ag" != "mod" ]; then
-                EXTRA_ARGS+=(--pdf-types "議事録,議事要旨,名簿" --max-pdfs 15)
+                EXTRA_ARGS+=(--tier-mode top_and_recent --pdf-types "議事録,議事要旨,名簿" --max-pdfs 15)
               fi
               python3 mod/update.py --agency "$ag" "${COMMON_ARGS[@]}" "${EXTRA_ARGS[@]}" \
                 --summary-out "/tmp/update_summary_${ag}.md"
@@ -148,16 +148,16 @@ jobs:
       - name: Commit and push database updates if any
         if: inputs.dry_run != true
         run: |
-          # RSS ジョブと競合しないよう data/mod/rss_items.csv は触らない
-          if git diff --quiet -- raw/ data/ ':(exclude)data/mod/rss_items.csv' && \
-             [ -z "$(git ls-files --others --exclude-standard -- raw/ data/)" ]; then
+          # RSS ジョブと競合しないよう data/*/rss_items.csv は触らない
+          if git diff --quiet -- raw/ data/ ':(exclude)data/*/rss_items.csv' && \
+             [ -z "$(git ls-files --others --exclude-standard -- raw/ data/ ':(exclude)data/*/rss_items.csv')" ]; then
             echo "No changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add raw/ data/
-          git reset -- data/mod/rss_items.csv || true
+          git reset -- 'data/*/rss_items.csv' || true
           if git diff --cached --quiet; then
             echo "No staged changes."
             exit 0

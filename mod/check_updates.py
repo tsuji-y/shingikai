@@ -256,8 +256,8 @@ def filter_urls(urls: list[str], *, council: str = "",
 def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
                 raw_dir: Path | None = None, councils_path: Path | None = None,
                 council: str = "", limit: int = 0, max_new_pages: int = MAX_NEW_PAGES,
-                discover_unfetched: bool = False, tier_mode: str = "all",
-                recent_days: int = 60, dry_run: bool = False,
+                discover_unfetched: bool = False, discover_tops_only: bool = False,
+                tier_mode: str = "all", recent_days: int = 60, dry_run: bool = False,
                 interval: float = INTERVAL, fetcher=fetch_page) -> CheckResult:
     """台帳のページをチェックし、変更・新規ページを保存する。
 
@@ -335,6 +335,15 @@ def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
                 if lk not in queued_or_known:
                     queued_or_known.add(lk)
                     new_queue.append(lk)
+    elif discover_tops_only:
+        for r in council_rows:
+            lk = r.get("link", "")
+            if not lk.startswith("/"):
+                continue
+            lk_norm = lk + "index.html" if (lk.endswith("/") and not ag.allow_extensionless_pages) else agencies.normalize_path(lk)
+            if lk_norm not in queued_or_known and lk not in queued_or_known:
+                queued_or_known.add(lk_norm)
+                new_queue.append(lk_norm)
     elif discover_unfetched:
         idx_set = set(ag.index_urls) | {agencies.normalize_path(u) for u in ag.index_urls}
         ordered_existing = [u for u in ag.index_urls if u in rows] + [
@@ -454,10 +463,11 @@ def check_pages(*, agency_id: str = "mod", manifest: Path | None = None,
             }
             result.new_pages.append(new_url)
             result.manifest_dirty = True
-            for link_path in discover_html_links(new_url, resp.body, agency=ag, council_rows=council_rows):
-                if link_path not in queued_or_known:
-                    queued_or_known.add(link_path)
-                    new_queue.append(link_path)
+            if not discover_tops_only:
+                for link_path in discover_html_links(new_url, resp.body, agency=ag, council_rows=council_rows):
+                    if link_path not in queued_or_known:
+                        queued_or_known.add(link_path)
+                        new_queue.append(link_path)
         else:
             result.errors.append((new_url, resp.error or f"HTTP {resp.status}"))
 
@@ -485,6 +495,8 @@ def main() -> int:
     ap.add_argument("--max-new-pages", type=int, default=MAX_NEW_PAGES, help="1 回に取得する新規ページの上限")
     ap.add_argument("--discover-unfetched", action="store_true",
                     help="保存済みページ内の未取得リンクも新規取得キューに加える")
+    ap.add_argument("--discover-tops-only", action="store_true",
+                    help="councils.csv の未取得会議体トップページだけを新規取得キューに加える")
     ap.add_argument("--tier-mode", choices=("all", "top_and_recent"), default="all",
                     help="2段階チェック（top_and_recent: 一覧・会議体トップ＋直近更新ページのみ巡回）")
     ap.add_argument("--recent-days", type=int, default=60,
@@ -499,6 +511,7 @@ def main() -> int:
             limit=args.limit,
             max_new_pages=args.max_new_pages,
             discover_unfetched=args.discover_unfetched,
+            discover_tops_only=args.discover_tops_only,
             tier_mode=args.tier_mode,
             recent_days=args.recent_days,
             dry_run=args.dry_run,
