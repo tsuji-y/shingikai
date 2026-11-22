@@ -1,6 +1,7 @@
 person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n_meetings
 遠藤典子,遠藤 典子,3,"mod, digital, mof",5,"mod:drastic-reinforcement, mod:space_domain, mod:dstb, digital:administrative-research-wg-technology_based_regulatory_reform, mof:fiscal_system_council/sub-of_fiscal_system",委員,早稲田大学研究院 教授 | 早稲田大学研究院教授 | 慶應義塾大学グローバルリサーチインスティテュー,15
 宍戸常寿,宍戸常寿,3,"digital, cfa, ppc",4,"digital:ai_digital, digital:administrative-research, cfa:kodomokanren-jujisha, ppc:koutekikenkyukai",,東京大学大学院法学政治学研究科教授 | 東京大学大学院法学政治学研究科 教授 | 東京大学大学院法学政治学研究科教授［座長］,0
+令和,令和,3,"cao, moj, mext",3,"cao:invest-japan/committee, moj:1/kanbou_houkyo_kyougikai_index, mext:chousa/kaihatu/016",,２ 年 ７ 月 ２ ８ 日 一 部 改 正 | ４ 年 ５ 月 １ ３ 日 一 部 改 正 | ５ 年 ４ 月 ２ ６ 日 一 部 改 正 | ６ 年 ５ 月 １ ３ 日 一 部 改 正 | ７年 ６ 月 ２ 日 一 部 改 正 | ８年 ７ 月 ２ 日 一 部 改 正 | ８ 年９ 月 １ 日 一 部 改 正 | ８ 年 ３ 月 時 点 | 7 年５月現在,0
 十倉雅和,十倉雅和,2,"digital, mof",3,"digital:administrative-research, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",座長,日本経済団体連合会 会長 | 住友化学(株)相談役,0
 宮島香澄,宮島香澄,2,"cfa, mof",3,"cfa:shingikai, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",,前  日本テレビ報道局解説委員 | ジャーナリスト,0
 山口明夫,山口明夫,2,"digital, mof",3,"digital:ai_digital, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",,日本アイ・ビー・エム株式会社代表取締役会長 | 日本アイ・ビー・エム(株)代表取締役社長,0
@@ -104,52 +105,77 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 cao:invest-japan/committee:<アドバイザー>石黒憲彦独立行政法人日本貿易振興機構理事長マークゥス・シュールマン在日ドイツ商工会議所専務理事/駐日ドイツ商工特別代表神保寛子西村あさひ法律事務所・外国法共同事業パートナー高島宗一郎福岡市長菰田正信三井不動産株式会社代表取締役,<アドバイザー>石黒憲彦独立行政法人日本貿易振興機構理事長マークゥス・シュールマン在日ドイツ商工会議所専務理事/駐日ドイツ商工特別代表神保寛子西村あさひ法律事務所・外国法共同事業パートナー髙島宗一郎福岡市長菰田正信三井不動産株式会社代表取締役,1,cao,1,cao:invest-japan/committee,会長,,1
 cao:invest-japan/committee:アフラック生命保険株式会社,アフラック生命保険株式会社,1,cao,1,cao:invest-japan/committee,会長,,1
 cas:ainusuishin:中村,中村,1,cas,1,cas:ainusuishin,委員,,3
-cas:ainusuishin:丸子,丸子,1,cas,1,cas:ainusuishin,委員,,9
-cas:ainusuishin:佐々木,佐々木,1,cas,1,cas:ainusuishin,委員,,9
-cas:ainusuishin:佐藤,佐藤,1,cas,1,cas:ainusuishin,委員,,2
-cas:ainusuishin:八幡,八幡,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:加藤,加藤,1,cas,1,cas:ainusuishin,委員,,7
+cas:ainusuishin:丸子,丸子,1,cas,1,cas:ainusuishin,委員,,14
+cas:ainusuishin:佐々木,佐々木,1,cas,1,cas:ainusuishin,委員,,14
+cas:ainusuishin:佐藤,佐藤,1,cas,1,cas:ainusuishin,委員,,6
+cas:ainusuishin:八幡,八幡,1,cas,1,cas:ainusuishin,委員,,6
+cas:ainusuishin:加藤,加藤,1,cas,1,cas:ainusuishin,委員,,12
 cas:ainusuishin:坂元,坂元,1,cas,1,cas:ainusuishin,委員,,5
 cas:ainusuishin:大川,大川,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:大西,大西,1,cas,1,cas:ainusuishin,委員,,6
+cas:ainusuishin:大西,大西,1,cas,1,cas:ainusuishin,委員,,10
 cas:ainusuishin:宇治,宇治,1,cas,1,cas:ainusuishin,委員,,2
 cas:ainusuishin:小川,小川,1,cas,1,cas:ainusuishin,委員,,2
-cas:ainusuishin:常本,常本,1,cas,1,cas:ainusuishin,委員 / 部会長,,9
-cas:ainusuishin:本田,本田,1,cas,1,cas:ainusuishin,委員,,2
+cas:ainusuishin:常本,常本,1,cas,1,cas:ainusuishin,委員 / 部会長,,14
+cas:ainusuishin:本田,本田,1,cas,1,cas:ainusuishin,委員,,6
 cas:ainusuishin:横田,横田,1,cas,1,cas:ainusuishin,委員,,1
-cas:ainusuishin:石森,石森,1,cas,1,cas:ainusuishin,委員,,3
+cas:ainusuishin:石森,石森,1,cas,1,cas:ainusuishin,委員,,8
 cas:ainusuishin:秋元,秋元,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:篠田,篠田,1,cas,1,cas:ainusuishin,委員,,2
-cas:ainusuishin:菊地,菊地,1,cas,1,cas:ainusuishin,委員,,2
+cas:ainusuishin:篠田,篠田,1,cas,1,cas:ainusuishin,委員,,4
+cas:ainusuishin:菊地,菊地,1,cas,1,cas:ainusuishin,委員,,7
 cas:ainusuishin:鈴木,鈴木,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:阿部,阿部,1,cas,1,cas:ainusuishin,委員,,4
-cas:ainusuishin:高橋,高橋,1,cas,1,cas:ainusuishin,委員,,2
+cas:ainusuishin:阿部,阿部,1,cas,1,cas:ainusuishin,委員,,9
+cas:ainusuishin:高橋,高橋,1,cas,1,cas:ainusuishin,委員,,3
 cas:jieikan:坂井国家公安委員会,坂井国家公安委員会,1,cas,1,cas:jieikan,委員長,,2
-maff:seisaku:中嶋,中嶋,1,maff,1,maff:seisaku,会長代理 / 部会長,,2
-maff:seisaku:二村,二村,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:井上,井上,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:三輪,三輪,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:上岡,上岡,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:中家,中家,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:中嶋,中嶋,1,maff,1,maff:seisaku,委員 / 部会長 / 会長代理,,4
+maff:seisaku:中谷,中谷,1,maff,1,maff:seisaku,専門委員,,1
+maff:seisaku:二村,二村,1,maff,1,maff:seisaku,委員,,3
+maff:seisaku:井上,井上,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:佐藤,佐藤,1,maff,1,maff:seisaku,委員,,4
 maff:seisaku:内藤,内藤,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:前田,前田,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:加藤,加藤,1,maff,1,maff:seisaku,委員,,4
 maff:seisaku:友實,友實,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:吉高,吉高,1,maff,1,maff:seisaku,委員,,1
-maff:seisaku:堀切,堀切,1,maff,1,maff:seisaku,委員,,1
-maff:seisaku:大橋,大橋,1,maff,1,maff:seisaku,会長,,2
-maff:seisaku:大津,大津,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:宮島,宮島,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:合瀬,合瀬,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:吉高,吉高,1,maff,1,maff:seisaku,委員,,3
+maff:seisaku:図司,図司,1,maff,1,maff:seisaku,専門委員,,2
+maff:seisaku:堀切,堀切,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:大山,大山,1,maff,1,maff:seisaku,専門委員,,2
+maff:seisaku:大橋,大橋,1,maff,1,maff:seisaku,委員 / 会長,,6
+maff:seisaku:大津,大津,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:宮島,宮島,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:寺川,寺川,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:小針,小針,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:山波,山波,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:山波,山波,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:山浦,山浦,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:山野,山野,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:斎藤,齋藤,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:林,林,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:椛木,椛木,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:平松,平松,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:斎藤,齋藤,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:松尾,松尾,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:林,林,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:染谷,染谷,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:柚木,柚木,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:栗本,栗本,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:椛木,椛木,1,maff,1,maff:seisaku,委員,,3
 maff:seisaku:水戸部,水戸部,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:浅井,浅井,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:浅井,浅井,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:清原,清原,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:田島,田島,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:磯崎,磯崎,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:砂子田,砂子田,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:磯崎,磯崎,1,maff,1,maff:seisaku,委員,,3
 maff:seisaku:稲垣,稲垣,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:竹下,竹下,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:西村,西村,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:茂原,茂原,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:西村,西村,1,maff,1,maff:seisaku,専門委員 / 委員,,4
+maff:seisaku:角倉,角倉,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:赤松,赤松,1,maff,1,maff:seisaku,委員,,1
-maff:seisaku:高槻,高槻,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:近藤,近藤,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:香坂,香坂,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:高島,髙島,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:高槻,高槻,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:高野,髙野,1,maff,1,maff:seisaku,会長,,2
 mod:cho-shin:星,星,1,mod,1,mod:cho-shin,委員,,10
 mod:cho-shin:河村,河村,1,mod,1,mod:cho-shin,会長,,9
 mod:cho-shin:藤川,藤川,1,mod,1,mod:cho-shin,会長代理 / 委員,,9
@@ -208,7 +234,6 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 井上隆,井上 隆,1,mod,1,mod:jinji,分科会長及び部会長 / 委員 / 部会長,（一社）日本経済団体連合会 参与,23
 井口直樹,井口 直樹,1,mod,1,mod:chuuryu-kentou,,国民年金基金連合会常務理事,0
 京井,京井,1,fsa,1,fsa:singi_zidousya/zid_base,,和 子 NPO法人いのちのミュージアム事務局,0
-令和,令和,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,８ 年 ３ 月 時 点,0
 企業会計審,企業会計審,1,fsa,1,fsa:singi_kigyou/top,,議 会委 員 名 簿,0
 伊奈久喜,伊奈久喜,1,mod,1,mod:bo-san,,日本経済新聞論説委員,0
 伊藤元重,伊藤元重,1,cao,1,cao:invest-japan/committee,,東京大学  名誉教授,0
@@ -309,6 +334,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 大塲亮太郎,大塲亮太郎,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,11
 大屋敷力,大屋敷力,1,env,1,env:03recycle/yoshi03-18,,一般社団法人電子情報技術産業協会 ＡＶＣ部会 ＡＶ機器リサイクル関連,0
 大屋雄裕,大屋雄裕,1,ppc,1,ppc:koutekikenkyukai,,慶應義塾大学法学部法律学科教授,0
+大崎貞和,大崎 貞和,1,cao,1,cao:invest-japan/committee,座長代理,株式会社野村総合研究所未来創発センター主席研究員,5
 大方美香,大方美香,1,cfa,1,cfa:hoikujinzai,,大阪総合保育大学、大学院学長、教授,0
 大杉昭英,大杉昭英,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,15
 大池秀和,大池秀和,1,env,1,env:03recycle/yoshi03-18,,日本鉱業協会,0
@@ -399,6 +425,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 布山祐子,布山 祐子,1,mod,1,mod:jinji,委員,（一社）日本経済団体連合会労働法制本部 参事,3
 平井登威,平井登威,1,cfa,1,cfa:shingikai/iken_senmon,,大学生、NPO 法人  CoCoTELI  代表,0
 平岡裕治,平岡 裕治,1,mod,1,mod:dangou,,元航空幕僚長,0
+平成,平成,1,cao,1,cao:invest-japan/committee,,２ ６ 年 ４ 月 ２ ５ 日 | ２ ７年 ３ 月 １ ７日 一 部改 正 | ２ ７ 年 ８ 月 ４ 日 一 部 改 正 | ２ ８ 年 ４ 月 １ 日 一 部 改 正 | ２ ９ 年 ５ 月 １ ０ 日 一 部 改 正 | ３ ０年 ５月 １ ７ 日 一 部 改 正 | ３ １年 ４ 月 １ ６ 日 一 部 改 正,0
 平野信行,平野信行,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,(株)三菱ＵＦＪ銀行 特別顧問,0
 幸島博美,幸島 博美,1,mod,1,mod:seisan,,三菱重工業株式会社 船舶・海洋事業本部 顧問,0
 広瀬祐子,廣瀬 祐子,1,mod,1,mod:shi-chu,委員,ジャーナリスト,1
@@ -520,6 +547,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 洲崎,洲崎,1,fsa,1,fsa:singi_zidousya/zid_base,,博 史 同志社大学大学院　司法研究科教授,0
 浜田剛史,濱田剛史,1,cfa,1,cfa:kodomokanren-jujisha,,大阪府高槻市長,0
 浦岡由美子,浦岡 由美子,1,mod,1,mod:jinji,委員,弁護士,24
+浦田秀次郎,浦田 秀次郎,1,cao,1,cao:invest-japan/committee,座長,早稲田大学大学院アジア太平洋研究科教授,5
 清住哲郎,清住 哲郎,1,mod,1,mod:blood-transfusion,委員,防衛医科大学校病院救命救急センター長,4
 清原慶子,清原慶子,1,cfa,1,cfa:ijime-judaikayoin,,杏林大学客員教授・前東京都三鷹市長,0
 清水俊行,清水俊行,1,mod,1,mod:cho-teki,,公認会計士 朝日監査法人,0
