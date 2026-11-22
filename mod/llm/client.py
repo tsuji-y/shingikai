@@ -38,7 +38,7 @@ def extract_json(text: str) -> dict[str, Any]:
 
 class GeminiClient:
     def __init__(self, model: str = DEFAULT_MODEL, api_key: str | None = None,
-                 min_interval: float = 1.0, max_retries: int = 3):
+                 min_interval: float = 2.0, max_retries: int = 3):
         key = api_key if api_key is not None else os.environ.get("GEMINI_API_KEY", "")
         if not key:
             raise LLMError("環境変数 GEMINI_API_KEY が設定されていません")
@@ -64,11 +64,23 @@ class GeminiClient:
                 time.sleep(wait)
         self._last_call = time.monotonic()
 
+    def _build_config(self, *, json_mode: bool) -> Any:
+        kwargs: dict[str, Any] = {
+            "response_mime_type": "application/json" if json_mode else "text/plain",
+        }
+        if "gemini-3" in self.model:
+            thinking_cls = getattr(self._types, "ThinkingConfig", None)
+            if thinking_cls is not None:
+                try:
+                    kwargs["thinking_config"] = thinking_cls(thinking_level="LOW")
+                except (TypeError, ValueError):
+                    pass
+        else:
+            kwargs["temperature"] = 0.0
+        return self._types.GenerateContentConfig(**kwargs)
+
     def _call_with_retry(self, contents: Any, *, json_mode: bool = False) -> str:
-        cfg = self._types.GenerateContentConfig(
-            temperature=0.0,
-            response_mime_type="application/json" if json_mode else "text/plain",
-        )
+        cfg = self._build_config(json_mode=json_mode)
         last_err: Exception | None = None
         for attempt in range(self.max_retries):
             self._pace()
@@ -85,11 +97,16 @@ class GeminiClient:
             except Exception as e:
                 last_err = e
                 msg = str(e)
-                # 認証エラー・権限エラーはリトライしない
+                # 認証エラー・権限エラー・モデル不在はリトライしない
                 if any(code in msg for code in ("401", "403", "API_KEY_INVALID", "PERMISSION_DENIED")):
                     raise LLMError(f"Gemini API 認証・権限エラー: {type(e).__name__}") from e
+                if any(code in msg for code in ("404", "NOT_FOUND")):
+                    raise LLMError(f"Gemini API モデル未検出: {type(e).__name__}: {e}") from e
                 if attempt + 1 < self.max_retries:
-                    time.sleep(2.0 * (2 ** attempt))
+                    if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                        time.sleep(15.0 * (attempt + 1))
+                    else:
+                        time.sleep(2.0 * (2 ** attempt))
                     continue
         raise LLMError(f"Gemini API 呼び出し失敗: {type(last_err).__name__}: {last_err}") from last_err
 

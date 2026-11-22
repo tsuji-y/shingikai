@@ -33,6 +33,10 @@ on:
         description: "特定の会議体 ID に絞る場合のみ指定（空なら全件）"
         required: false
         default: ""
+      model:
+        description: "使用する Gemini モデル（空なら既定: gemini-3.8-flash）"
+        required: false
+        default: ""
       dry_run:
         description: "dry-run（API を呼ばずに件数だけ確認）"
         type: boolean
@@ -70,12 +74,16 @@ jobs:
             exit 1
           fi
           AGENCY="${{ inputs.agency || 'mod' }}"
+          MODEL_ARGS=()
+          if [ -n "${{ inputs.model }}" ]; then
+            MODEL_ARGS=(--model "${{ inputs.model }}")
+          fi
           if [ "${{ inputs.mode }}" = "evaluate" ]; then
             OUT_FILE="checks/llm_eval_30_${AGENCY}.md"
             if [ "$AGENCY" = "mod" ]; then
               OUT_FILE="checks/llm_eval_30.md"
             fi
-            ARGS=(--agency "$AGENCY" --task evaluate --out "$OUT_FILE")
+            ARGS=(--agency "$AGENCY" --task evaluate --max-llm-calls 30 --out "$OUT_FILE" "${MODEL_ARGS[@]}")
             if [ "${{ inputs.dry_run }}" = "true" ]; then
               ARGS+=(--dry-run)
             fi
@@ -84,7 +92,7 @@ jobs:
               head -n 60 "$OUT_FILE" >> "$GITHUB_STEP_SUMMARY"
             fi
           else
-            ARGS=(--agency "$AGENCY" --task "${{ inputs.task }}" --backfill --max-llm-calls "${{ inputs.max_llm_calls }}")
+            ARGS=(--agency "$AGENCY" --task "${{ inputs.task }}" --backfill --max-llm-calls "${{ inputs.max_llm_calls }}" "${MODEL_ARGS[@]}")
             if [ -n "${{ inputs.council }}" ]; then
               ARGS+=(--council "${{ inputs.council }}")
             fi
