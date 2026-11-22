@@ -166,6 +166,18 @@ class LLMValidationTest(unittest.TestCase):
         self.assertFalse(bad_weekday.ok)
         self.assertTrue(any("曜日不一致" in e for e in bad_weekday.errors))
 
+    def test_normalizes_japanese_and_4digit_time_formats(self):
+        self.assertEqual(llm_validate.normalize_time("14時30分～17時30分"), "14:30-17:30")
+        self.assertEqual(llm_validate.normalize_time("1430-1601"), "14:30-16:01")
+        self.assertEqual(llm_validate.normalize_time("１０：００～１２：００"), "10:00-12:00")
+        self.assertEqual(llm_validate.normalize_time("14時～16時"), "14:00-16:00")
+        res = llm_validate.validate_minutes_extraction(
+            {"date": "2026-05-10", "date_raw": "令和8年5月10日（日）", "time": "10時00分～11時30分", "attendees": []},
+            self.SOURCE,
+        )
+        self.assertTrue(res.ok)
+        self.assertEqual(res.cleaned["time"], "10:00-11:30")
+
 
 class LLMTasksAndBuildIntegrationTest(unittest.TestCase):
     def _setup_mini_env(self, tmp: Path):

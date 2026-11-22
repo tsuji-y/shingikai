@@ -17,12 +17,32 @@ import minutes  # noqa: E402
 
 _WS_RE = re.compile(r"\s+")
 _TIME_RE = re.compile(r"^\d{1,2}:\d{2}-\d{1,2}:\d{2}$")
+_TIME_JA_RE = re.compile(
+    r"^(\d{1,2})\s*(?:時|:)\s*(\d{1,2})?\s*分?\s*[-~〜～ー－–—]\s*(\d{1,2})\s*(?:時|:)\s*(\d{1,2})?\s*分?$"
+)
+_TIME_4D_RE = re.compile(r"^(\d{2})(\d{2})\s*[-~〜～ー－–—]\s*(\d{2})(\d{2})$")
 _DATE_IN_SRC_RE = re.compile(r"(?:令和|平成|昭和)(?:元|\d{1,2})年\d{1,2}月\d{1,2}日\s*[（(][月火水木金土日][）)]")
 
 
 def compact_nfkc(text: str) -> str:
     """NFKC 正規化のうえ空白をすべて除いた文字列。原文照合に使う。"""
     return _WS_RE.sub("", unicodedata.normalize("NFKC", text))
+
+
+def normalize_time(time_str: str) -> str:
+    """日本語表記（14時30分～17時30分）や 4 桁表記（1430-1601）を HH:MM-HH:MM へ正規化する。"""
+    s = unicodedata.normalize("NFKC", time_str).strip()
+    if not s or _TIME_RE.match(s):
+        return s
+    m = _TIME_JA_RE.match(s)
+    if m:
+        h1, m1, h2, m2 = m.groups()
+        return f"{int(h1):02d}:{int(m1 or 0):02d}-{int(h2):02d}:{int(m2 or 0):02d}"
+    m = _TIME_4D_RE.match(s)
+    if m:
+        h1, m1, h2, m2 = m.groups()
+        return f"{int(h1):02d}:{int(m1):02d}-{int(h2):02d}:{int(m2):02d}"
+    return s
 
 
 @dataclass
@@ -39,14 +59,14 @@ def validate_minutes_extraction(payload: dict[str, Any], source_text: str) -> Va
     1. 開催日（date）が YYYY-MM-DD として実在する日付であること。
     2. date_raw または原文中の該当開催日に曜日が書かれていれば、その曜日が日付と一致すること。
     3. 抽出した全出席者の name_raw（空白除去・NFKC）が、空白を除いた原文にそのまま存在すること。
-    4. time が指定されている場合、HH:MM-HH:MM 形式であること。
+    4. time が指定されている場合、HH:MM-HH:MM 形式（日本語表記・4桁表記は正規化）であること。
     """
     errors: list[str] = []
     compact_src = compact_nfkc(source_text)
 
     date_str = str(payload.get("date") or "").strip()
     date_raw = str(payload.get("date_raw") or "").strip()
-    time_str = str(payload.get("time") or "").strip()
+    time_str = normalize_time(str(payload.get("time") or "").strip())
     place = str(payload.get("place") or "").strip()
     agenda = str(payload.get("agenda") or "").strip()
 
