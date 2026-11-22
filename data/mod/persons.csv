@@ -14,19 +14,20 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 中村望,中村 望,中村,full_name,harassment,harassment,委員,弁護士（大知法律事務所）,7,2023-02-06,2023-08-18
 中村由行,中村 由行,中村,full_name,futenma,futenma,座長,（独）港湾空港技術研究所研究主監,0,,
 中村義人,中村 義人,中村,full_name,dokuritsu,dokuritsu,委員長,公認会計士,0,,
-中村豪,中村 豪,中村,full_name,kousei_nyusatu,kousei_nyusatu,会長代理,東京経済大学経済学部 教授,0,,
+中村豪,中村 豪,中村,full_name,kousei_nyusatu,kousei_nyusatu,会長代理,東京経済大学経済学部 教授,2,2026-03-11,2026-07-03
 中田るみ子,中田 るみ子,中田,full_name,kiban,kiban,委員,協和キリン株式会社取締役 / デンカ株式会社取締役,9,2023-02-22,2026-03-31
 中西寛,中西 寛,中西,full_name,shi-chu,shi-chu,委員,京都大学大学院教授,1,2024-04-23,2024-04-23
 中須賀真一,中須賀 真一,中須賀,full_name,dstb,dstb,委員長代理,東京大学特任研究員（前教授）,0,,
 久江雅彦,久江 雅彦,久江,full_name,kiban,kiban,委員,共同通信社特別編集委員,9,2023-02-22,2026-03-31
 五箇公一,五箇 公一,五箇,full_name,futenma,futenma,,（独）国立環境研究所生物・生態系環境研究センター主席研究員,0,,
-五艘隆志,五艘 隆志,五艘,full_name,kousei_nyusatu,kousei_nyusatu,,東京都市大学建築都市デザイン学部都市工学科 教授,0,,
+五艘隆志,五艘 隆志,五艘,full_name,kousei_nyusatu,kousei_nyusatu,委員,東京都市大学建築都市デザイン学部都市工学科 教授 | 東京都市大学建築都市デザイン学部都市工学科教授,3,2025-12-19,2026-07-03
 井上隆,井上 隆,井上,full_name,jinji,jinji,分科会長及び部会長 / 委員 / 部会長,（一社）日本経済団体連合会 参与,23,2023-02-07,2026-10-28
 井口直樹,井口 直樹,井口,full_name,chuuryu-kentou,chuuryu-kentou,,国民年金基金連合会常務理事,0,,
 仮野忠男,仮野 忠男,仮野,full_name,jinji-ken dangou,jinji-ken dangou,,政治ジャーナリスト | 政治ジャーナリスト（前毎日新聞社論説委員）,0,,
 仲村英一,仲村 英一,仲村,full_name,vaccine seibutu,vaccine seibutu,,（財）結核予防会 理事長 | 財団法人日本医療保険事務協会理事長 ［座長］,0,,
 伊奈久喜,伊奈久喜,,full_name,bo-san,bo-san,,日本経済新聞論説委員,0,,
 佐々木勝,佐々木 勝,佐々木,full_name,kyumei,kyumei,座長,東京都保健医療公社 副理事長 / 内閣官房参与,0,,
+佐藤,佐藤,,full_name,seisaku,,委員,丙,1,2022-08-10,2022-08-10
 佐藤丙午,佐藤 丙午,佐藤,full_name,seisaku sobi-gijutsuiten,seisaku sobi-gijutsuiten,委員,拓殖大学 / 国際学部教授 | 拓殖大学 教授 | 拓殖大学 国際学部教授,5,2022-11-24,2025-08-05
 佐藤千佳,佐藤 千佳,佐藤,full_name,kiban,kiban,委員,アサヒグループホールディングス株式会社 社外取締役,8,2023-02-22,2024-11-05
 佐藤謙,佐藤 謙,佐藤,full_name,dangou,dangou,,（財）世界平和研究所副会長（元防衛事務次官）,0,,
@@ -42,7 +43,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 千葉恭裕,千葉 恭裕,千葉,full_name,jinji,jinji,委員,元人事院 給与局長,24,2023-02-07,2026-10-28
 南亜樹,南 亜樹,南,full_name,dstb,dstb,事務局長,防衛装備庁技術戦略部長,0,,
 南博方,南 博方,南,full_name,arikata,arikata,会長,成城大学学長,0,,
-南島和久,南島 和久,南島,full_name,seisaku,seisaku,委員,龍谷大学 / 政策学部教授 | 龍谷大学 政策学部教授,5,2022-11-24,2025-08-05
+南島和久,南島 和久,南島,full_name,seisaku,seisaku,委員,龍谷大学 / 政策学部教授 | 龍谷大学 政策学部教授,6,2022-08-10,2025-08-05
 南条俊二,南条俊二,,full_name,bo-san,bo-san,,読売新聞論説委員,0,,
 原武史,原 武史,原,full_name,futenma,futenma,,（社）全国水産技術者協会理事長,0,,
 及川耕造,及川 耕造,及川,full_name,bouei_gijutsu,bouei_gijutsu,,日本防衛装備工業会理事長,0,,
@@ -92,7 +93,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 山田一郎,山田 一郎,山田,full_name,kondankai,kondankai,,（財）空港環境整備協会理事、航空環境研究センター所長,0,,
 山田伸志,山田 伸志,山田,full_name,futenma,futenma,,山梨大学名誉教授,0,,
 山田沢明,山田 澤明,山田,full_name,seisaku dokuritsu,seisaku dokuritsu,委員,株式会社エグゼクティブ・パートナーズ / 理事 | 株式会社野村総合研究所 常勤監査役 | 北海道大学東京オフィス所長・特任教授 | 北海道大学 客員教授,4,2022-11-24,2024-08-15
-山谷清志,山谷 清志,山谷,full_name,seisaku dokuritsu,seisaku dokuritsu,座長,同志社大学 / 名誉教授 | 同志社大学大学院 総合政策科学研究科 教授 | 同志社大学大学院 総合政策科学研究科教授 | 同志社大学 政策学部教授 | 同志社大学大学院 政策学部教授 | 同志社大学 名誉教授,5,2022-11-24,2025-08-05
+山谷清志,山谷 清志,山谷,full_name,seisaku dokuritsu,seisaku dokuritsu,座長,同志社大学 / 名誉教授 | 同志社大学大学院 総合政策科学研究科 教授 | 同志社大学大学院 総合政策科学研究科教授 | 同志社大学 政策学部教授 | 同志社大学大学院 政策学部教授 | 同志社大学 名誉教授,7,2022-08-10,2026-08-13
 岡崎仁,岡崎 仁,岡崎,full_name,blood-transfusion,blood-transfusion,委員,東京大学医学部附属病院輸血部長・教授,4,2023-10-06,2024-01-29
 岡正義,岡 正義,岡,full_name,ts-ships,,,国立研究開発法人海上・港湾・航空技術研究所海上技術安全研究所デジタルトランスフォーメーション PTリーダー,3,2025-07-30,2025-09-29
 岡田康彦,岡田 康彦,岡田,full_name,kondankai,kondankai,,住宅金融公庫副総裁,0,,
@@ -105,7 +106,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 峰ひろみ,峰 ひろみ,峰,full_name,jinji,jinji,審議会長・分科会長及び部会長 / 委員 / 分科会長,東京都立大学法科大学院 教授,34,2023-01-27,2026-09-03
 島田和久,島田和久,,full_name,drastic-reinforcement,,,,10,2024-02-19,2025-09-19
 川井健,川井 健,川井,full_name,cho-teki cho-sei,cho-teki cho-sei,座長,帝京大学法学部教授 | 帝京大学法学部教授（元一橋大学長）,0,,
-川尻恵理子,川尻 恵理子,川尻,full_name,kousei_nyusatu,kousei_nyusatu,,ハロー法律事務所 弁護士,0,,
+川尻恵理子,川尻 恵理子,川尻,full_name,kousei_nyusatu,kousei_nyusatu,委員,ハロー法律事務所 弁護士,3,2025-12-19,2026-07-03
 川崎博子,川﨑 博子,川﨑,full_name,harassment,harassment,委員,ＥＮＥＯＳホールディングス（株）社外取締役,7,2023-02-06,2023-08-18
 布山祐子,布山 祐子,布山,full_name,jinji,jinji,委員,（一社）日本経済団体連合会労働法制本部 参事,3,2025-01-17,2026-02-25
 平岡裕治,平岡 裕治,平岡,full_name,dangou,dangou,,元航空幕僚長,0,,
@@ -121,6 +122,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 斎野彦弥,齋野 彦弥,齋野,full_name,kiban,kiban,座長,元横浜国立大学大学院教授 / 弁護士,9,2023-02-22,2026-03-31
 新井誠,新井 誠,新井,full_name,dokuritsu,dokuritsu,委員長代理,中央大学 法学部 教授,0,,
 月尾嘉男,月尾嘉男,,full_name,bo-san,bo-san,,東京大学教授,0,,
+木下誠也,木下 誠也,木下,full_name,kousei_nyusatu,,委員,,2,2025-12-19,2026-03-11
 木場紗綾,木場 紗綾,木場,full_name,cap_build,cap_build,委員,神戸市外国語大学准教授 | 神戸市外国語大学,4,2023-06-28,2026-06-15
 木村康則,木村 康則,木村,full_name,space_domain,space_domain,委員,国立研究開発法人 科学技術振興機構（JST） 研究開発戦略センター（CRDS）上席フェロー | 科学技術振興機構(JST)研究開発戦略センター上席フェロー | 国立研究開発法人 科学技術振興機構(JST)研究開発戦略センター上席フェロー,3,2025-07-28,2026-07-28
 杉山晋輔,杉山晋輔,,full_name,drastic-reinforcement,,,,6,2024-02-19,2026-03-10
@@ -130,7 +132,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 村山裕三,村山 裕三,村山,full_name,bouei_gijutsu seisan,bouei_gijutsu seisan,,同志社大学大学院ビジネス研究科教授 | 同志社大学大学院ビジネス研究科長,0,,
 東海幹夫,東海 幹夫,東海,full_name,cho-sei,cho-sei,,青山学院大学経営学部教授,0,,
 松元崇,松元 崇,松元,full_name,kiban,kiban,委員,国家公務員共済組合連合会理事長,7,2023-02-22,2024-11-05
-松尾亜紀子,松尾 亜紀子,松尾,full_name,seisaku bouei_gijutsu,seisaku bouei_gijutsu,委員,慶應義塾大学 / 理工学部教授 | 慶応義塾大学理工学部教授 | 慶應義塾大学 理工学部教授,5,2022-11-24,2025-08-05
+松尾亜紀子,松尾 亜紀子,松尾,full_name,seisaku bouei_gijutsu,seisaku bouei_gijutsu,委員,慶應義塾大学 / 理工学部教授 | 慶応義塾大学理工学部教授 | 慶應義塾大学 理工学部教授,6,2022-08-10,2025-08-05
 松崎信,松﨑 信,松﨑,full_name,cho-teki,cho-teki,,公認会計士 監査法人トーマツ,0,,
 松本英昭,松本 英昭,松本,full_name,kondankai,kondankai,,（財）自治総合センター理事長,0,,
 松本雅則,松本 雅則,松本,full_name,blood-transfusion,blood-transfusion,委員,奈良県立医科大学血液内科教授・輸血部長,4,2023-10-06,2024-01-29
@@ -149,7 +151,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 森本敏,森本 敏,森本,full_name,drastic-reinforcement bouei_gijutsu sobi-gijutsuiten,bouei_gijutsu sobi-gijutsuiten,,拓殖大学総長 | 拓殖大学 特任教授,11,2024-02-19,2026-03-10
 森永耕造,森永 耕造,森永,full_name,rinri jinji,rinri jinji,委員,元人事院事務総長 | 元人事院 事務総長,35,2023-01-27,2026-09-03
 森聡,森 聡,森,full_name,space_domain,space_domain,委員,慶應義塾大学法学部 教授,3,2025-07-28,2026-07-28
-楠茂樹,楠 茂樹,楠,full_name,kousei_nyusatu,kousei_nyusatu,会長,筑波大学人文社会系 教授,0,,
+楠茂樹,楠 茂樹,楠,full_name,kousei_nyusatu,kousei_nyusatu,会長,筑波大学人文社会系 教授,2,2025-12-19,2026-03-11
 榊原定征,榊原定征,,full_name,drastic-reinforcement,,座長,,9,2024-02-19,2026-03-10
 横田弘,横田 弘,横田,full_name,bouei_shisetsu,bouei_shisetsu,委員,北海道大学名誉教授,3,2023-03-27,2024-04-09
 橋本和仁,橋本和仁,,full_name,drastic-reinforcement,,,,8,2024-02-19,2026-03-10
