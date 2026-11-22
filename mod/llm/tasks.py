@@ -26,7 +26,7 @@ import build_db  # noqa: E402
 import extract_text  # noqa: E402
 import fetch_files  # noqa: E402
 
-from .client import LLMError
+from .client import LLMError, QuotaExhaustedError
 from .config import (
     DATA,
     DEFAULT_MAX_CALLS,
@@ -172,6 +172,9 @@ def ocr_image_pdfs(client: Any, budget: CallBudget, *,
         generated_at = _now_iso()
         try:
             transcribed = client.transcribe_pdf(prompt_text, pdf_bytes)
+        except QuotaExhaustedError as e:
+            stats.errors.append(f"OCR 中断（クォータ上限）: {e}")
+            break
         except LLMError as e:
             stats.errors.append(f"OCR 失敗 ({url}): {e}")
             continue
@@ -267,6 +270,9 @@ def extract_missing_attendance(client: Any, budget: CallBudget, *,
         excerpt = source_text[:12_000]
         try:
             payload = client.generate_json(prompt_text, excerpt)
+        except QuotaExhaustedError as e:
+            stats.errors.append(f"抽出中断（クォータ上限）: {e}")
+            break
         except LLMError as e:
             stats.errors.append(f"抽出失敗 ({url}): {e}")
             continue
@@ -380,6 +386,9 @@ def summarize_documents(client: Any, budget: CallBudget, *,
         content = header + source_text[:MAX_INPUT_CHARS]
         try:
             payload = client.generate_json(prompt_text, content)
+        except QuotaExhaustedError as e:
+            stats.errors.append(f"要約中断（クォータ上限）: {e}")
+            break
         except LLMError as e:
             stats.errors.append(f"要約失敗 ({url}): {e}")
             continue
@@ -407,6 +416,8 @@ def summarize_documents(client: Any, budget: CallBudget, *,
         done_keys.add((url, input_sha))
         stats.accepted += 1
         _write_csv(summaries_csv, SUMMARY_FIELDS, sum_rows)
+        if stats.accepted % 10 == 0:
+            print(f"[summarize] {stats.accepted} 件完了 (budget {budget.used}/{budget.limit})", flush=True)
 
     return stats
 

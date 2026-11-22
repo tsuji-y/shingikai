@@ -13,7 +13,7 @@ SUMMARIES_CSV = DATA / "summaries.csv"
 LLM_EXTRACTIONS_CSV = DATA / "llm_extractions.csv"
 
 # モデルは設定で固定する。変えるときは Phase 3 の 30 件評価をやり直す（docs/update_plan.md 3.9 節）。
-DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_MODEL = "gemini-3.5-flash-lite"
 DEFAULT_MAX_CALLS = 20
 MAX_INPUT_CHARS = 120_000  # 1 資料あたりモデルへ渡す最大文字数
 

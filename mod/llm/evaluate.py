@@ -19,7 +19,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import make_check_sheet  # noqa: E402
 
-from .client import GeminiClient, LLMError
+from .client import GeminiClient, LLMError, QuotaExhaustedError
 from .config import DATA, DEFAULT_MODEL, REPO, load_prompt
 from .validate import compact_nfkc, validate_minutes_extraction
 
@@ -54,6 +54,8 @@ def _name_set(names: list[str]) -> set[str]:
 
 def evaluate(client: Any, *, n: int = 30, seed: int = 20261119,
              repo: Path = REPO, data_dir: Path = DATA) -> list[EvalItem]:
+    import time
+
     meetings = _read_csv(data_dir / "meetings.csv")
     attendance_by_mid: dict[str, list[dict[str, str]]] = {}
     for a in _read_csv(data_dir / "attendance.csv"):
@@ -68,7 +70,8 @@ def evaluate(client: Any, *, n: int = 30, seed: int = 20261119,
     prompt_ver, prompt_text = load_prompt("extract")
 
     results: list[EvalItem] = []
-    for m in chosen:
+    total_chosen = len(chosen)
+    for idx, m in enumerate(chosen, 1):
         mid = m["meeting_id"]
         att_rows = attendance_by_mid[mid]
         source = att_rows[0]["source"]
@@ -76,9 +79,20 @@ def evaluate(client: Any, *, n: int = 30, seed: int = 20261119,
         if not text_rel or not (repo / text_rel).exists():
             continue
         source_text = (repo / text_rel).read_text(encoding="utf-8")
+        t0 = time.monotonic()
         try:
             payload = client.generate_json(prompt_text, source_text[:12_000])
+        except QuotaExhaustedError as e:
+            print(f"[evaluate {idx}/{total_chosen}] {mid} QUOTA ({time.monotonic() - t0:.1f}s): {e}", flush=True)
+            results.append(EvalItem(
+                meeting_id=mid, council_id=m["council_id"], source=source,
+                date_match=False, time_match=False, place_match=False,
+                existing_n=len(att_rows), llm_n=0, attendee_overlap=0,
+                validation_ok=False, error=str(e),
+            ))
+            break
         except LLMError as e:
+            print(f"[evaluate {idx}/{total_chosen}] {mid} ERROR ({time.monotonic() - t0:.1f}s): {str(e)[:120]}", flush=True)
             results.append(EvalItem(
                 meeting_id=mid, council_id=m["council_id"], source=source,
                 date_match=False, time_match=False, place_match=False,
@@ -96,6 +110,11 @@ def evaluate(client: Any, *, n: int = 30, seed: int = 20261119,
         ex_names = [a["name_raw"] for a in att_rows]
         llm_names = [a["name_raw"] for a in c["attendees"]]
         overlap = len(_name_set(ex_names) & _name_set(llm_names))
+        print(
+            f"[evaluate {idx}/{total_chosen}] {mid} valid={vres.ok} "
+            f"att={len(ex_names)}/{len(llm_names)}/{overlap} ({time.monotonic() - t0:.1f}s)",
+            flush=True,
+        )
 
         results.append(EvalItem(
             meeting_id=mid,

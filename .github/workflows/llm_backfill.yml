@@ -34,7 +34,7 @@ on:
         required: false
         default: ""
       model:
-        description: "使用する Gemini モデル（空なら既定: gemini-3.8-flash）"
+        description: "使用する Gemini モデル（空なら既定: gemini-3.5-flash-lite）"
         required: false
         default: ""
       dry_run:
@@ -53,6 +53,7 @@ concurrency:
 jobs:
   llm:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
