@@ -179,6 +179,11 @@ class MultiAgencyConfigAndParsingTest(unittest.TestCase):
             self.assertTrue((repo / "data" / "all" / "persons_cross.csv").exists())
             self.assertTrue((repo / "data" / "all" / "recent_events.csv").exists())
 
+    def test_incapsula_script_ignored_in_content_hash(self):
+        a = b'<html><body><h1>MOF</h1><script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=abc&cb=111" async></script></body></html>'
+        b = b'<html><body><h1>MOF</h1><script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=abc&cb=999" async></script></body></html>'
+        self.assertEqual(ingest_pages.content_hash(a), ingest_pages.content_hash(b))
+
 
 if __name__ == "__main__":
     unittest.main()

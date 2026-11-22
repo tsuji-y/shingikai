@@ -30,11 +30,15 @@ FIELDS = ["url", "status", "last_modified", "fetched_at", "bytes", "sha256", "co
 
 _SCRIPT_RE = re.compile(rb"<script\b[^>]*>.*?</script>", re.S | re.I)
 _CF_MARKER = b"cdn-cgi/challenge-platform"
+_DYNAMIC_SCRIPT_MARKERS = (_CF_MARKER, b"_Incapsula_Resource")
 
 
 def strip_cf_script(body: bytes) -> bytes:
-    """Cloudflare が差し込む cdn-cgi/challenge-platform を含む <script>…</script> を除く。"""
-    return _SCRIPT_RE.sub(lambda m: b"" if _CF_MARKER in m.group(0) else m.group(0), body)
+    """Cloudflare（cdn-cgi/challenge-platform）や Imperva（_Incapsula_Resource）の動的差し込み <script>…</script> を除く。"""
+    return _SCRIPT_RE.sub(
+        lambda m: b"" if any(mk in m.group(0) for mk in _DYNAMIC_SCRIPT_MARKERS) else m.group(0),
+        body,
+    )
 
 
 def has_cf_script(body: bytes) -> bool:
@@ -43,7 +47,7 @@ def has_cf_script(body: bytes) -> bool:
 
 
 def content_hash(body: bytes) -> str:
-    """差し込みスクリプトを除いた本文の SHA-256。変更検知に使う。"""
+    """動的差し込みスクリプトを除いた本文の SHA-256。変更検知に使う。"""
     return hashlib.sha256(strip_cf_script(body)).hexdigest()
 
 

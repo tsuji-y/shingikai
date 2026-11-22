@@ -85,7 +85,7 @@ jobs:
           fi
 
           # 省庁ごとにドメインが完全に独立しているため、1 ドメイン 1 プロセス（2 秒間隔直列）を守りつつ
-          # 最大 6 省庁ずつ並列に更新チェックを行う
+          # 全 16 省庁を並列に更新チェックする
           running=0
           failed=0
           for ag in $AGENCIES; do
@@ -101,7 +101,7 @@ jobs:
                 --summary-out "/tmp/update_summary_${ag}.md"
             ) &
             running=$((running + 1))
-            if [ "$running" -ge 6 ]; then
+            if [ "$running" -ge 16 ]; then
               wait -n || failed=1
               running=$((running - 1))
             fi
