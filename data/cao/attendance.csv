@@ -1,4 +1,57 @@
 meeting_id,council_id,group,seq,name_raw,surname,role,person_id,person_basis,source
+invest-japan/committee@2014-04-25,invest-japan/committee,,1,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,,2,甘 利 明 内閣府特命担当大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,,3,茂 木 敏 充 経済産業大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,,4,稲 田 朋 美 内閣府特命担当大臣(規制改革),,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,,5,西 村 康 稔 内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,,6,小 泉 進次郎 内閣府大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,,7,石 原 宏 高 外務大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,他、内閣府、関係省庁より事務方出席,8,<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,他、内閣府、関係省庁より事務方出席,9,秋 山 咲 恵 株式会社サキコーポレーション代表取締役社長,,,,,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2014-04-25,invest-japan/committee,産業競争力会議議員,10,石 毛 博 行 独立行政法人日本貿易振興機構理事長奥 正 之 株式会社三井住友フィナンシャルグループ取締役会長佐々木 則 夫 株式会社東芝取締役副会長(経済財政諮問会議議員)チャールズ・レイク アメリカンファミリー生命保険会社ベンカタラマン・スリラム インフォシス・リミテッド日本代表日本における代表者・会長,石毛博行独立行政法人日本貿易振興機構理事長奥正之株式会社三井住友フィナンシャルグループ取締役会長佐々木則夫株式会社東芝取締役副,会長,invest-japan/committee:石毛博行独立行政法人日本貿易振興機構理事長奥正之株式会社三井住友フィナンシャルグループ取締役会長佐々木則夫株式会社東芝取締役副,surname_only,https://www.cao.go.jp/invest-japan/committee/council_01/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,1,<構成員等>,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,2,安 倍 晋 三 内閣総理大臣菅 義 偉 内閣官房長官,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,3,甘 利 明 内閣府特命担当大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,4,有 村 治 子 内閣府特命担当大臣(規制改革),,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,5,岸 田 文 雄 外務大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,6,宮 沢 洋 一 経済産業大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,7,石 破 茂地方創生担当大臣<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,8,石 毛 博 行 独立行政法人日本貿易振興機構 理事長,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,,9,大 崎 貞 和 株式会社野村総合研究所未来創発センター 主席研究員,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,規制改革会議委員,10,奥 正 之 株式会社三井住友フィナンシャルグループ 取締役会長,奥正之株式会社三井住友フィナンシャルグループ取締役,会長,invest-japan/committee:奥正之株式会社三井住友フィナンシャルグループ取締役,surname_only,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,規制改革会議委員,11,佐々木 則 夫 株式会社東芝 取締役副会長(産業競争力会議議員),佐々木則夫株式会社東芝取締役副,会長,invest-japan/committee:佐々木則夫株式会社東芝取締役副,surname_only,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,規制改革会議委員,12,ベンカタラマン・スリラム インフォシスリミテッド 日本代表,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,規制改革会議委員,13,森 民 夫 全国市長会会長,森民夫全国市長会,会長,invest-japan/committee:森民夫全国市長会,surname_only,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2015-03-17,invest-japan/committee,規制改革会議委員,14,山 田 啓 二 全国知事会会長リシャール・コラス シャネル株式会社 代表取締役社長,,,,,https://www.cao.go.jp/invest-japan/committee/council_02/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,1,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,2,石 原 伸 晃 内閣府特命担当大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,3,高 市 早 苗 総務大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,4,石 破 茂,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,5,松 本 文 明 内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,6,鈴 木 淳 司 経済産業副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,7,髙 鳥 修 一,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,,8,山 田 美 樹 外務大臣政務官地方創生担当大臣内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,他、内閣府、関係省庁より事務方出席,9,<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,他、内閣府、関係省庁より事務方出席,10,石 毛 博 行 独立行政法人日本貿易振興機構 理事長,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,他、内閣府、関係省庁より事務方出席,11,伊 藤 元 重 学習院大学国際社会学部教授(経済財政諮問会議議員),,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,他、内閣府、関係省庁より事務方出席,12,浦 田 秀次郎 早稲田大学大学院アジア太平洋研究科 教授,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,他、内閣府、関係省庁より事務方出席,13,大 崎 貞 和 株式会社野村総合研究所未来創発センター 主席研究員,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,規制改革会議委員,14,奥 正 之 株式会社三井住友フィナンシャルグループ 取締役会長,奥正之株式会社三井住友フィナンシャルグループ取締役,会長,invest-japan/committee:奥正之株式会社三井住友フィナンシャルグループ取締役,surname_only,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,規制改革会議委員,15,小 林 喜 光 株式会社三菱ケミカルホールディングス取締役会長,小林喜光株式会社三菱ケミカルホールディングス取締役,会長,invest-japan/committee:小林喜光株式会社三菱ケミカルホールディングス取締役,surname_only,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,産業競争力会議議員,16,ベンカタラマン・スリラム インフォシスリミテッド 日本最高顧問,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,産業競争力会議議員,17,林 文 子 横浜市長,,,,,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-04-01,invest-japan/committee,産業競争力会議議員,18,チャールズ・レイク アメリカンファミリー生命保険会社 日本における代表者・会長,チャールズ・レイクアメリカンファミリー生命保険会社日本における代表者・,会長,invest-japan/committee:チャールズ・レイクアメリカンファミリー生命保険会社日本における代表者・,surname_only,https://www.cao.go.jp/invest-japan/committee/council_03/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,1,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,2,石 原 伸 晃 内閣府特命担当大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,3,髙 鳥 修 一,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,4,土 屋 正 忠 総務副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,5,鈴 木 淳 司 経済産業副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,6,酒 井 庸 行 内閣府大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,,7,山 田 美 樹 外務大臣政務官内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,他、内閣府、関係省庁より事務方出席,8,<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,他、内閣府、関係省庁より事務方出席,9,石 毛 博 行 独立行政法人日本貿易振興機構 理事長,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,他、内閣府、関係省庁より事務方出席,10,伊 藤 元 重 学習院大学国際社会学部教授(経済財政諮問会議議員),,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
+invest-japan/committee@2016-05-20,invest-japan/committee,他、内閣府、関係省庁より事務方出席,11,浦 田 秀次郎 早稲田大学大学院アジア太平洋研究科 教授ベンカタラマン・スリラム インフォシスリミテッド 日本最高顧問,,,,,https://www.cao.go.jp/invest-japan/committee/council_04/gijiyoushi.pdf
 invest-japan/committee@2016-08-17,invest-japan/committee,,1,<構成員>,,,,,https://www.cao.go.jp/invest-japan/committee/simplify_wg_01/gaiyou.pdf
 invest-japan/committee@2016-08-17,invest-japan/committee,,2,浦田 秀次郎(座長) 早稲田大学大学院アジア太平洋研究科教授,浦田,座長,浦田秀次郎,full_name,https://www.cao.go.jp/invest-japan/committee/simplify_wg_01/gaiyou.pdf
 invest-japan/committee@2016-08-17,invest-japan/committee,,3,大崎 貞和(座長代理) 株式会社野村総合研究所未来創発センター主席研究員,大崎,座長代理,大崎貞和,full_name,https://www.cao.go.jp/invest-japan/committee/simplify_wg_01/gaiyou.pdf
@@ -96,6 +149,40 @@ invest-japan/committee@2017-04-24,invest-japan/committee,,14,籠宮 信雄 内�
 invest-japan/committee@2017-04-24,invest-japan/committee,,15,宮原 光穂 内閣府対日直接投資推進室企画官,,,,,https://www.cao.go.jp/invest-japan/committee/simplify_wg_05/gaiyou.pdf
 invest-japan/committee@2017-04-24,invest-japan/committee,,16,寺澤 達也 経済産業省貿易経済協力局長,,,,,https://www.cao.go.jp/invest-japan/committee/simplify_wg_05/gaiyou.pdf
 invest-japan/committee@2017-04-24,invest-japan/committee,,17,小泉 秀親 経済産業省貿易経済協力局貿易振興課長,,,,,https://www.cao.go.jp/invest-japan/committee/simplify_wg_05/gaiyou.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,,1,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,,2,石 原 伸 晃 内閣府特命担当大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,,3,松 村 祥 史 経済産業副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,,4,薗 浦 健太郎 外務副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,,5,松 本 洋 平 内閣府副大臣あかま 二 郎 総務副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,他、内閣府、関係省庁より事務方出席,6,<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,他、内閣府、関係省庁より事務方出席,7,石 毛 博 行 独立行政法人日本貿易振興機構 理事長,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,他、内閣府、関係省庁より事務方出席,8,浦 田 秀次郎 早稲田大学大学院アジア太平洋研究科 教授,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2017-05-10,invest-japan/committee,他、内閣府、関係省庁より事務方出席,9,小 林 喜 光 株式会社三菱ケミカルホールディングス取締役会長リシャール・コラス シャネル株式会社代表取締役社長,,,,,https://www.cao.go.jp/invest-japan/committee/council_05/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,,1,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,,2,越 智 隆 雄,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,,3,田 中 良 生,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,,4,西 銘 恒三郎 経済産業副大臣総務大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,,5,小 倉 將 信外務大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,,6,岡 本 三 成内閣府副大臣内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,他、内閣府、関係省庁より事務方出席,7,独立行政法人日本貿易振興機構 理事長,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,他、内閣府、関係省庁より事務方出席,8,<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,他、内閣府、関係省庁より事務方出席,9,石 毛 博 行,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,他、内閣府、関係省庁より事務方出席,10,伊 藤 元 重 学習院大学国際社会科学部,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,他、内閣府、関係省庁より事務方出席,11,大 崎 貞 和 株式会社野村総合研究所未来創発センター,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2018-05-17,invest-japan/committee,他、内閣府、関係省庁より事務方出席,12,小 林 喜 光 株式会社三菱ケミカルホールディングス代表隅 修 三 東京海上ホールディングス株式会社チャールズ・レイク アフラック生命保険株式会社 代表取締役会長林 文 子 横浜市長教授取締役会長主席研究員取締役会長大井川 和 彦 茨城県知事,,,,,https://www.cao.go.jp/invest-japan/committee/council_06/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,1,内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,2,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,3,田 中 良 生,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,4,中 根 一 幸 内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,5,鈴 木 淳 司 総務副大臣外務副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,6,阿 部 俊 子関 芳 弘経済産業副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,,7,長 尾 敬 内閣府大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,他、内閣府、関係省庁より事務方出席,8,<アドバイザー>教授,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,他、内閣府、関係省庁より事務方出席,9,伊 藤 元 重 学習院大学国際社会科学部,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,他、内閣府、関係省庁より事務方出席,10,浦 田 秀次郎 早稲田大学大学院アジア太平洋研究科,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,他、内閣府、関係省庁より事務方出席,11,小 林 喜 光 株式会社三菱ケミカルホールディングス代表佐々木 伸 彦独立行政法人日本貿易振興機構 理事長隅 修 三 東京海上ホールディングス株式会社,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,他、内閣府、関係省庁より事務方出席,12,立 谷 秀 清 全国市長会 会長林 文 子 横浜市長教授取締役会長取締役会長,立谷秀清全国市長会会長林文子横浜市長教授取締役会長取締役,会長,invest-japan/committee:立谷秀清全国市長会会長林文子横浜市長教授取締役会長取締役,surname_only,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
+invest-japan/committee@2019-04-16,invest-japan/committee,他、内閣府、関係省庁より事務方出席,13,鈴 木 英 敬 三重県知事,,,,,https://www.cao.go.jp/invest-japan/committee/council_07/gijiyoushi.pdf
 invest-japan/committee@2020-10-26,invest-japan/committee,,1,<政府側>西村,,,,,https://www.cao.go.jp/invest-japan/committee/mlstrategy_wg_01/gaiyou.pdf
 invest-japan/committee@2020-10-26,invest-japan/committee,,2,兼 経済再生担当大臣赤澤長坂和田,,,,,https://www.cao.go.jp/invest-japan/committee/mlstrategy_wg_01/gaiyou.pdf
 invest-japan/committee@2020-10-26,invest-japan/committee,他、内閣府、関係省庁より事務方出席,3,亮正 内閣府副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/mlstrategy_wg_01/gaiyou.pdf
@@ -189,6 +276,18 @@ invest-japan/committee@2022-03-30,invest-japan/committee,他、内閣府、関�
 invest-japan/committee@2022-03-30,invest-japan/committee,他、内閣府、関係省庁より事務方出席,15,ルフェーブル・ペティエ・エ・アソシエ,,,,,https://www.cao.go.jp/invest-japan/committee/mlstrategy_wg_05/gaiyou.pdf
 invest-japan/committee@2022-03-30,invest-japan/committee,他、内閣府、関係省庁より事務方出席,16,外国法事務弁護士法人 マネージングパートナー,,,,,https://www.cao.go.jp/invest-japan/committee/mlstrategy_wg_05/gaiyou.pdf
 invest-japan/committee@2022-03-30,invest-japan/committee,他、内閣府、関係省庁より事務方出席,17,和広 カーライル・ジャパン・エルエルシー,,,,,https://www.cao.go.jp/invest-japan/committee/mlstrategy_wg_05/gaiyou.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,1,<政府側>,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,2,山 際 大志郎 経済財政政策担当大臣黄川田 仁 志 内閣府副大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,3,小 林 史 明 内閣府副大臣(規制改革),,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,4,小田原 潔 外務副大臣,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,5,宗 清 皇 一 内閣府大臣政務官(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,6,宮 路 拓 馬 内閣府大臣政務官(デジタル田園都市国家構想),,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,,7,渡 辺 孝 一 総務大臣政務官,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,他、内閣府、経済産業省より事務方出席,8,<アドバイザー>,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,他、内閣府、経済産業省より事務方出席,9,秋 池 玲 子 ボストン・コンサルティング・グループ 日本共同代表,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,他、内閣府、経済産業省より事務方出席,10,伊 藤 元 重 東京大学 名誉教授佐々木 伸 彦 独立行政法人日本貿易振興機構 理事長,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,他、内閣府、経済産業省より事務方出席,11,神 保 寛 子 西村あさひ法律事務所 パートナー,,,,,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
+invest-japan/committee@2022-05-13,invest-japan/committee,他、内閣府、経済産業省より事務方出席,12,髙 島 宗一郎 福岡市長チャールズ・レイク アフラック生命保険株式会社 代表取締役会長,髙島宗一郎福岡市長チャールズ・レイクアフラック生命保険株式会社代表取締役,会長,invest-japan/committee:高島宗一郎福岡市長チャールズ・レイクアフラック生命保険株式会社代表取締役,surname_only,https://www.cao.go.jp/invest-japan/committee/council_10/gijiyoushi.pdf
 invest-japan/committee@2022-09-28,invest-japan/committee,,1,<政府側>山 際 大志郎 経済財政政策担当大臣藤 丸 敏 内閣府副大臣(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/mainpolicy_wg_01/gaiyou.pdf
 invest-japan/committee@2022-09-28,invest-japan/committee,,2,鈴 木 英 敬 内閣府大臣政務官(経済財政政策),,,,,https://www.cao.go.jp/invest-japan/committee/mainpolicy_wg_01/gaiyou.pdf
 invest-japan/committee@2022-09-28,invest-japan/committee,,3,(,,,,,https://www.cao.go.jp/invest-japan/committee/mainpolicy_wg_01/gaiyou.pdf

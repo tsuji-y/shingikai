@@ -7,16 +7,20 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 山口明夫,山口明夫,2,"digital, mof",3,"digital:ai_digital, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",,日本アイ・ビー・エム株式会社代表取締役会長 | 日本アイ・ビー・エム(株)代表取締役社長,0
 末吉里花,末吉里花,2,"env, caa",3,"env:03recycle/yoshi03-15, env:valuechain_decarbonization, caa:cepc/meeting_materials_7",,一般社団法人エシカル協会  代表理事 | 一般社団法人エシカル協会代表理事,0
 秋池玲子,秋池玲子,2,"cao, mof",3,"cao:invest-japan/committee, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",,ボストン・コンサルティング・グループ  日本共同代表 | ボストン・コンサルティング・グループ日本共同代表,0
+黒江哲郎,黒江 哲郎,2,"mod, cao",3,"mod:kiban, mod:sds, cao:tochi-chosa/shingikai",座長 / 委員,三井住友海上火災保険株式会社顧問 | 三井住友海上火災保険株式会社顧問、元防衛事務次官,16
 上野山勝也,上野山 勝也,2,"mod, digital",2,"mod:dstb, digital:administrative-research-wg",委員,株式会社PKSHA Technology代表取締役 | 株式会社 PKSHA Technology 代表取締役,1
+伊藤元重,伊藤 元重,2,"cao, env",2,"cao:invest-japan/committee, env:02policy/yoshi_aratana",委員,東京大学  名誉教授,1
 大村敦志,大村敦志,2,"moj, mext",2,"moj:1/kanbou_houkyo_kyougikai_index, mext:chousa/kaihatu/016",,学習院大学法科大学院法務研究科  教授,5
 宮木由貴子,宮木由貴子,2,"fsa, caa",2,"fsa:singi_zidousya/zid_base, caa:cepc/meeting_materials_7",,元第一生命経済研究所 | 株式会社第一ライフグループ,0
 岩村有広,岩村 有広,2,"mod, digital",2,"mod:jinji, digital:administrative-research-wg",委員,（一社）日本経済団体連合会 常務理事 | 日本経済団体連合会 常務理事,18
+平成,平成,2,"cao, mhlw",2,"cao:invest-japan/committee, mhlw:shingi-hosho_211737_00001",,２ ６ 年 ４ 月 ２ ５ 日 | ２ ７年 ３ 月 １ ７日 一 部改 正 | ２ ７ 年 ８ 月 ４ 日 一 部 改 正 | ２ ８ 年 ４ 月 １ 日 一 部 改 正 | ２ ９ 年 ５ 月 １ ０ 日 一 部 改 正 | ３ ０年 ５月 １ ７ 日 一 部 改 正 | ３ １年 ４ 月 １ ６ 日 一 部 改 正 | 30 年９月 12 日,0
 桜井彩乃,櫻井彩乃,2,"cfa, mof",2,"cfa:shingikai/iken_senmon, mof:fiscal_system_council/sub-of_fiscal_system",,一般社団法人 GENCOURAGE 代表 | (一社)ＧＥＮＣＯＵＲＡＧＥ代表理事,0
 稲谷龍彦,稲谷龍彦,2,"digital, ppc",2,"digital:administrative-research-wg, ppc:koutekikenkyukai",,京都大学大学院法学研究科 教授 | 京都大学大学院法学研究科教授,0
 笠井正俊,笠井正俊,2,"moj, mext",2,"moj:1/kanbou_houkyo_kyougikai_index, mext:chousa/kaihatu/016",,京都大学大学院法学研究科  教授,5
 翁百合,翁百合,2,"mof, fsa",2,"mof:fiscal_system_council/soukai, fsa:singi_kinyu/base",,(株)日本総合研究所シニアフェロー・一橋大学大学院特任教授 | 株式会社日本総合研究所シニアフェロー,0
 高島宗一郎,髙島宗一郎,2,"digital, cao",2,"digital:administrative-research, cao:invest-japan/committee",,福岡市長,0
-大塚直,大塚直,1,env,4,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-16, env:03recycle/yoshi03-15, env:03recycle/yoshi03-18",座長,早稲田大学法学部 教授 | 早稲田大学法学部  教授 | 早稲田大学大学院法務研究科  教授,0
+大塚直,大塚 直,1,env,6,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-16, env:03recycle/yoshi03-15, env:03recycle/yoshi03-18, env:02policy/yoshi_kihonteki, env:02policy/yoshi_aratana",座長 / 委員,早稲田大学法学部 教授 | 早稲田大学法学部  教授 | 早稲田大学大学院法務研究科  教授,5
+高村ゆかり,髙村 ゆかり,1,env,5,"env:03recycle/yoshi03-16, env:02policy/yoshi_kihonteki, env:02policy/yoshi_aratana, env:valuechain_decarbonization, env:demandstimulation_decarbonization",委員,座長 | 東京大学未来ビジョン研究センター  教授 | 東京大学未来ビジョン研究センター 教授,5
 北野久美,北野久美,1,cfa,3,"cfa:hoikujinzai, cfa:shingikai/hoiku_senmon, cfa:shingikai/kodomo_sodachi/hoikushi_shikaku",,全国保育士会副会長 | 社会福祉法人愛育会  あけぼの愛育保育園  園長 | 全国保育士会副会長（北九州市  あけぼの愛育保育園園長）,0
 大豆生田啓友,大豆生田啓友,1,cfa,3,"cfa:shingikai, cfa:shingikai/kodomo_sodachi, cfa:shingikai/hoiku_senmon",座長,玉川大学教育学部教授 | 玉川大学教育学部乳幼児発達学科教授,0
 斎藤隆,齋藤 隆,1,mod,3,"mod:bouei_gijutsu, mod:seisan, mod:sobi-gijutsuiten",,防衛省元統合幕僚長 | 株式会社日立製作所 特別顧問 | 防衛省 顧問,0
@@ -27,7 +31,6 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 西谷順平,西谷 順平,1,mod,3,"mod:cho-shin, mod:keiyaku_seido, mod:keihiritsu",委員,立命館大学経営学部教授 | 立命館大学経営学部 教授,34
 酒井伸一,酒井伸一,1,env,3,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-16, env:03recycle/yoshi03-15",,公益財団法人京都高度技術研究所 副所長 | （公財）京都高度技術研究所 副所長 | 杏林大学総合政策学部  教授,0
 金沢貞幸,金澤貞幸,1,env,3,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-15, env:03recycle/yoshi03-18",,公益社団法人全国都市清掃会議 専務理事 | 公益社団法人全国都市清掃会議  専務理事,0
-高村ゆかり,高村ゆかり,1,env,3,"env:03recycle/yoshi03-16, env:valuechain_decarbonization, env:demandstimulation_decarbonization",,座長 | 東京大学未来ビジョン研究センター  教授,0
 三井弘樹,三井弘樹,1,env,2,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-15",,一般社団法人全国清掃事業連合会 会長 | 一般社団法人全国清掃事業連合会  会長,0
 三島茂徳,三島 茂徳,1,mod,2,"mod:dstb, mod:ts-ships",委員 / 座長,元防衛装備庁防衛技監,4
 上山隆大,上山 隆大,1,mod,2,"mod:drastic-reinforcement, mod:dstb",委員,前総合科学技術・イノベーション会議議員,9
@@ -58,7 +61,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 山崎幸二,山崎 幸二,1,mod,2,"mod:kiban, mod:drastic-reinforcement",委員,三井住友海上火災保険株式会社顧問 / 元統合幕僚長,10
 山本雅資,山本雅資,1,env,2,"env:03recycle/yoshi03-16, env:03recycle/yoshi03-18",,神奈川大学経済学部経済学科 教授 | 神奈川大学経済学部経済学科  教授,0
 山田沢明,山田 澤明,1,mod,2,"mod:seisaku, mod:dokuritsu",委員,株式会社エグゼクティブ・パートナーズ / 理事 | 株式会社野村総合研究所 常勤監査役 | 北海道大学東京オフィス所長・特任教授 | 北海道大学 客員教授,4
-山谷清志,山谷 清志,1,mod,2,"mod:seisaku, mod:dokuritsu",座長,同志社大学 / 名誉教授 | 同志社大学大学院 総合政策科学研究科 教授 | 同志社大学大学院 総合政策科学研究科教授 | 同志社大学 政策学部教授 | 同志社大学大学院 政策学部教授 | 同志社大学 名誉教授,5
+山谷清志,山谷 清志,1,mod,2,"mod:seisaku, mod:dokuritsu",座長,同志社大学 / 名誉教授 | 同志社大学大学院 総合政策科学研究科 教授 | 同志社大学大学院 総合政策科学研究科教授 | 同志社大学 政策学部教授 | 同志社大学大学院 政策学部教授 | 同志社大学 名誉教授,7
 岡田有策,岡田有策,1,digital,2,"digital:digital-system-reform-technology-based-regulatory-reform, digital:administrative-research-wg-technology_based_regulatory_reform",,慶應義塾大学理工学部管理工学科 教授,0
 島田太郎,島田太郎,1,digital,2,"digital:digital-system-reform-technology-based-regulatory-reform, digital:administrative-research-wg-technology_based_regulatory_reform",,株式会社東芝 代表執行役社長 CEO,0
 川井健,川井 健,1,mod,2,"mod:cho-teki, mod:cho-sei",座長,帝京大学法学部教授 | 帝京大学法学部教授（元一橋大学長）,0
@@ -70,7 +73,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 村上進亮,村上進亮,1,env,2,"env:03recycle/yoshi03-15, env:03recycle/yoshi03-18",,東京大学大学院  工学系研究科  教授 | 東京大学大学院工学系研究科  教授,0
 村山裕三,村山 裕三,1,mod,2,"mod:bouei_gijutsu, mod:seisan",,同志社大学大学院ビジネス研究科教授 | 同志社大学大学院ビジネス研究科長,0
 松井愛奈,松井愛奈,1,cfa,2,"cfa:shingikai/kodomo_sodachi, cfa:shingikai/hoiku_senmon",,甲南女子大学教育学部子ども教育学科教授,0
-松尾亜紀子,松尾 亜紀子,1,mod,2,"mod:seisaku, mod:bouei_gijutsu",委員,慶應義塾大学 / 理工学部教授 | 慶応義塾大学理工学部教授 | 慶應義塾大学 理工学部教授,5
+松尾亜紀子,松尾 亜紀子,1,mod,2,"mod:seisaku, mod:bouei_gijutsu",委員,慶應義塾大学 / 理工学部教授 | 慶応義塾大学理工学部教授 | 慶應義塾大学 理工学部教授,6
 柿沼平太郎,柿沼平太郎,1,cfa,2,"cfa:shingikai/kodomo_sodachi, cfa:shingikai/hoiku_senmon",,学校法人柿沼学園理事長 | 学校法人柿沼学園  理事長,0
 森永耕造,森永 耕造,1,mod,2,"mod:rinri, mod:jinji",委員,元人事院事務総長 | 元人事院 事務総長,35
 武田洋子,武田洋子,1,mof,2,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",,(株)三菱総合研究所常務研究理事,0
@@ -101,81 +104,117 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 飯田美和,飯田美和,1,cfa,2,"cfa:shingikai/hoiku_senmon, cfa:shingikai/kodomo_sodachi/hoikushi_shikaku",,舞鶴市乳幼児教育センター所長 | 舞鶴市  乳幼児教育センター所長,0
 高橋玲路,髙橋 玲路,1,mod,2,"mod:keiyaku_seido, mod:keihiritsu",会長代理 / 委員,アンダーソン・毛利・友常法律事務所 パートナー弁護士,3
 高野博幸,高野博幸,1,env,2,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-15",,一般社団法人日本経済団体連合会環境委員会廃棄物・リサイクル部会長代行 | 一般社団法人日本経済団体連合会  環境委員会,0
-黒江哲郎,黒江 哲郎,1,mod,2,"mod:kiban, mod:sds",座長 / 委員,三井住友海上火災保険株式会社顧問 | 三井住友海上火災保険株式会社顧問、元防衛事務次官,16
 cao:invest-japan/committee:<アドバイザー>石黒憲彦独立行政法人日本貿易振興機構理事長マークゥス・シュールマン在日ドイツ商工会議所専務理事/駐日ドイツ商工特別代表神保寛子西村あさひ法律事務所・外国法共同事業パートナー高島宗一郎福岡市長菰田正信三井不動産株式会社代表取締役,<アドバイザー>石黒憲彦独立行政法人日本貿易振興機構理事長マークゥス・シュールマン在日ドイツ商工会議所専務理事/駐日ドイツ商工特別代表神保寛子西村あさひ法律事務所・外国法共同事業パートナー髙島宗一郎福岡市長菰田正信三井不動産株式会社代表取締役,1,cao,1,cao:invest-japan/committee,会長,,1
 cao:invest-japan/committee:アフラック生命保険株式会社,アフラック生命保険株式会社,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:チャールズ・レイクアメリカンファミリー生命保険会社日本における代表者・,チャールズ・レイクアメリカンファミリー生命保険会社日本における代表者・,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:佐々木則夫株式会社東芝取締役副,佐々木則夫株式会社東芝取締役副,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:奥正之株式会社三井住友フィナンシャルグループ取締役,奥正之株式会社三井住友フィナンシャルグループ取締役,1,cao,1,cao:invest-japan/committee,会長,,2
+cao:invest-japan/committee:小林喜光株式会社三菱ケミカルホールディングス取締役,小林喜光株式会社三菱ケミカルホールディングス取締役,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:森民夫全国市長会,森民夫全国市長会,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:石毛博行独立行政法人日本貿易振興機構理事長奥正之株式会社三井住友フィナンシャルグループ取締役会長佐々木則夫株式会社東芝取締役副,石毛博行独立行政法人日本貿易振興機構理事長奥正之株式会社三井住友フィナンシャルグループ取締役会長佐々木則夫株式会社東芝取締役副,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:立谷秀清全国市長会会長林文子横浜市長教授取締役会長取締役,立谷秀清全国市長会会長林文子横浜市長教授取締役会長取締役,1,cao,1,cao:invest-japan/committee,会長,,1
+cao:invest-japan/committee:高島宗一郎福岡市長チャールズ・レイクアフラック生命保険株式会社代表取締役,髙島宗一郎福岡市長チャールズ・レイクアフラック生命保険株式会社代表取締役,1,cao,1,cao:invest-japan/committee,会長,,1
 cas:ainusuishin:中村,中村,1,cas,1,cas:ainusuishin,委員,,3
-cas:ainusuishin:丸子,丸子,1,cas,1,cas:ainusuishin,委員,,14
-cas:ainusuishin:佐々木,佐々木,1,cas,1,cas:ainusuishin,委員,,14
-cas:ainusuishin:佐藤,佐藤,1,cas,1,cas:ainusuishin,委員,,6
-cas:ainusuishin:八幡,八幡,1,cas,1,cas:ainusuishin,委員,,6
-cas:ainusuishin:加藤,加藤,1,cas,1,cas:ainusuishin,委員,,12
+cas:ainusuishin:丸子,丸子,1,cas,1,cas:ainusuishin,委員,,18
+cas:ainusuishin:佐々木,佐々木,1,cas,1,cas:ainusuishin,委員,,17
+cas:ainusuishin:佐藤,佐藤,1,cas,1,cas:ainusuishin,委員,,9
+cas:ainusuishin:八幡,八幡,1,cas,1,cas:ainusuishin,委員,,7
+cas:ainusuishin:加藤,加藤,1,cas,1,cas:ainusuishin,委員,,16
 cas:ainusuishin:坂元,坂元,1,cas,1,cas:ainusuishin,委員,,5
 cas:ainusuishin:大川,大川,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:大西,大西,1,cas,1,cas:ainusuishin,委員,,10
+cas:ainusuishin:大西,大西,1,cas,1,cas:ainusuishin,委員,,13
 cas:ainusuishin:宇治,宇治,1,cas,1,cas:ainusuishin,委員,,2
+cas:ainusuishin:安藤,安藤,1,cas,1,cas:ainusuishin,委員,,1
 cas:ainusuishin:小川,小川,1,cas,1,cas:ainusuishin,委員,,2
-cas:ainusuishin:常本,常本,1,cas,1,cas:ainusuishin,委員 / 部会長,,14
-cas:ainusuishin:本田,本田,1,cas,1,cas:ainusuishin,委員,,6
+cas:ainusuishin:常本,常本,1,cas,1,cas:ainusuishin,委員 / 部会長,,18
+cas:ainusuishin:本田,本田,1,cas,1,cas:ainusuishin,委員,,9
 cas:ainusuishin:横田,横田,1,cas,1,cas:ainusuishin,委員,,1
-cas:ainusuishin:石森,石森,1,cas,1,cas:ainusuishin,委員,,8
+cas:ainusuishin:石森,石森,1,cas,1,cas:ainusuishin,委員,,12
 cas:ainusuishin:秋元,秋元,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:篠田,篠田,1,cas,1,cas:ainusuishin,委員,,4
-cas:ainusuishin:菊地,菊地,1,cas,1,cas:ainusuishin,委員,,7
+cas:ainusuishin:篠田,篠田,1,cas,1,cas:ainusuishin,委員,,7
+cas:ainusuishin:菊地,菊地,1,cas,1,cas:ainusuishin,委員,,11
 cas:ainusuishin:鈴木,鈴木,1,cas,1,cas:ainusuishin,委員,,5
-cas:ainusuishin:阿部,阿部,1,cas,1,cas:ainusuishin,委員,,9
-cas:ainusuishin:高橋,高橋,1,cas,1,cas:ainusuishin,委員,,3
+cas:ainusuishin:阿部,阿部,1,cas,1,cas:ainusuishin,委員,,11
+cas:ainusuishin:高橋,高橋,1,cas,1,cas:ainusuishin,委員,,4
 cas:jieikan:坂井国家公安委員会,坂井国家公安委員会,1,cas,1,cas:jieikan,委員長,,2
-maff:seisaku:三輪,三輪,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:上岡,上岡,1,maff,1,maff:seisaku,委員,,4
+env:02policy/yoshi_aratana:東京大学,東京大学,1,env,1,env:02policy/yoshi_aratana,委員,,1
+maff:seisaku:三森,三森,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:三石,三石,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:三輪,三輪,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:上岡,上岡,1,maff,1,maff:seisaku,委員,,5
 maff:seisaku:中家,中家,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:中嶋,中嶋,1,maff,1,maff:seisaku,委員 / 部会長 / 会長代理,,4
+maff:seisaku:中嶋,中嶋,1,maff,1,maff:seisaku,委員 / 部会長 / 会長代理,,6
 maff:seisaku:中谷,中谷,1,maff,1,maff:seisaku,専門委員,,1
 maff:seisaku:二村,二村,1,maff,1,maff:seisaku,委員,,3
 maff:seisaku:井上,井上,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:佐藤,佐藤,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:佐藤,佐藤,1,maff,1,maff:seisaku,委員,,6
 maff:seisaku:内藤,内藤,1,maff,1,maff:seisaku,委員,,1
-maff:seisaku:前田,前田,1,maff,1,maff:seisaku,委員,,1
-maff:seisaku:加藤,加藤,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:前田,前田,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:加藤,加藤,1,maff,1,maff:seisaku,委員,,5
 maff:seisaku:友實,友實,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:合瀬,合瀬,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:合瀬,合瀬,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:吉高,吉高,1,maff,1,maff:seisaku,委員,,3
 maff:seisaku:図司,図司,1,maff,1,maff:seisaku,専門委員,,2
-maff:seisaku:堀切,堀切,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:堀切,堀切,1,maff,1,maff:seisaku,委員,,6
 maff:seisaku:大山,大山,1,maff,1,maff:seisaku,専門委員,,2
 maff:seisaku:大橋,大橋,1,maff,1,maff:seisaku,委員 / 会長,,6
 maff:seisaku:大津,大津,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:宮島,宮島,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:奥村,奥村,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:安斎,安齋,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:宮島,宮島,1,maff,1,maff:seisaku,委員,,6
 maff:seisaku:寺川,寺川,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:小針,小針,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:山内,山内,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:山口,山口,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:山崎,山崎,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:山波,山波,1,maff,1,maff:seisaku,委員,,4
 maff:seisaku:山浦,山浦,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:山野,山野,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:市川,市川,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:平松,平松,1,maff,1,maff:seisaku,委員,,4
+maff:seisaku:広野,廣野,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:斎藤,齋藤,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:松尾,松尾,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:新浪,新浪,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:有田,有田,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:松尾,松尾,1,maff,1,maff:seisaku,委員,,3
+maff:seisaku:松本,松本,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:松永,松永,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:林,林,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:染谷,染谷,1,maff,1,maff:seisaku,委員,,2
-maff:seisaku:柚木,柚木,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:栗本,栗本,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:染谷,染谷,1,maff,1,maff:seisaku,委員,,3
+maff:seisaku:柚木,柚木,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:栗本,栗本,1,maff,1,maff:seisaku,委員,,3
+maff:seisaku:森,森,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:椛木,椛木,1,maff,1,maff:seisaku,委員,,3
+maff:seisaku:横田,横田,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:武内,武内,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:水戸部,水戸部,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:浅井,浅井,1,maff,1,maff:seisaku,委員,,4
 maff:seisaku:清原,清原,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:渡辺,渡邉,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:熊倉,熊倉,1,maff,1,maff:seisaku,会長,,1
+maff:seisaku:生源寺,生源寺,1,maff,1,maff:seisaku,会長,,1
 maff:seisaku:田島,田島,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:白石,白石,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:砂子田,砂子田,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:磯崎,磯崎,1,maff,1,maff:seisaku,委員,,3
 maff:seisaku:稲垣,稲垣,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:竹下,竹下,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:茂原,茂原,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:茂木,茂木,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:萬歳,萬歳,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:藻谷,藻谷,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:西村,西村,1,maff,1,maff:seisaku,専門委員 / 委員,,4
+maff:seisaku:西辻,西辻,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:角倉,角倉,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:赤松,赤松,1,maff,1,maff:seisaku,委員,,1
-maff:seisaku:近藤,近藤,1,maff,1,maff:seisaku,委員,,2
+maff:seisaku:近崎,近崎,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:近藤,近藤,1,maff,1,maff:seisaku,委員,,5
+maff:seisaku:阿南,阿南,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:香坂,香坂,1,maff,1,maff:seisaku,委員,,1
+maff:seisaku:香高,香髙,1,maff,1,maff:seisaku,委員,,1
 maff:seisaku:高島,髙島,1,maff,1,maff:seisaku,委員,,2
 maff:seisaku:高槻,高槻,1,maff,1,maff:seisaku,委員,,4
-maff:seisaku:高野,髙野,1,maff,1,maff:seisaku,会長,,2
+maff:seisaku:高野,髙野,1,maff,1,maff:seisaku,委員 / 会長,,3
 mod:cho-shin:星,星,1,mod,1,mod:cho-shin,委員,,10
 mod:cho-shin:河村,河村,1,mod,1,mod:cho-shin,会長,,9
 mod:cho-shin:藤川,藤川,1,mod,1,mod:cho-shin,会長代理 / 委員,,9
@@ -212,7 +251,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 中村望,中村 望,1,mod,1,mod:harassment,委員,弁護士（大知法律事務所）,7
 中村由行,中村 由行,1,mod,1,mod:futenma,座長,（独）港湾空港技術研究所研究主監,0
 中村義人,中村 義人,1,mod,1,mod:dokuritsu,委員長,公認会計士,0
-中村豪,中村 豪,1,mod,1,mod:kousei_nyusatu,会長代理,東京経済大学経済学部 教授,0
+中村豪,中村 豪,1,mod,1,mod:kousei_nyusatu,会長代理,東京経済大学経済学部 教授,2
 中林真理子,中林真理子,1,fsa,1,fsa:singi_kinyu/base,,明治大学商学部教授,0
 中田るみ子,中田 るみ子,1,mod,1,mod:kiban,委員,協和キリン株式会社取締役 / デンカ株式会社取締役,9
 中空麻奈,中空麻奈,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,(株)かんぽ生命保険エグゼクティブ・フェロー兼かんぽ経済研究所主席研究員,0
@@ -228,20 +267,21 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 久波一行,久波一行,1,caa,1,caa:cepc/meeting_materials_7,,広島市市民局消費生活センター所長,0
 亀坂安紀子,亀坂安紀子,1,mof,1,mof:fiscal_system_council/soukai,,青山学院大学経営学部教授,0
 二木玲子,二木玲子,1,env,1,env:03recycle/yoshi03-18,,全国産業資源循環連合会女性部協議会  会長,0
+五十嵐立青,五十嵐立青,1,npa,1,npa:traffic/council,,つくば市長,0
 五十嵐隆,五十嵐隆,1,cfa,1,cfa:shingikai,,国立成育医療研究センター理事長,0
 五箇公一,五箇 公一,1,mod,1,mod:futenma,,（独）国立環境研究所生物・生態系環境研究センター主席研究員,0
-五艘隆志,五艘 隆志,1,mod,1,mod:kousei_nyusatu,,東京都市大学建築都市デザイン学部都市工学科 教授,0
+五艘隆志,五艘 隆志,1,mod,1,mod:kousei_nyusatu,委員,東京都市大学建築都市デザイン学部都市工学科 教授 | 東京都市大学建築都市デザイン学部都市工学科教授,3
 井上隆,井上 隆,1,mod,1,mod:jinji,分科会長及び部会長 / 委員 / 部会長,（一社）日本経済団体連合会 参与,23
 井口直樹,井口 直樹,1,mod,1,mod:chuuryu-kentou,,国民年金基金連合会常務理事,0
 京井,京井,1,fsa,1,fsa:singi_zidousya/zid_base,,和 子 NPO法人いのちのミュージアム事務局,0
 企業会計審,企業会計審,1,fsa,1,fsa:singi_kigyou/top,,議 会委 員 名 簿,0
 伊奈久喜,伊奈久喜,1,mod,1,mod:bo-san,,日本経済新聞論説委員,0
-伊藤元重,伊藤元重,1,cao,1,cao:invest-japan/committee,,東京大学  名誉教授,0
 伸吾,伸吾,1,fsa,1,fsa:singi_zidousya/zid_base,,損害保険料率算出機構専務理事,0
 佐々木勝,佐々木 勝,1,mod,1,mod:kyumei,座長,東京都保健医療公社 副理事長 / 内閣官房参与,0
 佐々木啓吾,佐々木啓吾,1,fsa,1,fsa:singi_kigyou/top,,住友化学(株)常務執行役員,0
 佐久田健司,佐久田健司,1,caa,1,caa:cepc/meeting_materials_7,,金融経済教育推進機構理事,0
 佐紺摂子,佐紺摂子,1,caa,1,caa:cepc/meeting_materials_7,,市立函館高等学校校長,0
+佐藤,佐藤,1,mod,1,mod:seisaku,委員,丙,1
 佐藤千佳,佐藤 千佳,1,mod,1,mod:kiban,委員,アサヒグループホールディングス株式会社 社外取締役,8
 佐藤博樹,佐藤博樹,1,cfa,1,cfa:hoikujinzai,,東京大学名誉教授,0
 佐藤孝弘,佐藤孝弘,1,digital,1,digital:ai_digital,,山形県山形市長,0
@@ -249,17 +289,21 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 佐藤達夫,佐藤 達夫,1,mod,1,mod:seisaku,委員,株式会社グローバルインサイト / 取締役会長 | 株式会社グローバルインサイト 取締役会長,5
 佐藤雅之,佐藤雅之,1,fsa,1,fsa:singi_kigyou/top,,日揮ホールディングス(株)代表取締役会長 CEO,0
 佐野晋平,佐野晋平,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,神戸大学大学院経済学研究科教授,0
+児童相談所,児童相談所,1,mhlw,1,mhlw:shingi-hosho_211737_00001,,【既に発生している子ども虐待の発見、介入による迅速な子どもの安全確,0
 八木田樹,八木田樹,1,digital,1,digital:administrative-research-wg-legal-practice-team,,（株）Legalscape 代表取締役・最高経営責任者,0
+兼原信克,兼原信克,1,cao,1,cao:tochi-chosa/shingikai,,公益財団法人笹川平和財団常務理事,0
 内田由紀子,内田由紀子,1,cfa,1,cfa:shingikai/kihon_seisaku,,京都大学人と社会の未来研究院　院長・教授,0
 内田貴,内田貴,1,cfa,1,cfa:kodomokanren-jujisha,座長,早稲田大学特命教授・東京大学名誉教授・弁護士,0
 内藤恵,内藤 恵,1,mod,1,mod:dokuritsu,,慶應義塾大学 法学部 教授,0
 冨田稔,冨田 稔,1,mod,1,mod:jinji-ken,,元１等海佐 元艦船補給処副処長,0
 前川禎通,前川 禎通,1,mod,1,mod:dstb,委員長,東北大学名誉教授,1
 前田一郎,前田 一郎,1,mod,1,mod:cho-sei,,ＮＨＫ解説委員,0
+前野隆司,前野 隆司,1,env,1,env:02policy/yoshi_aratana,委員,慶應義塾大学大学院システムデザイン・マネジメント研究科教授兼 慶應義塾大学ウェルビーイングリサーチセンター長,2
 加藤,加藤,1,fsa,1,fsa:singi_zidousya/zid_base,,憲 治 一般社団法人日本自動車会議所保険特別委員長,0
 加藤丈夫,加藤 丈夫,1,mod,1,mod:chuuryu-kentou,,富士電機ホールディングス株式会社特別顧問,0
 加藤康之,加藤康之,1,mof,1,mof:fiscal_system_council/soukai,,京都先端科学大学教授・東京都立大学大学院特任教授・京都大学客員教授,0
 加藤泰和,加藤泰和,1,cfa,1,cfa:hoikujinzai,,特定非営利活動法人全国認定こども園協会副代表理事,0
+加藤秀樹,加藤秀樹,1,cao,1,cao:sasshin/kondan,,構想日本代表,0
 加藤篤彦,加藤篤彦,1,cfa,1,cfa:shingikai/kodomo_sodachi,,学校法人吉祥寺学園学園長  初等部部長  第一幼稚部・第二幼稚部部長,0
 加藤貴仁,加藤貴仁,1,fsa,1,fsa:singi_kinyu/base,,東京大学大学院法学政治学研究科教授,0
 勢一智子,勢一智子,1,env,1,env:03recycle/yoshi03-17,,西南学院大学法学部法律学科 教授,0
@@ -267,15 +311,17 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 北山昇,北山昇,1,ppc,1,ppc:koutekikenkyukai,,森・濱田松本法律事務所外国法共同事業パートナー弁護士,0
 北岡伸一,北岡伸一,1,mod,1,mod:drastic-reinforcement,座長代理 / 部会長,,10
 北村暢康,北村暢康,1,env,1,env:valuechain_decarbonization,,,0
+北村滋,北村滋,1,cao,1,cao:tochi-chosa/shingikai,,北村エコノミックセキュリティ合同会社代表,0
 北野宏明,北野宏明,1,digital,1,digital:ai_digital,,株式会社ソニーコンピュータサイエンス研究所代表取締役社長,0
 千先康二,千先 康二,1,mod,1,mod:blood-transfusion,委員,元自衛隊中央病院長,4
 千葉恭裕,千葉 恭裕,1,mod,1,mod:jinji,委員,元人事院 給与局長,24
+千葉知世,千葉 知世,1,env,1,env:02policy/yoshi_kihonteki,委員,大阪公立大学大学院人間社会システム科学研究科 准教授 | 大阪公立大学大学院現代システム科学研究科 准教授,3
 升田純,升田純,1,cfa,1,cfa:child-safety-kyoiku-hoiku,,升田純法律事務所弁護士,0
 南亜樹,南 亜樹,1,mod,1,mod:dstb,事務局長,防衛装備庁技術戦略部長,0
 南光開斗,南光開斗,1,cfa,1,cfa:shingikai,,大学生,0
 南博方,南 博方,1,mod,1,mod:arikata,会長,成城大学学長,0
 南場智子,南場智子,1,digital,1,digital:administrative-research,,株式会社ディー・エヌ・エー 代表取締役会長,0
-南島和久,南島 和久,1,mod,1,mod:seisaku,委員,龍谷大学 / 政策学部教授 | 龍谷大学 政策学部教授,5
+南島和久,南島 和久,1,mod,1,mod:seisaku,委員,龍谷大学 / 政策学部教授 | 龍谷大学 政策学部教授,6
 南条俊二,南条俊二,1,mod,1,mod:bo-san,,読売新聞論説委員,0
 原武史,原 武史,1,mod,1,mod:futenma,,（社）全国水産技術者協会理事長,0
 原田大樹,原田大樹,1,ppc,1,ppc:koutekikenkyukai,,京都大学法学系（大学院公共政策連携研究部）教授,0
@@ -284,9 +330,11 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 友岡史仁,友岡史仁,1,ppc,1,ppc:koutekikenkyukai,,日本大学法学部教授,0
 古田雄一,古田雄一,1,cfa,1,cfa:shingikai/iken_senmon,,筑波大学人間系助教,0
 古笛恵子,古笛恵子,1,mext,1,mext:chousa/kaihatu/016,,弁護士,0
+古賀伸明,古賀伸明,1,cao,1,cao:sasshin/kondan,,日本労働組合総連合会 会長,0
 古賀松香,古賀松香,1,cfa,1,cfa:shingikai/kodomo_sodachi,,京都教育大学教育学部幼児教育科教授,0
 可部哲生,可部 哲生,1,mod,1,mod:jinji,委員,元国税庁長官・弁護士,17
 叶謙二,叶 謙二,1,mod,1,mod:dstb,,前防衛装備庁装備官（陸上担当）,0
+吉原祥子,吉原祥子,1,cao,1,cao:tochi-chosa/shingikai,,公益財団法人東京財団政策研究部マネージャー,0
 吉崎佳弥,吉崎佳弥,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,13
 吉川洋,吉川洋,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,東京大学名誉教授,0
 吉永京子,吉永京子,1,digital,1,digital:ai_digital,,慶應義塾大学大学院政策・メディア研究科特任准教授,0
@@ -311,6 +359,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 坂崎隆浩,坂﨑隆浩,1,cfa,1,cfa:shingikai/kodomo_sodachi,,社会福祉法人清隆厚生会こども園ひがしどおり理事長・園長,0
 坂本有芳,坂本有芳,1,caa,1,caa:cepc/meeting_materials_7,,国立大学法人鳴門教育大学大学院学校教育研究科教授,0
 坂田吉郎,坂田吉郎,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,1
+堀井亮,堀井 亮,1,env,1,env:02policy/yoshi_kihonteki,委員,大阪大学社会経済研究所 教授,3
 堀内清,堀内 清,1,mod,1,mod:vaccine,,前千葉県血清研究所 副所長,0
 堀口圭,堀口圭,1,digital,1,digital:administrative-research-wg-legal-practice-team,,FRAIM（株）代表取締役,0
 堀江敦子,堀江敦子,1,cfa,1,cfa:shingikai/kodomo_sodachi,,スリール株式会社代表取締役,0
@@ -328,6 +377,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 外間寛,外間 寛,1,mod,1,mod:arikata,,中央大学学長,0
 多田由紀,多田由紀,1,cfa,1,cfa:shingikai/hoiku_senmon,,東京農業大学応用生物科学部栄養科学科教授,0
 大串康夫,大串 康夫,1,mod,1,mod:kondankai,,石川島播磨重工業（株）顧問,0
+大久保規子,大久保 規子,1,env,1,env:02policy/yoshi_kihonteki,委員,大阪大学大学院法学研究科 教授,3
 大友康裕,大友 康裕,1,mod,1,mod:blood-transfusion,委員,国立病院機構災害医療センター病院長,3
 大同特殊鋼,大同特殊鋼,1,moj,1,moj:1/housei02_003007_00014,,株 式 会 社 法 務 部 長,0
 大垣尚司,大垣 尚司,1,mod,1,mod:sobi-gijutsuiten,,立命館大学大学院 教授,0
@@ -342,6 +392,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 大藪千穂,大藪千穂,1,caa,1,caa:cepc/meeting_materials_7,,国立大学法人東海国立大学機構岐阜大学副学長・教育学部教授,0
 大関崇,大関崇,1,env,1,env:03recycle/yoshi03-16,,国立研究開発法人産業技術総合研究所再生可能エネルギー研究センター  副研,0
 太田達也,太田 達也,1,mod,1,mod:rinri,会長 / 委員,慶應義塾大学法学部 教授,15
+夫馬賢治,夫馬 賢治,1,env,1,env:02policy/yoshi_kihonteki,委員,信州大学グリーン社会協創機構 特任教授,3
 奥宮京子,奥宮 京子,1,mod,1,mod:sobi-gijutsuiten,,田辺総合法律事務所 弁護士,0
 奥山千鶴子,奥山千鶴子,1,cfa,1,cfa:shingikai/kodomo_sodachi,,ＮＰＯ法人子育てひろば全国連絡協議会専務理事  NPO 法人びーのびーの会長,0
 奥本英宏,奥本 英宏,1,mod,1,mod:kiban,委員,株式会社リクルート顧問 / リクルートワークス研究所アドバイザー,8
@@ -362,23 +413,28 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 宮脇正道,宮脇正道,1,cfa,1,cfa:kodomokanren-jujisha,,鳥取県湯梨浜町長,0
 家中賢作,家中賢作,1,ppc,1,ppc:koutekikenkyukai,,つくば市政策イノベーション部デジタル政策課課長補佐,0
 家森信善,家森信善,1,mof,1,mof:fiscal_system_council/soukai,,神戸大学経済経営研究所教授,0
+宿谷肇,宿谷肇,1,npa,1,npa:traffic/council,,一般社団法人日本物流団体連合会業務執行理事,0
 寺田,寺田,1,fsa,1,fsa:singi_zidousya/zid_base,,一 薫 福島学院大学マネジメント学部地域マネジメント学科教授,0
 小井戸あや乃,小井戸あや乃,1,caa,1,caa:cepc/meeting_materials_7,,国立大学法人東海国立大学機構岐阜大学教育学部准教授,0
 小倉加奈子,小倉加奈子,1,fsa,1,fsa:singi_kigyou/top,,公認会計士,0
 小原成朗,小原成朗,1,fsa,1,fsa:singi_kinyu/base,,日本労働組合総連合会総合政策推進局総合局長,0
 小原聖子,小原聖子,1,cfa,1,cfa:child-safety-kyoiku-hoiku,,NPO 法人ゆったりーの事務局,0
 小国美也子,小國美也子,1,cfa,1,cfa:kodomokanren-jujisha,,鎌倉女子大学児童学部子ども心理学科教授,0
+小松原正浩,小松原正浩,1,npa,1,npa:traffic/council,,マッキンゼー＆カンパニーシニアパートナー,0
 小松孝至,小松孝至,1,cfa,1,cfa:shingikai/hoiku_senmon,,大阪教育大学教授,0
 小林いずみ,小林いずみ,1,fsa,1,fsa:singi_kinyu/base,,オムロン株式会社社外取締役,0
 小林充佳,小林充佳,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,ＮＴＴ西日本(株)相談役,0
 小林孝,小林 孝,1,mod,1,mod:seisan,,社団法人日本経済団体連合会 防衛生産委員会 総合部会長 / 社団法人日本航空宇宙工業会会長企業 三菱重工業株式会社 取締役,0
 小林庸平,小林 庸平,1,mod,1,mod:cap_build,委員,三菱UFJリサーチ&コンサルティング主任研究員 ※オンライン参加 | 三菱UFJリサーチ&コンサルティング政策研究事業本部主任研究員 ※オンライン参加 | 三菱UFJリサーチ&コンサルティング政策研究事業本部主任研究員,3
+小林成基,小林成基,1,npa,1,npa:traffic/council,,特定非営利活動法人自転車活用推進研究会理事長,0
 小林昭彦,小林昭彦,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,7
 小林貞雄,小林 貞雄,1,mod,1,mod:seisan,,元 技術研究本部 技術顧問,0
 小枝達也,小枝達也,1,cfa,1,cfa:shingikai/hoiku_senmon,,鳥取県立総合療育センター  院長,0
+小栗泉,小栗泉,1,cao,1,cao:tochi-chosa/shingikai,,日本テレビ放送網株式会社,0
 小沢一雅,小澤 一雅,1,mod,1,mod:dangou,,東京大学大学院工学系研究科教授,0
 小泉悠,小泉 悠,1,mod,1,mod:space_domain,委員,東京大学先端科学技術研究センター 准教授,2
 小西美穂,小西美穂,1,mod,1,mod:drastic-reinforcement,,,3
+小野田弘士,小野田 弘士,1,env,1,env:02policy/yoshi_aratana,委員,早稲田大学大学院環境・エネルギー研究科 教授,2
 小長谷,小長谷,1,moj,1,moj:1/housei02_003007_00014,,法 務 省 民 事 局 民 事 法 制 管 理 官,0
 小黒一正,小黒一正,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,法政大学経済学部教授,0
 山下真,山下真,1,cfa,1,cfa:kodomokanren-jujisha,,奈良県知事,0
@@ -387,6 +443,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 山内ゆな,山内ゆな,1,cfa,1,cfa:shingikai,,JETBOOK 作戦代表,0
 山口孝子,山口孝子,1,cfa,1,cfa:hoikujinzai,,公益社団法人全国私立保育連盟常務理事,0
 山口寿一,山口寿一,1,mod,1,mod:drastic-reinforcement,,,4
+山口彰,山口彰,1,cao,1,cao:tochi-chosa/shingikai,,原子力発電環境整備機構理事長,0
 山口芳裕,山口 芳裕,1,mod,1,mod:kyumei,,杏林大学医学部 教授,0
 山宮道代,山宮 道代,1,mod,1,mod:rinri,委員,田辺総合法律事務所 弁護士,15
 山崎宏一郎,山崎 宏一郎,1,mod,1,mod:arikata,,元人事院事務総長,0
@@ -406,10 +463,13 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 岡田吉弘,岡田吉弘,1,cfa,1,cfa:shingikai/kodomo_sodachi,,広島県三原市長,0
 岡田康彦,岡田 康彦,1,mod,1,mod:kondankai,,住宅金融公庫副総裁,0
 岡田美保,岡田美保,1,caa,1,caa:cepc/meeting_materials_7,,埼玉県消費生活支援センター所長,0
+岡素之,岡素之,1,cao,1,cao:sasshin/kondan,,住友商事株式会社相談役,0
+岩並秀一,岩並秀一,1,cao,1,cao:tochi-chosa/shingikai,,公益社団法人東京湾海難防止協会理事長,0
 岩井宜子,岩井 宜子,1,mod,1,mod:arikata,,専修大学教授,0
 岩崎洋一,岩﨑 洋一,1,mod,1,mod:ts-ships,,元海上自衛隊補給本部副本部長,3
 岩本愛吉,岩本 愛吉,1,mod,1,mod:dstb,,東京大学名誉教授,0
 岩本愛𠮷,岩本 愛𠮷,1,mod,1,mod:dstb,委員,,1
+岩貞るみこ,岩貞るみこ,1,npa,1,npa:traffic/council,,自動車ジャーナリスト,0
 岩間陽子,岩間 陽子,1,mod,1,mod:shi-chu,委員,政策研究大学院大学教授,1
 峰ひろみ,峰 ひろみ,1,mod,1,mod:jinji,審議会長・分科会長及び部会長 / 委員 / 分科会長,東京都立大学法科大学院 教授,34
 島田和久,島田和久,1,mod,1,mod:drastic-reinforcement,,,10
@@ -417,17 +477,18 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 川出敏裕,川出敏裕,1,cfa,1,cfa:kodomokanren-jujisha,,東京大学大学院法学政治学研究科教授,0
 川口恭弘,川口恭弘,1,fsa,1,fsa:singi_kinyu/base,,同志社大学法学部教授,0
 川口有一郎,川口有一郎,1,mof,1,mof:fiscal_system_council/soukai,,早稲田大学名誉教授,0
-川尻恵理子,川尻 恵理子,1,mod,1,mod:kousei_nyusatu,,ハロー法律事務所 弁護士,0
+川尻恵理子,川尻 恵理子,1,mod,1,mod:kousei_nyusatu,委員,ハロー法律事務所 弁護士,3
 川崎博子,川﨑 博子,1,mod,1,mod:harassment,委員,ＥＮＥＯＳホールディングス（株）社外取締役,7
+川広和,川廣和,1,cao,1,cao:sasshin/kondan,,ＤＯＷＡホールディングス株式会社相談役,0
 川松亮,川松亮,1,cfa,1,cfa:shingikai,,明星大学人文学部常勤教授,0
 川端一光,川端一光,1,cfa,1,cfa:shingikai/kodomo_sodachi/hoikushi_shikaku,,明治学院大学心理学部教授,0
 工藤さほ,工藤さほ,1,cfa,1,cfa:shingikai,,一般社団法人障がい児及び医療的ケア児を育てる親の会会長,0
 布山祐子,布山 祐子,1,mod,1,mod:jinji,委員,（一社）日本経済団体連合会労働法制本部 参事,3
 平井登威,平井登威,1,cfa,1,cfa:shingikai/iken_senmon,,大学生、NPO 法人  CoCoTELI  代表,0
 平岡裕治,平岡 裕治,1,mod,1,mod:dangou,,元航空幕僚長,0
-平成,平成,1,cao,1,cao:invest-japan/committee,,２ ６ 年 ４ 月 ２ ５ 日 | ２ ７年 ３ 月 １ ７日 一 部改 正 | ２ ７ 年 ８ 月 ４ 日 一 部 改 正 | ２ ８ 年 ４ 月 １ 日 一 部 改 正 | ２ ９ 年 ５ 月 １ ０ 日 一 部 改 正 | ３ ０年 ５月 １ ７ 日 一 部 改 正 | ３ １年 ４ 月 １ ６ 日 一 部 改 正,0
 平野信行,平野信行,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,(株)三菱ＵＦＪ銀行 特別顧問,0
 幸島博美,幸島 博美,1,mod,1,mod:seisan,,三菱重工業株式会社 船舶・海洋事業本部 顧問,0
+広井良典,広井 良典,1,env,1,env:02policy/yoshi_kihonteki,委員,京都大学人と社会の未来研究院 教授,3
 広瀬祐子,廣瀬 祐子,1,mod,1,mod:shi-chu,委員,ジャーナリスト,1
 広瀬道明,広瀬道明,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,東京ガス(株)相談役,0
 建部豊,建部豊,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,2
@@ -443,6 +504,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 所千晴,所千晴,1,env,1,env:03recycle/yoshi03-15,,早稲田大学理工学術院  創造理工学部  教授,0
 手嶋豊,手嶋豊,1,mext,1,mext:chousa/kaihatu/016,,大阪経済法科大学法学部  特別専任教授,0
 折木良一,折木 良一,1,mod,1,mod:kyumei,,富士通株式会社 常任顧問,0
+提出意見,提出意見,1,mhlw,1,mhlw:shingi-hosho_211737_00001,,大阪府中央子ども家庭センター,0
 斎藤優子,齋藤優子,1,env,1,env:03recycle/yoshi03-18,,東北大学大学院環境科学研究科  教授,0
 斎野彦弥,齋野 彦弥,1,mod,1,mod:kiban,座長,元横浜国立大学大学院教授 / 弁護士,9
 新井肇,新井肇,1,cfa,1,cfa:ijime-judaikayoin,,関西外国語大学外国語学部教授,0
@@ -456,6 +518,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 普光院亜紀,普光院亜紀,1,cfa,1,cfa:kodomokanren-jujisha,,保育園を考える親の会,0
 月尾嘉男,月尾嘉男,1,mod,1,mod:bo-san,,東京大学教授,0
 有村俊秀,有村俊秀,1,env,1,env:demandstimulation_decarbonization,,座長,0
+木下誠也,木下 誠也,1,mod,1,mod:kousei_nyusatu,委員,,2
 木場紗綾,木場 紗綾,1,mod,1,mod:cap_build,委員,神戸市外国語大学准教授 | 神戸市外国語大学,4
 木村ひとみ,木村ひとみ,1,env,1,env:03recycle/yoshi03-17,,全日本自治団体労働組合 副中央執行委員長,0
 木村康則,木村 康則,1,mod,1,mod:space_domain,委員,国立研究開発法人 科学技術振興機構（JST） 研究開発戦略センター（CRDS）上席フェロー | 科学技術振興機構(JST)研究開発戦略センター上席フェロー | 国立研究開発法人 科学技術振興機構(JST)研究開発戦略センター上席フェロー,3
@@ -473,9 +536,11 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 村松剛,村松剛,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,1
 東海幹夫,東海 幹夫,1,mod,1,mod:cho-sei,,青山学院大学経営学部教授,0
 松下淳一,松下淳一,1,fsa,1,fsa:soff,,学習院大学法学部教授,0
+松井孝典,松井孝典,1,cao,1,cao:sasshin/kondan,,千葉工業大学惑星探査研究センター所長,0
 松井智予,松井智予,1,fsa,1,fsa:singi_kinyu/base,,東京大学大学院法学政治学研究科教授,0
 松元崇,松元 崇,1,mod,1,mod:kiban,委員,国家公務員共済組合連合会理事長,7
 松元暢子,松元暢子,1,fsa,1,fsa:singi_kigyou/top,,慶應義塾大学法学部教授,0
+松尾弘,松尾弘,1,cao,1,cao:tochi-chosa/shingikai,,慶應義塾大学大学院教授,0
 松岡直美,松岡直美,1,fsa,1,fsa:singi_kigyou/top,,ソニー銀行(株)代表取締役副社長,0
 松崎信,松﨑 信,1,mod,1,mod:cho-teki,,公認会計士 監査法人トーマツ,0
 松本英昭,松本 英昭,1,mod,1,mod:kondankai,,（財）自治総合センター理事長,0
@@ -504,9 +569,10 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 桜林美佐,桜林 美佐,1,mod,1,mod:seisan,,ジャーナリスト,0
 森原誠,森原誠,1,env,1,env:valuechain_decarbonization,,,0
 森田信司,森田信司,1,cfa,1,cfa:hoikujinzai,,社会福祉法人全国社会福祉協議会全国保育協議会副会長,0
+森田香菜子,森田 香菜子,1,env,1,env:02policy/yoshi_aratana,委員,国立研究開発法人森林研究・整備機構森林総合研究所生物多様性・,2
 森聡,森 聡,1,mod,1,mod:space_domain,委員,慶應義塾大学法学部 教授,3
 椎木里佳,椎木里佳,1,cfa,1,cfa:shingikai,,株式会社 AMF 代表取締役社長,0
-楠茂樹,楠 茂樹,1,mod,1,mod:kousei_nyusatu,会長,筑波大学人文社会系 教授,0
+楠茂樹,楠 茂樹,1,mod,1,mod:kousei_nyusatu,会長,筑波大学人文社会系 教授,2
 楯美和子,楯美和子,1,caa,1,caa:cepc/meeting_materials_7,,一般社団法人日本経済団体連合会消費者政策委員会企画部会長,0
 榊原定征,榊原定征,1,mod,1,mod:drastic-reinforcement,座長,,9
 権丈英子,権丈英子,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,亜細亜大学経済学部長・教授,0
@@ -519,6 +585,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 橋爪壮,橋爪 壮,1,mod,1,mod:vaccine,,（財）日本ポリオ研究所 理事長,0
 橘秀樹,橘 秀樹,1,mod,1,mod:futenma,,千葉工業大学附属総合研究所教授,0
 武井俊文,武井俊文,1,mod,1,mod:bo-san,,日本航空宇宙工業会会長,0
+武内和彦,武内 和彦,1,env,1,env:02policy/yoshi_kihonteki,委員,公益財団法人地球環境戦略研究機関(IGES) 理事長,2
 武本佳弥,武本佳弥,1,env,1,env:03recycle/yoshi03-15,,（株）シューファルシ  代表取締役,0
 武田,武田,1,fsa,1,fsa:singi_zidousya/zid_base,,涼 子 弁護士・公認不正検査士,0
 武藤香織,武藤 香織,1,mod,1,mod:blood-transfusion,委員,東京大学医科学研究所公共政策研究分野教授,3
@@ -529,6 +596,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 永野剛志,永野 剛志,1,mod,1,mod:jinji,委員,弁護士,34
 汐見稔幸,汐見稔幸,1,cfa,1,cfa:hoikujinzai,,一般社団法人全国保育士養成協議会会長,0
 江口勇治,江口勇治,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,18
+江口晋,江口晋,1,mhlw,1,mhlw:shingi-hosho_211737_00001,,○支援と介入の機能分化の在り方について,0
 江花史郎,江花史郎,1,caa,1,caa:cepc/meeting_materials_7,,弁護士,0
 池田三知子,池田三知子,1,env,1,env:03recycle/yoshi03-16,,（一社）日本経済団体連合会 環境エネルギー本部長,0
 池田陽子,池田 陽子,1,mod,1,mod:sds,,弁護士（明大昭平・法律事務所）,7
@@ -536,6 +604,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 沢田真由美,澤田真由美,1,cfa,1,cfa:ijime-judaikayoin,,株式会社先生の幸せ研究所代表取締役,0
 沢田純,澤田純,1,mod,1,mod:drastic-reinforcement,,,4
 河合優子,河合優子,1,cfa,1,cfa:shingikai/hoiku_senmon,,國學院大學人間開発学部教授,0
+河合英直,河合英直,1,npa,1,npa:traffic/council,,自動車技術総合機構交通安全環境研究所自動車安全研究部長,0
 河本雅也,河本雅也,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,3
 河村芳彦,河村芳彦,1,fsa,1,fsa:singi_kinyu/base,,キオクシアホールディングス株式会社 副社長執行役員 財務統括責任者,0
 河瀬由美子,河瀬 由美子,1,mod,1,mod:shi-chu,委員,名古屋駅前公証役場公証人,1
@@ -545,6 +614,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 波田野優,波田野優,1,cfa,1,cfa:shingikai/iken_senmon,,高校生、FTCJ こどもアンバサダー,0
 津久井建美,津久井 建美,1,mod,1,mod:jinji-ken,,元空将補 元第１１飛行教育団司令,0
 洲崎,洲崎,1,fsa,1,fsa:singi_zidousya/zid_base,,博 史 同志社大学大学院　司法研究科教授,0
+浅香博文,浅香博文,1,npa,1,npa:traffic/council,,社会福祉法人日本身体障害者団体連合会理事,0
 浜田剛史,濱田剛史,1,cfa,1,cfa:kodomokanren-jujisha,,大阪府高槻市長,0
 浦岡由美子,浦岡 由美子,1,mod,1,mod:jinji,委員,弁護士,24
 浦田秀次郎,浦田 秀次郎,1,cao,1,cao:invest-japan/committee,座長,早稲田大学大学院アジア太平洋研究科教授,5
@@ -552,6 +622,8 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 清原慶子,清原慶子,1,cfa,1,cfa:ijime-judaikayoin,,杏林大学客員教授・前東京都三鷹市長,0
 清水俊行,清水俊行,1,mod,1,mod:cho-teki,,公認会計士 朝日監査法人,0
 清水扶美,清水 扶美,1,mod,1,mod:cho-shin,委員,弁護士 宇田川・新城法律事務所,22
+清水敬介,清水敬介,1,npa,1,npa:traffic/council,,公益社団法人日本ＰＴＡ全国協議会専務理事,0
+渡井理佳子,渡井理佳子,1,cao,1,cao:tochi-chosa/shingikai,,慶應義塾大学大学院教授,0
 渡慶次道隆,渡慶次道隆,1,env,1,env:valuechain_decarbonization,,,0
 渡辺三枝子,渡辺 三枝子,1,mod,1,mod:mental,,筑波大学教授,0
 渡辺努,渡辺努,1,mof,1,mof:fiscal_system_council/soukai,,キヤノングローバル戦略研究所研究主幹,0
@@ -561,6 +633,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 滝口太,瀧口 太,1,mod,1,mod:space_domain,委員,国立研究開発法人 宇宙航空研究開発機構（JAXA） 理事 | 宇宙航空研究開発機構(JAXA)理事 | 国立研究開発法人 宇宙航空研究開発機構(JAXA)理事,3
 滝沢美帆,滝澤美帆,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,,学習院大学経済学部経済学科教授,0
 澄子,澄子,1,fsa,1,fsa:singi_zidousya/zid_base,,弁護士,0
+片山善博,片山善博,1,cao,1,cao:sasshin/kondan,,慶應義塾大学法学部教授,0
 片岡晴彦,片岡 晴彦,1,mod,1,mod:dstb,,元航空幕僚長,0
 片岡洋人,片岡 洋人,1,mod,1,mod:cho-shin,委員,明治大学専門職大学院会計専門職研究科教授,32
 牧敦生,牧 敦生,1,mod,1,mod:ts-ships,,国立大学法人大阪大学工学部教授,3
@@ -572,6 +645,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 田代聡,田代聡,1,mext,1,mext:chousa/kaihatu/016,,広島大学原爆放射線医科学研究所  教授,0
 田内正宏,田内 正宏,1,mod,1,mod:cho-shin,会長,弁護士 東京靖和綜合法律事務所,22
 田原純香,田原純香,1,env,1,env:03recycle/yoshi03-15,,一般財団法人資源循環推進協議会  理事,0
+田島夏与,田島 夏与,1,env,1,env:02policy/yoshi_aratana,委員,立教大学経済学部 教授,2
 田辺晴山,田邉 晴山,1,mod,1,mod:kyumei,,救急振興財団救急救命東京研修所 教授,0
 田辺邦子,田辺 邦子,1,mod,1,mod:jinji-ken,,弁護士,0
 町野静,町野静,1,env,1,env:03recycle/yoshi03-18,,弁護士法人イノベンティア 弁護士,0
@@ -606,6 +680,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 秋山千枝子,秋山千枝子,1,cfa,1,cfa:shingikai/kodomo_sodachi,,医療法人社団千実会理事長  あきやま子どもクリニック院長,0
 秋草直之,秋草直之,1,mod,1,mod:bo-san,,日本電子工業振興協会会長,0
 稲垣孝一,稲垣孝一,1,env,1,env:valuechain_decarbonization,,,0
+稲盛和夫,稲盛和夫,1,cao,1,cao:sasshin/kondan,,京セラ株式会社名誉会長,0
 積水ハウス,積水ハウス,1,moj,1,moj:1/housei02_003007_00014,,株 式 会 社 専 務 執 行 役 員,0
 筒井義信,筒井義信,1,mof,1,mof:fiscal_system_council/soukai,,日本生命保険相互会社特別顧問,0
 米山正樹,米山正樹,1,fsa,1,fsa:singi_kigyou/top,,東京大学大学院経済学研究科教授,0
@@ -621,6 +696,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 若林茂雄,若林茂雄,1,mof,1,mof:fiscal_system_council/soukai,,弁護士,0
 若田部昌澄,若田部昌澄,1,mod,1,mod:drastic-reinforcement,,,9
 英里子,英里子,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,東 京 都 教 育 庁 指 導 部 主 任 指 導 主 事,0
+茂木友三郎,茂木友三郎,1,cao,1,cao:sasshin/kondan,,キッコーマン株式会社取締役名誉会長 取締役会議長,0
 茅根創,茅根 創,1,mod,1,mod:futenma,座長代理,東京大学大学院理学系研究科教授,0
 荒井ひろみ,荒井ひろみ,1,ppc,1,ppc:koutekikenkyukai,,国立研究開発法人理化学研究所革新知能統合研究センター,0
 荒井修亮,荒井 修亮,1,mod,1,mod:futenma,,京都大学大学院情報学研究科准教授,0
@@ -629,12 +705,14 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 菰田正信,菰田正信,1,cao,1,cao:invest-japan/committee,,三井不動産株式会社  代表取締役会長,0
 落合孝文,落合孝文,1,digital,1,digital:administrative-research-wg,,弁護士 渥美坂井法律事務所・外国法共同事業,0
 落合陽一,落合陽一,1,mod,1,mod:drastic-reinforcement,,,2
+葛西敬之,葛西敬之,1,cao,1,cao:sasshin/kondan,,東海旅客鉄道株式会社代表取締役会長,0
 蒔田純司,蒔田純司,1,fsa,1,fsa:singi_zidousya/zid_base,,全日本交通運輸産業労働組合協議会事務局長,0
 藤井聡,藤井 聡,1,mod,1,mod:bouei_shisetsu,会長,京都大学大学院工学研究科教授,3
 藤原総一郎,藤原総一郎,1,digital,1,digital:administrative-research-wg-legal-practice-team,,弁護士 長島・大野・常松法律事務所,0
 藤村博之,藤村 博之,1,mod,1,mod:chuuryu-kentou,座長,法政大学大学院イノベーション・マネジメント研究科教授,0
 藤田,藤田,1,fsa,1,fsa:singi_zidousya/zid_base,会長,友 敬 東京大学大学院法学政治学研究科教授,0
 藥袋貴久,藥袋 貴久,1,mod,1,mod:keiyaku_seido,委員,昭和女子大学グローバルビジネス学部ビジネスデザイン学科教授,1
+蛭間芳樹,蛭間 芳樹,1,env,1,env:02policy/yoshi_aratana,委員,日本政策投資銀行業務企画部 イノベーション推進室 調査役,2
 蟻田功,蟻田 功,1,mod,1,mod:vaccine,,（財）国際保健医療交流センター 理事長,0
 行岡哲男,行岡 哲男,1,mod,1,mod:kyumei,,日本救急医学会 代表理事,0
 西口敏宏,西口 敏宏,1,mod,1,mod:cho-sei,,一橋大学イノベーション研究センター教授,0
@@ -697,6 +775,7 @@ moj:1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,1,moj,1,moj:1/kanb
 高岡力,高岡 力,1,mod,1,mod:sobi-gijutsuiten,,防衛技術協会 理事長,0
 高岡昌輝,高岡昌輝,1,env,1,env:03recycle/yoshi03-15,,京都大学大学院  工学研究科  教授,0
 高崎邦子,髙﨑邦子,1,cfa,1,cfa:hoikujinzai,,株式会社 JTB 執行役員 DEIB 推進担当,0
+高橋信行,高橋信行,1,npa,1,npa:traffic/council,,國學院大學法学部教授,0
 高橋元秀,高橋元秀,1,mod,1,mod:vaccine,,国立感染症研究所 細菌２部 細菌製剤第三室長,0
 高橋慶子,高橋慶子,1,cfa,1,cfa:hoikujinzai,,全国国公立幼稚園・こども園長会会長,0
 高橋文郎,高橋文郎,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,14
