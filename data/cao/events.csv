@@ -1582,3 +1582,506 @@ detected_at,event_type,council_id,meeting_id,target_key,before,after,source
 2026-11-23T02:52:25+00:00,member_added,sasshin/kondan,,sasshin/kondan/構成員（PDF形式：77KB）/松井孝典,,千葉工業大学惑星探査研究センター所長,/sasshin/kondan/index.html
 2026-11-23T02:52:25+00:00,member_added,sasshin/kondan,,sasshin/kondan/構成員（PDF形式：77KB）/茂木友三郎,,キッコーマン株式会社取締役名誉会長 取締役会議長,/sasshin/kondan/index.html
 2026-11-23T02:52:25+00:00,member_added,sasshin/kondan,,sasshin/kondan/構成員（PDF形式：77KB）/川廣和,,ＤＯＷＡホールディングス株式会社相談役,/sasshin/kondan/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/chukei/index.html,,200,/zei-cho/chukei/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/gijiroku/discussion1/index.html,,200,/zei-cho/gijiroku/discussion1/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/gijiroku/koku-han/index.html,,200,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/gijiroku/noukan/index.html,,200,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/gijiroku/sozoku-zoyo/index.html,,200,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/gijiroku/zeicho/index.html,,200,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/konkyo/index.html,,200,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2013/index.html,,200,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2014/index.html,,200,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2015/index.html,,200,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2016/index.html,,200,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2017/index.html,,200,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2018/index.html,,200,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2019/index.html,,200,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2020/index.html,,200,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2021/index.html,,200,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2022/index.html,,200,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2023/index.html,,200,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2024/index.html,,200,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2025/index.html,,200,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/news/2026/index.html,,200,/zei-cho/news/2026/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/shimon/index.html,,200,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,page_added,zei-cho,,/zei-cho/shimon/seiri271113.html,,200,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho@2025-05-15,zei-cho@2025-05-15,,2025-05-15,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho@2025-11-18,zei-cho@2025-11-18,,2025-11-18,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-10-31,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-10-31,,2016-10-31,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-11-09,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-11-09,,2016-11-09,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/国際課税ディスカッショングループ 2016年度@2016-05-26,zei-cho/国際課税ディスカッショングループ 2016年度@2016-05-26,,2016-05-26,/zei-cho/gijiroku/discussion1/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2013年度#1,zei-cho/新着情報 2013年度#1,,,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2013年度#2,zei-cho/新着情報 2013年度#2,,2013-11-28,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2013年度#3,zei-cho/新着情報 2013年度#3,,,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2013年度#4,zei-cho/新着情報 2013年度#4,,2013-12-02,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2013年度#5,zei-cho/新着情報 2013年度#5,,,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#1,zei-cho/新着情報 2014年度#1,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#2,zei-cho/新着情報 2014年度#2,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#3,zei-cho/新着情報 2014年度#3,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#4,zei-cho/新着情報 2014年度#4,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#5,zei-cho/新着情報 2014年度#5,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#6,zei-cho/新着情報 2014年度#6,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#7,zei-cho/新着情報 2014年度#7,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#8,zei-cho/新着情報 2014年度#8,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#9,zei-cho/新着情報 2014年度#9,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#10,zei-cho/新着情報 2014年度#10,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#11,zei-cho/新着情報 2014年度#11,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2014年度#12,zei-cho/新着情報 2014年度#12,,,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#6,zei-cho/新着情報 2015年度#6,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#13,zei-cho/新着情報 2015年度#13,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#14,zei-cho/新着情報 2015年度#14,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#15,zei-cho/新着情報 2015年度#15,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#16,zei-cho/新着情報 2015年度#16,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#17,zei-cho/新着情報 2015年度#17,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#18,zei-cho/新着情報 2015年度#18,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#19,zei-cho/新着情報 2015年度#19,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#20,zei-cho/新着情報 2015年度#20,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#21,zei-cho/新着情報 2015年度#21,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#22,zei-cho/新着情報 2015年度#22,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#23,zei-cho/新着情報 2015年度#23,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#24,zei-cho/新着情報 2015年度#24,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#25,zei-cho/新着情報 2015年度#25,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#28,zei-cho/新着情報 2015年度#28,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2015年度#29,zei-cho/新着情報 2015年度#29,,,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#1,zei-cho/新着情報 2016年度#1,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#2,zei-cho/新着情報 2016年度#2,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#3,zei-cho/新着情報 2016年度#3,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#4,zei-cho/新着情報 2016年度#4,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#5,zei-cho/新着情報 2016年度#5,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#7,zei-cho/新着情報 2016年度#7,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#8,zei-cho/新着情報 2016年度#8,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#9,zei-cho/新着情報 2016年度#9,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#26,zei-cho/新着情報 2016年度#26,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#29,zei-cho/新着情報 2016年度#29,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2016年度#30,zei-cho/新着情報 2016年度#30,,,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2017年度#10,zei-cho/新着情報 2017年度#10,,,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2017年度#11,zei-cho/新着情報 2017年度#11,,,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2017年度#12,zei-cho/新着情報 2017年度#12,,,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2017年度#13,zei-cho/新着情報 2017年度#13,,,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2017年度#14,zei-cho/新着情報 2017年度#14,,,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2017年度#16,zei-cho/新着情報 2017年度#16,,,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#1,zei-cho/新着情報 2018年度#1,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#2,zei-cho/新着情報 2018年度#2,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#3,zei-cho/新着情報 2018年度#3,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#17,zei-cho/新着情報 2018年度#17,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#18,zei-cho/新着情報 2018年度#18,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#19,zei-cho/新着情報 2018年度#19,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#20,zei-cho/新着情報 2018年度#20,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2018年度#21,zei-cho/新着情報 2018年度#21,,,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#1,zei-cho/新着情報 2019年度#1,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#3,zei-cho/新着情報 2019年度#3,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#4,zei-cho/新着情報 2019年度#4,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#22,zei-cho/新着情報 2019年度#22,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#23,zei-cho/新着情報 2019年度#23,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#24,zei-cho/新着情報 2019年度#24,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#25,zei-cho/新着情報 2019年度#25,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2019年度#28,zei-cho/新着情報 2019年度#28,,,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2020年度#1,zei-cho/新着情報 2020年度#1,,,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2020年度#2,zei-cho/新着情報 2020年度#2,,,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2020年度#3,zei-cho/新着情報 2020年度#3,,,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2020年度#4,zei-cho/新着情報 2020年度#4,,,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2021年度#5,zei-cho/新着情報 2021年度#5,,,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2021年度#6,zei-cho/新着情報 2021年度#6,,,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2021年度#7,zei-cho/新着情報 2021年度#7,,,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#1,zei-cho/新着情報 2022年度#1,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#2,zei-cho/新着情報 2022年度#2,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#8,zei-cho/新着情報 2022年度#8,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#9,zei-cho/新着情報 2022年度#9,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#10,zei-cho/新着情報 2022年度#10,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#11,zei-cho/新着情報 2022年度#11,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#12,zei-cho/新着情報 2022年度#12,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#13,zei-cho/新着情報 2022年度#13,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#14,zei-cho/新着情報 2022年度#14,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#15,zei-cho/新着情報 2022年度#15,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#16,zei-cho/新着情報 2022年度#16,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#17,zei-cho/新着情報 2022年度#17,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#18,zei-cho/新着情報 2022年度#18,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#19,zei-cho/新着情報 2022年度#19,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#20,zei-cho/新着情報 2022年度#20,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#21,zei-cho/新着情報 2022年度#21,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2022年度#22,zei-cho/新着情報 2022年度#22,,,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2023年度#1,zei-cho/新着情報 2023年度#1,,,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2023年度#23,zei-cho/新着情報 2023年度#23,,,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2023年度#24,zei-cho/新着情報 2023年度#24,,,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2023年度#27,zei-cho/新着情報 2023年度#27,,,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2024年度#1,zei-cho/新着情報 2024年度#1,,,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2024年度#2,zei-cho/新着情報 2024年度#2,,,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2024年度#3,zei-cho/新着情報 2024年度#3,,,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2024年度#4,zei-cho/新着情報 2024年度#4,,,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2025年度#2,zei-cho/新着情報 2025年度#2,,,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2025年度#3,zei-cho/新着情報 2025年度#3,,,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2025年度#4,zei-cho/新着情報 2025年度#4,,,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2025年度#5,zei-cho/新着情報 2025年度#5,,,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/新着情報 2025年度#6,zei-cho/新着情報 2025年度#6,,,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-05,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-05,,2022-10-05,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-21,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-21,,2022-10-21,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-26,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-26,,2022-10-26,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-19,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-19,,2022-10-19,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,meeting_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-28,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-28,,2022-10-28,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国際課税ディスカッショングループ 2016年度@2016-05-26,www.cao.go.jp/zei-cho/content/20160711_28dis17kai.pdf,,議事録: 議事録 (PDF形式:420KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/discussion1/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国際課税ディスカッショングループ 2016年度@2016-05-26,www.cao.go.jp/zei-cho/gijiroku/discussion1/2016/28dis17kai.html,,資料: 会議資料,/zei-cho/gijiroku/discussion1/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国際課税ディスカッショングループ 2016年度@2016-05-26,www.cao.go.jp/zei-cho/content/20160711_28dis17kaiken.pdf,,その他: 記者会見録 (PDF形式:136KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/discussion1/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/税制のEBPMに関する専門家会合 2026年度@2026-10-09,www.cao.go.jp/zei-cho/content/8ebpm8kaigiji.pdf,,議事録: 議事録 (PDF形式:317KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/ebpm/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-11-09,www.cao.go.jp/zei-cho/content/20161228_28koku2kai.pdf,,議事録: 議事録 (PDF形式:224KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-11-09,www.cao.go.jp/zei-cho/gijiroku/koku-han/2016/28koku2kai.html,,資料: 会議資料,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-11-09,www.cao.go.jp/zei-cho/content/20170105_28koku2kaiken.pdf,,その他: 記者会見録 (PDF形式:152KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-10-31,www.cao.go.jp/zei-cho/content/20161228_28koku1kai.pdf,,議事録: 議事録 (PDF形式:376KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-10-31,www.cao.go.jp/zei-cho/gijiroku/koku-han/2016/28koku1kai.html,,資料: 会議資料,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/国税犯則調査手続の見直しに関する会合 2016年度@2016-10-31,www.cao.go.jp/zei-cho/content/20161125_28koku1kaiken.pdf,,その他: 記者会見録 (PDF形式:132KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/koku-han/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-28,www.cao.go.jp/zei-cho/content/4noukan9kaigiji.pdf,,議事録: 議事録 (PDF形式:484KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-28,www.cao.go.jp/zei-cho/gijiroku/noukan/2022/4noukan9kai.html,,資料: 会議資料,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-28,www.cao.go.jp/zei-cho/content/4noukan9kaiken.pdf,,その他: 記者会見録 (PDF形式:144KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-19,www.cao.go.jp/zei-cho/content/4noukan8kaigiji.pdf,,議事録: 議事録 (PDF形式:489KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-19,www.cao.go.jp/zei-cho/gijiroku/noukan/2022/4noukan8kai.html,,資料: 会議資料,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/納税環境整備に関する専門家会合 2022年度@2022-10-19,www.cao.go.jp/zei-cho/content/4noukan8kaiken.pdf,,その他: 記者会見録 (PDF形式:120KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/noukan/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-26,www.cao.go.jp/zei-cho/content/4sozoku-zoyo3kaigiji.pdf,,議事録: 議事録 (PDF形式:260KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-26,www.cao.go.jp/zei-cho/gijiroku/sozoku-zoyo/2022/4sozoku-zoyo3kai.html,,資料: 会議資料,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-26,www.cao.go.jp/zei-cho/content/4sozoku-zoyo3kaiken.pdf,,その他: 記者会見録 (PDF形式:82KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-21,www.cao.go.jp/zei-cho/content/4sozoku-zoyo2kaigiji.pdf,,議事録: 議事録 (PDF形式:385KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-21,www.cao.go.jp/zei-cho/gijiroku/sozoku-zoyo/2022/4sozoku-zoyo2kai.html,,資料: 会議資料,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-21,www.cao.go.jp/zei-cho/content/4sozoku-zoyo2kaiken.pdf,,その他: 記者会見録 (PDF形式:126KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-05,www.cao.go.jp/zei-cho/content/4sozoku-zoyo1kaigiji.pdf,,議事録: 議事録 (PDF形式:413KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-05,www.cao.go.jp/zei-cho/gijiroku/sozoku-zoyo/4sozoku-zoyo1kai.html,,資料: 会議資料,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/相続税・贈与税に関する専門家会合 2022年度@2022-10-05,www.cao.go.jp/zei-cho/content/4sozoku-zoyo1kaiken.pdf,,その他: 記者会見録 (PDF形式:119KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/sozoku-zoyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho@2025-11-18,www.cao.go.jp/zei-cho/content/7zen6kaigiji.pdf,,議事録: 議事録 (PDF形式:104KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho@2025-11-18,www.cao.go.jp/zei-cho/gijiroku/zeicho/2025/7zen6kai.html,,資料: 会議資料,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho@2025-11-18,www.cao.go.jp/zei-cho/content/7zen6kaiken.pdf,,その他: 記者会見録 (PDF形式:102KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho@2025-05-15,www.cao.go.jp/zei-cho/content/7zen5kaigiji.pdf,,議事録: 議事録 (PDF形式:401KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho@2025-05-15,www.cao.go.jp/zei-cho/gijiroku/zeicho/2025/7zen5kai.html,,資料: 会議資料,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho@2025-05-15,www.cao.go.jp/zei-cho/content/7zen5kaiken.pdf,,その他: 記者会見録 (PDF形式:175KB) PDFを別ウィンドウで開きます,/zei-cho/gijiroku/zeicho/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/konkyo/doc/meibo.pdf,,名簿: 税制調査会委員・特別委員名簿（PDF形式：141KB）PDFを別ウィンドウで開きます,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/konkyo/doc/kitei.pdf,,その他: 税制調査会に関する政令の規定（PDF形式：106KB）PDFを別ウィンドウで開きます,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/gijiroku/discussion3/2013/25dis32kai.html,,資料: 第2回法人課税DG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#3,www.cao.go.jp/zei-cho/content/20140314_25dis23kaiken_1.pdf,,その他: 第3回マイナンバーDG記者会見録を掲載いたしました (PDF形式:197KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/gijiroku/discussion3/2013/25dis31kai.html,,資料: 第1回法人課税DG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#5,www.cao.go.jp/zei-cho/content/20140228_25zen5kaiken_1.pdf,,その他: 第5回税制調査会記者会見録を掲載いたしました (PDF形式:230KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#3,www.cao.go.jp/zei-cho/gijiroku/discussion2/2013/25dis23kai.html,,資料: 第3回マイナンバーDG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#5,www.cao.go.jp/zei-cho/gijiroku/zeicho/2013/25zen5kai.html,,資料: 第5回税制調査会会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140217_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:131KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/content/20140206_25dis22kai.pdf,,議事録: 第2回マイナンバーDG議事録を掲載いたしました (PDF形式:473KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#4,www.cao.go.jp/zei-cho/content/20140116_25zen4kai.pdf,,議事録: 第4回税制調査会議事録を掲載いたしました (PDF形式:531KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/content/20131227_25dis12kai.pdf,,議事録: 第2回国際課税DG議事録を掲載いたしました (PDF形式:447KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/content/20131218_25dis21kai.pdf,,議事録: 第1回マイナンバーDG議事録を掲載いたしました (PDF形式:496KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/content/20131212_25dis12kaiken_1.pdf,,その他: 第2回国際課税DG記者会見録を掲載いたしました (PDF形式:174KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#4,www.cao.go.jp/zei-cho/content/20131204_25zen4kaiken_1.pdf,,その他: 第4回税制調査会記者会見録を掲載いたしました (PDF形式:186KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/content/20131204_25dis22kaiken.pdf,,その他: 第2回マイナンバーDG記者会見録を掲載いたしました (PDF形式:109KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#4,www.cao.go.jp/zei-cho/gijiroku/zeicho/2013/25zen4kai.html,,資料: 第4回税制調査会会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/gijiroku/discussion2/2013/25dis22kai.html,,資料: 第2回マイナンバーDG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/content/20131126_25dis11kai_1.pdf,,議事録: 第1回国際課税DG議事録を掲載いたしました (PDF形式:494KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/content/20131120_25dis21kaiken.pdf,,その他: 第1回マイナンバーDG記者会見録を掲載いたしました (PDF形式:188KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/content/20131216_25dis11kaiken.pdf,,その他: 第1回国際課税DG記者会見録を掲載いたしました (PDF形式:228KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/gijiroku/discussion1/2013/25dis12kai.html,,資料: 第2回国際課税DG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/gijiroku/discussion2/2013/25dis21kai.html,,資料: 第1回マイナンバーDG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#3,www.cao.go.jp/zei-cho/content/20131105_25zen3kai_1.pdf,,議事録: 第3回税制調査会議事録を掲載いたしました (PDF形式:537KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/gijiroku/discussion1/2013/25dis11kai.html,,資料: 第1回国際課税DG会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#3,www.cao.go.jp/zei-cho/content/20131021_25zen3kaiken_1.pdf,,その他: 第3回税制調査会記者会見録を掲載いたしました (PDF形式:222KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#3,www.cao.go.jp/zei-cho/gijiroku/zeicho/2013/25zen3kai.html,,資料: 第3回税制調査会会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/content/20130903_25zen2kai_1.pdf,,議事録: 第2回税制調査会議事録を掲載いたしました (PDF形式:580KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/content/20130815_25zen2kaiken_1.pdf,,その他: 第2回税制調査会記者会見録を掲載いたしました (PDF形式:175KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#2,www.cao.go.jp/zei-cho/gijiroku/zeicho/2013/25zen2kai.html,,資料: 第2回税制調査会会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/content/20130716_25zen1kai_1.pdf,,議事録: 第1回税制調査会議事録を掲載いたしました (PDF形式:232KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/content/20130701_25zen1kaiken_3.pdf,,その他: 第1回税制調査会記者会見録を掲載いたしました (PDF形式:212KB) PDFを別ウィンドウで開きます,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2013年度#1,www.cao.go.jp/zei-cho/gijiroku/zeicho/2013/25zen1kai.html,,資料: 第1回税制調査会会議資料を掲載しました,/zei-cho/news/2013/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20150309_26kiso4kai_3.pdf,,議事録: 第4回基礎問題小委員会議事録を掲載いたしました (PDF形式:288KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#12,www.cao.go.jp/zei-cho/content/20150202_26zen12kai_2.pdf,,議事録: 第12回税制調査会議事録を掲載いたしました (PDF形式:463KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20150318_26kiso5kai.pdf,,議事録: 第5回基礎問題小委員会議事録を掲載いたしました (PDF形式:274KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/content/20150203_26kiso6kai_1.pdf,,議事録: 第6回基礎問題小委員会議事録を掲載いたしました (PDF形式:430KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#12,www.cao.go.jp/zei-cho/content/20141126_26zen12kaiken_1.pdf,,その他: 第12回税制調査会記者会見録を掲載いたしました (PDF形式:209KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/content/20141126_26kiso6kaiken_2.pdf,,その他: 第6回基礎問題小委員会記者会見録を掲載いたしました (PDF形式:226KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#11,www.cao.go.jp/zei-cho/content/20141125_26zen11kai_1.pdf,,議事録: 第11回税制調査会議事録を掲載いたしました (PDF形式:394KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20141114_26kiso5kaiken_1.pdf,,その他: 第5回基礎問題小委員会記者会見録を掲載いたしました (PDF形式:264KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20141114_26kiso4kaiken_1.pdf,,その他: 第4回基礎問題小委員会記者会見録を掲載いたしました (PDF形式:210KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#11,www.cao.go.jp/zei-cho/content/20141114_26zen11kaiken.pdf,,その他: 第11回税制調査会記者会見録を掲載いたしました (PDF形式:218KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#12,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen12kai.html,,資料: 第12回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/gijiroku/kiso/2014/26kiso6kai.html,,資料: 第6回基礎問題小委員会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/gijiroku/kiso/2014/26kiso5kai.html,,資料: 第5回基礎問題小委員会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/gijiroku/kiso/2014/26kiso4kai.html,,資料: 第4回基礎問題小委員会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#11,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen11kai.html,,資料: 第11回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#10,www.cao.go.jp/zei-cho/content/20140901_26zen10kai_1.pdf,,議事録: 第10回税制調査会議事録を掲載いたしました (PDF形式:355KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20140901_26dis15kai_1.pdf,,議事録: 第5回国際課税DG議事録を掲載いたしました (PDF形式:390KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#7,www.cao.go.jp/zei-cho/content/20140814_26kiso3kai_2.pdf,,議事録: 第7回法人課税DG・第3回基礎問題小委員会議事録を掲載いたしました (PDF形式:439KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140805_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:146KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20140715_26dis15kaiken_1.pdf,,その他: 第5回国際課税DG記者会見録を掲載いたしました (PDF形式:197KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#9,www.cao.go.jp/zei-cho/content/20140717_26zen9kai_1.pdf,,議事録: 第9回税制調査会議事録を掲載いたしました (PDF形式:460KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#2,www.cao.go.jp/zei-cho/content/20140714_26kiso2kai_1.pdf,,議事録: 第2回基礎問題小委員会議事録を掲載いたしました (PDF形式:332KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/content/20140714_26dis36kai_1.pdf,,議事録: 第6回法人課税DG議事録を掲載いたしました (PDF形式:464KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#8,www.cao.go.jp/zei-cho/content/20140714_26zen8kai_1.pdf,,議事録: 第8回税制調査会議事録を掲載いたしました (PDF形式:301KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#1,www.cao.go.jp/zei-cho/content/20140709_26kiso1kai_1.pdf,,議事録: 第1回基礎問題小委員会議事録を掲載いたしました (PDF形式:478KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#7,www.cao.go.jp/zei-cho/content/20140709_26zen7kai_1.pdf,,議事録: 第7回税制調査会議事録を掲載いたしました (PDF形式:468KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20140709_26dis35kai_1.pdf,,議事録: 第5回法人課税DG議事録を掲載いたしました (PDF形式:482KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#7,www.cao.go.jp/zei-cho/content/20140703_26kiso3kaiken_2.pdf,,その他: 第7回法人課税DG・第3回基礎問題小委員会記者会見録を掲載いたしました (PDF形式:215KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#10,www.cao.go.jp/zei-cho/content/20140702_26zen10kaiken_1.pdf,,その他: 第10回税制調査会記者会見録を掲載いたしました (PDF形式:153KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#10,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen10kai.html,,資料: 第10回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/gijiroku/discussion1/2014/26dis15kai.html,,資料: 第5回国際課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20140625_26dis34kai_1.pdf,,議事録: 第4回法人課税DG議事録を掲載いたしました (PDF形式:485KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/gijiroku/kiso/2014/26kiso3kai.html,,資料: 第3回基礎問題小委員会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#7,www.cao.go.jp/zei-cho/gijiroku/discussion3/2014/26dis37kai.html,,資料: 第7回法人課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#9,www.cao.go.jp/zei-cho/content/20140624_26zen9kaiken_1.pdf,,その他: 第9回税制調査会記者会見録を掲載いたしました (PDF形式:214KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20140618_26dis14kai_1.pdf,,議事録: 第4回国際課税DG議事録を掲載いたしました (PDF形式:260KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/content/20140616_26zen6kai_1.pdf,,議事録: 第6回税制調査会議事録を掲載いたしました (PDF形式:297KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/content/20140616_26dis33kai.pdf,,議事録: 第3回法人課税DG議事録を掲載いたしました (PDF形式:483KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#9,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen9kai.html,,資料: 第9回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#2,www.cao.go.jp/zei-cho/content/20140610_26kiso2kaiken_1.pdf,,その他: 第2回基礎問題小委員会記者会見録を掲載いたしました (PDF形式:179KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140606_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:145KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20140604_26dis24kai_3.pdf,,議事録: 第4回マイナンバーDG議事録を掲載いたしました (PDF形式:378KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/content/20140604_26dis13kai.pdf,,議事録: 第3回国際課税DG議事録を掲載いたしました (PDF形式:453KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#8,www.cao.go.jp/zei-cho/content/20140602_26zen8kaiken_2.pdf,,その他: 第8回税制調査会・第6回法人課税DG記者会見録を掲載いたしました (PDF形式:193KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#1,www.cao.go.jp/zei-cho/content/20140602_26kiso1kaiken_1.pdf,,その他: 第1回基礎問題小委員会記者会見録を掲載いたしました (PDF形式:134KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20140602_26zen7kaiken_2.pdf,,その他: 第5回法人課税DG・第7回税制調査会記者会見録を掲載いたしました (PDF形式:185KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140602_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:131KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#2,www.cao.go.jp/zei-cho/content/20140527_25dis32kai_1.pdf,,議事録: 第2回法人課税DG議事録を掲載いたしました (PDF形式:488KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20140526_26dis34kaiken.pdf,,その他: 第4回法人課税DG・第4回国際課税DG記者会見録を掲載いたしました (PDF形式:135KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140526_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:130KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#2,www.cao.go.jp/zei-cho/gijiroku/kiso/2014/26kiso2kai.html,,資料: 第2回基礎問題小委員会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/gijiroku/discussion3/2014/26dis36kai.html,,資料: 第6回法人課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#8,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen8kai.html,,資料: 第8回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#1,www.cao.go.jp/zei-cho/content/20140515_26dis31kai.pdf,,議事録: 第1回法人課税DG議事録を掲載いたしました (PDF形式:516KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#1,www.cao.go.jp/zei-cho/gijiroku/kiso/2014/26kiso1kai.html,,資料: 第1回基礎問題小委員会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#7,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen7kai.html,,資料: 第7回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/gijiroku/discussion3/2014/26dis35kai.html,,資料: 第5回法人課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/content/20140507_25dis13kaiken.pdf,,その他: 第3回国際課税DG記者会見録を掲載いたしました (PDF形式:230KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140430_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:130KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/content/20140507_25dis23kai.pdf,,議事録: 第3回マイナンバーDG議事録を掲載いたしました (PDF形式:485KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/content/20140427_26zen6kaiken_2.pdf,,その他: 第3回法人課税DG・第6回税制調査会記者会見録を掲載いたしました (PDF形式:182KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/content/20140427_26dis24kaiken_1.pdf,,その他: 第4回マイナンバーDG記者会見録を掲載いたしました (PDF形式:151KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/gijiroku/discussion3/2014/26dis34kai.html,,資料: 第4回法人課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/gijiroku/discussion1/2014/26dis14kai.html,,資料: 第4回国際課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#2,www.cao.go.jp/zei-cho/content/20140414_25dis32kaiken_1.pdf,,その他: 第2回法人課税DG記者会見録を掲載いたしました (PDF形式:153KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#6,www.cao.go.jp/zei-cho/gijiroku/zeicho/2014/26zen6kai.html,,資料: 第6回税制調査会会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/gijiroku/discussion3/2014/26dis33kai.html,,資料: 第3回法人課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/content/20140409_meibo.pdf,,名簿: 税制調査会委員・特別委員名簿を更新いたしました (PDF形式:130KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#1,www.cao.go.jp/zei-cho/content/20140409_25dis31kaiken_1.pdf,,その他: 第1回法人課税DG記者会見録を掲載いたしました (PDF形式:192KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#5,www.cao.go.jp/zei-cho/content/20140409_25zen5kai_1.pdf,,議事録: 第5回税制調査会議事録を掲載いたしました (PDF形式:499KB) PDFを別ウィンドウで開きます,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#4,www.cao.go.jp/zei-cho/gijiroku/discussion2/2014/26dis24kai.html,,資料: 第4回マイナンバーDG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2014年度#3,www.cao.go.jp/zei-cho/gijiroku/discussion1/2014/26dis13kai.html,,資料: 第3回国際課税DG会議資料を掲載しました,/zei-cho/news/2014/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#25,www.cao.go.jp/zei-cho/gijiroku/zeicho/index.html,,議事録: 第25回税制調査会議事録を掲載いたしました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#6,www.cao.go.jp/zei-cho/gijiroku/discussion1/index.html,,議事録: 第6回国際課税DG議事録を掲載いたしました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#29,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen29kai.html,,資料: 第29回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#28,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen28kai.html,,資料: 第28回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#25,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen25kai.html,,資料: 第25回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#24,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen24kai.html,,資料: 第24回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#6,www.cao.go.jp/zei-cho/gijiroku/discussion1/2015/27dis16kai.html,,資料: 第6回国際課税DG会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#23,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen23kai.html,,資料: 第23回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#22,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen22kai.html,,資料: 第22回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#21,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen21kai.html,,資料: 第21回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#20,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen20kai.html,,資料: 第20回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#19,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen19kai.html,,資料: 第19回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#18,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen18kai.html,,資料: 第18回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#17,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen17kai.html,,資料: 第17回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#16,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen16kai.html,,資料: 第16回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#15,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen15kai.html,,資料: 第15回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#14,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen14kai.html,,資料: 第14回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2015年度#13,www.cao.go.jp/zei-cho/gijiroku/zeicho/2015/27zen13kai.html,,資料: 第13回税制調査会会議資料を掲載しました,/zei-cho/news/2015/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#9,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen9kai.html,,資料: 第9回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#1,www.cao.go.jp/zei-cho/gijiroku/koku-han/index.html,,議事録: 第1回、第2回国税犯則調査手続の見直しに関する会合議事録を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#8,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen8kai.html,,資料: 第8回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#5,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen5kai.html,,資料: 第5回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#4,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen4kai.html,,資料: 第4回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#3,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen3kai.html,,資料: 第3回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#2,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen2kai.html,,資料: 第2回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#1,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen1kai.html,,資料: 第1回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2016年度#30,www.cao.go.jp/zei-cho/gijiroku/zeicho/2016/28zen30kai.html,,資料: 第30回税制調査会会議資料を掲載しました,/zei-cho/news/2016/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#16,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/index.html,,議事録: 第16回税制調査会までの議事録、記者会見録を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#16,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/29zen16kai.html,,資料: 第16回税制調査会会議資料を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#14,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/29zen14kai.html,,資料: 第14回税制調査会会議資料を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#13,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/29zen13kai.html,,資料: 第13回税制調査会会議資料を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#12,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/29zen12kai.html,,資料: 第12回税制調査会会議資料を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#11,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/29zen11kai.html,,資料: 第11回税制調査会会議資料を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2017年度#10,www.cao.go.jp/zei-cho/gijiroku/zeicho/2017/29zen10kai.html,,資料: 第10回税制調査会会議資料を掲載しました,/zei-cho/news/2017/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#2,www.cao.go.jp/zei-cho/gijiroku/renketsu/2018/index.html,,議事録: 第２回連結納税制度に関する専門家会合の議事録、記者会見録を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#21,www.cao.go.jp/zei-cho/gijiroku/zeicho/2018/index.html,,議事録: 第21回税制調査会の議事録、記者会見録を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#2,www.cao.go.jp/zei-cho/gijiroku/renketsu/2018/30renketsu2kai.html,,資料: 第２回連結納税制度に関する専門家会合会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#21,www.cao.go.jp/zei-cho/gijiroku/zeicho/2018/30zen21kai.html,,資料: 第21回税制調査会会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#3,www.cao.go.jp/zei-cho/gijiroku/noukan/2018/index.html,,議事録: 第３回納税環境整備に関する専門家会合の議事録、記者会見録を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#1,www.cao.go.jp/zei-cho/gijiroku/renketsu/2018/30renketsu1kai.html,,資料: 第１回連結納税制度に関する専門家会合会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#20,www.cao.go.jp/zei-cho/gijiroku/zeicho/2018/30zen20kai.html,,資料: 第20回税制調査会会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#3,www.cao.go.jp/zei-cho/gijiroku/noukan/2018/30noukan3kai.html,,資料: 第３回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#2,www.cao.go.jp/zei-cho/gijiroku/noukan/2018/30noukan2kai.html,,資料: 第２回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#1,www.cao.go.jp/zei-cho/gijiroku/noukan/2018/30noukan1kai.html,,資料: 第１回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#19,www.cao.go.jp/zei-cho/gijiroku/zeicho/2018/30zen19kai.html,,資料: 第19回税制調査会会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#18,www.cao.go.jp/zei-cho/gijiroku/zeicho/2018/30zen18kai.html,,資料: 第18回税制調査会会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2018年度#17,www.cao.go.jp/zei-cho/gijiroku/zeicho/2018/30zen17kai.html,,資料: 第17回税制調査会会議資料を掲載しました,/zei-cho/news/2018/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#1,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/index.html,,議事録: 第１回税制調査会の議事録、記者会見録を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#1,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/2zen1kai.html,,資料: 第1回税制調査会会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#4,www.cao.go.jp/zei-cho/gijiroku/noukan/2019/index.html,,議事録: 第４回納税環境整備に関する専門家会合の議事録、記者会見録を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#28,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/1zen28kai.html,,資料: 第28回税制調査会会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#1,www.cao.go.jp/zei-cho/gijiroku/rougo/2019/index.html,,議事録: 第１回老後の資産形成等に関する専門家会合の議事録、記者会見録を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#25,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/1zen25kai.html,,資料: 第25回税制調査会会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#24,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/1zen24kai.html,,資料: 第24回税制調査会会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#4,www.cao.go.jp/zei-cho/gijiroku/noukan/2019/1noukan4kai.html,,資料: 第４回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#4,www.cao.go.jp/zei-cho/gijiroku/renketsu/2019/1renketsu4kai.html,,資料: 第４回連結納税制度に関する専門家会合会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#23,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/1zen23kai.html,,資料: 第23回税制調査会会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#1,www.cao.go.jp/zei-cho/gijiroku/rougo/2019/1rougo1kai.html,,資料: 第１回老後の資産形成等に関する専門家会合会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#3,www.cao.go.jp/zei-cho/gijiroku/renketsu/2019/index.html,,議事録: 第３回連結納税制度に関する専門家会合の議事録、記者会見録を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#22,www.cao.go.jp/zei-cho/gijiroku/zeicho/2019/31zen22kai.html,,資料: 第22回税制調査会会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2019年度#3,www.cao.go.jp/zei-cho/gijiroku/renketsu/2019/31renketsu3kai.html,,資料: 第３回連結納税制度に関する専門家会合会議資料を掲載しました,/zei-cho/news/2019/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#4,www.cao.go.jp/zei-cho/gijiroku/zeicho/2020/index.html,,議事録: 第４回税制調査会の議事録を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#4,www.cao.go.jp/zei-cho/gijiroku/noukan/2020/index.html,,議事録: 第４回納税環境整備に関する専門家会合の議事録を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#4,www.cao.go.jp/zei-cho/gijiroku/zeicho/2020/2zen4kai.html,,資料: 第4回税制調査会会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#4,www.cao.go.jp/zei-cho/gijiroku/noukan/2020/2noukan4kai.html,,資料: 第４回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#3,www.cao.go.jp/zei-cho/gijiroku/zeicho/2020/2zen3kai.html,,資料: 第3回税制調査会会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#3,www.cao.go.jp/zei-cho/gijiroku/noukan/2020/2noukan3kai.html,,資料: 第３回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#2,www.cao.go.jp/zei-cho/gijiroku/noukan/2020/2noukan2kai.html,,資料: 第２回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#1,www.cao.go.jp/zei-cho/gijiroku/noukan/2020/2noukan1kai.html,,資料: 第１回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2020年度#2,www.cao.go.jp/zei-cho/gijiroku/zeicho/2020/2zen2kai.html,,資料: 第２回税制調査会会議資料を掲載しました,/zei-cho/news/2020/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#7,www.cao.go.jp/zei-cho/gijiroku/zeicho/2021/3zen7kai.html,,資料: 第7回税制調査会会議資料を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#7,www.cao.go.jp/zei-cho/gijiroku/noukan/2021/index.html,,議事録: 第７回納税環境整備に関する専門家会合の議事録を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#6,www.cao.go.jp/zei-cho/gijiroku/zeicho/2021/3zen6kai.html,,資料: 第6回税制調査会会議資料を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#7,www.cao.go.jp/zei-cho/gijiroku/noukan/2021/3noukan7kai.html,,資料: 第７回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#5,www.cao.go.jp/zei-cho/gijiroku/zeicho/2021/3zen5kai.html,,資料: 第5回税制調査会会議資料を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#6,www.cao.go.jp/zei-cho/gijiroku/noukan/2021/3noukan6kai.html,,資料: 第６回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2021年度#5,www.cao.go.jp/zei-cho/gijiroku/noukan/2021/3noukan5kai.html,,資料: 第５回納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2021/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#2,www.cao.go.jp/zei-cho/gijiroku/sozoku-zoyo/index.html,,議事録: 第２回、第３回相続税・贈与税に関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#9,www.cao.go.jp/zei-cho/gijiroku/noukan/index.html,,議事録: 第９回納税環境整備に関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#22,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen22kai.html,,資料: 第22回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#21,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen21kai.html,,資料: 第21回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#20,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen20kai.html,,資料: 第20回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#19,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen19kai.html,,資料: 第19回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#18,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen18kai.html,,資料: 第18回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#17,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen17kai.html,,資料: 第17回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#16,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen16kai.html,,資料: 第16回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#13,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/index.html,,議事録: 第13回税制調査会の議事録及び記者会見録を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#15,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen15kai.html,,資料: 第15回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#14,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen14kai.html,,資料: 第14回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#13,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen13kai.html,,資料: 第13回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#12,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen12kai.html,,資料: 第12回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#11,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen11kai.html,,資料: 第11回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#10,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen10kai.html,,資料: 第10回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#9,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen9kai.html,,資料: 第９回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2022年度#8,www.cao.go.jp/zei-cho/gijiroku/zeicho/2022/4zen8kai.html,,資料: 第８回税制調査会会議資料を掲載しました,/zei-cho/news/2022/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2023年度#1,www.cao.go.jp/zei-cho/gijiroku/zeicho/2023/index.html,,議事録: 第1回税制調査会の議事録及び記者会見録を掲載しました,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2023年度#27,www.cao.go.jp/zei-cho/gijiroku/zeicho/2023/5zen27kai_00002.html,,資料: 第27回税制調査会会議資料を掲載しました,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2023年度#23,www.cao.go.jp/zei-cho/gijiroku/zeicho/2023/5zen23kai.html,,資料: 第23回税制調査会会議資料を掲載しました,/zei-cho/news/2023/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#2,www.cao.go.jp/zei-cho/gijiroku/ebpm/2024/index.html,,議事録: 第２回税制のEBPMに関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#1,www.cao.go.jp/zei-cho/gijiroku/life/2024/index.html,,議事録: 第１回活力ある長寿社会に向けたライフコースに中立な税制に関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#1,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2024/index.html,,議事録: 第１回経済社会のデジタル化への対応と納税環境整備に関する専門家会合の議事録及び記者会見録を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#4,www.cao.go.jp/zei-cho/gijiroku/zeicho/2024/index.html,,議事録: 第4回税制調査会の議事録及び記者会見録を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#2,www.cao.go.jp/zei-cho/gijiroku/ebpm/2024/6ebpm2kai.html,,資料: 第２回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#1,www.cao.go.jp/zei-cho/gijiroku/life/2024/6life1kai.html,,資料: 第１回活力ある長寿社会に向けたライフコースに中立な税制に関する専門家会合会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#1,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2024/6digital-noukan1kai.html,,資料: 第１回経済社会のデジタル化への対応と納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#4,www.cao.go.jp/zei-cho/gijiroku/zeicho/2024/6zen4kai.html,,資料: 第4回税制調査会会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#1,www.cao.go.jp/zei-cho/gijiroku/ebpm/2024/6ebpm1kai.html,,資料: 第１回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#3,www.cao.go.jp/zei-cho/gijiroku/zeicho/2024/6zen3kai.html,,資料: 第3回税制調査会会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2024年度#2,www.cao.go.jp/zei-cho/gijiroku/zeicho/2024/6zen2kai.html,,資料: 第2回税制調査会会議資料を掲載しました,/zei-cho/news/2024/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#4,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2025/7digital-noukan4kai.html,,資料: 第４回経済社会のデジタル化への対応と納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#3,www.cao.go.jp/zei-cho/gijiroku/life/2025/7life3kai.html,,資料: 第３回活力ある長寿社会に向けたライフコースに中立な税制に関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#6,www.cao.go.jp/zei-cho/gijiroku/ebpm/2025/7ebpm6kai.html,,資料: 第６回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#5,www.cao.go.jp/zei-cho/gijiroku/ebpm/2025/7ebpm5kai.html,,資料: 第５回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#3,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2025/7digital-noukan3kai.html,,資料: 第３回経済社会のデジタル化への対応と納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#4,www.cao.go.jp/zei-cho/gijiroku/ebpm/2025/7ebpm4kai.html,,資料: 第４回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#2,www.cao.go.jp/zei-cho/gijiroku/life/2025/7life2kai.html,,資料: 第２回活力ある長寿社会に向けたライフコースに中立な税制に関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#3,www.cao.go.jp/zei-cho/gijiroku/ebpm/2025/7ebpm3kai.html,,資料: 第３回税制のEBPMに関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,zei-cho/新着情報 2025年度#2,www.cao.go.jp/zei-cho/gijiroku/digital-noukan/2025/7digital-noukan2kai.html,,資料: 第２回経済社会のデジタル化への対応と納税環境整備に関する専門家会合会議資料を掲載しました,/zei-cho/news/2025/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/shimon0125.pdf,,その他: 諮問（令和6年1月25日）（PDF形式：47KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/shimon0110.pdf,,その他: 諮問（令和2年1月10日）（PDF形式：51KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/2zen4kai.pdf,,"報告書: 「納税環境整備に関する専門家会合の議論の報告」（令和2年11月13日）（PDF形式：3,001KB）PDFを別ウィンドウで開きます",/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/2zen4kai-1.pdf,,その他: （1/5）（PDF形式：958KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/2zen4kai-2.pdf,,その他: （2/5）（PDF形式：334KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/2zen4kai-3.pdf,,その他: （3/5）（PDF形式：882KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/2zen4kai-4.pdf,,その他: （4/5）（PDF形式：895KB）,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/2zen4kai-5.pdf,,その他: （5/5）（PDF形式：898KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/shimon1112.pdf,,その他: 諮問（令和3年11月12日）（PDF形式：75KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2.pdf,,"報告書: 「納税環境整備に関する専門家会合の議論の報告」（令和3年11月19日）（PDF形式：2,678KB）PDFを別ウィンドウで開きます",/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2-1.pdf,,その他: （1/6）（PDF形式：751KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2-2.pdf,,その他: （2/6）（PDF形式：946KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2-3.pdf,,その他: （3/6）（PDF形式：817KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2-4.pdf,,その他: （4/6）（PDF形式：872KB）,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2-5.pdf,,その他: （5/6）（PDF形式：955KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/3zen6kai2-6.pdf,,その他: （6/6）（PDF形式：373KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/4zen22kai5.pdf,,"報告書: 「納税環境整備に関する専門家会合の議論の報告」（令和4年11月8日）（PDF形式：1,727KB）PDFを別ウィンドウで開きます",/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/4zen22kai5-1.pdf,,その他: （1/2）（PDF形式：823KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/4zen22kai5-2.pdf,,その他: （2/2）（PDF形式：999KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/4zen22kai8.pdf,,その他: 「資産移転の時期の選択により中立的な税制の構築に向けた論点整理」（令和4年11月8日）（PDF形式：202KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai_toshin.pdf,,"その他: 「わが国税制の現状と課題 －令和時代の構造変化と税制のあり方ー」（令和5年6月30日）（PDF形式：8,738KB）PDFを別ウィンドウで開きます",/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai_hajimeniset.pdf,,その他: （はじめに)（PDF形式：1443KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai1-1set.pdf,,その他: （第1部1章)（PDF形式：1962KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai1-2set.pdf,,その他: （第1部2章)（PDF形式：1059KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai1-3set.pdf,,その他: （第1部3章)（PDF形式：3727KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai2-1set.pdf,,その他: （第2部1章)（PDF形式：2872KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai2-2set.pdf,,その他: （第2部2章)（PDF形式：3318KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai2-3set.pdf,,その他: （第2部3章)（PDF形式：2578KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai2-4set.pdf,,その他: （第2部4章)（PDF形式：2266KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai2-5set.pdf,,その他: （第2部5章)（PDF形式：4091KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai2-6set.pdf,,その他: （第2部6章)（PDF形式：2965KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/5zen27kai_owariniset.pdf,,その他: （おわりに)（PDF形式：458KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/28zen8kai3.pdf,,報告書: 「経済社会の構造変化を踏まえた税制のあり方に関する中間報告」（平成28年11月14日）（PDF形式：343KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/28zen8kai4.pdf,,報告書: 「経済社会の構造変化を踏まえた税制のあり方に関する中間報告」（参考資料：所得税）（平成28年11月14日）（PDF形式：833KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/28zen8kai5.pdf,,報告書: 「経済社会の構造変化を踏まえた税制のあり方に関する中間報告」（参考資料：個人住民税）（平成28年11月14日）（PDF形式：343KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/28zen8kai6.pdf,,その他: 「「ＢＥＰＳプロジェクト」の勧告を踏まえた国際課税のあり方に関する論点整理」（平成28年11月14日）（PDF形式：299KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/28zen8kai2.pdf,,資料: 「国税犯則調査手続の見直しについて」（平成28年11月14日）（PDF形式：574KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai6.pdf,,報告書: 「経済社会の構造変化を踏まえた税制のあり方に関する中間報告2」（平成29年11月20日）（PDF形式：888KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai7.pdf,,その他: 「税務手続の電子化に向けた具体的取組（国税）」（平成29年11月20日）（PDF形式：442KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai8.pdf,,その他: 「税務手続の電子化に向けた具体的取組（地方税）」（平成29年11月20日）（PDF形式：371KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai21.pdf,,その他: （1/4）（PDF形式：1368KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai22.pdf,,その他: （2/4）（PDF形式：1521KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai23.pdf,,その他: （3/4）（PDF形式：1096KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/29zen16kai24.pdf,,その他: （4/4）（PDF形式：1660KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/30zen20kai3.pdf,,資料: 「経済社会のICT化等に伴う納税環境整備のあり方について（意見の整理）」（平成30年11月7日）（PDF形式：204KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/1zen24kai1.pdf,,資料: 「連結納税制度の見直しについて」（令和元年8月27日）（PDF形式：262KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/1zen24kai3.pdf,,"資料: 「連結納税制度の見直しについて」（参考資料）（令和元年8月27日）（PDF形式：1,012KB）PDFを別ウィンドウで開きます",/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/1zen28kai1_2.pdf,,その他: 「経済社会の構造変化を踏まえた令和時代の税制のあり方」（令和元年9月26日）（PDF形式：461KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/shimon.pdf,,その他: 諮問（平成25年6月24日）（PDF形式：66KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/25zen4kai3.pdf,,その他: 国際課税原則の総合主義から帰属主義への見直し（平成25年12月2日）（PDF形式：253KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/25zen4kai10.pdf,,資料: 国際課税原則の総合主義から帰属主義への見直し（参考資料）（平成25年12月2日）（PDF形式：274KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/26dis24kai6.pdf,,その他: 「論点整理」マイナンバーDG（平成26年4月8日）（PDF形式：234KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/26zen9kai6.pdf,,その他: 女性の働き方の選択に対して中立的な税制の検討にあたっての論点整理（平成26年6月11日）（PDF形式：150KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/26zen10kai7.pdf,,資料: 法人税の改革について（平成26年6月27日）（PDF形式：331KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/26zen12kai7.pdf,,その他: 働き方の選択に対して中立的な税制の構築をはじめとする個人所得課税改革に関する論点整理（第一次レポート）（平成26年11月7日）（PDF形式：522KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/index.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai2.pdf,,その他: 表紙・目次・はじめに（PDF形式：282KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai3.pdf,,その他: 第１部 今後の税制のあり方の検討にあたっての論点整理（本文）（PDF形式：316KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai4.pdf,,資料: 第１部 今後の税制のあり方の検討にあたっての論点整理（参考資料）（個人所得課税：資料１～６）（PDF形式：1810KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai5.pdf,,資料: 第１部 今後の税制のあり方の検討にあたっての論点整理（参考資料）（個人所得課税：資料７～14）（PDF形式：1162KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai6.pdf,,資料: 第１部 今後の税制のあり方の検討にあたっての論点整理（参考資料）（個人所得課税：資料15～21）（PDF形式：983KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai7.pdf,,資料: 第１部 今後の税制のあり方の検討にあたっての論点整理（参考資料）（資産課税：資料22～29）（PDF形式：1022KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai8.pdf,,資料: 第２部 我が国経済社会の「実像」について（本文）（PDF形式：291KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai9.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（文章）（PDF形式：328KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai10.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（人口構造の変化：資料１－１～資料1－16）（PDF形式：1810KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai11.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（経済・産業構造の変化：資料２－１～資料２－８）（PDF形式：930KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai12.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（家族の変化：資料３－１～３－16）（PDF形式：1822KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai13.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（働き方の変化：資料４－１～資料４－10）（PDF形式：1628KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai14.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（働き方の変化：資料４－11～資料４－22）（PDF形式：1081KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai15.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（家計・再分配の変化：資料５－１～５－10）（PDF形式：931KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai16.pdf,,資料: 第２部 我が国経済社会の「実像」について（参考）（家計・再分配の変化：資料５－11～資料５－21）（PDF形式：1425KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai17.pdf,,資料: 第２部 有識者からのヒアリングの概要（７月17日分）（PDF形式：495KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai18.pdf,,資料: 第２部 有識者からのヒアリングの概要（７月31日分）（PDF形式：736KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai19.pdf,,資料: 第２部 有識者からのヒアリングの概要（８月20日分）（PDF形式：990KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai20.pdf,,資料: 第２部 有識者からのヒアリングの概要（８月28日分）（PDF形式：1507KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai21.pdf,,資料: 第２部 有識者からのヒアリングの概要（９月３日分）（PDF形式：704KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai22.pdf,,資料: 第２部 有識者からのヒアリングの概要（９月10日分）（PDF形式：833KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,document_added,zei-cho,,www.cao.go.jp/zei-cho/shimon/27zen28kai23.pdf,,資料: 第２部 有識者からのヒアリングの概要（９月18日分）（PDF形式：750KB）PDFを別ウィンドウで開きます,/zei-cho/shimon/seiri271113.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/足立泰美,,甲南大学経済学部教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/飯島淳子,,慶應義塾大学大学院法務研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/大隅隆,,元公益社団法人日本経済研究センター研究主幹,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/翁百合,,座長 / ㈱日本総合研究所シニアフェロー,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/奥平寛子,,同志社大学大学院ビジネス研究科准教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/笠木映里,,東京大学大学院法学政治学研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/梶川融,,太陽有限責任監査法人会長,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/國頭英夫,,日本赤十字社医療センター化学療法科部長,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/熊谷亮丸,,㈱大和総研副理事長,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/権丈善一,,慶應義塾大学商学部教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/清家篤,,日本赤十字社社長／慶應義塾学事顧問,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/辻琢也,,一橋大学大学院法学研究科特任教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/中空麻奈,,㈱かんぽ生命保険エグゼクティブ・フェロー 兼 かんぽ経済研究所主席研究員,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/矢田俊彦,,㈱読売新聞東京本社  執行役員編集局長,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/吉村政穂,,一橋大学大学院法学研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/赤井伸郎,,大阪大学大学院国際公共政策研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/秋池玲子,,ボストン・コンサルティング・グループ日本共同代表,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/井伊雅子,,一橋大学国際・公共政策大学院特任教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/石山志保,,大野市長,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/伊集守直,,横浜国立大学大学院国際社会科学研究院教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/太田直樹,,税理士,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/岡村忠生,,京都大学名誉教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/河野俊嗣,,宮崎県知事,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/櫻井彩乃,,一般社団法人ＧＥＮＣＯＵＲＡＧＥ  代表理事,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/佐藤英明,,慶應義塾大学大学院法務研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/佐藤主光,,一橋大学大学院経済学研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/武田洋子,,㈱三菱総合研究所常務研究理事,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/寺井公子,,慶應義塾大学経済学部教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/土居丈朗,,慶應義塾大学経済学部教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/仲田泰祐,,東京大学大学院経済学研究科、公共政策大学院教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/増井良啓,,東京大学大学院法学政治学研究科教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/増田悦子,,公益社団法人全国消費生活相談員協会顧問,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/宮永俊一,,三菱重工業㈱名誉顧問,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/諸富徹,,京都大学公共政策大学院院長,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/山口利恵,,東京大学大学院情報理工学系研究科准教授,/zei-cho/konkyo/index.html
+2026-11-24T06:07:46+00:00,member_added,zei-cho,,zei-cho/構成員/芳野友子,,日本労働組合総連合会会長,/zei-cho/konkyo/index.html
