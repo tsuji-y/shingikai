@@ -154,6 +154,41 @@ class BuildTest(unittest.TestCase):
                          [("x/公開分科会@2015-09-15", "公開分科会")])
         self.assertEqual([d["meeting_id"] for d in b.documents], ["x/公開分科会@2015-09-15"] * 2)
 
+    def test_pdf_roster_keeps_org_affiliations_and_rejects_noise(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            repo = Path(tmp)
+            txt_rel = "data/x/text/meibo.txt"
+            txt_path = repo / txt_rel
+            txt_path.parent.mkdir(parents=True, exist_ok=True)
+            txt_path.write_text(
+                "\n".join([
+                    "企 業 会 計 審 議 会委 員 名 簿",
+                    "（令和８年４月 24 日現在）",
+                    "令和 8 年 3 月 時点",
+                    "所属・ 役 職",
+                    "稲谷  龍彦    京都大学大学院法学研究科教授",
+                    "奥田　かつ枝 (株)九段緒方総合鑑定代表取締役",
+                    "江花  史郎    弁護士",
+                    "玉堀  雄一    芽室町総務課ＤＸ推進係係長",
+                    "久 保 田 由 美 恵  株式会社安川電機取締役",
+                    "波 多 江 久 美 子 弁護士・明治学院大学法学部教授",
+                    "大 同 特 殊 鋼 株 式 会 社 法 務 部 長",
+                    "弁護 士 （第一東京弁護士会）",
+                    "デジタ ル庁 総括審議官",
+                ]),
+                encoding="utf-8",
+            )
+            b = run([(INDEX, page(
+                "<h2>委員名簿</h2><p><a href='pdf/meibo.pdf'>委員名簿</a></p>"
+            ))])
+            doc_key = b.documents[0]["doc_key"]
+            build_db._apply_pdf_rosters(b, {doc_key: txt_rel}, repo)
+            names = [m["name"] for m in b.members]
+            self.assertEqual(
+                names,
+                ["稲谷龍彦", "奥田かつ枝", "江花史郎", "玉堀雄一", "久保田由美恵", "波多江久美子"],
+            )
+
 
 class IngestTest(unittest.TestCase):
     def test_ingest_saves_bytes_and_skips_errors(self):

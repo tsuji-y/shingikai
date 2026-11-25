@@ -1,4 +1,23 @@
 council_id,body,group,as_of,as_of_raw,name,kana,mark,role,title,note,person_id,source
+ai-advisory-board,,参考資料,,,大柴行人,,,,一般社団法人AIガバナンス協会  代表理事,,大柴行人,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,岡田幸彦,,,,筑波大学  システム情報系／高等研究院人工知能科学センター,,岡田幸彦,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,門林雄基,,,,奈良先端科学技術大学院大学  教授,,門林雄基,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,柴山吉報,,,,独立行政法人情報処理推進機構  デジタル基盤センター  エキスパ,,柴山吉報,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,鳥澤健太郎,,,,国立研究開発法人情報通信研究機構  フェロー,,鳥沢健太郎,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,生田目雅史,,,,（一社）日本経済団体連合会  デジタルエコノミー推進委員会企画,,生田目雅史,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,湯淺墾道,,,,明治大学専門職大学院  教授,,湯淺墾道,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+ai-advisory-board,,参考資料,,,吉永京子,,,,慶應義塾大学大学院  政策・メディア研究科  特任准教授,,吉永京子,/councils/ai-advisory-board/5fbbbf70-77fc-46be-ae8b-85df7fc57a7e
+data-platform-sub-wg,,資料,,,井川甲作,,,,株式会社 EARTHBRAIN  執行役員 CIO,,井川甲作,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,生貝直人,,,,一橋大学大学院法学研究科  准教授,,生貝直人,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,太田祐一,,,,株式会社 DataSign  CEO,,太田祐一,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,越塚登,,,,東京大学大学院情報学環  教授,,越塚登,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,沢田登志子,,,,一般社団法人 EC ネットワーク 理事,,沢田登志子,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,宍戸常寿,,,,東京大学大学院法学政治学研究科  教授,,宍戸常寿,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,田丸健三郎,,,,日本マイクロソフト株式会社,,田丸健三郎,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,津田麻紀子,,,,西村あさひ法律事務所 アソシエイト弁護士,,津田麻紀子,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,増島雅和,,,,森・濱田松本法律事務所  パートナー弁護士,,増島雅和,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,眞野浩,,,,"EverySense, Inc CEO",,真野浩,/councils/data-platform-sub-wg/3zmv1HyO
+data-platform-sub-wg,,資料,,,望月健太,,,,法律事務所 LAB-01 ニューヨーク州弁護士,,望月健太,/councils/data-platform-sub-wg/3zmv1HyO
 ai_digital,,資料,,,北野宏明,,,,株式会社ソニーコンピュータサイエンス研究所代表取締役社長,,北野宏明,/councils/ai_digital
 ai_digital,,資料,,,久保田由美恵,,,,株式会社安川電機取締役執行役員技術開発本部ＡＩロボティクス統括部,,久保田由美恵,/councils/ai_digital
 ai_digital,,資料,,,佐藤孝弘,,,,山形県山形市長,,佐藤孝弘,/councils/ai_digital
@@ -46,23 +65,23 @@ administrative-research-wg-legal-practice-team,,開催状況,,,藤原総一郎,,
 administrative-research-wg-legal-practice-team,,開催状況,,,堀口圭,,,,FRAIM（株）代表取締役,,堀口圭,/councils/administrative-research-wg-legal-practice-team
 administrative-research-wg-legal-practice-team,,開催状況,,,八木田樹,,,,（株）Legalscape 代表取締役・最高経営責任者,,八木田樹,/councils/administrative-research-wg-legal-practice-team
 administrative-research-wg-legal-practice-team,,開催状況,,,米田憲市,,,,鹿児島大学司法政策教育研究センター 教授,,米田憲市,/councils/administrative-research-wg-legal-practice-team
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,江崎浩,,,座長,デジタル庁 シニアエキスパート,,江崎浩,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,遠藤典子,,,,慶應義塾大学グローバルリサーチインスティテュー,,遠藤典子,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,岡田有策,,,,慶應義塾大学理工学部管理工学科 教授,,岡田有策,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,小川恵子,,,,EY ストラテジー・アンド・コンサルティング株式会,,小川恵子,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,荻野司,,,,一般社団法人重要生活機器連携セキュリティ協議会,,荻野司,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,加藤真平,,,,東京大学大学院情報理工学系研究科 特任准教授,,加藤真平,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,川原圭博,,,,東京大学大学院工学系研究科 教授,,川原圭博,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,川端由美,,,,ジャーナリスト,,川端由美,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,島田太郎,,,,株式会社東芝 代表執行役社長 CEO,,島田太郎,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,鈴木真二,,,,公益財団法人福島イノベーション・コースト構想推,,鈴木真二,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,染谷隆夫,,,,東京大学大学院工学系研究科 教授,,染谷隆夫,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,豊田啓介,,,,東京大学生産技術研究所 特任教授,,豊田啓介,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,中垣隆雄,,,,早稲田大学理工学術院創造理工学部 教授,,中垣隆雄,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,中村修,,,,慶應義塾大学環境情報学部 教授,,中村修,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,永井歩,,,,アスタミューゼ株式会社 代表取締役社長,,永井歩,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,根本勝則,,,,一般社団法人日本経済団体連合会 参与,,根本勝則,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,登大遊,,,,独立行政法人情報処理推進機構サイバー技術研究室 室長,,登大遊,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,平本健二,,,,独立行政法人情報処理推進機構デジタル基盤センター,,平本健二,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,松尾豊,,,,東京大学大学院工学系研究科 教授,,松尾豊,/councils/administrative-research-wg-technology_based_regulatory_reform
-administrative-research-wg-technology_based_regulatory_reform,,開催状況,,,内閣府,,,,科学技術・イノベーション推進事務局,,内閣府,/councils/administrative-research-wg-technology_based_regulatory_reform
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,江崎浩,,,座長,デジタル庁 シニアエキスパート,,江崎浩,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,遠藤典子,,,,慶應義塾大学グローバルリサーチインスティテュー,,遠藤典子,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,岡田有策,,,,慶應義塾大学理工学部管理工学科 教授,,岡田有策,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,小川恵子,,,,EY ストラテジー・アンド・コンサルティング株式会,,小川恵子,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,荻野司,,,,一般社団法人重要生活機器連携セキュリティ協議会,,荻野司,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,加藤真平,,,,東京大学大学院情報理工学系研究科 特任准教授,,加藤真平,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,川原圭博,,,,東京大学大学院工学系研究科 教授,,川原圭博,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,川端由美,,,,ジャーナリスト,,川端由美,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,島田太郎,,,,株式会社東芝 代表執行役社長 CEO,,島田太郎,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,鈴木真二,,,,公益財団法人福島イノベーション・コースト構想推,,鈴木真二,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,染谷隆夫,,,,東京大学大学院工学系研究科 教授,,染谷隆夫,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,豊田啓介,,,,東京大学生産技術研究所 特任教授,,豊田啓介,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,中垣隆雄,,,,早稲田大学理工学術院創造理工学部 教授,,中垣隆雄,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,中村修,,,,慶應義塾大学環境情報学部 教授,,中村修,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,永井歩,,,,アスタミューゼ株式会社 代表取締役社長,,永井歩,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,根本勝則,,,,一般社団法人日本経済団体連合会 参与,,根本勝則,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,登大遊,,,,独立行政法人情報処理推進機構サイバー技術研究室 室長,,登大遊,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,平本健二,,,,独立行政法人情報処理推進機構デジタル基盤センター,,平本健二,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,松尾豊,,,,東京大学大学院工学系研究科 教授,,松尾豊,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b
+administrative-research-wg-technology_based_regulatory_reform,,資料,,,内閣府,,,,科学技術・イノベーション推進事務局,,内閣府,/councils/administrative-research-wg-technology_based_regulatory_reform/9f54b1fb-1a9f-4531-85cb-7659f0458a9b

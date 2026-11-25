@@ -63,7 +63,7 @@ jobs:
         run: |
           RUN_STARTED="$(date -u +%Y-%m-%dT%H:%M:%S+00:00)"
           echo "started=$RUN_STARTED" >> "$GITHUB_OUTPUT"
-          rm -f /tmp/update_summary*.md
+          rm -f /tmp/update_summary*.md /tmp/update_stderr_*.log /tmp/update_failed_*.log
 
           TARGET_AGENCY="${{ inputs.agency }}"
           if [ -z "$TARGET_AGENCY" ] || [ "$TARGET_AGENCY" = "all" ]; then
@@ -86,8 +86,7 @@ jobs:
 
           # 省庁ごとにドメインが完全に独立しているため、1 ドメイン 1 プロセス（2 秒間隔直列）を守りつつ
           # 全 16 省庁を並列に更新チェックする
-          running=0
-          failed=0
+          pids=()
           for ag in $AGENCIES; do
             if [ ! -f "raw/${ag}/pages.csv" ]; then
               continue
@@ -97,16 +96,61 @@ jobs:
               if [ "$ag" != "mod" ]; then
                 EXTRA_ARGS+=(--tier-mode top_and_recent --pdf-types "議事録,議事要旨,名簿" --max-pdfs 15)
               fi
-              python3 mod/update.py --agency "$ag" "${COMMON_ARGS[@]}" "${EXTRA_ARGS[@]}" \
-                --summary-out "/tmp/update_summary_${ag}.md"
+              err_file="/tmp/update_stderr_${ag}.log"
+              if ! python3 mod/update.py --agency "$ag" "${COMMON_ARGS[@]}" "${EXTRA_ARGS[@]}" \
+                --summary-out "/tmp/update_summary_${ag}.md" 2>"$err_file"; then
+                rc=$?
+                if [ -s "$err_file" ]; then
+                  cat "$err_file" >&2
+                fi
+                {
+                  echo "exit_code=${rc}"
+                  cat "$err_file"
+                } > "/tmp/update_failed_${ag}.log"
+                exit "$rc"
+              fi
+              if [ -s "$err_file" ]; then
+                cat "$err_file" >&2
+              fi
             ) &
-            running=$((running + 1))
-            if [ "$running" -ge 16 ]; then
-              wait -n || failed=1
-              running=$((running - 1))
+            pids+=("$!")
+          done
+
+          failed=0
+          for pid in "${pids[@]}"; do
+            if ! wait "$pid"; then
+              failed=1
             fi
           done
-          wait || failed=1
+
+          FAILED_AGENCIES=()
+          for f in /tmp/update_failed_*.log; do
+            [ -e "$f" ] || continue
+            ag_name="$(basename "$f" .log)"
+            ag_name="${ag_name#update_failed_}"
+            FAILED_AGENCIES+=("$ag_name")
+          done
+
+          if [ "${#FAILED_AGENCIES[@]}" -gt 0 ]; then
+            FAILED_LIST="${FAILED_AGENCIES[*]}"
+            echo "failed_agencies=${FAILED_LIST}" >> "$GITHUB_OUTPUT"
+            {
+              echo "## 更新に失敗した省庁 (${#FAILED_AGENCIES[@]} 件)"
+              echo ""
+              echo "- 対象: \`${FAILED_LIST}\`"
+              echo "- 実行ログ: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+              echo ""
+              for ag_name in "${FAILED_AGENCIES[@]}"; do
+                echo "### [${ag_name}]"
+                echo '```text'
+                head -n 30 "/tmp/update_failed_${ag_name}.log"
+                echo '```'
+                echo ""
+              done
+            } >> /tmp/update_summary.md
+          else
+            echo "failed_agencies=" >> "$GITHUB_OUTPUT"
+          fi
 
           for f in /tmp/update_summary_*.md; do
             if [ -s "$f" ]; then
@@ -171,15 +215,21 @@ jobs:
         if: inputs.dry_run != true
         env:
           GH_TOKEN: ${{ github.token }}
+          FAILED_AGENCIES: ${{ steps.run_update.outputs.failed_agencies }}
         run: |
           if [ ! -s /tmp/update_summary.md ]; then
-            echo "No events or new warnings."
+            echo "No events, warnings, or failures."
             exit 0
           fi
           cat /tmp/update_summary.md >> "$GITHUB_STEP_SUMMARY"
           TODAY="$(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          if [ -n "$FAILED_AGENCIES" ]; then
+            TITLE="[更新][一部失敗] 省庁審議会データベースの更新（${TODAY}）"
+          else
+            TITLE="[更新] 省庁審議会データベースの更新（${TODAY}）"
+          fi
           ISSUE_URL=$(gh issue create \
-            --title "[更新] 省庁審議会データベースの更新（${TODAY}）" \
+            --title "$TITLE" \
             --body-file /tmp/update_summary.md)
           ISSUE_NUM="${ISSUE_URL##*/}"
           echo "issue_number=$ISSUE_NUM" >> "$GITHUB_OUTPUT"
@@ -222,3 +272,9 @@ jobs:
           if [ -n "$ISSUE_NUM" ] && [ -s /tmp/review_memo.md ]; then
             gh issue comment "$ISSUE_NUM" --body-file /tmp/review_memo.md
           fi
+
+      - name: Fail job if any agency update failed
+        if: steps.run_update.outputs.failed_agencies != ''
+        run: |
+          echo "::error::省庁データの更新に失敗しました: ${{ steps.run_update.outputs.failed_agencies }}"
+          exit 1

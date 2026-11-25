@@ -1,42 +1,47 @@
 person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meetings,first_date,last_date
-アライアン,アライアン,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,ス ・ バ ー ン ス タ イ ン 株 式 会 社 責 任 投 資 ヘ ッ ド,0,,
-三菱,三菱,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,Ｕ Ｆ Ｊ 信 託 銀 行 株 式 会 社 法 人 マ ー ケ ッ ト 統 括 部,0,,
-上原一夫,上原一夫,,full_name,1/kanbou_houkyo_kyougikai_index,,,,7,2005-08-24,2007-04-27
-久保田,久保田,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,日 本 労 働 組 合 総 連 合 会 総 合 政 策 推 進 局 総 合 局 長,0,,
-令和,令和,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,８ 年 ３ 月 時 点,0,,
+上原一夫,上原一夫,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,東 京 都 教 育 庁 指 導 部 主 任 指 導 主 事,7,2005-08-24,2007-04-27
+上東亘,上東亘,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、Ａ＆Ｓ福岡法律事務所,0,,
+中田裕子,中田裕子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,法政大学法学部教授,0,,
+十枝美紀子,十枝美紀子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、アンダーソン・毛利・友常法律事務所外国,0,,
 吉崎佳弥,吉崎佳弥,,full_name,1/kanbou_houkyo_kyougikai_index,,,,13,2006-04-25,2009-03-16
-土井真一,土井真一,,full_name,1/kanbou_houkyo_kyougikai_index,,,,14,2005-05-25,2007-04-27
+吉田俊弘,吉田俊弘,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,弁 護 士 ・ 横 浜 弁 護 士 会 所 属,0,,
+土井真一,土井真一,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,進 委 員 会 委 員 長,14,2005-05-25,2007-04-27
+土屋智恵子,土屋智恵子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、アンダーソン・毛利・友常法律事務所外国,0,,
 坂田吉郎,坂田吉郎,,full_name,1/kanbou_houkyo_kyougikai_index,,,,1,2009-03-16,2009-03-16
 堀田周吾,堀田周吾,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,東京都立大学法学部教授,0,,
-大同特殊鋼,大同特殊鋼,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,株 式 会 社 法 務 部 長,0,,
-大塲亮太郎,大塲亮太郎,,full_name,1/kanbou_houkyo_kyougikai_index,,,,11,2005-05-25,2007-04-27
-大杉昭英,大杉昭英,,full_name,1/kanbou_houkyo_kyougikai_index,,,,15,2005-05-25,2009-03-16
+大久保晋吾,大久保晋吾,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、ヴァスコ・ダ・ガマ法律会計事務所,0,,
+大塲亮太郎,大塲亮太郎,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,法 務 省 大 臣 官 房 参 事 官,11,2005-05-25,2007-04-27
+大杉昭英,大杉昭英,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,文 部 科 学 省 初 等 中 等 教 育 局 視 学 官,15,2005-05-25,2009-03-16
 大村敦志,大村敦志,,full_name,1/kanbou_houkyo_kyougikai_index,,,,5,2007-07-19,2009-03-16
 安藤信明,安藤信明,,full_name,1/kanbou_houkyo_kyougikai_index,,,,5,2007-07-19,2009-03-16
 安藤和津,安藤和津,,full_name,1/kanbou_houkyo_kyougikai_index,,,,9,2005-05-25,2009-03-16
-小林昭彦,小林昭彦,,full_name,1/kanbou_houkyo_kyougikai_index,,,,7,2005-05-25,2006-06-29
-小長谷,小長谷,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,法 務 省 民 事 局 民 事 法 制 管 理 官,0,,
+小林一郎,小林一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,一橋大学大学院法学研究科教授,0,,
+小林昭彦,小林昭彦,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,内 閣 官 房 内 閣 参 事 官,7,2005-05-25,2006-06-29
 山下輝年,山下輝年,,full_name,1/kanbou_houkyo_kyougikai_index,,,,11,2006-07-24,2008-04-16
+山田勝之,山田勝之,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,東 京 都 大 田 区 立 御 園 中 学 校 教 諭,0,,
+山田裕香,山田裕香,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（弁護士法,0,,
 建部豊,建部豊,,full_name,1/kanbou_houkyo_kyougikai_index,,,,2,2008-04-16,2009-03-16
-日本司法支,日本司法支,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,援 セ ン タ ー 本 部 総 務 部 ⻑,0,,
+斎藤綾,斎藤綾,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、Ｂｉｒｄ＆Ｂｉｒｄ外国法共同事業法律事,0,,
 杉浦保友,杉浦保友,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,柏木総合法律事務所顧問 (イングランド/ウェール,0,,
 村松剛,村松剛,,full_name,1/kanbou_houkyo_kyougikai_index,,,,1,2009-03-16,2009-03-16
-江口勇治,江口勇治,,full_name,1/kanbou_houkyo_kyougikai_index,,,,18,2005-05-25,2009-03-16
-河本雅也,河本雅也,,full_name,1/kanbou_houkyo_kyougikai_index,,,,3,2005-05-25,2005-11-16
-法教育推進,法教育推進,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,協 議 会 委 員,0,,
+江口勇治,江口勇治,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,筑 波 大 学 教 育 学 系 教 授,18,2005-05-25,2009-03-16
+河本雅也,河本雅也,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,最 高 裁 判 所 事 務 総 局 総 務 局 参 事 官,3,2005-05-25,2005-11-16
 浜辺陽一郎,浜辺陽一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,青山学院大学法学部教授,0,,
+湊健太郎,湊健太郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（渥美坂井,0,,
+田沢元章,田澤元章,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,専修大学法学部教授,0,,
 畝本直美,畝本直美,,full_name,1/kanbou_houkyo_kyougikai_index,,,,2,2007-07-19,2007-12-19
 磯山恭子,磯山恭子,,full_name,1/kanbou_houkyo_kyougikai_index,,,,4,2007-07-19,2009-03-16
-積水ハウス,積水ハウス,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,株 式 会 社 専 務 執 行 役 員,0,,
 笠井正俊,笠井正俊,,full_name,1/kanbou_houkyo_kyougikai_index,,,,5,2007-07-19,2009-03-16
 細谷美明,細谷美明,,full_name,1/kanbou_houkyo_kyougikai_index,,,,2,2007-07-19,2007-12-19
-羽間京子,羽間京子,,full_name,1/kanbou_houkyo_kyougikai_index,,,,14,2005-05-25,2007-04-27
-英里子,英里子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,東 京 都 教 育 庁 指 導 部 主 任 指 導 主 事,0,,
+羽間京子,羽間京子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,千 葉 大 学 大 学 院 教 育 学 研 究 科 助 教 授,14,2005-05-25,2007-04-27
+菱川浩一郎,菱川浩一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、菱川総合法律事務所,0,,
 藤沢尚江,藤澤尚江,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,北海道大学大学院法学研究科教授,0,,
-西嶋美那子,西嶋美那子,,full_name,1/kanbou_houkyo_kyougikai_index,,,,11,2005-05-25,2007-04-27
-野村アセッ,野村アセッ,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,ト マ ネ ジ メ ン ト 株 式 会 社 責 任 投 資 調 査 部 長,0,,
-鈴木啓文,鈴木啓文,,full_name,1/kanbou_houkyo_kyougikai_index,,委員,,18,2005-05-25,2008-04-16
+西嶋美那子,西嶋美那子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,横 河 ヒ ュ ー マ ン ・ ク リ エ イ ト 株 式 会 社 人 財 開 発 ア,11,2005-05-25,2007-04-27
+辻雄一郎,辻雄一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,明治大学法学部教授,0,,
+金子優子,金子優子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（ヴァスコ,0,,
+鈴木啓文,鈴木啓文,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,委員,弁 護 士 ・ 日 本 弁 護 士 連 合 会 市 民 の た め の 法 教 育 委,18,2005-05-25,2008-04-16
 関一穂,関一穂,,full_name,1/kanbou_houkyo_kyougikai_index,,,,1,2009-03-16,2009-03-16
-飯田裕美子,飯田裕美子,,full_name,1/kanbou_houkyo_kyougikai_index,,,,13,2005-05-25,2008-04-16
-高橋文郎,高橋文郎,,full_name,1/kanbou_houkyo_kyougikai_index,,,,14,2005-05-25,2007-04-27
+飯田裕美子,飯田裕美子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,社 団 法 人 共 同 通 信 社 編 集 局 社 会 部 次 長,13,2005-05-25,2008-04-16
+高橋文郎,高橋文郎,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,司 法 書 士 ・ 日 本 司 法 書 士 会 連 合 会 初 等 中 等 教 育 推,14,2005-05-25,2007-04-27
+高良美紀子,髙良美紀子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、ＳＡＫＵＲＡ法律事務所,0,,
 1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,磯山恭子,surname_only,1/kanbou_houkyo_kyougikai_index,,委員,,1,2007-09-10,2007-09-10

@@ -1,16 +1,33 @@
 council_id,body,group,as_of,as_of_raw,name,kana,mark,role,title,note,person_id,source
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,大同特殊鋼,,,,株 式 会 社 法 務 部 長,,大同特殊鋼,/shingi1/housei02_003007_00014.html
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,アライアン,,,,ス ・ バ ー ン ス タ イ ン 株 式 会 社 責 任 投 資 ヘ ッ ド,,アライアン,/shingi1/housei02_003007_00014.html
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,野村アセッ,,,,ト マ ネ ジ メ ン ト 株 式 会 社 責 任 投 資 調 査 部 長,,野村アセッ,/shingi1/housei02_003007_00014.html
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,久保田,,,,日 本 労 働 組 合 総 連 合 会 総 合 政 策 推 進 局 総 合 局 長,,久保田,/shingi1/housei02_003007_00014.html
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,三菱,,,,Ｕ Ｆ Ｊ 信 託 銀 行 株 式 会 社 法 人 マ ー ケ ッ ト 統 括 部,,三菱,/shingi1/housei02_003007_00014.html
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,積水ハウス,,,,株 式 会 社 専 務 執 行 役 員,,積水ハウス,/shingi1/housei02_003007_00014.html
-1/housei02_003007_00014,,名簿,2026-08-26,令和8年8月26日,小長谷,,,,法 務 省 民 事 局 民 事 法 制 管 理 官,,小長谷,/shingi1/housei02_003007_00014.html
-1/kanbou_houkyo_kyougikai_index,,２ 委員,,,法教育推進,,,,協 議 会 委 員,,法教育推進,/shingi1/kanbou_houkyo_kyougikai_index.html
-1/kanbou_houkyo_kyougikai_index,,２ 委員,,,令和,,,,８ 年 ３ 月 時 点,,令和,/shingi1/kanbou_houkyo_kyougikai_index.html
-1/kanbou_houkyo_kyougikai_index,,２ 委員,,,日本司法支,,,,援 セ ン タ ー 本 部 総 務 部 ⻑,,日本司法支,/shingi1/kanbou_houkyo_kyougikai_index.html
-1/kanbou_houkyo_kyougikai_index,,２ 委員,,,英里子,,,,東 京 都 教 育 庁 指 導 部 主 任 指 導 主 事,,英里子,/shingi1/kanbou_houkyo_kyougikai_index.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,飯田裕美子,,,,社 団 法 人 共 同 通 信 社 編 集 局 社 会 部 次 長,,飯田裕美子,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,上原一夫,,,,東 京 都 教 育 庁 指 導 部 主 任 指 導 主 事,,上原一夫,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,江口勇治,,,,筑 波 大 学 教 育 学 系 教 授,,江口勇治,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,大杉昭英,,,,文 部 科 学 省 初 等 中 等 教 育 局 視 学 官,,大杉昭英,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,大塲亮太郎,,,,法 務 省 大 臣 官 房 参 事 官,,大塲亮太郎,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,河本雅也,,,,最 高 裁 判 所 事 務 総 局 総 務 局 参 事 官,,河本雅也,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,小林昭彦,,,,内 閣 官 房 内 閣 参 事 官,,小林昭彦,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,鈴木啓文,,,,弁 護 士 ・ 日 本 弁 護 士 連 合 会 市 民 の た め の 法 教 育 委,,鈴木啓文,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,高橋文郎,,,,司 法 書 士 ・ 日 本 司 法 書 士 会 連 合 会 初 等 中 等 教 育 推,,高橋文郎,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,土井真一,,,,進 委 員 会 委 員 長,,土井真一,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,西嶋美那子,,,,横 河 ヒ ュ ー マ ン ・ ク リ エ イ ト 株 式 会 社 人 財 開 発 ア,,西嶋美那子,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,羽間京子,,,,千 葉 大 学 大 学 院 教 育 学 研 究 科 助 教 授,,羽間京子,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,吉田俊弘,,,,弁 護 士 ・ 横 浜 弁 護 士 会 所 属,,吉田俊弘,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+1/kanbou_houkyo_kyougikai_index,,５ 配布資料,,,山田勝之,,,,東 京 都 大 田 区 立 御 園 中 学 校 教 諭,,山田勝之,/shingi1/kanbou_houkyo_kyougikai_gaiyou01.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,大久保晋吾,,,,弁護士、ヴァスコ・ダ・ガマ法律会計事務所,,大久保晋吾,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,金子優子,,,,弁護士、イングランド/ウェールズ弁護士（ヴァスコ,,金子優子,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,上東亘,,,,弁護士、Ａ＆Ｓ福岡法律事務所,,上東亘,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,小林一郎,,,,一橋大学大学院法学研究科教授,,小林一郎,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,斎藤綾,,,,弁護士、Ｂｉｒｄ＆Ｂｉｒｄ外国法共同事業法律事,,斎藤綾,/housei/hourei-shiryou-hanrei/housei03_00006.html
 hourei-shiryou-hanrei/housei03_00006,,構成員,,,杉浦保友,,,,柏木総合法律事務所顧問 (イングランド/ウェール,,杉浦保友,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,髙良美紀子,,,,弁護士、ＳＡＫＵＲＡ法律事務所,,高良美紀子,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,田澤元章,,,,専修大学法学部教授,,田沢元章,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,辻雄一郎,,,,明治大学法学部教授,,辻雄一郎,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,土屋智恵子,,,,弁護士、アンダーソン・毛利・友常法律事務所外国,,土屋智恵子,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,十枝美紀子,,,,弁護士、アンダーソン・毛利・友常法律事務所外国,,十枝美紀子,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,中田裕子,,,,法政大学法学部教授,,中田裕子,/housei/hourei-shiryou-hanrei/housei03_00006.html
 hourei-shiryou-hanrei/housei03_00006,,構成員,,,浜辺陽一郎,,,,青山学院大学法学部教授,,浜辺陽一郎,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,菱川浩一郎,,,,弁護士、菱川総合法律事務所,,菱川浩一郎,/housei/hourei-shiryou-hanrei/housei03_00006.html
 hourei-shiryou-hanrei/housei03_00006,,構成員,,,藤澤尚江,,,,北海道大学大学院法学研究科教授,,藤沢尚江,/housei/hourei-shiryou-hanrei/housei03_00006.html
 hourei-shiryou-hanrei/housei03_00006,,構成員,,,堀田周吾,,,,東京都立大学法学部教授,,堀田周吾,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,湊健太郎,,,,弁護士、イングランド/ウェールズ弁護士（渥美坂井,,湊健太郎,/housei/hourei-shiryou-hanrei/housei03_00006.html
+hourei-shiryou-hanrei/housei03_00006,,構成員,,,山田裕香,,,,弁護士、イングランド/ウェールズ弁護士（弁護士法,,山田裕香,/housei/hourei-shiryou-hanrei/housei03_00006.html
