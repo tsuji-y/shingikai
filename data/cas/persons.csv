@@ -1,4 +1,5 @@
 person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meetings,first_date,last_date
+令和,令和,,full_name,gaikokujinzai,gaikokujinzai,,５年６ 月６日,0,,
 佐久間佳枝,佐久間佳枝,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 佐橋亮,佐橋亮,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 加茂具樹,加茂具樹,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
@@ -8,12 +9,14 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 小池英夫,小池英夫,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 山口寿一,山口寿一,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 市原麻衣子,市原麻衣子,,full_name,intelligent_features_kyoka,,,,1,2026-10-26,2026-10-26
+平成,平成,,full_name,gaikokujinzai,gaikokujinzai,,30年 ７ 月 24日,0,,
 広瀬陽子,廣瀬陽子,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 日置巴美,日置巴美,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 松原実穂子,松原実穂子,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 江崎道朗,江崎道朗,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 渡部俊也,渡部俊也,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 野口貴公美,野口貴公美,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
+閣議口頭了解,閣議口頭了解,,full_name,gaikokujinzai,gaikokujinzai,,令和３年１月 29日,0,,
 馬場重郎,馬場重郎,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 高荷英巳,高荷英巳,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 Invoice_system:古谷公正取引委員会,古谷公正取引委員会,古谷公正取引委員会,surname_only,Invoice_system,,委員長,,1,2023-09-29,2023-09-29

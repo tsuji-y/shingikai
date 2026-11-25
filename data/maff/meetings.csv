@@ -1,14 +1,14 @@
 meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
 seisaku#1,seisaku,,1,,1999-09-06,平成11年9月6日,,,,,,1,link,/j/council/seisaku/index.html
-seisaku#2,seisaku,,2,,2001-03-21,平成13年3月21日,,,,,,2,link,/j/council/seisaku/index.html
-seisaku#3,seisaku,,3,,2002-04-22,平成14年4月22日,,,,,,2,link,/j/council/seisaku/index.html
-seisaku#4,seisaku,,4,,2003-02-10,平成15年2月10日,,,,,,2,link,/j/council/seisaku/index.html
-seisaku#5,seisaku,,5,,2003-03-13,平成15年3月13日,,,,,,2,link,/j/council/seisaku/index.html
-seisaku#6,seisaku,,6,,2003-12-09,平成15年12月9日,,,,,,2,link,/j/council/seisaku/index.html
-seisaku#7,seisaku,,7,,2004-04-08,平成16年4月8日,,,,,,2,link,/j/council/seisaku/index.html
-seisaku#8,seisaku,,8,,2004-08-10,平成16年8月10日,,,,,,2,link,/j/council/seisaku/index.html
+seisaku#2,seisaku,,2,,2001-03-21,平成13年3月21日,10:30-12:00,,三田共用会議所第四特別会議室 開会 今 村 会 長,,,2,link+pdf,/j/council/seisaku/index.html
+seisaku#3,seisaku,,3,,2002-04-22,平成14年4月22日,14:00-16:00,,三田共用会議所第四特別会議室 開会 ○今村会長それでは、これから第3回食料・農業・農村政策審議会を始めたいと思い,,,2,link+pdf,/j/council/seisaku/index.html
+seisaku#4,seisaku,,4,,2003-02-10,平成15年2月10日,14:00-16:00,,三田共用会議所 第四特別会議室 ○田原官房長 それでは、定刻でございますので、ただいまから第4回食料・農業・農,,,2,link+pdf,/j/council/seisaku/index.html
+seisaku#5,seisaku,,5,,2003-03-13,平成15年3月13日,10:00-12:00,,三田共用会議所 4階 第四特別会議室 ○八木会長 ただいまから第5回食料・農業・農村政策審議会を開催いたします。 本日は、江頭委員、生源寺委員、豊田委員、平野委員、日和佐委員、増田委員、それから立花,,,2,link+pdf,/j/council/seisaku/index.html
+seisaku#6,seisaku,,6,,2003-12-09,平成15年12月9日,14:00-16:30,,虎ノ門パストラル新館5階ミモザ ○八木会長 それでは、ただいまから第6回食料・農業・農村政策審議会を開催 いたします。,,,2,link+pdf,/j/council/seisaku/index.html
+seisaku#7,seisaku,,7,,2004-04-08,平成16年4月8日,14:00-16:10,,日本郵政公社本社2階共用会議室A〜D ○八木会長 それでは、委員の皆様方おそろいですので、ただいまから、第7回食 料・農業・農村政策審議会を開催いたします。,,,2,link+pdf,/j/council/seisaku/index.html
+seisaku#8,seisaku,,8,,2004-08-10,平成16年8月10日,15:30-16:50,,農林水産省7階講堂 ○八木会長 ただいまから、第8回食料・農業・農村政策審 議会を開催いたします。,,,2,link+pdf,/j/council/seisaku/index.html
 seisaku#9,seisaku,,9,,2005-01-31,平成17年1月31日,,,,,,1,link,/j/council/seisaku/index.html
-seisaku#10,seisaku,,10,,2005-03-09,平成17年3月9日,,,,,,2,link,/j/council/seisaku/index.html
+seisaku#10,seisaku,,10,,2005-03-09,平成17年3月9日,15:00-15:49,,農林水産省7階講堂 ○八木会長 ただいまから第10回食料・農業・農村政策審議会を開催いた します。,,,2,link+pdf,/j/council/seisaku/index.html
 seisaku#11,seisaku,,11,,2005-04-12,平成17年4月12日,14:00-15:40,,三 田 共 用 会 議 所 第 四 特 別 会 議 室 ○ 八 木 会 長 た だ い ま か ら 、 第 11回 食 料 ・ 農 業 ・ 農 村 政 策 審 議 会 を 開 催 い た し ま す 。,,,2,link+pdf,/j/council/seisaku/index.html
 seisaku#12,seisaku,,12,,2005-07-22,平成17年7月22日,,,日 本 郵 政 公 社 共 用 会 議 室 ○ 大 臣 官 房 長 そ れ で は 定 刻 に な り ま し た の で 、 た だ い ま か ら 第 12回 食 料 ・ 農 業 ・ 農 村 政 策 審,,,2,link+pdf,/j/council/seisaku/index.html
 seisaku#13,seisaku,,13,,2006-04-14,平成18年4月14日,10:00-12:00,,三田共用会議所4階第4特別会議室 ○八木会長 それでは定刻になりましたので、ただいまから第13回食料・農業・農村政策,,,2,link+pdf,/j/council/seisaku/index.html
@@ -57,7 +57,39 @@ kaihatu#5,kaihatu,,5,,2019-05-17,令和元年5月17日,,,,,,1,link,/j/council/ka
 kaihatu#6,kaihatu,,6,,2021-06-01,令和3年6月1日,,,,,,1,link,/j/council/kaihatu/index.html
 kaihatu#7,kaihatu,,7,,2023-05-10,令和5年5月10日,,,,,,1,link,/j/council/kaihatu/index.html
 kaihatu#8,kaihatu,,8,,2026-10-08,令和8年10月8日,,,,,,1,link,/j/council/kaihatu/index.html
-zyuizi#19,zyuizi,,19,,,,,,,,,1,link,/j/council/zyuizi/index.html
+zyuizi#19,zyuizi,,19,,2026-09-01,令和8年9月1日(火) 13 時 30 分~13 時 54 分,13:30-13:54,,農林水産省講堂,委員 17 名 / 飯塚綾子、石岡克己、市川陽一朗、岩崎紗矢佳、上家潤一、金子美香子、 / 壁谷英則、監物南美、佐伯潤、齋藤喜美子、高木哲、長井伸也、 / 長岡正喜、福原美千加、三浦こずえ、山田一孝、吉田秀康,,1,link+pdf,/j/council/zyuizi/index.html
+sizai#2,sizai,,2,,,,,,,,,1,link,/j/council/sizai/bunnkakai_unei.html
+sizai#3,sizai,,3,,,,,,,,,1,link,/j/council/sizai/bunnkakai_unei.html
+sizai#17,sizai,,17,,,,,,,,,1,link,/j/council/sizai/bunnkakai_unei.html
+sizai#25,sizai,,25,第25回農業資材審議会農薬分科会配布資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/25.html,16,page,/j/council/sizai/nouyaku/25.html
+sizai#26,sizai,,26,第26回農業資材審議会農薬分科会配布資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/26.html,9,page,/j/council/sizai/nouyaku/26.html
+sizai#27,sizai,,27,第27回農業資材審議会農薬分科会配布資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/27.html,18,page,/j/council/sizai/nouyaku/27.html
+sizai#28,sizai,,28,第28回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/28.html,21,page,/j/council/sizai/nouyaku/28.html
+sizai#29,sizai,,29,第29回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/29.html,26,page,/j/council/sizai/nouyaku/29.html
+sizai#30,sizai,,30,第30回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/30.html,14,page,/j/council/sizai/nouyaku/30.html
+sizai#31,sizai,,31,第31回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/31.html,23,page,/j/council/sizai/nouyaku/31.html
+sizai#32,sizai,,32,第32回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/32.html,22,page,/j/council/sizai/nouyaku/32.html
+sizai#33,sizai,,33,第33回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/33.html,18,page,/j/council/sizai/nouyaku/33.html
+sizai#34,sizai,,34,第34回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/34.html,12,page,/j/council/sizai/nouyaku/34.html
+sizai#35,sizai,,35,第35回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/35.html,15,page,/j/council/sizai/nouyaku/35.html
+sizai#36,sizai,,36,第36回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/36.html,18,page,/j/council/sizai/nouyaku/36.html
+sizai#37,sizai,,37,第37回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/37.html,34,page,/j/council/sizai/nouyaku/37.html
+sizai#38,sizai,,38,第38回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/38.html,17,page,/j/council/sizai/nouyaku/38.html
+sizai#39,sizai,,39,第39回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/39.html,41,page,/j/council/sizai/nouyaku/39.html
+sizai#40,sizai,,40,第40回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/40.html,24,page,/j/council/sizai/nouyaku/40.html
+sizai#41,sizai,,41,第41回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/41.html,26,page,/j/council/sizai/nouyaku/41.html
+sizai#42,sizai,,42,第42回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/42.html,20,page,/j/council/sizai/nouyaku/42.html
+sizai#43,sizai,,43,第43回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/43.html,19,page,/j/council/sizai/nouyaku/43.html
+sizai#44,sizai,,44,第44回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/44.html,17,page,/j/council/sizai/nouyaku/44.html
+sizai#45,sizai,,45,第45回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/45.html,24,page,/j/council/sizai/nouyaku/45.html
+sizai#46,sizai,,46,第46回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/46.html,24,page,/j/council/sizai/nouyaku/46.html
+sizai#47,sizai,,47,第47回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/250728.html,21,page,/j/council/sizai/nouyaku/250728.html
+sizai#48,sizai,,48,第48回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/48.html,35,page,/j/council/sizai/nouyaku/48.html
+sizai#49,sizai,,49,第49回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/49.html,44,page,/j/council/sizai/nouyaku/49.html
+sizai#50,sizai,,50,第50回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/50.html,57,page,/j/council/sizai/nouyaku/50.html
+sizai#51,sizai,,51,第51回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/51.html,57,page,/j/council/sizai/nouyaku/51.html
+sizai#52,sizai,,52,第52回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/52.html,20,page,/j/council/sizai/nouyaku/52.html
+sizai#53,sizai,,53,第53回農業資材審議会農薬分科会配付資料,,,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/53.html,21,page,/j/council/sizai/nouyaku/53.html
 sizai@2002-12-17,sizai,,,,2002-12-17,平成14年12月17日,,,,,,1,link,/j/council/sizai/index.html
 sizai/農業資材審議会#1,sizai,農業資材審議会,1,,2001-03-21,平成13年3月21日,,,,,,1,link,/j/council/sizai/index.html
 sizai/農業資材審議会種苗分科会#1,sizai,農業資材審議会種苗分科会,1,,2001-03-21,平成13年3月21日,,,,,,1,link,/j/council/sizai/index.html
@@ -142,20 +174,20 @@ sizai/農業資材審議会農薬分科会#21,sizai,農業資材審議会農薬�
 sizai/農業資材審議会農薬分科会#22,sizai,農業資材審議会農薬分科会,22,,2020-08-07,令和2年8月7日,,,,,,3,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会#23,sizai,農業資材審議会農薬分科会,23,,2020-12-16,令和2年12月16日,,,,,,3,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会#24,sizai,農業資材審議会農薬分科会,24,,2021-03-24,令和3年3月24日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#25,sizai,農業資材審議会農薬分科会,25,,2021-04-21,令和3年4月21日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#26,sizai,農業資材審議会農薬分科会,26,,2021-05-21,令和3年5月21日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#27,sizai,農業資材審議会農薬分科会,27,,2021-06-28,令和3年6月28日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#28,sizai,農業資材審議会農薬分科会,28,,2021-09-22,令和3年9月22日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#29,sizai,農業資材審議会農薬分科会,29,,2021-12-24,令和3年12月24日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#30,sizai,農業資材審議会農薬分科会,30,,2022-04-25,令和4年4月25日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#31,sizai,農業資材審議会農薬分科会,31,,2022-06-22,令和4年6月22日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#32,sizai,農業資材審議会農薬分科会,32,,2022-09-16,令和4年9月16日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#33,sizai,農業資材審議会農薬分科会,33,,2022-12-23,令和4年12月23日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#34,sizai,農業資材審議会農薬分科会,34,,2023-01-30,令和5年1月30日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#35,sizai,農業資材審議会農薬分科会,35,,2023-03-23,令和5年3月23日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#36,sizai,農業資材審議会農薬分科会,36,,2023-05-18,令和5年5月18日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#37,sizai,農業資材審議会農薬分科会,37,,2023-07-27,令和5年7月27日,,,,,,3,link,/j/council/sizai/index.html
-sizai/農業資材審議会農薬分科会#38,sizai,農業資材審議会農薬分科会,38,,2023-09-28,令和5年9月28日,,,,,,3,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#25,sizai,農業資材審議会農薬分科会,25,,2021-04-21,令和3年4月21日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/25.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#26,sizai,農業資材審議会農薬分科会,26,,2021-05-21,令和3年5月21日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/26.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#27,sizai,農業資材審議会農薬分科会,27,,2021-06-28,令和3年6月28日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/27.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#28,sizai,農業資材審議会農薬分科会,28,,2021-09-22,令和3年9月22日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/28.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#29,sizai,農業資材審議会農薬分科会,29,,2021-12-24,令和3年12月24日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/29.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#30,sizai,農業資材審議会農薬分科会,30,,2022-04-25,令和4年4月25日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/30.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#31,sizai,農業資材審議会農薬分科会,31,,2022-06-22,令和4年6月22日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/31.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#32,sizai,農業資材審議会農薬分科会,32,,2022-09-16,令和4年9月16日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/32.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#33,sizai,農業資材審議会農薬分科会,33,,2022-12-23,令和4年12月23日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/33.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#34,sizai,農業資材審議会農薬分科会,34,,2023-01-30,令和5年1月30日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/34.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#35,sizai,農業資材審議会農薬分科会,35,,2023-03-23,令和5年3月23日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/35.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#36,sizai,農業資材審議会農薬分科会,36,,2023-05-18,令和5年5月18日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/36.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#37,sizai,農業資材審議会農薬分科会,37,,2023-07-27,令和5年7月27日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/37.html,2,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会#38,sizai,農業資材審議会農薬分科会,38,,2023-09-28,令和5年9月28日,,,,,https://www.maff.go.jp/j/council/sizai/nouyaku/38.html,2,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会#39,sizai,農業資材審議会農薬分科会,39,,2023-12-22,令和5年12月22日,,,,,,3,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会#40,sizai,農業資材審議会農薬分科会,40,,2024-02-22,令和6年2月22日,,,,,,3,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会#41,sizai,農業資材審議会農薬分科会,41,,2024-05-30,令和6年5月30日,,,,,,3,link,/j/council/sizai/index.html
@@ -239,6 +271,7 @@ sizai/農業資材審議会農薬分科会農薬使用者安全評価部会#24,s
 sizai/農業資材審議会農薬分科会農薬使用者安全評価部会#25,sizai,農業資材審議会農薬分科会農薬使用者安全評価部会,25,,2026-06-03,令和8年6月3日,,,,,,3,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会農薬使用者安全評価部会#26,sizai,農業資材審議会農薬分科会農薬使用者安全評価部会,26,,2026-07-27,令和8年7月27日,,,,,,3,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会農薬使用者安全評価部会#27,sizai,農業資材審議会農薬分科会農薬使用者安全評価部会,27,,2026-09-17,令和8年9月17日,,,,,,3,link,/j/council/sizai/index.html
+sizai/農業資材審議会農薬分科会農薬使用者安全評価部会#28,sizai,農業資材審議会農薬分科会農薬使用者安全評価部会,28,,2026-11-25,令和8年11月25日,,,,,,1,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会農薬原体部会#1,sizai,農業資材審議会農薬分科会農薬原体部会,1,,2019-09-06,令和元年9月6日,,,,,,1,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会農薬原体部会#2,sizai,農業資材審議会農薬分科会農薬原体部会,2,,2020-02-06,令和2年2月6日,,,,,,1,link,/j/council/sizai/index.html
 sizai/農業資材審議会農薬分科会農薬原体部会#3,sizai,農業資材審議会農薬分科会農薬原体部会,3,,2020-06-23,令和2年6月23日,,,,,,1,link,/j/council/sizai/index.html
