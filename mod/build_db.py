@@ -793,8 +793,55 @@ def build(councils_path: Path = DATA / "councils.csv", manifest: Path = MANIFEST
             councils, builder.known_pages, url, blocks, base_url=base_url, hosts=hosts
         ))
     finish(builder)
+    _merge_subpage_links(builder, manifest.parent / "subpage_links.csv")
     apply_minutes(builder, texts, repo=repo)
     return builder
+
+
+def _merge_subpage_links(b: Builder, links_path: Path) -> None:
+    """下位 HTML（fetch_subpages.py）から発見された同一省庁 PDF リンクを documents に統合する。"""
+    if not links_path.exists():
+        return
+    seen = {(d["council_id"], d["meeting_id"], d["url"]) for d in b.documents}
+    seen_any = {(d["council_id"], d["url"]) for d in b.documents}
+    counts: dict[str, int] = {}
+    for d in b.documents:
+        if d["meeting_id"]:
+            counts[d["meeting_id"]] = counts.get(d["meeting_id"], 0) + 1
+    added = False
+    with links_path.open(encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f):
+            url = (r.get("url") or "").strip()
+            cid = (r.get("council_id") or "").strip()
+            mid = (r.get("meeting_id") or "").strip()
+            if not url:
+                continue
+            key = (cid, mid, url)
+            if key in seen or (not mid and (cid, url) in seen_any):
+                continue
+            seen.add(key)
+            seen_any.add((cid, url))
+            b.documents.append({
+                "council_id": cid,
+                "meeting_id": mid,
+                "section": r.get("section", ""),
+                "doc_type": r.get("doc_type", "") or doc_type(r.get("title", "")),
+                "title": r.get("title", ""),
+                "url": url,
+                "doc_key": doc_key(url),
+                "format": r.get("format", "") or url_format(url),
+                "host": r.get("host", "") or urlsplit(url).netloc,
+                "source": r.get("source_url", ""),
+                "text": "",
+                "pages": "",
+                "chars": "",
+            })
+            if mid:
+                counts[mid] = counts.get(mid, 0) + 1
+            added = True
+    if added:
+        for m in b.meetings:
+            m["n_documents"] = counts.get(m["meeting_id"], 0)
 
 
 def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path = REPO) -> None:

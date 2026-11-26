@@ -11,6 +11,14 @@ on:
         description: "特定の会議体 ID に絞る場合のみ指定（空なら全件）"
         required: false
         default: ""
+      max_pdfs:
+        description: "1 省庁あたりの新規 PDF 取得上限（防衛省以外は既定 50、0 は無制限）"
+        required: false
+        default: "50"
+      max_subpages:
+        description: "1 省庁あたりの新規下位 HTML 取得上限（既定 30、0 は無制限）"
+        required: false
+        default: "30"
       dry_run:
         description: "dry-run（ファイル変更・commit・Issue 作成・LLM 呼び出しをしない）"
         type: boolean
@@ -39,7 +47,188 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      agencies: ${{ steps.prep.outputs.agencies }}
+      started: ${{ steps.prep.outputs.started }}
+      check_pdf_updates: ${{ steps.prep.outputs.check_pdf_updates }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python3 -m unittest discover -s tests
+
+      - name: Build agency matrix and run metadata
+        id: prep
+        run: |
+          RUN_STARTED="$(date -u +%Y-%m-%dT%H:%M:%S+00:00)"
+          echo "started=${RUN_STARTED}" >> "$GITHUB_OUTPUT"
+
+          DOW_JST="$(TZ=Asia/Tokyo date +%u)"
+          if [ "${{ inputs.check_pdf_updates }}" = "true" ] || { [ "${{ github.event_name }}" = "schedule" ] && [ "$DOW_JST" = "7" ]; }; then
+            echo "check_pdf_updates=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "check_pdf_updates=false" >> "$GITHUB_OUTPUT"
+          fi
+
+          TARGET="${{ inputs.agency }}"
+          AGENCIES_JSON=$(python3 - "$TARGET" << 'PY'
+          import json, sys
+          from pathlib import Path
+          target = (sys.argv[1] or "").strip()
+          all_keys = list(json.load(open("agencies.json", encoding="utf-8")).keys())
+          if not target or target == "all":
+              selected = [k for k in all_keys if Path(f"raw/{k}/pages.csv").exists()]
+          else:
+              selected = [a.strip() for a in target.split(",") if a.strip()]
+          print(json.dumps(selected))
+          PY
+          )
+          echo "agencies=${AGENCIES_JSON}" >> "$GITHUB_OUTPUT"
+
+  update-agency:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 16
+      matrix:
+        agency: ${{ fromJson(needs.plan.outputs.agencies) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Update agency, archive originals, and build catalog
+        id: agency_run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          AG: ${{ matrix.agency }}
+          COUNCIL: ${{ inputs.council }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          CHECK_PDF: ${{ needs.plan.outputs.check_pdf_updates }}
+          MAX_PDFS: ${{ inputs.max_pdfs }}
+          MAX_SUBPAGES: ${{ inputs.max_subpages }}
+        run: |
+          mkdir -p /tmp/artifact_stage/meta /tmp/artifact_stage/payload
+
+          ARGS=(--agency "$AG" --no-llm --fetch-subpages --summary-out "/tmp/artifact_stage/meta/summary_${AG}.md")
+          if [ -n "$COUNCIL" ]; then
+            ARGS+=(--council "$COUNCIL")
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS+=(--dry-run)
+          fi
+          if [ "$CHECK_PDF" = "true" ]; then
+            ARGS+=(--check-pdf-updates)
+          fi
+          SUB_LIMIT="${MAX_SUBPAGES:-30}"
+          ARGS+=(--max-subpages "$SUB_LIMIT")
+
+          # 全 16 省庁で議事録・議事要旨・名簿に加え配布資料 PDF も取得対象にする（--pdf-types 制限なし）
+          if [ "$AG" != "mod" ]; then
+            PDF_LIMIT="${MAX_PDFS:-50}"
+            ARGS+=(--tier-mode top_and_recent --max-pdfs "$PDF_LIMIT")
+          fi
+
+          ERR_FILE="/tmp/update_stderr_${AG}.log"
+          set +e
+          python3 mod/update.py "${ARGS[@]}" 2>"$ERR_FILE"
+          RC=$?
+          set -e
+
+          if [ -s "$ERR_FILE" ]; then
+            cat "$ERR_FILE" >&2
+          fi
+
+          if [ "$RC" -ne 0 ]; then
+            {
+              echo "exit_code=${RC}"
+              cat "$ERR_FILE"
+            } > "/tmp/artifact_stage/meta/failed_${AG}.log"
+            rm -f "/tmp/artifact_stage/meta/summary_${AG}.md"
+            echo "status=failed" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if [ "$DRY_RUN" != "true" ]; then
+            CHUNK_ID="$(date -u +%Y%m%dT%H%M%SZ)-${{ github.run_id }}"
+            if [ -f "raw/${AG}/files.csv" ]; then
+              python3 mod/archive_pdfs.py --agency "$AG" --monthly --cleanup-local
+            fi
+            if [ -f "raw/${AG}/subpages.csv" ]; then
+              python3 mod/archive_pdfs.py --agency "$AG" --subpages --monthly --chunk-id "$CHUNK_ID" --cleanup-local
+            fi
+            python3 mod/build_index.py --agency "$AG"
+
+            # 変更・追加されたファイルだけを最小アーティファクトとして退避（rss_items.csv は除外）
+            python3 - "$AG" << 'PY'
+          import shutil, subprocess, sys
+          from pathlib import Path
+
+          ag = sys.argv[1]
+          out = subprocess.check_output(
+              ["git", "status", "--porcelain", "-z", "-uall", "--", f"raw/{ag}", f"data/{ag}"],
+          )
+          dst_root = Path("/tmp/artifact_stage/payload")
+          copied = 0
+          for entry in out.split(b"\0"):
+              if not entry or len(entry) < 4:
+                  continue
+              status = entry[:2].decode("ascii", errors="ignore")
+              rel = entry[3:].decode("utf-8")
+              if rel.endswith("/rss_items.csv") or "D" in status:
+                  continue
+              src = Path(rel)
+              if src.is_file():
+                  dst = dst_root / rel
+                  dst.parent.mkdir(parents=True, exist_ok=True)
+                  shutil.copy2(src, dst)
+                  copied += 1
+          print(f"[{ag}] staged {copied} changed files for finalize artifact", flush=True)
+          PY
+          fi
+          echo "status=ok" >> "$GITHUB_OUTPUT"
+
+      - name: Upload agency update artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agency-update-${{ matrix.agency }}
+          path: /tmp/artifact_stage
+          retention-days: 1
+          if-no-files-found: ignore
+
+      - name: Mark agency matrix cell failed if update.py failed
+        if: steps.agency_run.outputs.status == 'failed'
+        run: |
+          echo "::error::Agency ${{ matrix.agency }} update failed (details collected in finalize summary)"
+          exit 1
+
+  finalize:
+    needs: [plan, update-agency]
+    if: always() && needs.plan.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -52,82 +241,51 @@ jobs:
           cache: "pip"
           cache-dependency-path: requirements.txt
 
-      - name: Install PDF extraction dependency
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run unit tests
-        run: python3 -m unittest discover -s tests
+      - name: Download all agency artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: agency-update-*
+          merge-multiple: true
+          path: /tmp/agency_artifacts
 
-      - name: Run multi-agency update
-        id: run_update
+      - name: Merge successful agency updates and rebuild cross-agency tables
+        id: merge
         run: |
-          RUN_STARTED="$(date -u +%Y-%m-%dT%H:%M:%S+00:00)"
-          echo "started=$RUN_STARTED" >> "$GITHUB_OUTPUT"
-          rm -f /tmp/update_summary*.md /tmp/update_stderr_*.log /tmp/update_failed_*.log
+          if [ -d /tmp/agency_artifacts/payload ]; then
+            python3 - << 'PY'
+          import shutil
+          from pathlib import Path
+          src_root = Path("/tmp/agency_artifacts/payload")
+          count = 0
+          for p in src_root.rglob("*"):
+              if not p.is_file():
+                  continue
+              rel = p.relative_to(src_root)
+              if rel.name == "rss_items.csv":
+                  continue
+              dst = Path(".") / rel
+              dst.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(p, dst)
+              count += 1
+          print(f"Merged {count} updated files from matrix artifacts", flush=True)
+          PY
+          fi
 
-          TARGET_AGENCY="${{ inputs.agency }}"
-          if [ -z "$TARGET_AGENCY" ] || [ "$TARGET_AGENCY" = "all" ]; then
-            AGENCIES=$(python3 -c 'import json; print(" ".join(json.load(open("agencies.json")).keys()))')
+          if [ "${{ inputs.dry_run }}" != "true" ]; then
+            python3 mod/cross_agency.py
           else
-            AGENCIES="$TARGET_AGENCY"
+            python3 mod/cross_agency.py --dry-run
           fi
 
-          COMMON_ARGS=(--no-llm)
-          if [ -n "${{ inputs.council }}" ]; then
-            COMMON_ARGS+=(--council "${{ inputs.council }}")
-          fi
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            COMMON_ARGS+=(--dry-run)
-          fi
-          DOW_JST="$(TZ=Asia/Tokyo date +%u)"
-          if [ "${{ inputs.check_pdf_updates }}" = "true" ] || { [ "${{ github.event_name }}" = "schedule" ] && [ "$DOW_JST" = "7" ]; }; then
-            COMMON_ARGS+=(--check-pdf-updates)
-          fi
-
-          # 省庁ごとにドメインが完全に独立しているため、1 ドメイン 1 プロセス（2 秒間隔直列）を守りつつ
-          # 全 16 省庁を並列に更新チェックする
-          pids=()
-          for ag in $AGENCIES; do
-            if [ ! -f "raw/${ag}/pages.csv" ]; then
-              continue
-            fi
-            (
-              EXTRA_ARGS=()
-              if [ "$ag" != "mod" ]; then
-                EXTRA_ARGS+=(--tier-mode top_and_recent --pdf-types "議事録,議事要旨,名簿" --max-pdfs 15)
-              fi
-              err_file="/tmp/update_stderr_${ag}.log"
-              if ! python3 mod/update.py --agency "$ag" "${COMMON_ARGS[@]}" "${EXTRA_ARGS[@]}" \
-                --summary-out "/tmp/update_summary_${ag}.md" 2>"$err_file"; then
-                rc=$?
-                if [ -s "$err_file" ]; then
-                  cat "$err_file" >&2
-                fi
-                {
-                  echo "exit_code=${rc}"
-                  cat "$err_file"
-                } > "/tmp/update_failed_${ag}.log"
-                exit "$rc"
-              fi
-              if [ -s "$err_file" ]; then
-                cat "$err_file" >&2
-              fi
-            ) &
-            pids+=("$!")
-          done
-
-          failed=0
-          for pid in "${pids[@]}"; do
-            if ! wait "$pid"; then
-              failed=1
-            fi
-          done
-
+          rm -f /tmp/update_summary.md
           FAILED_AGENCIES=()
-          for f in /tmp/update_failed_*.log; do
+          for f in /tmp/agency_artifacts/meta/failed_*.log; do
             [ -e "$f" ] || continue
             ag_name="$(basename "$f" .log)"
-            ag_name="${ag_name#update_failed_}"
+            ag_name="${ag_name#failed_}"
             FAILED_AGENCIES+=("$ag_name")
           done
 
@@ -143,7 +301,7 @@ jobs:
               for ag_name in "${FAILED_AGENCIES[@]}"; do
                 echo "### [${ag_name}]"
                 echo '```text'
-                head -n 30 "/tmp/update_failed_${ag_name}.log"
+                head -n 30 "/tmp/agency_artifacts/meta/failed_${ag_name}.log"
                 echo '```'
                 echo ""
               done
@@ -152,40 +310,13 @@ jobs:
             echo "failed_agencies=" >> "$GITHUB_OUTPUT"
           fi
 
-          for f in /tmp/update_summary_*.md; do
+          for f in /tmp/agency_artifacts/meta/summary_*.md; do
             if [ -s "$f" ]; then
               ag_name="$(basename "$f" .md)"
-              ag_name="${ag_name#update_summary_}"
+              ag_name="${ag_name#summary_}"
               echo "# [${ag_name}]" >> /tmp/update_summary.md
               cat "$f" >> /tmp/update_summary.md
               echo "" >> /tmp/update_summary.md
-            fi
-          done
-
-          if [ "${{ inputs.dry_run }}" != "true" ]; then
-            python3 mod/cross_agency.py
-          else
-            python3 mod/cross_agency.py --dry-run
-          fi
-
-          if [ "$failed" -ne 0 ] && [ "$TARGET_AGENCY" != "all" ] && [ -n "$TARGET_AGENCY" ]; then
-            exit 1
-          fi
-
-      - name: Archive newly fetched PDF originals to GitHub Releases
-        if: inputs.dry_run != true
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          TARGET_AGENCY="${{ inputs.agency }}"
-          if [ -z "$TARGET_AGENCY" ] || [ "$TARGET_AGENCY" = "all" ]; then
-            AGENCIES=$(python3 -c 'import json; print(" ".join(json.load(open("agencies.json")).keys()))')
-          else
-            AGENCIES="$TARGET_AGENCY"
-          fi
-          for ag in $AGENCIES; do
-            if [ -f "raw/${ag}/files.csv" ]; then
-              python3 mod/archive_pdfs.py --agency "$ag"
             fi
           done
 
@@ -210,12 +341,12 @@ jobs:
           git pull --rebase
           git push
 
-      - name: Create notification issue if events or new warnings occurred
+      - name: Create notification issue if events, warnings, or failures occurred
         id: notify
         if: inputs.dry_run != true
         env:
           GH_TOKEN: ${{ github.token }}
-          FAILED_AGENCIES: ${{ steps.run_update.outputs.failed_agencies }}
+          FAILED_AGENCIES: ${{ steps.merge.outputs.failed_agencies }}
         run: |
           if [ ! -s /tmp/update_summary.md ]; then
             echo "No events, warnings, or failures."
@@ -240,7 +371,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GH_TOKEN: ${{ github.token }}
-          RUN_STARTED: ${{ steps.run_update.outputs.started }}
+          RUN_STARTED: ${{ needs.plan.outputs.started }}
           ISSUE_NUM: ${{ steps.notify.outputs.issue_number }}
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
@@ -254,7 +385,6 @@ jobs:
           fi
           python3 -m mod.llm.run "${LLM_ARGS[@]}"
 
-          # Gemini の出力があれば本体更新とは別の commit にする
           if ! git diff --quiet -- data/mod/ ':(exclude)data/mod/rss_items.csv' || \
              [ -n "$(git ls-files --others --exclude-standard -- data/mod/)" ]; then
             git config user.name "github-actions[bot]"
@@ -268,13 +398,12 @@ jobs:
             fi
           fi
 
-          # 変更の検討メモは通知 Issue のコメントとして投稿（表には入れない）
           if [ -n "$ISSUE_NUM" ] && [ -s /tmp/review_memo.md ]; then
             gh issue comment "$ISSUE_NUM" --body-file /tmp/review_memo.md
           fi
 
-      - name: Fail job if any agency update failed
-        if: steps.run_update.outputs.failed_agencies != ''
+      - name: Fail workflow if any agency job failed
+        if: steps.merge.outputs.failed_agencies != '' || needs.update-agency.result != 'success'
         run: |
-          echo "::error::省庁データの更新に失敗しました: ${{ steps.run_update.outputs.failed_agencies }}"
+          echo "::error::省庁データの更新に失敗しました: ${{ steps.merge.outputs.failed_agencies || needs.update-agency.result }}"
           exit 1

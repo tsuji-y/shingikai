@@ -65,9 +65,18 @@ def iso_to_http_date(value: str) -> str:
 
 
 def targets(documents: Path = DOCUMENTS, council: str = "",
-            hosts: list[str] | None = None, doc_types: set[str] | None = None) -> list[str]:
-    """取得対象の URL（重複なし、documents.csv の順）。"""
+            hosts: list[str] | None = None, doc_types: set[str] | None = None,
+            since_year: int = 0, until_year: int = 0) -> list[str]:
+    """取得対象の URL（重複なし、documents.csv の順。年代指定時は meetings.csv の開催日で絞る）。"""
     allowed_hosts = set(hosts or [HOST])
+    meeting_dates: dict[str, str] = {}
+    if since_year or until_year:
+        meetings_csv = documents.parent / "meetings.csv"
+        if meetings_csv.exists():
+            with meetings_csv.open(encoding="utf-8", newline="") as mf:
+                for mr in csv.DictReader(mf):
+                    if mr.get("meeting_id") and mr.get("date"):
+                        meeting_dates[mr["meeting_id"]] = mr["date"]
     seen: dict[str, None] = {}
     with documents.open(encoding="utf-8", newline="") as f:
         for row in csv.DictReader(f):
@@ -75,8 +84,20 @@ def targets(documents: Path = DOCUMENTS, council: str = "",
                 continue
             if doc_types and row.get("doc_type") not in doc_types:
                 continue
-            if row["host"] in allowed_hosts and row["format"] == "pdf":
-                seen.setdefault(row["url"])
+            if row["host"] not in allowed_hosts or row["format"] != "pdf":
+                continue
+            if since_year or until_year:
+                mdate = meeting_dates.get(row.get("meeting_id", ""), "")
+                yr = int(mdate[:4]) if len(mdate) >= 4 and mdate[:4].isdigit() else None
+                if yr is None:
+                    if until_year:
+                        continue
+                else:
+                    if since_year and yr < since_year:
+                        continue
+                    if until_year and yr > until_year:
+                        continue
+            seen.setdefault(row["url"])
     return list(seen)
 
 
@@ -104,8 +125,8 @@ def select_targets(urls: list[str], rows: dict[str, dict[str, str]], *,
 
 def local_path(url: str, root: Path = FILES_DIR) -> Path:
     sp = urlsplit(url)
-    parts = [unquote(p) for p in sp.path.strip("/").split("/")]
-    if not sp.netloc or not parts or any(p in ("", ".", "..") or "\\" in p for p in parts):
+    parts = [unquote(p) for p in sp.path.strip("/").split("/") if p]
+    if not sp.netloc or not parts or any(p in (".", "..") or "\\" in p for p in parts):
         raise ValueError(f"保存できない URL: {url!r}")
     return root.joinpath(*parts)
 
@@ -202,11 +223,15 @@ def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir:
               limit: int = 0, retry: bool = False, refetch_missing: bool = False,
               only_unarchived: bool = False,
               council: str = "", hosts: list[str] | None = None, doc_types: set[str] | None = None,
+              since_year: int = 0, until_year: int = 0,
               dry_run: bool = False, interval: float = INTERVAL,
               fetcher=fetch) -> FetchSummary:
     """未取得の PDF を取得する。403・429 なら Blocked を送出する。"""
     rows = read_manifest(manifest)
-    all_urls = targets(documents, council=council, hosts=hosts, doc_types=doc_types)
+    all_urls = targets(
+        documents, council=council, hosts=hosts, doc_types=doc_types,
+        since_year=since_year, until_year=until_year,
+    )
     todo = select_targets(
         all_urls, rows, retry=retry, refetch_missing=refetch_missing,
         only_unarchived=only_unarchived, files_dir=files_dir,
@@ -303,6 +328,8 @@ def main() -> int:
     ap.add_argument("--check-replaced", action="store_true", help="取得済み PDF を条件付き取得で照合し、差し替えを検知する")
     ap.add_argument("--council", default="", help="対象の会議体 ID を絞る")
     ap.add_argument("--types", default="", help="取得する doc_type をカンマ区切りで絞る（例: 議事録,議事要旨,名簿）")
+    ap.add_argument("--since-year", type=int, default=0, help="対象会議年の下限（例: 2020）")
+    ap.add_argument("--until-year", type=int, default=0, help="対象会議年の上限（例: 2023）")
     ap.add_argument("--dry-run", action="store_true", help="書き込みを行わない")
     args = ap.parse_args()
 
@@ -310,7 +337,7 @@ def main() -> int:
     documents = ag.data_dir / "documents.csv"
     manifest = ag.files_manifest
     files_dir = ag.raw_files_dir
-    hosts = [ag.primary_host]
+    hosts = list(ag.hosts)
     doc_types = {t.strip() for t in args.types.split(",") if t.strip()} or None
 
     try:
@@ -322,7 +349,9 @@ def main() -> int:
         else:
             res = fetch_new(documents, manifest, files_dir, limit=args.limit, retry=args.retry,
                             refetch_missing=args.refetch_missing, only_unarchived=args.only_unarchived,
-                            council=args.council, hosts=hosts, doc_types=doc_types, dry_run=args.dry_run)
+                            council=args.council, hosts=hosts, doc_types=doc_types,
+                            since_year=args.since_year, until_year=args.until_year,
+                            dry_run=args.dry_run)
             print(f"[{ag.agency_id}] 保存 {len(res.saved)} 件 / 保存できなかったもの {len(res.failed)} 件", flush=True)
     except Blocked as e:
         print(f"中断: {e}", file=sys.stderr)

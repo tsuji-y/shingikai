@@ -1,5 +1,6 @@
 __pycache__/
 *.tmp
 .venv/
-# 取得した PDF の本体。台帳（raw/<agency>/files.csv）だけを残す
+# 取得した PDF・下位 HTML の原本。台帳（raw/<agency>/files.csv, subpages.csv）だけを残し原本は GitHub Releases へ保管
 raw/*/files/
+raw/*/subpages/

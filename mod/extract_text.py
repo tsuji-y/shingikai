@@ -30,7 +30,7 @@ FIRST = ("議事録", "議事要旨", "議事次第", "名簿")  # 出席者・�
 
 
 def url_parts(url: str) -> list[str]:
-    return [unquote(p) for p in urlsplit(url).path.strip("/").split("/")]
+    return [unquote(p) for p in urlsplit(url).path.strip("/").split("/") if p]
 
 
 def text_path(url: str, root: Path = TEXT_DIR) -> Path:

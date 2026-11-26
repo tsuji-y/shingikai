@@ -37,9 +37,11 @@
 | パス | 内容 |
 |---|---|
 | `agencies.json` | 全 16 省庁の URL・プレフィックス・取得階層・RSS 等の設定定義 |
-| `data/all/agencies.csv` | 全 16 省庁の収録件数・最終取得日時サマリ |
+| `data/all/agencies.csv` | 全 16 省庁の収録件数・最終取得日時サマリ（PDF カバレッジ・下位 HTML・テキスト数含む） |
+| `data/all/index.json` | 全 16 省庁の統一索引マニフェスト（各省庁の `catalog.csv` / `catalog.jsonl`・Release タグ・カバレッジ集計） |
 | `data/all/persons_cross.csv` | 省庁横断の委員・有識者名寄せ表（複数省庁の審議会を兼任する有識者を一覧化） |
 | `data/all/recent_events.csv` | 全省庁の直近更新イベント一覧 |
+| `data/<agency>/catalog.csv`、`catalog.jsonl` | 会議体・会議・資料・本文テキスト・Release URL を 1 つに結合した省庁別統一検索索引 |
 | `data/<agency>/councils.csv` | 会議体の一覧 |
 | `data/<agency>/council_profiles.csv` | 会議体の概要（根拠法令・所掌事務・設置趣旨など） |
 | `data/<agency>/members.csv` | 委員名簿（HTML の名簿表および名簿 PDF から抽出） |
@@ -52,18 +54,22 @@
 | `data/<agency>/members_history.csv` | 委員名簿が変わる前のスナップショット（時点付き） |
 | `raw/<agency>/pages.csv`、`raw/<agency>/pages/` | 取得した HTML の台帳（`content_sha256` 含む）と生バイト列 |
 | `raw/<agency>/files.csv` | 取得した PDF の台帳（SHA-256 と GitHub Releases の `release_url` を記録。PDF 本体は Git 外） |
+| `raw/<agency>/subpages.csv`、`subpage_links.csv` | 取得した下位 HTML の台帳（GitHub Releases の `release_url` 付き）と下位 HTML 内で発見した PDF リンク一覧（生 HTML 本体は Git 外） |
 | `mod/agencies.py` | `agencies.json` の読み込みと汎用会議体一覧抽出 |
-| `mod/cross_agency.py` | 全省庁の表から `data/all/` の横断 3 表を生成する |
+| `mod/cross_agency.py` | 全省庁の表から `data/all/` の横断表および `index.json` を生成する |
+| `mod/build_index.py` | 省庁別の統一索引（`catalog.csv` / `catalog.jsonl`）および `data/all/index.json` を生成する |
 | `mod/check_access.py` | HTML（通常・条件付き）・PDF・RSS の疎通を確認する（`--agency <id>` 対応） |
 | `mod/check_updates.py` | 条件付き取得と `content_sha256` で変更ページ・新規ページ・消失を検知して保存する（`--agency <id>` 対応） |
 | `mod/events.py` | 表の差分から `events.csv` を生成し、名簿履歴退避・回帰検査・RSS 取り込み漏れ検査を行う |
-| `mod/update.py` | 更新チェック→表再構築→PDF 取得・抽出→回帰検査・イベント記録を 1 コマンドで実行する（`--agency <id>` 対応） |
-| `mod/fetch_files.py` | `documents.csv` 上の PDF を取得・差し替え照合する（`--agency <id>`、`--types` 対応） |
-| `mod/archive_pdfs.py` | 取得済み PDF 原本を GitHub Releases（年別 / ベースライン）へ保管し、`release_url` を記録する |
+| `mod/update.py` | 更新チェック→表再構築→下位 HTML 取得→PDF 取得・抽出→回帰検査・イベント・索引更新を 1 コマンドで実行する（`--agency <id>` 対応） |
+| `mod/fetch_subpages.py` | `documents.csv` 上の同一省庁下位 HTML を取得し、本文テキスト抽出（`data/<agency>/text/`）と内包 PDF リンク発見を行う |
+| `mod/fetch_files.py` | `documents.csv` 上の PDF（議事録・配布資料すべて）を取得・差し替え照合する（`--agency <id>`、`--since-year`/`--until-year` 対応） |
+| `mod/archive_pdfs.py` | 取得済み PDF・下位 HTML 原本を GitHub Releases（月別 / 800MB シャード tar.gz）へ保管し、`release_url` を記録する |
+| `mod/backfill.py` | 過去分の下位 HTML・議事録 PDF・配布資料 PDF をチャンク分割・中断再開可能で一括バックフィルする |
 | `mod/extract_text.py` | PDF から本文を抽出する（`--agency <id>` 対応） |
 | `mod/pages.py`、`mod/minutes.py`、`mod/persons.py`、`mod/build_db.py` | HTML・PDF 議事要旨・名簿 PDF の構造化と人物名寄せ（`--agency <id>` 対応） |
 | `mod/llm/` | Gemini による補完（画像 PDF 文字起こし・出席者補完・資料要約・変更検討メモ・30 件評価） |
-| `tests/` | `python3 -m unittest discover -s tests`（73 テスト） |
+| `tests/` | `python3 -m unittest discover -s tests`（80 テスト） |
 
 `mod/` ディレクトリ名は最初に構築した防衛省（Ministry of Defense）に由来し、全 16 省庁共通のパイプラインとして動作する（`--agency` 省略時の既定値は `mod`）。基本のコードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）に `requirements.txt`（pdfminer.six）、Gemini 処理（`mod/llm/`）に `requirements-llm.txt`（google-genai）を使う。
 
@@ -95,14 +101,28 @@
 
 ## ページの取得と定期更新
 
-### 日次更新（全 16 省庁対応）
+### 過去分の一括バックフィル（ローカル Mac 向け・チャンク再開対応）
+
+議事録・配布資料 PDF・下位 HTML（本文テキスト＋内包 PDF）を 1 ドメイン 1 プロセス・2 秒間隔直列で安全にバックフィルする。原本は 800 MB 単位の `.tar.gz` シャードで GitHub Releases へ自動退避し、`--cleanup-local` でローカル原本を削除してディスク消費を抑える。
+
+```bash
+python3 mod/backfill.py --status-only                                                                  # 全 16 省庁の進捗一覧
+python3 mod/backfill.py --wave wave1 --parallel 4 --chunk-html 100 --chunk-pdf 100 --archive --cleanup-local  # 中小型 9 機関を一括実行
+python3 mod/backfill.py --wave wave2 --parallel 4 --chunk-html 100 --chunk-pdf 100 --archive --cleanup-local  # digital/mlit/maff/cas
+python3 mod/backfill.py --agency env --since-year 2024 --until-year 2026 --archive --cleanup-local     # 環境省（年代分割）
+python3 mod/backfill.py --agency mhlw --since-year 2024 --until-year 2026 --archive --cleanup-local    # 厚労省（年代分割）
+```
+
+### 日次更新（全 16 省庁 Matrix・配布資料 PDF 含む）
+
+`.github/workflows/update.yml` は `plan` → `update-agency`（省庁別 Matrix、全 16 省庁並列・`fail-fast: false`）→ `finalize`（単一 commit・横断集計・通知 Issue・失敗時 `exit 1`）の 3 ジョブ構成で動作し、全 16 省庁で議事録・議事要旨・名簿に加え配布資料 PDF と下位 HTML も収集し、月別 Release（`<agency>-pdfs-YYYY-MM` / `<agency>-html-YYYY-MM`）へ原本を保管する。
 
 ```bash
 python3 mod/update.py --agency mod --dry-run                 # 防衛省の変更確認のみ（--agency 省略時は mod）
-python3 mod/update.py --agency digital                       # デジタル庁の更新チェック→表再構築→PDF→回帰検査→イベント記録
-python3 mod/update.py --agency cfa --pdf-types 議事録,議事要旨,名簿 --max-pdfs 15
+python3 mod/update.py --agency digital --fetch-subpages      # デジタル庁の更新チェック→下位HTML→全PDF→回帰検査→索引更新
 python3 mod/update.py --agency mod --check-pdf-updates       # 週次：取得済み PDF の差し替え照合も実施
-python3 mod/cross_agency.py                                  # 全 16 省庁の横断表（data/all/）を更新
+python3 mod/build_index.py --agency all                      # 全 16 省庁の catalog.csv / catalog.jsonl と data/all/index.json を再生成
+python3 mod/cross_agency.py                                  # 全 16 省庁の横断表（data/all/）と index.json を更新
 ```
 
 - 403・429 または `cf-mitigated` が返った場合は即停止し、終了コード 1（未確認）で終了する。リトライしない。

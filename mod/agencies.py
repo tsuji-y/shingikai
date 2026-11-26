@@ -70,12 +70,28 @@ class AgencyConfig:
         return self.raw_dir / "files.csv"
 
     @property
+    def raw_subpages_dir(self) -> Path:
+        return self.raw_dir / "subpages"
+
+    @property
+    def subpages_manifest(self) -> Path:
+        return self.raw_dir / "subpages.csv"
+
+    @property
+    def subpage_links_csv(self) -> Path:
+        return self.raw_dir / "subpage_links.csv"
+
+    @property
     def councils_csv(self) -> Path:
         return self.data_dir / "councils.csv"
 
     @property
     def release_tag_prefix(self) -> str:
         return "pdfs" if self.agency_id == "mod" else f"{self.agency_id}-pdfs"
+
+    @property
+    def html_release_tag_prefix(self) -> str:
+        return f"{self.agency_id}-html"
 
 
 def load_agencies(path: Path = AGENCIES_JSON, repo: Path = REPO) -> dict[str, AgencyConfig]:

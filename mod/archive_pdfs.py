@@ -99,8 +99,9 @@ def ensure_release(tag: str, repo_slug: str, title: str, notes: str, *, runner=s
 
 def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path = fetch_files.FILES_DIR,
                        tag: str = "", agency_name: str = "防衛省", repo_slug: str = "",
-                       dry_run: bool = False, runner=subprocess.run) -> list[tuple[str, str]]:
-    """未アーカイブのローカル PDF を年別 Release にアップロードし、台帳の release_url を更新する。"""
+                       dry_run: bool = False, cleanup_local: bool = False,
+                       runner=subprocess.run) -> list[tuple[str, str]]:
+    """未アーカイブのローカル PDF を年別または月別 Release にアップロードし、台帳の release_url を更新する。"""
     rows = fetch_files.read_manifest(manifest)
     todo = [r for r in rows.values() if needs_upload(r, files_dir)]
     todo.sort(key=lambda r: r["url"])
@@ -137,6 +138,8 @@ def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path
                 )
                 staged.unlink(missing_ok=True)
                 row["release_url"] = dl_url
+                if cleanup_local:
+                    src.unlink(missing_ok=True)
             uploaded.append((url, dl_url))
 
     if uploaded and not dry_run:
@@ -144,11 +147,33 @@ def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path
     return uploaded
 
 
+def _partition_shards(items: list[tuple[dict[str, str], Path]], max_shard_bytes: int) -> list[list[tuple[dict[str, str], Path]]]:
+    """ファイル列を max_shard_bytes 以下のシャードに分割する（0 以下なら単一束）。"""
+    if max_shard_bytes <= 0:
+        return [items] if items else []
+    shards: list[list[tuple[dict[str, str], Path]]] = []
+    cur: list[tuple[dict[str, str], Path]] = []
+    cur_bytes = 0
+    for row, src in items:
+        sz = src.stat().st_size if src.exists() else 0
+        if cur and cur_bytes + sz > max_shard_bytes:
+            shards.append(cur)
+            cur = []
+            cur_bytes = 0
+        cur.append((row, src))
+        cur_bytes += sz
+    if cur:
+        shards.append(cur)
+    return shards
+
+
 def upload_baseline_bundle(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path = fetch_files.FILES_DIR,
                            tag: str = "pdfs-2026-baseline", agency_name: str = "防衛省",
                            bundle_name: str = "", repo_slug: str = "", dry_run: bool = False,
+                           max_shard_bytes: int = 800 * 1024 * 1024, chunk_id: str = "",
+                           cleanup_local: bool = False,
                            runner=subprocess.run) -> list[tuple[str, str]]:
-    """手元の取得済み PDF 原本を 1 本の tar.gz にまとめて Release へアップロードする。"""
+    """手元の取得済み PDF 原本を tar.gz（上限超過時はシャード分割）にまとめて Release へアップロードする。"""
     rows = fetch_files.read_manifest(manifest)
     todo = [r for r in rows.values() if needs_upload(r, files_dir)]
     todo.sort(key=lambda r: r["url"])
@@ -156,39 +181,122 @@ def upload_baseline_bundle(*, manifest: Path = fetch_files.MANIFEST, files_dir: 
         return []
 
     repo_slug = repo_slug or detect_repo_slug()
-    bundle_name = bundle_name or f"shingikai-{tag}.tar.gz"
-    dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{bundle_name}"
+    pairs = [(row, fetch_files.local_path(row["url"], files_dir)) for row in todo]
+    shards = _partition_shards(pairs, max_shard_bytes)
+    base_stem = bundle_name[:-7] if bundle_name.endswith(".tar.gz") else (bundle_name or f"shingikai-{tag}")
+    if chunk_id:
+        base_stem = f"{base_stem}-{chunk_id}"
     archived: list[tuple[str, str]] = []
 
     if dry_run:
-        for row in todo:
-            rel = fetch_files.local_path(row["url"], files_dir).relative_to(files_dir).as_posix()
-            archived.append((row["url"], f"{dl_base}#{rel}"))
+        for idx, shard in enumerate(shards, 1):
+            sname = f"{base_stem}.tar.gz" if len(shards) == 1 else f"{base_stem}-p{idx:03d}.tar.gz"
+            dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{sname}"
+            for row, src in shard:
+                rel = src.relative_to(files_dir).as_posix()
+                archived.append((row["url"], f"{dl_base}#{rel}"))
         return archived
 
     ensure_release(
         tag,
         repo_slug,
         title=f"{agency_name} 審議会等 PDF Baseline ({tag})",
-        notes=f"{agency_name}審議会等の既存 PDF 原本一括アーカイブ（{len(todo)} 件。出典：{agency_name}ウェブサイト、PDL1.0）。",
+        notes=f"{agency_name}審議会等の PDF 原本一括アーカイブ（出典：{agency_name}ウェブサイト、PDL1.0）。",
         runner=runner,
     )
-    with tempfile.TemporaryDirectory() as td:
-        tar_path = Path(td) / bundle_name
-        with tarfile.open(tar_path, "w:gz") as tf:
-            for row in todo:
-                src = fetch_files.local_path(row["url"], files_dir)
-                rel = src.relative_to(files_dir).as_posix()
-                tf.add(src, arcname=rel)
-                archived.append((row["url"], f"{dl_base}#{rel}"))
-        runner(
-            ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
-            check=True,
-        )
+    for idx, shard in enumerate(shards, 1):
+        sname = f"{base_stem}.tar.gz" if len(shards) == 1 else f"{base_stem}-p{idx:03d}.tar.gz"
+        dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{sname}"
+        shard_archived: list[tuple[str, str, Path]] = []
+        with tempfile.TemporaryDirectory() as td:
+            tar_path = Path(td) / sname
+            with tarfile.open(tar_path, "w:gz") as tf:
+                for row, src in shard:
+                    rel = src.relative_to(files_dir).as_posix()
+                    tf.add(src, arcname=rel)
+                    shard_archived.append((row["url"], f"{dl_base}#{rel}", src))
+            runner(
+                ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
+                check=True,
+            )
+        for url, rel_url, src in shard_archived:
+            rows[url]["release_url"] = rel_url
+            archived.append((url, rel_url))
+            if cleanup_local:
+                src.unlink(missing_ok=True)
+        # シャードごとに台帳をチェックポイント保存
+        fetch_files.write_manifest(rows, manifest)
+    return archived
 
-    for url, rel_url in archived:
-        rows[url]["release_url"] = rel_url
-    fetch_files.write_manifest(rows, manifest)
+
+def upload_subpages_bundle(*, manifest: Path, subpages_dir: Path,
+                           tag: str, agency_name: str = "防衛省",
+                           repo_slug: str = "", dry_run: bool = False,
+                           max_shard_bytes: int = 800 * 1024 * 1024, chunk_id: str = "",
+                           cleanup_local: bool = False,
+                           runner=subprocess.run) -> list[tuple[str, str]]:
+    """取得済み下位 HTML 原本（raw/<ag>/subpages/）を tar.gz で GitHub Releases へ保管する。"""
+    import fetch_subpages
+
+    rows = fetch_subpages.read_manifest(manifest)
+    pairs: list[tuple[dict[str, str], Path]] = []
+    for url in sorted(rows):
+        row = rows[url]
+        if not row.get("sha256") or row.get("release_url"):
+            continue
+        try:
+            src = fetch_subpages.local_path(url, subpages_dir)
+        except ValueError:
+            continue
+        if src.exists():
+            pairs.append((row, src))
+    if not pairs:
+        return []
+
+    repo_slug = repo_slug or detect_repo_slug()
+    shards = _partition_shards(pairs, max_shard_bytes)
+    base_stem = f"shingikai-{tag}"
+    if chunk_id:
+        base_stem = f"{base_stem}-{chunk_id}"
+    archived: list[tuple[str, str]] = []
+
+    if dry_run:
+        for idx, shard in enumerate(shards, 1):
+            sname = f"{base_stem}.tar.gz" if len(shards) == 1 else f"{base_stem}-p{idx:03d}.tar.gz"
+            dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{sname}"
+            for row, src in shard:
+                rel = src.relative_to(subpages_dir).as_posix()
+                archived.append((row["url"], f"{dl_base}#{rel}"))
+        return archived
+
+    ensure_release(
+        tag,
+        repo_slug,
+        title=f"{agency_name} 審議会等 下位HTMLアーカイブ ({tag})",
+        notes=f"{agency_name}審議会等の下位 HTML 原本アーカイブ（出典：{agency_name}ウェブサイト、PDL1.0）。",
+        runner=runner,
+    )
+    for idx, shard in enumerate(shards, 1):
+        sname = f"{base_stem}.tar.gz" if len(shards) == 1 else f"{base_stem}-p{idx:03d}.tar.gz"
+        dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{sname}"
+        shard_archived: list[tuple[str, str, Path]] = []
+        with tempfile.TemporaryDirectory() as td:
+            tar_path = Path(td) / sname
+            with tarfile.open(tar_path, "w:gz") as tf:
+                for row, src in shard:
+                    rel = src.relative_to(subpages_dir).as_posix()
+                    tf.add(src, arcname=rel)
+                    shard_archived.append((row["url"], f"{dl_base}#{rel}", src))
+            runner(
+                ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
+                check=True,
+            )
+        for url, rel_url, src in shard_archived:
+            rows[url]["release_url"] = rel_url
+            archived.append((url, rel_url))
+            if cleanup_local:
+                src.unlink(missing_ok=True)
+        fetch_subpages.write_manifest(rows, manifest)
     return archived
 
 
@@ -198,28 +306,50 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--agency", default="mod", help="対象の省庁 ID（既定: mod）")
     ap.add_argument("--tag", default="", help="アップロード先の Release タグ（既定: <agency>-pdfs-YYYY）")
+    ap.add_argument("--monthly", action="store_true", help="タグを月別（<prefix>-YYYY-MM）にして 1000 アセット上限を回避する")
     ap.add_argument("--repo", default="", help="GitHub リポジトリ（owner/repo。省略時は origin から自動判定）")
-    ap.add_argument("--bundle", action="store_true", help="手元の対象 PDF を tar.gz にまとめて 1 本でアップロードする")
+    ap.add_argument("--bundle", action="store_true", help="手元の対象 PDF を tar.gz（800MB シャード分割）でアップロードする")
+    ap.add_argument("--subpages", action="store_true", help="下位 HTML 原本（raw/<ag>/subpages/）を tar.gz でアップロードする")
+    ap.add_argument("--chunk-id", default="", help="バンドルファイル名に付与するチャンク識別子（既存アセットの上書き防止）")
+    ap.add_argument("--max-shard-mb", type=int, default=800, help="1 シャードの最大サイズ（MB。既定: 800）")
+    ap.add_argument("--cleanup-local", action="store_true", help="アップロード成功後にローカルの原本ファイルを削除する")
     ap.add_argument("--dry-run", action="store_true", help="アップロードと台帳更新を行わず対象だけ表示する")
     args = ap.parse_args()
 
     ag = agencies.get_agency(args.agency)
-    year = datetime.now(timezone.utc).year
-    if args.bundle:
-        tag = args.tag or f"{ag.release_tag_prefix}-{year}-baseline"
+    now = datetime.now(timezone.utc)
+    period = now.strftime("%Y-%m") if args.monthly else str(now.year)
+    max_shard_bytes = args.max_shard_mb * 1024 * 1024
+
+    if args.subpages:
+        tag = args.tag or f"{ag.html_release_tag_prefix}-{period}"
+        res = upload_subpages_bundle(
+            manifest=ag.subpages_manifest, subpages_dir=ag.raw_subpages_dir,
+            tag=tag, agency_name=ag.name, repo_slug=args.repo, dry_run=args.dry_run,
+            max_shard_bytes=max_shard_bytes, chunk_id=args.chunk_id,
+            cleanup_local=args.cleanup_local,
+        )
+        kind = "下位HTML"
+    elif args.bundle:
+        tag = args.tag or (f"{ag.release_tag_prefix}-{period}" if args.monthly else f"{ag.release_tag_prefix}-{period}-baseline")
         res = upload_baseline_bundle(
             manifest=ag.files_manifest, files_dir=ag.raw_files_dir,
             tag=tag, agency_name=ag.name, repo_slug=args.repo, dry_run=args.dry_run,
+            max_shard_bytes=max_shard_bytes, chunk_id=args.chunk_id,
+            cleanup_local=args.cleanup_local,
         )
+        kind = "PDF"
     else:
-        tag = args.tag or f"{ag.release_tag_prefix}-{year}"
+        tag = args.tag or f"{ag.release_tag_prefix}-{period}"
         res = upload_incremental(
             manifest=ag.files_manifest, files_dir=ag.raw_files_dir,
             tag=tag, agency_name=ag.name, repo_slug=args.repo, dry_run=args.dry_run,
+            cleanup_local=args.cleanup_local,
         )
+        kind = "PDF"
 
     tag_str = "（dry-run）" if args.dry_run else ""
-    print(f"[{ag.agency_id}] PDF アーカイブ対象: {len(res)} 件{tag_str}")
+    print(f"[{ag.agency_id}] {kind} アーカイブ対象: {len(res)} 件{tag_str}")
     for url, rel_url in res[:20]:
         print(f"  {url} -> {rel_url}")
     if len(res) > 20:

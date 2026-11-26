@@ -27,10 +27,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import agencies  # noqa: E402
 import build_db  # noqa: E402
+import build_index  # noqa: E402
 import check_updates  # noqa: E402
 import events  # noqa: E402
 import extract_text  # noqa: E402
 import fetch_files  # noqa: E402
+import fetch_subpages  # noqa: E402
 import ingest_pages  # noqa: E402
 import pages  # noqa: E402
 import persons  # noqa: E402
@@ -55,6 +57,7 @@ class UpdateOutcome:
     changed_pages: list[str] = field(default_factory=list)
     new_pages: list[str] = field(default_factory=list)
     gone_pages: list[str] = field(default_factory=list)
+    saved_subpages: list[str] = field(default_factory=list)
     saved_pdfs: list[str] = field(default_factory=list)
     replaced_pdfs: list[str] = field(default_factory=list)
     events: list[dict[str, str]] = field(default_factory=list)
@@ -143,11 +146,13 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
                council: str = "", limit: int = 0, max_new_pages: int = check_updates.MAX_NEW_PAGES,
                discover_unfetched: bool = False, discover_tops_only: bool = False,
                tier_mode: str = "all", recent_days: int = 60, pdf_types: set[str] | None = None,
-               max_pdfs: int = 0, dry_run: bool = False, skip_fetch: bool = False,
+               max_pdfs: int = 0, fetch_subpages_enabled: bool = False, max_subpages: int = 0,
+               dry_run: bool = False, skip_fetch: bool = False,
                skip_pdf: bool = False, check_pdf_updates: bool = False,
                changed_pages_hint: list[str] | None = None,
                interval: float = check_updates.INTERVAL, summary_out: Path | None = None,
                page_fetcher=check_updates.fetch_page, pdf_fetcher=fetch_files.fetch,
+               subpage_fetcher=fetch_subpages.fetch_html,
                text_extractor=_extract_new_texts) -> UpdateOutcome:
     ag = agencies.get_agency(agency_id, repo=repo)
     data_dir = data_dir or ag.data_dir
@@ -161,7 +166,7 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
     text_dir = data_dir / "text"
     events_csv = data_dir / "events.csv"
     members_history_csv = data_dir / "members_history.csv"
-    allowed_pdf_hosts = [ag.primary_host]
+    allowed_pdf_hosts = list(ag.hosts)
 
     outcome = UpdateOutcome()
     now_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -210,7 +215,7 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
     if dry_run:
         return outcome
 
-    # 変更がなく PDF 照合も未指定で未取得 PDF もなければ、表を作り直さずに終了する
+    # 変更がなく PDF 照合も未指定で未取得 PDF・未取得下位 HTML もなければ、表を作り直さずに終了する
     pending_pdfs = []
     if not skip_pdf and documents_csv.exists():
         pending_pdfs = fetch_files.select_targets(
@@ -218,7 +223,14 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
             fetch_files.read_manifest(files_manifest),
             files_dir=raw_files_dir,
         )
-    if not skip_fetch and not affected_pages and not check_pdf_updates and not pending_pdfs:
+    pending_subpages = []
+    if fetch_subpages_enabled and documents_csv.exists():
+        sp_done = fetch_subpages.read_manifest(ag.subpages_manifest)
+        pending_subpages = [
+            t for t in fetch_subpages.collect_targets(ag, council=council, include_discovered=False)
+            if t.url not in sp_done
+        ]
+    if not skip_fetch and not affected_pages and not check_pdf_updates and not pending_pdfs and not pending_subpages:
         return outcome
 
     # 3. 表の作り直し（一覧ページが変わっていれば councils.csv も同期）
@@ -235,6 +247,32 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
         repo=repo, base_url=ag.base_url, hosts=ag.hosts,
     )
     _write_built_tables(built, data_dir)
+
+    # 3.5. 下位 HTML の取得・本文抽出・内包 PDF リンクの発見（有効時）
+    if fetch_subpages_enabled:
+        try:
+            sp_res = fetch_subpages.fetch_subpages(
+                ag,
+                limit=max_subpages,
+                council=council,
+                include_discovered=False,
+                dry_run=False,
+                interval=interval,
+                fetcher=subpage_fetcher,
+            )
+            outcome.saved_subpages = list(sp_res.saved)
+        except fetch_subpages.Blocked as e:
+            _restore_tables(backups)
+            outcome.ok = False
+            outcome.exit_code = 1
+            outcome.error = f"下位 HTML 取得が遮断されました: {e}"
+            return outcome
+        if outcome.saved_subpages:
+            built = build_db.build(
+                councils_csv, pages_manifest, raw_pages_dir, texts_csv,
+                repo=repo, base_url=ag.base_url, hosts=ag.hosts,
+            )
+            _write_built_tables(built, data_dir)
 
     # 4. PDF 取得・差し替え照合・本文抽出・再構築
     changed_doc_keys: set[str] = set()
@@ -304,6 +342,10 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
     events.append_events(ev_list, path=events_csv)
     outcome.events = ev_list
 
+    # 統一検索索引（catalog.csv / catalog.jsonl）を最新化
+    if data_dir == ag.data_dir:
+        build_index.build_agency_catalog(ag, write=True)
+
     if summary_out and (ev_list or outcome.new_warnings):
         summary_out.parent.mkdir(parents=True, exist_ok=True)
         summary_out.write_text(
@@ -336,6 +378,10 @@ def main() -> int:
                     help="取得する PDF の doc_type をカンマ区切りで絞る（例: 議事録,議事要旨,名簿）")
     ap.add_argument("--max-pdfs", type=int, default=0,
                     help="1 回に取得する新規 PDF の上限（0 は無制限）")
+    ap.add_argument("--fetch-subpages", action="store_true",
+                    help="documents.csv の未取得下位 HTML を取得して本文抽出・内包 PDF 発見を行う")
+    ap.add_argument("--max-subpages", type=int, default=30,
+                    help="1 回に取得する下位 HTML の上限（0 は無制限。既定: 30）")
     ap.add_argument("--max-llm-calls", type=int, default=20, help="1 回の実行での LLM 呼び出し上限（Phase 3 用）")
     ap.add_argument("--check-pdf-updates", action="store_true",
                     help="取得済み PDF 全件を条件付き取得で照合し、差し替えを検知する")
@@ -361,6 +407,8 @@ def main() -> int:
         recent_days=args.recent_days,
         pdf_types=pdf_types,
         max_pdfs=args.max_pdfs,
+        fetch_subpages_enabled=args.fetch_subpages,
+        max_subpages=args.max_subpages,
         dry_run=args.dry_run,
         skip_fetch=args.skip_fetch,
         skip_pdf=args.skip_pdf,
@@ -374,14 +422,15 @@ def main() -> int:
         return out.exit_code
 
     tag = "（dry-run）" if args.dry_run else ""
-    if not (out.changed_pages or out.new_pages or out.gone_pages or out.saved_pdfs or out.replaced_pdfs or out.events):
+    if not (out.changed_pages or out.new_pages or out.gone_pages or out.saved_subpages
+            or out.saved_pdfs or out.replaced_pdfs or out.events):
         print(f"[{args.agency}] 変更なし{tag}")
         return 0
 
     print(
         f"[{args.agency}] 更新完了{tag}: 変更ページ {len(out.changed_pages)} / 新規ページ {len(out.new_pages)} / "
-        f"消失 {len(out.gone_pages)} / 新規PDF {len(out.saved_pdfs)} / 差し替えPDF {len(out.replaced_pdfs)} / "
-        f"イベント {len(out.events)} 件 / 名簿履歴退避 {out.archived_members} 行"
+        f"消失 {len(out.gone_pages)} / 下位HTML {len(out.saved_subpages)} / 新規PDF {len(out.saved_pdfs)} / "
+        f"差し替えPDF {len(out.replaced_pdfs)} / イベント {len(out.events)} 件 / 名簿履歴退避 {out.archived_members} 行"
     )
     for ev in out.events[:30]:
         print(f"  [{ev['event_type']}] {ev['council_id']} {ev['target_key']}: {ev['before']} -> {ev['after']}")

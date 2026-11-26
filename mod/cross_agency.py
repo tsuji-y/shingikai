@@ -21,6 +21,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import agencies  # noqa: E402
 import build_db  # noqa: E402
+import build_index  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 ALL_DIR = REPO / "data" / "all"
@@ -28,7 +29,7 @@ ALL_DIR = REPO / "data" / "all"
 AGENCY_SUMMARY_FIELDS = [
     "agency_id", "name", "tier", "stage", "base_url",
     "councils", "meetings", "documents", "members", "persons",
-    "pages", "pdfs", "last_fetched_at",
+    "pages", "pdfs", "last_fetched_at", "pdfs_target", "subpages", "texts",
 ]
 PERSON_CROSS_FIELDS = [
     "person_id", "name", "agency_count", "agencies",
@@ -63,11 +64,22 @@ def build_cross_tables(repo: Path = REPO, *, max_events: int = 1000,
         persons_rows = _read_csv(ag.data_dir / "persons.csv")
         pages_rows = _read_csv(ag.pages_manifest)
         files_rows = _read_csv(ag.files_manifest)
+        subpages_rows = _read_csv(ag.subpages_manifest)
+        texts_rows = _read_csv(ag.data_dir / "texts.csv")
         events_rows = _read_csv(ag.data_dir / "events.csv")
 
         ok_pages = [r for r in pages_rows if r.get("status") == "200"]
         ok_pdfs = [r for r in files_rows if r.get("sha256")]
-        last_fetched = max((r.get("fetched_at", "") for r in pages_rows), default="")
+        ok_subpages = [r for r in subpages_rows if r.get("sha256")]
+        ok_texts = [r for r in texts_rows if r.get("text")]
+        allowed = set(ag.hosts)
+        pdfs_target = len({r["url"] for r in documents if r.get("format") == "pdf" and r.get("host") in allowed})
+        last_fetched = max(
+            [r.get("fetched_at", "") for r in pages_rows]
+            + [r.get("fetched_at", "") for r in files_rows]
+            + [r.get("fetched_at", "") for r in subpages_rows],
+            default="",
+        )
 
         agency_rows.append({
             "agency_id": aid,
@@ -83,6 +95,9 @@ def build_cross_tables(repo: Path = REPO, *, max_events: int = 1000,
             "pages": str(len(ok_pages)),
             "pdfs": str(len(ok_pdfs)),
             "last_fetched_at": last_fetched,
+            "pdfs_target": str(pdfs_target),
+            "subpages": str(len(ok_subpages)),
+            "texts": str(len(ok_texts)),
         })
 
         for p in persons_rows:
@@ -157,6 +172,7 @@ def build_cross_tables(repo: Path = REPO, *, max_events: int = 1000,
         build_db.write_csv(out_dir / "agencies.csv", AGENCY_SUMMARY_FIELDS, agency_rows)
         build_db.write_csv(out_dir / "persons_cross.csv", PERSON_CROSS_FIELDS, person_cross_rows)
         build_db.write_csv(out_dir / "recent_events.csv", RECENT_EVENT_FIELDS, all_events)
+        build_index.build_all_index(repo=repo, rebuild_catalogs=False, write=True)
 
     return agency_rows, person_cross_rows, all_events
 
