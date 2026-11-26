@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import posixpath
 import re
 import sys
 import time
@@ -80,18 +81,31 @@ class SubpageSummary:
     discovered_pdfs: int = 0
 
 
+def _safe_norm_path(raw_path: str) -> str:
+    """URL パス内の /../ や // を正規化し、ルート外へ出ない安全な絶対パスを返す。"""
+    p = raw_path or "/"
+    trailing = p.endswith("/")
+    norm = posixpath.normpath(p)
+    if not norm.startswith("/"):
+        norm = "/" + norm
+    if trailing and norm != "/" and not norm.endswith("/"):
+        norm = norm + "/"
+    return norm
+
+
 def local_path(url: str, root: Path) -> Path:
     """下位 HTML のローカル保存先。拡張子なし URL は <path>/index.html に保存する。"""
     sp = urlsplit(url)
-    path = sp.path or "/"
+    path = _safe_norm_path(sp.path or "/")
     return ingest_pages.local_path(path, root)
 
 
 def html_text_path(url: str, text_dir: Path) -> Path:
     """下位 HTML から抽出したテキストの保存先。PDF テキストと衝突しない一意なパスを返す。"""
     sp = urlsplit(url)
-    parts = [unquote(p) for p in sp.path.strip("/").split("/") if p]
-    if not parts or sp.path.endswith("/"):
+    norm = _safe_norm_path(sp.path or "/")
+    parts = [unquote(p) for p in norm.strip("/").split("/") if p]
+    if not parts or norm.endswith("/"):
         parts.append("index.html")
     last = parts[-1]
     if last.lower().endswith((".html", ".htm")):
@@ -424,48 +438,53 @@ def fetch_subpages(ag: agencies.AgencyConfig, *, limit: int = 0, retry: bool = F
             "release_url": "",
         }
         if resp.status == 200 and resp.body is not None:
-            sha = hashlib.sha256(resp.body).hexdigest()
-            raw_out = local_path(t.url, ag.raw_subpages_dir)
-            raw_out.parent.mkdir(parents=True, exist_ok=True)
-            raw_out.write_bytes(resp.body)
-            row["bytes"] = str(len(resp.body))
-            row["sha256"] = sha
-
-            sp = urlsplit(t.url)
-            base_for_url = f"{sp.scheme}://{sp.netloc}"
-            blocks = pages.parse(pages.decode(resp.body), sp.path or "/", base_url=base_for_url)
-            text = blocks_to_text(blocks)
-            txt_out = html_text_path(t.url, text_dir)
-            txt_out.parent.mkdir(parents=True, exist_ok=True)
-            txt_out.write_text(text, encoding="utf-8", newline="\n")
             try:
-                rel_txt = txt_out.relative_to(ag.repo).as_posix()
-            except ValueError:
-                rel_txt = str(txt_out)
-            chars = sum(1 for ch in text if not ch.isspace())
-            row["text"] = rel_txt
-            texts_done[t.url] = {
-                "url": t.url,
-                "text": rel_txt,
-                "pages": "1",
-                "chars": str(chars),
-                "sha256": sha,
-                "note": "HTML本文" if chars >= 20 else "本文がほとんど取れない（HTML）",
-            }
-            texts_dirty = True
+                raw_out = local_path(t.url, ag.raw_subpages_dir)
+                txt_out = html_text_path(t.url, text_dir)
+            except ValueError as e:
+                row["note"] = str(e)[:200]
+                summary.failed.append((t.url, row["note"]))
+            else:
+                sha = hashlib.sha256(resp.body).hexdigest()
+                raw_out.parent.mkdir(parents=True, exist_ok=True)
+                raw_out.write_bytes(resp.body)
+                row["bytes"] = str(len(resp.body))
+                row["sha256"] = sha
 
-            pdfs = extract_pdf_links(
-                blocks, source_url=t.url, council_id=t.council_id,
-                meeting_id=t.meeting_id, allowed_hosts=allowed_hosts,
-            )
-            row["discovered_pdfs"] = str(len(pdfs))
-            for pdf in pdfs:
-                key = (pdf["source_url"], pdf["url"])
-                if key not in link_rows:
-                    summary.discovered_pdfs += 1
-                link_rows[key] = pdf
-                links_dirty = True
-            summary.saved.append(t.url)
+                sp = urlsplit(t.url)
+                base_for_url = f"{sp.scheme}://{sp.netloc}"
+                blocks = pages.parse(pages.decode(resp.body), sp.path or "/", base_url=base_for_url)
+                text = blocks_to_text(blocks)
+                txt_out.parent.mkdir(parents=True, exist_ok=True)
+                txt_out.write_text(text, encoding="utf-8", newline="\n")
+                try:
+                    rel_txt = txt_out.relative_to(ag.repo).as_posix()
+                except ValueError:
+                    rel_txt = str(txt_out)
+                chars = sum(1 for ch in text if not ch.isspace())
+                row["text"] = rel_txt
+                texts_done[t.url] = {
+                    "url": t.url,
+                    "text": rel_txt,
+                    "pages": "1",
+                    "chars": str(chars),
+                    "sha256": sha,
+                    "note": "HTML本文" if chars >= 20 else "本文がほとんど取れない（HTML）",
+                }
+                texts_dirty = True
+
+                pdfs = extract_pdf_links(
+                    blocks, source_url=t.url, council_id=t.council_id,
+                    meeting_id=t.meeting_id, allowed_hosts=allowed_hosts,
+                )
+                row["discovered_pdfs"] = str(len(pdfs))
+                for pdf in pdfs:
+                    key = (pdf["source_url"], pdf["url"])
+                    if key not in link_rows:
+                        summary.discovered_pdfs += 1
+                    link_rows[key] = pdf
+                    links_dirty = True
+                summary.saved.append(t.url)
         else:
             err_msg = resp.error or f"HTTP {resp.status}"
             summary.failed.append((t.url, err_msg))

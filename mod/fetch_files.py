@@ -251,13 +251,21 @@ def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir:
         row, body = fetcher(url)
         summary.checked += 1
         if body is not None:
-            path = local_path(url, files_dir)
-            path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_bytes(body)
-            summary.saved.append(url)
-            if old and old.get("sha256") == row.get("sha256") and old.get("release_url"):
-                row["release_url"] = old["release_url"]
-            rows[url] = row
+            try:
+                path = local_path(url, files_dir)
+            except ValueError as e:
+                row["sha256"] = ""
+                row["note"] = str(e)[:200]
+                summary.failed.append(url)
+                if not (refetch_missing and old and old.get("sha256")):
+                    rows[url] = row
+            else:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(body)
+                summary.saved.append(url)
+                if old and old.get("sha256") == row.get("sha256") and old.get("release_url"):
+                    row["release_url"] = old["release_url"]
+                rows[url] = row
         else:
             summary.failed.append(url)
             if not (refetch_missing and old and old.get("sha256")):

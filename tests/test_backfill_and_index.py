@@ -275,6 +275,19 @@ class ShardedArchivingTest(unittest.TestCase):
             p = fetch_files.local_path("https://www.ppc.go.jp/files/pdf//250919_gijiroku.pdf", root)
             self.assertEqual(p, root / "files" / "pdf" / "250919_gijiroku.pdf")
 
+    def test_subpage_dotdot_url_resolves_safely_inside_root(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            url = "https://www.mhlw.go.jp/shingi/../shingi/2009/10/s1019-3.html"
+            self.assertEqual(
+                fetch_subpages.local_path(url, root),
+                root / "shingi" / "2009" / "10" / "s1019-3.html",
+            )
+            self.assertEqual(
+                fetch_subpages.html_text_path(url, root),
+                root / "shingi" / "2009" / "10" / "s1019-3.txt",
+            )
+
 
 if __name__ == "__main__":
     unittest.main()
