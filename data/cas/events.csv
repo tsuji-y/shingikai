@@ -10966,3 +10966,14 @@ detected_at,event_type,council_id,meeting_id,target_key,before,after,source
 2026-11-25T04:56:02+00:00,member_added,gaikokujinzai,,gaikokujinzai/外国人の受入れ・秩序ある共生社会実現に関する関係閣僚会議/平成,,30年 ７ 月 24日,/jp/seisakukaigi/gaikokujinzai/index.html
 2026-11-25T04:56:02+00:00,member_added,gaikokujinzai,,gaikokujinzai/外国人の受入れ・秩序ある共生社会実現に関する関係閣僚会議/閣議口頭了解,,令和３年１月 29日,/jp/seisakukaigi/gaikokujinzai/index.html
 2026-11-25T04:56:02+00:00,member_added,gaikokujinzai,,gaikokujinzai/外国人の受入れ・秩序ある共生社会実現に関する関係閣僚会議/令和,,５年６ 月６日,/jp/seisakukaigi/gaikokujinzai/index.html
+2026-11-26T04:12:01+00:00,council_added,cao-thinktank,,cao-thinktank,,経済安全保障推進法に基づく官民協議会,/jp/seisaku/index.html
+2026-11-26T04:12:01+00:00,page_added,pqc,,/jp/seisaku/pqc/dai1/gijisidai.html,,200,/jp/seisaku/pqc/dai1/gijisidai.html
+2026-11-26T04:12:01+00:00,page_added,pqc,,/jp/seisaku/pqc/dai2/gijishidai.html,,200,/jp/seisaku/pqc/dai2/gijishidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#6,www.cas.go.jp/jp/seisaku/pqc/kanjikai/dai6/gijiyoushi.pdf,,議事要旨: 議事要旨（PDF／184KB）,/jp/seisaku/pqc/index.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#1@2025-07-31,www.cas.go.jp/jp/seisaku/pqc/dai1/siryou1-1.pdf,,開催案内: 政府機関等における耐量子計算機暗号（PQC）利用に関する関係府省庁連絡会議の開催について（関係府省申合せ案）（PDF／143KB）,/jp/seisaku/pqc/dai1/gijisidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#1@2025-07-31,www.cas.go.jp/jp/seisaku/pqc/dai1/siryou1-2.pdf,,規程: 政府機関等における耐量子計算機暗号（PQC）利用に関する関係府省連絡会議 運営要領（案）（PDF／139KB）,/jp/seisaku/pqc/dai1/gijisidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#1@2025-07-31,www.cas.go.jp/jp/seisaku/pqc/dai1/siryou2.pdf,,資料: 政府機関等の耐量子計算機暗号（PQC）利用に関する検討の背景等について（PDF／163KB）,/jp/seisaku/pqc/dai1/gijisidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#1@2025-07-31,www.cas.go.jp/jp/seisaku/pqc/dai1/siryou3.pdf,,その他: 検討すべき論点（案）（PDF／141KB）,/jp/seisaku/pqc/dai1/gijisidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#1@2025-07-31,www.cas.go.jp/jp/seisaku/pqc/dai1/siryou4.pdf,,その他: 今後のスケジュール（案）（PDF／100KB）,/jp/seisaku/pqc/dai1/gijisidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#2@2025-09-08,www.cas.go.jp/jp/seisaku/pqc/dai2/shiryo1.pdf,,報告書: 政府機関等における耐量子計算機暗号（PQC）への移行について（中間とりまとめ）（案）（PDF／225KB）,/jp/seisaku/pqc/dai2/gijishidai.html
+2026-11-26T04:12:01+00:00,document_added,pqc,pqc#2@2025-09-08,www.cas.go.jp/jp/seisaku/pqc/dai2/sanko.pdf,,報告書: 政府機関等における耐量子計算機暗号（PQC）への移行について（中間とりまとめ）（案）の概要（PDF／3.1MB）,/jp/seisaku/pqc/dai2/gijishidai.html

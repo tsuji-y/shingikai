@@ -1068,3 +1068,5 @@ detected_at,event_type,council_id,meeting_id,target_key,before,after,source
 2026-11-25T04:56:02+00:00,member_added,hourei-shiryou-hanrei/housei03_00006,,hourei-shiryou-hanrei/housei03_00006/構成員/浜辺陽一郎,,青山学院大学法学部教授,/housei/hourei-shiryou-hanrei/housei03_00006.html
 2026-11-25T04:56:02+00:00,member_added,hourei-shiryou-hanrei/housei03_00006,,hourei-shiryou-hanrei/housei03_00006/構成員/藤澤尚江,,北海道大学大学院法学研究科教授,/housei/hourei-shiryou-hanrei/housei03_00006.html
 2026-11-25T04:56:02+00:00,member_added,hourei-shiryou-hanrei/housei03_00006,,hourei-shiryou-hanrei/housei03_00006/構成員/堀田周吾,,東京都立大学法学部教授,/housei/hourei-shiryou-hanrei/housei03_00006.html
+2026-11-26T04:12:01+00:00,meeting_added,1/housei02_003007_00014,1/housei02_003007_00014#20,1/housei02_003007_00014#20,,2026-11-25,/shingi1/housei02_003007_00014.html
+2026-11-26T04:12:01+00:00,document_added,1/housei02_003007_00014,1/housei02_003007_00014#20,www.moj.go.jp/shingi1/shingi04900001_00346.html,,その他: 法制審議会会社法制（株式・株主総会等関係）部会第２０回会議（令和８年１１月２５日開催）,/shingi1/housei02_003007_00014.html
