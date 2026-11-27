@@ -27,8 +27,8 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 01chuo/yoshi01#29,01chuo/yoshi01,,29,,2022-09-01,令和4年9月1日,,,,,,2,link,/council/01chuo/yoshi01.html
 01chuo/yoshi01#30,01chuo/yoshi01,,30,,2023-02-14,令和5年2月14日,,,,,,2,link,/council/01chuo/yoshi01.html
 01chuo/yoshi01#31,01chuo/yoshi01,,31,,2023-11-21,令和5年11月21日,,,,,,2,link,/council/01chuo/yoshi01.html
-01chuo/yoshi01#32,01chuo/yoshi01,,32,,2024-09-18,令和6年9月18日,,,,,,2,link,/council/01chuo/yoshi01.html
-01chuo/yoshi01#33,01chuo/yoshi01,,33,,2025-02-12,令和7年2月12日,,,,,,2,link,/council/01chuo/yoshi01.html
+01chuo/yoshi01#32,01chuo/yoshi01,,32,,2024-09-18,令和6年9月18日,10:00-12:00,,,,,18,link+pdf,/council/01chuo/yoshi01.html
+01chuo/yoshi01#33,01chuo/yoshi01,,33,,2025-02-12,令和7年2月12日,10:00-12:00,,,,,11,link+pdf,/council/01chuo/yoshi01.html
 01chuo/yoshi01#34,01chuo/yoshi01,,34,,2026-09-11,令和8年9月11日,13:30-15:30,,,,,16,link+pdf,/council/01chuo/yoshi01.html
 01chuo/yoshi01@2001-07-13,01chuo/yoshi01,,,,2001-07-13,平成13年7月13日,,,,,,2,link,/council/01chuo/yoshi01.html
 01chuo/yoshi01@2007-10-31,01chuo/yoshi01,,,,2007-10-31,平成19年10月31日,,,,,,3,link,/council/01chuo/yoshi01.html
@@ -145,16 +145,16 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 02policy/yoshi02#110,02policy/yoshi02,,110,,2023-08-30,令和5年8月30日,,,,,,2,link,/council/02policy/yoshi02.html
 02policy/yoshi02#111,02policy/yoshi02,,111,,2023-09-29,令和5年9月29日,,,,,,1,link,/council/02policy/yoshi02.html
 02policy/yoshi02#112,02policy/yoshi02,,112,,2023-12-20,令和5年12月20日,,,,,,2,link,/council/02policy/yoshi02.html
-02policy/yoshi02#113,02policy/yoshi02,,113,,2024-01-29,令和6年1月29日,,,,,,2,link,/council/02policy/yoshi02.html
-02policy/yoshi02#114,02policy/yoshi02,,114,,2024-02-01,令和6年2月1日,,,,,,1,link,/council/02policy/yoshi02.html
-02policy/yoshi02#115,02policy/yoshi02,,115,,2024-02-26,令和6年2月26日,,,,,,2,link,/council/02policy/yoshi02.html
-02policy/yoshi02#116,02policy/yoshi02,,116,,2024-05-09,令和6年5月9日,,,,,,2,link,/council/02policy/yoshi02.html
-02policy/yoshi02#117,02policy/yoshi02,,117,,2024-07-26,令和6年7月26日,,,,,,1,link,/council/02policy/yoshi02.html
-02policy/yoshi02#118,02policy/yoshi02,,118,,2025-03-13,令和7年3月13日,,,,,,2,link,/council/02policy/yoshi02.html
-02policy/yoshi02#119,02policy/yoshi02,,119,,2025-03-26,令和7年3月26日,,,,,,1,link,/council/02policy/yoshi02.html
-02policy/yoshi02#120,02policy/yoshi02,,120,,2025-07-14,令和7年7月14日,,,,,,2,link,/council/02policy/yoshi02.html
-02policy/yoshi02#121,02policy/yoshi02,,121,,2026-02-27,令和8年2月27日,,,,,,1,link,/council/02policy/yoshi02.html
-02policy/yoshi02#122,02policy/yoshi02,,122,,2026-07-31,令和8年7月31日,,,,,,2,link,/council/02policy/yoshi02.html
+02policy/yoshi02#113,02policy/yoshi02,,113,,2024-01-29,令和6年1月29日,09:30-11:56,,,,,8,link+pdf,/council/02policy/yoshi02.html
+02policy/yoshi02#114,02policy/yoshi02,,114,,2024-02-01,令和6年2月1日,,,,,,5,link,/council/02policy/yoshi02.html
+02policy/yoshi02#115,02policy/yoshi02,,115,,2024-02-26,令和6年2月26日,15:00-17:42,,,,,13,link+pdf,/council/02policy/yoshi02.html
+02policy/yoshi02#116,02policy/yoshi02,,116,,2024-05-09,令和6年5月9日,14:00-16:33,,,,,14,link+pdf,/council/02policy/yoshi02.html
+02policy/yoshi02#117,02policy/yoshi02,,117,,2024-07-26,令和6年7月26日,,,,,,7,link,/council/02policy/yoshi02.html
+02policy/yoshi02#118,02policy/yoshi02,,118,,2025-03-13,令和7年3月13日,10:00-12:05,,,,,7,link+pdf,/council/02policy/yoshi02.html
+02policy/yoshi02#119,02policy/yoshi02,,119,,2025-03-26,令和7年3月26日,,,,,,4,link,/council/02policy/yoshi02.html
+02policy/yoshi02#120,02policy/yoshi02,,120,,2025-07-14,令和7年7月14日,10:01-12:08,,,,,6,link+pdf,/council/02policy/yoshi02.html
+02policy/yoshi02#121,02policy/yoshi02,,121,,2026-02-27,令和8年2月27日,,,,,,4,link,/council/02policy/yoshi02.html
+02policy/yoshi02#122,02policy/yoshi02,,122,,2026-07-31,令和8年7月31日,10:02-12:17,,,,,11,link+pdf,/council/02policy/yoshi02.html
 02policy/yoshi02#123,02policy/yoshi02,,123,,2026-11-02,令和8年11月2日,,,,,,9,link,/council/02policy/yoshi02.html
 02policy/yoshi02@2002-08-19,02policy/yoshi02,,,,2002-08-19,平成14年8月19日,,,,,,2,link,/council/02policy/yoshi02.html
 03recycle/yoshi03#1,03recycle/yoshi03,,1,,2013-03-29,平成25年3月29日,,,,,,2,link,/council/03recycle/yoshi03.html
@@ -209,21 +209,21 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 03recycle/yoshi03#49,03recycle/yoshi03,,49,,2023-08-31,令和5年8月31日,,,,,,2,link,/council/03recycle/yoshi03.html
 03recycle/yoshi03#50,03recycle/yoshi03,,50,,2023-09-28,令和5年9月28日,,,,,,2,link,/council/03recycle/yoshi03.html
 03recycle/yoshi03#51,03recycle/yoshi03,,51,,2023-12-11,令和5年12月11日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#52,03recycle/yoshi03,,52,,2024-02-01,令和6年2月1日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#53,03recycle/yoshi03,,53,,2024-03-04,令和6年3月4日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#54,03recycle/yoshi03,,54,,2024-04-09,令和6年4月9日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#55,03recycle/yoshi03,,55,,2024-06-10,令和6年6月10日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#56,03recycle/yoshi03,,56,,2024-08-20,令和6年8月20日,,,,,,1,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#57,03recycle/yoshi03,,57,,2024-09-19,令和6年9月19日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#58,03recycle/yoshi03,,58,,2024-12-13,令和6年12月13日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#59,03recycle/yoshi03,,59,,2025-02-25,令和7年2月25日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#60,03recycle/yoshi03,,60,,2025-06-10,令和7年6月10日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#61,03recycle/yoshi03,,61,,2025-09-26,令和7年9月26日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#62,03recycle/yoshi03,,62,,2025-10-30,令和7年10月30日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#63,03recycle/yoshi03,,63,,2026-02-18,令和8年2月18日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#64,03recycle/yoshi03,,64,,2026-03-30,令和8年3月30日,,,,,,2,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#65,03recycle/yoshi03,,65,,2026-06-03,令和8年6月3日,,,,,,1,link,/council/03recycle/yoshi03.html
-03recycle/yoshi03#66,03recycle/yoshi03,,66,,2026-07-28,令和8年7月28日,,,,,,2,link,/council/03recycle/yoshi03.html
+03recycle/yoshi03#52,03recycle/yoshi03,,52,,2024-02-01,令和6年2月1日,15:30-17:30,,,,,14,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#53,03recycle/yoshi03,,53,,2024-03-04,令和6年3月4日,15:00-17:00,,,,,10,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#54,03recycle/yoshi03,,54,,2024-04-09,令和6年4月9日,13:00-15:00,,,,,9,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#55,03recycle/yoshi03,,55,,2024-06-10,令和6年6月10日,13:00-15:00,,,,,11,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#56,03recycle/yoshi03,,56,,2024-08-20,令和6年8月20日,,,,,,3,link,/council/03recycle/yoshi03.html
+03recycle/yoshi03#57,03recycle/yoshi03,,57,,2024-09-19,令和6年9月19日,13:00-15:00,,,,,11,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#58,03recycle/yoshi03,,58,,2024-12-13,令和6年12月13日,15:00-17:00,,,,,20,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#59,03recycle/yoshi03,,59,,2025-02-25,令和7年2月25日,15:30-17:00,,,,,11,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#60,03recycle/yoshi03,,60,,2025-06-10,令和7年6月10日,14:00-16:00,,,,,9,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#61,03recycle/yoshi03,,61,,2025-09-26,令和7年9月26日,13:00-15:00,,TKP 新橋カンファレスセンター・web 会議方法:ハイブリッド方式,,,17,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#62,03recycle/yoshi03,,62,,2025-10-30,令和7年10月30日,13:00-15:00,,,,,17,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#63,03recycle/yoshi03,,63,,2026-02-18,令和8年2月18日,10:00-12:00,,,,,16,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#64,03recycle/yoshi03,,64,,2026-03-30,令和8年3月30日,14:00-16:00,,,,,17,link+pdf,/council/03recycle/yoshi03.html
+03recycle/yoshi03#65,03recycle/yoshi03,,65,,2026-06-03,令和8年6月3日,,,,,,3,link,/council/03recycle/yoshi03.html
+03recycle/yoshi03#66,03recycle/yoshi03,,66,,2026-07-28,令和8年7月28日,14:00-16:00,,,,,21,link+pdf,/council/03recycle/yoshi03.html
 03recycle/yoshi03@2015-11-17,03recycle/yoshi03,,,,2015-11-17,平成27年11月17日,,,,,,2,link,/council/03recycle/yoshi03.html
 03recycle/yoshi03@2017-03-29,03recycle/yoshi03,,,,2017-03-29,平成29年3月29日,,,,,,2,link,/council/03recycle/yoshi03.html
 03recycle/yoshi03@2017-06-06,03recycle/yoshi03,,,,2017-06-06,平成29年6月6日,,,,,,2,link,/council/03recycle/yoshi03.html
@@ -237,19 +237,19 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 05hoken/yoshi05#49,05hoken/yoshi05,,49,,2022-12-07,令和4年12月7日,,,,,,2,link,/council/05hoken/yoshi05.html
 05hoken/yoshi05#50,05hoken/yoshi05,,50,,2023-01-20,令和5年1月20日,,,,,,2,link,/council/05hoken/yoshi05.html
 05hoken/yoshi05#51,05hoken/yoshi05,,51,,2023-09-14,令和5年9月14日,,,,,,2,link,/council/05hoken/yoshi05.html
-05hoken/yoshi05#52,05hoken/yoshi05,,52,,2024-02-08,令和6年2月8日,,,,,,2,link,/council/05hoken/yoshi05.html
-05hoken/yoshi05#53,05hoken/yoshi05,,53,,2024-09-26,令和6年9月26日,,,,,,2,link,/council/05hoken/yoshi05.html
-05hoken/yoshi05#54,05hoken/yoshi05,,54,,2025-01-27,令和7年1月27日,,,,,,2,link,/council/05hoken/yoshi05.html
-05hoken/yoshi05#55,05hoken/yoshi05,,55,,2026-01-26,令和8年1月26日,,,,,,2,link,/council/05hoken/yoshi05.html
-05hoken/yoshi05#56,05hoken/yoshi05,,56,,2026-08-27,令和8年8月27日,,,,,,1,link,/council/05hoken/yoshi05.html
+05hoken/yoshi05#52,05hoken/yoshi05,,52,,2024-02-08,令和6年2月8日,,,,,,20,link,/council/05hoken/yoshi05.html
+05hoken/yoshi05#53,05hoken/yoshi05,,53,,2024-09-26,令和6年9月26日,,,,,,16,link,/council/05hoken/yoshi05.html
+05hoken/yoshi05#54,05hoken/yoshi05,,54,,2025-01-27,令和7年1月27日,,,,,,8,link,/council/05hoken/yoshi05.html
+05hoken/yoshi05#55,05hoken/yoshi05,,55,,2026-01-26,令和8年1月26日,,,,,,14,link,/council/05hoken/yoshi05.html
+05hoken/yoshi05#56,05hoken/yoshi05,,56,,2026-08-27,令和8年8月27日,,,,,,16,link,/council/05hoken/yoshi05.html
 06earth/yoshi06#148,06earth/yoshi06,,148,,2022-01-26,令和4年1月26日,,,,,,2,link,/council/06earth/yoshi06.html
 06earth/yoshi06#149,06earth/yoshi06,,149,,2022-06-28,令和4年6月28日,,,,,,2,link,/council/06earth/yoshi06.html
 06earth/yoshi06#150,06earth/yoshi06,,150,,2023-01-26,令和5年1月26日,,,,,,2,link,/council/06earth/yoshi06.html
 06earth/yoshi06#151,06earth/yoshi06,,151,,2023-06-26,令和5年6月26日,,,,,,2,link,/council/06earth/yoshi06.html
-06earth/yoshi06#152,06earth/yoshi06,,152,,2024-02-14,令和6年2月14日,,,,,,2,link,/council/06earth/yoshi06.html
-06earth/yoshi06#153,06earth/yoshi06,,153,,2025-03-26,令和7年3月26日,,,,,,2,link,/council/06earth/yoshi06.html
-06earth/yoshi06#154,06earth/yoshi06,,154,,2025-12-15,令和7年12月15日,,,,,,2,link,/council/06earth/yoshi06.html
-06earth/yoshi06#155,06earth/yoshi06,,155,,2026-06-29,令和8年6月29日,,,,,,2,link,/council/06earth/yoshi06.html
+06earth/yoshi06#152,06earth/yoshi06,,152,,2024-02-14,令和6年2月14日,10:01-12:09,,,,,7,link+pdf,/council/06earth/yoshi06.html
+06earth/yoshi06#153,06earth/yoshi06,,153,,2025-03-26,令和7年3月26日,14:00-15:58,,,,,6,link+pdf,/council/06earth/yoshi06.html
+06earth/yoshi06#154,06earth/yoshi06,,154,,2025-12-15,令和7年12月15日,10:00-12:28,,,,,11,link+pdf,/council/06earth/yoshi06.html
+06earth/yoshi06#155,06earth/yoshi06,,155,,2026-06-29,令和8年6月29日,10:00-12:44,,,,,11,link+pdf,/council/06earth/yoshi06.html
 07air-noise/yoshi07#1,07air-noise/yoshi07,,1,,2013-07-12,平成25年7月12日,,,,,,2,link,/council/07air-noise/yoshi07.html
 07air-noise/yoshi07#2,07air-noise/yoshi07,,2,,2013-09-09,平成25年9月9日,,,,,,2,link,/council/07air-noise/yoshi07.html
 07air-noise/yoshi07#3,07air-noise/yoshi07,,3,,2013-09-30,平成25年9月30日,,,,,,2,link,/council/07air-noise/yoshi07.html
@@ -271,10 +271,10 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 07air-noise/yoshi07#19,07air-noise/yoshi07,,19,,2023-01-30,令和5年1月30日,,,,,,2,link,/council/07air-noise/yoshi07.html
 07air-noise/yoshi07#20,07air-noise/yoshi07,,20,,2023-05-12,令和5年5月12日,,,,,,2,link,/council/07air-noise/yoshi07.html
 07air-noise/yoshi07#21,07air-noise/yoshi07,,21,,2023-06-14,令和5年6月14日,,,,,,2,link,/council/07air-noise/yoshi07.html
-07air-noise/yoshi07#22,07air-noise/yoshi07,,22,,2024-09-20,令和6年9月20日,,,,,,2,link,/council/07air-noise/yoshi07.html
-07air-noise/yoshi07#23,07air-noise/yoshi07,,23,,2026-01-21,令和8年1月21日,,,,,,1,link,/council/07air-noise/yoshi07.html
-07air-noise/yoshi07#24,07air-noise/yoshi07,,24,,2026-04-17,令和8年4月17日,,,,,,2,link,/council/07air-noise/yoshi07.html
-07air-noise/yoshi07#25,07air-noise/yoshi07,,25,,2026-07-29,令和8年7月29日,,,,,,2,link,/council/07air-noise/yoshi07.html
+07air-noise/yoshi07#22,07air-noise/yoshi07,,22,,2024-09-20,令和6年9月20日,10:01-11:58,,,,,23,link+pdf,/council/07air-noise/yoshi07.html
+07air-noise/yoshi07#23,07air-noise/yoshi07,,23,,2026-01-21,令和8年1月21日,,,,,,6,link,/council/07air-noise/yoshi07.html
+07air-noise/yoshi07#24,07air-noise/yoshi07,,24,,2026-04-17,令和8年4月17日,15:00-17:37,,,,,12,link+pdf,/council/07air-noise/yoshi07.html
+07air-noise/yoshi07#25,07air-noise/yoshi07,,25,,2026-07-29,令和8年7月29日,09:00-11:54,,,,,14,link+pdf,/council/07air-noise/yoshi07.html
 07air-noise/yoshi07#26,07air-noise/yoshi07,,26,,2026-10-29,令和8年10月29日,,,,,,6,link,/council/07air-noise/yoshi07.html
 49wat-doj/yoshi49#1,49wat-doj/yoshi49,,1,,2021-03-17,令和3年3月17日,,,,,,2,link,/council/49wat-doj/yoshi49.html
 49wat-doj/yoshi49#2,49wat-doj/yoshi49,,2,,2021-06-09,令和3年6月9日,,,,,,2,link,/council/49wat-doj/yoshi49.html
@@ -287,15 +287,15 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 49wat-doj/yoshi49#9,49wat-doj/yoshi49,,9,,2023-06-14,令和5年6月14日,,,,,,2,link,/council/49wat-doj/yoshi49.html
 49wat-doj/yoshi49#10,49wat-doj/yoshi49,,10,,2023-08-23,令和5年8月23日,,,,,,1,link,/council/49wat-doj/yoshi49.html
 49wat-doj/yoshi49#11,49wat-doj/yoshi49,,11,,2023-11-07,令和5年11月7日,,,,,,2,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#12,49wat-doj/yoshi49,,12,,2024-01-12,令和6年1月12日,,,,,,2,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#13,49wat-doj/yoshi49,,13,,2024-06-11,令和6年6月11日,,,,,,1,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#14,49wat-doj/yoshi49,,14,,2024-08-09,令和6年8月9日,,,,,,2,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#15,49wat-doj/yoshi49,,15,,2024-10-30,令和6年10月30日,,,,,,1,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#16,49wat-doj/yoshi49,,16,,2025-03-24,令和7年3月24日,,,,,,2,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#17,49wat-doj/yoshi49,,17,,2025-06-11,令和7年6月11日,,,,,,1,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#18,49wat-doj/yoshi49,,18,,2026-04-17,令和8年4月17日,,,,,,2,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#19,49wat-doj/yoshi49,,19,,2026-04-17,令和8年4月17日,,,,,,2,link,/council/49wat-doj/yoshi49.html
-49wat-doj/yoshi49#20,49wat-doj/yoshi49,,20,,2026-07-29,令和8年7月29日,,,,,,2,link,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#12,49wat-doj/yoshi49,,12,,2024-01-12,令和6年1月12日,10:34-11:23,,,,,7,link+pdf,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#13,49wat-doj/yoshi49,,13,,2024-06-11,令和6年6月11日,,,,,,5,link,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#14,49wat-doj/yoshi49,,14,,2024-08-09,令和6年8月9日,14:06-15:37,,,,,21,link+pdf,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#15,49wat-doj/yoshi49,,15,,2024-10-30,令和6年10月30日,,,,,,5,link,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#16,49wat-doj/yoshi49,,16,,2025-03-24,令和7年3月24日,14:01-15:21,・ほう素、ふっ素、硝酸性窒素等に係る暫定排水基準の見直しについて(案) / ・農薬の長期暴露による影響評価の導入について(案) / (2)報告事項 / ・水質汚濁に係る生活環境の保全に関する環境基準の見直しについて / ・「水道における水質基準等の見直しについて(第1次報告案)」及び「水質汚濁に係る人の健康の保護に関する環境基準等の見直しについて(第7次報告案)」等に関する意見の募集(パブリックコメント)について / ・水底土砂の海洋投入処分における判定基準等の見直しについて## 資料一覧資料1 ほう素、ふっ素、硝酸性窒素等に係る暫定排水基準の見直し(案)資料2-1 生活環境動植物に係る長期的な農薬ばく露の影響に関する評価について(概要)資料2-2 生活環境動植物に係る長期的な農薬ばく露の影響に関する評価について(答案)資料3 水質汚濁に係る生活環境の保全に関する環境基準の見直しについて資料4 「水道における水質基準等の見直しについて(第1次報告案)」及び「水質汚濁に係る人の健康の保護に関する環境基準の見直しについて(第7次報告案)」等に関する意見の募集(パブリックコメント)について資料4(別紙1-1) 水道における水質基準等の見直しについて(第1次報告案)資料4(別紙1-2) 水質基準に関する省令等の一部を改正する省令案について(概要)資料4(別紙2) 水質汚濁に係る人の健康の保護に関する環境基準等の見直しについて(第7次報告案)資料5 海洋汚染等防止法に基づく水底土砂の海洋投入処分における判定基準等の見直しについて参考資料1 (概要)水質汚濁防止法に基づく排水規制について参考資料2 地域のニーズや実情に応じた生活環境の保全に関する水質環境基準のあり方、柔軟な運用について,,,,14,link+pdf,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#17,49wat-doj/yoshi49,,17,,2025-06-11,令和7年6月11日,,,,,,5,link,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#18,49wat-doj/yoshi49,,18,,2026-04-17,令和8年4月17日,15:00-17:37,,,,,12,link+pdf,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#19,49wat-doj/yoshi49,,19,,2026-04-17,令和8年4月17日,17:30-18:00,,,,,11,link+pdf,/council/49wat-doj/yoshi49.html
+49wat-doj/yoshi49#20,49wat-doj/yoshi49,,20,,2026-07-29,令和8年7月29日,09:00-11:54,,,,,14,link+pdf,/council/49wat-doj/yoshi49.html
 49wat-doj/yoshi49#21,49wat-doj/yoshi49,,21,,2026-10-29,令和8年10月29日,,,,,,6,link,/council/49wat-doj/yoshi49.html
 49wat-doj/yoshi49#22,49wat-doj/yoshi49,,22,,2026-10-29,令和8年10月29日,,,,,,6,link,/council/49wat-doj/yoshi49.html
 49wat-doj/yoshi49#23,49wat-doj/yoshi49,,23,,2026-11-11,令和8年11月11日,,,,,,5,link,/council/49wat-doj/yoshi49.html
@@ -346,10 +346,10 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 12nature/yoshi12#45,12nature/yoshi12,,45,,2022-08-10,令和4年8月10日,,,,,,2,link,/council/12nature/yoshi12.html
 12nature/yoshi12#46,12nature/yoshi12,,46,,2023-03-13,令和5年3月13日,,,,,,2,link,/council/12nature/yoshi12.html
 12nature/yoshi12#47,12nature/yoshi12,,47,,2023-08-24,令和5年8月24日,,,,,,2,link,/council/12nature/yoshi12.html
-12nature/yoshi12#48,12nature/yoshi12,,48,,2024-02-22,令和6年2月22日,,,,,,2,link,/council/12nature/yoshi12.html
-12nature/yoshi12#49,12nature/yoshi12,,49,,2024-05-22,令和6年5月22日,,,,,,2,link,/council/12nature/yoshi12.html
-12nature/yoshi12#50,12nature/yoshi12,,50,,2026-02-20,令和8年2月20日,,,,,,2,link,/council/12nature/yoshi12.html
-12nature/yoshi12#51,12nature/yoshi12,,51,,2026-08-25,令和8年8月25日,,,,,,2,link,/council/12nature/yoshi12.html
+12nature/yoshi12#48,12nature/yoshi12,,48,,2024-02-22,令和6年2月22日,13:00-15:00,,,,,24,link+pdf,/council/12nature/yoshi12.html
+12nature/yoshi12#49,12nature/yoshi12,,49,,2024-05-22,令和6年5月22日,15:00-17:30,,,,,30,link+pdf,/council/12nature/yoshi12.html
+12nature/yoshi12#50,12nature/yoshi12,,50,,2026-02-20,令和8年2月20日,10:00-12:00,,,,,24,link+pdf,/council/12nature/yoshi12.html
+12nature/yoshi12#51,12nature/yoshi12,,51,,2026-08-25,令和8年8月25日,13:30-15:30,,,,,16,link+pdf,/council/12nature/yoshi12.html
 12nature/yoshi12@2011-09-05,12nature/yoshi12,,,,2011-09-05,平成23年9月5日,,,,,,3,link,/council/12nature/yoshi12.html
 14animal/yoshi14#1,14animal/yoshi14,,1,,2001-03-19,平成13年3月19日,,,,,,2,link,/council/14animal/yoshi14.html
 14animal/yoshi14#2,14animal/yoshi14,,2,,2001-12-04,平成13年12月4日,,,,,,2,link,/council/14animal/yoshi14.html
@@ -413,10 +413,10 @@ meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendee
 14animal/yoshi14#60,14animal/yoshi14,,60,,2022-02-24,令和4年2月24日,,,,,,2,link,/council/14animal/yoshi14.html
 14animal/yoshi14#61,14animal/yoshi14,,61,,2022-11-09,令和4年11月9日,,,,,,2,link,/council/14animal/yoshi14.html
 14animal/yoshi14#62,14animal/yoshi14,,62,,2023-02-02,令和5年2月2日,,,,,,2,link,/council/14animal/yoshi14.html
-14animal/yoshi14#63,14animal/yoshi14,,63,,2024-03-07,令和6年3月7日,,,,,,2,link,/council/14animal/yoshi14.html
-14animal/yoshi14#64,14animal/yoshi14,,64,,2024-06-27,令和6年6月27日,,,,,,2,link,/council/14animal/yoshi14.html
-14animal/yoshi14#65,14animal/yoshi14,,65,,2025-12-03,令和7年12月3日,,,,,,2,link,/council/14animal/yoshi14.html
-14animal/yoshi14#66,14animal/yoshi14,,66,,2026-07-23,令和8年7月23日,,,,,,2,link,/council/14animal/yoshi14.html
+14animal/yoshi14#63,14animal/yoshi14,,63,,2024-03-07,令和6年3月7日,,,,,,10,link,/council/14animal/yoshi14.html
+14animal/yoshi14#64,14animal/yoshi14,,64,,2024-06-27,令和6年6月27日,,,,,,5,link,/council/14animal/yoshi14.html
+14animal/yoshi14#65,14animal/yoshi14,,65,,2025-12-03,令和7年12月3日,,,,,,8,link,/council/14animal/yoshi14.html
+14animal/yoshi14#66,14animal/yoshi14,,66,,2026-07-23,令和8年7月23日,,,,,,9,link,/council/14animal/yoshi14.html
 former2013/03haiki/yoshi03#1,former2013/03haiki/yoshi03,,1,,2001-04-16,H13.04.16,,,,,,2,link,/council/former2013/03haiki/yoshi03.html
 former2013/03haiki/yoshi03#2,former2013/03haiki/yoshi03,,2,,2001-08-08,H13.08.08,,,,,,1,link,/council/former2013/03haiki/yoshi03.html
 former2013/03haiki/yoshi03#3,former2013/03haiki/yoshi03,,3,,2002-01-18,H14.01.18,,,,,,1,link,/council/former2013/03haiki/yoshi03.html
@@ -699,11 +699,11 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 02policy/yoshi02-06#18,02policy/yoshi02-06,,18,,2018-10-12,平成30年10月12日,,,,,,2,link,/council/02policy/yoshi02-06.html
 02policy/yoshi02-06#19,02policy/yoshi02-06,,19,,2018-12-27,平成30年12月27日,,,,,,2,link,/council/02policy/yoshi02-06.html
 02policy/yoshi02-06#20,02policy/yoshi02-06,,20,,2019-01-30,平成31年1月30日,,,,,,2,link,/council/02policy/yoshi02-06.html
-02policy/yoshi02-06#21,02policy/yoshi02-06,,21,,2024-04-25,令和6年4月25日,,,,,,2,link,/council/02policy/yoshi02-06.html
-02policy/yoshi02-06#22,02policy/yoshi02-06,,22,,2024-05-30,令和6年5月30日,,,,,,2,link,/council/02policy/yoshi02-06.html
-02policy/yoshi02-06#23,02policy/yoshi02-06,,23,,2024-07-19,令和6年7月19日,,,,,,2,link,/council/02policy/yoshi02-06.html
-02policy/yoshi02-06#24,02policy/yoshi02-06,,24,,2025-08-18,令和7年8月18日,,,,,,1,link,/council/02policy/yoshi02-06.html
-02policy/yoshi02-06#25,02policy/yoshi02-06,,25,,2026-07-29,令和8年7月29日,,,,,,1,link,/council/02policy/yoshi02-06.html
+02policy/yoshi02-06#21,02policy/yoshi02-06,,21,,2024-04-25,令和6年4月25日,11:00-13:00,,,,,9,link+pdf,/council/02policy/yoshi02-06.html
+02policy/yoshi02-06#22,02policy/yoshi02-06,,22,,2024-05-30,令和6年5月30日,14:01-15:37,,,,,9,link+pdf,/council/02policy/yoshi02-06.html
+02policy/yoshi02-06#23,02policy/yoshi02-06,,23,,2024-07-19,令和6年7月19日,16:09-17:53,,,,,11,link+pdf,/council/02policy/yoshi02-06.html
+02policy/yoshi02-06#24,02policy/yoshi02-06,,24,,2025-08-18,令和7年8月18日,,,,,,5,link,/council/02policy/yoshi02-06.html
+02policy/yoshi02-06#25,02policy/yoshi02-06,,25,,2026-07-29,令和8年7月29日,,,,,,5,link,/council/02policy/yoshi02-06.html
 02policy/yoshi02-12#1,02policy/yoshi02-12,,1,,2013-10-16,平成25年10月16日,,,,,,2,link,/council/02policy/yoshi02-12.html
 02policy/yoshi02-12#2,02policy/yoshi02-12,,2,,2015-05-19,平成27年5月19日,,,,,,2,link,/council/02policy/yoshi02-12.html
 02policy/yoshi02-12#3,02policy/yoshi02-12,,3,,2016-03-29,平成28年3月29日,,,,,,2,link,/council/02policy/yoshi02-12.html
@@ -711,54 +711,54 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 02policy/yoshi02-12#5,02policy/yoshi02-12,,5,,2019-03-27,平成31年3月27日,,,,,,2,link,/council/02policy/yoshi02-12.html
 02policy/yoshi02-12#6,02policy/yoshi02-12,,6,,2019-04-25,平成31年4月25日,,,,,,2,link,/council/02policy/yoshi02-12.html
 02policy/yoshi02-12#7,02policy/yoshi02-12,,7,,2021-06-23,令和3年6月23日,,,,,,2,link,/council/02policy/yoshi02-12.html
-02policy/yoshi02-12#8,02policy/yoshi02-12,,8,,2024-11-01,令和6年11月1日,,,,,,2,link,/council/02policy/yoshi02-12.html
-02policy/yoshi02-12#9,02policy/yoshi02-12,,9,,2024-11-06,令和6年11月6日,,,,,,2,link,/council/02policy/yoshi02-12.html
-02policy/yoshi02-12#10,02policy/yoshi02-12,,10,,2024-11-21,令和6年11月21日,,,,,,2,link,/council/02policy/yoshi02-12.html
-02policy/yoshi02-12#11,02policy/yoshi02-12,,11,,2024-12-12,令和6年12月12日,,,,,,2,link,/council/02policy/yoshi02-12.html
-02policy/yoshi02-12#12,02policy/yoshi02-12,,12,,2025-02-03,令和7年2月3日,,,,,,2,link,/council/02policy/yoshi02-12.html
+02policy/yoshi02-12#8,02policy/yoshi02-12,,8,,2024-11-01,令和6年11月1日,09:30-12:00,,,,,11,link+pdf,/council/02policy/yoshi02-12.html
+02policy/yoshi02-12#9,02policy/yoshi02-12,,9,,2024-11-06,令和6年11月6日,09:00-12:00,,,,,10,link+pdf,/council/02policy/yoshi02-12.html
+02policy/yoshi02-12#10,02policy/yoshi02-12,,10,,2024-11-21,令和6年11月21日,13:00-16:00,,,,,8,link+pdf,/council/02policy/yoshi02-12.html
+02policy/yoshi02-12#11,02policy/yoshi02-12,,11,,2024-12-12,令和6年12月12日,15:00-18:00,,,,,8,link+pdf,/council/02policy/yoshi02-12.html
+02policy/yoshi02-12#12,02policy/yoshi02-12,,12,,2025-02-03,令和7年2月3日,15:00-18:00,,,,,11,link+pdf,/council/02policy/yoshi02-12.html
 02policy/yoshi02-12@2014-12-12,02policy/yoshi02-12,,,,2014-12-12,平成26年12月12日,,,,,,2,link,/council/02policy/yoshi02-12.html
 02policy/yoshi02-12_00001#1,02policy/yoshi02-12_00001,,1,,2023-11-06,令和5年11月6日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#2,02policy/yoshi02-12_00001,,2,,2024-01-16,令和6年1月16日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#3,02policy/yoshi02-12_00001,,3,,2024-02-13,令和6年2月13日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#6,02policy/yoshi02-12_00001,,6,,2024-11-18,令和6年11月18日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#8,02policy/yoshi02-12_00001,,8,,2024-11-01,令和6年11月1日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#9,02policy/yoshi02-12_00001,,9,,2024-11-06,令和6年11月6日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#11,02policy/yoshi02-12_00001,,11,,2024-12-12,令和6年12月12日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-02policy/yoshi02-12_00001#12,02policy/yoshi02-12_00001,,12,,2025-02-03,令和7年2月3日,,,,,,2,link,/council/02policy/yoshi02-12_00001.html
-03recycle/yoshi03-17#1,03recycle/yoshi03-17,,1,,2025-02-18,令和7年2月18日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#2,03recycle/yoshi03-17,,2,,2025-03-07,令和7年3月7日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#3,03recycle/yoshi03-17,,3,,2025-04-08,令和7年4月8日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#4,03recycle/yoshi03-17,,4,,2025-04-25,令和7年4月25日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#5,03recycle/yoshi03-17,,5,,2025-05-23,令和7年5月23日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#6,03recycle/yoshi03-17,,6,,2025-06-24,令和7年6月24日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#7,03recycle/yoshi03-17,,7,,2025-10-08,令和7年10月8日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#8,03recycle/yoshi03-17,,8,,2025-12-19,令和7年12月19日,,,,,,2,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#9,03recycle/yoshi03-17,,9,,2026-03-12,令和8年3月12日,,,,,,1,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-17#10,03recycle/yoshi03-17,,10,,2026-07-27,令和8年7月27日,,,,,,1,link,/council/03recycle/yoshi03-17.html
-03recycle/yoshi03-16#1,03recycle/yoshi03-16,,1,,2024-09-13,令和6年9月13日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#2,03recycle/yoshi03-16,,2,,2024-10-01,令和6年10月1日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#3,03recycle/yoshi03-16,,3,,2024-10-15,令和6年10月15日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#4,03recycle/yoshi03-16,,4,,2024-10-28,令和6年10月28日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#5,03recycle/yoshi03-16,,5,,2024-10-29,令和6年10月29日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#6,03recycle/yoshi03-16,,6,,2024-11-21,令和6年11月21日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#7,03recycle/yoshi03-16,,7,,2024-12-04,令和6年12月4日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#8,03recycle/yoshi03-16,,8,,2024-12-16,令和6年12月16日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#9,03recycle/yoshi03-16,,9,,2025-03-21,令和7年3月21日,,,,,,2,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-16#10,03recycle/yoshi03-16,,10,,2026-01-23,令和8年1月23日,,,,,,2,link,/council/03recycle/yoshi03-16.html
+02policy/yoshi02-12_00001#2,02policy/yoshi02-12_00001,,2,,2024-01-16,令和6年1月16日,14:00-16:00,,,,,9,link+pdf,/council/02policy/yoshi02-12_00001.html
+02policy/yoshi02-12_00001#3,02policy/yoshi02-12_00001,,3,,2024-02-13,令和6年2月13日,15:00-17:00,,,,,8,link+pdf,/council/02policy/yoshi02-12_00001.html
+02policy/yoshi02-12_00001#6,02policy/yoshi02-12_00001,,6,,2024-11-18,令和6年11月18日,14:00-17:00,,,,,8,link+pdf,/council/02policy/yoshi02-12_00001.html
+02policy/yoshi02-12_00001#8,02policy/yoshi02-12_00001,,8,,2024-11-01,令和6年11月1日,09:30-12:00,,,,,2,link+pdf,/council/02policy/yoshi02-12_00001.html
+02policy/yoshi02-12_00001#9,02policy/yoshi02-12_00001,,9,,2024-11-06,令和6年11月6日,09:00-12:00,,,,,2,link+pdf,/council/02policy/yoshi02-12_00001.html
+02policy/yoshi02-12_00001#11,02policy/yoshi02-12_00001,,11,,2024-12-12,令和6年12月12日,15:00-18:00,,,,,2,link+pdf,/council/02policy/yoshi02-12_00001.html
+02policy/yoshi02-12_00001#12,02policy/yoshi02-12_00001,,12,,2025-02-03,令和7年2月3日,15:00-18:00,,,,,2,link+pdf,/council/02policy/yoshi02-12_00001.html
+03recycle/yoshi03-17#1,03recycle/yoshi03-17,,1,,2025-02-18,令和7年2月18日,17:00-19:00,,,,,10,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#2,03recycle/yoshi03-17,,2,,2025-03-07,令和7年3月7日,14:00-16:30,,,,,14,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#3,03recycle/yoshi03-17,,3,,2025-04-08,令和7年4月8日,15:00-17:00,,,,,11,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#4,03recycle/yoshi03-17,,4,,2025-04-25,令和7年4月25日,15:00-17:00,,,,,11,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#5,03recycle/yoshi03-17,,5,,2025-05-23,令和7年5月23日,15:00-16:34,,,,,8,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#6,03recycle/yoshi03-17,,6,,2025-06-24,令和7年6月24日,14:00-15:17,,,,,8,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#7,03recycle/yoshi03-17,,7,,2025-10-08,令和7年10月8日,10:00-11:38,,,,,8,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#8,03recycle/yoshi03-17,,8,,2025-12-19,令和7年12月19日,16:00-17:24,,,,,8,link+pdf,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#9,03recycle/yoshi03-17,,9,,2026-03-12,令和8年3月12日,,,,,,3,link,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-17#10,03recycle/yoshi03-17,,10,,2026-07-27,令和8年7月27日,,,,,,5,link,/council/03recycle/yoshi03-17.html
+03recycle/yoshi03-16#1,03recycle/yoshi03-16,,1,,2024-09-13,令和6年9月13日,15:00-17:00,,,,,10,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#2,03recycle/yoshi03-16,,2,,2024-10-01,令和6年10月1日,17:30-19:30,資料1 太陽光発電設備の廃棄・リサイクル制度の論点について【P15の一部の記載に誤りがあったため差替え(2024年10月3日(木))】【P45の一部の記載に誤りがあったため差替え(2024年11月7日(木))】【P16・25・48の一部記載を差替え(2026年3月24日(火))】参考資料 委員等名簿## 議事録午後5時30分 開会 / ○日暮課長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループ合同会議(第2回)会合を開催いたします。私、事務局を務めます、資源エネルギー庁新エネルギー課長、日暮です。第2回はオンラインでの開催です。委員及びオブザーバーにおかれましては、マイク・ビデオは御発言いただく際のみオン、それ以外はマイクはミュート、ビデオはオフにてお願いいたします。御発言を御希望の際、挙手ボタンでお知らせいただき、指名を受けてから御発言ください。音声が聞こえにくい場合などございましたら、チャット機能などでお知らせください。なお、会議の模様は、環境省及び経済産業省のホームページにてYouTube同時配信により公開しております。それでは、大和田座長に以後の議事進行をお願いいたします。 / ○大和田座長 それでは、時間もありませんので、早速議事に入りたいと思います。今回は、前回、各論点について皆さんから御意見をいただきまして、それを反映して改訂あるいは追加した資料となっております。皆さんには、各検討項目についてより具体化できるような御意見を伺いたいというのが目的と考えております。それでは、まず事務局から、本日の資料の確認をお願いいたします。 / ○日暮課長 事務局です。配付資料一覧のとおり、議事次第、資料1、太陽光発電設備の廃棄リサイクル制度の論点について、参考資料、委員等名簿を用意しております。資料は事務局にて画面投影いたしますが、必要に応じ、あらかじめお送りしたファイルを御覧ください。 / ○大和田座長 それでは、資料1について事務局から御説明をいただいた上で議論を続けたいと思います。では、お願いいたします。,,,,6,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#3,03recycle/yoshi03-16,,3,,2024-10-15,令和6年10月15日,16:00-18:00,資料1 太陽光発電設備の廃棄・リサイクル制度の論点について【P30・45の一部の記載に誤りがあったため差替え(2024年11月5日(火))】【P17の一部に誤字があったため差替え(2026年3月24日(火))】参考資料 委員等名簿## 議事録午後4時00分 開会 / ○岡﨑制度企画室長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループの合同会議の第3回会合を開催いたします。冒頭の進行は、私、環境省環境再生・資源循環局総務課制度企画室長の岡﨑が担当いたします。よろしくお願いいたします。今回は、対面及びオンラインでのハイブリッド形式での開催としております。オンラインで御参加の委員とオブザーバーにおかれましては、マイクとビデオは発言いただく際のみオンとし、それ以外は、マイクはミュート、ビデオはオフにしていただきますようお願いいたします。発言される際は、対面参加の方は名札を立てていただき、オンライン参加の方は挙手ボタンでお知らせいただいた上で、委員長の指名を受けてから御発言ください。また、オンライン参加の方で会場の音声が聞こえにくいなど何かございましたら、チャット機能等でお知らせください。なお、会議の模様につきましては、環境省、経産省のホームページにおいて、YouTubeでの同時配信により公開しております。次に、資料を確認させていただきます。本日は、議事次第、資料1及び参考資料がございます。事務局にて画面に投影いたしますが、必要に応じて、あらかじめお送りしたファイルを御覧ください。それでは、以降の進行は、高村委員長にお願いいたします。 / ○高村委員長 皆様、お集まりいただき、どうもありがとうございます。それでは、資料1について、本日の議論、資料1から始めてまいりたいと思いますけれども、事務局から説明をいただいた後で、議論を進めてまいりたいと思います。それでは、事務局から御説明をお願いいたします。 / ○岡﨑制度企画室長 それでは、資料1を御説明させていただきます。次のページをお願いします。目次がこちらでございます。次のページをお願いします。まず、制度検討に当たっての視点ということで、3ページから太陽電池モジュールのリユース・リサイクル・埋立処分の全体像、それから、4ページから御議論いただきたい論点1、5ページの論点2、前回と同じものをつけております。6ページでは、前回、委員の皆様方からいただきました主な御意見について、モノ・費用・情報の項目ごとに御紹介をさせていただいております。,,,,6,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#4,03recycle/yoshi03-16,,4,,2024-10-28,令和6年10月28日,13:00-15:00,資料1 これまでの議論について資料2公益社団法人全国解体工事業団体連合会説明資料資料3 一般社団法人太陽光パネルリユース・リサイクル協会説明資料資料4 AGC株式会社説明資料参考資料 委員等名簿## 議事録午後1時01分 開会 / ○日暮新エネルギー課長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループ合同会議の第4回会合を開催します。私は、事務局を務めます、資源エネルギー庁新エネルギー課長の日暮です。第4回は、オンライン形式での開催を基本としております。委員及びオブザーバーにおかれましては、マイクとビデオは御発言時のみオンとし、それ以外は、マイクはミュート、ビデオはオフにてお願いいたします。発言御希望の際は挙手ボタンでお知らせいただき、座長の指名を受けてから御発言ください。また、音声が聞こえにくいなど何かございましたら、チャット機能等でお知らせください。なお、会議の模様は、環境省及び経済産業省のホームページにて、YouTubeでの同時配信により公開しております。それでは、大和田座長に以後の議事進行をお願いいたします。 / ○大和田座長 それでは、第4回になりますけれど、ワーキングを開催させていただきたいと思います。今回と次回、2回にわたっては関係各団体の方々から、色々現状であるだとか、それから課題、そして本委員会への要望等々を含めてヒアリングをさせていただき、委員の皆さんからいろいろ御意見をいただきたいと思っております。それでは、まず議事に入りたいと思います。事務局より本日の資料の確認をお願いいたします。 / ○日暮新エネルギー課長 事務局です。配付資料一覧のとおり、議事次第、資料1、これまでの議論について、資料2、公益社団法人全国解体工事業団体連合会説明資料、資料3、一般社団法人太陽光パネルリユース・リサイクル協会説明資料、資料4、AGC株式会社説明資料、参考資料として、委員等名簿を御用意しております。資料は、事務局にて画面投影いたしますが、必要に応じ、あらかじめお送りしたファイルを御覧ください。 / ○大和田座長 それでは、資料1について、各団体からヒアリングを行う前に、事務局から、これまでの議論について御説明をいただきたいと思います。 / ○日暮新エネルギー課長 事務局です。資料1において、これまでの議論をまとめてございます。,,,,8,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#5,03recycle/yoshi03-16,,5,,2024-10-29,令和6年10月29日,15:00-17:00,資料1 福岡県説明資料資料2 PV CYCLE JAPAN説明用資料資料3 一般社団法人再生可能エネルギー長期安定電源推進協会説明資料資料4 一般社団法人太陽光発電協会 説明資料参考資料 委員等名簿## 議事録午後3時00分 開会 / ○岡﨑制度企画室長 定刻になりましたので、ただ今から中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループの合同会議の第5回会合を開催いたします。冒頭の進行は、私、環境省環境再生・資源循環局総務課制度企画室長の岡﨑が担当いたします。よろしくお願いいたします。今回は、対面及びオンラインでのハイブリッド形式での開催としております。オンラインで御参加の委員とオブザーバーにおかれましては、マイクとビデオは発言いただく際のみオンとし、それ以外は、マイクはミュート、ビデオはオフにしていただきますようお願いいたします。発言される際は、対面参加の方は名札を立てていただき、オンライン参加の方は挙手ボタンでお知らせいただいた上で、委員長の指名を受けてから御発言ください。また、オンライン参加の方で会場の音声が聞こえにくいなど、何かございましたら、チャット機能などでお知らせください。なお、会議の模様につきましては、環境省及び経済産業省のホームページにおいて、YouTubeでの同時配信により公開しております。それでは、高村委員長に以後の議事進行をお願いいたします。 / ○高村委員長 皆様、どうも御参集いただき、ありがとうございます。早速ですけれども、議事に入ってまいります。まず、事務局から、本日の資料の確認をお願いいたします。 / ○岡﨑制度企画室長 配付資料一覧にありますとおり、議事次第、資料1 福岡県説明資料、資料2 PV CYCLE JAPAN説明資料、資料3 一般社団法人再生可能エネルギー長期安定電源推進協会説明資料、資料4 一般社団法人太陽光発電協会説明資料、参考資料 委員等名簿を御用意しております。資料は事務局にて画面に投影いたしますが、必要に応じて、あらかじめお送りしたファイルを御覧ください。 / ○高村委員長 ありがとうございます。それでは、早速、これから団体のヒアリングに入ってまいります。大変恐縮ですけれども、1団体様10分で、持ち時間を使って発表いただきたいと思います。質疑応答は、昨日もそうでしたけれども、まとめてお答えをいただこうと思います。発表の順番ですけれども、資料の順番と同じように、福岡県、そしてPV CYCLE JAPAN、一般社団法人再生可能エネルギー長期安定電源推進協会(REASP)、そして一般社団法人太陽光発電協会(JPEA)の順番といたします。それでは、まず、福岡県からお願いできますでしょうか。 / ○福岡県 私、福岡県の環境部循環型社会推進課長の小村と申します。本日は、御説明の機会をいただき、ありがとうございます。資料、次のページをお願いいたします。私からは、福岡県における太陽光パネルの資源循環に向けた取組といたしまして、3項目について御説明いたします。1点目は、福岡県における太陽光パネルを取り巻く状況、2点目は、本県の取組、3点目は、太陽光パネルの資源循環に向けた課題認識についてでございます。,,,,8,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#6,03recycle/yoshi03-16,,6,,2024-11-21,令和6年11月21日,16:00-18:00,資料1 太陽光発電設備の廃棄・リサイクル制度の論点について【P13の一部について出典・表現を修正(2024年12月27日(金))】参考資料1 委員等名簿参考資料2 池田委員提出資料## 議事録午後4時04分 開会 / ○日暮新エネルギー課長 ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電リサイクルワーキンググループ合同会議の第6回会議を開催します。私は事務局を務めます、資源エネルギー庁新エネルギー課長の日暮です。第6回はオンライン形式での開催を基本としております。委員及びオブザーバーの皆様におかれましては、マイクとビデオは御発言いただく際のみオンとし、それ以外はマイクはミュート、ビデオはオフにてお願いいたします。発言を御希望の際は挙手ボタンにてお知らせいただき、座長の御指名を受けてから御発言ください。また、音声が聞こえにくいなど、何かございましたら、チャット機能などでお知らせください。なお会議の模様は、環境省及び経済産業省のホームページにて、YouTubeでの同時配信により公開しております。それでは、大和田座長に以後の進行をお願いいたします。 / ○大和田座長 それでは皆様お忙しい中ありがとうございます。早速議事に入りたいと思いますけれど、本日はこれまで色々皆さんの御意見を伺い、それから色々な方々にヒアリングをさせていただきましたけれど、それらの意見を参考にして、事務局側である程度の提案をすることになっておりますので、それに対して皆様方、御意見をいただきたいと思っております。それでは事務局より、まず本日の資料の確認をお願いいたします。 / ○日暮新エネルギー課長 配布資料一覧のとおり、議事次第、資料1、太陽光発電設備の廃棄・リサイクル制度の論点について。参考資料1、委員等名簿。参考資料2、池田委員提出資料を御用意しております。資料は事務局にて画面投影いたしますが、必要に応じてあらかじめお送りしたファイルを御覧ください。 / ○大和田座長 それでは資料1について事務局から説明の上、御議論いただきたいと思います。では、よろしくお願いします。 / ○日暮新エネルギー課長 資料1に基づき、太陽光パネル、廃棄・リサイクル制度の論点について御説明したいと思います。2ページ目以降、制度設計に当たっての視点を改めて付けております。資料3、全体像。資料4ページ目、5ページ目は、御議論いただきたい論点。そして6ページ目、7ページ目については、前回各団体の皆様から御意見をいただいておりますので、その意見の主な内容をモノ・費用・情報・その他に分けて整理をしてございます。今日は時間の関係で改めての御説明はいたしません。8ページ目以降、これまでの議論を踏まえて、論点ごとにさらに議論を深めていくべき論点を整理してございます。9ページ目です。今回の検討すべき再資源化に係る義務の対象についてと、第3回の資料をつけております。太陽光発電設備のうち、太陽光パネルに再資源化の対象を限定してはどうか。ガラスのリサイクルを進めていく上で、費用等を拡大していくとともに高度化をしていくことが必要と。プラスチックやシリコンについては、当面熱回収を行うことを排除せずに整理をしてはどうかと改めて記載してございます。,,,,6,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#7,03recycle/yoshi03-16,,7,,2024-12-04,令和6年12月4日,17:00-19:00,資料1 太陽光発電設備の廃棄・リサイクル制度構築に向けた論点整理参考資料1 委員等名簿参考資料2 参考資料【P7の一部について出典・表現を修正(2024年12月27日(金))】## 議事録午後5時00分 開会 / ○岡﨑制度企画室長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループ合同会議の第7回会合を開催いたします。冒頭の進行は、私、環境省環境再生・資源循環局総務課制度企画室長の岡﨑が担当いたします。よろしくお願いいたします。今回は、対面及びオンラインでのハイブリッド形式での開催としております。オンラインで御参加の委員とオブザーバーにおかれましては、マイクとビデオは発言いただく際のみオンとし、それ以外はマイクはミュート、ビデオはオフにしていただきますよう、お願いいたします。発言の際は、対面参加の方は名札を立てていただき、オンライン参加の方は挙手ボタンでお知らせいただいた上で、委員長の指名を受けてから御発言ください。また、オンライン参加の方で会場の音声が聞こえにくいなど何かございましたら、チャット機能等でお知らせください。なお、会議の模様につきましては、環境省・経産省のホームページにおいて、YouTubeでの同時配信により公開しております。それでは、高村委員長に以降の進行をお願いいたします。 / ○高村委員長 皆様、御参集いただき、どうもありがとうございます。それでは、本日の議事に入ってまいります。まず、事務局から、本日の資料の確認をお願いできますでしょうか。 / ○岡﨑制度企画室長 配付資料一覧にありますとおり、議事次第、資料1 太陽光発電設備の廃棄・リサイクル制度構築に向けた論点整理、参考資料1 委員等名簿、参考資料2 参考資料を御用意しております。資料は事務局にて画面に投影いたしますが、必要に応じて、あらかじめお送りしたファイルを御覧ください。 / ○高村委員長 ありがとうございます。もし資料が届いていない等がございましたら、御連絡している事務局宛に御連絡いただければと思います。それでは、資料1につきまして、早速ですが、事務局から御説明をいただき、それを踏まえて議論をしてまいりたいと思います。それでは、事務局から資料1について御説明、よろしくお願いします。 / ○岡﨑制度企画室長 資料1 論点整理を御覧ください。目次がございまして、I.総論、II.具体的な措置、III.その他、IV.今後の課題ということで、これまでの議論を整理して事務局にて資料を御用意させていただいております。2ページ目を御覧ください。大きな柱の一つ目、I.総論でございます。今後、2030年代後半以降に想定される使用済太陽光パネルの排出量の顕著な増加に備えて、最終処分量を削減していくためには、可能な限り多くの資源を回収し、再資源化していくことが必要となります。特に重量比約6割を占めるガラス等については、市場原理だけでは再資源化が進みづらい状況にございます。,,,,6,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#8,03recycle/yoshi03-16,,8,,2024-12-16,令和6年12月16日,17:30-19:30,資料1 太陽光発電設備のリサイクル制度のあり方について(案)参考資料1 委員等名簿参考資料2 参考資料参考資料3 第7回合同会議でいただいた御意見と対応状況## 議事録午後5時30分 開会 / ○日暮新エネルギー課長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループ合同会議の第8回会合を開催します。私は、事務局を務めます、資源エネルギー庁新エネルギー課長の日暮です。第8回は、オンライン形式での開催を基本としています。委員及びオブザーバーの皆様におかれましては、マイクとビデオは御発言いただく際のみオンとし、それ以外はマイクはミュート、ビデオはオフとしていただきますよう、お願いします。発言を御希望の際は、挙手ボタンにてお知らせいただいた上で、座長の指名を受けてから御発言ください。また、音声が聞こえにくいなど何かございましたら、チャット機能等でお知らせください。なお、会議の模様は、環境省及び経済産業省のホームページにおいてYouTubeでの同時配信により公開しております。それでは、大和田座長に以後の議事進行をお願いいたします。 / ○大和田座長 大和田でございます。それでは、早速、議事に入りたいと思います。本日は、これまで皆さんから色々御意見いただきましたけれど、それを基にしてパブリックコメントの素案を作っていただきましたので、それについて皆様に御意見をいただきたいということでございます。では、まず事務局より本日の資料の確認をお願いいたします。 / ○日暮新エネルギー課長 事務局です。配付資料一覧のとおり、議事次第、資料1「太陽光発電設備のリサイクル制度のあり方について(案)」参考資料1「委員等名簿」、参考資料2「参考資料」、参考資料3「第7回合同会議でいただいた御意見と対応状況」を御用意しております。資料は事務局にて画面に投影いたしますが、必要に応じて、あらかじめお送りしたファイルを御覧ください。 / ○大和田座長 それでは、資料1について、事務局から御説明の上、皆様に御議論いただきたいと思います。では、よろしくお願いします。 / ○日暮新エネルギー課長 事務局です。資料1「太陽光発電設備のリサイクル制度のあり方について(案)」に基づいて、御説明をいたします。,,,,7,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#9,03recycle/yoshi03-16,,9,,2025-03-21,令和7年3月21日,15:00-17:00,資料1 太陽光発電設備のリサイクル制度のあり方について(案)資料2 「太陽光発電設備のリサイクル制度のあり方について(案)」に対する意見募集に寄せられた御意見の概要及び御意見に対する考え方(案)参考資料1 委員等名簿参考資料2 参考資料## 議事録午後3時00分 開会 / ○岡﨑制度企画室長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループ合同会議の第9回会合を開催いたします。冒頭の進行は、私、環境省環境再生・資源循環局総務課制度企画室長の岡﨑が担当いたします。どうぞよろしくお願いいたします。今回は、対面及びオンラインでのハイブリッド形式での開催としております。オンラインで御参加の委員とオブザーバーにおかれましては、マイクとビデオは発言いただく際のみオンとし、それ以外は、マイクはミュート、ビデオはオフにしていただきますようお願いいたします。また、発言される際は、会場で対面参加の方は名札を立てていただき、オンライン参加の方は挙手ボタンでお知らせいただいた上で、委員長の指名を受けてから御発言ください。また、オンライン参加の方で会場の音声が聞こえにくいなど何かございましたら、チャット機能などでお知らせください。なお、会議の模様につきましては、環境省及び経済産業省のホームページにおいて、YouTubeでの同時配信により公開をしております。開催に先立ちまして、事務局の資源エネルギー庁、伊藤省エネルギー・新エネルギー部長から御挨拶をさせていただきます。 / ○伊藤省エネルギー・新エネルギー部長 ただいま御紹介いただきました、資源エネルギー庁省エネルギー・新エネルギー部長の伊藤でございます。委員の先生方、そしてオンラインを含めて御参加の皆様、本日は誠にありがとうございます。太陽光発電設備のリサイクルに関する合同審議会第9回の開催に当たり、一言御挨拶申し上げたいと思います。政府におきまして、本年2月、第7次エネルギー基本計画を閣議決定いたしました。脱炭素電源の確保は、今後の日本の国力を左右すると言っても過言ではない、大変重要な課題だと認識してございます。再生可能エネルギーについては、地域との共生を前提に最大限導入拡大を進めていく、このことが政府の基本方針となってございます。2012年FIT制度の導入以降、まさに太陽光を中心に再エネの導入が進みまして、足元2023年度の再エネ比率の速報値は22.9%と、日本でも再エネの拡大は着実に増加をしてございます。一方、再エネの導入に当たりまして、地域との共生、国民負担の抑制、あるいは出力変動への対応など、様々な課題もあるということでございます。その中で、2030年代後半から大量の排出が見込まれる太陽光パネルの適切な廃棄・リサイクルの確保も、地域との共生を図る観点から避けては通れない課題でございます。本審議会におきまして、まさに各分野の専門家、そして業界を代表する皆様に委員を務めていただきまして、昨年9月に初回を開催して以降、大変なハイペースで、これまで8回にわたり熱心に御議論いただいたこと、改めて心から感謝を申し上げたいと思います。皆様に御議論いただきました取りまとめ(案)を基に、昨年12月からパブリックコメントを実施いたしました。本日お示しする取りまとめ(案)は、国民の皆様からの御意見、また、法制的な観点からの検討結果を踏まえて修正したものとなります。太陽光パネルの適切な廃棄・リサイクルが確保される仕組みの構築に向けて、本審議会での御議論を踏まえつつ、引き続き法制的な観点からの精査が必要となりますが、本日の取りまとめに向けて、ぜひ活発な御議論をお願いできればと思います。どうぞよろしくお願いいたします。 / ○岡﨑制度企画室長 伊藤部長、ありがとうございました。,,,,7,link+pdf,/council/03recycle/yoshi03-16.html
+03recycle/yoshi03-16#10,03recycle/yoshi03-16,,10,,2026-01-23,令和8年1月23日,09:00-11:00,資料1 太陽光パネルのリサイクル制度について【P5・20の一部に誤字があったため差替え(2026年2月3日(火))】【P6の一部記載を差替え(2026年3月6日(金))】【P7・16の一部記載を差替え(2026年3月24日(火))】参考資料1 委員等名簿【一部更新(2026年2月12日(木))】## 議事録午前9時00分 開会 / ○日暮新エネルギー課長 定刻になりましたので、ただいまから中央環境審議会循環型社会部会太陽光発電設備リサイクル制度小委員会・産業構造審議会イノベーション・環境分科会資源循環経済小委員会太陽光発電設備リサイクルワーキンググループ合同会議(第10回)を開催します。私は、事務局を務めます、資源エネルギー庁新エネルギー課長の日暮です。今回は、オンライン形式での開催を基本としております。委員及びオブザーバーの皆様には、マイクとビデオは御発言いただく際のみオンとし、それ以外は、マイクはミュート、ビデオはオフにしていただきますようお願いいたします。御発言を御希望の際、挙手ボタンでお知らせください。座長の指名を受けてから御発言ください。また、音声が聞こえにくいなど、何かございましたら、チャット機能などでお知らせください。なお、会議の模様は、環境省及び経産省のホームページにおいて、YouTubeでの同時配信により公開をしております。開催に先立ち、環境省中尾太陽光パネルリサイクル制度グループ長から御挨拶させていただきます。 / ○中尾太陽光パネルリサイクル制度グループ長 皆様、おはようございます。1月5日付けで、環境省環境再生・資源循環局に設置された太陽光パネルリサイクル制度グループのグループ長を務めております中尾と申します。本日御出席の委員の皆様におかれましては、御多忙の中、御出席いただき、改めて感謝申し上げます。太陽光パネルのリサイクルのための制度的対応につきましては、本合同会議にて、委員の皆様に活発な御議論をいただきまして、昨年3月に報告書を取りまとめていただいたところでございます。その後、報告書の内容を踏まえ、資源エネルギー庁とともに、法制的な見地から具体的な制度設計について検討を深めてまいりました。また、制度的検討と並行いたしまして、リサイクル費用の低減と体制整備を進めるため、昨年12月16日に成立した令和7年度補正予算及び12月26日に閣議決定した令和8年度予算において、必要な経費を計上したところでございます。本日は、新たな法制度案、既存制度、財政支援等を含めまして、今後の太陽光パネルリサイクル推進に向けた政府の検討状況をお示しさせていただきたいと考えてございます。委員の皆様におかれましては、忌憚のない御意見を賜れればと考えてございます。どうぞよろしくお願いいたします。 / ○日暮新エネルギー課長 それでは、大和田座長に以後の議事進行をお願いいたします。,,,,6,link+pdf,/council/03recycle/yoshi03-16.html
 03recycle/yoshi03-16#11,03recycle/yoshi03-16,,11,,2026-10-06,令和8年10月6日,,,,,,7,link,/council/03recycle/yoshi03-16.html
-03recycle/yoshi03-15/環境配慮設計推進ワーキンググループ#1,03recycle/yoshi03-15,環境配慮設計推進ワーキンググループ,1,,2025-10-27,令和7年10月27日,,,,,,2,link,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/環境配慮設計推進ワーキンググループ#1,03recycle/yoshi03-15,環境配慮設計推進ワーキンググループ,1,,2025-10-27,令和7年10月27日,17:00-19:00,,,,,6,link+pdf,/council/03recycle/yoshi03-15.html
 03recycle/yoshi03-15/議事次第・資料・議事録一覧#1,03recycle/yoshi03-15,議事次第・資料・議事録一覧,1,,2023-07-28,令和5年7月28日,,,,,,2,link,/council/03recycle/yoshi03-15.html
 03recycle/yoshi03-15/議事次第・資料・議事録一覧#2,03recycle/yoshi03-15,議事次第・資料・議事録一覧,2,,2023-09-27,令和5年9月27日,,,,,,2,link,/council/03recycle/yoshi03-15.html
 03recycle/yoshi03-15/議事次第・資料・議事録一覧#3,03recycle/yoshi03-15,議事次第・資料・議事録一覧,3,,2023-10-26,令和5年10月26日,,,,,,2,link,/council/03recycle/yoshi03-15.html
 03recycle/yoshi03-15/議事次第・資料・議事録一覧#4,03recycle/yoshi03-15,議事次第・資料・議事録一覧,4,,2023-11-22,令和5年11月22日,,,,,,2,link,/council/03recycle/yoshi03-15.html
 03recycle/yoshi03-15/議事次第・資料・議事録一覧#5,03recycle/yoshi03-15,議事次第・資料・議事録一覧,5,,2023-12-13,令和5年12月13日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#6,03recycle/yoshi03-15,議事次第・資料・議事録一覧,6,,2024-01-22,令和6年1月22日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#7,03recycle/yoshi03-15,議事次第・資料・議事録一覧,7,,2024-09-05,令和6年9月5日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#8,03recycle/yoshi03-15,議事次第・資料・議事録一覧,8,,2024-09-27,令和6年9月27日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#9,03recycle/yoshi03-15,議事次第・資料・議事録一覧,9,,2024-12-23,令和6年12月23日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#10,03recycle/yoshi03-15,議事次第・資料・議事録一覧,10,,2025-04-14,令和7年4月14日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#11,03recycle/yoshi03-15,議事次第・資料・議事録一覧,11,,2025-06-19,令和7年6月19日,,,,,,2,link,/council/03recycle/yoshi03-15.html
-03recycle/yoshi03-15/議事次第・資料・議事録一覧#12,03recycle/yoshi03-15,議事次第・資料・議事録一覧,12,,2025-09-25,令和7年9月25日,,,,,,2,link,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#6,03recycle/yoshi03-15,議事次第・資料・議事録一覧,6,,2024-01-22,令和6年1月22日,14:00-15:00,,,,,7,link+pdf,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#7,03recycle/yoshi03-15,議事次第・資料・議事録一覧,7,,2024-09-05,令和6年9月5日,14:00-16:00,,,,,7,link+pdf,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#8,03recycle/yoshi03-15,議事次第・資料・議事録一覧,8,,2024-09-27,令和6年9月27日,10:00-12:00,,,,,10,link+pdf,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#9,03recycle/yoshi03-15,議事次第・資料・議事録一覧,9,,2024-12-23,令和6年12月23日,16:00-18:00,,,,,16,link+pdf,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#10,03recycle/yoshi03-15,議事次第・資料・議事録一覧,10,,2025-04-14,令和7年4月14日,14:00-16:00,,,,,5,link+pdf,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#11,03recycle/yoshi03-15,議事次第・資料・議事録一覧,11,,2025-06-19,令和7年6月19日,10:30-12:30,,,,,5,link+pdf,/council/03recycle/yoshi03-15.html
+03recycle/yoshi03-15/議事次第・資料・議事録一覧#12,03recycle/yoshi03-15,議事次第・資料・議事録一覧,12,,2025-09-25,令和7年9月25日,16:00-18:00,,,,,11,link+pdf,/council/03recycle/yoshi03-15.html
 03recycle/yoshi03-14#1,03recycle/yoshi03-14,,1,,2020-05-12,令和2年5月12日,,,,,,2,link,/council/03recycle/yoshi03-14.html
 03recycle/yoshi03-14#2,03recycle/yoshi03-14,,2,,2020-05-26,令和2年5月26日,,,,,,2,link,/council/03recycle/yoshi03-14.html
 03recycle/yoshi03-14#3,03recycle/yoshi03-14,,3,,2020-06-23,令和2年6月23日,,,,,,2,link,/council/03recycle/yoshi03-14.html
@@ -770,7 +770,7 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 03recycle/yoshi03-14#9,03recycle/yoshi03-14,,9,,2021-08-02,令和3年8月2日,,,,,,2,link,/council/03recycle/yoshi03-14.html
 03recycle/yoshi03-14#10,03recycle/yoshi03-14,,10,,2021-08-23,令和3年8月23日,,,,,,2,link,/council/03recycle/yoshi03-14.html
 03recycle/yoshi03-14#11,03recycle/yoshi03-14,,11,,2021-11-22,令和3年11月22日,,,,,,2,link,/council/03recycle/yoshi03-14.html
-03recycle/yoshi03-14#12,03recycle/yoshi03-14,,12,,2026-08-21,令和8年8月21日,,,,,,2,link,/council/03recycle/yoshi03-14.html
+03recycle/yoshi03-14#12,03recycle/yoshi03-14,,12,,2026-08-21,令和8年8月21日,,,,,,6,link,/council/03recycle/yoshi03-14.html
 03recycle/yoshi03-01#1,03recycle/yoshi03-01,,1,,2013-03-28,平成25年3月28日,,,,,,2,link,/council/03recycle/yoshi03-01.html
 03recycle/yoshi03-01#2,03recycle/yoshi03-01,,2,,2013-04-26,平成25年4月26日,,,,,,2,link,/council/03recycle/yoshi03-01.html
 03recycle/yoshi03-01#3,03recycle/yoshi03-01,,3,,2013-05-10,平成25年5月10日,,,,,,2,link,/council/03recycle/yoshi03-01.html
@@ -796,10 +796,10 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 03recycle/yoshi03-01#25,03recycle/yoshi03-01,,25,,2023-09-22,令和5年9月22日,,,,,,2,link,/council/03recycle/yoshi03-01.html
 03recycle/yoshi03-01#26,03recycle/yoshi03-01,,26,,2023-10-27,令和5年10月27日,,,,,,2,link,/council/03recycle/yoshi03-01.html
 03recycle/yoshi03-01#27,03recycle/yoshi03-01,,27,,2023-12-19,令和5年12月19日,,,,,,2,link,/council/03recycle/yoshi03-01.html
-03recycle/yoshi03-01#28,03recycle/yoshi03-01,,28,,2024-06-28,令和6年6月28日,,,,,,2,link,/council/03recycle/yoshi03-01.html
-03recycle/yoshi03-01#29,03recycle/yoshi03-01,,29,,2024-09-17,令和6年9月17日,,,,,,2,link,/council/03recycle/yoshi03-01.html
-03recycle/yoshi03-01#30,03recycle/yoshi03-01,,30,,2024-10-11,令和6年10月11日,,,,,,2,link,/council/03recycle/yoshi03-01.html
-03recycle/yoshi03-01#31,03recycle/yoshi03-01,,31,,2024-12-16,令和6年12月16日,,,,,,2,link,/council/03recycle/yoshi03-01.html
+03recycle/yoshi03-01#28,03recycle/yoshi03-01,,28,,2024-06-28,令和6年6月28日,15:00-17:00,## 資料一覧委員名簿 | 食料・農業・農村政策審議会専門委員名簿(食料産業部会食品リサイクル小委員会) 中央環境審議会委員名簿(循環型社会部会食品リサイクル専門委員会)資料 | 食品リサイクル法に基づく基本方針等の見直しについて松岡委員からの意見書## 議事録午後3時03分 開会 / ○熊田室長 お待たせしました。定刻をちょっと過ぎてしまいましたけれども、ただいまから食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会及び中央環境審議会循環型社会部会食品リサイクル専門委員会の第26回合同会合を開催させていただきます。本日、司会を務めます、農林水産省大臣官房新事業・食品産業部外食・食文化課の熊田でございます。どうぞよろしくお願いいたします。委員の皆様におかれましてはお忙しい中、また、雨の中、会場への御参加、また、オンラインでの御参加を頂きまして、ありがとうございます。それでは、会合の開催に当たりまして、農林水産省大臣官房新事業・食品産業部外食・食文化課、五十嵐課長から御挨拶を申し上げます。 / ○五十嵐課長 皆さん、こんにちは。ただいま御紹介にあずかりました、農林水産省外食・食文化課の五十嵐です。本日は、足元が悪い中、また、御多忙の中、御参集いただいてどうもありがとうございます。本合同会議開催に当たりまして、一言御挨拶を申し上げます。現行の食品リサイクル法の基本方針は5年前の2019年7月に定められ、2024年度までの方針となっております。この基本方針はおおむね5年ごとに定めることとされており、本合同会議におきましては、2025年度から2029年度までの今後5年間の方針を御審議いただくこととしております。農林水産省の方で所管しております事業系食品ロスは、食品リサイクル法の基本方針に基づき、2030年度までに2000年度比で半減することを目標に食品関連事業者様と共に削減に取り組んでまいりました。皆様御案内のとおり、その結果、2022年度の推計値をもって目標を達成することができました。今般の目標達成は、新型コロナの影響による市場の縮小などの影響はあるものの、商慣習の見直しや手前取りの促進など、これまで食品関連事業者様が取り組んでいただいた御努力によるところが大きいと承知をしておりまして、関係者の不断の努力に対しまして改めて敬意と感謝を表したいと思います。更なる食品ロス削減を図るため、発生抑制の強化も必要ですし、また、発生した食品循環資源については、その有効な利用の確保の観点から食品循環資源の再生利用などの推進は重要であると考えております。このため、本合同会議においては、発生抑制に係る項目、それと再生利用などに係る項目、両方について御議論いただければと存じます。今回は、今後の取組の指針となる事業系食品ロスの削減目標を始め重要な項目が多くございますが、是非、御活発な御議論を頂ければと存じますので、どうぞよろしくお願いいたします。 / ○熊田室長 続きまして、環境省環境再生・資源循環局廃棄物適正処理推進課、松﨑課長より御挨拶を頂きます。 / ○松﨑課長 ただいま御紹介いただきました、環境省の松﨑と申します。本日、よろしくお願いいたします。今般、ここで開催させていただく合同会合は、先ほど五十嵐課長の方から御説明ございましたとおり、食品リサイクル法に基づく基本方針の見直しの検討をお願いするものでございます。,,,,7,link+pdf,/council/03recycle/yoshi03-01.html
+03recycle/yoshi03-01#29,03recycle/yoshi03-01,,29,,2024-09-17,令和6年9月17日,13:00-15:00,## 資料一覧委員名簿 | 食料・農業・農村政策審議会専門委員名簿(食料産業部会食品リサイクル小委員会) 中央環境審議会委員名簿(循環型社会部会食品リサイクル専門委員会)資料 | 食品リサイクル法に基づく基本方針等の見直しについて食品リサイクル法基本方針等の検討に関する意見書(﨑田委員)食品リサイクル法基本方針の見直しに対する意見書(山田委員)## 議事録午後1時00分 開会〇松﨑課長 それでは定刻になりましたので、ただ今から食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会、および中央環境審議会循環型社会部会食品リサイクル専門委員会の第27回合同会合を開催させていただきます。私、環境省環境再生資源循環局廃棄物適正処理推進課課長の松﨑と申します。よろしくお願いいたします。委員の皆さまにおかれましては、お忙しい中、会場へのご参加、Webでのご参加をいただきまして誠にありがとうございます。本合同会合の事務局、および議事進行は、農林水産省と環境省で持ち回りとさせていただいております。今回は環境省が事務局を務めさせていただきます。したがいまして、今回の座長につきましては、中央環境審議会循環型社会部会食品リサイクル専門委員会の石川座長にお願いいたします。ここで交代のありました委員の方をご紹介させていただきます。一般社団法人食品産業センター環境委員会 出口委員でございます。〇出口委員 食品産業センターから来ました。所属はハウス食品グループ本社となります。出口と申します。よろしくお願いします。〇松﨑課長 ありがとうございます。また、農林水産省の事務局も4月に交代いたしましたので、あわせてご紹介いたします。農林水産省大臣官房新事業食品産業部外食食文化課食品ロスリサイクル対策室 鈴木室長です。 / ○鈴木室長 鈴木でございます。よろしくお願いします。 / ○松﨑課長 続きまして、本日の委員の出席状況でございます。両審議会の委員数は、合計20名のうちWeb参加を含め17名の委員のご出席をいただいております。中央環境審議会循環型社会部会食品リサイクル専門委員会では、委員数15名のうちWeb参加を含め13名のご出席でございます。続きまして、食料・農業・農村政策審議会について農林水産省からお願いいたします。 / ○鈴木室長 食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会では、委員数10名のうちWeb参加を含め8名のご出席をいただいております。 / ○松﨑課長 ありがとうございます。なお、本日ご出席予定ということで今の人数をご紹介いたしましたが、うち、五十嵐委員、高木委員におかれましては、少し遅れての参加となります。五十嵐委員は対面で、高木委員はWebでとなりますことを申し添えておきます。それでは、以降の議事進行を石川座長にお願いいたします。よろしくお願いいたします。 / ○石川座長 皆さん、お忙しいところ、ご参加いただきましてありがとうございます。それでは早速議事に入りたいと思いますが、まず資料の確認をお願いしたいと思います。これは事務局からお願いします。 / ○松﨑課長 それでは、資料の確認をさせていただきます。本日は議事次第、委員名簿、資料1、崎田委員からの意見書、全国清掃事業連合会からの意見書につきまして、PC端末にお送りしてございます。不足等ございましたら事務局までご連絡いただきますよう、お願いいたします。よろしいでしょうか。資料は、会議の進行に合わせ画面に投影させていただきます。なお、本日の資料につきましては、原則全て公開とさせていただきます。また、合同会合終了後には、発言者名を示した議事録を作成し、各委員に配布、ご確認いただきました上で公開をさせていただきたいと思います。以上でございます。,,,,8,link+pdf,/council/03recycle/yoshi03-01.html
+03recycle/yoshi03-01#30,03recycle/yoshi03-01,,30,,2024-10-11,令和6年10月11日,15:00-17:00,## 資料一覧 / ・委員名簿 中央環境審議会委員名簿(循環型社会部会食品リサイクル専門委員会)食料・農業・農村政策審議会専門委員名簿(食料産業部会食品リサイクル小委員会) / ・資料1 今後の食品リサイクル制度のあり方について(案) / ・資料2 参考資料 / ・「今後の食品リサイクル制度のあり方について(案)」に関する意見書(鈴木委員)## 議事録午後3時00分 開会 / ○鈴木室長 それでは、定刻になりましたので、ただいまから食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会及び中央環境審議会循環型社会部会食品リサイクル専門委員会の第28回合同会合を開催させていただきたいと思います。本日、進行を務めさせていただきます、農林水産省の新事業・食品産業部外食・食文化課の鈴木でございます。どうぞよろしくお願いいたします。では、委員の皆様方におかれましてはお忙しい中、今日、天気はよかったと思いますけれども、会場に御参加いただきまして、また、ウェブ、オンラインで御参加を頂きまして、どうもありがとうございます。本会合の事務局及び議事進行は農林水産省、それから環境省で持ち回りとさせていただいておりまして、今回は農林水産省が事務を務めさせていただきます。したがいまして、今回の座長につきましては、従前どおり、食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会の渡辺座長にお願いいたしたいと思います。本日の委員の出席状況でございますが、両審議会の委員数は合わせて20名でありまして、ウェブ参加も含め、うち16名の委員の御出席を頂いております。食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会では、委員数10名のうちウェブ参加を含め、7名の御出席を頂いております。続きまして、中央環境審議会につきまして、環境省からお願いいたします。 / ○松﨑課長 中央環境審議会循環型社会部会食品リサイクル専門委員会では、委員数15名のうちウェブ参加を含め12名の御出席を頂いております。以上でございます。 / ○鈴木室長 ありがとうございました。それでは、以降の議事進行を渡辺座長にお願い申し上げます。,,,,8,link+pdf,/council/03recycle/yoshi03-01.html
+03recycle/yoshi03-01#31,03recycle/yoshi03-01,,31,,2024-12-16,令和6年12月16日,15:00-17:00,## 資料一覧 / ・委員名簿 中央環境審議会委員名簿(循環型社会部会食品リサイクル専門委員会)食料・農業・農村政策審議会専門委員名簿(食料産業部会食品リサイクル小委員会) / ・資料1 食品循環資源の再生利用等の促進に関する基本方針案のポイント / ・資料2 食品循環資源の再生利用等の促進に関する基本方針(案) / ・資料3 追加説明資料 / ・参考資料1 今後の食品リサイクル制度のあり方について(報告書) / ・参考資料2 「今後の食品リサイクル制度のあり方について(案)」に対する意見募集(パブリックコメント)結果## 議事録午後3時00分 開会〇松﨑課長 それでは定刻になりましたので、ただ今から食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会、および中央環境審議会循環型社会部会食品リサイクル専門委員会の第29回合同会合を開催させていただきます。私は、環境省環境再生・資源循環局廃棄物適正処理推進課長の松﨑でございます。よろしくお願いいたします。委員の皆さま方におかれましては、お忙しい中、会場へのご参加、またWebでのご参加をいただきまして誠にありがとうございます。本合同会合の事務局、および議事進行は、農林水産省と環境省で持ち回りとさせていただいております。今回は、環境省が事務局を務めさせていただきます。したがいまして、今回の座長につきましては、中央環境審議会循環型社会部会食品リサイクル専門委員会の石川座長にお願いいたします。本日の委員の出席状況でございます。両審議会の委員数は合計20名、このうち19名の委員のご出席をいただいております。中央環境審議会循環型社会部会食品リサイクル専門委員会では委員数15名全員のご出席をいただいております。続きまして、食料・農業・農村政策審議会について、農林水産省からお願いいたします。 / ○鈴木室長 農林水産省です。食料・農業・農村政策審議会食料産業部会食品リサイクル小委員会では、委員数10名のうち9名、1名、入江委員がちょっと遅れてまいりますけれども、ご出席いただきます。 / ○松﨑課長 ありがとうございます。なお、先ほど少しありましたが、入江委員、および鈴木委員に関しましては、少し遅れてご参加されると伺ってございます。それでは、以降の議事進行を石川座長にお願いいたします。 / ○石川座長 こんにちは。お忙しいところ、ありがとうございます。それでは早速議事に入りたいと思いますが、まず資料の確認を事務局にお願いいたします。 / ○松﨑課長 事務局から資料の確認をさせていただきます。本日は、議事次第、委員名簿、資料1、資料2、資料3、参考資料1、参考資料2につきまして、PC端末にお配りさせていただいております。不足などございましたら事務局までご連絡ください。資料は、会議の進行に合わせて画面に投影させていただきます。なお、本日の資料につきましては、原則全て公開とさせていただきます。また、合同会合終了後には、発言者名を示した議事録を作成し、各委員に配布、ご確認いただいた上で公開をさせていただきたいと存じます。 / ○石川座長 どうもありがとうございます。それでは早速資料の説明をお願いしたいと思います。これは環境省からお願いします。,,,,10,link+pdf,/council/03recycle/yoshi03-01.html
 03recycle/yoshi03-03#31,03recycle/yoshi03-03,,31,,2013-08-07,平成25年8月7日,,,,,,2,link,/council/03recycle/yoshi03-03.html
 03recycle/yoshi03-03#32,03recycle/yoshi03-03,,32,,2014-08-21,平成26年8月21日,,,,,,2,link,/council/03recycle/yoshi03-03.html
 03recycle/yoshi03-03#33,03recycle/yoshi03-03,,33,,2014-10-02,平成26年10月2日,,,,,,2,link,/council/03recycle/yoshi03-03.html
@@ -827,17 +827,17 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 03recycle/yoshi03-03#55,03recycle/yoshi03-03,,55,,2021-07-15,令和3年7月15日,,,,,,1,link,/council/03recycle/yoshi03-03.html
 03recycle/yoshi03-03#56,03recycle/yoshi03-03,,56,,2021-10-29,令和3年10月29日,,,,,,2,link,/council/03recycle/yoshi03-03.html
 03recycle/yoshi03-03#57,03recycle/yoshi03-03,,57,,2022-11-07,令和4年11月7日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#58,03recycle/yoshi03-03,,58,,2024-01-26,令和6年1月26日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#59,03recycle/yoshi03-03,,59,,2024-11-14,令和6年11月14日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#60,03recycle/yoshi03-03,,60,,2025-09-05,令和7年9月5日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#61,03recycle/yoshi03-03,,61,,2025-10-14,令和7年10月14日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#62,03recycle/yoshi03-03,,62,,2025-10-21,令和7年10月21日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#63,03recycle/yoshi03-03,,63,,2025-12-23,令和7年12月23日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#64,03recycle/yoshi03-03,,64,,2026-01-13,令和8年1月13日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#65,03recycle/yoshi03-03,,65,,2026-03-02,令和8年3月2日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#66,03recycle/yoshi03-03,,66,,2026-06-09,令和8年6月9日,,,,,,2,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-03#67,03recycle/yoshi03-03,,67,,2026-07-27,令和8年7月27日,,,,,,1,link,/council/03recycle/yoshi03-03.html
-03recycle/yoshi03-19#1,03recycle/yoshi03-19,,1,,2026-02-13,令和8年2月13日,,,,,,2,link,/council/03recycle/yoshi03-19.html
+03recycle/yoshi03-03#58,03recycle/yoshi03-03,,58,,2024-01-26,令和6年1月26日,15:02-17:10,,,,,21,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#59,03recycle/yoshi03-03,,59,,2024-11-14,令和6年11月14日,15:00-17:38,,,,,20,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#60,03recycle/yoshi03-03,,60,,2025-09-05,令和7年9月5日,13:00-15:15,,,,,23,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#61,03recycle/yoshi03-03,,61,,2025-10-14,令和7年10月14日,13:00-15:30,,,,,10,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#62,03recycle/yoshi03-03,,62,,2025-10-21,令和7年10月21日,13:00-15:15,,,,,9,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#63,03recycle/yoshi03-03,,63,,2025-12-23,令和7年12月23日,10:00-12:00,,,,,5,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#64,03recycle/yoshi03-03,,64,,2026-01-13,令和8年1月13日,15:00-17:00,,,,,7,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#65,03recycle/yoshi03-03,,65,,2026-03-02,令和8年3月2日,13:00-15:00,,,,,8,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#66,03recycle/yoshi03-03,,66,,2026-06-09,令和8年6月9日,15:00-17:00,,,,,5,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-03#67,03recycle/yoshi03-03,,67,,2026-07-27,令和8年7月27日,,1.「自動車リサイクル制度の施行状況の評価・検討に関する報告書(案)」に対するパブリックコメントで寄せられた御意見の概要及びそれに対する考え方(案)について / 2.自動車リサイクル制度の施行状況の評価・検討に関する報告書(案)について,,,,8,link+pdf,/council/03recycle/yoshi03-03.html
+03recycle/yoshi03-19#1,03recycle/yoshi03-19,,1,,2026-02-13,令和8年2月13日,13:00-15:00,,,,,16,link+pdf,/council/03recycle/yoshi03-19.html
 03recycle/yoshi03-04#5,03recycle/yoshi03-04,,5,,2026-10-05,令和8年10月5日,,,,,,4,link,/council/03recycle/yoshi03-04.html
 03recycle/yoshi03-04#9,03recycle/yoshi03-04,,9,,2014-03-25,平成26年3月25日,,,,,,2,link,/council/03recycle/yoshi03-04.html
 03recycle/yoshi03-04#10,03recycle/yoshi03-04,,10,,2014-04-30,平成26年4月30日,,,,,,2,link,/council/03recycle/yoshi03-04.html
@@ -853,14 +853,14 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 03recycle/yoshi03-06#7,03recycle/yoshi03-06,,7,,2014-12-02,平成26年12月2日,,,,,,2,link,/council/03recycle/yoshi03-06.html
 03recycle/yoshi03-06#8,03recycle/yoshi03-06,,8,,2015-02-04,平成27年2月4日,,,,,,2,link,/council/03recycle/yoshi03-06.html
 03recycle/yoshi03-06#9,03recycle/yoshi03-06,,9,,2015-11-16,平成27年11月16日,,,,,,2,link,/council/03recycle/yoshi03-06.html
-03recycle/yoshi03-06#10,03recycle/yoshi03-06,,10,,2024-12-24,令和6年12月24日,,,,,,2,link,/council/03recycle/yoshi03-06.html
-03recycle/yoshi03-18#1@2025-02-27,03recycle/yoshi03-18,,1,,2025-02-27,令和7年2月27日,,,,,,2,link,/council/03recycle/yoshi03-18.html
-03recycle/yoshi03-18#1,03recycle/yoshi03-18,,1,,2025-07-30,令和7年7月30日,,,,,,1,link,/council/03recycle/yoshi03-18.html
-03recycle/yoshi03-18#2@2025-08-04,03recycle/yoshi03-18,,2,,2025-08-04,令和7年8月4日,,,,,,1,link,/council/03recycle/yoshi03-18.html
-03recycle/yoshi03-18#2@2025-10-24,03recycle/yoshi03-18,,2,,2025-10-24,令和7年10月24日,,,,,,2,link,/council/03recycle/yoshi03-18.html
-03recycle/yoshi03-18#2,03recycle/yoshi03-18,,2,,2025-12-23,令和7年12月23日,,,,,,1,link,/council/03recycle/yoshi03-18.html
-03recycle/yoshi03-18#3,03recycle/yoshi03-18,,3,,2026-03-10,令和8年3月10日,,,,,,2,link,/council/03recycle/yoshi03-18.html
-03recycle/yoshi03-18#4,03recycle/yoshi03-18,,4,,2026-09-07,令和8年9月7日,,,,,,1,link,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-06#10,03recycle/yoshi03-06,,10,,2024-12-24,令和6年12月24日,,,,,,18,link,/council/03recycle/yoshi03-06.html
+03recycle/yoshi03-18#1@2025-02-27,03recycle/yoshi03-18,,1,,2025-02-27,令和7年2月27日,09:00-11:00,,,,,6,link+pdf,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-18#1,03recycle/yoshi03-18,,1,,2025-07-30,令和7年7月30日,,,,,,8,link,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-18#2@2025-08-04,03recycle/yoshi03-18,,2,,2025-08-04,令和7年8月4日,,,,,,3,link,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-18#2@2025-10-24,03recycle/yoshi03-18,,2,,2025-10-24,令和7年10月24日,10:00-12:00,,,,,6,link+pdf,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-18#2,03recycle/yoshi03-18,,2,,2025-12-23,令和7年12月23日,,,,,,4,link,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-18#3,03recycle/yoshi03-18,,3,,2026-03-10,令和8年3月10日,15:00-17:00,,,,,10,link+pdf,/council/03recycle/yoshi03-18.html
+03recycle/yoshi03-18#4,03recycle/yoshi03-18,,4,,2026-09-07,令和8年9月7日,,1.「小型家電リサイクル制度の施行状況の評価・検討に関する報告書(案)」に対するパブリックコメントで寄せられた御意見の概要及びそれに対する考え方(案)について / 2.小型家電リサイクル制度の施行状況の評価・検討に関する報告書(案)について,,,,8,link+pdf,/council/03recycle/yoshi03-18.html
 03recycle/yoshi03-08#1,03recycle/yoshi03-08,,1,,2015-12-11,平成27年12月11日,,,,,,2,link,/council/03recycle/yoshi03-08.html
 03recycle/yoshi03-08#2,03recycle/yoshi03-08,,2,,2016-12-12,平成28年12月12日,,,,,,2,link,/council/03recycle/yoshi03-08.html
 03recycle/yoshi03-08#3,03recycle/yoshi03-08,,3,,2017-12-22,平成29年12月22日,,,,,,2,link,/council/03recycle/yoshi03-08.html
@@ -1110,32 +1110,32 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 05hoken/yoshi05-01#238,05hoken/yoshi05-01,,238,,2023-10-20,令和5年10月20日,,,,,,1,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#239,05hoken/yoshi05-01,,239,,2023-11-17,令和5年11月17日,,,,,,4,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#240,05hoken/yoshi05-01,,240,,2023-12-15,令和5年12月15日,,,,,,3,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#241,05hoken/yoshi05-01,,241,,2024-01-16,令和6年1月16日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#241,05hoken/yoshi05-01,,241,,2024-01-16,令和6年1月16日,,,,,,41,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#242,05hoken/yoshi05-01,,242,,2024-03-26,令和6年3月26日,,,,,,1,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#243,05hoken/yoshi05-01,,243,,2024-04-22,令和6年4月22日,,,,,,1,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#244,05hoken/yoshi05-01,,244,,2024-05-24,令和6年5月24日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#245,05hoken/yoshi05-01,,245,,2024-06-21,令和6年6月21日,,,,,,3,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#246,05hoken/yoshi05-01,,246,,2024-07-19,令和6年7月19日,,,,,,4,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#247,05hoken/yoshi05-01,,247,,2024-09-20,令和6年9月20日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#245,05hoken/yoshi05-01,,245,,2024-06-21,令和6年6月21日,,,,,,14,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#246,05hoken/yoshi05-01,,246,,2024-07-19,令和6年7月19日,,,,,,29,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#247,05hoken/yoshi05-01,,247,,2024-09-20,令和6年9月20日,,,,,,9,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#248,05hoken/yoshi05-01,,248,,2024-10-21,令和6年10月21日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#249,05hoken/yoshi05-01,,249,,2024-11-15,令和6年11月15日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#249,05hoken/yoshi05-01,,249,,2024-11-15,令和6年11月15日,,,,,,24,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#250,05hoken/yoshi05-01,,250,,2024-12-13,令和6年12月13日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#251,05hoken/yoshi05-01,,251,,2025-01-14,令和7年1月14日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#251,05hoken/yoshi05-01,,251,,2025-01-14,令和7年1月14日,,,,,,32,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#252,05hoken/yoshi05-01,,252,,2025-03-24,令和7年3月24日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#253,05hoken/yoshi05-01,,253,,2025-04-18,令和7年4月18日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#253,05hoken/yoshi05-01,,253,,2025-04-18,令和7年4月18日,,,,,,10,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#254,05hoken/yoshi05-01,,254,,2025-05-26,令和7年5月26日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#255,05hoken/yoshi05-01,,255,,2025-06-20,令和7年6月20日,,,,,,3,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#256,05hoken/yoshi05-01,,256,,2025-07-22,令和7年7月22日,,,,,,3,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#257,05hoken/yoshi05-01,,257,,2025-09-19,令和7年9月19日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#255,05hoken/yoshi05-01,,255,,2025-06-20,令和7年6月20日,,,,,,16,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#256,05hoken/yoshi05-01,,256,,2025-07-22,令和7年7月22日,,,,,,16,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#257,05hoken/yoshi05-01,,257,,2025-09-19,令和7年9月19日,,,,,,25,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#258,05hoken/yoshi05-01,,258,,2025-10-21,令和7年10月21日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#259,05hoken/yoshi05-01,,259,,2025-11-14,令和7年11月14日,,,,,,3,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#259,05hoken/yoshi05-01,,259,,2025-11-14,令和7年11月14日,,,,,,30,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#260,05hoken/yoshi05-01,,260,,2025-12-12,令和7年12月12日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#261,05hoken/yoshi05-01,,261,,2026-01-13,令和8年1月13日,,,,,,6,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#261,05hoken/yoshi05-01,,261,,2026-01-13,令和8年1月13日,,,,,,37,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#262,05hoken/yoshi05-01,,262,,2026-03-19,令和8年3月19日,,,,,,1,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#263,05hoken/yoshi05-01,,263,,2026-04-17,令和8年4月17日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#264,05hoken/yoshi05-01,,264,,2026-05-25,令和8年5月25日,,,,,,2,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#264,05hoken/yoshi05-01,,264,,2026-05-25,令和8年5月25日,,,,,,9,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#265,05hoken/yoshi05-01,,265,,2026-06-29,令和8年6月29日,,,,,,1,link,/council/05hoken/yoshi05-01.html
-05hoken/yoshi05-01#266,05hoken/yoshi05-01,,266,,2026-07-24,令和8年7月24日,,,,,,4,link,/council/05hoken/yoshi05-01.html
+05hoken/yoshi05-01#266,05hoken/yoshi05-01,,266,,2026-07-24,令和8年7月24日,,,,,,11,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#267,05hoken/yoshi05-01,,267,,2026-09-14,令和8年9月14日,,,,,,8,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#268,05hoken/yoshi05-01,,268,,2026-10-19,令和8年10月19日,,,,,,1,link,/council/05hoken/yoshi05-01.html
 05hoken/yoshi05-01#269,05hoken/yoshi05-01,,269,,2026-11-09,令和8年11月9日,,,,,,12,link,/council/05hoken/yoshi05-01.html
@@ -1168,8 +1168,8 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 05hoken/yoshi05-02#27,05hoken/yoshi05-02,,27,,2021-12-14,令和3年12月14日,,,,,,2,link,/council/05hoken/yoshi05-02.html
 05hoken/yoshi05-02#28,05hoken/yoshi05-02,,28,,2022-12-21,令和4年12月21日,,,,,,2,link,/council/05hoken/yoshi05-02.html
 05hoken/yoshi05-02#29,05hoken/yoshi05-02,,29,,2023-12-18,令和5年12月18日,,,,,,2,link,/council/05hoken/yoshi05-02.html
-05hoken/yoshi05-02#30,05hoken/yoshi05-02,,30,,2024-12-20,令和6年12月20日,,,,,,2,link,/council/05hoken/yoshi05-02.html
-05hoken/yoshi05-02#31,05hoken/yoshi05-02,,31,,2025-12-24,令和7年12月24日,,,,,,2,link,/council/05hoken/yoshi05-02.html
+05hoken/yoshi05-02#30,05hoken/yoshi05-02,,30,,2024-12-20,令和6年12月20日,16:00-18:00,,,,,16,link+pdf,/council/05hoken/yoshi05-02.html
+05hoken/yoshi05-02#31,05hoken/yoshi05-02,,31,,2025-12-24,令和7年12月24日,10:00-12:02,,,,,16,link+pdf,/council/05hoken/yoshi05-02.html
 05hoken/yoshi05-09#102,05hoken/yoshi05-09,,102,,2013-02-20,平成25年2月20日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#103,05hoken/yoshi05-09,,103,,2013-03-11,平成25年3月11日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#104,05hoken/yoshi05-09,,104,,2013-04-25,平成25年4月25日,,,,,,1,link,/council/05hoken/yoshi05-09.html
@@ -1311,7 +1311,7 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 05hoken/yoshi05-09#240,05hoken/yoshi05-09,,240,,2024-11-21,令和6年11月21日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#241,05hoken/yoshi05-09,,241,,2024-12-26,令和6年12月26日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#242,05hoken/yoshi05-09,,242,,2025-01-17,令和7年1月17日,,,,,,1,link,/council/05hoken/yoshi05-09.html
-05hoken/yoshi05-09#243,05hoken/yoshi05-09,,243,,2025-01-23,令和7年1月23日,,,,,,2,link,/council/05hoken/yoshi05-09.html
+05hoken/yoshi05-09#243,05hoken/yoshi05-09,,243,,2025-01-23,令和7年1月23日,,,,,,6,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#244,05hoken/yoshi05-09,,244,,2025-02-12,令和7年2月12日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#245,05hoken/yoshi05-09,,245,,2025-03-12,令和7年3月12日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#246,05hoken/yoshi05-09,,246,,2025-04-24,令和7年4月24日,,,,,,1,link,/council/05hoken/yoshi05-09.html
@@ -1331,7 +1331,7 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 05hoken/yoshi05-09#260,05hoken/yoshi05-09,,260,,2026-06-26,令和8年6月26日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#261,05hoken/yoshi05-09,,261,,2026-07-15,令和8年7月15日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#262,05hoken/yoshi05-09,,262,,2026-08-06,令和8年8月6日,,,,,,1,link,/council/05hoken/yoshi05-09.html
-05hoken/yoshi05-09#263,05hoken/yoshi05-09,,263,,2026-09-03,令和8年9月3日,,,,,,3,link,/council/05hoken/yoshi05-09.html
+05hoken/yoshi05-09#263,05hoken/yoshi05-09,,263,,2026-09-03,令和8年9月3日,,,,,,7,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-09#264,05hoken/yoshi05-09,,264,,2026-10-22,令和8年10月22日,,,,,,1,link,/council/05hoken/yoshi05-09.html
 05hoken/yoshi05-10#172,05hoken/yoshi05-10,,172,,2013-01-11,平成25年1月11日,,,,,,1,link,/council/05hoken/yoshi05-10.html
 05hoken/yoshi05-10#173,05hoken/yoshi05-10,,173,,2013-01-31,平成25年1月31日,,,,,,1,link,/council/05hoken/yoshi05-10.html
@@ -1751,20 +1751,20 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 06earth/yoshi06-09#1@2021-03-01,06earth/yoshi06-09,,1,,2021-03-01,令和3年3月1日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#1@2022-02-28,06earth/yoshi06-09,,1,,2022-02-28,令和4年2月28日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#1@2023-03-16,06earth/yoshi06-09,,1,,2023-03-16,令和5年3月16日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#1@2024-03-21,06earth/yoshi06-09,,1,,2024-03-21,令和6年3月21日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#1@2024-04-15,06earth/yoshi06-09,,1,,2024-04-15,令和6年4月15日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#1@2025-06-18,06earth/yoshi06-09,,1,,2025-06-18,令和7年6月18日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#1,06earth/yoshi06-09,,1,,2026-05-11,令和8年5月11日,,,,,,2,link,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#1@2024-03-21,06earth/yoshi06-09,,1,,2024-03-21,令和6年3月21日,10:00-12:00,,,,,22,link+pdf,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#1@2024-04-15,06earth/yoshi06-09,,1,,2024-04-15,令和6年4月15日,15:00-17:00,,,,,8,link+pdf,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#1@2025-06-18,06earth/yoshi06-09,,1,,2025-06-18,令和7年6月18日,13:00-15:00,,,,,10,link+pdf,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#1,06earth/yoshi06-09,,1,,2026-05-11,令和8年5月11日,14:00-16:00,,,,,10,link+pdf,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#2@2008-11-17,06earth/yoshi06-09,,2,,2008-11-17,平成20年11月17日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#2@2018-03-09,06earth/yoshi06-09,,2,,2018-03-09,平成30年3月9日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#2@2019-02-26,06earth/yoshi06-09,,2,,2019-02-26,平成31年2月26日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#2@2021-03-01,06earth/yoshi06-09,,2,,2021-03-01,令和3年3月1日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#2@2022-02-28,06earth/yoshi06-09,,2,,2022-02-28,令和4年2月28日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#2@2023-03-16,06earth/yoshi06-09,,2,,2023-03-16,令和5年3月16日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#2@2024-09-18,06earth/yoshi06-09,,2,,2024-09-18,令和6年9月18日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#2,06earth/yoshi06-09,,2,,2026-03-24,令和8年3月24日,,,,,,2,link,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#2@2024-09-18,06earth/yoshi06-09,,2,,2024-09-18,令和6年9月18日,16:30-18:30,,,,,7,link+pdf,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#2,06earth/yoshi06-09,,2,,2026-03-24,令和8年3月24日,10:00-12:00,,,,,16,link+pdf,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09#3@2021-03-02,06earth/yoshi06-09,,3,,2021-03-02,令和3年3月2日,,,,,,2,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09#3,06earth/yoshi06-09,,3,,2025-03-25,令和7年3月25日,,,,,,2,link,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09#3,06earth/yoshi06-09,,3,,2025-03-25,令和7年3月25日,17:00-19:00,,,,,16,link+pdf,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09@2011-12-01,06earth/yoshi06-09,,,,2011-12-01,平成23年12月1日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09@2012-12-03,06earth/yoshi06-09,,,,2012-12-03,平成24年12月3日,,,,,,2,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09@2014-03-19,06earth/yoshi06-09,,,,2014-03-19,平成26年3月19日,,,,,,2,link,/council/06earth/yoshi06-09.html
@@ -1775,12 +1775,12 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 06earth/yoshi06-09@2020-03-19,06earth/yoshi06-09,,,,2020-03-19,令和2年3月19日,,,,,,1,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09@2021-03-09,06earth/yoshi06-09,,,,2021-03-09,令和3年3月9日,,,,,,1,link,/council/06earth/yoshi06-09.html
 06earth/yoshi06-09@2022-05-23,06earth/yoshi06-09,,,,2022-05-23,令和4年5月23日,,,,,,1,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09@2024-05-24,06earth/yoshi06-09,,,,2024-05-24,令和6年5月24日,,,,,,1,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-09@2025-07-24,06earth/yoshi06-09,,,,2025-07-24,令和7年7月24日,,,,,,1,link,/council/06earth/yoshi06-09.html
-06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#1,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,1,,2026-03-27,令和 8年 3月27日,13:00-15:00,(1)本合同会議の開催趣旨・スケジュールについて / (2)フロン排出の現状・改正フロン排出抑制法の施行状況について / (3)現在実施している主な対策について / (4)関係者よりヒアリング,別館 1 階 104 各省庁共用会議室・オンライン会議,,,2,link+pdf,/council/06earth/yoshi06-07.html
-06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#2,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,2,,2026-04-07,令和 8年 4月 7日,14:00-16:00,(1)関係者よりヒアリング,経済産業省別館 1 階 第 104 各省庁共用会議室(オンライン併用),,,2,link+pdf,/council/06earth/yoshi06-07.html
-06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#3,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,3,,2026-05-12,令和 8年 5月12日,14:00-16:00,(1) フロン排出抑制に係る今後の対策の方向性について / ○今村室長    それでは、定刻となりましたので、産業構造審議会保安・消費生活用製品安全分科会化学物質政策小委員会フロン類対策ワーキンググループ中央環境審議会地球環境部会フルオロカーボン対策小委員会の第3回合同会議を開催いたします。お忙しいところお集まりいただきまして、ありがとうございます。今回は、経済産業省が事務局を担当いたします。経済産業省オゾン層保護等推進室の今村でございます。よろしくお願いいたします。本日は、産業構造審議会ワーキンググループと中央環境審議会小委員会のそれぞれの過半数の委員に御出席いただいております。定足数の要件を満たし、合同会議として成立していることを御報告いたします。なお、中環審の高村委員が御欠席となっております。また、中環審の鈴木委員の御退任に伴いまして、一般社団法人日本ビルヂング協会の深井様を委員として任命しております。今回より委員として御出席いただいておりますので、併せて御報告いたします。本会議は、対面とオンラインのハイブリッド開催とさせていただいております。開催の状況は、インターネットで同時配信しております。オンラインでの開催に当たり何点か御協力をお願いいたします。通信環境への負荷低減のため、カメラの映像はオフにしていただきますようお願いします。また、ハウリング等- 1 -,経済産業省別館1階 104 各省庁共用会議室(オンライン併用),,,2,link+pdf,/council/06earth/yoshi06-07.html
-06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#4,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,4,,2026-06-26,令和 8年 6月26日,15:00-17:00,(1)中間とりまとめ案について,経済産業省別館 1 階 104 各省庁共用会議室(オンライン併用),,,2,link+pdf,/council/06earth/yoshi06-07.html
+06earth/yoshi06-09@2024-05-24,06earth/yoshi06-09,,,,2024-05-24,令和6年5月24日,,,,,,5,link,/council/06earth/yoshi06-09.html
+06earth/yoshi06-09@2025-07-24,06earth/yoshi06-09,,,,2025-07-24,令和7年7月24日,,2024 年度カーボンニュートラル行動計画(低炭素社会実行計画)の評価・検証結果及び今後の課題等について,,,,6,link+pdf,/council/06earth/yoshi06-09.html
+06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#1,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,1,,2026-03-27,令和 8年 3月27日,13:00-15:00,(1)本合同会議の開催趣旨・スケジュールについて / (2)フロン排出の現状・改正フロン排出抑制法の施行状況について / (3)現在実施している主な対策について / (4)関係者よりヒアリング,別館 1 階 104 各省庁共用会議室・オンライン会議,,,9,link+pdf,/council/06earth/yoshi06-07.html
+06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#2,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,2,,2026-04-07,令和 8年 4月 7日,14:00-16:00,(1)関係者よりヒアリング,経済産業省別館 1 階 第 104 各省庁共用会議室(オンライン併用),,,11,link+pdf,/council/06earth/yoshi06-07.html
+06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#3,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,3,,2026-05-12,令和 8年 5月12日,14:00-16:00,(1) フロン排出抑制に係る今後の対策の方向性について / ○今村室長    それでは、定刻となりましたので、産業構造審議会保安・消費生活用製品安全分科会化学物質政策小委員会フロン類対策ワーキンググループ中央環境審議会地球環境部会フルオロカーボン対策小委員会の第3回合同会議を開催いたします。お忙しいところお集まりいただきまして、ありがとうございます。今回は、経済産業省が事務局を担当いたします。経済産業省オゾン層保護等推進室の今村でございます。よろしくお願いいたします。本日は、産業構造審議会ワーキンググループと中央環境審議会小委員会のそれぞれの過半数の委員に御出席いただいております。定足数の要件を満たし、合同会議として成立していることを御報告いたします。なお、中環審の高村委員が御欠席となっております。また、中環審の鈴木委員の御退任に伴いまして、一般社団法人日本ビルヂング協会の深井様を委員として任命しております。今回より委員として御出席いただいておりますので、併せて御報告いたします。本会議は、対面とオンラインのハイブリッド開催とさせていただいております。開催の状況は、インターネットで同時配信しております。オンラインでの開催に当たり何点か御協力をお願いいたします。通信環境への負荷低減のため、カメラの映像はオフにしていただきますようお願いします。また、ハウリング等- 1 -,経済産業省別館1階 104 各省庁共用会議室(オンライン併用),,,10,link+pdf,/council/06earth/yoshi06-07.html
+06earth/yoshi06-07/フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）#4,06earth/yoshi06-07,フルオロカーボン対策小委員会（産業構造審議会 保安・消費生活用製品安全分科会 化学物質政策小委員会 フロン類対策ワーキンググループ 合同会議）,4,,2026-06-26,令和 8年 6月26日,15:00-17:00,(1)中間とりまとめ案について,経済産業省別館 1 階 104 各省庁共用会議室(オンライン併用),,,6,link+pdf,/council/06earth/yoshi06-07.html
 06earth/yoshi06-07/フロン類等対策小委員会（単独開催）#1,06earth/yoshi06-07,フロン類等対策小委員会（単独開催）,1,,2010-07-27,平成22年 7月27日,,,,,,3,link,/council/06earth/yoshi06-07.html
 06earth/yoshi06-07/フロン類等対策小委員会（単独開催）#2,06earth/yoshi06-07,フロン類等対策小委員会（単独開催）,2,,2010-08-03,平成22年 8月 3日,,,,,,3,link,/council/06earth/yoshi06-07.html
 06earth/yoshi06-07/フロン類等対策小委員会（単独開催）#3,06earth/yoshi06-07,フロン類等対策小委員会（単独開催）,3,,2010-09-27,平成22年 9月27日,,,,,,3,link,/council/06earth/yoshi06-07.html
@@ -1841,15 +1841,15 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 06earth/yoshi06-16/旧：気候変動影響評価等小委員会#22,06earth/yoshi06-16,旧：気候変動影響評価等小委員会,22,,2020-11-27,令和2年11月27日,,,,,,2,link,/council/06earth/yoshi06-16.html
 06earth/yoshi06-16/旧：気候変動影響評価等小委員会#23,06earth/yoshi06-16,旧：気候変動影響評価等小委員会,23,,2021-09-27,令和3年9月27日,,,,,,2,link,/council/06earth/yoshi06-16.html
 06earth/yoshi06-16/旧：気候変動影響評価等小委員会#24,06earth/yoshi06-16,旧：気候変動影響評価等小委員会,24,,2022-06-17,令和4年6月17日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#1,06earth/yoshi06-16,気候変動影響評価・適応小委員会,1,,2024-01-23,令和6年1月23日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#2,06earth/yoshi06-16,気候変動影響評価・適応小委員会,2,,2024-03-05,令和6年3月5日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#3,06earth/yoshi06-16,気候変動影響評価・適応小委員会,3,,2024-07-05,令和6年7月5日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#4,06earth/yoshi06-16,気候変動影響評価・適応小委員会,4,,2024-08-06,令和6年8月6日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#5,06earth/yoshi06-16,気候変動影響評価・適応小委員会,5,,2025-03-26,令和7年3月26日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#6,06earth/yoshi06-16,気候変動影響評価・適応小委員会,6,,2025-11-21,令和7年11月21日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#7,06earth/yoshi06-16,気候変動影響評価・適応小委員会,7,,2026-01-20,令和8年1月20日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#8,06earth/yoshi06-16,気候変動影響評価・適応小委員会,8,,2026-03-16,令和8年3月16日,,,,,,2,link,/council/06earth/yoshi06-16.html
-06earth/yoshi06-16/気候変動影響評価・適応小委員会#9,06earth/yoshi06-16,気候変動影響評価・適応小委員会,9,,2026-05-26,令和8年5月26日,,,,,,2,link,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#1,06earth/yoshi06-16,気候変動影響評価・適応小委員会,1,,2024-01-23,令和6年1月23日,10:00-12:05,,,,,9,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#2,06earth/yoshi06-16,気候変動影響評価・適応小委員会,2,,2024-03-05,令和6年3月5日,15:00-17:05,,,,,9,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#3,06earth/yoshi06-16,気候変動影響評価・適応小委員会,3,,2024-07-05,令和6年7月5日,14:00-15:59,,,,,4,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#4,06earth/yoshi06-16,気候変動影響評価・適応小委員会,4,,2024-08-06,令和6年8月6日,14:00-15:43,,,,,9,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#5,06earth/yoshi06-16,気候変動影響評価・適応小委員会,5,,2025-03-26,令和7年3月26日,10:00-11:54,,,,,10,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#6,06earth/yoshi06-16,気候変動影響評価・適応小委員会,6,,2025-11-21,令和7年11月21日,14:01-15:53,,,,,8,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#7,06earth/yoshi06-16,気候変動影響評価・適応小委員会,7,,2026-01-20,令和8年1月20日,10:00-11:03,,,,,9,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#8,06earth/yoshi06-16,気候変動影響評価・適応小委員会,8,,2026-03-16,令和8年3月16日,10:00-11:47,,,,,6,link+pdf,/council/06earth/yoshi06-16.html
+06earth/yoshi06-16/気候変動影響評価・適応小委員会#9,06earth/yoshi06-16,気候変動影響評価・適応小委員会,9,,2026-05-26,令和8年5月26日,15:00-17:02,,,,,8,link+pdf,/council/06earth/yoshi06-16.html
 06earth/yoshi06-16/気候変動影響評価・適応小委員会#10,06earth/yoshi06-16,気候変動影響評価・適応小委員会,10,,2026-09-11,令和8年9月11日,10:00-12:05,,,,,9,link+pdf,/council/06earth/yoshi06-16.html
 06earth/yoshi06-16/気候変動影響評価・適応小委員会#11,06earth/yoshi06-16,気候変動影響評価・適応小委員会,11,,2026-11-09,令和8年11月9日,,,,,,9,link,/council/06earth/yoshi06-16.html
 06earth/yoshi06-19#1,06earth/yoshi06-19,,1,,2018-07-30,平成30年7月30日,,,,,,2,link,/council/06earth/yoshi06-19.html
@@ -1878,18 +1878,18 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 06earth/yoshi06-23#1@2022-03-24,06earth/yoshi06-23,,1,,2022-03-24,令和4年3月24日,,,,,,2,link,/council/06earth/yoshi06-23.html
 06earth/yoshi06-23#1,06earth/yoshi06-23,,1,,2023-05-29,令和5年5月29日,,,,,,2,link,/council/06earth/yoshi06-23.html
 06earth/yoshi06-23#2@2022-04-05,06earth/yoshi06-23,,2,,2022-04-05,令和4年4月5日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#2,06earth/yoshi06-23,,2,,2024-05-24,令和6年5月24日,,,,,,2,link,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#2,06earth/yoshi06-23,,2,,2024-05-24,令和6年5月24日,13:30-15:30,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会 委員名簿資料2:産業構造審議会産業技術環境分科会地球環境小委員会 委員名簿資料3:2022年度における地球温暖化対策計画の進捗状況(案)資料4:環境省関連対策・施策の進捗及び今後の取組について資料5:我が国のグリーントランスフォーメーションの加速に向けて資料6:みどりの食料システム戦略と農林水産分野における地球温暖化対策資料7:GXの実現に向けた国土交通省の取組について## 議事録午後1時34分 開会脱炭素社会移行推進室それでは、ただいまから、中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会・産業構造審議会産業技術環境分科会地球環境小委員会合同会合(第2回)を開催いたします。私は環境省脱炭素社会移行推進室の福永でございます。どうぞよろしくお願いいたします。本日の会議は、ウェブにより開催をさせていただきます。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、ウェブ上で公開予定でございます。ウェブ会議の開催に当たり、何点かご協力をお願いいたします。通信環境の負荷軽減のため、カメラの映像は原則オフにしていただき、ご発言の際のみオンにしていただきますようお願いします。また発言する際は、アサイン以外はマイクの設定をミュートにしていただきますようご協力をお願いします。ご発言を希望される場合には、ご自身のお名前の右側にある手のアイコン(挙手ボタン)をクリックしてください。また、発言を終えられましたら挙手ボタンを解除いただけますようお願いいたします。地球温暖化対策はGXによる取組の加速化を含め、各府省庁連携の下、より一層推進していくことが重要であるため、本日の会議では関係省庁にも出席いただきまして、農林水産省、国土交通省からは本日の議事(2)において施策の報告をしていただく予定です。ただし、本日の会議はあくまで環境省及び経産省の審議会でありまして、農水省、国交省はそれぞれの審議会において個別に施策の審議等は実施しております。このため、農水省、国交省からは個別施策及び各省連携事項に関してご説明をいただく予定としており、個別施策内容は審議事項ではなく報告事項とさせていただきます。それでは、本合同会議の委員長をご紹介いたします。中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会の下田委員長でございます。下田委員長下田です。よろしくお願いします。,,,,10,link+pdf,/council/06earth/yoshi06-23.html
 06earth/yoshi06-23#3@2022-04-26,06earth/yoshi06-23,,3,,2022-04-26,令和4年4月26日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#3,06earth/yoshi06-23,,3,,2025-07-28,令和7年7月28日,,,,,,2,link,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#3,06earth/yoshi06-23,,3,,2025-07-28,令和7年7月28日,15:00-17:00,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会 委員名簿資料2:産業構造審議会イノベーション・環境分科会地球環境小委員会 委員名簿資料3:2023年度における地球温暖化対策計画の進捗状況(概要)資料4:2023年度における地球温暖化対策計画の進捗状況(案)資料5:環境省関連対策・施策の進捗及び今後の取組について資料6:我が国のGX政策の進捗について資料7:みどりの食料システム戦略と農林水産分野における地球温暖化対策資料8:GXの実現に向けた国土交通省の取組について参考資料:2023年度における対策・施策の進捗状況(参考)## 議事録脱炭素社会移行推進室午後3時00分 開会経済産業省GX推進企画室(藤井)定刻となりましたので、ただいまから、中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会・産業構造審議会イノベーション・環境分科会地球環境小委員会、第3回を開催します。経済産業省GX推進企画室の藤井でございます。どうぞよろしくお願いいたします。本日の会議は、ウェブにより開催させていただきます。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、ウェブ上で公開予定です。地球温暖化対策は、GXによる取組の加速化を含め、各府省庁連携のもと、より一層推進していくことが重要であるため、本日の会議では関係省庁にも出席いただき、農林水産省、国土交通省からは、本日の議事(2)において、施策の報告をしていただく予定です。ただし、本日の会議はあくまで環境省及び経産省の審議会であり、農水省、国交省は、それぞれの審議会において個別に施策の審議等を実施しているため、報告事項となります。それでは、本合同会合の委員長をご紹介いたします。産業構造審議会イノベーション・環境分科会地球環境小委員会委員長の大橋委員長です。中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会、委員長の下田委員長です。,,,,12,link+pdf,/council/06earth/yoshi06-23.html
 06earth/yoshi06-23#4@2023-03-30,06earth/yoshi06-23,,4,,2023-03-30,令和5年3月30日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#4,06earth/yoshi06-23,,4,,2026-06-25,令和8年6月25日,,,,,,2,link,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#4,06earth/yoshi06-23,,4,,2026-06-25,令和8年6月25日,09:30-11:30,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会 委員名簿資料2:産業構造審議会イノベーション・環境分科会地球環境小委員会 委員名簿資料3:2024年度における地球温暖化対策計画の進捗状況(概要)資料4:2024年度における地球温暖化対策計画の進捗状況(案)資料5:環境省関連対策・施策に係る重点項目のフォローアップについて資料6:我が国のGX政策の進捗について資料7:農林水産分野における地球温暖化対策とみどり戦略の方向性資料8:GXの実現に向けた国土交通省の取組について参考資料:2024年度における対策・施策の進捗状況(参考)## 議事録午前9時30分 開会 / ○環境省脱炭素社会移行推進室定刻となりましたので、ただいまから中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会・産業構造審議会イノベーション・環境分科会地球環境小委員会合同会合を開催いたします。環境省地球環境局脱炭素社会移行推進室の新津でございます。どうぞよろしくお願いいたします。本日の会議は対面・オンラインを併用したハイブリッド形式により開催させていただきます。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、ウェブ上で公開予定です。地球温暖化対策は、GXによる取組の加速化を含め、各府省庁連携の下、より一層推進していくことが重要であるため、本日の会議は農林水産省、国土交通省の関係省庁にも出席いただき、議事の(2)において施策の報告をしていただく予定です。ただし、本日の会議はあくまで環境省及び経産省の審議会であり、農水省と国交省はそれぞれの審議会において個別に施策の審議等は実施しているため、報告事項となります。それでは、本合同会合の委員長を御紹介いたします。中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会委員長の下田委員長です。 / ○下田委員長下田です。よろしくお願いします。 / ○環境省脱炭素社会移行推進室,,,,12,link+pdf,/council/06earth/yoshi06-23.html
 06earth/yoshi06-23#5,06earth/yoshi06-23,,5,,2023-04-28,令和5年4月28日,,,,,,2,link,/council/06earth/yoshi06-23.html
 06earth/yoshi06-23#6,06earth/yoshi06-23,,6,,2023-08-17,令和5年8月17日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#7,06earth/yoshi06-23,,7,,2024-04-22,令和6年4月22日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#8,06earth/yoshi06-23,,8,,2025-06-23,令和7年6月23日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#9,06earth/yoshi06-23,,9,,2026-04-30,令和8年4月30日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#10,06earth/yoshi06-23,,10,,2026-05-22,令和8年5月22日,,,,,,2,link,/council/06earth/yoshi06-23.html
-06earth/yoshi06-23#11,06earth/yoshi06-23,,11,,2026-05-29,令和8年5月29日,,,,,,2,link,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#7,06earth/yoshi06-23,,7,,2024-04-22,令和6年4月22日,09:00-11:00,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会委員名簿資料2:2022年度における地球温暖化対策計画の進捗状況(環境省取りまとめの対策・施策)(概要版)資料3:環境省関連対策・施策の進捗及び今後の取組について資料4:増井委員提出資料参考資料1:環境省とりまとめの対策・施策の進捗状況(部門・ガス種別)参考資料2:2022年度における地球温暖化対策計画の進捗状況(環境省取りまとめの対策・施策)(詳細版)## 議事録午前9時03分 開会 / ○脱炭素社会移行推進室室長補佐定刻となりましたので、ただいまから、中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会第7回を開催いたします。環境省脱炭素社会移行推進室の村上でございます。どうぞよろしくお願いいたします。本日の専門委員会は、Webにより開催させていただきます。開催の状況はインターネットで同時配信し、動画は、会議後、議事録公開までの間、Web上で公開予定です。本日は8名の委員にご出席いただいており、定足数の要件を満たし、専門委員会として成立していることをご報告いたします。なお、オブザーバーの日本商工会議所様は欠席となります。また、本日は、個別対策・施策の担当課室も参加しております。それでは、以下の議事進行を下田委員長にお願いしたいと思います。下田委員長、よろしくお願いいたします。 / ○下田委員長皆様おはようございます。朝早くからありがとうございます。本日は、議事次第にありますとおり、1番目、環境省関連対策・施策の進捗等について、2番目、委員からの情報提供、3番目がその他となってございます。早速、議事の1番目に入りたいと思います。,,,,9,link+pdf,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#8,06earth/yoshi06-23,,8,,2025-06-23,令和7年6月23日,16:00-18:00,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会委員名簿資料2:地球温暖化対策計画の進捗状況(環境省取りまとめの対策・施策)(概要版)資料3:環境省関連対策・施策の進捗及び今後の取組について参考資料1:環境省とりまとめの対策・施策の進捗状況(参考)参考資料2:環境省とりまとめの対策・施策の進捗状況(部門・ガス種別)参考資料3:地球温暖化対策計画の進捗状況(環境省取りまとめの対策・施策)(詳細版)## 議事録脱炭素社会移行推進室午後4時00分 開会〇脱炭素社会移行推進室定刻となりましたので、ただいまから、中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会第8回を開催いたします。環境省脱炭素社会推進室の新津でございます。どうぞよろしくお願いいたします。本日の専門委員会は、Webにより開催させていただきます。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、Web上で公開予定です。また、委員に変更がございまして、折茂委員にご参画いただいておりましたが、本委員会より、伊原委員にご参画いただいております。本日は、高村委員が遅れての参加となるとのご連絡をいただいておりますが、定足数の要件を満たし、専門委員会として成立していることをご報告いたします。また、事務局に加えて、環境省における個別対策施策の担当課室も参加しております。それでは、議事進行を下田委員長にお願いしたいと思います。下田委員長、よろしくお願いいたします。〇下田委員長皆様、お忙しいところお集まりいただきまして、ありがとうございます。本日は、議事次第にございますとおり、1番目として、環境省取りまとめの対策・施策の進捗について、2番目、その他となっております。まず、資料2について、事務局からまとめて説明をいただいた後に、資料3について、環境省の関係課室から説明をいただきまして、まとめて討議を行う形としたいと思います。,,,,9,link+pdf,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#9,06earth/yoshi06-23,,9,,2026-04-30,令和8年4月30日,13:00-15:30,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会委員名簿資料2:2024年度の我が国の温室効果ガス排出量及び吸収量について資料3-1:2024年度インベントリと2023年度の温暖化対策計画の進捗状況に基づく分析について資料3-2:企業の温室効果ガスの排出状況について資料3-3:家庭CO2統計から見える家庭部門の進捗状況資料3-4:積載効率向上によるCO2排出削減効果の分析資料4:分析を踏まえたフォローアップ重点項目(案)と今後の予定について## 議事録午後1時00分 開会 / ○脱炭素社会移行推進室定刻となりましたので、ただいまから、中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会第9回を開催いたします。環境省脱炭素社会移行推進室の新津でございます。どうぞよろしくお願いいたします。本日の専門委員会は、対面、オンラインを併用したハイブリッド形式にて開催させていただいております。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、ウェブ上で公開予定です。また、委員に変更がございまして、山下委員にご参画いただいておりましたが、委員を辞任されました。また、本委員会より、土井委員、長谷川委員、芦名委員に新たにご参画いただいております。土井委員、長谷川委員、芦名委員の順番でご挨拶を頂戴できますと幸いです。まず初めに、土井委員、お願いいたします。 / ○土井委員ありがとうございます。日本エネルギー経済研究所の土井と申します。よろしくお願いいたします。私は、エネルギーといいましても、需要側の分析調査を主に行っております。省エネポテンシャルの分析ですとか、あるいは諸外国の政策調査等を行っております。今回からどうぞよろしくお願いいたします。,,,,10,link+pdf,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#10,06earth/yoshi06-23,,10,,2026-05-22,令和8年5月22日,14:00-17:00,資料1 :中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会委員名簿資料2-1:くらしの脱炭素化に向けた進捗・課題と施策の方向性資料2-2:住宅・建築物の脱炭素化に向けた進捗・課題と施策の方向性資料2-3:バリューチェーン全体の脱炭素化に向けた進捗・課題と施策の方向性資料2-4:再生可能エネルギー資料2-5:地域脱炭素の進捗・課題と施策の方向性資料3 :今後の予定## 議事録午後2時00分 開会 / ○脱炭素社会移行推進室定刻となりましたので、ただいまから中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会(第10回)を開催いたします。環境省脱炭素社会移行推進室の新津でございます。どうぞよろしくお願いいたします。本日の専門委員会は、対面、オンラインを併用したハイブリッド形式にて開催させていただいております。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、ウェブ上で公開予定です。本日は委員10名のうち9名の出席となっており、定足要件を満たしておりますので、専門委員会として成立していることをご報告いたします。なお、本日は大塚委員が15時30分頃に途中退席予定で、増井委員が15時30分頃から途中参加の予定です。また、今回は、委員の皆様に加えて、オブザーバーとして一般社団法人日本経済団体連合会にご出席いただくこととしております。それでは、以後、議事進行を下田委員長にお願いしたいと思います。下田委員長、よろしくお願いいたします。 / ○下田委員長それでは、会議を始めさせていただきます。本日の議事は、1番目として環境省関連対策・施策の進捗及び重点項目のフォローアップ、2番目としてその他ということになっております。1番目の議事といたしまして、資料2-1から資料2-5まで環境省の関係課室からご説明いただいた後、最後にまとめてご審議させていただくということにしたいと思います。,,,,10,link+pdf,/council/06earth/yoshi06-23.html
+06earth/yoshi06-23#11,06earth/yoshi06-23,,11,,2026-05-29,令和8年5月29日,09:00-12:00,資料1:中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会委員名簿資料2:第9回における主な意見に関する追加分析資料3-1:モビリティの脱炭素化に向けた課題・進捗と施策の方向性資料3-2:代替フロン等4ガスの排出削減に向けた進捗・課題と施策の方向性資料3-3:廃棄物・資源循環分野の取組資料3-4:JCMの最新動向資料4:環境省関連対策・施策の進捗及び重点項目のフォローアップ(案)資料5:今後の予定参考資料1:環境省とりまとめの対策・施策の進捗状況(参考)参考資料2:地球温暖化対策計画の進捗状況(環境省取りまとめの対策・施策)(詳細版)## 議事録午前9時00分 開会 / ○脱炭素社会移行推進室定刻となりましたので、ただいまより中央環境審議会地球環境部会地球温暖化対策計画フォローアップ専門委員会(第11回)を開催いたします。環境省脱炭素社会移行推進室の新津でございます。どうぞよろしくお願いいたします。本日の専門委員会は、対面、オンラインを併用したハイブリッド形式にて開催させていただきます。開催の状況はインターネットで同時配信し、動画は会議後、議事録公開までの間、ウェブ上で公開予定です。本日は委員10名のうち10名の出席となっており、定足数の要件を満たし、専門委員会として成立していることをご報告いたします。また、今回は、委員の皆様に加えて、オブザーバーとして一般社団法人日本経済団体連合会にご出席いただくこととしております。それでは、以後、議事進行を下田委員長にお願いしたいと思います。下田委員長、よろしくお願いいたします。 / ○下田委員長,,,,13,link+pdf,/council/06earth/yoshi06-23.html
 07air-noise/yoshi07-04#7,07air-noise/yoshi07-04,,7,◆第７回以前,,,,,,,https://www.env.go.jp/council/07air-noise/yoshi07.html,1,heading,/council/07air-noise/yoshi07-04.html
 07air-noise/yoshi07-10#1,07air-noise/yoshi07-10,,1,,2016-01-29,平成28年1月29日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
 07air-noise/yoshi07-10#2,07air-noise/yoshi07-10,,2,,2016-02-12,平成28年2月12日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
@@ -1905,8 +1905,8 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 07air-noise/yoshi07-10#12,07air-noise/yoshi07-10,,12,,2023-03-14,令和5年3月14日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
 07air-noise/yoshi07-10#13,07air-noise/yoshi07-10,,13,,2023-11-02,令和5年11月2日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
 07air-noise/yoshi07-10#14,07air-noise/yoshi07-10,,14,,2023-11-13,令和5年11月13日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
-07air-noise/yoshi07-10#15,07air-noise/yoshi07-10,,15,,2024-01-29,令和6年1月29日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
-07air-noise/yoshi07-10#16,07air-noise/yoshi07-10,,16,,2024-03-08,令和6年3月8日,,,,,,2,link,/council/07air-noise/yoshi07-10.html
+07air-noise/yoshi07-10#15,07air-noise/yoshi07-10,,15,,2024-01-29,令和6年1月29日,15:02-17:02,(1)前回までの委員会における指摘事項について / (2)今後の水銀大気排出対策について,厚生労働省共用第8会議室(対面・Web併用会議) ## 3.出席委員 委員長 高岡 昌輝,,,25,link+pdf,/council/07air-noise/yoshi07-10.html
+07air-noise/yoshi07-10#16,07air-noise/yoshi07-10,,16,,2024-03-08,令和6年3月8日,14:00-16:50,(1)水銀排出施設における水銀濃度の測定結果について / (2)要排出抑制施設における自主的取組のフォローアップについて / (3)水銀大気排出インベントリーについて / (4)今後の水銀大気排出対策について,環境省水・大気環境局会議室3(WEB会議併用ハイブリッド方式) ## 3.出席委員 委員長 高岡 昌輝,,,27,link+pdf,/council/07air-noise/yoshi07-10.html
 07air-noise/yoshi07-05#13,07air-noise/yoshi07-05,,13,◆第１３回以前,,,,,,,https://www.env.go.jp/council/07air-noise/yoshi07.html,1,heading,/council/07air-noise/yoshi07-05.html
 07air-noise/yoshi07-11#1,07air-noise/yoshi07-11,,1,,2017-12-21,平成29年12月21日,,,,,,3,link,/council/07air-noise/yoshi07-11.html
 07air-noise/yoshi07-11#2,07air-noise/yoshi07-11,,2,,2018-01-30,平成30年1月30日,,,,,,3,link,/council/07air-noise/yoshi07-11.html
@@ -1916,7 +1916,7 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 07air-noise/yoshi07-11#6,07air-noise/yoshi07-11,,6,,2019-11-13,令和元年11月13日,,,,,,2,link,/council/07air-noise/yoshi07-11.html
 07air-noise/yoshi07-11#7,07air-noise/yoshi07-11,,7,,2019-12-11,令和元年12月11日,,,,,,2,link,/council/07air-noise/yoshi07-11.html
 07air-noise/yoshi07-11#8,07air-noise/yoshi07-11,,8,,2020-02-03,令和2年2月3日,,,,,,2,link,/council/07air-noise/yoshi07-11.html
-07air-noise/yoshi07-11#9,07air-noise/yoshi07-11,,9,,2025-06-24,令和7年6月24日,,,,,,2,link,/council/07air-noise/yoshi07-11.html
+07air-noise/yoshi07-11#9,07air-noise/yoshi07-11,,9,,2025-06-24,令和7年6月24日,,,,,,11,link,/council/07air-noise/yoshi07-11.html
 07air-noise/yoshi07-02#52,07air-noise/yoshi07-02,,52,,2013-03-14,平成25年3月14日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
 07air-noise/yoshi07-02#53,07air-noise/yoshi07-02,,53,,2014-06-25,平成26年6月25日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
 07air-noise/yoshi07-02#54,07air-noise/yoshi07-02,,54,,2014-09-05,平成26年9月5日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
@@ -1932,9 +1932,9 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 07air-noise/yoshi07-02#64,07air-noise/yoshi07-02,,64,,2020-06-01,令和2年6月1日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
 07air-noise/yoshi07-02#65,07air-noise/yoshi07-02,,65,,2021-10-11,令和3年10月11日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
 07air-noise/yoshi07-02#66,07air-noise/yoshi07-02,,66,,2023-11-06,令和5年11月6日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
-07air-noise/yoshi07-02#67,07air-noise/yoshi07-02,,67,,2024-01-24,令和6年1月24日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
-07air-noise/yoshi07-02#68,07air-noise/yoshi07-02,,68,,2024-03-28,令和6年3月28日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
-07air-noise/yoshi07-02#69,07air-noise/yoshi07-02,,69,,2025-04-24,令和7年4月24日,,,,,,2,link,/council/07air-noise/yoshi07-02.html
+07air-noise/yoshi07-02#67,07air-noise/yoshi07-02,,67,,2024-01-24,令和6年1月24日,13:08-15:00,,,,,5,link+pdf,/council/07air-noise/yoshi07-02.html
+07air-noise/yoshi07-02#68,07air-noise/yoshi07-02,,68,,2024-03-28,令和6年3月28日,13:28-15:38,,,,,4,link+pdf,/council/07air-noise/yoshi07-02.html
+07air-noise/yoshi07-02#69,07air-noise/yoshi07-02,,69,,2025-04-24,令和7年4月24日,13:00-15:00,,,,,4,link+pdf,/council/07air-noise/yoshi07-02.html
 07air-noise/yoshi07-01#14,07air-noise/yoshi07-01,,14,,2013-05-09,平成25年5月9日,,,,,,2,link,/council/07air-noise/yoshi07-01.html
 07air-noise/yoshi07-01#15,07air-noise/yoshi07-01,,15,,2014-05-29,平成26年5月29日,,,,,,2,link,/council/07air-noise/yoshi07-01.html
 07air-noise/yoshi07-01#16,07air-noise/yoshi07-01,,16,,2014-10-10,平成26年10月10日,,,,,,1,link,/council/07air-noise/yoshi07-01.html
@@ -1944,7 +1944,7 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 07air-noise/yoshi07-01#20,07air-noise/yoshi07-01,,20,,2020-10-13,令和2年10月13日,,,,,,2,link,/council/07air-noise/yoshi07-01.html
 07air-noise/yoshi07-01#21,07air-noise/yoshi07-01,,21,,2022-02-24,令和4年2月24日,,,,,,2,link,/council/07air-noise/yoshi07-01.html
 07air-noise/yoshi07-01#22,07air-noise/yoshi07-01,,22,,2022-03-28,令和4年3月28日,,,,,,2,link,/council/07air-noise/yoshi07-01.html
-07air-noise/yoshi07-01#23,07air-noise/yoshi07-01,,23,,2025-05-16,令和7年5月16日,,,,,,2,link,/council/07air-noise/yoshi07-01.html
+07air-noise/yoshi07-01#23,07air-noise/yoshi07-01,,23,,2025-05-16,令和7年5月16日,14:00-16:00,,,,,8,link+pdf,/council/07air-noise/yoshi07-01.html
 49wat-doj/yoshi49-04#80,49wat-doj/yoshi49-04,,80,,2021-06-17,令和3年6月17日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
 49wat-doj/yoshi49-04#81,49wat-doj/yoshi49-04,,81,,2021-09-16,令和3年9月16日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
 49wat-doj/yoshi49-04#82,49wat-doj/yoshi49-04,,82,,2021-12-21,令和3年12月21日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
@@ -1956,22 +1956,22 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 49wat-doj/yoshi49-04#88,49wat-doj/yoshi49-04,,88,,2023-06-22,令和5年6月22日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
 49wat-doj/yoshi49-04#89,49wat-doj/yoshi49-04,,89,,2023-09-27,令和5年9月27日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
 49wat-doj/yoshi49-04#90,49wat-doj/yoshi49-04,,90,,2023-12-11,令和5年12月11日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#91,49wat-doj/yoshi49-04,,91,,2024-03-14,令和6年3月14日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#92,49wat-doj/yoshi49-04,,92,,2024-06-27,令和6年6月27日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#93,49wat-doj/yoshi49-04,,93,,2024-09-12,令和6年9月12日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#94,49wat-doj/yoshi49-04,,94,,2024-12-19,令和6年12月19日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#95,49wat-doj/yoshi49-04,,95,,2025-03-21,令和7年3月21日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#96,49wat-doj/yoshi49-04,,96,,2025-07-08,令和7年7月8日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#97,49wat-doj/yoshi49-04,,97,,2025-09-24,令和7年9月24日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#98,49wat-doj/yoshi49-04,,98,,2025-12-19,令和7年12月19日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#99,49wat-doj/yoshi49-04,,99,,2026-01-23,令和8年1月23日,,,書面(電子メール)開催,委員 浅見 真理 / 臨時委員 石塚 真由美 五箇 公一 鈴木 春美 / 山本 裕史(委員長) / 専門委員 天野 昭子 後藤 千枝 白岩 豊 / 須戸 幹 成田 伊都美 / (敬称略、五十音順),,2,link+pdf,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#100,49wat-doj/yoshi49-04,,100,,2026-03-18,令和8年3月18日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#101,49wat-doj/yoshi49-04,,101,,2026-06-17,令和8年6月17日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
-49wat-doj/yoshi49-04#102,49wat-doj/yoshi49-04,,102,,2026-08-26,令和8年8月26日,,,,,,3,link,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#91,49wat-doj/yoshi49-04,,91,,2024-03-14,令和6年3月14日,13:30-15:00,,,,,14,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#92,49wat-doj/yoshi49-04,,92,,2024-06-27,令和6年6月27日,13:30-16:32,,,,,19,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#93,49wat-doj/yoshi49-04,,93,,2024-09-12,令和6年9月12日,13:30-15:25,,,,,22,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#94,49wat-doj/yoshi49-04,,94,,2024-12-19,令和6年12月19日,13:30-16:40,,,,,21,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#95,49wat-doj/yoshi49-04,,95,,2025-03-21,令和7年3月21日,13:30-16:25,,,,,20,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#96,49wat-doj/yoshi49-04,,96,,2025-07-08,令和7年7月8日,13:30-17:30,,,,,21,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#97,49wat-doj/yoshi49-04,,97,,2025-09-24,令和7年9月24日,13:30-17:30,,,,,28,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#98,49wat-doj/yoshi49-04,,98,,2025-12-19,令和7年12月19日,13:30-17:35,,,,,39,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#99,49wat-doj/yoshi49-04,,99,,2026-01-23,令和8年1月23日,,,書面(電子メール)開催,委員 浅見 真理 / 臨時委員 石塚 真由美 五箇 公一 鈴木 春美 / 山本 裕史(委員長) / 専門委員 天野 昭子 後藤 千枝 白岩 豊 / 須戸 幹 成田 伊都美 / (敬称略、五十音順),,4,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#100,49wat-doj/yoshi49-04,,100,,2026-03-18,令和8年3月18日,13:30-16:10,,,,,21,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#101,49wat-doj/yoshi49-04,,101,,2026-06-17,令和8年6月17日,13:30-16:30,,,,,26,link+pdf,/council/49wat-doj/yoshi49-04.html
+49wat-doj/yoshi49-04#102,49wat-doj/yoshi49-04,,102,,2026-08-26,令和8年8月26日,13:30-16:20,,,,,21,link+pdf,/council/49wat-doj/yoshi49-04.html
 49wat-doj/yoshi49-04_00001#1,49wat-doj/yoshi49-04_00001,,1,,2023-06-20,令和5年6月20日,,,,,,3,link,/council/49wat-doj/yoshi49-04_00001.html
-49wat-doj/yoshi49-04_00001#2,49wat-doj/yoshi49-04_00001,,2,,2024-02-14,令和6年2月14日,,,,,,2,link,/council/49wat-doj/yoshi49-04_00001.html
-49wat-doj/yoshi49-04_00001#3,49wat-doj/yoshi49-04_00001,,3,,2024-10-08,令和6年10月8日,,,,,,3,link,/council/49wat-doj/yoshi49-04_00001.html
-49wat-doj/yoshi49-04_00001#4,49wat-doj/yoshi49-04_00001,,4,,2025-11-06,令和7年11月6日,,,,,,3,link,/council/49wat-doj/yoshi49-04_00001.html
+49wat-doj/yoshi49-04_00001#2,49wat-doj/yoshi49-04_00001,,2,,2024-02-14,令和6年2月14日,,,,,,5,link,/council/49wat-doj/yoshi49-04_00001.html
+49wat-doj/yoshi49-04_00001#3,49wat-doj/yoshi49-04_00001,,3,,2024-10-08,令和6年10月8日,,,,,,10,link,/council/49wat-doj/yoshi49-04_00001.html
+49wat-doj/yoshi49-04_00001#4,49wat-doj/yoshi49-04_00001,,4,,2025-11-06,令和7年11月6日,,,,,,18,link,/council/49wat-doj/yoshi49-04_00001.html
 49wat-doj/yoshi49-05#9,49wat-doj/yoshi49-05,,9,,2023-08-29,令和5年8月29日,,,,,,1,link,/council/49wat-doj/yoshi49-05.html
 49wat-doj/yoshi49-17#7,49wat-doj/yoshi49-17,,7,,2021-03-09,令和3年3月9日,,,,,,2,link,/council/49wat-doj/yoshi49-17.html
 12nature/yoshi12-01#1,12nature/yoshi12-01,,1,,2001-06-05,平成13年6月5日,,,,,,1,link,/council/12nature/yoshi12-01.html
@@ -2023,12 +2023,12 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 12nature/yoshi12-01#47,12nature/yoshi12-01,,47,,2022-06-14,令和4年6月14日,,,,,,2,link,/council/12nature/yoshi12-01.html
 12nature/yoshi12-01#48,12nature/yoshi12-01,,48,,2022-12-22,令和4年12月22日,,,,,,2,link,/council/12nature/yoshi12-01.html
 12nature/yoshi12-01#49,12nature/yoshi12-01,,49,,2023-07-06,令和5年7月6日,,,,,,2,link,/council/12nature/yoshi12-01.html
-12nature/yoshi12-01#50,12nature/yoshi12-01,,50,,2024-02-05,令和6年2月5日,,,,,,2,link,/council/12nature/yoshi12-01.html
-12nature/yoshi12-01#51,12nature/yoshi12-01,,51,,2024-07-22,令和6年7月22日,,,,,,2,link,/council/12nature/yoshi12-01.html
-12nature/yoshi12-01#52,12nature/yoshi12-01,,52,,2025-01-09,令和7年1月9日,,,,,,2,link,/council/12nature/yoshi12-01.html
-12nature/yoshi12-01#53,12nature/yoshi12-01,,53,,2025-08-18,令和7年8月18日,,,,,,2,link,/council/12nature/yoshi12-01.html
-12nature/yoshi12-01#54,12nature/yoshi12-01,,54,,2026-01-30,令和8年1月30日,,,,,,2,link,/council/12nature/yoshi12-01.html
-12nature/yoshi12-01#55,12nature/yoshi12-01,,55,,2026-07-17,令和8年7月17日,,,,,,2,link,/council/12nature/yoshi12-01.html
+12nature/yoshi12-01#50,12nature/yoshi12-01,,50,,2024-02-05,令和6年2月5日,15:00-17:37,,,,,43,link+pdf,/council/12nature/yoshi12-01.html
+12nature/yoshi12-01#51,12nature/yoshi12-01,,51,,2024-07-22,令和6年7月22日,13:00-14:47,,,,,11,link+pdf,/council/12nature/yoshi12-01.html
+12nature/yoshi12-01#52,12nature/yoshi12-01,,52,,2025-01-09,令和7年1月9日,13:00-14:51,,,,,28,link+pdf,/council/12nature/yoshi12-01.html
+12nature/yoshi12-01#53,12nature/yoshi12-01,,53,,2025-08-18,令和7年8月18日,14:00-15:53,,,,,20,link+pdf,/council/12nature/yoshi12-01.html
+12nature/yoshi12-01#54,12nature/yoshi12-01,,54,,2026-01-30,令和8年1月30日,10:00-12:00,,,,,17,link+pdf,/council/12nature/yoshi12-01.html
+12nature/yoshi12-01#55,12nature/yoshi12-01,,55,,2026-07-17,令和8年7月17日,10:00-12:30,,,,,16,link+pdf,/council/12nature/yoshi12-01.html
 12nature/yoshi12-03#1@2004-11-22,12nature/yoshi12-03,,1,,2004-11-22,平成16年11月22日,,,,,,2,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-03#1,12nature/yoshi12-03,,1,,2021-06-28,令和3年6月28日,,,,,,2,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-03#2@2004-12-08,12nature/yoshi12-03,,2,,2004-12-08,平成16年12月8日,,,,,,2,link,/council/12nature/yoshi12-03.html
@@ -2046,9 +2046,9 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 12nature/yoshi12-03#15,12nature/yoshi12-03,,15,,2017-04-07,平成29年4月7日,,,,,,2,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-03#16,12nature/yoshi12-03,,16,,2018-03-28,平成30年3月28日,,,,,,1,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-03#19,12nature/yoshi12-03,,19,,2023-01-31,令和5年1月31日,,,,,,2,link,/council/12nature/yoshi12-03.html
-12nature/yoshi12-03#20,12nature/yoshi12-03,,20,,2024-09-17,令和6年9月17日,,,,,,2,link,/council/12nature/yoshi12-03.html
-12nature/yoshi12-03#21,12nature/yoshi12-03,,21,,2025-02-07,令和7年2月7日,,,,,,2,link,/council/12nature/yoshi12-03.html
-12nature/yoshi12-03#22,12nature/yoshi12-03,,22,,2025-12-15,令和7年12月15日,,,,,,2,link,/council/12nature/yoshi12-03.html
+12nature/yoshi12-03#20,12nature/yoshi12-03,,20,,2024-09-17,令和6年9月17日,,,,,,15,link,/council/12nature/yoshi12-03.html
+12nature/yoshi12-03#21,12nature/yoshi12-03,,21,,2025-02-07,令和7年2月7日,,,,,,7,link,/council/12nature/yoshi12-03.html
+12nature/yoshi12-03#22,12nature/yoshi12-03,,22,,2025-12-15,令和7年12月15日,,,,,,10,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-03@2011-12-26,12nature/yoshi12-03,,,,2011-12-26,平成23年12月26日,,,,,,2,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-03@2012-03-16,12nature/yoshi12-03,,,,2012-03-16,平成24年3月16日,,,,,,2,link,/council/12nature/yoshi12-03.html
 12nature/yoshi12-05#1,12nature/yoshi12-05,,1,,2013-05-15,平成25年5月15日,,,,,,2,link,/council/12nature/yoshi12-05.html
@@ -2083,11 +2083,11 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 12nature/yoshi12-05#30,12nature/yoshi12-05,,30,,2022-09-08,令和4年9月8日,,,,,,2,link,/council/12nature/yoshi12-05.html
 12nature/yoshi12-05#31,12nature/yoshi12-05,,31,,2023-01-25,令和5年1月25日,,,,,,2,link,/council/12nature/yoshi12-05.html
 12nature/yoshi12-05#32,12nature/yoshi12-05,,32,,2023-10-04,令和5年10月4日,,,,,,2,link,/council/12nature/yoshi12-05.html
-12nature/yoshi12-05#33,12nature/yoshi12-05,,33,,2024-03-26,令和6年3月26日,,,,,,2,link,/council/12nature/yoshi12-05.html
-12nature/yoshi12-05#34,12nature/yoshi12-05,,34,,2024-09-12,令和6年9月12日,,,,,,2,link,/council/12nature/yoshi12-05.html
-12nature/yoshi12-05#35,12nature/yoshi12-05,,35,,2025-02-04,令和7年2月4日,,,,,,2,link,/council/12nature/yoshi12-05.html
-12nature/yoshi12-05#36,12nature/yoshi12-05,,36,,2025-10-03,令和7年10月3日,,,,,,2,link,/council/12nature/yoshi12-05.html
-12nature/yoshi12-05#37,12nature/yoshi12-05,,37,,2026-08-19,令和8年8月19日,,,,,,2,link,/council/12nature/yoshi12-05.html
+12nature/yoshi12-05#33,12nature/yoshi12-05,,33,,2024-03-26,令和6年3月26日,13:30-15:30,,,,,15,link+pdf,/council/12nature/yoshi12-05.html
+12nature/yoshi12-05#34,12nature/yoshi12-05,,34,,2024-09-12,令和6年9月12日,15:30-17:30,,,,,17,link+pdf,/council/12nature/yoshi12-05.html
+12nature/yoshi12-05#35,12nature/yoshi12-05,,35,,2025-02-04,令和7年2月4日,15:30-17:30,,,,,16,link+pdf,/council/12nature/yoshi12-05.html
+12nature/yoshi12-05#36,12nature/yoshi12-05,,36,,2025-10-03,令和7年10月3日,15:30-17:47,,,,,13,link+pdf,/council/12nature/yoshi12-05.html
+12nature/yoshi12-05#37,12nature/yoshi12-05,,37,,2026-08-19,令和8年8月19日,13:30-16:12,,,,,11,link+pdf,/council/12nature/yoshi12-05.html
 12nature/yoshi12-05#38,12nature/yoshi12-05,,38,,2026-09-15,令和8年9月15日,15:30-18:13,,,,,19,link+pdf,/council/12nature/yoshi12-05.html
 12nature/yoshi12-05#39,12nature/yoshi12-05,,39,,2026-10-19,令和8年10月19日,,,,,,3,link,/council/12nature/yoshi12-05.html
 12nature/yoshi12-04#1,12nature/yoshi12-04,,1,,2013-05-13,平成25年5月13日,,,,,,2,link,/council/12nature/yoshi12-04.html
@@ -2110,14 +2110,14 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 12nature/yoshi12-04#18,12nature/yoshi12-04,,18,,2021-03-03,令和3年3月3日,,,,,,2,link,/council/12nature/yoshi12-04.html
 12nature/yoshi12-04#19,12nature/yoshi12-04,,19,,2021-05-21,令和3年5月21日,,,,,,2,link,/council/12nature/yoshi12-04.html
 12nature/yoshi12-04#20,12nature/yoshi12-04,,20,,2021-07-29,令和3年7月29日,,,,,,2,link,/council/12nature/yoshi12-04.html
-12nature/yoshi12-04#21,12nature/yoshi12-04,,21,,2026-04-27,令和8年4月27日,,,,,,2,link,/council/12nature/yoshi12-04.html
-12nature/yoshi12-04#22,12nature/yoshi12-04,,22,,2026-05-25,令和8年5月25日,,,,,,2,link,/council/12nature/yoshi12-04.html
-12nature/yoshi12-04#23,12nature/yoshi12-04,,23,,2026-07-21,令和8年7月21日,,,,,,1,link,/council/12nature/yoshi12-04.html
+12nature/yoshi12-04#21,12nature/yoshi12-04,,21,,2026-04-27,令和8年4月27日,14:00-17:00,,,,,14,link+pdf,/council/12nature/yoshi12-04.html
+12nature/yoshi12-04#22,12nature/yoshi12-04,,22,,2026-05-25,令和8年5月25日,14:00-14:45,,,,,13,link+pdf,/council/12nature/yoshi12-04.html
+12nature/yoshi12-04#23,12nature/yoshi12-04,,23,,2026-07-21,令和8年7月21日,,,,,,8,link,/council/12nature/yoshi12-04.html
 12nature/yoshi12-09#1,12nature/yoshi12-09,,1,,2023-10-13,令和5年10月13日,,,,,,2,link,/council/12nature/yoshi12-09.html
 12nature/yoshi12-09#2,12nature/yoshi12-09,,2,,2023-11-27,令和5年11月27日,,,,,,2,link,/council/12nature/yoshi12-09.html
-12nature/yoshi12-09#3,12nature/yoshi12-09,,3,,2024-01-23,令和6年01月23日,,,,,,2,link,/council/12nature/yoshi12-09.html
-12nature/yoshi12-09#4,12nature/yoshi12-09,,4,,2024-07-16,令和6年07月16日,,,,,,2,link,/council/12nature/yoshi12-09.html
-12nature/yoshi12-09#5,12nature/yoshi12-09,,5,,2024-09-26,令和6年09月26日,,,,,,2,link,/council/12nature/yoshi12-09.html
+12nature/yoshi12-09#3,12nature/yoshi12-09,,3,,2024-01-23,令和6年01月23日,14:00-16:30,,,,,6,link+pdf,/council/12nature/yoshi12-09.html
+12nature/yoshi12-09#4,12nature/yoshi12-09,,4,,2024-07-16,令和6年07月16日,14:00-16:30,,,,,8,link+pdf,/council/12nature/yoshi12-09.html
+12nature/yoshi12-09#5,12nature/yoshi12-09,,5,,2024-09-26,令和6年09月26日,14:00-16:30,,,,,8,link+pdf,/council/12nature/yoshi12-09.html
 12nature/yoshi12-08#1,12nature/yoshi12-08,,1,,2021-11-26,令和3年11月26日,,,,,,2,link,/council/12nature/yoshi12-08.html
 12nature/yoshi12-08#2,12nature/yoshi12-08,,2,,2021-12-17,令和3年12月17日,,,,,,2,link,/council/12nature/yoshi12-08.html
 12nature/yoshi12-08#3,12nature/yoshi12-08,,3,,2022-01-19,令和4年1月19日,,,,,,2,link,/council/12nature/yoshi12-08.html
@@ -2127,16 +2127,16 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 12nature/yoshi12-08#7,12nature/yoshi12-08,,7,,2023-03-13,令和5年3月13日,,,,,,2,link,/council/12nature/yoshi12-08.html
 14animal/kangoshi_1-01_00001#1@2022-12-21,14animal/kangoshi_1-01_00001,,1,,2022-12-21,令和4年12月21日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
 14animal/kangoshi_1-01_00001#1@2023-07-21,14animal/kangoshi_1-01_00001,,1,,2023-07-21,令和5年7月21日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#1@2024-07-05,14animal/kangoshi_1-01_00001,,1,,2024-07-05,令和6年7月5日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#1@2025-07-11,14animal/kangoshi_1-01_00001,,1,,2025-07-11,令和7年7月11日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#1,14animal/kangoshi_1-01_00001,,1,,2026-06-26,令和8年6月26日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#1@2024-07-05,14animal/kangoshi_1-01_00001,,1,,2024-07-05,令和6年7月5日,,,,,,10,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#1@2025-07-11,14animal/kangoshi_1-01_00001,,1,,2025-07-11,令和7年7月11日,,,,,,15,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#1,14animal/kangoshi_1-01_00001,,1,,2026-06-26,令和8年6月26日,,,,,,17,link,/council/14animal/kangoshi_1-01_00001.html
 14animal/kangoshi_1-01_00001#2@2023-03-17,14animal/kangoshi_1-01_00001,,2,,2023-03-17,令和5年3月17日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
 14animal/kangoshi_1-01_00001#2@2023-12-15,14animal/kangoshi_1-01_00001,,2,,2023-12-15,令和5年12月15日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#2@2024-12-06,14animal/kangoshi_1-01_00001,,2,,2024-12-06,令和6年12月6日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#2,14animal/kangoshi_1-01_00001,,2,,2025-12-05,令和7年12月5日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#3@2024-03-25,14animal/kangoshi_1-01_00001,,3,,2024-03-25,令和6年3月25日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#3@2025-03-28,14animal/kangoshi_1-01_00001,,3,,2025-03-28,令和7年3月28日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
-14animal/kangoshi_1-01_00001#3,14animal/kangoshi_1-01_00001,,3,,2026-03-24,令和8年3月24日,,,,,,2,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#2@2024-12-06,14animal/kangoshi_1-01_00001,,2,,2024-12-06,令和6年12月6日,,,,,,12,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#2,14animal/kangoshi_1-01_00001,,2,,2025-12-05,令和7年12月5日,,,,,,17,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#3@2024-03-25,14animal/kangoshi_1-01_00001,,3,,2024-03-25,令和6年3月25日,,,,,,11,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#3@2025-03-28,14animal/kangoshi_1-01_00001,,3,,2025-03-28,令和7年3月28日,,,,,,16,link,/council/14animal/kangoshi_1-01_00001.html
+14animal/kangoshi_1-01_00001#3,14animal/kangoshi_1-01_00001,,3,,2026-03-24,令和8年3月24日,,,,,,17,link,/council/14animal/kangoshi_1-01_00001.html
 42kokuken/yoshi42#1,42kokuken/yoshi42,,1,,2015-07-22,平成27年7月22日,,,,,,1,link,/council/42kokuken/yoshi42.html
 42kokuken/yoshi42#2,42kokuken/yoshi42,,2,,2015-08-25,平成27年8月25日,,,,,,1,link,/council/42kokuken/yoshi42.html
 42kokuken/yoshi42#3,42kokuken/yoshi42,,3,,2015-10-06,平成27年10月6日,,,,,,1,link,/council/42kokuken/yoshi42.html
@@ -2161,14 +2161,14 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 42kokuken/yoshi42#22,42kokuken/yoshi42,,22,,2022-08-24,令和4年8月24日,,,,,,1,link,/council/42kokuken/yoshi42.html
 42kokuken/yoshi42#23,42kokuken/yoshi42,,23,,2023-07-13,令和5年7月13日,,,,,,1,link,/council/42kokuken/yoshi42.html
 42kokuken/yoshi42#24,42kokuken/yoshi42,,24,,2023-08-23,令和5年8月23日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#25,42kokuken/yoshi42,,25,,2024-07-12,令和6年7月12日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#26,42kokuken/yoshi42,,26,,2024-08-15,令和6年8月15日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#27,42kokuken/yoshi42,,27,,2025-07-11,令和7年7月11日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#28,42kokuken/yoshi42,,28,,2025-08-21,令和7年8月21日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#29,42kokuken/yoshi42,,29,,2025-10-24,令和7年10月24日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#30,42kokuken/yoshi42,,30,,2025-11-21,令和7年11月21日,,,,,,1,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#31,42kokuken/yoshi42,,31,,2026-07-14,令和8年7月14日,,,,,,2,link,/council/42kokuken/yoshi42.html
-42kokuken/yoshi42#32,42kokuken/yoshi42,,32,,2026-08-21,令和8年8月21日,,,,,,1,link,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#25,42kokuken/yoshi42,,25,,2024-07-12,令和6年7月12日,09:30-12:00,,,,,27,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#26,42kokuken/yoshi42,,26,,2024-08-15,令和6年8月15日,09:30-12:00,,,,,27,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#27,42kokuken/yoshi42,,27,,2025-07-11,令和7年7月11日,09:30-12:00,,,,,28,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#28,42kokuken/yoshi42,,28,,2025-08-21,令和7年8月21日,09:30-12:00,,,,,23,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#29,42kokuken/yoshi42,,29,,2025-10-24,令和7年10月24日,09:30-12:00,,,,,20,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#30,42kokuken/yoshi42,,30,,2025-11-21,令和7年11月21日,09:30-12:00,,,,,22,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#31,42kokuken/yoshi42,,31,,2026-07-14,令和8年7月14日,09:30-12:00,,,,,28,link+pdf,/council/42kokuken/yoshi42.html
+42kokuken/yoshi42#32,42kokuken/yoshi42,,32,,2026-08-21,令和8年8月21日,,,,,,23,link,/council/42kokuken/yoshi42.html
 20ari-yatsu/yoshi20#1,20ari-yatsu/yoshi20,,1,,2003-02-07,平成15年02月07日,,,,,,3,link,/council/20ari-yatsu/yoshi20.html
 20ari-yatsu/yoshi20#2,20ari-yatsu/yoshi20,,2,,2003-03-24,平成15年03月24日,,,,,,3,link,/council/20ari-yatsu/yoshi20.html
 20ari-yatsu/yoshi20#3,20ari-yatsu/yoshi20,,3,,2003-06-09,平成15年06月09日,,,,,,3,link,/council/20ari-yatsu/yoshi20.html
@@ -2220,11 +2220,11 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 20ari-yatsu/yoshi20#49,20ari-yatsu/yoshi20,,49,,2022-03-24,令和04年03月24日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
 20ari-yatsu/yoshi20#50,20ari-yatsu/yoshi20,,50,,2023-01-12,令和05年01月12日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
 20ari-yatsu/yoshi20#51,20ari-yatsu/yoshi20,,51,,2023-03-24,令和05年03月24日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
-20ari-yatsu/yoshi20#52,20ari-yatsu/yoshi20,,52,,2024-01-09,令和06年01月09日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
-20ari-yatsu/yoshi20#53,20ari-yatsu/yoshi20,,53,,2024-03-19,令和06年03月19日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
-20ari-yatsu/yoshi20#54,20ari-yatsu/yoshi20,,54,,2025-03-21,令和07年03月21日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
+20ari-yatsu/yoshi20#52,20ari-yatsu/yoshi20,,52,,2024-01-09,令和06年01月09日,,,,,,21,link,/council/20ari-yatsu/yoshi20.html
+20ari-yatsu/yoshi20#53,20ari-yatsu/yoshi20,,53,,2024-03-19,令和06年03月19日,,,,,,20,link,/council/20ari-yatsu/yoshi20.html
+20ari-yatsu/yoshi20#54,20ari-yatsu/yoshi20,,54,,2025-03-21,令和07年03月21日,,,,,,21,link,/council/20ari-yatsu/yoshi20.html
 20ari-yatsu/yoshi20#55,20ari-yatsu/yoshi20,,55,,2026-01-07,令和08年01月07日,,,,,,1,link,/council/20ari-yatsu/yoshi20.html
-20ari-yatsu/yoshi20#56,20ari-yatsu/yoshi20,,56,,2026-03-17,令和08年03月17日,,,,,,2,link,/council/20ari-yatsu/yoshi20.html
+20ari-yatsu/yoshi20#56,20ari-yatsu/yoshi20,,56,,2026-03-17,令和08年03月17日,,,,,,28,link,/council/20ari-yatsu/yoshi20.html
 20ari-yatsu/yoshi20-01#1,20ari-yatsu/yoshi20-01,,1,,2003-05-14,平成15年05月14日,,,,,,2,link,/council/20ari-yatsu/yoshi20-01.html
 20ari-yatsu/yoshi20-01#2,20ari-yatsu/yoshi20-01,,2,,2004-02-10,平成16年02月10日,,,,,,2,link,/council/20ari-yatsu/yoshi20-01.html
 20ari-yatsu/yoshi20-01#3,20ari-yatsu/yoshi20-01,,3,,2004-03-11,平成16年03月11日,,,,,,2,link,/council/20ari-yatsu/yoshi20-01.html
@@ -2280,15 +2280,15 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 20ari-yatsu/yoshi20-04#10,20ari-yatsu/yoshi20-04,,10,,2023-02-13,令和05年02月13日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
 20ari-yatsu/yoshi20-04#11,20ari-yatsu/yoshi20-04,,11,,2023-10-27,令和05年10月27日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
 20ari-yatsu/yoshi20-04#12,20ari-yatsu/yoshi20-04,,12,,2023-12-08,令和05年12月08日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#13,20ari-yatsu/yoshi20-04,,13,,2024-02-14,令和06年02月14日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#14,20ari-yatsu/yoshi20-04,,14,,2024-08-02,令和06年08月02日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#15,20ari-yatsu/yoshi20-04,,15,,2024-10-01,令和06年10月01日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#16,20ari-yatsu/yoshi20-04,,16,,2025-01-16,令和07年01月16日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#17,20ari-yatsu/yoshi20-04,,17,,2025-08-07,令和07年08月07日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#18,20ari-yatsu/yoshi20-04,,18,,2025-11-12,令和07年11月12日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#19,20ari-yatsu/yoshi20-04,,19,,2026-01-22,令和08年01月22日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#20,20ari-yatsu/yoshi20-04,,20,,2026-07-09,令和08年07月09日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
-20ari-yatsu/yoshi20-04#21,20ari-yatsu/yoshi20-04,,21,,2026-09-08,令和08年09月08日,,,,,,2,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#13,20ari-yatsu/yoshi20-04,,13,,2024-02-14,令和06年02月14日,,,,,,20,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#14,20ari-yatsu/yoshi20-04,,14,,2024-08-02,令和06年08月02日,,,,,,26,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#15,20ari-yatsu/yoshi20-04,,15,,2024-10-01,令和06年10月01日,,,,,,25,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#16,20ari-yatsu/yoshi20-04,,16,,2025-01-16,令和07年01月16日,,,,,,30,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#17,20ari-yatsu/yoshi20-04,,17,,2025-08-07,令和07年08月07日,,,,,,13,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#18,20ari-yatsu/yoshi20-04,,18,,2025-11-12,令和07年11月12日,,,,,,26,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#19,20ari-yatsu/yoshi20-04,,19,,2026-01-22,令和08年01月22日,,,,,,23,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#20,20ari-yatsu/yoshi20-04,,20,,2026-07-09,令和08年07月09日,,,,,,18,link,/council/20ari-yatsu/yoshi20-04.html
+20ari-yatsu/yoshi20-04#21,20ari-yatsu/yoshi20-04,,21,,2026-09-08,令和08年09月08日,,,,,,21,link,/council/20ari-yatsu/yoshi20-04.html
 20ari-yatsu/yoshi20-04#22,20ari-yatsu/yoshi20-04,,22,,2026-11-04,令和08年11月04日,,,,,,16,link,/council/20ari-yatsu/yoshi20-04.html
 20ari-yatsu/yoshi20-05#1,20ari-yatsu/yoshi20-05,,1,,2018-08-29,平成30年08月29日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#2,20ari-yatsu/yoshi20-05,,2,,2019-01-23,平成31年01月23日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
@@ -2302,11 +2302,11 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 20ari-yatsu/yoshi20-05#10,20ari-yatsu/yoshi20-05,,10,,2023-02-13,令和05年02月13日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#11,20ari-yatsu/yoshi20-05,,11,,2023-10-31,令和05年10月31日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#12,20ari-yatsu/yoshi20-05,,12,,2023-12-08,令和05年12月08日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
-20ari-yatsu/yoshi20-05#13,20ari-yatsu/yoshi20-05,,13,,2024-02-14,令和06年02月14日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
-20ari-yatsu/yoshi20-05#14,20ari-yatsu/yoshi20-05,,14,,2024-08-06,令和06年08月06日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
+20ari-yatsu/yoshi20-05#13,20ari-yatsu/yoshi20-05,,13,,2024-02-14,令和06年02月14日,,,,,,20,link,/council/20ari-yatsu/yoshi20-05.html
+20ari-yatsu/yoshi20-05#14,20ari-yatsu/yoshi20-05,,14,,2024-08-06,令和06年08月06日,,,,,,22,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#15,20ari-yatsu/yoshi20-05,,15,,2024-10-01,令和06年10月01日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
-20ari-yatsu/yoshi20-05#16,20ari-yatsu/yoshi20-05,,16,,2025-01-09,令和07年01月09日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
-20ari-yatsu/yoshi20-05#17,20ari-yatsu/yoshi20-05,,17,,2025-08-07,令和07年08月07日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
+20ari-yatsu/yoshi20-05#16,20ari-yatsu/yoshi20-05,,16,,2025-01-09,令和07年01月09日,,,,,,18,link,/council/20ari-yatsu/yoshi20-05.html
+20ari-yatsu/yoshi20-05#17,20ari-yatsu/yoshi20-05,,17,,2025-08-07,令和07年08月07日,,,,,,23,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#18,20ari-yatsu/yoshi20-05,,18,,2025-11-12,令和07年11月12日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#19,20ari-yatsu/yoshi20-05,,19,,2026-01-22,令和08年01月22日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
 20ari-yatsu/yoshi20-05#20,20ari-yatsu/yoshi20-05,,20,,2026-07-09,令和08年07月09日,,,,,,2,link,/council/20ari-yatsu/yoshi20-05.html
@@ -2315,7 +2315,7 @@ former2013/13wild/yoshi13@2012-12-13,former2013/13wild/yoshi13,,,,2012-12-13,H24
 photovoltaic_regulation/太陽光発電事業の更なる地域共生・規律強化に向けた関係省庁連絡会議（令和７年９月～12月）#1,photovoltaic_regulation,太陽光発電事業の更なる地域共生・規律強化に向けた関係省庁連絡会議（令和７年９月～12月）,1,第一回,2025-09-24,令和７年９月24日,,,環 境 省 第 3 会 議 室 + オ ン ラ イ ン,文 部 科 学 省 文 化 庁 文 化 財 第 二 課 長 / 農 林 水 産 省 大 臣 官 房 環 境 バ イ オ マ ス 政 策 課 長 / 農 村 振 興 局 農 村 政 策 部 農 村 計 画 課 長 / 林 野 庁 森 林 整 備 部 治 山 課 長 / 経 済 産 業 省 大 臣 官 房 産 業 保 安 ・ 安 全 グ ル ー プ 電 力 安 全 課 長 / 資 源 エ ネ ル ギ ー 庁 省 エ ネ ル ギ ー ・ 新 エ ネ ル ギ ー 部 / 新 エ ネ ル ギ ー 課 長 / 国 土 交 通 省 総 合 政 策 局 環 境 政 策 課 長( 代 理 出 席 ) / 都 市 局 都 市 安 全 課 大 臣 官 房 参 事 官 ( 宅 地 ・ 盛 土 防 災担 当 ) / 都 市 局 公 園 緑 地 ・ 景 観 課 景 観 ・ 歴 史 文 化 環 境 整 備 室 長 / ( 代 理 出 席 ) / 水 管 理 ・ 国 土 保 全 局 砂 防 計 画 課 砂 防 管 理 支 援 室 長 / 環 境 省 大 臣 官 房 総 合 環 境 政 策 統 括 官 グ ル ー プ 環 境 影 響 評 価 課 長 / ( 代 理 出 席 ) / 大 臣 官 房 地 域 脱 炭 素 推 進 審 議 官 グ ル ー プ 地 域 政 策 課 長 / 大 臣 官 房 地 域 脱 炭 素 推 進 審 議 官 グ ル ー プ 地 域 脱 炭 素 政 策 調 / 整 担 当 参 事 官( 代 理 出 席 ) / 自 然 環 境 局 総 務 課 長 / 自 然 環 境 局 国 立 公 園 課 長 / 自 然 環 境 局 野 生 生 物 課 長 / 要 旨: /  環 境 省 よ り 、 釧 路地 域 の メ ガ ソ ー ラ ー 問 題 に つ い て の現 状 や 課 題 、環 境 省 の,,1,table+pdf,/council/photovoltaic_regulation.html
 photovoltaic_regulation/太陽光発電事業の更なる地域共生・規律強化に向けた関係省庁連絡会議（令和７年９月～12月）#2,photovoltaic_regulation,太陽光発電事業の更なる地域共生・規律強化に向けた関係省庁連絡会議（令和７年９月～12月）,2,第二回,2025-10-29,令和７年10月29日,10:00-11:00,,環境省第1会議室+オンライン,総 務省 地域力創造グループ地域政策課長(代理出席) / 文部科学省 文化庁文化財第二課長 / 農林水産省 大臣官房環境バイオマス政策課長 / 農村振興局農村政策部農村計画課長 / 林野庁森林整備部治山課長 / 経済産業省 大臣官房産業保安・安全グループ電力安全課長 / 資源エネルギー庁省エネルギー・新エネルギー部新エネルギー課長 / 国土交通省 総合政策局環境政策課長 / 都市局都市安全課大臣官房参事官(宅地・盛土防災担当) / 都市局公園緑地・景観課景観・歴史文化環境整備室長 / 水管理・国土保全局砂防計画課砂防管理支援室長 / 環 境省 大臣官房総合環境政策統括官グループ環境影響評価課長 / 大臣官房地域脱炭素推進審議官グループ地域政策課長 / 大臣官房地域脱炭素推進審議官グループ地域脱炭素政策調整担当参事官 / 自然環境局総務課長 / 自然環境局国立公園課長 / 自然環境局野生生物課長,,1,table+pdf,/council/photovoltaic_regulation.html
 photovoltaic_regulation/太陽光発電事業の更なる地域共生・規律強化に向けた関係省庁連絡会議（令和７年９月～12月）#3,photovoltaic_regulation,太陽光発電事業の更なる地域共生・規律強化に向けた関係省庁連絡会議（令和７年９月～12月）,3,第三回,2025-12-22,令和７年12月22日,,,,,,1,table,/council/photovoltaic_regulation.html
-photovoltaic_regulation/開催状況#1,photovoltaic_regulation,開催状況,1,,2026-03-25,令和8年3月25日,,,,,,1,link,/council/photovoltaic_regulation.html
+photovoltaic_regulation/開催状況#1,photovoltaic_regulation,開催状況,1,,2026-03-25,令和8年3月25日,15:30-16:00,,オンライン,総 務省 自治行政局地域政策課長 / 文部科学省 文化庁文化財第二課長(代理出席) / 農林水産省 大臣官房環境バイオマス政策課長(代理出席) / 農村振興局農村政策部農村計画課長 / 経済産業省 大臣官房産業保安・安全グループ電力安全課長 / 資源エネルギー庁省エネルギー・新エネルギー部新エネルギー課長 / 国土交通省 総合政策局環境政策課長 / 都市局都市安全課大臣官房参事官 (宅地・盛土防災)(代理出席) / 都市局公園緑地・景観課景観・歴史文化環境整備室長(代理出席) / 水管理・国土保全局砂防計画課砂防管理支援室長 / 道路局環境安全・防災課長(代理出席) / 航空局空港計画課長 / 港湾局産業港湾課長(代理出席) / 鉄道局技術企画課長(代理出席) / 環 境省 大臣官房総合環境政策統括官グループ環境影響評価課長(代理出席) / 大臣官房地域脱炭素推進審議官グループ地域政策課長 / 大臣官房地域脱炭素推進審議官グループ地域脱炭素政策調整担当参事官 / 自然環境局国立公園課長 / 自然環境局野生生物課希少種保全推進室長 / 地球環境局地球温暖化対策課長 / ※ このほか、内閣官房副長官補室より内閣参事官(内政担当)がオブザーバー参加 / 要旨: / ○文部科学省、農林水産省、国土交通省、環境省、経済産業省及び総務省から、「メガソーラー,,9,link+pdf,/council/photovoltaic_regulation.html
 regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３月18日,13:00-14:00,,経済産業省別館2階235会議室、オンライン,全国知事会 調査第三部長 / 全国市長会 経済部長 / 全国町村会 財政部長 / 経済農林部長 / 経済産業省 資源エネルギー庁省エネルギー・新エネルギー部長 / 資源エネルギー庁再生可能エネルギー地域共生推進室長 / 環 境 省 大臣官房審議官 / 大臣官房地域脱炭素推進審議官グループ地域政策課長 / 大臣官房地域脱炭素推進審議官グループ地域脱炭素政策調整担当参事官 / 大臣官房環境経済課長 / 大臣官房環境影響評価課長 / 総 務 省 地域力創造グループ地域政策課長 / 文部科学省 文化庁文化財第二課長 / 農林水産省 大臣官房環境バイオマス政策課再生可能エネルギー室長 / 林野庁森林整備部治山課長 / 国土交通省 都市局公園緑地・景観課 課長補佐 / 要旨: / ○文部科学省、農林水産省、国土交通省、環境省、経済産業省及び総務省から地方三団体向けに、,,1,table+pdf,/council/regional_symbiosis.html
 44esg-kinyu/yoshi44#1,44esg-kinyu/yoshi44,,1,,2018-01-10,平成30年1月10日,,,,,,3,link,/council/44esg-kinyu/yoshi44.html
 44esg-kinyu/yoshi44#2,44esg-kinyu/yoshi44,,2,,2018-02-09,平成30年2月9日,,,,,,3,link,/council/44esg-kinyu/yoshi44.html
@@ -2400,9 +2400,9 @@ regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３�
 35hairyo-keiyaku/yoshi35/【船舶ワーキンググループ】#2,35hairyo-keiyaku/yoshi35,【船舶ワーキンググループ】,2,,2009-10-28,平成21年10月28日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【船舶ワーキンググループ】#3,35hairyo-keiyaku/yoshi35,【船舶ワーキンググループ】,3,,2009-11-20,平成21年11月20日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【船舶懇談会】#1,35hairyo-keiyaku/yoshi35,【船舶懇談会】,1,,2009-01-21,平成21年1月21日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【資源循環の促進に向けた産業廃棄物契約専門委員会】#1@2026-03-23,35hairyo-keiyaku/yoshi35,【資源循環の促進に向けた産業廃棄物契約専門委員会】,1,,2026-03-23,令和8年3月23日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【資源循環の促進に向けた産業廃棄物契約専門委員会】#1,35hairyo-keiyaku/yoshi35,【資源循環の促進に向けた産業廃棄物契約専門委員会】,1,,2026-06-23,令和8年6月23日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【資源循環の促進に向けた産業廃棄物契約専門委員会】#2,35hairyo-keiyaku/yoshi35,【資源循環の促進に向けた産業廃棄物契約専門委員会】,2,,2026-09-03,令和8年9月3日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【資源循環の促進に向けた産業廃棄物契約専門委員会】#1@2026-03-23,35hairyo-keiyaku/yoshi35,【資源循環の促進に向けた産業廃棄物契約専門委員会】,1,,2026-03-23,令和8年3月23日,08:30-10:30,資料1 | 令和7年度環境配慮契約法基本方針検討会資源循環の促進に向けた産業廃棄物契約専門委員会 委員名簿資料2 | 環境配慮契約での産廃処理契約の検討について参考資料1 | 令和7年度環境配慮契約法基本方針検討会 開催要領参考資料2 | 産業廃棄物処理に係る契約 令和6年度実績調査票## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。https://youtube.com/live/hIe3ggNm-3w?feature=share## 議事録議事録[427KB],インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局:本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。定刻に なりましたので、これより令和 7 年度第 1 回環境配慮契約法基本方針検討会資源循環の,中込委員、中谷委員、橋本委員、藤井委員(座長)、室石委員(五十音順),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【資源循環の促進に向けた産業廃棄物契約専門委員会】#1,35hairyo-keiyaku/yoshi35,【資源循環の促進に向けた産業廃棄物契約専門委員会】,1,,2026-06-23,令和8年6月23日,10:00-12:00,資料1 | 令和8年度環境配慮契約法基本方針検討会資源循環の促進 に向けた産業廃棄物契約専門委員会委員名簿資料2 | 産業廃棄物処理契約の検討について資料3 | 令和8年度環境配慮契約法基本方針検討会開催要領## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。https://youtube.com/live/sRZgVSyIWRM## 議事録議事録【259KB】,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局:本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。定刻に なりましたので、これより令和 8 年度第 1 回環境配慮契約法基本方針検討会資源循環の,中込委員、橋本委員、藤井委員(座長)、室石委員(五十音順),,6,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【資源循環の促進に向けた産業廃棄物契約専門委員会】#2,35hairyo-keiyaku/yoshi35,【資源循環の促進に向けた産業廃棄物契約専門委員会】,2,,2026-09-03,令和8年9月3日,15:00-17:00,資料1 | 令和8年度環境配慮契約法基本方針検討会資源循環の促進に向けた産業廃棄物契約専門委員会委員名簿資 料 2 | 環境配慮契約での産業廃棄物処理契約の検討について資 料 3 | 令和7年度における産業廃棄物の処理契約の締結実績について参考資料1 | 令和8年度環境配慮契約法基本方針検討会開催要領## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。https://www.youtube.com/live/52qbCbdE3mU## 議事録議事録[241KB],インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところお時間をいただきまして、誠にありがとうございます。 定刻になりましたので、これより令和 8 年度第 2 回環境配慮契約法基本方針検討会,中込委員、橋本委員、藤井委員(座長)、室石委員(五十音順),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力ワーキンググループ】#1@2007-08-31,35hairyo-keiyaku/yoshi35,【電力ワーキンググループ】,1,,2007-08-31,平成19年8月31日,,,,,,3,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力ワーキンググループ】#1,35hairyo-keiyaku/yoshi35,【電力ワーキンググループ】,1,,2009-09-17,平成21年9月17日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力ワーキンググループ】#2,35hairyo-keiyaku/yoshi35,【電力ワーキンググループ】,2,,2007-09-12,平成19年9月12日,,,,,,3,link,/council/35hairyo-keiyaku/yoshi35.html
@@ -2416,9 +2416,9 @@ regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３�
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2021-09-01,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2021-09-01,令和3年9月1日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2022-06-21,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2022-06-21,令和4年6月21日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2023-09-12,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2023-09-12,令和5年9月12日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2024-08-22,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2024-08-22,令和6年8月22日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2025-07-04,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2025-07-04,令和7年7月4日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#1,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2026-05-29,令和8年5月29日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2024-08-22,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2024-08-22,令和6年8月22日,15:00-17:00,,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。 定刻になりましたので、これより令和 6 年度第 1 回環境配慮契約法基本方針検討会,岩船委員、小川委員、髙村委員、藤野委員、松田委員、松村委員(座長) / 横川委員、米山委員 (五十音順、敬称略),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#1@2025-07-04,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2025-07-04,令和7年7月4日,09:30-11:30,資料1 | 令和7年度環境配慮契約法基本方針検討会 電力専門委員会委員名簿資料2 | 電気の供給を受ける契約における総合評価落札方式の導入について資料3 | 令和7年度環境配慮契約基本方針等検討スケジュール(案)参考資料 | 令和7年度環境配慮契約法基本方針検討会開催要領## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。【配信URL】https://youtube.com/live/q6BVuaYgn90?feature=share## 議事録議事録【418KB】,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。定刻 になりましたので、これより令和 7 年度第 1 回環境配慮契約法基本方針検討会電力専門,岩船委員、小川委員、髙村委員、藤野委員、松田委員、松村委員(座長)、 / 横川委員、米山委員(五十音順),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#1,35hairyo-keiyaku/yoshi35,【電力専門委員会】,1,,2026-05-29,令和8年5月29日,09:00-10:30,資料1 | 令和8年度環境配慮契約法基本方針検討会電力専門委員会委員名簿資料2 | 電気の供給を受ける契約における総合評価落札方式の導入について資料3 | 令和8年度の検討事項及びスケジュール(案)参考資料1 | 環境配慮契約法基本方針(2026年3月)参考資料2 | 環境配慮契約法基本方針 関連資料(抜粋)―電気の供給を受ける契約―(2026年3月)参考資料3 | 契約書類のひな型(電気の供給を受ける契約)## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。【配信URL】https://www.youtube.com/live/PiETWmQp048## 議事録議事録【398KB】,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。定刻 になりましたので、これより令和 8 年度第 1 回環境配慮契約法基本方針検討会電力専門,岩船委員、小川委員、斎藤委員、藤野委員、松村委員(座長)、松本委員、 / 横川委員、米山委員(五十音順),,9,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2012-10-02,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2012-10-02,平成24年10月2日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2016-08-25,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2016-08-25,平成28年8月25日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2017-09-28,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2017-09-28,平成29年9月28日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
@@ -2428,8 +2428,8 @@ regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３�
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2021-10-08,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2021-10-08,令和3年10月8日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2022-09-07,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2022-09-07,令和4年9月7日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2023-10-19,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2023-10-19,令和5年10月19日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2024-09-13,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2024-09-13,令和6年9月13日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2025-09-10,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2025-09-10,令和7年9月10日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2024-09-13,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2024-09-13,令和6年9月13日,10:00-12:00,,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。 定刻になりましたので、これより令和 6 年度第 2 回環境配慮契約法基本方針検討会,岩船委員、小川委員、髙村委員、藤野委員、松田委員、松村委員(座長) / 横川委員、米山委員 (五十音順、敬称略),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#2@2025-09-10,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2025-09-10,令和7年9月10日,09:00-11:00,資料1 | 令和7年度環境配慮契約法基本方針検討会 電力専門委員会委員名簿資料2 | 電気の供給を受ける契約における総合評価落札方式導入について資料3 | 令和6年度における電気の供給を受ける契約の締結実績について【暫定版】資料4 | 令和7年度環境配慮契約法基本方針等検討スケジュール(案)## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。【配信URL】https://youtube.com/live/EoC0NqMKnMs?feature=share## 議事録議事録【429KB】,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。定刻 になりましたので、これより令和 7 年度第 2 回環境配慮契約法基本方針検討会電力専門,岩船委員、小川委員、髙村委員、藤野委員、松田委員、松村委員(座長)、 / 横川委員、米山委員 (五十音順),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#2,35hairyo-keiyaku/yoshi35,【電力専門委員会】,2,,2026-11-13,令和8年11月13日,10:00-12:00,資料1 | 令和8年度環境配慮契約法基本方針検討会電力専門委員会委員名簿資料2 | 総合評価落札方式の実施状況等について資料3 | 令和7年度における電気の供給を受ける契約の締結実績について【暫定版】資料4 | 令和8年度環境配慮契約法基本方針等検討スケジュール(案)参考資料 | 環境配慮契約法基本方針解説資料(電気の供給を受ける契約(抜粋))## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。【配信URL】https://youtube.com/live/oxHWwMa4E9## 議事録※会議終了後に掲載いたします。,,,,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2012-11-06,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2012-11-06,平成24年11月6日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2016-10-17,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2016-10-17,平成28年10月17日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
@@ -2437,8 +2437,8 @@ regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３�
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2018-10-17,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2018-10-17,平成30年10月17日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2019-12-12,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2019-12-12,令和元年12月12日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2022-10-18,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2022-10-18,令和4年10月18日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2025-03-17,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2025-03-17,令和7年3月17日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/【電力専門委員会】#3,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2025-12-04,令和7年12月4日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#3@2025-03-17,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2025-03-17,令和7年3月17日,13:00-15:00,,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日はお忙しいところ、また年度末にも関わらず、お時間をいただきまして誠に ありがとうございます。定刻になりましたので、これより令和 6 年度第 3 回環境配,岩船委員、小川委員、髙村委員、藤野委員、松田委員、松村委員(座長)、 / 横川委員、米山委員 (五十音順、敬称略),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/【電力専門委員会】#3,35hairyo-keiyaku/yoshi35,【電力専門委員会】,3,,2025-12-04,令和7年12月4日,10:00-12:00,資料1 | 令和7年度環境配慮契約法基本方針検討会電力専門委員会委員名簿資料2 | 電気の供給を受ける契約における総合評価落札方式の導入について資料3 | 令和7年度環境配慮契約法基本方針等検討スケジュール(案)参考資料1 | 環境配慮契約法基本方針(2025年12月時点改訂案)## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。【配信URL】https://youtube.com/live/7E2-EuSoM8A?feature=share## 議事録議事録【388KB】,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局:本日はお忙しいところ、お時間をいただきまして、誠にありがとうございます。定 刻になりましたので、これより令和 7 年度第 3 回環境配慮契約法基本方針検討会,岩船委員、小川委員、髙村委員、藤野委員、松村委員(座長)、横川委員、 / 米山委員 (五十音順),,7,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【電力専門委員会】#4,35hairyo-keiyaku/yoshi35,【電力専門委員会】,4,,2019-03-20,平成31年3月20日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【ＯＡ機器ワーキンググループ】#1@2008-10-07,35hairyo-keiyaku/yoshi35,【ＯＡ機器ワーキンググループ】,1,,2008-10-07,平成20年10月7日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/【ＯＡ機器ワーキンググループ】#1@2009-11-18,35hairyo-keiyaku/yoshi35,【ＯＡ機器ワーキンググループ】,1,,2009-11-18,平成21年11月18日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
@@ -2454,22 +2454,22 @@ regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３�
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2021-08-03,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2021-08-03,令和3年8月3日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2022-07-15,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2022-07-15,令和4年7月15日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2023-07-24,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2023-07-24,令和5年7月24日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2024-08-01,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2024-08-01,令和6年8月1日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2025-07-28,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2025-07-28,令和7年7月28日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#1,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2026-08-06,令和8年8月6日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2024-08-01,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2024-08-01,令和6年8月1日,09:30-11:30,,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日は、お忙しいところ、ご参集いただきまして、誠にありがとうございます。 定刻になりましたので、令和6年度第1回環境配慮契約法基本方針検討会を開催い,赤司委員、梅田委員(座長)、勢一委員、大聖委員、原委員、藤井委員、 / 松村委員、野城委員 (五十音順) / 欠席委員:藤野委員,,8,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#1@2025-07-28,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2025-07-28,令和7年7月28日,10:00-12:00,資料1 | 令和7年度環境配慮契約法基本方針検討会委員名簿資料2 | 令和7年度における環境配慮契約法基本方針等の検討方針・課題等(案)資料3 | 環境配慮契約に関する提案募集について資料4 | 令和7年度環境配慮契約法基本方針等検討スケジュール(案)参考資料1 | 令和7年度環境配慮契約法基本方針検討会開催要領参考資料2 | 電気の供給を受ける契約における総合評価落札方式の導入について ー第1回電力専門委員会提出資料ー## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。配信URLは以下のとおりです。【配信URL】https://youtube.com/live/dO4vHwrLw7I?feature=share## 議事録議事録【498KB】,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 定刻になりましたので、これより令和7年度第1回環境配慮契約法基本方針検討会を 開催いたします。本日の検討会につきましては、実際の会議室と Web 会議のハイブリッ,赤司委員、梅田委員(座長)、勢一委員、大聖委員、原委員、藤井委員、藤野委員、 / 松村委員、野城委員 (五十音順),,9,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#1,35hairyo-keiyaku/yoshi35,検討会議事次第資料,1,,2026-08-06,令和8年8月6日,10:00-12:00,資料1 | 令和8 年度環境配慮契約法基本方針検討会委員名簿資料2 | 令和8年度における環境配慮契約法基本方針等の検討方針・課題等(案)資料3 | 環境配慮契約に関する提案募集について資料4 | 令和8年度環境配慮契約法基本方針等検討スケジュール(案)参考資料1 | 令和8年度環境配慮契約法基本方針検討会開催要領参考資料2 | 電気の供給を受ける契約における総合評価落札方式の導入 について -第1 回電力専門委員会提出資料-参考資料3 | 環境配慮契約での産廃処理契約の検討について -第1 回 資源循環の促進に向けた産業廃棄物契約専門委員会提出資料-参考資料4 | 建築物の維持管理に係る環境配慮契約のチェックリスト参考資料5 | 建築物の維持管理に係る環境配慮契約のチェックリスト 説明資料抜粋版(イメージ)## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。配信URLは以下のとおりです。https://youtube.com/live/lZrN17n2zS0## 議事録議事録[368KB],インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局:定刻になりましたので、これより令和8年度第1回環境配慮契約法基本方針検討会 を開催いたします。本日の検討会につきましては、実際の会議室と Web 会議のハイ,赤司委員、梅田委員(座長)、大聖委員、原委員、藤井委員、藤野委員、 / 野城委員(五十音順) / 欠席委員:勢一委員、松村委員,,12,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2019-12-23,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2019-12-23,令和元年12月23日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2021-01-22,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2021-01-22,令和3年1月22日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2021-10-22,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2021-10-22,令和3年10月22日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2022-11-04,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2022-11-04,令和4年11月4日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2023-11-06,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2023-11-06,令和5年11月6日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2024-10-31,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2024-10-31,令和6年10月31日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2025-10-16,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2025-10-16,令和7年10月16日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2024-10-31,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2024-10-31,令和6年10月31日,15:00-17:00,,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日は、お忙しいところ、ご参集いただきまして、誠にありがとうございます。 定刻になりましたので、これより令和 6 年度第 2 回環境配慮契約法基本方針検討会,梅田委員(座長)、勢一委員、原委員、藤井委員、藤野委員、松村委員、 / 野城委員 (五十音順) / 欠席委員:赤司委員、大聖委員,,10,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#2@2025-10-16,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2025-10-16,令和7年10月16日,10:00-12:00,資料1 | 令和7年度環境配慮契約法基本方針検討会委員名簿資料2 | 電気の供給を受ける契約における総合評価落札方式の導入について資料3 | 産業廃棄物の処理に係る契約に関する検討状況について資料4 | 令和6年度の国及び独立行政法人等における環境配慮契約の締結実績について【暫定版】資料5 | 令和7年度環境配慮契約法基本方針等検討スケジュール(案)参考資料 | 電気の供給を受ける契約における総合評価落札方式の導入について -第2回電力専門委員会資料-## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。配信URLは以下のとおりです。https://youtube.com/live/5LNT5LkW7_g?feature=share## 議事録議事録[451KB],インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局:本日はお忙しいところ、ご参集いただきまして、誠にありがとうございます。定刻 になりましたので、これより令和 7 年度第 2 回「環境配慮契約法基本方針検討会」,梅田委員(座長)、勢一委員、原委員、藤井委員、藤野委員、松村委員、 / 野城委員(五十音順),,9,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#2,35hairyo-keiyaku/yoshi35,検討会議事次第資料,2,,2026-11-24,令和8年11月24日,10:15-12:00,資料1 | 令和8年度環境配慮契約法基本方針検討会委員名簿資料2 | 産業廃棄物の処理に係る契約における検討事項等について資料3 | 国及び独立行政法人等における温室効果ガス等の排出の削減に配慮した契約の推進に関する基本方針(改定案)資料4 | 電気の供給を受ける契約における総合評価落札方式の実施状況等について資料5ー1 | 建築物懇談会における検討事項等について -建築物懇談会とりまとめ-資料5-2 | エネルギー消費量・温室効果ガス排出量の原単位によるベンチマーク指標(案)-令和7年度実績データによる追加・更新-資料5-3 | 建築物の維持管理に係る環境配慮契約のチェックリスト説明資料(案) -全体像及び調達者向け概要-資料6 | 自動車の購入及び賃貸借に係る契約における燃費目標値の考え方について資料7 | 国及び独立行政法人等における環境配慮契約の締結実績について資料8 | 令和8年度環境配慮契約法基本方針等検討スケジュール(案)資料9 | 令和9年度における環境配慮契約法基本方針等の検討方針・課題等について参考資料1ー1 | 建築物の維持管理に係る環境配慮契約のチェックリスト参考資料1-2 | 環境配慮契約のチェックリスト説明資料(案)-調達者向け-参考資料1-3 | 環境配慮契約のチェックリスト説明資料(案)-事業者向け-参考資料2 | 環境配慮契約による環境負荷低減効果の試算について## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。配信URLは以下のとおりです。https://www.youtube.com/live/OIFq7suB8Co## 議事録※検討会後に掲載いたします。,,,,17,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#3@2021-12-14,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2021-12-14,令和3年12月14日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#3@2022-12-20,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2022-12-20,令和4年12月20日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/検討会議事次第資料#3@2023-12-22,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2023-12-22,令和5年12月22日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#3@2024-12-20,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2024-12-20,令和6年12月20日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
-35hairyo-keiyaku/yoshi35/検討会議事次第資料#3,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2025-12-26,令和7年12月26日,,,,,,1,link,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#3@2024-12-20,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2024-12-20,令和6年12月20日,10:00-12:00,,インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局: 本日は、お忙しいところ、ご参集いただきまして、誠にありがとうございます。 定刻になりましたので、これより令和 6 年度第 3 回環境配慮契約法基本方針検討会,赤司委員、梅田委員(座長)、勢一委員、大聖委員、原委員、藤井委員、 / 松村委員、野城委員 (五十音順) / 欠席委員:藤野委員,,15,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
+35hairyo-keiyaku/yoshi35/検討会議事次第資料#3,35hairyo-keiyaku/yoshi35,検討会議事次第資料,3,,2025-12-26,令和7年12月26日,10:00-12:00,資料1 | 令和7年度環境配慮契約法基本方針検討会委員名簿資料2 | 電気の供給を受ける契約における総合評価落札方式の導入について資料3 | 国及び独立行政法人等における温室効果ガス等の排出の削減に配慮した契約の推進に関する基本方針(改定案)資料4 | 電気の供給を受ける契約に関する基本方針解説資料(案)資料5ー1 | 建築物懇談会における検討事項等について(案)ー建築物懇談会取りまとめー資料5-2 | エネルギー消費量・温室効果ガス排出量の原単位によるベンチマーク指標(案)ー令和6年度実績データによる追加・更新ー資料6 | 令和7年度環境配慮契約法基本方針等検討スケジュール(案)資料7 | 令和8年度における環境配慮契約法基本方針等の検討方針・課題等について(案)参考資料1 | 電気の供給を受ける契約における総合評価落札方式の導入について -第3回電力専門委員会資料-参考資料2 | 建築物の維持管理に係る環境配慮契約のチェックリスト参考資料3 | 環境配慮契約のチェックリストの説明資料(イメージ)参考資料4 | 建築物の維持管理に関する契約 令和6年度実績調査票参考資料5 | 国及び独立行政法人等における環境配慮契約の締結実績について参考資料6 | 環境配慮契約による環境負荷低減効果の試算について## 傍聴方法本委員会は、動画チャンネルでライブ配信を行います。配信URLは以下のとおりです。https://youtube.com/live/TGr06mDE4GE?feature=share## 議事録議事録[456KB],インテージ秋葉原ビル 12 階会議室及び Web 会議 事務局:本日はお忙しいところ、ご参集いただきまして、誠にありがとうございます。定刻 になりましたので、これより令和 7 年度第 3 回環境配慮契約法基本方針検討会を,赤司委員、梅田委員(座長)、大聖委員、藤井委員、藤野委員、松村委員、野城委 / 員 (五十音順),,17,link+pdf,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/議事次第資料#1@2008-08-18,35hairyo-keiyaku/yoshi35,議事次第資料,1,,2008-08-18,平成20年8月18日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/議事次第資料#1@2009-07-29,35hairyo-keiyaku/yoshi35,議事次第資料,1,,2009-07-29,平成21年7月29日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
 35hairyo-keiyaku/yoshi35/議事次第資料#1@2010-09-08,35hairyo-keiyaku/yoshi35,議事次第資料,1,,2010-09-08,平成22年9月8日,,,,,,2,link,/council/35hairyo-keiyaku/yoshi35.html
@@ -2609,24 +2609,24 @@ regional_symbiosis#1,regional_symbiosis,,1,第一回,2026-03-18,令和８年３�
 02policy/yoshi_aratana#2,02policy/yoshi_aratana,,2,,2023-02-02,令和5年2月2日,12:45-15:18,,WEB 会議システムにより開催(YouTube によるオンライン配信あり),委員: / 伊藤 元重 / 東京大学 名誉教授 / 大塚 直 / 早稲田大学法学部 教授 / 小野田 弘士 / 早稲田大学大学院環境・エネルギー研究科 教授 / 髙村 ゆかり / 東京大学未来ビジョン研究センター 教授 / 田島 夏与 / 立教大学経済学部 教授 / 蛭間 芳樹 / 日本政策投資銀行業務企画部 イノベーション推進室 調査役 / 前野 隆司 / 慶應義塾大学大学院システムデザイン・マネジメント研究科教授 / 兼 慶應義塾大学ウェルビーイングリサーチセンター長 / 森田 香菜子 / 国立研究開発法人森林研究・整備機構森林総合研究所生物多様性・ / ゲスト: / 気候変動研究拠点 主任研究員 / 河野 龍太郎 / BNP パリバ証券株式会社 経済調査本部長、チーフエコノミスト / 安田 洋祐 / 大阪大学大学院経済学研究科 教授 / 森 俊介 / 東京理科大学 名誉教授 / 科学技術振興機構 低炭素社会戦略センター 研究統括/上席研究員 / 堀井 亮 / 大阪大学社会経済研究所 教授 / (第六次環境基本計画に向けた基本的事項に関する検討会委員),,2,link+pdf,/council/02policy/yoshi_aratana.html
 02policy/yoshi_aratana#3,02policy/yoshi_aratana,,3,,2023-02-27,令和5年2月27日,,,,,,1,link,/council/02policy/yoshi_aratana.html
 02policy/yoshi_aratana#4,02policy/yoshi_aratana,,4,,2023-03-17,令和5年3月17日,,,,,,2,link,/council/02policy/yoshi_aratana.html
-regional_decarbonization#1,regional_decarbonization,,1,,2024-06-28,令和6年6月28日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#2,regional_decarbonization,,2,,2024-07-25,令和6年7月25日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#3,regional_decarbonization,,3,,2024-08-01,令和6年8月1日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#4,regional_decarbonization,,4,,2024-09-10,令和6年9月10日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#5,regional_decarbonization,,5,,2024-09-25,令和6年9月25日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#6,regional_decarbonization,,6,,2024-10-08,令和6年10月8日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#7,regional_decarbonization,,7,,2024-10-29,令和6年10月29日,,,,,,1,link,/council/regional_decarbonization.html
-regional_decarbonization#8,regional_decarbonization,,8,,2024-11-14,令和6年11月14日,,,,,,1,link,/council/regional_decarbonization.html
-55mehg-epidemiol/yoshi55#1,55mehg-epidemiol/yoshi55,,1,,2024-12-27,令和6年12月27日,,,,,,1,link,/council/55mehg-epidemiol/yoshi55.html
-55mehg-epidemiol/yoshi55#2,55mehg-epidemiol/yoshi55,,2,,2025-01-24,令和7年 1月24日,,,,,,1,link,/council/55mehg-epidemiol/yoshi55.html
-55mehg-epidemiol/yoshi55#3,55mehg-epidemiol/yoshi55,,3,,2025-02-21,令和7年 2月21日,,,,,,1,link,/council/55mehg-epidemiol/yoshi55.html
-valuechain_decarbonization#1,valuechain_decarbonization,,1,,2025-05-12,令和7年5月12日,,,,,,1,link,/council/valuechain_decarbonization.html
-valuechain_decarbonization#2,valuechain_decarbonization,,2,,2025-05-29,令和7年5月29日,,,,,,1,link,/council/valuechain_decarbonization.html
-valuechain_decarbonization#3,valuechain_decarbonization,,3,,2025-06-11,令和7年6月11日,,,,,,1,link,/council/valuechain_decarbonization.html
+regional_decarbonization#1,regional_decarbonization,,1,,2024-06-28,令和6年6月28日,13:00-15:00,,新東京ビル 7 階 713-J 室及びオンライン(Zoom Webinars),竹ケ原座長、秋元委員、皆藤委員、白戸委員(オンライン)、末吉委員、勢一委員、谷口委員、西尾委員、 / 諏訪委員代理 平林様(オンライン)、環境省 / オブザーバー: / 内閣府、金融庁、総務省、農林水産省、経済産業省、国土交通省、全国知事会、全国市長会、全国町村会、 / 全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,8,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#2,regional_decarbonization,,2,,2024-07-25,令和6年7月25日,13:00-15:00,,丸の内二重橋ビルディング 1602-R01 As One Room 及びオンライン(Zoom Webinars),竹ケ原座長、秋元委員、皆藤委員、白戸委員(オンライン)、末吉委員、勢一委員、谷口委員、諏訪委員 / (オンライン)、環境省、国土交通省、農林水産省、経済産業省、内閣府、総務省 / オブザーバー: / 金融庁、全国知事会、全国市長会、全国町村会、全国地方銀行協会、第二地方銀行協会、全国信用金庫協 / 会,,14,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#3,regional_decarbonization,,3,,2024-08-01,令和6年8月1日,13:00-15:00,,丸の内二重橋ビルディング 1715-F01 Board Room 及びオンライン(Zoom Webinars),竹ケ原座長、皆藤委員、白戸委員(オンライン)、末吉委員、勢一委員、谷口委員(オンライン)、諏訪委 / 員(オンライン)、宮城県、長野県、高知県、熊本県熊本市、神奈川県川崎市、島根県邑南町、長野県箕 / 輪町、熊本県球磨村(オンライン)、株式会社球磨村森電力、富山県氷見市(オンライン)、環境省 / オブザーバー: / 内閣府、金融庁、総務省、農林水産省、経済産業省、国土交通省、全国知事会、全国市長会、全国町村会、 / 全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,15,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#4,regional_decarbonization,,4,,2024-09-10,令和6年9月10日,09:00-11:30,,丸の内二重橋ビルディング 1715-F01 Board Room 及びオンライン(Zoom Webinars),竹ケ原座長、秋元委員、皆藤委員、白戸委員(オンライン)、末吉委員、諏訪委員(オンライン)、勢一 / 委員、谷口委員、西尾委員(オンライン)、環境省、文部科学省 / オブザーバー: / 内閣府、金融庁、消費者庁、総務省、農林水産省、経済産業省、国土交通省、全国知事会、全国市長会、 / 全国町村会、全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,16,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#5,regional_decarbonization,,5,,2024-09-25,令和6年9月25日,14:00-17:00,,丸の内二重橋ビルディング 1602-R01 As One Room 及び オンライン(Zoom Webinars),竹ケ原座長、秋元委員、皆藤委員(オンライン)、末吉委員(オンライン)、勢一委員、谷口委員(オン / ライン)、諏訪委員代理 平林様(オンライン)、経済産業省、環境省、ごうぎんエナジー株式会社、株式 / 会社滋賀銀行(オンライン)、京都府、京都信用金庫、三菱 UFJ 信託銀行株式会社、株式会社脱炭素化 / 支援機構、静岡県地球温暖化防止活動推進センター(オンライン) / オブザーバー: / 内閣府、金融庁、消費者庁、総務省、農林水産省、経済産業省、国土交通省、全国知事会、全国市長会、 / 全国町村会、全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,18,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#6,regional_decarbonization,,6,,2024-10-08,令和6年10月8日,15:00-17:00,,TKP 新橋カンファレンスセンター13 階ホール 13A 及びオンライン(Zoom Webinars),竹ケ原座長、秋元委員(オンライン)、皆藤委員、白戸委員(オンライン)、末吉委員(オンライン)、 / 諏訪委員代理 平林様(オンライン)、勢一委員(オンライン)、西尾委員(オンライン)、環境省 / オブザーバー: / 内閣府、金融庁、消費者庁、総務省、文部科学省、農林水産省、経済産業省、国土交通省、全国知事会、 / 全国市長会、全国町村会、全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,23,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#7,regional_decarbonization,,7,,2024-10-29,令和6年10月29日,10:00-12:00,,TKP 新橋カンファレンスセンター13 階ホール 13A 及びオンライン(Zoom Webinars),竹ケ原座長、秋元委員(オンライン)、皆藤委員、白戸委員(オンライン)、末吉委員(オンライン)、 / 諏訪委員(オンライン)、谷口委員(オンライン)、西尾委員 / オブザーバー: / 内閣府、金融庁、消費者庁、総務省、文部科学省、農林水産省、経済産業省、国土交通省、全国知事会、 / 全国市長会、全国町村会、全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,5,link+pdf,/council/regional_decarbonization.html
+regional_decarbonization#8,regional_decarbonization,,8,,2024-11-14,令和6年11月14日,13:00-15:00,,丸の内二重橋ビルディング 1715-F01 Board Room 及びオンライン(Zoom Webinars),竹ケ原座長、皆藤委員、末吉委員(オンライン)、諏訪委員(オンライン)、勢一委員、谷口委員、西尾 / 委員(オンライン)、環境省 / オブザーバー: / 内閣府、金融庁、消費者庁、総務省、文部科学省、農林水産省、経済産業省、国土交通省、全国知事会、 / 全国市長会、全国町村会、全国地方銀行協会、第二地方銀行協会、全国信用金庫協会,,7,link+pdf,/council/regional_decarbonization.html
+55mehg-epidemiol/yoshi55#1,55mehg-epidemiol/yoshi55,,1,,2024-12-27,令和6年12月27日,,,,,,16,link,/council/55mehg-epidemiol/yoshi55.html
+55mehg-epidemiol/yoshi55#2,55mehg-epidemiol/yoshi55,,2,,2025-01-24,令和7年 1月24日,14:00-16:00,,環 境省第2会議室( オ ンライン及び対面) 概要:水俣病被害者特別措置法の規定に基づくメチル水銀による健康影響にかかる疫学調査 の在り方について、関係者からヒアリングを行い、委員間で意見交換を行った。,,,7,link+pdf,/council/55mehg-epidemiol/yoshi55.html
+55mehg-epidemiol/yoshi55#3,55mehg-epidemiol/yoshi55,,3,,2025-02-21,令和7年 2月21日,,,,,,6,link,/council/55mehg-epidemiol/yoshi55.html
+valuechain_decarbonization#1,valuechain_decarbonization,,1,,2025-05-12,令和7年5月12日,,,,,,11,link,/council/valuechain_decarbonization.html
+valuechain_decarbonization#2,valuechain_decarbonization,,2,,2025-05-29,令和7年5月29日,,,,,,11,link,/council/valuechain_decarbonization.html
+valuechain_decarbonization#3,valuechain_decarbonization,,3,,2025-06-11,令和7年6月11日,,,,,,11,link,/council/valuechain_decarbonization.html
 valuechain_decarbonization#4,valuechain_decarbonization,,4,,,,,,,,,1,link,/council/valuechain_decarbonization.html
-demandstimulation_decarbonization#1,demandstimulation_decarbonization,,1,,2026-02-03,令和8年2月3日,,,,,,1,link,/council/demandstimulation_decarbonization.html
-demandstimulation_decarbonization#1@2026-08-07,demandstimulation_decarbonization,,1,,2026-08-07,令和8年8月7日,,,,,,1,link,/council/demandstimulation_decarbonization.html
-demandstimulation_decarbonization#2,demandstimulation_decarbonization,,2,,2026-03-25,令和8年3月25日,,,,,,1,link,/council/demandstimulation_decarbonization.html
+demandstimulation_decarbonization#1,demandstimulation_decarbonization,,1,,2026-02-03,令和8年2月3日,,,,,,12,link,/council/demandstimulation_decarbonization.html
+demandstimulation_decarbonization#1@2026-08-07,demandstimulation_decarbonization,,1,,2026-08-07,令和8年8月7日,,,,,,8,link,/council/demandstimulation_decarbonization.html
+demandstimulation_decarbonization#2,demandstimulation_decarbonization,,2,,2026-03-25,令和8年3月25日,,,,,,6,link,/council/demandstimulation_decarbonization.html
 demandstimulation_decarbonization#2@2026-09-15,demandstimulation_decarbonization,,2,,2026-09-15,令和8年9月15日,,,,,,5,link,/council/demandstimulation_decarbonization.html
 o_info#4,o_info,,4,,2026-11-30,R08.11.30,,,,,,1,link,/council/o_info.html
 o_info#4@2026-12-01,o_info,,4,,2026-12-01,R08.12.1,,,,,,3,link,/council/o_info.html
