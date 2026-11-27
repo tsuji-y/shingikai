@@ -5,19 +5,20 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 中川貴之,中川貴之,,full_name,zyuizi,zyuizi,,木邊　量子 日本獣医生命科学大学獣医学部獣医学科　准教授,0,,
 中村健介,中村健介,,full_name,zyuizi,zyuizi,,国立大学法人北海道大学大学院獣医学研究院 准教授,0,,
 久城真代,久城真代,,full_name,sizai,sizai,,国 立 研 究 開 発 法 人 農 業 ・ 食 品 産 業 技 術 総 合 研 究 機 構 食 品 研 究 部 門,0,,
-久賀みず保,久賀 みず保,久賀,full_name,2028gyocen_,,委員,Web 工藤 貴史 佐々木 貴文 Web 佐藤 庸介須藤 篤史 髙瀨 美和子 西村 絵美 Web 松田 千里 三浦 秀樹,1,2026-10-27,2026-10-27
 久野裕,久野裕,,full_name,sizai,sizai,,国 立 大 学 法 人 岡 山 大 学 学 術 研 究 院 先 鋭 研 究 領 域 （ 大 麦 ・ 野 生 ） 教,0,,
 乙丸孝之介,乙丸孝之介,,full_name,zyuizi,zyuizi,,国立大学法人鹿児島大学共同獣医学部附属動物病院,0,,
 五箇公一,五箇公一,,full_name,sizai,sizai,,国 立 研 究 開 発 法 人 国 立 環 境 研 究 所 生 物 多 様 性 領 域 生 態 リ ス ク 評 価,0,,
+代田真理子,代田眞理子,,full_name,sizai,,委員,,12,2019-09-06,2023-03-15
 佐々木典康,佐々木典康,,full_name,zyuizi,zyuizi,,日本獣医生命科学大学 獣医学部獣医学科 准教授,0,,
 佐藤礼一郎,佐藤礼一郎,,full_name,zyuizi,zyuizi,,国立大学法人宮崎大学農学部獣医学科 教授,0,,
 原田恭治,原田恭治,,full_name,zyuizi,zyuizi,,日本獣医生命科学大学獣医学部獣医学科 准教授,0,,
 吉松組子,吉松組子,,full_name,zyuizi,zyuizi,,国立大学法人北海道大学,0,,
 君嶋祐子,君嶋祐子,,full_name,sizai,sizai,,慶 應 義 塾 大 学 法 学 部 教 授 兼 大 学 院 法 学 研 究 科 教 授,0,,
 園田紘子,園田紘子,,full_name,zyuizi,zyuizi,,国立大学法人宮崎大学農学部獣医学科 准教授,0,,
-坂真智子,坂真智子,,full_name,sizai,sizai,,星 薬 科 大 学 薬 学 部 毒 性 学 研 究 室 教 授,0,,
+坂真智子,坂真智子,,full_name,sizai,sizai,臨時委員,星 薬 科 大 学 薬 学 部 毒 性 学 研 究 室 教 授,6,2019-09-06,2021-05-27
 堀本泰介,堀本泰介,,full_name,zyuizi,zyuizi,,国立大学法人東京大学大学院農学生命科学研究科 教授,0,,
 塚本篤士,塚本篤士,,full_name,zyuizi,zyuizi,,麻布大学獣医学部獣医学科 准教授,0,,
+増村健一,増村健一,,full_name,sizai,,専門委員 / 臨時委員 / 委員,,24,2020-06-23,2026-10-09
 増田絢,増田絢,,full_name,zyuizi,zyuizi,,日本大学 生物資源科学部獣医学科　専任講師,0,,
 夏目雅裕,夏目雅裕,,full_name,sizai,sizai,,国 立 大 学 法 人 東 京 農 工 大 学 名 誉 教 授,0,,
 多田敦子,多田敦子,,full_name,sizai,sizai,,国 立 医 薬 品 食 品 衛 生 研 究 所 食 品 添 加 物 部 第 一 室 長,0,,
@@ -28,6 +29,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 安藤匡子,安藤匡子,,full_name,zyuizi,zyuizi,,国立大学法人鹿児島大学共同獣医学部獣医学科　准教,0,,
 宮沢愛,宮澤愛,,full_name,zyuizi,zyuizi,,北海道農業共済組合十勝統括センター十勝北部支所陸別,0,,
 富安博隆,富安博隆,,full_name,zyuizi,zyuizi,,国立大学法人東京大学大学院農学生命科学研究科  准教,0,,
+富沢早苗,富澤早苗,,full_name,sizai,,専門委員,,18,2022-09-21,2026-08-06
 富田裕明,富田裕明,,full_name,sizai,sizai,,元 神 奈 川 県 農 業 技 術 セ ン タ ー 横 浜 川 崎 地 区 事 務 所 次 長,0,,
 小山朗子,小山朗子,,full_name,zyuizi,zyuizi,,東京都家畜保健衛生所防疫担当統括課長代理,0,,
 小畠結,小畠結,,full_name,zyuizi,zyuizi,,国立大学法人東海国立大学機構岐阜大学 応用生物科,0,,
@@ -50,9 +52,11 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 松藤寛,松藤寛,,full_name,sizai,sizai,,日 本 大 学 生 物 資 源 科 学 部 食 品 開 発 学 科 教 授,0,,
 栁沢成江,栁澤成江,,full_name,zyuizi,zyuizi,,農林水産省動物検疫所北海道・東北 支所長,0,,
 根本有希,根本有希,,full_name,zyuizi,zyuizi,,麻布大学 獣医学部 准教授,0,,
-桒形麻樹子,桒形麻樹子,,full_name,sizai,sizai,,帝 京 平 成 大 学 健 康 医 療 ス ポ ー ツ 学 部 医 療 ス ポ ー ツ 学 科 教 授,0,,
+桒形麻樹子,桒形麻樹子,,full_name,sizai,sizai,専門委員 / 委員,帝 京 平 成 大 学 健 康 医 療 ス ポ ー ツ 学 部 医 療 ス ポ ー ツ 学 科 教 授,14,2023-05-31,2026-08-06
 桜井裕之,櫻井裕之,,full_name,sizai,sizai,,杏 林 大 学 医 学 部 薬 理 学 教 室 教 授,0,,
-水口智江可,水口智江可,,full_name,sizai,sizai,,国 立 大 学 法 人 名 古 屋 大 学 大 学 院 生 命 農 学 研 究 科 准 教 授,0,,
+梅田ゆみ,梅田ゆみ,,full_name,sizai,,委員 / 部会長,,21,2019-09-06,2024-12-16
+水口智江可,水口智江可,,full_name,sizai,sizai,委員 / 座長 / 部会長,国 立 大 学 法 人 名 古 屋 大 学 大 学 院 生 命 農 学 研 究 科 准 教 授,19,2023-05-31,2026-10-09
+永山敏広,永山敏廣,,full_name,sizai,,専門委員,,9,2019-09-06,2022-01-25
 永岡謙太郎,永岡謙太郎,,full_name,zyuizi,zyuizi,,国立大学法人 東京農工大学農学部共同獣医学科 教授,0,,
 浅倉真吾,浅倉真吾,,full_name,zyuizi,zyuizi,,酪農学園大学獣医学群獣医学類 講師,0,,
 海野年弘,海野年弘,,full_name,zyuizi,zyuizi,,国立大学法人東海国立大学機構岐阜大学 応用生物科,0,,
@@ -70,12 +74,16 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 花田裕美,花田裕美,,full_name,sizai,sizai,,和 歌 山 県 農 業 試 験 場 栽 培 部 部 長,0,,
 華園究,華園究,,full_name,zyuizi,zyuizi,,ライフメイト動物医療センター,0,,
 落合由嗣,落合由嗣,,full_name,zyuizi,zyuizi,,日本獣医生命科学大学獣医学部 教授,0,,
+藤代瞳,藤代瞳,,full_name,sizai,,専門委員,,7,2025-06-12,2026-10-09
+西亜由美,西亜由美,,full_name,sizai,,専門委員,,22,2022-09-21,2026-10-09
+赤松美紀,赤松美紀,,full_name,sizai,,委員 / 部会長,,12,2019-09-06,2023-03-15
 近藤広孝,近藤広孝,,full_name,zyuizi,zyuizi,,日本大学生物資源科学部獣医学科 准教授,0,,
 遠藤なつ美,遠藤なつ美,,full_name,zyuizi,zyuizi,,国立大学法人東京農工大学農学部共同獣医学科　准教,0,,
 郷野智砂子,郷野智砂子,,full_name,sizai,sizai,,一 般 社 団 法 人 全 国 消 費 者 団 体 連 絡 会 事 務 局 長,0,,
 野中最子,野中最子,,full_name,sizai,sizai,,国 産 飼 料 研 究 領 域 飼 料 作 物 先 端 育 種 グ ル ー プ 長,0,,
 鈴木亮平,鈴木亮平,,full_name,zyuizi,zyuizi,,日本獣医生命科学大学獣医学部獣医学科 講師,0,,
 鈴木康規,鈴木康規,,full_name,zyuizi,zyuizi,,国立大学法人東京農工大学大学院農学研究院 准教授,0,,
+関田清司,関田清司,,full_name,sizai,,臨時委員,,2,2019-09-06,2020-02-06
 関真美子,関真美子,,full_name,zyuizi,zyuizi,,日本大学生物資源科学部獣医学科 専任講師,0,,
 須藤加澄,須藤加澄,,full_name,zyuizi,zyuizi,,農林水産省動物医薬品検査所 専門官,0,,
 高松大輔,髙松大輔,,full_name,zyuizi,zyuizi,,国立研究開発法人農業・食品産業技術総合研究機構　動,0,,

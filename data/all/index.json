@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T04:43:26+00:00",
+  "generated_at": "2026-11-27T11:05:38+00:00",
   "storage_policy": {
     "indexes_and_structured_tables": "Git repository (data/<agency>/*.csv, catalog.csv, catalog.jsonl, parsed_texts.json, data/all/index.json)",
     "extracted_texts": "GitHub Releases (<agency>-texts-YYYY-MM / backfill tar.gz shards), linked via text_release_url (mod keeps data/mod/text/ in Git)",
@@ -36,15 +36,15 @@
   "totals": {
     "councils": 1637,
     "meetings": 18673,
-    "documents": 65642,
-    "pdfs_target": 30046,
-    "pdfs_fetched": 17785,
-    "pdfs_archived": 17785,
-    "subpages_fetched": 2586,
-    "subpages_archived": 2586,
-    "texts": 20370,
-    "texts_archived": 19949,
-    "pdf_coverage_pct": 59.2
+    "documents": 77902,
+    "pdfs_target": 42149,
+    "pdfs_fetched": 24465,
+    "pdfs_archived": 24439,
+    "subpages_fetched": 4557,
+    "subpages_archived": 4527,
+    "texts": 28995,
+    "texts_archived": 28544,
+    "pdf_coverage_pct": 58.0
   },
   "agencies": [
     {
@@ -92,18 +92,18 @@
       "counts": {
         "councils": 70,
         "meetings": 408,
-        "documents": 1730,
-        "pdfs_target": 1381,
-        "pdfs_fetched": 142,
-        "pdfs_archived": 142,
-        "pdf_coverage_pct": 10.3,
+        "documents": 2888,
+        "pdfs_target": 2463,
+        "pdfs_fetched": 2462,
+        "pdfs_archived": 2462,
+        "pdf_coverage_pct": 100.0,
         "pages": 258,
-        "subpages_fetched": 30,
-        "subpages_archived": 30,
-        "texts": 172,
-        "texts_archived": 172
+        "subpages_fetched": 264,
+        "subpages_archived": 264,
+        "texts": 2726,
+        "texts_archived": 2726
       },
-      "last_fetched_at": "2026-11-27T04:35:53+00:00",
+      "last_fetched_at": "2026-11-27T05:42:27+00:00",
       "files": {
         "catalog_csv": "data/digital/catalog.csv",
         "catalog_jsonl": "data/digital/catalog.jsonl",
@@ -160,18 +160,18 @@
       "counts": {
         "councils": 284,
         "meetings": 2541,
-        "documents": 8417,
-        "pdfs_target": 5907,
-        "pdfs_fetched": 138,
-        "pdfs_archived": 138,
-        "pdf_coverage_pct": 2.3,
+        "documents": 17660,
+        "pdfs_target": 15114,
+        "pdfs_fetched": 3130,
+        "pdfs_archived": 3104,
+        "pdf_coverage_pct": 20.7,
         "pages": 294,
-        "subpages_fetched": 29,
-        "subpages_archived": 29,
-        "texts": 167,
-        "texts_archived": 167
+        "subpages_fetched": 1565,
+        "subpages_archived": 1565,
+        "texts": 4669,
+        "texts_archived": 4669
       },
-      "last_fetched_at": "2026-11-27T04:33:56+00:00",
+      "last_fetched_at": "2026-11-27T07:49:55+00:00",
       "files": {
         "catalog_csv": "data/cas/catalog.csv",
         "catalog_jsonl": "data/cas/catalog.jsonl",
@@ -228,16 +228,16 @@
       "counts": {
         "councils": 55,
         "meetings": 1155,
-        "documents": 4402,
-        "pdfs_target": 2971,
-        "pdfs_fetched": 133,
-        "pdfs_archived": 133,
-        "pdf_coverage_pct": 4.5,
+        "documents": 6261,
+        "pdfs_target": 4785,
+        "pdfs_fetched": 283,
+        "pdfs_archived": 283,
+        "pdf_coverage_pct": 5.9,
         "pages": 108,
-        "subpages_fetched": 30,
-        "subpages_archived": 30,
-        "texts": 163,
-        "texts_archived": 163
+        "subpages_fetched": 230,
+        "subpages_archived": 200,
+        "texts": 513,
+        "texts_archived": 483
       },
       "last_fetched_at": "2026-11-27T04:27:04+00:00",
       "files": {
@@ -468,16 +468,16 @@
         "meetings": 27,
         "documents": 1428,
         "pdfs_target": 1366,
-        "pdfs_fetched": 143,
-        "pdfs_archived": 143,
-        "pdf_coverage_pct": 10.5,
+        "pdfs_fetched": 1361,
+        "pdfs_archived": 1361,
+        "pdf_coverage_pct": 99.6,
         "pages": 294,
-        "subpages_fetched": 30,
-        "subpages_archived": 30,
-        "texts": 173,
-        "texts_archived": 173
+        "subpages_fetched": 31,
+        "subpages_archived": 31,
+        "texts": 1392,
+        "texts_archived": 1392
       },
-      "last_fetched_at": "2026-11-27T04:34:53+00:00",
+      "last_fetched_at": "2026-11-27T04:41:00+00:00",
       "files": {
         "catalog_csv": "data/mlit/catalog.csv",
         "catalog_jsonl": "data/mlit/catalog.jsonl",

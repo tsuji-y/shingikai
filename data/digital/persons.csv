@@ -1,104 +1,305 @@
 person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meetings,first_date,last_date
-オブザーバー,オブザーバー,,full_name,ai-digital-expert,ai-digital-expert,,内閣府規制改革推進室,0,,
+が地域人材,が地域人材,,full_name,social-concept,social-concept,,や企 業 の手 によって進 められ、地 場 企 業 や人 材 のネットワークが,0,,
+ことが国民,ことが国民,,full_name,social-concept,social-concept,,に認 知 されるべき,0,,
+しての英語力,しての英語力,,full_name,social-concept,social-concept,,の必 要 性 が確 認 されるべき。米 企 業 （グーグル・マイクロソフ,0,,
+する経営層,する経営層,,full_name,social-concept,social-concept,,の意 識 変 革 ・企 業 のビジネスモデルの変 革 と結 びついて、優 秀,0,,
+ている現状,ている現状,,full_name,social-concept,social-concept,,を認 識 し、政 府 調 達 したソフトウエアについては例 外 なくオープン,0,,
+で国家公務,で国家公務,,full_name,social-concept,social-concept,,員 として受 け入 れることを可 能 とする法 改 正 等 を行 うべきであ,0,,
+なデジタル人,なデジタル人,,full_name,social-concept,social-concept,,材 が民 間 、地 方 公 共 団 体 、政 府 を行 き来 しながらキャリアを積,0,,
+における標準,における標準,,full_name,social-concept,social-concept,,化 を進 める新 たな重 要 な取 組 を行 う必 要 がある。このため、十,0,,
+のような仕事,のような仕事,,full_name,social-concept,social-concept,,を、国 際 的 に通 用 する、革 新 的 な取 り組 みを行 う意 欲 のある地,0,,
+び英語教育,び英語教育,,full_name,social-concept,social-concept,,カリキュラムの充 実 や入 学 試 験 への反 映 を行 うべき、さらに教,0,,
+べき一方,べき一方,,full_name,social-concept,social-concept,,で「誰 一 人 取 り残 さない」地 域 ニーズに応 えるシステムづくりに向 け,0,,
+やや向上,やや向上,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,1.6%,0,,
+オブザーバー,オブザーバー,,full_name,ai-digital-expert digital-cybersecurity,ai-digital-expert digital-cybersecurity,,内閣府規制改革推進室 | 望月 明雄 内閣官房 デジタル行財政改革会議事務局長代理,0,,
+クトを念頭,クトを念頭,,full_name,social-concept,social-concept,,に、グローバル水 準 の最 先 端 スキルを志 向 する必 要 性 、前 提 と,0,,
+ズを両立する,ズを両立する,,full_name,digital-transportation-society,digital-transportation-society,,MaaS の課題は避けては通れないものであって、だからこそ技術先行,0,,
+ソース化,ソース化,,full_name,social-concept,social-concept,,し、共 有 化 されるべき。予 算 編 成 にあたってオープンソースソフトウ,0,,
+デジタル人材,デジタル人材,,full_name,social-concept,social-concept,,育 成 に係 る主 要 論 点 （案 ）,0,,
+三上芳伸,三上芳伸,,full_name,enrich-learning-content,enrich-learning-content,,計 13 名,0,,
+三橋一彦,三橋一彦,,full_name,local-governments,local-governments,,デジタル庁審議官,0,,
+三田一博,三田一博,,full_name,digital-cybersecurity,digital-cybersecurity,,総務省 サイバーセキュリティ統括官,0,,
+上原哲太郎,上原 哲太郎,上原,full_name,mynumber-digital-basis-wg security-architecture,mynumber-digital-basis-wg,委員,立命館大学情報理工学部教授 | 立命館大学 情報理工学部 教授,2,2022-02-24,2022-03-15
 上野山勝也,上野山勝也,,full_name,ai-digital-expert digital-system-reform administrative-research-wg,ai-digital-expert digital-system-reform administrative-research-wg,,株式会社 PKSHA Technology 代表取締役 | （株式会社PKSHA Technology  代表取締役）,0,,
-中垣隆雄,中垣隆雄,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,早稲田大学理工学術院創造理工学部 教授,0,,
-中村修,中村修,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,慶應義塾大学環境情報学部 教授,0,,
+中垣隆雄,中垣隆雄,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,早稲田大学理工学術院創造理工学部 教授,0,,
+中村修,中村修,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,慶應義塾大学環境情報学部 教授,0,,
+中村英正,中村英正,,full_name,local-governments,local-governments,,こども家庭庁長官官房長（代理：長官官房総務課長  林  俊宏）,0,,
+中谷昇,中谷昇,,full_name,digital-cybersecurity,digital-cybersecurity,委員,日本電気株式会社 執行役 Chief Security Officer,2,2026-02-03,2026-07-02
+丸山満彦,丸山 満彦,丸山,full_name,security-architecture,,委員,ーキテクト情報セキュリティ大学院大学 学長 ※1OpenID Foundation 理事長株式会社ラック インテグレーション推進事業部 インテグレーションサービス&企画部 部長タニウム合同会社 チーフ・IT・アーキテクト株式会社サイバーディフェンス研究所 専務理事/上級分析官 ※2株式会社FFRIセキュリティ 社長室長PwC コンサルティング合同会社 パートナー | ーキテクト ※1情報セキュリティ大学院大学 学長OpenID Foundation 理事長株式会社ラック インテグレーション推進事業部 インテグレーションサービス&企画部 部長タニウム合同会社 チーフ・IT・アーキテクト株式会社サイバーディフェンス研究所 専務理事/上級分析官株式会社FFRIセキュリティ 社長室長PwC コンサルティング合同会社 パートナー,2,2022-02-24,2022-03-15
 丸山絵美子,丸山絵美子,,full_name,ai_digital ai-digital-expert,ai_digital ai-digital-expert,,慶應義塾大学大学院法務研究科教授 | 慶應義塾大学大学院法務研究科 教授,0,,
+丹羽克彦,丹羽克彦,,full_name,mobility-working-group,mobility-working-group,,国土交通省 道路局長,0,,
 久保田由美恵,久保田由美恵,,full_name,ai_digital ai-digital-expert,ai_digital ai-digital-expert,,株式会社安川電機取締役執行役員技術開発本部ＡＩロボティクス統括部 | 株式会社安川電機取締役執行役員技術開発本部,0,,
+二宮清治,二宮清治,,full_name,local-governments,local-governments,,デジタル審議官,0,,
 井川甲作,井川甲作,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,株式会社 EARTHBRAIN  執行役員 CIO,1,,
+京都,京都,,full_name,social-concept,social-concept,,）及 び民 間 団 体 （Code for JPN）と協 力 関 係 を構 築 して、実 践 しては,0,,
+今川拓郎,今川拓郎,,full_name,mobility-working-group,mobility-working-group,,総務省 総合通信基盤局長,0,,
+仲林清,仲林清,,full_name,education-authentication,education-authentication,,公立大学法人 公立千歳科学技術大学教授,0,,
+伊吹英明,伊吹英明,,full_name,mobility-working-group,mobility-working-group,,経済産業省 製造産業局長,0,,
+伊藤洋,伊藤洋,,full_name,base-registry-advisory-board,base-registry-advisory-board,,一般社団法人新経済連盟 政策部 副部長,0,,
+伊藤穰一,伊藤穰一,,full_name,digital-days,digital-days,,千葉工業大学  変革センター  センター長,0,,
+佐藤元彦,佐藤元彦,,full_name,global-data-governance,global-data-governance,,楽天グループ株式会社  渉外室  シニアマネージャー,0,,
 佐藤孝弘,佐藤孝弘,,full_name,ai_digital,ai_digital,,山形県山形市長,0,,
-八木田樹,八木田樹,,full_name,administrative-research-wg-legal-practice-team,administrative-research-wg-legal-practice-team,,（株）Legalscape 代表取締役・最高経営責任者,0,,
-内閣府,内閣府,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,科学技術・イノベーション推進事務局,0,,
+佐藤恵一,佐藤恵一,,full_name,data-security-wg,data-security-wg,,株式会社日立製作所 公共システム事業部 パブリックセーフティ推進本部,0,,
+佐藤高広,佐藤高廣,,full_name,global-data-governance-advisory,global-data-governance-advisory,委員,株式会社トレードワルツ 代表取締役 執行役員社長 兼 CEO,2,2024-08-27,2026-03-11
+八木田樹,八木田樹,,full_name,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,,（株）Legalscape 代表取締役・最高経営責任者,0,,
+共有すべき,共有すべき,,full_name,administrative-research-wg-technology_based_regulatory_reform,administrative-research-wg-technology_based_regulatory_reform,,Best {Current} Practices,0,,
+具体的な取組,具体的な取組,,full_name,social-concept,social-concept,,として、どのような人 材 がどの程 度 必 要 かについて、デジタル,0,,
+内田奈緒美,内田奈緒美,,full_name,enrich-learning-content,enrich-learning-content,,一般社団法人教科書協会デジタル化専門委員会委員長,0,,
+内閣官房,内閣官房,,full_name,global-data-governance-advisory,global-data-governance-advisory,,デジタル行財政改革会議事務局,0,,
+内閣府,内閣府,,full_name,digital-system-reform-technology-based-regulatory-reform local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,digital-system-reform-technology-based-regulatory-reform local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,,科学技術・イノベーション推進事務局 | 子ども・子育て本部,0,,
+分な体制,分な体制,,full_name,social-concept,social-concept,,と、優 秀 なデジタル人 材 が民 間 とデジタル庁 を行 き来 できる環 境 の,0,,
+前田典彦,前田 典彦,前田,full_name,security-architecture,,委員,,2,2022-02-24,2022-03-15
 加毛明,加毛明,,full_name,ai-digital-expert,ai-digital-expert,,東京大学大学院法学政治学研究科 教授,0,,
-加藤真平,加藤真平,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,東京大学大学院情報理工学系研究科 特任准教授,0,,
+加藤真平,加藤真平,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,東京大学大学院情報理工学系研究科 特任准教授,0,,
+北山昇,北山昇,,full_name,data-security-wg,data-security-wg,,森・濱田松本法律事務所  パートナー弁護士,0,,
+北村朋史,北村朋史,,full_name,global-data-governance,global-data-governance,,東京大学大学院総合文化研究科  准教授,0,,
 北野宏明,北野宏明,,full_name,ai_digital,ai_digital,,株式会社ソニーコンピュータサイエンス研究所代表取締役社長,0,,
 十倉雅和,十倉雅和,,full_name,administrative-research,administrative-research,,日本経済団体連合会 会長,0,,
+千葉功太郎,千葉功太郎,,full_name,digital-days,digital-days,,DRONE FUND 創業者 / 代表パートナー、千葉道場ファンド ジェ,0,,
+半沢淳一,半沢淳一,,full_name,global-data-governance-advisory,global-data-governance-advisory,委員,株式会社三菱 UFJ 銀行 取締役頭取執行役員,2,2024-03-25,2024-08-27
+南博一,南 博一,南,full_name,base-registry-advisory-board,base-registry-advisory-board,,田辺市 保健福祉部 やすらぎ対策課 課長,5,2025-03-31,2026-03-30
 南場智子,南場智子,,full_name,administrative-research,administrative-research,,株式会社ディー・エヌ・エー 代表取締役会長,0,,
+南雲岳彦,南雲岳彦,,full_name,digital-transportation-society,digital-transportation-society,,一般社団法人  スマートシティ・インスティテュート  専務理事,0,,
+吉崎亮介,吉崎亮介,,full_name,digital-talent-development-policy,digital-talent-development-policy,,（株式会社和談 代表取締役社長）,0,,
 吉永京子,吉永京子,,full_name,ai-advisory-board ai_digital ai-digital-expert,ai-advisory-board ai_digital ai-digital-expert,,慶應義塾大学大学院  政策・メディア研究科  特任准教授 | 慶應義塾大学大学院政策・メディア研究科特任准教授 | 慶應義塾大学大学院政策・メディア研究科,0,,
-堀口圭,堀口圭,,full_name,administrative-research-wg-legal-practice-team,administrative-research-wg-legal-practice-team,,FRAIM（株）代表取締役,0,,
-増島雅和,増島雅和,,full_name,data-platform-sub-wg digital-system-reform administrative-research-wg,data-platform-sub-wg digital-system-reform administrative-research-wg,委員,森・濱田松本法律事務所  パートナー弁護士 | （弁護士  森・濱田松本法律事務所） | 弁護士 森・濱田松本法律事務所,1,,
-夏野剛,夏野剛,,full_name,administrative-research,administrative-research,,株式会社 KADOKAWA 代表取締役社長,0,,
+名取委員⻑,名取委員⻑,,full_name,compliance,,委員 / 委員長,,10,2021-08-27,2026-09-28
+名和利男,名和 利男,名和,full_name,security-architecture,,委員,,2,2022-02-24,2022-03-15
+和泉憲明,和泉憲明,,full_name,education-authentication,education-authentication,,国立研究開発法人産業技術総合研究所,0,,
+和田隆志,和田隆志,,full_name,digital-cybersecurity,digital-cybersecurity,委員,金沢大学長,2,2026-02-03,2026-07-02
+国本知里,國本知里,,full_name,digital-talent-development-policy,digital-talent-development-policy,,（シンシアリー株式会社 代表取締役・,0,,
+地域と共同化,地域と共同化,,full_name,social-concept,social-concept,,したりする仕 事 はこれからますます増 えることが想 定 される。そ,0,,
+坂下哲也,坂下哲也,,full_name,data-security-wg,data-security-wg,,一般財団法人日本情報経済社会推進協会 常務理事,0,,
+坂本修一,坂本修一,,full_name,local-governments,local-governments,,文部科学省大臣官房サイバーセキュリティ・政策立案総括審議官,0,,
+域事業者に開,域事業者に開,,full_name,social-concept,social-concept,,放 していくことで、世 界 に通 じる地 域 IT 人 材 の育 成 を目 指 す,0,,
+堀口圭,堀口圭,,full_name,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,,FRAIM（株）代表取締役,0,,
+増島雅和,増島 雅和,増島,full_name,data-platform-sub-wg digital-system-reform administrative-research-wg base-registry-advisory-board global-data-governance,data-platform-sub-wg digital-system-reform administrative-research-wg base-registry-advisory-board global-data-governance,委員,森・濱田松本法律事務所  パートナー弁護士 | （弁護士  森・濱田松本法律事務所） | 弁護士 森・濱田松本法律事務所 | 弁護士  森・濱田松本法律事務所,6,2025-03-31,2026-03-30
+夏野剛,夏野剛,,full_name,administrative-research digital-days,administrative-research digital-days,,株式会社 KADOKAWA 代表取締役社長 | 近畿大学 特別招聘教授 情報学研究所長 / 株式会社,0,,
+大きく低下,大きく低下,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,1.6%,0,,
+大きく向上,大きく向上,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,0.0%,0,,
+大屋雄裕,大屋雄裕,,full_name,digital-talent-development-policy,digital-talent-development-policy,,（慶應義塾大学法学部 教授）,0,,
+大幅に増加,大幅に増加,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,24.2%,0,,
+大幅に減少,大幅に減少,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,0.0%,0,,
 大柴行人,大柴行人,,full_name,ai-advisory-board,ai-advisory-board,,一般社団法人AIガバナンス協会  代表理事,0,,
+大谷和子,大谷和子,,full_name,mynumber-digital-basis-wg,mynumber-digital-basis-wg,,株式会社日本総合研究所執行役員法務部長,0,,
+大野健太,大野健太,,full_name,data-security-wg,data-security-wg,,株式会社 Preferred Networks エンジニアリングマネージャー,0,,
+太田,太田,,full_name,trust-dx-sub-wg,,,,9,2021-12-27,2022-06-29
+太田直樹,太田直樹,,full_name,mynumber-digital-basis-wg digital-days smartphone-mynumbercard,mynumber-digital-basis-wg digital-days smartphone-mynumbercard,座長代理,株式会社 New Stories 代表取締役,6,2022-08-03,2026-11-05
 太田祐一,太田祐一,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,株式会社 DataSign  CEO,2,,
-安念潤司,安念潤司,,full_name,administrative-research-wg,administrative-research-wg,,弁護士 中央大学大学院法務研究科 教授,0,,
-安野貴博,安野貴博,,full_name,administrative-research-wg-legal-practice-team,administrative-research-wg-legal-practice-team,,作家/AI エンジニア,0,,
-宍戸常寿,宍戸常寿,,full_name,data-platform-sub-wg ai_digital ai-digital-expert administrative-research,data-platform-sub-wg ai_digital ai-digital-expert administrative-research,委員,東京大学大学院法学政治学研究科  教授 | 東京大学大学院法学政治学研究科教授 | 東京大学大学院法学政治学研究科 教授,2,,
+安宅和人,安宅和人,,full_name,mynumber-digital-basis-wg,mynumber-digital-basis-wg,,慶應義塾大学環境情報学部教授／ヤフー株式会社 CSO,0,,
+安念潤司,安念 潤司,安念,full_name,administrative-research-wg base-registry-advisory-board,administrative-research-wg base-registry-advisory-board,座長,弁護士 中央大学大学院法務研究科 教授 | 弁護士  中央大学大学院法務研究科  教授,5,2025-03-31,2026-03-30
+安野貴博,安野貴博,,full_name,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,,作家／AI エンジニア | 作家/AI エンジニア,0,,
+宍戸常寿,宍戸常寿,,full_name,data-platform-sub-wg ai_digital ai-digital-expert administrative-research mynumber-digital-basis-wg,data-platform-sub-wg ai_digital ai-digital-expert administrative-research mynumber-digital-basis-wg,委員,東京大学大学院法学政治学研究科  教授 | 東京大学大学院法学政治学研究科教授 | 東京大学大学院法学政治学研究科 教授,2,,
+宮内宏,宮内宏,,full_name,smartphone-mynumbercard,smartphone-mynumbercard,,宮内・水町 IT 法律事務所 弁護士,0,,
+宮崎敦文,宮崎敦文,,full_name,local-governments,local-governments,,厚生労働省総括審議官（代理：大臣官房参事官（情報化担当）  岡部  史哉）,0,,
+宮本一厳,宮本一厳,,full_name,global-data-governance,global-data-governance,,NIPPON EXPRESS 株式会社  IT 戦略部長,0,,
+宮本悦子,宮本悦子,,full_name,digital-cybersecurity,digital-cybersecurity,,厚生労働省 人材開発統括官,0,,
+富士栄尚寛,富士榮尚寛,,full_name,education-authentication smartphone-mynumbercard,education-authentication smartphone-mynumbercard,,OpenID ファウンデーション・ジャパン代表理事 | OpenID ファウンデーション・ジャパン 代表理事,0,,
+富士通,富士通,,full_name,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,,Japan 株式会社,0,,
 小塚荘一郎,小塚荘一郎,,full_name,ai-digital-expert,ai-digital-expert,,学習院大学法学部法学科 教授,0,,
+小尾高史,小尾高史,,full_name,smartphone-mynumbercard,smartphone-mynumbercard,,東京工業大学科学技術創成研究院 准教授,0,,
+小崎誠二,小﨑誠二,,full_name,education-authentication,education-authentication,,奈良教育大学大学院 教育学研究科 教授,0,,
 小川,小川,,full_name,digital-system-reform,digital-system-reform,,恵子【新任】,0,,
-小川恵子,小川恵子,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,EY ストラテジー・アンド・コンサルティング株式会,0,,
+小川尚子,小川 尚子,小川,full_name,base-registry-advisory-board digital-talent-development-policy,base-registry-advisory-board digital-talent-development-policy,,日本経済団体連合会  産業技術本部  本部長 | （一般社団法人日本経済団体連合会 常務理事） | 日本経済団体連合会 産業技術本部 本部長,3,2025-03-31,2025-05-26
+小川康則,小川康則,,full_name,digital-cybersecurity,digital-cybersecurity,,総務省 自治行政局長,0,,
+小川恵子,小川恵子,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,EY ストラテジー・アンド・コンサルティング株式会,0,,
+山下義行,山下義行,,full_name,mobility-roadmap,mobility-roadmap,,一般社団法人日本自動車工業会,0,,
 山口明夫,山口明夫,,full_name,ai_digital,ai_digital,,日本アイ・ビー・エム株式会社代表取締役会長,0,,
+山本圭司,山本圭司,,full_name,mobility-working-group,mobility-working-group,,特定非営利活動法人 ITS Japan 会長,0,,
+山本昭雄,山本昭雄,,full_name,mobility-roadmap,mobility-roadmap,,特定非営利活動法人 ITS Japan 専務理事,0,,
+山本龍彦,山本龍彦,,full_name,global-data-governance global-data-governance-advisory,global-data-governance global-data-governance-advisory,委員,慶應義塾大学大学院法務研究科  教授 | 慶應義塾大学大学院法務研究科 教授,3,2024-03-25,2026-03-11
+岡本浩,岡本浩,,full_name,mobility-working-group mobility-roadmap,mobility-working-group mobility-roadmap,,東京電力パワーグリッド株式会社 代表取締役副社長 | 東京電力パワーグリッド株式会社代表取締役副社長,0,,
+岡本章宏,岡本章宏,,full_name,enrich-learning-content,enrich-learning-content,,教育出版株式会社 DX 事業開発本部本部長,0,,
 岡田幸彦,岡田幸彦,,full_name,ai-advisory-board,ai-advisory-board,,筑波大学  システム情報系／高等研究院人工知能科学センター,0,,
-岡田有策,岡田有策,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,慶應義塾大学理工学部管理工学科 教授,0,,
+岡田有策,岡田有策,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,慶應義塾大学理工学部管理工学科 教授,0,,
 岡田陽介,岡田陽介,,full_name,ai-digital-expert,ai-digital-expert,,株式会社 ABEJA 代表取締役 CEO,0,,
+岩崎尚子,岩﨑尚子,,full_name,digital-cybersecurity,digital-cybersecurity,委員,早稲田大学電子政府・自治体研究所研究院教授,2,2026-02-03,2026-07-02
 岩村,岩村,,full_name,digital-system-reform,digital-system-reform,,有広【ご退任】,0,,
 岩村有広,岩村有広,,full_name,administrative-research-wg,administrative-research-wg,,日本経済団体連合会 常務理事,0,,
-島田太郎,島田太郎,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,株式会社東芝 代表執行役社長 CEO,0,,
-川原圭博,川原圭博,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,東京大学大学院工学系研究科 教授,0,,
-川端由美,川端由美,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,ジャーナリスト,0,,
-平本健二,平本健二,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,独立行政法人情報処理推進機構デジタル基盤センター,0,,
+島田太郎,島田太郎,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,株式会社東芝 代表執行役社長 CEO,0,,
+崎村夏彦,崎村 夏彦,崎村,full_name,security-architecture,,委員,,2,2022-02-24,2022-03-15
+川原圭博,川原圭博,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,東京大学大学院工学系研究科 教授,0,,
+川村隆浩,川村隆浩,,full_name,global-data-governance,global-data-governance,,国立研究開発法人農業・食品産業技術総合研究機構,0,,
+川端由美,川端由美,,full_name,digital-system-reform-technology-based-regulatory-reform mobility-working-group mobility-roadmap digital-transportation-society,digital-system-reform-technology-based-regulatory-reform mobility-working-group mobility-roadmap digital-transportation-society,,ジャーナリスト | 自動車ジャーナリスト・環境ジャーナリスト,0,,
+平山敏弘,平山敏弘,,full_name,digital-talent-development-policy,digital-talent-development-policy,,（多摩大学経営情報学部 教授）,0,,
+平本健二,平本健二,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,独立行政法人情報処理推進機構デジタル基盤センター,0,,
+広木大地,広木大地,,full_name,digital-talent-development-policy,digital-talent-development-policy,,（株式会社レクター 代表取締役・一般社団法人日本 CTO 協会 理事）,0,,
+庄司昌彦,庄司昌彦,,full_name,mynumber-digital-basis-wg,mynumber-digital-basis-wg,,武蔵大学社会学部教授,0,,
+形成,形成,,full_name,social-concept,social-concept,,されていくことも重 要 である。従 来 の重 複 したシステム開 発 は避 けられる,0,,
+後藤,後藤,,full_name,mynumber-digital-basis-wg,mynumber-digital-basis-wg,,省二 株式会社地域情報化研究所代表取締役社長,0,,
+後藤厚宏,後藤 厚宏,後藤,full_name,security-architecture,,委員,,2,2022-02-24,2022-03-15
+志濟聡子,志濟聡子,,full_name,digital-cybersecurity,digital-cybersecurity,委員,合同会社アイシスコンサルティング代表,2,2026-02-03,2026-07-02
+成への積極的,成への積極的,,full_name,social-concept,social-concept,,な投 資 が行 われるよう、リカレント教 育 などへの税 制 等 を通,0,,
+成を通じて取,成を通じて取,,full_name,social-concept,social-concept,,り組 むべき。活 躍 するデジタル人 材 の、囲 込 み人 材 からオー,0,,
+扇裕毅,扇 裕毅,扇,full_name,base-registry-advisory-board,base-registry-advisory-board,,Japan Digital Design株式会社  Data Advisor | Japan Digital Design株式会社 Data Advisor,5,2025-03-31,2026-03-30
+手法,手法,,full_name,social-concept,social-concept,,・考 え方 を導 入 すべき。外 国 人 をセキュリティクリアランスを行 った上,0,,
+技術マップ,技術マップ,,full_name,administrative-research-wg-technology_based_regulatory_reform,administrative-research-wg-technology_based_regulatory_reform,,に 関する 一提案,0,,
+斉藤裕,齊藤裕,,full_name,mobility-working-group mobility-roadmap digital-transportation-society,mobility-working-group mobility-roadmap digital-transportation-society,,独立行政法人  情報処理推進機構（IPA） | 独立行政法人情報処理推進機構 理事長 | 独立行政法人情報処理推進機構理事長,0,,
+斎藤洋平,齋藤洋平,,full_name,mynumber-digital-basis-wg,mynumber-digital-basis-wg,,フューチャー株式会社取締役 CTO,0,,
+方向,方向,,full_name,mobility-subworking-group,mobility-subworking-group,,[deg],0,,
+日高洋祐,日高洋祐,,full_name,mobility-working-group mobility-roadmap,mobility-working-group mobility-roadmap,,株式会社 MaaS Tech Japan 代表取締役 CEO,0,,
+早川智之,早川智之,,full_name,mobility-working-group,mobility-working-group,,警察庁 交通局長,0,,
 望月健太,望月健太,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,法律事務所 LAB-01 ニューヨーク州弁護士,2,,
-村井純,村井純,,full_name,administrative-research,administrative-research,,慶應義塾大学 教授,0,,
+期間,期間,,full_name,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,,10 月から 12 月まで,0,,
+木村公彦,木村公彦,,full_name,digital-cybersecurity,digital-cybersecurity,,内閣官房 国家サイバー統括室 統括官,0,,
+木村滋,木村 滋,木村,full_name,security-architecture,,委員,シスコシステムズ合同会社 セキュリティ事業担当 エバンジェリスト/ア,2,2022-02-24,2022-03-15
+材の活躍等,材の活躍等,,full_name,social-concept,social-concept,,）を関 係 者 が広 く認 識 し、対 応 できる人 材 像 についてレベル・,0,,
+村上敬亮,村上敬亮,,full_name,mobility-working-group,mobility-working-group,,デジタル庁 統括官（国民向けサービスグループ担当）,0,,
+村上明子,村上明子,,full_name,digital-cybersecurity,digital-cybersecurity,委員,ＳＯＭＰＯホールディングス株式会社執行役員常務グループ,2,2026-02-03,2026-07-02
+村井純,村井純,,full_name,administrative-research digital-days,administrative-research digital-days,,慶應義塾大学 教授 | 慶應義塾大学教授,0,,
 村岡嗣政,村岡嗣政,,full_name,ai_digital,ai_digital,,山口県知事,0,,
-松尾豊,松尾豊,,full_name,ai_digital digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,ai_digital digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,東京大学大学院工学系研究科教授 | 東京大学大学院工学系研究科 教授,0,,
-染谷隆夫,染谷隆夫,,full_name,administrative-research-wg-technology_based_regulatory_reform,administrative-research-wg-technology_based_regulatory_reform,,東京大学大学院工学系研究科 教授,0,,
+村松洋佑,村松洋佑,,full_name,mobility-working-group mobility-roadmap,mobility-working-group mobility-roadmap,,一般社団法人ロボットフレンドリー施設推進機構 理事 | 一般社団法人ロボットフレンドリー施設推進機構理事,0,,
+村瀬恭通,村瀬恭通,,full_name,digital-transportation-society,digital-transportation-society,,パナソニック株式会社  モビリティソリューションズ担当  参与,0,,
+東原敏昭,東原敏昭,,full_name,digital-cybersecurity,digital-cybersecurity,委員,株式会社日立製作所取締役会長代表執行役,2,2026-02-03,2026-07-02
+松尾豊,松尾豊,,full_name,ai_digital digital-system-reform-technology-based-regulatory-reform,ai_digital digital-system-reform-technology-based-regulatory-reform,,東京大学大学院工学系研究科教授 | 東京大学大学院工学系研究科 教授,0,,
+松本,松本,,full_name,global-data-governance-advisory,global-data-governance-advisory,,尚 デジタル大臣,0,,
+板倉陽一郎,板倉陽一郎,,full_name,education-authentication,education-authentication,,ひかり総合法律事務所,0,,
+板谷越英美,板谷越 英美,板谷越,full_name,base-registry-advisory-board,base-registry-advisory-board,,株式会社DATALE  代表取締役 | 株式会社DATALE 代表取締役,5,2025-03-31,2026-03-30
+柳沢尚幸,柳澤尚幸,,full_name,base-registry-advisory-board,base-registry-advisory-board,,日本土地家屋調査士会連合会 専務理事,0,,
 柴山吉報,柴山吉報,,full_name,ai-advisory-board,ai-advisory-board,,独立行政法人情報処理推進機構  デジタル基盤センター  エキスパ,0,,
-根本勝則,根本勝則,,full_name,administrative-research-wg-technology_based_regulatory_reform,administrative-research-wg-technology_based_regulatory_reform,,一般社団法人日本経済団体連合会 参与,0,,
-永井歩,永井歩,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,アスタミューゼ株式会社 代表取締役社長,0,,
-江崎浩,江崎浩,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,座長,東京大学大学院情報理工学系研究科 教授 | デジタル庁 シニアエキスパート,0,,
-沢田登志子,沢田登志子,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,一般社団法人 EC ネットワーク 理事,2,,
+森信茂樹,森信茂樹,,full_name,mynumber-digital-basis-wg,mynumber-digital-basis-wg,,東京財団政策研究所研究主幹,0,,
+森山光一,森山光一,,full_name,smartphone-mynumbercard,smartphone-mynumbercard,,FIDO アライアンス 執行評議会メンバー・ボードメンバー・FIDO Japan WG 座長,0,,
+森真弘,森真弘,,full_name,digital-cybersecurity,digital-cybersecurity,,厚生労働省 大臣官房医薬産業振興・医療情報審議官,0,,
+楢原盛史,楢原 盛史,楢原,full_name,security-architecture,,委員,,2,2022-02-24,2022-03-15
+横山直人,横山直人,,full_name,digital-cybersecurity,digital-cybersecurity,委員,株式会社フライウィール共同創業者代表取締役 CEO,2,2026-02-03,2026-07-02
+毛籠勝弘,毛籠勝弘,,full_name,global-data-governance-advisory,global-data-governance-advisory,委員,マツダ株式会社 代表取締役社長兼 CEO,1,2026-03-11,2026-03-11
+永井歩,永井歩,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,アスタミューゼ株式会社 代表取締役社長,0,,
+江崎浩,江崎浩,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,座長,東京大学大学院情報理工学系研究科 教授 | １．デジタル化に関するリスク,0,,
+池田貴昭,池田貴昭,,full_name,education-authentication,education-authentication,,戸田市教育委員会教育政策室主幹,0,,
+沢田登志子,沢田登志子,,full_name,data-platform-sub-wg global-data-governance,data-platform-sub-wg global-data-governance,委員,一般社団法人 EC ネットワーク 理事,2,,
+河野省二,河野 省二,河野,full_name,security-architecture,,委員,日本マイクロソフト株式会社 技術統括室 チーフセキュリティオフィサー,2,2022-02-24,2022-03-15
+法や民間人材,法や民間人材,,full_name,social-concept,social-concept,,が国 家 公 務 員 となる場 合 の各 種 条 件 などについて新 たな,0,,
+波多野邦道,波多野邦道,,full_name,mobility-working-group mobility-roadmap,mobility-working-group mobility-roadmap,,一般社団法人日本自動車工業会,0,,
 津田麻紀子,津田麻紀子,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,西村あさひ法律事務所 アソシエイト弁護士,1,,
+深沢祐二,深澤祐二,,full_name,global-data-governance-advisory,global-data-governance-advisory,委員,東日本旅客鉄道株式会社 取締役会長,3,2024-03-25,2026-03-11
+渡辺昇治,渡邊昇治,,full_name,mobility-working-group,mobility-working-group,,内閣府 科学技術・イノベーション推進事務局 統括官,0,,
+渥美裕介,渥美裕介,,full_name,global-data-governance,global-data-governance,,株式会社日立製作所 デジタルシステム＆サービス統括本部,0,,
 湯淺墾道,湯淺墾道,,full_name,ai-advisory-board,ai-advisory-board,,明治大学専門職大学院  教授,0,,
+滝俊雄,瀧俊雄,,full_name,smartphone-mynumbercard,smartphone-mynumbercard,,株式会社マネーフォワード 執行役員 CoPA・Fintech 研究所長,0,,
+片岡康子,片岡 康子,片岡,full_name,base-registry-advisory-board,,,一般社団法人新経済連盟 政策部長(小木曽 稔一般社団法人新経済連盟 渉外アドバイザー)※代理出席,3,2025-03-31,2025-05-26
 生田目雅史,生田目雅史,,full_name,ai-advisory-board,ai-advisory-board,,（一社）日本経済団体連合会  デジタルエコノミー推進委員会企画,0,,
-生貝直人,生貝直人,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,一橋大学大学院法学研究科  准教授,2,,
+生貝直人,生貝直人,,full_name,data-platform-sub-wg global-data-governance,data-platform-sub-wg global-data-governance,委員,一橋大学大学院法学研究科  准教授 | 一橋大学大学院法学研究科  教授,2,,
+田中聖也,田中聖也,,full_name,local-governments,local-governments,,内閣官房内閣審議官（内閣官房副長官補付）,0,,
 田丸健三郎,田丸健三郎,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,日本マイクロソフト株式会社,2,,
-登大遊,登大遊,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,独立行政法人情報処理推進機構サイバー技術研究室 室長,0,,
+田原祐介,田原 祐介,田原,full_name,security-architecture,,委員,,2,2022-02-24,2022-03-15
+甲田恵子,甲田恵子,,full_name,mobility-working-group mobility-roadmap digital-transportation-society,mobility-working-group mobility-roadmap digital-transportation-society,,株式会社  AsMama  代表取締役社長 | 株式会社 AsMama 代表取締役社長,0,,
+登大遊,登大遊,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,独立行政法人情報処理推進機構サイバー技術研究室 室長,0,,
+白坂成功,白坂成功,,full_name,digital-transportation-society,digital-transportation-society,,慶應義塾大学大学院  システムデザイン・マネジメント研究科  教授,0,,
+的改善,的改善,,full_name,social-concept,social-concept,,を行 うべき。リモートワークによるバーチャル移 民 や、国 内 外 多 拠,0,,
+目的,目的,,full_name,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,,標準仕様書（令和 4 年 8 月 31 日  データ要件・連携要件、共通機,0,,
 真野浩,眞野浩,,full_name,data-platform-sub-wg,data-platform-sub-wg,委員,"EverySense, Inc CEO",2,,
-稲谷龍彦,稲谷龍彦,,full_name,ai-digital-expert digital-system-reform administrative-research-wg,ai-digital-expert digital-system-reform administrative-research-wg,,京都大学大学院法学研究科 教授 | （京都大学大学院法学研究科教授）,0,,
-米田憲市,米田憲市,,full_name,administrative-research-wg-legal-practice-team,administrative-research-wg-legal-practice-team,,鹿児島大学司法政策教育研究センター 教授,0,,
+石丸修平,石丸修平,,full_name,digital-transportation-society,digital-transportation-society,,福岡地域戦略推進協議会  事務局長,0,,
+石井夏生利,石井夏生利,,full_name,education-authentication,education-authentication,,中央大学国際情報学部教授,0,,
+石原大,石原大,,full_name,mobility-working-group,mobility-working-group,,国土交通省  公共交通政策審議官,0,,
+石原直子,石原直子,,full_name,digital-cybersecurity,digital-cybersecurity,委員,株式会社エクサウィザーズ はたらく AI＆DX 研究所 所長,2,2026-02-03,2026-07-02
+石坂芳実,石坂芳実,,full_name,education-authentication,education-authentication,,一般社団法人 ICT CONNECT 21 フェロー,0,,
+石田東生,石田東生,,full_name,mobility-working-group mobility-roadmap digital-transportation-society,mobility-working-group mobility-roadmap digital-transportation-society,,筑波大学  名誉教授・特命教授  （座長） | 筑波大学 名誉教授・学長特別補佐 （座長） | 筑波大学名誉教授・学長特別補佐,0,,
+神田雅透,神田雅透,,full_name,smartphone-mynumbercard data-security-wg,smartphone-mynumbercard data-security-wg,,独立行政法人情報処理推進機構 セキュリティセンター 技術評価部 部長 | 独立行政法人 情報処理推進機構 セキュリティセンター 技術評価部,0,,
+福永哲郎,福永哲郎,,full_name,digital-cybersecurity,digital-cybersecurity,,内閣府 科学技術・イノベーション推進事務局 統括官,0,,
+福田毅,福田毅,,full_name,local-governments,local-governments,,内閣府大臣官房審議官（経済社会システム担当）,0,,
+稲谷龍彦,稲谷 龍彦,稲谷,full_name,ai-digital-expert digital-system-reform administrative-research-wg base-registry-advisory-board global-data-governance data-security-wg global-data-governance-advisory,ai-digital-expert digital-system-reform administrative-research-wg base-registry-advisory-board global-data-governance data-security-wg global-data-governance-advisory,委員,京都大学大学院法学研究科 教授 | （京都大学大学院法学研究科教授） | 京都大学  大学院法学研究科  教授 | 京都大学大学院法学研究科  教授 | 京都大学 大学院法学研究科 教授,8,2024-03-25,2026-03-30
+竹之内隆夫,竹之内隆夫,,full_name,data-security-wg,data-security-wg,,株式会社 Acompany 執行役員 VP of Public Affairs,0,,
+竹内努,竹内努,,full_name,local-governments,local-governments,,法務省民事局長,0,,
+笹原宏之,笹原 宏之,笹原,full_name,base-registry-advisory-board,,専門委員,早稲田大学 社会科学総合学術院 教授,1,2025-04-25,2025-04-25
+米田憲市,米田憲市,,full_name,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,,鹿児島大学司法政策教育研究センター 教授,0,,
+米良はるか,米良はるか,,full_name,digital-days,digital-days,,READYFOR 株式会社 代表取締役 CEO,0,,
+細川光太,細川光太,,full_name,data-security-wg,data-security-wg,,住友電気工業株式会社 情報システム部 セキュリティ技術グループ,0,,
+組織拡大や待,組織拡大や待,,full_name,social-concept,social-concept,,遇 などに抑 制 的 な条 件 を課 す、従 来 の行 政 組 織 の管 理 手,0,,
 綱川明美,綱川明美,,full_name,administrative-research,administrative-research,,株式会社ビースポーク 代表取締役社長,0,,
+育機関,育機関,,full_name,social-concept,social-concept,,と連 携 した企 業 における国 際 連 携 能 力 高 いデジタル人 材 採 用 ・育,0,,
+若宮正子,若宮正子,,full_name,digital-days,digital-days,,特定非営利活動法人ブロードバンドスクール協会 理事,0,,
 若生,若生,,full_name,digital-system-reform,digital-system-reform,,幸也【新任】,0,,
-荻野司,荻野司,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,一般社団法人重要生活機器連携セキュリティ協議会,0,,
-菅原晶子,菅原晶子,,full_name,administrative-research-wg,administrative-research-wg,,経済同友会常務理事・政策統括,0,,
-落合孝文,落合孝文,,full_name,ai-digital-expert digital-system-reform administrative-research-wg,ai-digital-expert digital-system-reform administrative-research-wg,,渥美坂井法律事務所・外国法共同事業 | （弁護士  渥美坂井法律事務所・外国法共同事業） | 弁護士 渥美坂井法律事務所・外国法共同事業,0,,
-藤原総一郎,藤原総一郎,,full_name,administrative-research-wg-legal-practice-team,administrative-research-wg-legal-practice-team,,弁護士 長島・大野・常松法律事務所,0,,
-角田篤泰,角田篤泰,,full_name,administrative-research-wg-legal-practice-team,administrative-research-wg-legal-practice-team,,中央大学国際情報学部国際情報学科 教授,0,,
-豊田啓介,豊田啓介,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,東京大学生産技術研究所 特任教授,0,,
-越塚登,越塚登,,full_name,data-platform-sub-wg,data-platform-sub-wg,,東京大学大学院情報学環  教授,0,,
-遠藤典子,遠藤典子,,full_name,administrative-research-wg-technology_based_regulatory_reform,administrative-research-wg-technology_based_regulatory_reform,,慶應義塾大学グローバルリサーチインスティテュー,0,,
+若目田光生,若目田光生,,full_name,global-data-governance,global-data-governance,,一般社団法人日本経済団体連合会 デジタルエコノミー推進委員会 企画部会,0,,
+荻野司,荻野司,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,一般社団法人重要生活機器連携セキュリティ協議会,0,,
+菅原晶子,菅原晶子,,full_name,administrative-research-wg mynumber-digital-basis-wg,administrative-research-wg mynumber-digital-basis-wg,,経済同友会常務理事・政策統括,0,,
+落合孝文,落合 孝文,落合,full_name,ai-digital-expert digital-system-reform administrative-research-wg base-registry-advisory-board,ai-digital-expert digital-system-reform administrative-research-wg base-registry-advisory-board,,渥美坂井法律事務所・外国法共同事業 | （弁護士  渥美坂井法律事務所・外国法共同事業） | 弁護士 渥美坂井法律事務所・外国法共同事業 | 弁護士  渥美坂井法律事務所・外国法共同事業,5,2025-03-31,2026-03-30
+落合陽一,落合陽一,,full_name,digital-days,digital-days,,メディアアーティスト,0,,
+葛巻清吾,葛巻清吾,,full_name,digital-transportation-society,digital-transportation-society,,戦略的イノベーション創造プログラム（SIP）,0,,
+藤井康次郎,藤井康次郎,,full_name,global-data-governance,global-data-governance,,西村あさひ法律事務所・外国法共同事業 弁護士,0,,
+藤原総一郎,藤原総一郎,,full_name,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,,弁護士 長島・大野・常松法律事務所,0,,
+藤吉尚之,藤吉尚之,,full_name,digital-cybersecurity,digital-cybersecurity,,文部科学省 大臣官房サイバーセキュリティ・政策立案総括審議官,0,,
+藤本真,藤本真,,full_name,digital-talent-development-policy,digital-talent-development-policy,,（独立行政法人労働政策研究・研修機構 副統括研究員）,0,,
+藤村裕一,藤村裕一,,full_name,education-authentication,education-authentication,座長,鳴門教育大学特命教授・教員養成 DX 推進機構長,0,,
+藤田清太郎,藤田清太郎,,full_name,digital-cybersecurity,digital-cybersecurity,,総務省 大臣官房総括審議官（情報通信担当）,0,,
+西尾,西尾,,full_name,digital-talent-development-policy,digital-talent-development-policy,座長,章治郎（公益財団法人国際高等研究所 所長）,0,,
+西村博之,西村博之,,full_name,digital-days,digital-days,,東京プラス株式会社 代表取締役,0,,
+角度,角度,,full_name,mobility-subworking-group,mobility-subworking-group,,[deg],0,,
+角田篤泰,角田篤泰,,full_name,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,digital-system-reform-wg-legal-practice administrative-research-wg-legal-practice-team,,中央大学国際情報学部国際情報学科 教授,0,,
+設問例,設問例,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,・標準化前後の変化,0,,
+設問構成,設問構成,,full_name,local-governments-standardization-issues,local-governments-standardization-issues,,・総論25問 | ・全44問,0,,
+豊田啓介,豊田啓介,,full_name,digital-system-reform-technology-based-regulatory-reform,digital-system-reform-technology-based-regulatory-reform,,東京大学生産技術研究所 特任教授,0,,
+越塚登,越塚登,,full_name,data-platform-sub-wg mobility-working-group mobility-roadmap,data-platform-sub-wg mobility-working-group mobility-roadmap,,東京大学大学院情報学環  教授 | 東京大学大学院 情報学環 教授 | 東京大学大学院情報学環教授（ご欠席）,0,,
+辻庸介,辻庸介,,full_name,global-data-governance-advisory,global-data-governance-advisory,委員,株式会社マネーフォワード 代表取締役社長 グループ CEO,3,2024-03-25,2026-03-11
+逢阪貴士,逢阪貴士,,full_name,digital-cybersecurity,digital-cybersecurity,,警察庁 サイバー警察局長,0,,
+遠藤信博,遠藤信博,,full_name,global-data-governance-advisory,global-data-governance-advisory,委員,日本電気株式会社 特別顧問,3,2024-03-25,2026-03-11
+酒井啓亘,酒井啓亘,,full_name,data-security-wg,data-security-wg,,早稲田大学法学学術院 教授,0,,
+野における移,野における移,,full_name,social-concept,social-concept,,民 や留 学 生 の受 け入 れや、定 着 （生 活 環 境 ）策 などの抜 本,0,,
+野原諭,野原諭,,full_name,mobility-working-group,mobility-working-group,,経済産業省  商務情報政策局長,0,,
+野村靖仁,野村靖仁,,full_name,smartphone-mynumbercard,smartphone-mynumbercard,,NPO 法人地域情報化推進機構 副理事長,0,,
 金丸恭文,金丸恭文,,full_name,administrative-research,administrative-research,,フューチャー株式会社 代表取締役会長兼社長,0,,
-鈴木真二,鈴木真二,,full_name,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,digital-system-reform-technology-based-regulatory-reform administrative-research-wg-technology_based_regulatory_reform,,公益財団法人福島イノベーション・コースト構想推,0,,
-門林雄基,門林雄基,,full_name,ai-advisory-board,ai-advisory-board,,奈良先端科学技術大学院大学  教授,0,,
+鈴木俊宏,鈴木俊宏,,full_name,global-data-governance,global-data-governance,,日本オラクル株式会社  事業戦略統括,0,,
+鈴木真二,鈴木真二,,full_name,digital-system-reform-technology-based-regulatory-reform mobility-working-group mobility-roadmap,digital-system-reform-technology-based-regulatory-reform mobility-working-group mobility-roadmap,,公益財団法人福島イノベーション・コースト構想推 | 一般社団法人総合研究奨励会 日本無人機運行管理コンソーシアム 代表 | 一般社団法人総合研究奨励会  日本無人機運行管理コンソーシアム代表,0,,
+門林雄基,門林雄基,,full_name,ai-advisory-board data-security-wg,ai-advisory-board data-security-wg,,奈良先端科学技術大学院大学  教授 | 奈良先端科学技術大学院大学 教授（デジタル庁）,0,,
+隂山克典,隂山 克典,隂山,full_name,base-registry-advisory-board,base-registry-advisory-board,,日本司法書士会連合会  常任理事（総務） | 日本司法書士会連合会 常任理事(総務),5,2025-03-31,2026-03-30
+須田義大,須田義大,,full_name,mobility-working-group mobility-roadmap digital-transportation-society,mobility-working-group mobility-roadmap digital-transportation-society,,東京大学  生産技術研究所  教授 | 東京大学生産技術研究所教授  モビリティ・イノベーション連携研究機構長,0,,
+頻度,頻度,,full_name,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,local-governments-common-features local-governments-common-features-datalinkage-wt local-governments-common-features-identification-management-wt,,  親会,0,,
+高井潤,高井潤,,full_name,enrich-learning-content,enrich-learning-content,,【委員】◎座長、○座長代理                                   （50 音順）,0,,
+高倉健,高倉 健,高倉,full_name,base-registry-advisory-board,,,日本土地家屋調査士会連合会 専務理事,3,2025-03-31,2025-05-26
 高島宗一郎,髙島宗一郎,,full_name,administrative-research,administrative-research,,福岡市長,0,,
+高橋克巳,高橋克巳,,full_name,data-security-wg,data-security-wg,,日本電信電話株式会社  NTT 社会情報研究所  主席研究員,0,,
+鬼頭武嗣,鬼頭武嗣,,full_name,global-data-governance,global-data-governance,,Elevandi Japan 株式会社  代表取締役,0,,
 鳥沢健太郎,鳥澤健太郎,,full_name,ai-advisory-board,ai-advisory-board,,国立研究開発法人情報通信研究機構  フェロー,0,,
+鶴田浩久,鶴田浩久,,full_name,mobility-working-group,mobility-working-group,,国土交通省  物流・自動車局長,0,,
+黒崎将広,黒﨑将広,,full_name,global-data-governance,global-data-governance,,防衛大学校総合安全保障研究科  教授,0,,
 ai-advisory-board:構成員門林,構成員門林,構成員門林,surname_only,ai-advisory-board,,座長,,1,,
-digital-cybersecurity:中室,中室,中室,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:中谷,中谷,中谷,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:井口,井口,井口,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:和田,和田,和田,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:岩崎,岩﨑,岩﨑,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:志濟,志濟,志濟,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:日下部,日下部,日下部,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:村上,村上,村上,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:東原,東原,東原,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:横山,横山,横山,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-cybersecurity:石原,石原,石原,surname_only,digital-cybersecurity,,委員,,1,2026-07-02,2026-07-02
-digital-days:伊藤,伊藤,伊藤,surname_only,digital-days,,委員,,1,,
-digital-days:千葉,千葉,千葉,surname_only,digital-days,,委員,,1,,
-digital-days:夏野,夏野,夏野,surname_only,digital-days,,委員,,1,,
-digital-days:村井,村井,村井,surname_only,digital-days,,座長,,1,,
-digital-days:米良,米良,米良,surname_only,digital-days,,委員,,1,,
-digital-days:落合,落合,落合,surname_only,digital-days,,委員,,1,,
-digital-days:西村,西村,西村,surname_only,digital-days,,委員,,1,,
+compliance:国領,國領,國領,surname_only,compliance,,委員,,12,2021-08-27,2026-09-28
+compliance:梶川,梶川,梶川,surname_only,compliance,,委員,,12,2021-08-27,2026-09-28
+compliance:芝,芝,芝,surname_only,compliance,,委員,,12,2021-08-27,2026-09-28
+compliance:藤森,藤森,藤森,surname_only,compliance,,委員,,10,2021-08-27,2026-09-28
+compliance:遠藤,遠藤,遠藤,surname_only,compliance,,委員,,12,2021-08-27,2026-09-28
+digital-cybersecurity:中室,中室,中室,surname_only,digital-cybersecurity,,委員,,2,2026-02-03,2026-07-02
+digital-cybersecurity:井口,井口,井口,surname_only,digital-cybersecurity,,委員,,2,2026-02-03,2026-07-02
+digital-cybersecurity:日下部,日下部,日下部,surname_only,digital-cybersecurity,,委員,,2,2026-02-03,2026-07-02
 global-data-governance-advisory:三部,三部,三部,surname_only,global-data-governance-advisory,,委員,,1,2024-08-27,2024-08-27
-global-data-governance-advisory:佐藤,佐藤,佐藤,surname_only,global-data-governance-advisory,,委員,,2,2024-08-27,2026-03-11
-global-data-governance-advisory:半沢,半沢,半沢,surname_only,global-data-governance-advisory,,委員,,2,2024-03-25,2024-08-27
 global-data-governance-advisory:南部,南部,南部,surname_only,global-data-governance-advisory,,委員,,3,2024-03-25,2026-03-11
 global-data-governance-advisory:大橋,大橋,大橋,surname_only,global-data-governance-advisory,,委員,,2,2024-03-25,2024-08-27
 global-data-governance-advisory:小島,小島,小島,surname_only,global-data-governance-advisory,,委員,,1,2024-03-25,2024-03-25
-global-data-governance-advisory:山本,山本,山本,surname_only,global-data-governance-advisory,,委員,,3,2024-03-25,2026-03-11
-global-data-governance-advisory:毛籠,毛籠,毛籠,surname_only,global-data-governance-advisory,,委員,,1,2026-03-11,2026-03-11
-global-data-governance-advisory:深沢,深澤,深澤,surname_only,global-data-governance-advisory,,委員,,3,2024-03-25,2026-03-11
-global-data-governance-advisory:稲谷,稲谷,稲谷,surname_only,global-data-governance-advisory,,委員,,3,2024-03-25,2026-03-11
-global-data-governance-advisory:辻,辻,辻,surname_only,global-data-governance-advisory,,委員,,3,2024-03-25,2026-03-11
-global-data-governance-advisory:遠藤,遠藤,遠藤,surname_only,global-data-governance-advisory,,委員,,3,2024-03-25,2026-03-11
-local-governments-character-specification:※敬称略,※敬称略,※敬称略,surname_only,local-governments-character-specification,,座長,,7,,
+local-governments-character-specification-revise-experts-meeting:※敬称略,※敬称略,※敬称略,surname_only,local-governments-character-specification-revise-experts-meeting,,座長,,3,2025-01-07,2026-03-23
+local-governments-character-specification:※敬称略,※敬称略,※敬称略,surname_only,local-governments-character-specification,,座長,,3,,
+procurement-reform:城山,城山,城山,surname_only,procurement-reform,,委員,,1,2026-10-21,2026-10-21
+procurement-reform:川沢,川澤,川澤,surname_only,procurement-reform,,委員,,1,2026-10-21,2026-10-21
+procurement-reform:庄司,庄司,庄司,surname_only,procurement-reform,,座長,,1,2026-10-21,2026-10-21
+procurement-reform:石川,石川,石川,surname_only,procurement-reform,,委員,,1,2026-10-21,2026-10-21
+smartphone-mynumbercard:有識者小尾,有識者小尾,有識者小尾,surname_only,smartphone-mynumbercard,,座長,,2,2025-11-07,2026-11-05
+smartphone-mynumbercard:有識者手塚,有識者手塚,有識者手塚,surname_only,smartphone-mynumbercard,,座長,,6,2022-08-03,2025-03-26
+trust-dx-sub-wg:太田大州デジタルトラスト協議会渉外,太田大州デジタルトラスト協議会渉外,太田大州デジタルトラスト協議会渉外,surname_only,trust-dx-sub-wg,,部会長,,11,2021-11-18,2022-06-29
+trust-dx-sub-wg:柴田孝一セイコーソリューションズ株式会社DXサービス企画統括部担当部長兼トラストサービス推進フォーラム企画運営部会,柴田孝一セイコーソリューションズ株式会社DXサービス企画統括部担当部長兼トラストサービス推進フォーラム企画運営部会,柴田孝一セイコーソリューションズ株式会社DXサービス企画統括部担当部長兼トラストサービス推進フォーラム企画運営部会,surname_only,trust-dx-sub-wg,,部会長,,3,2021-11-18,2021-12-27
+vc-diw-governance-wg-tec:中村健一,中村健一,中村健一,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:中村素典,中村素典,中村素典,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:中村龍矢,中村龍矢,中村龍矢,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:佐古和恵,佐古和恵,佐古和恵,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:南井享,南井享,南井享,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:富士栄尚寛,富士榮尚寛,富士榮尚寛,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:小岩井航介,小岩井航介,小岩井航介,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:崎村夏彦,﨑村夏彦,﨑村夏彦,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:新崎卓,新崎卓,新崎卓,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:板倉景子,板倉景子,板倉景子,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance-wg-tec:栗山盛行,栗山盛行,栗山盛行,surname_only,vc-diw-governance-wg-tec,,委員,,2,2025-12-03,2026-01-08
+vc-diw-governance:中村素典,中村素典,中村素典,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:国領二郎,國領二郎,國領二郎,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:富士栄尚寛,富士榮尚寛,富士榮尚寛,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:崎村夏彦,﨑村夏彦,﨑村夏彦,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:松尾真一郎,松尾真一郎,松尾真一郎,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:松本泰,松本泰,松本泰,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:板倉陽一郎,板倉陽一郎,板倉陽一郎,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:横田明美,横田明美,横田明美,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:滝俊雄,瀧俊雄,瀧俊雄,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:笠井玲子,笠井玲子,笠井玲子,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+vc-diw-governance:若江雅子,若江雅子,若江雅子,surname_only,vc-diw-governance,,委員,,2,2025-10-23,2026-02-26
+verifiable-credential-governance:中村素典,中村素典,中村素典,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:中村龍矢,中村龍矢,中村龍矢,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:佐古和恵,佐古和恵,佐古和恵,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:富士栄尚寛,富士榮尚寛,富士榮尚寛,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:板倉景子,板倉景子,板倉景子,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:板倉陽一郎,板倉陽一郎,板倉陽一郎,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:滝俊雄,瀧俊雄,瀧俊雄,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
+verifiable-credential-governance:笠井玲子,笠井玲子,笠井玲子,surname_only,verifiable-credential-governance,,委員,,1,2025-04-21,2025-04-21
