@@ -219,7 +219,10 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
     pending_pdfs = []
     if not skip_pdf and documents_csv.exists():
         pending_pdfs = fetch_files.select_targets(
-            fetch_files.targets(documents_csv, council=council, hosts=allowed_pdf_hosts, doc_types=pdf_types),
+            fetch_files.targets(
+                documents_csv, council=council, hosts=allowed_pdf_hosts, doc_types=pdf_types,
+                excluded_urls=set(ag.excluded_urls),
+            ),
             fetch_files.read_manifest(files_manifest),
             files_dir=raw_files_dir,
         )
@@ -281,6 +284,7 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
             pdf_res = fetch_files.fetch_new(
                 documents_csv, files_manifest, raw_files_dir,
                 limit=max_pdfs, council=council, hosts=allowed_pdf_hosts, doc_types=pdf_types,
+                excluded_urls=set(ag.excluded_urls),
                 dry_run=False, interval=interval, fetcher=pdf_fetcher,
             )
             outcome.saved_pdfs = list(pdf_res.saved)

@@ -45,6 +45,7 @@ class Stage:
     name: str
     description: str
     args: tuple[str, ...]
+    extra_args: tuple[tuple[str, ...], ...] = ()
 
 
 STAGES: tuple[Stage, ...] = (
@@ -60,13 +61,19 @@ STAGES: tuple[Stage, ...] = (
     ),
     Stage(
         name="wave3_2024_2026",
-        description="Wave 3-1: 環境省・厚労省（2024〜2026年）",
+        description="Wave 3-1: 環境省・厚労省（2024〜2026年）＋内閣官房・農水省 並行回収(前段)",
         args=("--wave", "wave3", "--parallel", "2", "--since-year", "2024", "--until-year", "2026", "--chunk-html", "100", "--chunk-pdf", "100"),
+        extra_args=(
+            ("--agency", "cas,maff", "--parallel", "2", "--chunk-html", "100", "--chunk-pdf", "100", "--max-chunks", "20", "--skip-cross"),
+        ),
     ),
     Stage(
         name="wave3_2022_2023",
-        description="Wave 3-2: 環境省・厚労省（2022〜2023年）",
+        description="Wave 3-2: 環境省・厚労省（2022〜2023年）＋内閣官房・農水省 完走",
         args=("--wave", "wave3", "--parallel", "2", "--since-year", "2022", "--until-year", "2023", "--chunk-html", "100", "--chunk-pdf", "100"),
+        extra_args=(
+            ("--agency", "cas,maff", "--parallel", "2", "--chunk-html", "100", "--chunk-pdf", "100", "--skip-cross"),
+        ),
     ),
     Stage(
         name="wave3_2020_2021",
@@ -379,9 +386,24 @@ def main() -> int:
         if args.dry_run:
             cmd.append("--dry-run")
 
+        extra_procs: list[subprocess.Popen] = []
+        for ex_args in stage.extra_args:
+            filtered_ex = list(ex_args)
+            if skip_agencies and "--agency" in filtered_ex:
+                ai = filtered_ex.index("--agency")
+                rem = [a for a in filtered_ex[ai + 1].split(",") if a and a not in skip_agencies]
+                if not rem:
+                    continue
+                filtered_ex[ai + 1] = ",".join(rem)
+            ex_cmd = [python_exe, "-u", "mod/backfill.py", *filtered_ex, "--archive", "--cleanup-local"]
+            if args.dry_run:
+                ex_cmd.append("--dry-run")
+            extra_procs.append(subprocess.Popen(ex_cmd, cwd=REPO))
+
         proc = _run(cmd)
-        bf_ok = proc.returncode == 0
-        state["stages"][stage.name]["backfill_exit_code"] = proc.returncode
+        extra_rcs = [p.wait() for p in extra_procs]
+        bf_ok = (proc.returncode == 0) and all(rc == 0 for rc in extra_rcs)
+        state["stages"][stage.name]["backfill_exit_code"] = proc.returncode if proc.returncode != 0 else (next((rc for rc in extra_rcs if rc != 0), 0))
 
         if args.dry_run:
             state["stages"][stage.name]["status"] = "dry_run_ok" if bf_ok else "dry_run_failed"

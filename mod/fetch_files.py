@@ -75,9 +75,11 @@ def iso_to_http_date(value: str) -> str:
 
 def targets(documents: Path = DOCUMENTS, council: str = "",
             hosts: list[str] | None = None, doc_types: set[str] | None = None,
-            since_year: int = 0, until_year: int = 0) -> list[str]:
+            since_year: int = 0, until_year: int = 0,
+            excluded_urls: set[str] | None = None) -> list[str]:
     """取得対象の URL（重複なし、documents.csv の順。年代指定時は meetings.csv の開催日で絞る）。"""
     allowed_hosts = set(hosts or [HOST])
+    excluded = excluded_urls or set()
     meeting_dates: dict[str, str] = {}
     if since_year or until_year:
         meetings_csv = documents.parent / "meetings.csv"
@@ -94,6 +96,8 @@ def targets(documents: Path = DOCUMENTS, council: str = "",
             if doc_types and row.get("doc_type") not in doc_types:
                 continue
             if row["host"] not in allowed_hosts or row["format"] != "pdf":
+                continue
+            if row["url"] in excluded:
                 continue
             if since_year or until_year:
                 mdate = meeting_dates.get(row.get("meeting_id", ""), "")
@@ -246,13 +250,14 @@ def fetch_new(documents: Path = DOCUMENTS, manifest: Path = MANIFEST, files_dir:
               only_unarchived: bool = False,
               council: str = "", hosts: list[str] | None = None, doc_types: set[str] | None = None,
               since_year: int = 0, until_year: int = 0,
+              excluded_urls: set[str] | None = None,
               dry_run: bool = False, interval: float = INTERVAL,
               fetcher=fetch) -> FetchSummary:
     """未取得の PDF を取得する。403・429 なら Blocked を送出する。"""
     rows = read_manifest(manifest)
     all_urls = targets(
         documents, council=council, hosts=hosts, doc_types=doc_types,
-        since_year=since_year, until_year=until_year,
+        since_year=since_year, until_year=until_year, excluded_urls=excluded_urls,
     )
     todo = select_targets(
         all_urls, rows, retry=retry, refetch_missing=refetch_missing,

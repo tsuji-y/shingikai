@@ -74,7 +74,10 @@
     "page_prefixes": ["/j/council/", "/j/study/"],
     "allow_extensionless_pages": false,
     "max_depth": 2,
-    "rss_feeds": {}
+    "rss_feeds": {},
+    "excluded_urls": [
+      "https://www.maff.go.jp/j/council/seisaku/eisei/bukai_64/bukai_64.html"
+    ]
   },
   "mof": {
     "name": "財務省",

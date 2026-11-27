@@ -91,7 +91,10 @@ def print_status(repo: Path = REPO, *, since_year: int = 0, until_year: int = 0)
         pdf_arch = sum(1 for r in files_rows.values() if r.get("sha256") and r.get("release_url"))
         docs_csv = ag.data_dir / "documents.csv"
         pdf_urls = (
-            fetch_files.targets(docs_csv, hosts=list(ag.hosts), since_year=since_year, until_year=until_year)
+            fetch_files.targets(
+                docs_csv, hosts=list(ag.hosts), since_year=since_year, until_year=until_year,
+                excluded_urls=set(ag.excluded_urls),
+            )
             if docs_csv.exists()
             else []
         )
@@ -186,6 +189,7 @@ def run_agency_backfill(
                     doc_types=None,
                     since_year=since_year,
                     until_year=until_year,
+                    excluded_urls=set(ag.excluded_urls),
                     dry_run=dry_run,
                     interval=interval,
                 )

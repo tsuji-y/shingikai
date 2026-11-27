@@ -69,7 +69,7 @@
 | `mod/extract_text.py` | PDF から本文を抽出する（`--agency <id>` 対応） |
 | `mod/pages.py`、`mod/minutes.py`、`mod/persons.py`、`mod/build_db.py` | HTML・PDF 議事要旨・名簿 PDF の構造化と人物名寄せ（`--agency <id>` 対応） |
 | `mod/llm/` | Gemini による補完（画像 PDF 文字起こし・出席者補完・資料要約・変更検討メモ・30 件評価） |
-| `tests/` | `python3 -m unittest discover -s tests`（84 テスト） |
+| `tests/` | `python3 -m unittest discover -s tests`（86 テスト） |
 
 `mod/` ディレクトリ名は最初に構築した防衛省（Ministry of Defense）に由来し、全 16 省庁共通のパイプラインとして動作する（`--agency` 省略時の既定値は `mod`）。基本のコードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）に `requirements.txt`（pdfminer.six）、Gemini 処理（`mod/llm/`）に `requirements-llm.txt`（google-genai）を使う。
 

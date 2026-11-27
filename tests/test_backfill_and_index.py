@@ -499,6 +499,56 @@ class ShardedArchivingTest(unittest.TestCase):
         self.assertEqual(set(cache_m["minutes"]), {"k1", "k2"})
         self.assertEqual(set(cache_m["rosters"]), {"r1"})
 
+    def test_archive_gh_upload_retries_transient_failure(self):
+        attempts = []
+        sleeps = []
+
+        def flaky_runner(cmd, **kwargs):
+            attempts.append(cmd[:4])
+            if len(attempts) < 3:
+                raise subprocess.CalledProcessError(1, cmd)
+            return subprocess.CompletedProcess(cmd, 0)
+
+        res = archive_pdfs._run_gh_with_retry(
+            ["gh", "release", "upload", "cas-pdfs-2026-backfill", "x.tar.gz"],
+            runner=flaky_runner,
+            retry_backoff=(1.0, 2.0, 4.0),
+            sleep_fn=sleeps.append,
+        )
+        self.assertEqual(res.returncode, 0)
+        self.assertEqual(len(attempts), 3)
+        self.assertEqual(sleeps, [1.0, 2.0])
+
+    def test_excluded_urls_skipped_in_subpages_and_files(self):
+        with tempfile.TemporaryDirectory() as td:
+            repo = Path(td)
+            cfg = json.loads((REPO / "agencies.json").read_text(encoding="utf-8"))
+            self.assertIn(
+                "https://www.maff.go.jp/j/council/seisaku/eisei/bukai_64/bukai_64.html",
+                cfg["maff"]["excluded_urls"],
+            )
+            (repo / "agencies.json").write_text(json.dumps(cfg, ensure_ascii=False), encoding="utf-8")
+            ag = agencies.get_agency("maff", repo=repo)
+            ag.data_dir.mkdir(parents=True, exist_ok=True)
+            (ag.data_dir / "documents.csv").write_text(
+                "council_id,meeting_id,section,title,doc_type,url,host,format,text,pages,chars,source,doc_key\n"
+                "eisei,eisei#64,,部会64,資料,https://www.maff.go.jp/j/council/seisaku/eisei/bukai_64/bukai_64.html,www.maff.go.jp,html,,,,/j/council/index.html,k1\n"
+                "eisei,eisei#65,,部会65,資料,https://www.maff.go.jp/j/council/seisaku/eisei/bukai_65/bukai_65.html,www.maff.go.jp,html,,,,/j/council/index.html,k2\n"
+                "eisei,eisei#64,,PDF1,資料,https://www.maff.go.jp/j/council/a.pdf,www.maff.go.jp,pdf,,,,/j/council/index.html,k3\n",
+                encoding="utf-8",
+            )
+            sub_targets = fetch_subpages.collect_targets(ag, include_discovered=False)
+            self.assertEqual(
+                [t.url for t in sub_targets],
+                ["https://www.maff.go.jp/j/council/seisaku/eisei/bukai_65/bukai_65.html"],
+            )
+            pdf_targets = fetch_files.targets(
+                ag.data_dir / "documents.csv",
+                hosts=list(ag.hosts),
+                excluded_urls={"https://www.maff.go.jp/j/council/a.pdf"},
+            )
+            self.assertEqual(pdf_targets, [])
+
 
 if __name__ == "__main__":
     unittest.main()

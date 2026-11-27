@@ -238,6 +238,7 @@ def collect_targets(ag: agencies.AgencyConfig, *, council: str = "",
     pages_rows = ingest_pages.read_manifest(ag.pages_manifest)
     known_paths = set(pages_rows.keys()) | {agencies.normalize_path(u) for u in pages_rows.keys()}
     allowed_hosts = set(ag.hosts)
+    excluded = set(ag.excluded_urls)
 
     meeting_dates: dict[str, str] = {}
     meetings_csv = ag.data_dir / "meetings.csv"
@@ -266,7 +267,7 @@ def collect_targets(ag: agencies.AgencyConfig, *, council: str = "",
                 if sp.path in known_paths or norm in known_paths:
                     continue
                 clean_url = f"{sp.scheme}://{sp.netloc}{sp.path}"
-                if clean_url in targets_by_url:
+                if clean_url in excluded or u in excluded or clean_url in targets_by_url:
                     continue
                 mdate = meeting_dates.get(r.get("meeting_id", ""), "")
                 targets_by_url[clean_url] = SubpageTarget(
@@ -296,7 +297,7 @@ def collect_targets(ag: agencies.AgencyConfig, *, council: str = "",
                 if council and cid != council:
                     continue
                 full_url = f"{ag.base_url}{lk}"
-                if full_url not in targets_by_url:
+                if full_url not in excluded and full_url not in targets_by_url:
                     targets_by_url[full_url] = SubpageTarget(url=full_url, council_id=cid)
 
     items = list(targets_by_url.values())

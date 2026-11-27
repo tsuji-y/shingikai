@@ -23,6 +23,7 @@ import subprocess
 import sys
 import tarfile
 import tempfile
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -83,7 +84,36 @@ def needs_upload(row: dict[str, str], files_dir: Path = fetch_files.FILES_DIR) -
     return False
 
 
-def ensure_release(tag: str, repo_slug: str, title: str, notes: str, *, runner=subprocess.run) -> None:
+UPLOAD_RETRY_BACKOFF = (10.0, 20.0, 40.0, 80.0)
+
+
+def _run_gh_with_retry(cmd: list[str], *, runner=subprocess.run,
+                       retry_backoff: tuple[float, ...] = UPLOAD_RETRY_BACKOFF,
+                       sleep_fn=time.sleep) -> subprocess.CompletedProcess:
+    """GitHub Releases の一時的な通信障害（HTTP 408/5xx/接続断）に対して指数バックオフで再試行する。"""
+    for attempt in range(len(retry_backoff) + 1):
+        try:
+            res = runner(cmd, check=True)
+            if isinstance(res, subprocess.CompletedProcess) and res.returncode != 0:
+                raise subprocess.CalledProcessError(res.returncode, cmd)
+            return res
+        except subprocess.CalledProcessError as e:
+            if attempt >= len(retry_backoff):
+                raise
+            wait_s = retry_backoff[attempt]
+            print(
+                f"[archive] gh コマンド失敗 (attempt {attempt + 1}/{len(retry_backoff) + 1}, "
+                f"rc={e.returncode})。{wait_s:.0f}秒後に再試行します: {' '.join(cmd[:5])}",
+                file=sys.stderr,
+                flush=True,
+            )
+            sleep_fn(wait_s)
+    raise RuntimeError("unreachable")  # pragma: no cover
+
+
+def ensure_release(tag: str, repo_slug: str, title: str, notes: str, *, runner=subprocess.run,
+                   retry_backoff: tuple[float, ...] = UPLOAD_RETRY_BACKOFF,
+                   sleep_fn=time.sleep) -> None:
     check = runner(
         ["gh", "release", "view", tag, "--repo", repo_slug],
         stdout=subprocess.DEVNULL,
@@ -91,9 +121,11 @@ def ensure_release(tag: str, repo_slug: str, title: str, notes: str, *, runner=s
     )
     if check.returncode == 0:
         return
-    runner(
+    _run_gh_with_retry(
         ["gh", "release", "create", tag, "--repo", repo_slug, "--title", title, "--notes", notes],
-        check=True,
+        runner=runner,
+        retry_backoff=retry_backoff,
+        sleep_fn=sleep_fn,
     )
 
 
@@ -132,9 +164,9 @@ def upload_incremental(*, manifest: Path = fetch_files.MANIFEST, files_dir: Path
             if not dry_run:
                 staged = tmp_dir / name
                 shutil.copy2(src, staged)
-                runner(
+                _run_gh_with_retry(
                     ["gh", "release", "upload", tag, str(staged), "--repo", repo_slug, "--clobber"],
-                    check=True,
+                    runner=runner,
                 )
                 staged.unlink(missing_ok=True)
                 row["release_url"] = dl_url
@@ -215,9 +247,9 @@ def upload_baseline_bundle(*, manifest: Path = fetch_files.MANIFEST, files_dir: 
                     rel = src.relative_to(files_dir).as_posix()
                     tf.add(src, arcname=rel)
                     shard_archived.append((row["url"], f"{dl_base}#{rel}", src))
-            runner(
+            _run_gh_with_retry(
                 ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
-                check=True,
+                runner=runner,
             )
         for url, rel_url, src in shard_archived:
             rows[url]["release_url"] = rel_url
@@ -287,9 +319,9 @@ def upload_subpages_bundle(*, manifest: Path, subpages_dir: Path,
                     rel = src.relative_to(subpages_dir).as_posix()
                     tf.add(src, arcname=rel)
                     shard_archived.append((row["url"], f"{dl_base}#{rel}", src))
-            runner(
+            _run_gh_with_retry(
                 ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
-                check=True,
+                runner=runner,
             )
         for url, rel_url, src in shard_archived:
             rows[url]["release_url"] = rel_url
@@ -362,9 +394,9 @@ def upload_texts_bundle(*, texts_csv: Path, text_dir: Path, repo: Path = REPO,
                     rel = _arcname(src)
                     tf.add(src, arcname=rel)
                     shard_archived.append((row["url"], f"{dl_base}#{rel}", src))
-            runner(
+            _run_gh_with_retry(
                 ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
-                check=True,
+                runner=runner,
             )
         for url, rel_url, src in shard_archived:
             rows[url]["release_url"] = rel_url

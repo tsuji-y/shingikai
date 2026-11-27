@@ -46,6 +46,7 @@ class AgencyConfig:
     allow_extensionless_pages: bool = False
     max_depth: int = 2
     rss_feeds: dict[str, str] = field(default_factory=dict)
+    excluded_urls: list[str] = field(default_factory=list)
     repo: Path = REPO
 
     @property
@@ -121,6 +122,7 @@ def load_agencies(path: Path = AGENCIES_JSON, repo: Path = REPO) -> dict[str, Ag
             allow_extensionless_pages=bool(cfg.get("allow_extensionless_pages", False)),
             max_depth=int(cfg.get("max_depth", 2)),
             rss_feeds=dict(cfg.get("rss_feeds") or {}),
+            excluded_urls=list(cfg.get("excluded_urls") or []),
             repo=repo,
         )
     return out
