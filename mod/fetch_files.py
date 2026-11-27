@@ -16,6 +16,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import http.client
 import ssl
 import sys
 import time
@@ -32,7 +33,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from pathlib import Path
-from urllib.parse import unquote, urlsplit
+from urllib.parse import quote, unquote, urlsplit, urlunsplit
 
 REPO = Path(__file__).resolve().parent.parent
 DOCUMENTS = REPO / "data" / "mod" / "documents.csv"
@@ -167,6 +168,14 @@ def write_manifest(rows: dict[str, dict[str, str]], path: Path = MANIFEST) -> No
             time.sleep(0.5)
 
 
+def request_url(url: str) -> str:
+    """空白や非 ASCII 文字を含む URL のパス・クエリを安全にパーセントエンコードする（既存の %XX は二重化しない）。"""
+    sp = urlsplit(url)
+    path = quote(sp.path, safe="/:@!$&'()*+,;=-._~%")
+    query = quote(sp.query, safe="/?:@!$&'()*+,;=-._~%")
+    return urlunsplit((sp.scheme, sp.netloc, path, query, ""))
+
+
 def fetch(url: str, max_bytes: int = MAX_BYTES, *, if_modified_since: str = "",
           retry_backoff: tuple[float, ...] = RETRY_BACKOFF,
           opener=urllib.request.urlopen) -> tuple[dict[str, str], bytes | None]:
@@ -175,12 +184,13 @@ def fetch(url: str, max_bytes: int = MAX_BYTES, *, if_modified_since: str = "",
     ims = iso_to_http_date(if_modified_since) if if_modified_since else ""
     if ims:
         headers["If-Modified-Since"] = ims
+    req_url = request_url(url)
 
     for attempt in range(len(retry_backoff) + 1):
         row = {"url": url, "status": "", "content_type": "", "last_modified": "",
                "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                "bytes": "", "sha256": "", "note": ""}
-        req = urllib.request.Request(url, headers=headers)
+        req = urllib.request.Request(req_url, headers=headers)
         try:
             with opener(req, timeout=120) as resp:
                 if resp.headers.get("cf-mitigated"):
@@ -209,9 +219,12 @@ def fetch(url: str, max_bytes: int = MAX_BYTES, *, if_modified_since: str = "",
                 continue
             row["note"] = e.reason or ""
             return row, None
-        except (urllib.error.URLError, TimeoutError, OSError) as e:
-            is_ssl = isinstance(e, ssl.SSLError) or isinstance(getattr(e, "reason", None), ssl.SSLError)
-            if not is_ssl and attempt < len(retry_backoff):
+        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError) as e:
+            no_retry = (
+                isinstance(e, (ssl.SSLError, http.client.InvalidURL))
+                or isinstance(getattr(e, "reason", None), ssl.SSLError)
+            )
+            if not no_retry and attempt < len(retry_backoff):
                 time.sleep(retry_backoff[attempt])
                 continue
             row["status"], row["note"] = "error", str(getattr(e, "reason", e))

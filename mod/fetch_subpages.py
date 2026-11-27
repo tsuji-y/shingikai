@@ -19,6 +19,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import http.client
 import posixpath
 import re
 import ssl
@@ -337,10 +338,11 @@ def fetch_html(url: str, *, if_modified_since: str = "", user_agent: str = USER_
     ims = fetch_files.iso_to_http_date(if_modified_since) if if_modified_since else ""
     if ims:
         headers["If-Modified-Since"] = ims
+    req_url = fetch_files.request_url(url)
 
     for attempt in range(len(retry_backoff) + 1):
         fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        req = urllib.request.Request(url, headers=headers)
+        req = urllib.request.Request(req_url, headers=headers)
         try:
             with opener(req, timeout=timeout) as resp:
                 if resp.headers.get("cf-mitigated"):
@@ -369,9 +371,12 @@ def fetch_html(url: str, *, if_modified_since: str = "", user_agent: str = USER_
                 time.sleep(wait_s)
                 continue
             return check_updates.FetchResponse(status=e.code, fetched_at=fetched_at, error=e.reason or f"HTTP {e.code}")
-        except (urllib.error.URLError, TimeoutError, OSError) as e:
-            is_ssl = isinstance(e, ssl.SSLError) or isinstance(getattr(e, "reason", None), ssl.SSLError)
-            if not is_ssl and attempt < len(retry_backoff):
+        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError) as e:
+            no_retry = (
+                isinstance(e, (ssl.SSLError, http.client.InvalidURL))
+                or isinstance(getattr(e, "reason", None), ssl.SSLError)
+            )
+            if not no_retry and attempt < len(retry_backoff):
                 time.sleep(retry_backoff[attempt])
                 continue
             return check_updates.FetchResponse(status=0, fetched_at=fetched_at, error=str(getattr(e, "reason", e)))

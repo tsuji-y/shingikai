@@ -442,6 +442,63 @@ class ShardedArchivingTest(unittest.TestCase):
             idx = build_index.build_all_index(repo=repo, write=True)
             self.assertEqual(idx["totals"]["texts_archived"], 2)
 
+    def test_request_url_encodes_spaces_and_fetch_catches_invalid_url(self):
+        import http.client
+
+        raw = "https://www.cas.go.jp/jp/seisakukaigi/sosikihanzai/kettei/20170127_best practice.pdf"
+        enc = fetch_files.request_url(raw)
+        self.assertEqual(
+            enc,
+            "https://www.cas.go.jp/jp/seisakukaigi/sosikihanzai/kettei/20170127_best%20practice.pdf",
+        )
+        # すでに %20 エンコード済みの URL を二重エンコードしないこと
+        self.assertEqual(fetch_files.request_url(enc), enc)
+
+        seen_urls = []
+
+        def fake_opener(req, timeout=0):
+            seen_urls.append(req.full_url)
+            raise http.client.InvalidURL("bad control char")
+
+        row, body = fetch_files.fetch(raw, retry_backoff=(0.01, 0.01), opener=fake_opener)
+        self.assertEqual(seen_urls, [enc])  # InvalidURL はリトライせず 1 回で終了
+        self.assertEqual(row["url"], raw)   # 台帳キーは元 URL を維持
+        self.assertEqual(row["status"], "error")
+        self.assertIsNone(body)
+
+    def test_overnight_manifest_and_cache_union_merge(self):
+        import run_overnight_backfill
+
+        ours_csv = (
+            "url,status,content_type,last_modified,fetched_at,bytes,sha256,note,release_url\n"
+            "https://example.go.jp/a.pdf,200,application/pdf,,2026-11-27T04:00:00+00:00,100,aaa,,https://gh/a.pdf\n"
+            "https://example.go.jp/b.pdf,200,application/pdf,,2026-11-27T04:00:00+00:00,100,bbb,,\n"
+        )
+        theirs_csv = (
+            "url,status,content_type,last_modified,fetched_at,bytes,sha256,note,release_url\n"
+            "https://example.go.jp/b.pdf,200,application/pdf,,2026-11-27T05:00:00+00:00,100,bbb,,https://gh/b.tar.gz#b.pdf\n"
+            "https://example.go.jp/c.pdf,200,application/pdf,,2026-11-27T05:00:00+00:00,200,ccc,,https://gh/c.tar.gz#c.pdf\n"
+        )
+        merged = run_overnight_backfill.merge_manifest_csv(
+            ours_csv, theirs_csv, key_cols=("url",), fieldnames=fetch_files.FIELDS,
+        )
+        rows = {r["url"]: r for r in csv.DictReader(merged.splitlines())}
+        self.assertEqual(set(rows), {
+            "https://example.go.jp/a.pdf",
+            "https://example.go.jp/b.pdf",
+            "https://example.go.jp/c.pdf",
+        })
+        self.assertEqual(rows["https://example.go.jp/a.pdf"]["release_url"], "https://gh/a.pdf")
+        self.assertEqual(rows["https://example.go.jp/b.pdf"]["release_url"], "https://gh/b.tar.gz#b.pdf")
+        self.assertEqual(rows["https://example.go.jp/c.pdf"]["release_url"], "https://gh/c.tar.gz#c.pdf")
+
+        cache_m = json.loads(run_overnight_backfill.merge_parsed_cache(
+            json.dumps({"minutes": {"k1": {"sha256": "1"}}, "rosters": {}}),
+            json.dumps({"minutes": {"k2": {"sha256": "2"}}, "rosters": {"r1": {"sha256": "3"}}}),
+        ))
+        self.assertEqual(set(cache_m["minutes"]), {"k1", "k2"})
+        self.assertEqual(set(cache_m["rosters"]), {"r1"})
+
 
 if __name__ == "__main__":
     unittest.main()

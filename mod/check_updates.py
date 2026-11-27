@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import http.client
 import ssl
 import sys
 import time
@@ -94,6 +95,7 @@ def fetch_page(url_path: str, *, base_url: str = BASE, if_modified_since: str = 
                opener=urllib.request.urlopen) -> FetchResponse:
     """1 ページ取得する。403・429・cf-mitigated はリトライせず即座に Blocked を送出する。"""
     full_url = url_path if url_path.startswith(("http://", "https://")) else base_url + url_path
+    req_url = fetch_files.request_url(full_url)
     headers = {"User-Agent": user_agent}
     ims = fetch_files.iso_to_http_date(if_modified_since) if if_modified_since else ""
     if ims:
@@ -101,7 +103,7 @@ def fetch_page(url_path: str, *, base_url: str = BASE, if_modified_since: str = 
 
     for attempt in range(len(retry_backoff) + 1):
         fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
-        req = urllib.request.Request(full_url, headers=headers)
+        req = urllib.request.Request(req_url, headers=headers)
         try:
             with opener(req, timeout=timeout) as resp:
                 if resp.headers.get("cf-mitigated"):
@@ -123,9 +125,12 @@ def fetch_page(url_path: str, *, base_url: str = BASE, if_modified_since: str = 
                 time.sleep(retry_backoff[attempt])
                 continue
             return FetchResponse(status=e.code, fetched_at=fetched_at, error=e.reason or f"HTTP {e.code}")
-        except (urllib.error.URLError, TimeoutError, OSError) as e:
-            is_ssl = isinstance(e, ssl.SSLError) or isinstance(getattr(e, "reason", None), ssl.SSLError)
-            if not is_ssl and attempt < len(retry_backoff):
+        except (urllib.error.URLError, http.client.HTTPException, TimeoutError, OSError) as e:
+            no_retry = (
+                isinstance(e, (ssl.SSLError, http.client.InvalidURL))
+                or isinstance(getattr(e, "reason", None), ssl.SSLError)
+            )
+            if not no_retry and attempt < len(retry_backoff):
                 time.sleep(retry_backoff[attempt])
                 continue
             return FetchResponse(status=0, fetched_at=fetched_at, error=str(getattr(e, "reason", e)))
