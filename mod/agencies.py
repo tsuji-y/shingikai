@@ -8,6 +8,13 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import urlsplit
 
+try:
+    import truststore  # type: ignore
+
+    truststore.inject_into_ssl()
+except Exception:
+    pass
+
 import pages
 from pages import Block
 
@@ -92,6 +99,10 @@ class AgencyConfig:
     @property
     def html_release_tag_prefix(self) -> str:
         return f"{self.agency_id}-html"
+
+    @property
+    def text_release_tag_prefix(self) -> str:
+        return f"{self.agency_id}-texts"
 
 
 def load_agencies(path: Path = AGENCIES_JSON, repo: Path = REPO) -> dict[str, AgencyConfig]:

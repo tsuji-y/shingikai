@@ -29,7 +29,7 @@ CATALOG_FIELDS = [
     "meeting_id", "meeting_date", "meeting_label",
     "doc_type", "title", "format", "host", "url",
     "fetched", "status", "sha256", "bytes",
-    "release_url", "text_path", "text_chars", "text_pages",
+    "release_url", "text_path", "text_release_url", "text_chars", "text_pages",
     "note", "source_page",
 ]
 
@@ -94,6 +94,7 @@ def build_agency_catalog(ag: agencies.AgencyConfig, *, write: bool = True) -> li
             "bytes": f_row.get("bytes", ""),
             "release_url": f_row.get("release_url", ""),
             "text_path": text_path,
+            "text_release_url": t.get("release_url", ""),
             "text_chars": d.get("chars") or t.get("chars") or "",
             "text_pages": d.get("pages") or t.get("pages") or "",
             "note": note,
@@ -129,6 +130,7 @@ def build_agency_catalog(ag: agencies.AgencyConfig, *, write: bool = True) -> li
             "bytes": sp_row.get("bytes", ""),
             "release_url": sp_row.get("release_url", ""),
             "text_path": sp_row.get("text") or t.get("text", ""),
+            "text_release_url": t.get("release_url", ""),
             "text_chars": t.get("chars", ""),
             "text_pages": t.get("pages", "1"),
             "note": sp_row.get("note") or t.get("note", ""),
@@ -164,6 +166,7 @@ def build_all_index(repo: Path = REPO, *, rebuild_catalogs: bool = False, write:
         "subpages_fetched": 0,
         "subpages_archived": 0,
         "texts": 0,
+        "texts_archived": 0,
     }
 
     for aid, ag in all_cfgs.items():
@@ -188,6 +191,7 @@ def build_all_index(repo: Path = REPO, *, rebuild_catalogs: bool = False, write:
         sub_fetched = sum(1 for r in subpages_rows if r.get("sha256"))
         sub_archived = sum(1 for r in subpages_rows if r.get("sha256") and r.get("release_url"))
         texts_ok = sum(1 for r in texts_rows if r.get("text"))
+        texts_archived = sum(1 for r in texts_rows if r.get("text") and r.get("release_url"))
         last_fetched = max(
             [r.get("fetched_at", "") for r in pages_rows]
             + [r.get("fetched_at", "") for r in files_rows]
@@ -202,6 +206,7 @@ def build_all_index(repo: Path = REPO, *, rebuild_catalogs: bool = False, write:
             "base_url": ag.base_url,
             "release_tag_prefix": ag.release_tag_prefix,
             "html_release_tag_prefix": ag.html_release_tag_prefix,
+            "text_release_tag_prefix": ag.text_release_tag_prefix,
             "counts": {
                 "councils": len(councils),
                 "meetings": len(meetings),
@@ -214,6 +219,7 @@ def build_all_index(repo: Path = REPO, *, rebuild_catalogs: bool = False, write:
                 "subpages_fetched": sub_fetched,
                 "subpages_archived": sub_archived,
                 "texts": texts_ok,
+                "texts_archived": texts_archived,
             },
             "last_fetched_at": last_fetched,
             "files": {
@@ -237,6 +243,7 @@ def build_all_index(repo: Path = REPO, *, rebuild_catalogs: bool = False, write:
         totals["subpages_fetched"] += sub_fetched
         totals["subpages_archived"] += sub_archived
         totals["texts"] += texts_ok
+        totals["texts_archived"] += texts_archived
 
     totals["pdf_coverage_pct"] = (
         round(100.0 * totals["pdfs_fetched"] / totals["pdfs_target"], 1) if totals["pdfs_target"] else 100.0
@@ -246,9 +253,10 @@ def build_all_index(repo: Path = REPO, *, rebuild_catalogs: bool = False, write:
         "schema_version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "storage_policy": {
-            "texts_and_indexes": "Git repository (data/<agency>/text/, catalog.csv, catalog.jsonl, data/all/index.json)",
-            "pdf_originals": "GitHub Releases (<agency>-pdfs-YYYY-MM / baseline tar.gz shards), linked via release_url",
-            "subpage_html_originals": "GitHub Releases (<agency>-html-YYYY-MM / tar.gz shards), linked via release_url",
+            "indexes_and_structured_tables": "Git repository (data/<agency>/*.csv, catalog.csv, catalog.jsonl, parsed_texts.json, data/all/index.json)",
+            "extracted_texts": "GitHub Releases (<agency>-texts-YYYY-MM / backfill tar.gz shards), linked via text_release_url (mod keeps data/mod/text/ in Git)",
+            "pdf_originals": "GitHub Releases (<agency>-pdfs-YYYY-MM / backfill tar.gz shards), linked via release_url",
+            "subpage_html_originals": "GitHub Releases (<agency>-html-YYYY-MM / backfill tar.gz shards), linked via release_url",
             "warp_policy": "Excluded from automated fetching (links preserved in documents.csv / catalog)",
         },
         "catalog_fields": CATALOG_FIELDS,

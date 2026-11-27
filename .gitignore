@@ -1,6 +1,11 @@
 __pycache__/
 *.tmp
 .venv/
-# 取得した PDF・下位 HTML の原本。台帳（raw/<agency>/files.csv, subpages.csv）だけを残し原本は GitHub Releases へ保管
+# 取得した PDF・下位 HTML の原本および他省庁の抽出テキスト本体は GitHub Releases へ保管し、
+# Git 本体には台帳（files.csv, subpages.csv, texts.csv）・構造化 CSV・統一索引（catalog）のみを残す。
+# 防衛省（mod）のテキスト（約 12MB）は LLM 評価テストのため Git 保持する。
 raw/*/files/
 raw/*/subpages/
+data/*/text/
+!data/mod/text/
+checks/backfill_failures.tsv

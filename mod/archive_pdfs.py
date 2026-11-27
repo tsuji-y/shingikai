@@ -300,6 +300,81 @@ def upload_subpages_bundle(*, manifest: Path, subpages_dir: Path,
     return archived
 
 
+def upload_texts_bundle(*, texts_csv: Path, text_dir: Path, repo: Path = REPO,
+                        tag: str, agency_name: str = "防衛省",
+                        repo_slug: str = "", dry_run: bool = False,
+                        max_shard_bytes: int = 800 * 1024 * 1024, chunk_id: str = "",
+                        cleanup_local: bool = False,
+                        runner=subprocess.run) -> list[tuple[str, str]]:
+    """抽出済みテキスト（data/<ag>/text/）を tar.gz シャードで GitHub Releases へ保管し、texts.csv の release_url を更新する。"""
+    import extract_text
+
+    rows_list = extract_text.read_csv(texts_csv)
+    rows = {r["url"]: r for r in rows_list}
+    pairs: list[tuple[dict[str, str], Path]] = []
+    for url in sorted(rows):
+        row = rows[url]
+        rel_txt = (row.get("text") or "").strip()
+        if not rel_txt or row.get("release_url"):
+            continue
+        src = repo / rel_txt
+        if src.exists() and src.is_file():
+            pairs.append((row, src))
+    if not pairs:
+        return []
+
+    repo_slug = repo_slug or detect_repo_slug()
+    shards = _partition_shards(pairs, max_shard_bytes)
+    base_stem = f"shingikai-{tag}"
+    if chunk_id:
+        base_stem = f"{base_stem}-{chunk_id}"
+    archived: list[tuple[str, str]] = []
+
+    def _arcname(src: Path) -> str:
+        try:
+            return src.relative_to(text_dir).as_posix()
+        except ValueError:
+            return src.name
+
+    if dry_run:
+        for idx, shard in enumerate(shards, 1):
+            sname = f"{base_stem}.tar.gz" if len(shards) == 1 else f"{base_stem}-p{idx:03d}.tar.gz"
+            dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{sname}"
+            for row, src in shard:
+                archived.append((row["url"], f"{dl_base}#{_arcname(src)}"))
+        return archived
+
+    ensure_release(
+        tag,
+        repo_slug,
+        title=f"{agency_name} 審議会等 抽出テキストアーカイブ ({tag})",
+        notes=f"{agency_name}審議会等の PDF・下位 HTML 抽出テキストアーカイブ（出典：{agency_name}ウェブサイト、PDL1.0）。",
+        runner=runner,
+    )
+    for idx, shard in enumerate(shards, 1):
+        sname = f"{base_stem}.tar.gz" if len(shards) == 1 else f"{base_stem}-p{idx:03d}.tar.gz"
+        dl_base = f"https://github.com/{repo_slug}/releases/download/{tag}/{sname}"
+        shard_archived: list[tuple[str, str, Path]] = []
+        with tempfile.TemporaryDirectory() as td:
+            tar_path = Path(td) / sname
+            with tarfile.open(tar_path, "w:gz") as tf:
+                for row, src in shard:
+                    rel = _arcname(src)
+                    tf.add(src, arcname=rel)
+                    shard_archived.append((row["url"], f"{dl_base}#{rel}", src))
+            runner(
+                ["gh", "release", "upload", tag, str(tar_path), "--repo", repo_slug, "--clobber"],
+                check=True,
+            )
+        for url, rel_url, src in shard_archived:
+            rows[url]["release_url"] = rel_url
+            archived.append((url, rel_url))
+            if cleanup_local:
+                src.unlink(missing_ok=True)
+        extract_text.write_csv(texts_csv, list(rows.values()))
+    return archived
+
+
 def main() -> int:
     import agencies
 
@@ -310,9 +385,10 @@ def main() -> int:
     ap.add_argument("--repo", default="", help="GitHub リポジトリ（owner/repo。省略時は origin から自動判定）")
     ap.add_argument("--bundle", action="store_true", help="手元の対象 PDF を tar.gz（800MB シャード分割）でアップロードする")
     ap.add_argument("--subpages", action="store_true", help="下位 HTML 原本（raw/<ag>/subpages/）を tar.gz でアップロードする")
+    ap.add_argument("--texts", action="store_true", help="抽出テキスト（data/<ag>/text/）を tar.gz でアップロードする")
     ap.add_argument("--chunk-id", default="", help="バンドルファイル名に付与するチャンク識別子（既存アセットの上書き防止）")
     ap.add_argument("--max-shard-mb", type=int, default=800, help="1 シャードの最大サイズ（MB。既定: 800）")
-    ap.add_argument("--cleanup-local", action="store_true", help="アップロード成功後にローカルの原本ファイルを削除する")
+    ap.add_argument("--cleanup-local", action="store_true", help="アップロード成功後にローカルファイルを削除する")
     ap.add_argument("--dry-run", action="store_true", help="アップロードと台帳更新を行わず対象だけ表示する")
     args = ap.parse_args()
 
@@ -321,7 +397,16 @@ def main() -> int:
     period = now.strftime("%Y-%m") if args.monthly else str(now.year)
     max_shard_bytes = args.max_shard_mb * 1024 * 1024
 
-    if args.subpages:
+    if args.texts:
+        tag = args.tag or f"{ag.text_release_tag_prefix}-{period}"
+        res = upload_texts_bundle(
+            texts_csv=ag.data_dir / "texts.csv", text_dir=ag.data_dir / "text", repo=ag.repo,
+            tag=tag, agency_name=ag.name, repo_slug=args.repo, dry_run=args.dry_run,
+            max_shard_bytes=max_shard_bytes, chunk_id=args.chunk_id,
+            cleanup_local=args.cleanup_local,
+        )
+        kind = "テキスト"
+    elif args.subpages:
         tag = args.tag or f"{ag.html_release_tag_prefix}-{period}"
         res = upload_subpages_bundle(
             manifest=ag.subpages_manifest, subpages_dir=ag.raw_subpages_dir,

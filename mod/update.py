@@ -112,7 +112,7 @@ def _extract_new_texts(files_manifest: Path, files_dir: Path, text_dir: Path,
     for r in todo:
         url = r["url"]
         src = files_dir.joinpath(*extract_text.url_parts(url))
-        row = {"url": url, "text": "", "pages": "", "chars": "0", "sha256": r["sha256"], "note": ""}
+        row = {"url": url, "text": "", "pages": "", "chars": "0", "sha256": r["sha256"], "note": "", "release_url": ""}
         if not src.exists():
             row["note"] = "PDF 原本が手元にないため未抽出"
             done[url] = row
@@ -177,7 +177,7 @@ def run_update(*, agency_id: str = "mod", repo: Path = REPO, data_dir: Path | No
     if not skip_fetch and councils_csv.exists() and pages_manifest.exists():
         baseline_warnings = build_db.build(
             councils_csv, pages_manifest, raw_pages_dir, texts_csv,
-            repo=repo, base_url=ag.base_url, hosts=ag.hosts,
+            repo=repo, base_url=ag.base_url, hosts=ag.hosts, write_cache=False,
         ).warnings
     backups = _backup_tables(data_dir)
 

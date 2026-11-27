@@ -1,2 +1,3 @@
-# PDF の本文抽出（mod/extract_text.py）にだけ使う。ほかのスクリプトは標準ライブラリのみ。
+# PDF の本文抽出（mod/extract_text.py）および OS 証明書ストア利用（truststore）に使う。
 pdfminer.six==20260107
+truststore==0.10.5

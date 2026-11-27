@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import ssl
 import sys
 import time
 import urllib.error
@@ -123,7 +124,8 @@ def fetch_page(url_path: str, *, base_url: str = BASE, if_modified_since: str = 
                 continue
             return FetchResponse(status=e.code, fetched_at=fetched_at, error=e.reason or f"HTTP {e.code}")
         except (urllib.error.URLError, TimeoutError, OSError) as e:
-            if attempt < len(retry_backoff):
+            is_ssl = isinstance(e, ssl.SSLError) or isinstance(getattr(e, "reason", None), ssl.SSLError)
+            if not is_ssl and attempt < len(retry_backoff):
                 time.sleep(retry_backoff[attempt])
                 continue
             return FetchResponse(status=0, fetched_at=fetched_at, error=str(getattr(e, "reason", e)))

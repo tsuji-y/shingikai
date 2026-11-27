@@ -777,7 +777,8 @@ def column_roles(heads: list[str]) -> list[str]:
 def build(councils_path: Path = DATA / "councils.csv", manifest: Path = MANIFEST,
           root: Path = pages.RAW_DIR, texts: Path = DATA / "texts.csv",
           repo: Path = REPO, *, base_url: str = pages.BASE,
-          hosts: tuple[str, ...] = ("www.mod.go.jp",)) -> Builder:
+          hosts: tuple[str, ...] = ("www.mod.go.jp",),
+          write_cache: bool = True) -> Builder:
     councils = Councils(load_councils(councils_path))
     with manifest.open(encoding="utf-8", newline="") as f:
         urls = [r["url"] for r in csv.DictReader(f)]
@@ -794,7 +795,7 @@ def build(councils_path: Path = DATA / "councils.csv", manifest: Path = MANIFEST
         ))
     finish(builder)
     _merge_subpage_links(builder, manifest.parent / "subpage_links.csv")
-    apply_minutes(builder, texts, repo=repo)
+    apply_minutes(builder, texts, repo=repo, write_cache=write_cache)
     return builder
 
 
@@ -844,11 +845,43 @@ def _merge_subpage_links(b: Builder, links_path: Path) -> None:
             m["n_documents"] = counts.get(m["meeting_id"], 0)
 
 
-def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path = REPO) -> None:
+def _load_parsed_cache(path: Path) -> dict[str, dict]:
+    if not path.exists():
+        return {"minutes": {}, "rosters": {}}
+    try:
+        import json
+
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            return {
+                "minutes": dict(data.get("minutes") or {}),
+                "rosters": dict(data.get("rosters") or {}),
+            }
+    except Exception:
+        pass
+    return {"minutes": {}, "rosters": {}}
+
+
+def _save_parsed_cache(path: Path, cache: dict[str, dict]) -> None:
+    import json
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    payload = {
+        "minutes": dict(sorted(cache.get("minutes", {}).items())),
+        "rosters": dict(sorted(cache.get("rosters", {}).items())),
+    }
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8", newline="\n")
+    tmp.replace(path)
+
+
+def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path = REPO,
+                  *, write_cache: bool = True) -> None:
     """議事要旨・議事録の本文（extract_text.py の出力）の冒頭から、開催日時・場所・出席者を補う。
 
     ページから読み取った値は上書きしない。PDF の開催日がページの記載と違うときは警告だけ出す。
     出席者は 1 人 1 行にして b.attendance に入れる。
+    抽出テキスト原本が Release 退避済みでローカルに無い場合は parsed_texts.json キャッシュを使う。
     """
     b.attendance = []
     extracted: dict[str, dict[str, str]] = {}
@@ -856,6 +889,9 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
         with texts_path.open(encoding="utf-8", newline="") as f:
             extracted = {doc_key(r["url"]): r for r in csv.DictReader(f)}
     texts = {k: r["text"] for k, r in extracted.items() if r["text"]}
+    cache_path = texts_path.parent / "parsed_texts.json"
+    cache = _load_parsed_cache(cache_path)
+    cache_dirty = False
     by_meeting: dict[str, list[dict]] = {}
     for d in b.documents:
         dk = d.get("doc_key") or doc_key(d["url"])
@@ -879,8 +915,24 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
         had_date = bool(m["date"])
         docs = sorted(by_meeting.get(m["meeting_id"], []), key=lambda d: MINUTES_TYPES.index(d["doc_type"]))
         for d in docs:
-            text = (repo / texts[d["doc_key"]]).read_text(encoding="utf-8")
-            title = " ".join([ln for ln in text.split("\n") if ln.strip()][:3])
+            dk = d["doc_key"]
+            sha = extracted.get(dk, {}).get("sha256", "")
+            text_file = repo / texts[dk]
+            if text_file.exists():
+                text = text_file.read_text(encoding="utf-8")
+                title = " ".join([ln for ln in text.split("\n") if ln.strip()][:3])
+                h = minutes.parse_header(text)
+                cached = cache["minutes"].get(dk)
+                new_entry = {"sha256": sha, "title_head": title, "header": h}
+                if cached != new_entry:
+                    cache["minutes"][dk] = new_entry
+                    cache_dirty = True
+            else:
+                cached = cache["minutes"].get(dk)
+                if not cached or (sha and cached.get("sha256") and cached["sha256"] != sha):
+                    continue
+                title = cached.get("title_head", "")
+                h = cached.get("header") or {}
             title_number = parse_number(title)
             # 合同開催（「第5回 / 第6回(総会)合同」）では、表題がもう一方の回次になっていることがある
             in_label = {_to_int(n) for n in _KAI.findall(nfkc(m["label"]))}
@@ -888,9 +940,8 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
                     and title_number not in in_label):
                 b.warnings.append(f"{m['meeting_id']}: 資料の表題は第{title_number}回（{d['url']}）")
                 continue
-            h = minutes.parse_header(text)
-            date, _ = parse_date(h["date_raw"])
-            weekday = minutes._weekday_mismatch(date, h["date_raw"])
+            date, _ = parse_date(h.get("date_raw", ""))
+            weekday = minutes._weekday_mismatch(date, h.get("date_raw", ""))
             if weekday:
                 b.warnings.append(f"{m['meeting_id']}: 資料の記載「{h['date_raw'][:24]}」の曜日が日付と合わない"
                                   f"（{date} は{weekday}曜）。開催日は要確認（{d['url']}）")
@@ -900,9 +951,9 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
                 b.warnings.append(f"{m['meeting_id']}: ページの開催日 {m['date']} と資料の開催日 {date} が"
                                   f"食い違う（{d['url']}）")
             for key in ("time", "place", "agenda"):
-                if h[key] and not m[key]:
+                if h.get(key) and not m[key]:
                     m[key], used = h[key], True
-            if h["attendees"] and not m["attendees"]:
+            if h.get("attendees") and not m["attendees"]:
                 m["attendees"] = " / ".join(" ".join(ln.split()) for ln in h["attendees"].split("\n") if ln.strip())
                 used = True
                 attend(m, h["attendees"], d["url"])
@@ -914,7 +965,10 @@ def apply_minutes(b: Builder, texts_path: Path = DATA / "texts.csv", repo: Path 
             dated_now.append(m)
     _apply_llm_extractions(b, texts_path.parent / "llm_extractions.csv", dated_now)
     merge_dated(b, dated_now)
-    _apply_pdf_rosters(b, texts, repo)
+    if _apply_pdf_rosters(b, texts, repo, extracted=extracted, cache=cache):
+        cache_dirty = True
+    if write_cache and cache_dirty and texts_path.exists():
+        _save_parsed_cache(cache_path, cache)
     b.persons = persons.link(b.members, b.attendance, {m["meeting_id"]: m["date"] for m in b.meetings},
                              b.councils.order)
 
@@ -949,17 +1003,46 @@ def _is_pdf_person_name(s: str) -> bool:
     return True
 
 
-def _apply_pdf_rosters(b: Builder, texts: dict[str, str], repo: Path) -> None:
+def _apply_pdf_rosters(b: Builder, texts: dict[str, str], repo: Path, *,
+                       extracted: dict[str, dict[str, str]] | None = None,
+                       cache: dict[str, dict] | None = None) -> bool:
     """HTML に名簿表がない会議体について、doc_type=='名簿' の抽出テキストから委員名簿を補う。"""
     councils_with_members = {m["council_id"] for m in b.members}
+    cache_dirty = False
+    extracted = extracted or {}
     for d in b.documents:
         cid = d["council_id"]
         if cid in councils_with_members:
             continue
         if d["doc_type"] != "名簿" or d["doc_key"] not in texts:
             continue
-        text_file = repo / texts[d["doc_key"]]
+        dk = d["doc_key"]
+        sha = extracted.get(dk, {}).get("sha256", "")
+        text_file = repo / texts[dk]
         if not text_file.exists():
+            if cache is not None:
+                cached = cache.get("rosters", {}).get(dk)
+                if cached and (not sha or not cached.get("sha256") or cached["sha256"] == sha):
+                    rows = [
+                        {
+                            "council_id": cid,
+                            "body": "",
+                            "group": d.get("section", "") or "構成員",
+                            "as_of": cached.get("as_of", ""),
+                            "as_of_raw": cached.get("as_of_raw", ""),
+                            "name": item["name"],
+                            "kana": "",
+                            "mark": item.get("mark", ""),
+                            "role": item.get("role", ""),
+                            "title": item.get("title", ""),
+                            "note": "",
+                            "source": d.get("source", ""),
+                        }
+                        for item in cached.get("rows", [])
+                    ]
+                    if len(rows) >= 3:
+                        b.members.extend(rows)
+                        councils_with_members.add(cid)
             continue
         text = text_file.read_text(encoding="utf-8")
         lines = [ln.strip() for ln in "\n".join(text.split("\f")[:3]).splitlines() if ln.strip()]
@@ -1047,6 +1130,20 @@ def _apply_pdf_rosters(b: Builder, texts: dict[str, str], repo: Path) -> None:
         if len(extracted_rows) >= 3:
             b.members.extend(extracted_rows)
             councils_with_members.add(cid)
+            if cache is not None:
+                new_entry = {
+                    "sha256": sha,
+                    "as_of": as_of_iso,
+                    "as_of_raw": as_of_raw,
+                    "rows": [
+                        {"name": r["name"], "mark": r["mark"], "role": r["role"], "title": r["title"]}
+                        for r in extracted_rows
+                    ],
+                }
+                if cache.setdefault("rosters", {}).get(dk) != new_entry:
+                    cache["rosters"][dk] = new_entry
+                    cache_dirty = True
+    return cache_dirty
 
 
 def _apply_llm_extractions(b: Builder, llm_path: Path, dated_now: list[dict]) -> None:
@@ -1248,6 +1345,7 @@ def main() -> int:
         repo=ag.repo,
         base_url=ag.base_url,
         hosts=tuple(ag.hosts),
+        write_cache=not args.dry_run,
     )
     if not args.dry_run:
         write_csv(ag.data_dir / "council_profiles.csv", PROFILE_FIELDS, b.profiles)

@@ -21,6 +21,7 @@ import csv
 import hashlib
 import posixpath
 import re
+import ssl
 import sys
 import time
 import urllib.error
@@ -369,7 +370,8 @@ def fetch_html(url: str, *, if_modified_since: str = "", user_agent: str = USER_
                 continue
             return check_updates.FetchResponse(status=e.code, fetched_at=fetched_at, error=e.reason or f"HTTP {e.code}")
         except (urllib.error.URLError, TimeoutError, OSError) as e:
-            if attempt < len(retry_backoff):
+            is_ssl = isinstance(e, ssl.SSLError) or isinstance(getattr(e, "reason", None), ssl.SSLError)
+            if not is_ssl and attempt < len(retry_backoff):
                 time.sleep(retry_backoff[attempt])
                 continue
             return check_updates.FetchResponse(status=0, fetched_at=fetched_at, error=str(getattr(e, "reason", e)))
@@ -470,6 +472,7 @@ def fetch_subpages(ag: agencies.AgencyConfig, *, limit: int = 0, retry: bool = F
                     "chars": str(chars),
                     "sha256": sha,
                     "note": "HTML本文" if chars >= 20 else "本文がほとんど取れない（HTML）",
+                    "release_url": "",
                 }
                 texts_dirty = True
 

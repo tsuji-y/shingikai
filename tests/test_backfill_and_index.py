@@ -288,6 +288,160 @@ class ShardedArchivingTest(unittest.TestCase):
                 root / "shingi" / "2009" / "10" / "s1019-3.txt",
             )
 
+    def test_texts_bundle_archives_cleans_and_build_db_uses_parsed_cache(self):
+        with tempfile.TemporaryDirectory() as td:
+            repo = Path(td)
+            (repo / "agencies.json").write_text(
+                (REPO / "agencies.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+            ag = agencies.get_agency("cfa", repo=repo)
+
+            index_html = (
+                "<html><body><main><h1>審議会一覧</h1>"
+                "<ul><li><a href='/councils/test'>テスト会議</a></li></ul>"
+                "</main></body></html>"
+            ).encode("utf-8")
+            council_html = (
+                "<html><body><main><h1>テスト会議</h1>"
+                "<ul>"
+                "<li><a href='/assets/contents/roster.pdf'>構成員名簿</a></li>"
+                "<li><a href='/assets/contents/mtg01_minutes.pdf'>第1回 議事要旨</a></li>"
+                "</ul></main></body></html>"
+            ).encode("utf-8")
+
+            pages_map = {
+                "/councils/meetings": index_html,
+                "/councils/shingikai": "<html><body><main><h1>審議会</h1></main></body></html>".encode("utf-8"),
+                "/councils/test": council_html,
+            }
+
+            def fake_page_fetcher(url, if_modified_since=""):
+                if url not in pages_map:
+                    return check_updates.FetchResponse(status=404, error="Not Found")
+                return check_updates.FetchResponse(
+                    status=200, body=pages_map[url],
+                    last_modified="2026-05-01T00:00:00+00:00", fetched_at="2026-11-27T00:00:00+00:00",
+                )
+
+            out = update.run_update(
+                agency_id="cfa",
+                repo=repo,
+                skip_pdf=True,
+                interval=0,
+                page_fetcher=fake_page_fetcher,
+            )
+            self.assertTrue(out.ok, out.error)
+
+            # 抽出テキストをローカルに配置して texts.csv を作成
+            roster_url = "https://www.cfa.go.jp/assets/contents/roster.pdf"
+            minutes_url = "https://www.cfa.go.jp/assets/contents/mtg01_minutes.pdf"
+            roster_txt = ag.data_dir / "text" / "assets" / "contents" / "roster.txt"
+            minutes_txt = ag.data_dir / "text" / "assets" / "contents" / "mtg01_minutes.txt"
+            roster_txt.parent.mkdir(parents=True, exist_ok=True)
+            roster_txt.write_text(
+                "テスト会議 構成員名簿\n令和8年4月1日現在\n"
+                "◎山田 太郎 〇〇大学教授\n"
+                "鈴木 花子 △△研究所研究員\n"
+                "佐藤 次郎 □□市長\n",
+                encoding="utf-8",
+            )
+            minutes_txt.write_text(
+                "第1回 テスト会議 議事要旨\n"
+                "日時：令和8年5月1日（金）10:00～12:00\n"
+                "場所：こども家庭庁会議室\n"
+                "出席者：山田 太郎（座長）、鈴木 花子、佐藤 次郎\n"
+                "議題：基本方針について\n",
+                encoding="utf-8",
+            )
+            import extract_text
+            extract_text.write_csv(ag.data_dir / "texts.csv", [
+                {
+                    "url": roster_url,
+                    "text": roster_txt.relative_to(repo).as_posix(),
+                    "pages": "1",
+                    "chars": "60",
+                    "sha256": "aaa111",
+                    "note": "",
+                    "release_url": "",
+                },
+                {
+                    "url": minutes_url,
+                    "text": minutes_txt.relative_to(repo).as_posix(),
+                    "pages": "1",
+                    "chars": "90",
+                    "sha256": "bbb222",
+                    "note": "",
+                    "release_url": "",
+                },
+            ])
+
+            # 1) ローカル .txt ありで build → parsed_texts.json が生成される
+            b1 = build_db.build(
+                councils_path=ag.councils_csv,
+                manifest=ag.pages_manifest,
+                root=ag.raw_pages_dir,
+                texts=ag.data_dir / "texts.csv",
+                repo=repo,
+                base_url=ag.base_url,
+                hosts=tuple(ag.hosts),
+            )
+            self.assertGreaterEqual(len(b1.members), 3)
+            self.assertEqual(len(b1.attendance), 3)
+            self.assertEqual(b1.meetings[0]["date"], "2026-05-01")
+            self.assertTrue((ag.data_dir / "parsed_texts.json").exists())
+
+            # 2) upload_texts_bundle で Release 退避＆ローカル .txt 削除
+            uploaded = []
+
+            def fake_runner(cmd, **kwargs):
+                if cmd[:3] == ["gh", "release", "view"]:
+                    return subprocess.CompletedProcess(cmd, 0)
+                if cmd[:3] == ["gh", "release", "upload"]:
+                    with tarfile.open(cmd[4], "r:gz") as tf:
+                        uploaded.extend(tf.getnames())
+                return subprocess.CompletedProcess(cmd, 0)
+
+            arch = archive_pdfs.upload_texts_bundle(
+                texts_csv=ag.data_dir / "texts.csv",
+                text_dir=ag.data_dir / "text",
+                repo=repo,
+                tag="cfa-texts-2026-backfill",
+                agency_name=ag.name,
+                repo_slug="tsuji-y/shingikai",
+                chunk_id="c001",
+                cleanup_local=True,
+                runner=fake_runner,
+            )
+            self.assertEqual(len(arch), 2)
+            self.assertEqual(sorted(uploaded), ["assets/contents/mtg01_minutes.txt", "assets/contents/roster.txt"])
+            self.assertFalse(roster_txt.exists())
+            self.assertFalse(minutes_txt.exists())
+
+            # 3) ローカル .txt 削除後も parsed_texts.json から完全同一の表が再構築されること
+            b2 = build_db.build(
+                councils_path=ag.councils_csv,
+                manifest=ag.pages_manifest,
+                root=ag.raw_pages_dir,
+                texts=ag.data_dir / "texts.csv",
+                repo=repo,
+                base_url=ag.base_url,
+                hosts=tuple(ag.hosts),
+            )
+            self.assertEqual(b2.members, b1.members)
+            self.assertEqual(b2.attendance, b1.attendance)
+            self.assertEqual(b2.meetings, b1.meetings)
+
+            # 4) catalog.csv / catalog.jsonl / data/all/index.json に text_release_url が反映されること
+            build_db.write_csv(ag.data_dir / "meetings.csv", build_db.MEETING_FIELDS, b2.meetings)
+            build_db.write_csv(ag.data_dir / "documents.csv", build_db.DOCUMENT_FIELDS, b2.documents)
+            cat_rows = build_index.build_agency_catalog(ag, write=True)
+            by_url = {r["url"]: r for r in cat_rows}
+            self.assertIn("cfa-texts-2026-backfill", by_url[minutes_url]["text_release_url"])
+            self.assertIn("cfa-texts-2026-backfill", by_url[roster_url]["text_release_url"])
+            idx = build_index.build_all_index(repo=repo, write=True)
+            self.assertEqual(idx["totals"]["texts_archived"], 2)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -49,7 +49,7 @@
 | `data/<agency>/attendance.csv` | 各回の出席者（1 人 1 行） |
 | `data/<agency>/persons.csv` | 省庁内の委員・有識者の人物表 |
 | `data/<agency>/documents.csv` | 資料・議事録・名簿等へのリンク（WARP 移動耐性用の `doc_key` 付き） |
-| `data/<agency>/texts.csv`、`data/<agency>/text/` | PDF から抽出した本文テキストと台帳 |
+| `data/<agency>/texts.csv`、`data/<agency>/parsed_texts.json` | PDF・下位 HTML から抽出した本文テキストの台帳（`release_url` 付き）と構造化解析キャッシュ。`data/mod/text/` は Git 管理、他 15 省庁の `.txt` 本体は GitHub Releases（`<agency>-texts-*`）へ圧縮保管 |
 | `data/<agency>/events.csv` | 表の差分から機械的に記録した更新イベント（追記のみ） |
 | `data/<agency>/members_history.csv` | 委員名簿が変わる前のスナップショット（時点付き） |
 | `raw/<agency>/pages.csv`、`raw/<agency>/pages/` | 取得した HTML の台帳（`content_sha256` 含む）と生バイト列 |
@@ -64,12 +64,12 @@
 | `mod/update.py` | 更新チェック→表再構築→下位 HTML 取得→PDF 取得・抽出→回帰検査・イベント・索引更新を 1 コマンドで実行する（`--agency <id>` 対応） |
 | `mod/fetch_subpages.py` | `documents.csv` 上の同一省庁下位 HTML を取得し、本文テキスト抽出（`data/<agency>/text/`）と内包 PDF リンク発見を行う |
 | `mod/fetch_files.py` | `documents.csv` 上の PDF（議事録・配布資料すべて）を取得・差し替え照合する（`--agency <id>`、`--since-year`/`--until-year` 対応） |
-| `mod/archive_pdfs.py` | 取得済み PDF・下位 HTML 原本を GitHub Releases（月別 / 800MB シャード tar.gz）へ保管し、`release_url` を記録する |
+| `mod/archive_pdfs.py` | 取得済み PDF・下位 HTML 原本および抽出テキスト（`mod` 以外）を GitHub Releases（月別 / 800MB シャード tar.gz）へ保管し、`release_url` を記録する |
 | `mod/backfill.py` | 過去分の下位 HTML・議事録 PDF・配布資料 PDF をチャンク分割・中断再開可能で一括バックフィルする |
 | `mod/extract_text.py` | PDF から本文を抽出する（`--agency <id>` 対応） |
 | `mod/pages.py`、`mod/minutes.py`、`mod/persons.py`、`mod/build_db.py` | HTML・PDF 議事要旨・名簿 PDF の構造化と人物名寄せ（`--agency <id>` 対応） |
 | `mod/llm/` | Gemini による補完（画像 PDF 文字起こし・出席者補完・資料要約・変更検討メモ・30 件評価） |
-| `tests/` | `python3 -m unittest discover -s tests`（80 テスト） |
+| `tests/` | `python3 -m unittest discover -s tests`（82 テスト） |
 
 `mod/` ディレクトリ名は最初に構築した防衛省（Ministry of Defense）に由来し、全 16 省庁共通のパイプラインとして動作する（`--agency` 省略時の既定値は `mod`）。基本のコードは Python 標準ライブラリのみで、PDF の本文抽出（`extract_text.py`）に `requirements.txt`（pdfminer.six）、Gemini 処理（`mod/llm/`）に `requirements-llm.txt`（google-genai）を使う。
 
@@ -115,7 +115,7 @@ python3 mod/backfill.py --agency mhlw --since-year 2024 --until-year 2026 --arch
 
 ### 日次更新（全 16 省庁 Matrix・配布資料 PDF 含む）
 
-`.github/workflows/update.yml` は `plan` → `update-agency`（省庁別 Matrix、全 16 省庁並列・`fail-fast: false`）→ `finalize`（単一 commit・横断集計・通知 Issue・失敗時 `exit 1`）の 3 ジョブ構成で動作し、全 16 省庁で議事録・議事要旨・名簿に加え配布資料 PDF と下位 HTML も収集し、月別 Release（`<agency>-pdfs-YYYY-MM` / `<agency>-html-YYYY-MM`）へ原本を保管する。
+`.github/workflows/update.yml` は `plan` → `update-agency`（省庁別 Matrix、全 16 省庁並列・`fail-fast: false`）→ `finalize`（単一 commit・横断集計・通知 Issue・失敗時 `exit 1`）の 3 ジョブ構成で動作し、全 16 省庁で議事録・議事要旨・名簿に加え配布資料 PDF と下位 HTML も収集し、月別 Release（`<agency>-pdfs-YYYY-MM` / `<agency>-html-YYYY-MM` / `<agency>-texts-YYYY-MM`）へ原本・テキストを保管する（`mod` のテキストは引き続き Git に保持）。
 
 ```bash
 python3 mod/update.py --agency mod --dry-run                 # 防衛省の変更確認のみ（--agency 省略時は mod）

@@ -77,9 +77,9 @@ def print_status(repo: Path = REPO, *, since_year: int = 0, until_year: int = 0)
     if since_year or until_year:
         yr_label = f" (years: {since_year or ''}..{until_year or ''})"
     print(f"=== Backfill Status{yr_label} ===")
-    print(f"{'ag':7s} {'name':10s} | {'subHTML(done/rem)':>18s} | {'allPDF(done/rem)':>18s} | {'archivedPDF':>11s} | {'texts':>6s}")
-    print("-" * 82)
-    tot_sh_done = tot_sh_rem = tot_pdf_done = tot_pdf_rem = tot_arch = tot_txt = 0
+    print(f"{'ag':7s} {'name':10s} | {'subHTML(done/rem)':>18s} | {'allPDF(done/rem)':>18s} | {'archPDF':>7s} | {'texts(arch/tot)':>15s}")
+    print("-" * 90)
+    tot_sh_done = tot_sh_rem = tot_pdf_done = tot_pdf_rem = tot_arch = tot_txt = tot_txt_arch = 0
     for aid, ag in all_ags.items():
         sp_done_rows = fetch_subpages.read_manifest(ag.subpages_manifest)
         sp_done = sum(1 for r in sp_done_rows.values() if r.get("sha256"))
@@ -97,18 +97,20 @@ def print_status(repo: Path = REPO, *, since_year: int = 0, until_year: int = 0)
         )
         pdf_rem = len(fetch_files.select_targets(pdf_urls, files_rows, files_dir=ag.raw_files_dir))
 
-        texts_csv = ag.data_dir / "texts.csv"
-        n_txt = sum(1 for r in build_index._read_csv(texts_csv) if r.get("text"))
+        texts_rows = [r for r in build_index._read_csv(ag.data_dir / "texts.csv") if r.get("text")]
+        n_txt = len(texts_rows)
+        n_txt_arch = sum(1 for r in texts_rows if r.get("release_url"))
 
-        print(f"{aid:7s} {ag.name:10s} | {sp_done:7d} / {sp_rem:<8d} | {pdf_done:7d} / {pdf_rem:<8d} | {pdf_arch:11d} | {n_txt:6d}")
+        print(f"{aid:7s} {ag.name:10s} | {sp_done:7d} / {sp_rem:<8d} | {pdf_done:7d} / {pdf_rem:<8d} | {pdf_arch:7d} | {n_txt_arch:6d} / {n_txt:<6d}")
         tot_sh_done += sp_done
         tot_sh_rem += sp_rem
         tot_pdf_done += pdf_done
         tot_pdf_rem += pdf_rem
         tot_arch += pdf_arch
         tot_txt += n_txt
-    print("-" * 82)
-    print(f"{'TOTAL':7s} {'全16省庁':10s} | {tot_sh_done:7d} / {tot_sh_rem:<8d} | {tot_pdf_done:7d} / {tot_pdf_rem:<8d} | {tot_arch:11d} | {tot_txt:6d}")
+        tot_txt_arch += n_txt_arch
+    print("-" * 90)
+    print(f"{'TOTAL':7s} {'全16省庁':10s} | {tot_sh_done:7d} / {tot_sh_rem:<8d} | {tot_pdf_done:7d} / {tot_pdf_rem:<8d} | {tot_arch:7d} | {tot_txt_arch:6d} / {tot_txt:<6d}")
 
 
 def run_agency_backfill(
@@ -134,6 +136,7 @@ def run_agency_backfill(
     now = datetime.now(timezone.utc)
     pdf_tag = f"{ag.release_tag_prefix}-{now.year}-backfill"
     html_tag = f"{ag.html_release_tag_prefix}-{now.year}-backfill"
+    text_tag = f"{ag.text_release_tag_prefix}-{now.year}-backfill"
     max_shard_bytes = max_shard_mb * 1024 * 1024
 
     chunk_no = 0
@@ -149,6 +152,7 @@ def run_agency_backfill(
 
             stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ") + f"-c{chunk_no:03d}"
             worked = False
+            rebuilt = False
 
             # 1. 下位 HTML 取得（テキスト抽出 + 内包 PDF 発見）
             if chunk_html > 0:
@@ -168,6 +172,7 @@ def run_agency_backfill(
                 total_html += len(sp_res.saved)
                 if not dry_run and sp_res.saved:
                     _rebuild_agency_tables(ag)
+                    rebuilt = True
 
             # 2. 全種別 PDF 取得（議事録・議事要旨・名簿・配布資料・報告書などすべて、WARP 除く）
             if chunk_pdf > 0 and (ag.data_dir / "documents.csv").exists():
@@ -202,8 +207,9 @@ def run_agency_backfill(
                         total_extracted += n_ext
                         worked = True
                         _rebuild_agency_tables(ag)
+                        rebuilt = True
 
-            # 3. GitHub Releases へシャード圧縮退避 & ローカル削除
+            # 3. GitHub Releases へシャード圧縮退避 & ローカル削除（mod 以外のテキストも退避）
             if archive and not dry_run:
                 archived_pdfs = archive_pdfs.upload_baseline_bundle(
                     manifest=ag.files_manifest,
@@ -223,11 +229,31 @@ def run_agency_backfill(
                     chunk_id=stamp,
                     cleanup_local=cleanup_local,
                 )
-                if archived_pdfs or archived_html:
+                archived_texts: list[tuple[str, str]] = []
+                if ag.agency_id != "mod" and (ag.data_dir / "texts.csv").exists():
+                    # ローカルテキストを退避削除する前に必ず parsed_texts.json を最新化する
+                    if not rebuilt and any(
+                        r.get("text") and not r.get("release_url") and (repo / r["text"]).is_file()
+                        for r in build_index._read_csv(ag.data_dir / "texts.csv")
+                    ):
+                        _rebuild_agency_tables(ag)
+                        rebuilt = True
+                    archived_texts = archive_pdfs.upload_texts_bundle(
+                        texts_csv=ag.data_dir / "texts.csv",
+                        text_dir=ag.data_dir / "text",
+                        repo=repo,
+                        tag=text_tag,
+                        agency_name=ag.name,
+                        max_shard_bytes=max_shard_bytes,
+                        chunk_id=stamp,
+                        cleanup_local=cleanup_local,
+                    )
+                if archived_pdfs or archived_html or archived_texts:
                     worked = True
                     print(
                         f"[{ag.agency_id}] Release 退避: PDF {len(archived_pdfs)} 件 ({pdf_tag}) / "
-                        f"下位HTML {len(archived_html)} 件 ({html_tag})",
+                        f"下位HTML {len(archived_html)} 件 ({html_tag}) / "
+                        f"テキスト {len(archived_texts)} 件 ({text_tag})",
                         flush=True,
                     )
 

@@ -16,10 +16,18 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import ssl
 import sys
 import time
 import urllib.error
 import urllib.request
+
+try:
+    import truststore  # type: ignore
+
+    truststore.inject_into_ssl()
+except Exception:
+    pass
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from email.utils import format_datetime, parsedate_to_datetime
@@ -202,7 +210,8 @@ def fetch(url: str, max_bytes: int = MAX_BYTES, *, if_modified_since: str = "",
             row["note"] = e.reason or ""
             return row, None
         except (urllib.error.URLError, TimeoutError, OSError) as e:
-            if attempt < len(retry_backoff):
+            is_ssl = isinstance(e, ssl.SSLError) or isinstance(getattr(e, "reason", None), ssl.SSLError)
+            if not is_ssl and attempt < len(retry_backoff):
                 time.sleep(retry_backoff[attempt])
                 continue
             row["status"], row["note"] = "error", str(getattr(e, "reason", e))

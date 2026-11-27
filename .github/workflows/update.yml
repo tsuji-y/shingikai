@@ -180,6 +180,9 @@ jobs:
             if [ -f "raw/${AG}/subpages.csv" ]; then
               python3 mod/archive_pdfs.py --agency "$AG" --subpages --monthly --chunk-id "$CHUNK_ID" --cleanup-local
             fi
+            if [ -f "data/${AG}/texts.csv" ] && [ "$AG" != "mod" ]; then
+              python3 mod/archive_pdfs.py --agency "$AG" --texts --monthly --chunk-id "$CHUNK_ID" --cleanup-local
+            fi
             python3 mod/build_index.py --agency "$AG"
 
             # 変更・追加されたファイルだけを最小アーティファクトとして退避（rss_items.csv は除外）

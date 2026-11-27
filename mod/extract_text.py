@@ -25,7 +25,7 @@ FILES_MANIFEST = REPO / "raw" / "mod" / "files.csv"
 TEXT_DIR = REPO / "data" / "mod" / "text"
 TEXTS = REPO / "data" / "mod" / "texts.csv"
 DOCUMENTS = REPO / "data" / "mod" / "documents.csv"
-FIELDS = ["url", "text", "pages", "chars", "sha256", "note"]
+FIELDS = ["url", "text", "pages", "chars", "sha256", "note", "release_url"]
 FIRST = ("議事録", "議事要旨", "議事次第", "名簿")  # 出席者・開催日の読み取りに使うものを先に処理する
 
 
@@ -59,9 +59,10 @@ def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(".tmp")
     with tmp.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n")
+        writer = csv.DictWriter(f, fieldnames=FIELDS, lineterminator="\n", extrasaction="ignore")
         writer.writeheader()
-        writer.writerows(sorted(rows, key=lambda r: r["url"]))
+        for r in sorted(rows, key=lambda r: r["url"]):
+            writer.writerow({field: r.get(field, "") for field in FIELDS})
     tmp.replace(path)
 
 
@@ -96,7 +97,7 @@ def main() -> int:
     for i, r in enumerate(todo, 1):
         url = r["url"]
         src = files_dir.joinpath(*url_parts(url))
-        row = {"url": url, "text": "", "pages": "", "chars": "0", "sha256": r["sha256"], "note": ""}
+        row = {"url": url, "text": "", "pages": "", "chars": "0", "sha256": r["sha256"], "note": "", "release_url": ""}
         started = time.time()
         try:
             raw = extract_text(str(src))
