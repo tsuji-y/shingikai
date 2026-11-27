@@ -1,15 +1,15 @@
 meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
-singi_kinyu/base_tousin#9,singi_kinyu/base_tousin,,9,,2000-12-21,平成12年12月21日,,,,,,1,link,/singi/singi_kinyu/base_tousin.html
-singi_zidousya/zid_base#152,singi_zidousya/zid_base,,152,,,,,,,,,1,link,/singi/singi_zidousya/zid_base.html
-ai_forum#2,ai_forum,,2,「金融庁 AI官民フォーラム」（第２回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251024.html,53,page,/singi/ai_forum/gijiyoshi/20251024.html /singi/ai_forum/siryou/20250912.html
+singi_kinyu/base_tousin#9,singi_kinyu/base_tousin,,9,,2000-12-21,平成12年12月21日,,,,,,6,link,/singi/singi_kinyu/base_tousin.html
+singi_zidousya/zid_base#152,singi_zidousya/zid_base,,152,,,,,,,,,2,link,/singi/singi_zidousya/zid_base.html
+ai_forum#2,ai_forum,,2,「金融庁 AI官民フォーラム」（第２回）議事要旨,2018-06-22,2018年6月22日,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251024.html,610,page+pdf,/singi/ai_forum/gijiyoshi/20251024.html /singi/ai_forum/siryou/20250912.html
 ai_forum#3,ai_forum,,3,「金融庁 AI官民フォーラム」（第３回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251112.html,53,page,/singi/ai_forum/gijiyoshi/20251112.html /singi/ai_forum/siryou/20251028.html
 ai_forum#4,ai_forum,,4,「金融庁 AI官民フォーラム」（第４回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20260122.html,53,page,/singi/ai_forum/gijiyoshi/20260122.html /singi/ai_forum/siryou/20251218.html
-stewardship#1,stewardship,,1,,,,,,,,,2,link,/singi/stewardship/index.html
-stewardship#2,stewardship,,2,,,,,,,,,2,link,/singi/stewardship/index.html
-stewardship#3,stewardship,,3,,,,,,,,,2,link,/singi/stewardship/index.html
-stewardship#4,stewardship,,4,,,,,,,,,2,link,/singi/stewardship/index.html
-stewardship#5,stewardship,,5,,,,,,,,,2,link,/singi/stewardship/index.html
-stewardship#6,stewardship,,6,,,,,,,,,2,link,/singi/stewardship/index.html
+stewardship#1,stewardship,,1,,2013-08-06,平成25年8月6日(火曜日)16時00分~17時00分,16:00-17:00,,中央合同庁舎第7号館13階 共用第一特別会議室 ○油布企業開示課長 それでは、お時間になりました。皆さんおそろいでございます。,,,7,link+pdf,/singi/stewardship/index.html
+stewardship#2,stewardship,,2,,2013-09-18,平成25年9月18日(水)15時00分~17時00分,15:00-17:00,,中央合同庁舎第7号館13階 共用第一特別会議室 ○神作座長 ただいまより日本版スチュワードシップ・コードに関する有識者検討会(第2回)会合を開催いたします。皆様、ご多忙のところご参集いただきましてまことにありがとうございます。,,,8,link+pdf,/singi/stewardship/index.html
+stewardship#3,stewardship,,3,,2013-10-18,平成25年10月18日(金)15時00分~17時00分,15:00-17:00,,中央合同庁舎第7号館13階 共用第一特別会議室 ○神作座長 それでは、定刻となりましたので、ただいまより日本版スチュワードシップ・コードに関する有識者検討会(第3回)会合を開催いたします。皆様、ご多忙のところご参集いただきましてまことにありがとうございます。,,,6,link+pdf,/singi/stewardship/index.html
+stewardship#4,stewardship,,4,,2013-11-27,平成25年11月27日(水)9時00分~11時00分,09:00-11:00,,中央合同庁舎第7号館13階 共用第一特別会議室 ○神作座長 おはようございます。ただいまより日本版スチュワードシップ・コードに関する有識者検討会(第4回)会合を開催いたします。皆様、ご多忙のところご参集いただきましてまことにありがとうございます。,,,11,link+pdf,/singi/stewardship/index.html
+stewardship#5,stewardship,,5,,2013-12-26,平成25年12月26日(木)14時00分~14時30分,14:00-14:30,,中央合同庁舎第7号館13階 共用第一特別会議室 ○神作座長 それでは、定刻となりましたので、ただいまより日本版スチュワードシップ・コードに関する有識者検討会(第5回)会合を開催いたします。年末のお忙しいところ、皆様におかれましては、ご参集いただきまして、まことにありがとうございます。,,,3,link+pdf,/singi/stewardship/index.html
+stewardship#6,stewardship,,6,,2014-02-26,平成26年2月26日(水)16時30分~17時30分,16:30-17:30,,中央合同庁舎第7号館13階 共用第一特別会議室 ○神作座長 ただいまより、日本版スチュワードシップ・コードに関する有識者検討会(第6回)会合を開催いたします。皆様、ご多忙のところご参集いただきまして、まことにありがとうございます。,,,8,link+pdf,/singi/stewardship/index.html
 japan_corporate_governance_forum#1,japan_corporate_governance_forum,,1,,,,,,,,,1,link,/singi/japan_corporate_governance_forum/index.html
 japan_corporate_governance_forum#3,japan_corporate_governance_forum,,3,,,,,,,,,1,link,/singi/japan_corporate_governance_forum/index.html
 japan_corporate_governance_forum#4,japan_corporate_governance_forum,,4,,,,,,,,,1,link,/singi/japan_corporate_governance_forum/index.html
@@ -27,44 +27,44 @@ transition_finance#5,transition_finance,,5,「トランジション・ファイ�
 transition_finance#6,transition_finance,,6,「トランジション・ファイナンス環境整備検討会」 （第６回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20221205.html,53,page,/singi/transition_finance/gijiyousi/20221205.html /singi/transition_finance/siryou/20221205.html
 transition_finance#7,transition_finance,,7,「トランジション・ファイナンス環境整備検討会」 （第７回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20230221.html,54,page,/singi/transition_finance/gijiyousi/20230221.html /singi/transition_finance/siryou/20230221.html
 transition_finance#8,transition_finance,,8,「トランジション・ファイナンス環境整備検討会」 （第８回）議事次第,,,,,,,https://www.fsa.go.jp/singi/transition_finance/siryou/20230324.html,50,page,/singi/transition_finance/siryou/20230324.html
-transition_finance#9,transition_finance,,9,「トランジション・ファイナンス環境整備検討会」 （第９回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20240301.html,55,page,/singi/transition_finance/gijiyousi/20240301.html /singi/transition_finance/siryou/20240301.html
-transition_finance#10,transition_finance,,10,「トランジション・ファイナンス環境整備検討会」 （第10回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20240716.html,53,page,/singi/transition_finance/gijiyousi/20240716.html /singi/transition_finance/siryou/20240716.html
-transition_finance#11,transition_finance,,11,「トランジション・ファイナンス環境整備検討会」 （第11回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20250124.html,57,page,/singi/transition_finance/gijiyousi/20250124.html /singi/transition_finance/siryou/20250124.html
+transition_finance#9,transition_finance,,9,「トランジション・ファイナンス環境整備検討会」 （第９回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20240301.html,56,page,/singi/transition_finance/gijiyousi/20240301.html /singi/transition_finance/siryou/20240301.html
+transition_finance#10,transition_finance,,10,「トランジション・ファイナンス環境整備検討会」 （第10回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20240716.html,56,page,/singi/transition_finance/gijiyousi/20240716.html /singi/transition_finance/siryou/20240716.html
+transition_finance#11,transition_finance,,11,「トランジション・ファイナンス環境整備検討会」 （第11回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20250124.html,58,page,/singi/transition_finance/gijiyousi/20250124.html /singi/transition_finance/siryou/20250124.html
 transition_finance#12,transition_finance,,12,「トランジション・ファイナンス環境整備検討会」 （第12回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20250728.html,54,page,/singi/transition_finance/gijiyousi/20250728.html /singi/transition_finance/siryou/20250805.html
 transition_finance#13,transition_finance,,13,「トランジション・ファイナンス環境整備検討会」 （第13回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20260227.html,54,page,/singi/transition_finance/gijiyousi/20260227.html /singi/transition_finance/siryou/20260216.html
 transition_finance#14,transition_finance,,14,「トランジション・ファイナンス環境整備検討会」 （第14回）：議事要旨,,,,,,,https://www.fsa.go.jp/singi/transition_finance/gijiyousi/20260821.html,53,page,/singi/transition_finance/gijiyousi/20260821.html /singi/transition_finance/siryou/20260821.html
-sustainable_finance#30,sustainable_finance,,30,,,,,,,,,1,link,/singi/sustainable_finance/index.html
-singi_trouble#3,singi_trouble,,3,,,,,,,,,1,link,/singi/singi_trouble/index.html
-kyouikukenkyukaitou/kenkyukai#1,kyouikukenkyukaitou/kenkyukai,,1,,2012-11-08,平成24年11月8日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kyouikukenkyukaitou/kenkyukai#2,kyouikukenkyukaitou/kenkyukai,,2,,2012-11-27,平成24年11月27日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kyouikukenkyukaitou/kenkyukai#3,kyouikukenkyukaitou/kenkyukai,,3,,2012-12-05,平成24年12月5日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kyouikukenkyukaitou/kenkyukai#4,kyouikukenkyukaitou/kenkyukai,,4,,2013-01-29,平成25年1月29日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kyouikukenkyukaitou/kenkyukai#5,kyouikukenkyukaitou/kenkyukai,,5,,2013-02-27,平成25年2月27日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kyouikukenkyukaitou/kenkyukai#6,kyouikukenkyukaitou/kenkyukai,,6,,2013-03-22,平成25年3月22日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kyouikukenkyukaitou/kenkyukai#7,kyouikukenkyukaitou/kenkyukai,,7,,2013-04-17,平成25年4月17日,,,,,,1,link,/singi/kyouikukenkyukaitou/kenkyukai.html
-kan-min#2,kan-min,,2,,2013-05-13,平成25年5月13日,,,,,,1,link,/singi/kan-min/index.html
-kan-min#3,kan-min,,3,,2014-03-27,平成26年3月27日,,,,,,1,link,/singi/kan-min/index.html
-singi_keizai_kyouiku/keizai_kyouiku#1,singi_keizai_kyouiku/keizai_kyouiku,,1,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_keizai_kyouiku/keizai_kyouiku#2,singi_keizai_kyouiku/keizai_kyouiku,,2,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_keizai_kyouiku/keizai_kyouiku#3,singi_keizai_kyouiku/keizai_kyouiku,,3,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_keizai_kyouiku/keizai_kyouiku#4,singi_keizai_kyouiku/keizai_kyouiku,,4,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_keizai_kyouiku/keizai_kyouiku#5,singi_keizai_kyouiku/keizai_kyouiku,,5,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+sustainable_finance#30,sustainable_finance,,30,,,,,,,,,3,link,/singi/sustainable_finance/index.html
+singi_trouble#3,singi_trouble,,3,,,,,,,,,3,link,/singi/singi_trouble/index.html
+kyouikukenkyukaitou/kenkyukai#1,kyouikukenkyukaitou/kenkyukai,,1,,2012-11-08,平成24年11月8日,,,,,,6,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#2,kyouikukenkyukaitou/kenkyukai,,2,,2012-11-27,平成24年11月27日,,,,,,7,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#3,kyouikukenkyukaitou/kenkyukai,,3,,2012-12-05,平成24年12月5日,,,,,,4,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#4,kyouikukenkyukaitou/kenkyukai,,4,,2013-01-29,平成25年1月29日,,,,,,6,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#5,kyouikukenkyukaitou/kenkyukai,,5,,2013-02-27,平成25年2月27日,,,,,,4,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#6,kyouikukenkyukaitou/kenkyukai,,6,,2013-03-22,平成25年3月22日,,,,,,4,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kyouikukenkyukaitou/kenkyukai#7,kyouikukenkyukaitou/kenkyukai,,7,,2013-04-17,平成25年4月17日,,,,,,3,link,/singi/kyouikukenkyukaitou/kenkyukai.html
+kan-min#2,kan-min,,2,,2013-05-13,平成25年5月13日,,,,,,5,link,/singi/kan-min/index.html
+kan-min#3,kan-min,,3,,2014-03-27,平成26年3月27日,,,,,,4,link,/singi/kan-min/index.html
+singi_keizai_kyouiku/keizai_kyouiku#1,singi_keizai_kyouiku/keizai_kyouiku,,1,,,,,,,,,4,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#2,singi_keizai_kyouiku/keizai_kyouiku,,2,,,,,,,,,4,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#3,singi_keizai_kyouiku/keizai_kyouiku,,3,,,,,,,,,6,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#4,singi_keizai_kyouiku/keizai_kyouiku,,4,,,,,,,,,6,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#5,singi_keizai_kyouiku/keizai_kyouiku,,5,,,,,,,,,2,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
 singi_keizai_kyouiku/keizai_kyouiku#6,singi_keizai_kyouiku/keizai_kyouiku,,6,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_keizai_kyouiku/keizai_kyouiku#7,singi_keizai_kyouiku/keizai_kyouiku,,7,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_keizai_kyouiku/keizai_kyouiku#8,singi_keizai_kyouiku/keizai_kyouiku,,8,,,,,,,,,1,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
-singi_hyoutei/singi_hyoutei#2,singi_hyoutei/singi_hyoutei,,2,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#3,singi_hyoutei/singi_hyoutei,,3,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#4,singi_hyoutei/singi_hyoutei,,4,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#5,singi_hyoutei/singi_hyoutei,,5,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#6,singi_hyoutei/singi_hyoutei,,6,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#7,singi_hyoutei/singi_hyoutei,,7,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#8,singi_hyoutei/singi_hyoutei,,8,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#9,singi_hyoutei/singi_hyoutei,,9,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#10,singi_hyoutei/singi_hyoutei,,10,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#11,singi_hyoutei/singi_hyoutei,,11,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#12,singi_hyoutei/singi_hyoutei,,12,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#13,singi_hyoutei/singi_hyoutei,,13,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#14,singi_hyoutei/singi_hyoutei,,14,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
-singi_hyoutei/singi_hyoutei#15,singi_hyoutei/singi_hyoutei,,15,,,,,,,,,1,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_keizai_kyouiku/keizai_kyouiku#7,singi_keizai_kyouiku/keizai_kyouiku,,7,,,,,,,,,5,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_keizai_kyouiku/keizai_kyouiku#8,singi_keizai_kyouiku/keizai_kyouiku,,8,,,,,,,,,13,link,/singi/singi_keizai_kyouiku/keizai_kyouiku.html
+singi_hyoutei/singi_hyoutei#2,singi_hyoutei/singi_hyoutei,,2,,,,,,,,,4,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#3,singi_hyoutei/singi_hyoutei,,3,,,,,,,,,3,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#4,singi_hyoutei/singi_hyoutei,,4,,,,,,,,,4,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#5,singi_hyoutei/singi_hyoutei,,5,,,,,,,,,7,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#6,singi_hyoutei/singi_hyoutei,,6,,,,,,,,,3,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#7,singi_hyoutei/singi_hyoutei,,7,,,,,,,,,8,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#8,singi_hyoutei/singi_hyoutei,,8,,,,,,,,,6,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#9,singi_hyoutei/singi_hyoutei,,9,,,,,,,,,9,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#10,singi_hyoutei/singi_hyoutei,,10,,,,,,,,,9,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#11,singi_hyoutei/singi_hyoutei,,11,,,,,,,,,4,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#12,singi_hyoutei/singi_hyoutei,,12,,,,,,,,,2,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#13,singi_hyoutei/singi_hyoutei,,13,,,,,,,,,2,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#14,singi_hyoutei/singi_hyoutei,,14,,,,,,,,,4,link,/singi/singi_hyoutei/singi_hyoutei.html
+singi_hyoutei/singi_hyoutei#15,singi_hyoutei/singi_hyoutei,,15,,,,,,,,,2,link,/singi/singi_hyoutei/singi_hyoutei.html
 singi_zeisei/si_zeisei#1,singi_zeisei/si_zeisei,,1,,2003-10-24,平成15年10月24日,,,,,,1,link,/singi/singi_zeisei/si_zeisei.html
 index#1,index,,1,「AI等の健全な利活用の推進に関する研究会」（第１回） 議事次第,,,,,,,https://www.fsa.go.jp/singi/ai_2026/shiryou/20261124.html,51,page,/singi/ai_2026/shiryou/20261124.html

@@ -299,3 +299,351 @@ meeting_id,council_id,group,seq,name_raw,surname,role,person_id,person_basis,sou
 1/kanbou_houkyo_kyougikai_index#19,1/kanbou_houkyo_kyougikai_index,"委員,敬称略・50音順",12,吉崎佳弥,,,吉崎佳弥,full_name,https://www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
 1/kanbou_houkyo_kyougikai_index#19,1/kanbou_houkyo_kyougikai_index,司法法制部,13,中川深雪参事官,,,,,https://www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
 1/kanbou_houkyo_kyougikai_index#19,1/kanbou_houkyo_kyougikai_index,司法法制部,14,大谷太部付,,,,,https://www.moj.go.jp/shingi1/kanbou_houkyo_kyougikai_gaiyou19.html
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,1,○ 法 務 省 大 臣 官 房 司 法 法 制 部萩 本 修 司 法 法 制 部 長,,,,,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,2,西 山 卓 爾 司 法 法 制 課 長,,,,,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,3,鈴 木 昭 洋 司 法 法 制 部 参 事 官松 本 朗 司 法 法 制 部 部 付 兼 官 房 付○ 文 部 科 学 省義 本 博 司 大 臣 官 房 審 議 官 ( 高 等 教 育 局 担 当 ),,,,,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,4,北 山 浩 士 高 等 教 育 局 専 門 教 育 課 長○ 最 高 裁 判 所門 田 友 昌 事 務 総 局 審 議 官,,,,,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,5,森 健 二 事 務 総 局 総 務 局 参 事 官○ 日 本 弁 護 士 連 合 会伊 藤 茂 昭 副 会 長,森健二事務総局総務局参事官○日本弁護士連合会伊藤茂昭副,会長,shihouseido/housei10_00116:森健二事務総局総務局参事官○日本弁護士連合会伊藤茂昭副,surname_only,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,6,三 宅 弘 副 会 長,三宅弘副,会長,shihouseido/housei10_00116:三宅弘副,surname_only,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,7,吉 岡 毅 事 務 次 長,,,,,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#1,shihouseido/housei10_00116,,8,戸 田 綾 美 事 務 次 長道 あ ゆ み 事 務 次 長,,,,,https://www.moj.go.jp/content/001176835.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部萩本修司法法制部長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,,2,西山卓爾司法法制課長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,,3,鈴木昭洋司法法制部参事官,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,,4,松本朗司法法制部部付兼官房付,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,5,義本博司大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,6,北山浩士高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,7,塩田剛志高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,8,森健二事務総局総務局参事官○ 日本弁護士連合会伊藤茂昭副会長,森健二事務総局総務局参事官○,会長,shihouseido/housei10_00116:森健二事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,9,三宅弘副会長,三宅弘副,会長,shihouseido/housei10_00116:三宅弘副,surname_only,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,10,藤本卓司副会長,藤本卓司副,会長,shihouseido/housei10_00116:藤本卓司副,surname_only,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,11,吉岡毅事務次長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,12,戸田綾美事務次長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,13,道あゆみ事務次長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,14,二川裕之事務次長○ 法科大学院協会大貫裕之専務理事,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#2,shihouseido/housei10_00116,文部科学省,15,松下淳一事務局長,,,,,https://www.moj.go.jp/content/001179374.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部萩本修司法法制部長,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,,2,西山卓爾司法法制課長,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,,3,鈴木昭洋司法法制部参事官,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,,4,松本朗司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,5,義本博司大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,6,北山浩士高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,7,塩田剛志高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,8,森健二事務総局総務局参事官○ 日本弁護士連合会鈴木克昌副会長,森健二事務総局総務局参事官○,会長,shihouseido/housei10_00116:森健二事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,9,吉岡毅事務次長,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,10,道あゆみ事務次長○ 内閣官房副長官補室平光信隆内閣参事官○ 内閣官房内閣人事局徳満純一企画官,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,文部科学省,11,麻山晃邦企画調整官○ 人事院池本武広人材局企画課長,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,総務省,12,東善博自治行政局公務員部公務員課長補佐,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,厚生労働省,13,田中健太郎社会・援護局総務課長補佐,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,厚生労働省,14,曽根直樹障害部障害福祉課専門官高橋都子老健局振興課地域包括ケア推進官,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,消費者庁,15,加納克利消費者制度課長○ 全国知事会角田秀夫調査第一部長○ 全国市長会乾隆朗行政部長○ 全国町村会河野功副部長,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#3,shihouseido/housei10_00116,消費者庁,16,大田裕章総務部法務支援室長○ 東京都町田市,,,,,https://www.moj.go.jp/content/001183437.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部萩本修司法法制部長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,,2,西山卓爾司法法制課長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,,3,鈴木昭洋司法法制部参事官,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,,4,松本朗司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,,5,中保秀隆司法法制部付,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,6,義本博司大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,7,浅野敦行高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,8,塩田剛志高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,9,森健二事務総局総務局参事官○ 日本弁護士連合会小林元治副会長,森健二事務総局総務局参事官○,会長,shihouseido/housei10_00116:森健二事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,10,早稲田祐美子副会長,早稲田祐美子副,会長,shihouseido/housei10_00116:早稲田祐美子副,surname_only,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,11,中村隆副会長,中村隆副,会長,shihouseido/housei10_00116:中村隆副,surname_only,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,12,吉岡毅事務次長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,13,戸田綾美事務次長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,14,道あゆみ事務次長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,15,二川裕之事務次長○ 法科大学院協会大貫裕之専務理事,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#4,shihouseido/housei10_00116,文部科学省,16,松下淳一事務局長,,,,,https://www.moj.go.jp/content/001204931.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小山太士司法法制部長,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,,2,佐伯恒治司法法制課長,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,,4,松本朗司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,5,義本博司大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,6,浅野敦行高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,7,塩田剛志高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,8,岩井一真事務総局総務局参事官○ 日本弁護士連合会小林元治副会長,岩井一真事務総局総務局参事官○,会長,shihouseido/housei10_00116:岩井一真事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,9,水中誠三副会長,水中誠三副,会長,shihouseido/housei10_00116:水中誠三副,surname_only,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,10,早稲田祐美子副会長,早稲田祐美子副,会長,shihouseido/housei10_00116:早稲田祐美子副,surname_only,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,文部科学省,11,道あゆみ事務次長○ 内閣官房内閣人事局麻山晃邦企画調整官○ 人事院岩崎敏人材局企画課長,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,外務省,12,加藤喜久子国際法局国際裁判対策室長,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,消費者庁,13,加納克利消費者制度課長○ 全国知事会遠藤勝彦調査第一部長○ 全国市長会乾隆朗行政部長○ 全国町村会菅原力総務部長,,,,,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#5,shihouseido/housei10_00116,消費者庁,14,大田裕章総務部法務支援室長○ 日本経済団体連合会長谷川雅巳経済基盤本部副本部長○ 経済同友会中島美砂子政策調査部担当部長○ 経営法友会藤井豊久研究部会運営委員,大田裕章総務部法務支援室長○日本経済団体連合会長谷川雅巳経済基盤本部副本部長○経済同友会中島美砂子政策調査部担当部長○経営法友会藤井豊久研究部会運営,委員,shihouseido/housei10_00116:大田裕章総務部法務支援室長○日本経済団体連合会長谷川雅巳経済基盤本部副本部長○経済同友会中島美砂子政策調査部担当部長○経営法友会藤井豊久研究部会運営,surname_only,https://www.moj.go.jp/content/001209720.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小山太士司法法制部長,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,,2,佐伯恒治司法法制課長,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,,4,松本朗司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,5,浅田和伸大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,6,浅野敦行高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,7,大月光康高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,8,岩井一真事務総局総務局参事官○ 日本弁護士連合会小林元治副会長,岩井一真事務総局総務局参事官○,会長,shihouseido/housei10_00116:岩井一真事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,9,早稲田祐美子副会長,早稲田祐美子副,会長,shihouseido/housei10_00116:早稲田祐美子副,surname_only,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,10,水中誠三副会長,水中誠三副,会長,shihouseido/housei10_00116:水中誠三副,surname_only,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,11,中村隆副会長,中村隆副,会長,shihouseido/housei10_00116:中村隆副,surname_only,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,12,道あゆみ事務次長,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,13,二川裕之事務次長,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,14,五十嵐康之事務次長○ 法科大学院協会大貫裕之専務理事,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#6,shihouseido/housei10_00116,文部科学省,15,松下淳一事務局長,,,,,https://www.moj.go.jp/content/001220622.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小山太士司法法制部長,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,,2,佐伯恒治司法法制課長,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,,4,松本朗司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,5,大月光康高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,6,岩井一真事務総局総務局参事官○ 日本弁護士連合会伊東卓副会長,岩井一真事務総局総務局参事官○,会長,shihouseido/housei10_00116:岩井一真事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,7,池田桂子副会長,池田桂子副,会長,shihouseido/housei10_00116:池田桂子副,surname_only,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,8,道あゆみ事務次長鹿野真美弁護士(日弁連高齢者・障害者権利支援センター委員,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,9,東京弁護士会所属),,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,10,山田治彦弁護士(貧困問題対策本部委員,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,11,大阪弁護士会所属),,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,12,小野順子弁護士(法律サービス展開本部委員・貧困問題対策本部委員,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,文部科学省,13,大阪弁護士会所属),,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,総務省,14,中井麻祐子自治行政局公務員部公務員課長補佐,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,厚生労働省,15,熊坂洋三社会・援護局総務課長補佐○ 全国知事会遠藤勝彦調査第一部長○ 全国町村会菅原力総務部長○ 千葉県流山市帖佐直美総務部総務課政策法務室長○ 大阪府箕面市教育委員会木村均子ども未来創造局担当部長○ 日本組織内弁護士協会木内秀行理事○ 法科大学院協会大貫裕之専務理事,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#7,shihouseido/housei10_00116,厚生労働省,16,松下淳一事務局長,,,,,https://www.moj.go.jp/content/001227892.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小出邦夫司法法制部長,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,,2,吉川崇司法法制課長,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,,3,松本朗司法法制部付兼官房付兼秘書課付,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,4,瀧本寛大臣官房審議官(高大接続・高等教育局担当),,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,5,松永賢誕高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,6,大月光康高等教育局専門教育課専門職大学院室長○ 最高裁判所門田友昌事務総局審議官,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,7,岩井一真事務総局総務局参事官○ 日本弁護士連合会渕上玲子副会長,岩井一真事務総局総務局参事官○,会長,shihouseido/housei10_00116:岩井一真事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,8,吉岡康祐副会長,吉岡康祐副,会長,shihouseido/housei10_00116:吉岡康祐副,surname_only,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,9,田村智幸副会長,田村智幸副,会長,shihouseido/housei10_00116:田村智幸副,surname_only,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,10,道あゆみ事務次長,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,11,二川裕之事務次長,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,12,五十嵐康之事務次長○ 法科大学院協会松下淳一常務理事,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#8,shihouseido/housei10_00116,文部科学省,13,髙橋真弓事務局次長,,,,,https://www.moj.go.jp/content/001238685.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小出邦夫司法法制部長,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,,2,吉川崇司法法制課長,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,,4,松本朗司法法制部付兼官房付兼秘書課付,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,文部科学省,5,瀧本寛大臣官房審議官(高大接続・高等教育局担当),,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,文部科学省,6,松永賢誕高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,文部科学省,7,大月光康高等教育局専門教育課専門職大学院室長○ 最高裁判所石井伸興事務総局審議官,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,文部科学省,8,岩井一真事務総局総務局参事官○ 日本弁護士連合会伊東卓副会長,岩井一真事務総局総務局参事官○,会長,shihouseido/housei10_00116:岩井一真事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,文部科学省,9,髙﨑玄太朗事務次長,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,経済産業省,10,北村敦司経済産業政策局競争環境整備室長○ 日本経済団体連合会長谷川雅巳経済基盤本部副本部長○ 経済同友会中島美砂子政策調査部調査役○ 日本商工会議所清水繁産業政策第一部産業経済担当課長○ 経営法友会藤井豊久総務部会幹事○ 日本組織内弁護士協会木内秀行理事○ 法科大学院協会大貫裕之理事長,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#9,shihouseido/housei10_00116,経済産業省,11,石田京子事務局長○ 住友電気工業株式会社山本崇晶執行役員 法務部長○ メットライフ生命保険株式会社平田千佳執行役常務 チーフリーガルオフィサー○ 名取法律事務所,,,,,https://www.moj.go.jp/content/001254786.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小出邦夫司法法制部長,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,,2,吉川崇司法法制課長,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,,4,唐澤英城司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,5,瀧本寛大臣官房審議官(高大接続・高等教育局担当),,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,6,内藤敏也高等教育局主任大学改革官,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,7,松永賢誕高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,8,大月光康高等教育局専門教育課専門職大学院室長○ 最高裁判所石井伸興事務総局審議官,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,9,佐藤隆幸事務総局総務局参事官○ 日本弁護士連合会笠井直人副会長,佐藤隆幸事務総局総務局参事官○,会長,shihouseido/housei10_00116:佐藤隆幸事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,10,小田清和副会長,小田清和副,会長,shihouseido/housei10_00116:小田清和副,surname_only,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,11,太田賢二副会長,太田賢二副,会長,shihouseido/housei10_00116:太田賢二副,surname_only,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,12,正木靖子副会長,正木靖子副,会長,shihouseido/housei10_00116:正木靖子副,surname_only,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,13,五十嵐康之事務次長,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,14,武内大徳事務次長○ 法科大学院協会大貫裕之理事長,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,15,片山直也専務理事,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#10,shihouseido/housei10_00116,文部科学省,16,石田京子事務局長,,,,,https://www.moj.go.jp/content/001263144.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部小出邦夫司法法制部長,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,,2,福原道雄司法法制課長,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,,4,川副万代司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,5,森晃憲大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,6,小幡泰弘高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,7,大月光康高等教育局専門教育課専門職大学院室長○ 最高裁判所石井伸興事務総局審議官,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,8,内田哲也事務総局総務局参事官○ 日本弁護士連合会篠塚力副会長,内田哲也事務総局総務局参事官○,会長,shihouseido/housei10_00116:内田哲也事務総局総務局参事官○,surname_only,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,9,関谷文隆副会長,関谷文隆副,会長,shihouseido/housei10_00116:関谷文隆副,surname_only,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,10,難波幸一副会長,難波幸一副,会長,shihouseido/housei10_00116:難波幸一副,surname_only,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,11,小早川龍司副会長,小早川龍司副,会長,shihouseido/housei10_00116:小早川龍司副,surname_only,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,12,武内大徳事務次長,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,13,永塚良知事務次長○ 法科大学院協会大貫裕之理事長,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#12,shihouseido/housei10_00116,文部科学省,14,石田京子事務局長,,,,,https://www.moj.go.jp/content/001298905.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部金子修司法法制部長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,,2,福原道雄司法法制課長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,,3,藤田正人司法法制部参事官,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,,4,川副万代司法法制部付兼官房付,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,文部科学省,5,森晃憲大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,文部科学省,6,浅野敦行初等中等教育局初等中等教育企画課長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,文部科学省,7,黄地吉隆高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,文部科学省,8,西川由香高等教育局専門教育課専門職大学院室長○ 最高裁判所吉岡大地事務総局総務局参事官○ 日本弁護士連合会平沢郁子副会長,西川由香高等教育局専門教育課専門職大学院室長○最高裁判所吉岡大地事務総局総務局参事官○日本弁護士連合会平沢郁子副,会長,shihouseido/housei10_00116:西川由香高等教育局専門教育課専門職大学院室長○最高裁判所吉岡大地事務総局総務局参事官○日本弁護士連合会平沢郁子副,surname_only,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,文部科学省,9,奥国範事務次長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,10,柳史生子ども家庭局家庭福祉課虐待防止対策推進室室長補佐,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,11,○ 全国知事会(川島正治調査第一部長),○,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,12,○ 全国市長会(内村義和行政部長),○,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,13,○ 全国町村会(直江史彦総務部長),○,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,14,○ 日本組織内弁護士協会,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,15,梅田康宏副理事長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,16,○ 法科大学院協会,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,17,石田京子事務局長,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,18,○ 弁護士法人淀屋橋・山上合同,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,19,渡邊徹弁護士,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,20,○ 小坂法律事務所,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,21,小坂昌司弁護士,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,22,○ 新潟市総務部・児童相談所,,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#13,shihouseido/housei10_00116,厚生労働省,23,小林美和副参事(弁護士),,,,,https://www.moj.go.jp/content/001312789.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,法務省(大臣官房),1,渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,法務省(大臣官房),2,赤羽史子官房付兼人事課試験管理官,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),3,吉田光成専門教育課長,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),4,西川由香専門教育課専門職大学院室長○ 最高裁判所(事務総局総務局),,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),5,清藤健一総括参事官,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),6,岡大地参事官○ 日本弁護士連合会岡田理樹副会長,岡大地参事官○,会長,shihouseido/housei10_00116:岡大地参事官○,surname_only,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),7,冨田秀実副会長,冨田秀実副,会長,shihouseido/housei10_00116:冨田秀実副,surname_only,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),8,舩木孝和副会長,舩木孝和副,会長,shihouseido/housei10_00116:舩木孝和副,surname_only,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),9,佐熊真紀子事務次長,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),10,永塚良知事務次長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#14,shihouseido/housei10_00116,文部科学省(高等教育局),11,石田京子事務局長,,,,,https://www.moj.go.jp/content/001333391.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,,2,川副万代司法法制部参事官,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,,3,菊地英理子司法法制部部付,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,,4,二宮正一郎司法法制部部付,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,文部科学省,5,佐々木邦彦高等教育局専門教育課専門職大学院室室長○ 最高裁判所川山泰弘総務局兼人事局企画官○ 日本弁護士連合会佐熊真紀子事務次長,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,文部科学省,6,谷眞人司法調査室室長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,文部科学省,7,松下淳一専務理事,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#15,shihouseido/housei10_00116,文部科学省,8,石田京子事務局長,,,,,https://www.moj.go.jp/content/001370648.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,,2,渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,文部科学省,3,里見朋香高等教育局審議官,,,,,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,文部科学省,4,佐々木邦彦高等教育局専門教育課専門職大学院室室長○ 最高裁判所清藤健一総務局総括参事官,,,,,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,文部科学省,5,川山泰弘総務局兼人事局企画官○ 日本弁護士連合会神田安積副会長,川山泰弘総務局兼人事局企画官○,会長,shihouseido/housei10_00116:川山泰弘総務局兼人事局企画官○,surname_only,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,文部科学省,6,岩﨑淳司副会長,岩﨑淳司副,会長,shihouseido/housei10_00116:岩崎淳司副,surname_only,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,文部科学省,7,服部千鶴事務次長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#16,shihouseido/housei10_00116,文部科学省,8,石田京子事務局長,,,,,https://www.moj.go.jp/content/001368250.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部竹内努司法法制部長,,,,,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,,2,加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,,3,渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,文部科学省,4,佐々木邦彦高等教育局専門教育課専門職大学院室室長○ 最高裁判所清藤健一総務局総括参事官○ 日本弁護士連合会神田安積副会長,佐々木邦彦高等教育局専門教育課専門職大学院室室長○最高裁判所清藤健一総務局総括参事官○日本弁護士連合会神田安積副,会長,shihouseido/housei10_00116:佐々木邦彦高等教育局専門教育課専門職大学院室室長○最高裁判所清藤健一総務局総括参事官○日本弁護士連合会神田安積副,surname_only,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,文部科学省,5,岩﨑淳司副会長,岩﨑淳司副,会長,shihouseido/housei10_00116:岩崎淳司副,surname_only,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,文部科学省,6,服部千鶴事務次長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#17,shihouseido/housei10_00116,文部科学省,7,石田京子事務局長,,,,,https://www.moj.go.jp/content/001368302.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部竹内努司法法制部長,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,,2,加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,,3,渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,,4,小林隼人司法法制部参事官,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,5,西條正明大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,6,塩田剛志高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,7,森下平高等教育局専門教育課専門職大学院室長○ 最高裁判所川山泰弘事務総局総務局兼人事局企画官○ 日本弁護士連合会伊井和彦副会長,森下平高等教育局専門教育課専門職大学院室長○最高裁判所川山泰弘事務総局総務局兼人事局企画官○日本弁護士連合会伊井和彦副,会長,shihouseido/housei10_00116:森下平高等教育局専門教育課専門職大学院室長○最高裁判所川山泰弘事務総局総務局兼人事局企画官○日本弁護士連合会伊井和彦副,surname_only,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,8,蜂須賀太郎副会長,蜂須賀太郎副,会長,shihouseido/housei10_00116:蜂須賀太郎副,surname_only,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,9,林晃史副会長,林晃史副,会長,shihouseido/housei10_00116:林晃史副,surname_only,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,10,石井邦尚事務次長,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,11,服部千鶴事務次長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,12,松下淳一専務理事,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#18,shihouseido/housei10_00116,文部科学省,13,石田京子事務局長○ 経営法友会藤井豊久幹事○ 日本組織内弁護士協会吉武信子副理事長○ 日本商工会議所小島和明産業政策第一部副部長○ 三井物産株式会社高野雄市執行役員・法務部長,,,,,https://www.moj.go.jp/content/001377094.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部竹内努司法法制部長,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,,2,加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,,3,渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,,4,中野浩一司法法制部参事官,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,文部科学省,5,西條正明大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,文部科学省,6,森下平高等教育局専門教育課専門職大学院室長○ 最高裁判所川山泰弘事務総局総務局兼人事局企画官○ 日本弁護士連合会服部千鶴事務次長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,文部科学省,7,松下淳一専務理事,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#19,shihouseido/housei10_00116,文部科学省,8,石田京子事務局長○ 学習院大学経済学部経営学科守島基博教授,,,,,https://www.moj.go.jp/content/001382537.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部竹内努司法法制部長,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,,2,加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,,3,渡邊英夫司法法制部参事官,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,,4,中野浩一司法法制部参事官,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,5,西條正明大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,6,森下平高等教育局専門教育課専門職大学院室長○ 最高裁判所清藤健一総務局総括参事官,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,7,川山泰弘総務局兼人事局企画官○ 日本弁護士連合会林晃史副会長,川山泰弘総務局兼人事局企画官○,会長,shihouseido/housei10_00116:川山泰弘総務局兼人事局企画官○,surname_only,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,8,多川一成副会長,多川一成副,会長,shihouseido/housei10_00116:多川一成副,surname_only,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,9,服部千鶴事務次長○ 法科大学院協会片山直也理事長,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,10,石田京子事務局長○ 日本公認会計士協会鶴田光夫副会長,石田京子事務局長○,会長,shihouseido/housei10_00116:石田京子事務局長○,surname_only,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#20,shihouseido/housei10_00116,文部科学省,11,荒川進 CSR 本部 本部長,,,,,https://www.moj.go.jp/content/001388117.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部坂本三郎司法法制部長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,,2,加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,,3,石田佳世子司法法制部参事官,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,,4,奥村寿行大臣官房付,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,5,梅原弘史高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,6,保坂孝高等教育局専門教育課専門職大学院室長○ 最高裁判所榎本光宏総務局総括参事官,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,7,綿引朋子総務局兼人事局企画官○ 日本弁護士連合会小川淳副会長,綿引朋子総務局兼人事局企画官○,会長,shihouseido/housei10_00116:綿引朋子総務局兼人事局企画官○,surname_only,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,8,宇加治恭子副会長,宇加治恭子副,会長,shihouseido/housei10_00116:宇加治恭子副,surname_only,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,9,中村新造事務次長○ 法科大学院協会松下淳一理事長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,10,石田京子専務理事,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,文部科学省,11,磯部哲事務局長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,総務省,12,鎌倉静香自治行政局公務員部公務員課長補佐,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,厚生労働省,13,中野智之社会・援護局総務課課長補佐○ 全国知事会西川亨調査第一部長○ 全国市長会向山秀昭行政部長○ 全国町村会黒田治臣総務部副部長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,厚生労働省,14,笹岡峻法務支援室長○ 日本組織内弁護士協会幸田宏理事○ 熊本市田中伸太郎総務局行政管理部法制課長,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#21,shihouseido/housei10_00116,厚生労働省,15,戸澤角充こども局児童相談所長○ 一般社団法人生活困窮者自立支援全国ネットワーク事務局長社会福祉法人グリーンコープ顧問生活再生事業推進室長行岡みち子氏,,,,,https://www.moj.go.jp/content/001405344.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部坂本三郎司法法制部長,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,,2,加藤経将司法法制課長,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,,3,石田佳世子 司法法制部参事官,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,,4,奥村寿行大臣官房付,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,5,西條正明大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,6,保坂孝高等教育局専門教育課専門職大学院室長○ 最高裁判所榎本光宏総務局総括参事官,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,7,綿引朋子総務局兼人事局企画官○ 日本弁護士連合会小川恵司副会長,綿引朋子総務局兼人事局企画官○,会長,shihouseido/housei10_00116:綿引朋子総務局兼人事局企画官○,surname_only,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,8,宇加治恭子副会長,宇加治恭子副,会長,shihouseido/housei10_00116:宇加治恭子副,surname_only,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,9,籔内正樹事務次長○ 法科大学院協会松下淳一理事長,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,10,石田京子専務理事,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,文部科学省,11,磯部哲事務局長,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,厚生労働省,12,佐々木康輔医政局医事課医師養成等企画調整室長,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#22,shihouseido/housei10_00116,厚生労働省,13,錦泰司医政局医事課医師臨床研修推進室長,,,,,https://www.moj.go.jp/content/001415405.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部松井信憲司法法制部長,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,,2,早渕宏毅司法法制課長,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,,3,石田佳世子司法法制部参事官,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,,4,奥村寿行大臣官房付,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,5,奥野真大臣官房審議官(高等教育局及び科学技術政策連携担当),,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,6,梅原弘史高等教育局専門教育課長,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,7,保坂孝高等教育局専門教育課専門職大学院室長○ 最高裁判所榎本光宏事務総局総務局総括参事官,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,8,綿引朋子事務総局総務局企画官○ 日本弁護士連合会伊藤倫文副会長,綿引朋子事務総局総務局企画官○,会長,shihouseido/housei10_00116:綿引朋子事務総局総務局企画官○,surname_only,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,9,中村新造事務次長,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,10,籔内正樹事務次長○ 法科大学院協会石田京子専務理事,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#23,shihouseido/housei10_00116,文部科学省,11,磯部哲事務局長○ 経営法友会守田達也総務部会幹事○ 日本商工会議所小島和明産業政策第一部副部長○ 日本組織内弁護士協会吉武信子副理事長○ ベンチャーラボ法律事務所 弁護士日本弁護士連合会中小企業の国際業務の法的支援に関するワーキンググループ 座長淵邊善彦氏○ 日本貿易振興機構(ジェトロ)課長代理グローバル Biz 専門職大学 教授石川雅啓氏○ 弁護士法人樋口国際法律事務所 弁護士樋口一磨氏,,,,,https://www.moj.go.jp/content/001422599.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部松井信憲司法法制部長,,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,,2,早渕宏毅司法法制課長,,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,,3,石田佳世子司法法制部参事官,,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,,4,奥村寿行大臣官房付,,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,文部科学省,5,奥野真大臣官房審議官(高等教育局担当),,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,文部科学省,6,遠藤翼高等教育局専門教育課専門職大学院室長○ 最高裁判所綿引朋子総務局兼人事局企画官○ 日本弁護士連合会市川正司副会長,遠藤翼高等教育局専門教育課専門職大学院室長○最高裁判所綿引朋子総務局兼人事局企画官○日本弁護士連合会市川正司副,会長,shihouseido/housei10_00116:遠藤翼高等教育局専門教育課専門職大学院室長○最高裁判所綿引朋子総務局兼人事局企画官○日本弁護士連合会市川正司副,surname_only,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,文部科学省,7,上田智司副会長,上田智司副,会長,shihouseido/housei10_00116:上田智司副,surname_only,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,文部科学省,8,伊藤倫文副会長○ 法科大学院協会石田京子専務理事,,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#24,shihouseido/housei10_00116,文部科学省,9,磯部哲事務局長,,,,,https://www.moj.go.jp/content/001434853.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部内野宗揮司法法制部長,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,,2,神渡史仁司法法制課長,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,,3,石田佳世子 司法法制部参事官,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,,4,岡田陽一大臣官房付,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,5,遠藤翼高等教育局専門教育課専門職大学院室長○ 最高裁判所長田雅之事務総局総務局総括参事官,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,6,遠藤安希歩事務総局 総務局企画官兼人事局企画官○ 日本弁護士連合会森本宏副会長,遠藤安希歩事務総局総務局企画官兼人事局企画官○日本弁護士連合会森本宏副,会長,shihouseido/housei10_00116:遠藤安希歩事務総局総務局企画官兼人事局企画官○日本弁護士連合会森本宏副,surname_only,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,7,佐藤昭彦副会長,佐藤昭彦副,会長,shihouseido/housei10_00116:佐藤昭彦副,surname_only,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,8,西森やよい副会長,西森やよい副,会長,shihouseido/housei10_00116:西森やよい副,surname_only,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,9,三浦繁樹事務次長,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,10,籔内正樹事務次長,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,11,吉岡毅インハウスキャリアサポートセンターセンター長,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,12,日弁連中小企業法律支援センター委員○ 法科大学院協会石田京子専務理事,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,13,磯部哲事務局長,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#25,shihouseido/housei10_00116,文部科学省,14,柴田憲司事務局次長○ 経営法友会守田達也総務部会幹事○ 日本商工会議所小島和明産業政策第一部副部長○ 日本組織内弁護士協会坂本英之理事長○ 株式会社サティスファクトリー代表取締役小松武司氏○ 日弁連中小企業法律支援センター副本部長土森俊秀氏,,,,,https://www.moj.go.jp/content/001448149.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,,1,○ 法務省大臣官房司法法制部内野宗揮司法法制部長,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,,2,神渡史仁司法法制課長,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,,3,甲元雅之司法法制部参事官,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,4,大土井智大臣官房審議官(高等教育局及び科学技術政策連携担当),,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,5,若林徹高等教育局専門教育課専門職大学院室長○ 最高裁判所長田雅之事務総局総務局総括参事官,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,6,遠藤安希歩事務総局総務局企画官兼人事局企画官○ 日本弁護士連合会二川裕之副会長,遠藤安希歩事務総局総務局企画官兼人事局企画官○,会長,shihouseido/housei10_00116:遠藤安希歩事務総局総務局企画官兼人事局企画官○,surname_only,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,7,河本智子事務次長○ 法科大学院協会笠井正俊理事長,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,8,磯部哲事務局長,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,9,土田伸也事務局長〇 鹿児島大学司法政策教育研究センターセンター長・鹿児島大学学術研究員法文教育学域法文学系教授米田憲市氏〇 江川・篠島法律事務所篠島正幸弁護士〇 Airbnb,,,,,https://www.moj.go.jp/content/001474416.pdf
+shihouseido/housei10_00116#27,shihouseido/housei10_00116,文部科学省,10,Associate General Counsel・日本組織内弁護士協会理事渡部友一郎弁護士,,,,,https://www.moj.go.jp/content/001474416.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,1,○ 令和元年度日本法令外国語訳推進会議構成員阿部博友(座長),,座長,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,2,柏木昇,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,3,久保田隆,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,4,児島幸良,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,5,キャロル・クリスチャン・ジェイコブソン,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,6,田澤元章,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,7,田中優子,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,8,寺田麻佑,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,9,長崎 玲,長崎,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,10,仲谷栄一郎,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,11,坂野維子,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,12,福田守利,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,13,星周一郎,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,14,クリストファー・マーク・ホジェンズ,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,15,松本甚之助,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,16,柳生一成,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#1,hourei-shiryou-hanrei/housei03_00006,,17,若槻絵美,,,,,https://www.moj.go.jp/content/001305719.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,1,○ 令和元年度日本法令外国語訳推進会議構成員阿部博友(座長),,座長,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,2,柏木 昇,柏木,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,3,久保田隆,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,4,児島幸良,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,5,佐藤理恵子,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,6,キャロル・クリスチャン・ジェイコブソン,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,7,田澤元章,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,8,田中優子,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,9,長崎 玲,長崎,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,10,仲谷栄一郎,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,11,福田守利,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,12,藤井香朱美,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,13,クリストファー・マーク・ホジェンズ,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,14,星 周一郎,星,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,15,松本甚之助,,,,,https://www.moj.go.jp/content/001313920.pdf
+hourei-shiryou-hanrei/housei03_00006#2,hourei-shiryou-hanrei/housei03_00006,,16,若槻絵美,,,,,https://www.moj.go.jp/content/001313920.pdf

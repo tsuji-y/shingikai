@@ -1,141 +1,479 @@
 person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meetings,first_date,last_date
-ブローハン聡,ブローハン聡,,full_name,shingikai,shingikai,,一般社団法人コンパスナビ代表理事,0,,
-中村みどり,中村みどり,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,Children's Views & Voices 副代表,0,,
+ブローハン聡,ブローハン聡,,full_name,shingikai shingikai/shakai_katei shingikai/shakai_katei/care-needs,shingikai shingikai/shakai_katei shingikai/shakai_katei/care-needs,,一般社団法人コンパスナビ代表理事,0,,
+ロング朋子,ロング朋子,,full_name,shingikai/shakai_katei/tokubetsu-yoshi,shingikai/shakai_katei/tokubetsu-yoshi,,一般社団法人ベアホープ代表理事,0,,
+三日月大造,三日月 大造,三日月,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,委員,滋賀県知事　全国知事会子ども・子育て政策推進本部本部長,1,2025-08-04,2025-08-04
+三木和平,三木和平,,full_name,workinggroup,workinggroup,,公益社団法人日本精神神経科診療所協会理事,0,,
+三浦,三浦,,full_name,shingikai/kagaku_gijutsu/art,,委員,直 | 清,1,2026-10-07,2026-10-07
+三浦直美,三浦直美,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,日本医学ジャーナリスト協会 幹事,0,,
+三重県,三重県,,full_name,cdr-seidonoarikata,cdr-seidonoarikata,,子ども・福祉部 子どもの育ち支援課 母子保健班 係長,0,,
+上鹿渡和宏,上鹿渡 和宏,上鹿渡,full_name,shingikai shingikai/shakai_katei shingikai/shakai_katei/care-needs shingikai/gyakutai_boushi,shingikai/shakai_katei shingikai/shakai_katei/care-needs shingikai/gyakutai_boushi,委員,早稲田大学人間科学学術院教授,5,2023-04-21,2025-01-23
+両角達平,両角達平,,full_name,youthgroups-research,youthgroups-research,,日本福祉大学 社会福祉学部  講師,0,,
+中島かおり,中島かおり,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,認定 NPO 法人ピッコラーレ代表理事,0,,
+中村みどり,中村みどり,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection shingikai/iken_senmon shingikai/gyakutai_boushi,Judicial-Review-Working-Team-on-Temporary-Protection shingikai/iken_senmon shingikai/gyakutai_boushi,,Children's Views & Voices 副代表 | Children's Views & Voices  副代表,0,,
+中西和代,中西和代,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,株式会社ベネッセクリエイティブワークスたまひよ企画編集局エキスパートエ,0,,
+中込さと子,中込さと子,,full_name,shingikai/kagaku_gijutsu/nipt,shingikai/kagaku_gijutsu/nipt,委員,信州大学医学部保健学科看護学専攻教授,5,2023-05-31,2024-02-21
 丸山純,丸山純,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,公益社団法人全国私立保育連盟常務理事,0,,
+丹羽由香里,丹羽由香里,,full_name,sukoyaka21,sukoyaka21,,岐 阜 県 健 康 福 祉 部   子 ど も ・ 女 性 局,0,,
 久保山茂樹,久保山茂樹,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,独立行政法人国立特別支援教育総合研究所,0,,
-五十嵐隆,五十嵐隆,,full_name,shingikai,shingikai,,国立成育医療研究センター理事長,0,,
+久保野恵美子,久保野恵美子,,full_name,shingikai/shakai_katei shingikai/shakai_katei/tokubetsu-yoshi shingikai/gyakutai_boushi,shingikai/shakai_katei shingikai/shakai_katei/tokubetsu-yoshi shingikai/gyakutai_boushi,,東北大学大学院法学研究科教授,0,,
+久慈直昭,久慈直昭,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,東京医科大学客員教授,2,2026-01-21,2026-02-25
+亀岡智美,亀岡智美,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,公益財団法人ひょうご震災記念 21 世紀研究機構,0,,
+五十嵐克也,五十嵐克也,,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,,日本商工会議所理事・企画調査部長,0,,
+五十嵐隆,五十嵐 隆,五十嵐,full_name,shingikai shingikai/seiiku_iryou,shingikai shingikai/seiiku_iryou,委員 / 会長代理,国立成育医療研究センター理事長 | 国立成育医療研究センター　理事長,6,2023-04-21,2026-01-22
+井上永介,井上永介,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,昭和大学統括研究推進センター教授,4,2026-01-21,2026-10-07
 井上真理子,井上眞理子,,full_name,hoikujinzai shingikai/kodomo_sodachi/hoikushi_shikaku,hoikujinzai shingikai/kodomo_sodachi/hoikushi_shikaku,,洗足こども短期大学科長補佐、教授 | 洗足こども短期大学教授,0,,
-佐藤まゆみ,佐藤まゆみ,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,淑徳大学総合福祉学部教授,0,,
+井本寛子,井本寛子,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,公益社団法人日本看護協会　常任理事,0,,
+井田博幸,井田 博幸,井田,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,,委員,,3,2024-09-30,2026-02-25
+伊藤悦郎,伊藤悦郎,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,健康保険組合連合会  常務理事,0,,
+伊藤次郎,伊藤次郎,,full_name,workinggroup,workinggroup,,ＮＰＯ法人ＯＶＡ代表理事,0,,
+伊藤耕太,伊藤耕太,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,博報堂生活総合研究所  上席研究員,0,,
+伊藤隆一,伊藤隆一,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,公益社団法人日本小児科医会　会長,0,,
+佐々木清子,佐々木清子,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,台東区つばさ福祉会,0,,
+佐保昌一,佐保 昌一,佐保,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,委員,NPO法人全国小規模保育協議会理事　認定NPO法人フローレンス会長,1,2025-08-04,2025-08-04
+佐藤まゆみ,佐藤まゆみ,,full_name,nyuyojinokenkoushinsatou-kentokai shingikai/gyakutai_boushi,nyuyojinokenkoushinsatou-kentokai shingikai/gyakutai_boushi,,淑徳大学総合福祉学部教授 | 淑徳大学総合福祉学部  教授,0,,
 佐藤博樹,佐藤博樹,,full_name,hoikujinzai,hoikujinzai,,東京大学名誉教授,0,,
-倉石哲也,倉石哲也,,full_name,shingikai shingikai/hoiku_senmon,shingikai shingikai/hoiku_senmon,,武庫川女子大学心理・社会福祉学部教授 | 武庫川女子大学心理・社会福祉学部社会福祉学科教授,0,,
-内田由紀子,内田由紀子,,full_name,shingikai/kihon_seisaku,shingikai/kihon_seisaku,,京都大学人と社会の未来研究院　院長・教授,0,,
+佐藤康憲,佐藤康憲,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,東京家庭裁判所 判事,0,,
+佐藤麻衣子,佐藤麻衣子,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,株式会社ウェルスプラン代表取締役,0,,
+倉石哲也,倉石 哲也,倉石,full_name,shingikai shingikai/kodomo_kosodate shingikai/hoiku_senmon shingikai/gyakutai_boushi,shingikai shingikai/hoiku_senmon shingikai/gyakutai_boushi,委員,武庫川女子大学心理・社会福祉学部教授 | 武庫川女子大学心理・社会福祉学部社会福祉学科教授,4,2023-04-21,2026-08-19
+内田勝彦,内田勝彦,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（うちだ  かつひこ）,0,,
+内田恵理子,内田 恵理子,内田,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,国立医薬品食品衛生研究所主任研究官,6,2024-09-30,2026-10-07
+内田由紀子,内田 由紀子,内田,full_name,shingikai/kihon_seisaku,shingikai/kihon_seisaku,委員,京都大学人と社会の未来研究院　院長・教授,2,2025-09-22,2026-02-20
 内田貴,内田貴,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,座長,早稲田大学特命教授・東京大学名誉教授・弁護士,0,,
 内閣府,内閣府,,full_name,kodomonojisatsutaisaku-kaigi,kodomonojisatsutaisaku-kaigi,,孤独・孤立対策推進室長 江浪 武志,0,,
-前田正子,前田正子,,full_name,shingikai child-safety-kyoiku-hoiku,shingikai child-safety-kyoiku-hoiku,座長,甲南大学マネジメント創造学部教授,0,,
+前田正子,前田 正子,前田,full_name,shingikai child-safety-kyoiku-hoiku,shingikai child-safety-kyoiku-hoiku,座長 / 委員,甲南大学マネジメント創造学部教授,4,2023-04-21,2026-01-22
+副島由理,副島由理,,full_name,kodomo-keikaku,,,東京都豊島区子ども家庭部部長,2,2023-11-27,2023-12-26
+加藤,加藤,,full_name,shingikai/kagaku_gijutsu/art,,委員,豊 | 和,2,2026-07-15,2026-10-07
+加藤元博,加藤元博,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,東京大学医学部附属病院小児科 教授,0,,
 加藤泰和,加藤泰和,,full_name,hoikujinzai,hoikujinzai,,特定非営利活動法人全国認定こども園協会副代表理事,0,,
-加藤篤彦,加藤篤彦,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,学校法人吉祥寺学園学園長  初等部部長  第一幼稚部・第二幼稚部部長,0,,
-北野久美,北野久美,,full_name,hoikujinzai shingikai/hoiku_senmon shingikai/kodomo_sodachi/hoikushi_shikaku,hoikujinzai shingikai/hoiku_senmon shingikai/kodomo_sodachi/hoikushi_shikaku,,全国保育士会副会長 | 社会福祉法人愛育会  あけぼの愛育保育園  園長 | 全国保育士会副会長（北九州市  あけぼの愛育保育園園長）,0,,
+加藤篤彦,加藤 篤彦,加藤,full_name,shingikai/kodomo_kosodate shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,委員,学校法人吉祥寺学園学園長  初等部部長  第一幼稚部・第二幼稚部部長,3,2025-08-04,2026-03-18
+勝又浜子,勝又浜子,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,公益社団法人日本看護協会 副会長,0,,
+勝又陽太郎,勝又陽太郎,,full_name,workinggroup,workinggroup,,東京都立大学人文社会学部人間社会学科心理学教室准教授,0,,
+勝見浩行,勝見浩行,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,東京都児童相談センター 人材企画担当課長,0,,
+北川聡子,北川聡子,,full_name,shingikai/shakai_katei/care-needs shingikai/gyakutai_boushi,shingikai/shakai_katei/care-needs shingikai/gyakutai_boushi,,一般社団法人日本ファミリーホーム協議会会長 | 社会福祉法人麦の子会理事長,0,,
+北野久美,北野 久美,北野,full_name,hoikujinzai shingikai/kodomo_kosodate shingikai/hoiku_senmon shingikai/kodomo_sodachi/hoikushi_shikaku,hoikujinzai shingikai/hoiku_senmon shingikai/kodomo_sodachi/hoikushi_shikaku,委員,全国保育士会副会長 | 社会福祉法人愛育会  あけぼの愛育保育園  園長 | 全国保育士会副会長（北九州市  あけぼの愛育保育園園長）,2,2025-10-20,2026-08-19
 升田純,升田純,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,升田純法律事務所弁護士,0,,
-南光開斗,南光開斗,,full_name,shingikai,shingikai,,大学生,0,,
+南光開斗,南光 開斗,南光,full_name,shingikai shingikai/kihon_seisaku,shingikai,委員,大学生,3,2025-04-25,2025-11-27
 厚生労,厚生労,,full_name,kodomonojisatsutaisaku-kaigi,kodomonojisatsutaisaku-kaigi,,働 省 社会・援護局長 日原 知己,0,,
+原田伊織,原田 伊織,原田,full_name,shingikai shingikai/kihon_seisaku,,委員,,16,2023-04-21,2025-01-23
+参考人名,参考人名,,full_name,shingikai/shakai_katei/care-needs,shingikai/shakai_katei/care-needs,,所                    属,0,,
+参考資,参考資,,full_name,sukoyaka21,sukoyaka21,,料 ２,0,,
+古口達也,古口達也,,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,,公益社団法人全国保育サービス協会理事　大阪総合保育大学大学院教授・学長,0,,
+古屋康博,古屋康博,,full_name,shingikai/shakai_katei/care-needs,shingikai/shakai_katei/care-needs,,社会福祉法人清浄園常務理事,0,,
 古田雄一,古田雄一,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,筑波大学人間系助教,0,,
+古賀友晴,古賀友晴,,full_name,workinggroup,workinggroup,,日本労働組合総連合会労働法制局長,0,,
 古賀松香,古賀松香,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,京都教育大学教育学部幼児教育科教授,0,,
+右田佳子,右田佳子,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,川崎市こども未来局南部児童相談所所長,0,,
+吉岡直,吉岡 直,吉岡,full_name,kodomonoiken-guideline,kodomonoiken-guideline,委員,新潟市こども未来部こども政策課 係長（主幹）,1,2023-11-29,2023-11-29
+吉川優子,吉川優子,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,一般社団法人吉川慎之介記念基金　代表理事,0,,
+吉永真理,吉永真理,,full_name,kodomo-keikaku,,,昭和薬科大学薬学部臨床心理学研究室教授,3,2023-11-27,2024-02-14
 吉田伊津美,吉田伊津美,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,東京学芸大学教職大学院教授,0,,
-和田朝美,和田朝美,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,,ＮＰＯ法人家庭的保育全国連絡協議会理事,0,,
+吉田恒雄,吉田恒雄,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,認定 NPO 法人児童虐待防止全国ネットワーク 副理事長,0,,
+吉田正幸,吉田 正幸,吉田,full_name,kigyou-shudou kokoseido-keizokutekimieruka,kokoseido-keizokutekimieruka,座長,株式会社 保育システム研究所 代表,6,2023-10-16,2026-03-16
+和田朝美,和田朝美,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,委員,ＮＰＯ法人家庭的保育全国連絡協議会理事,1,2025-12-24,2025-12-24
+四ヶ所壮汰,四ヶ所壮汰,,full_name,youthgroups-research,youthgroups-research,,全国ユースカウンシル連盟,0,,
+園田三恵,園田三惠,,full_name,kodomo-keikaku,,,滋賀県健康医療福祉部子ども・青少年局局長,3,2023-11-27,2024-02-14
+土井理美,土井理美,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,東京科学大学大学院医歯学総合研究科 助教,0,,
 土崎雄祐,土崎雄祐,,full_name,shingikai/kodomo_ibasho/jidoukan,shingikai/kodomo_ibasho/jidoukan,,全国児童館連絡協議会副会長,0,,
-土肥潤也,土肥潤也,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,宮城県富谷市保健福祉部子育て支援課とみや子育て,0,,
+土肥潤也,土肥 潤也,土肥,full_name,shingikai youthpolicy-expertmeeting shingikai/kihon_seisaku shingikai/iken_senmon,youthpolicy-expertmeeting shingikai/iken_senmon,委員 / 部会長代理,宮城県富谷市保健福祉部子育て支援課とみや子育て | 株式会社 C＆Y パートナーズ  代表取締役,22,2023-04-21,2026-05-08
+坂下多身,坂下多身,,full_name,workinggroup,workinggroup,,一般社団法人日本経済団体連合会労働法制本部統括主幹,0,,
 坂崎隆浩,坂﨑隆浩,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,社会福祉法人清隆厚生会こども園ひがしどおり理事長・園長,0,,
-堀江敦子,堀江敦子,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,スリール株式会社代表取締役,0,,
+堀有喜衣,堀 有喜衣,堀,full_name,shingikai/kihon_seisaku,,委員,,4,2025-09-22,2026-03-30
+堀江敦子,堀江 敦子,堀江,full_name,shingikai shingikai/kihon_seisaku shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,委員,スリール株式会社代表取締役,15,2023-04-21,2025-01-23
 堀江義賢,堀江義賢,,full_name,hoikujinzai,hoikujinzai,,認定こども園連盟事務局長,0,,
 堀科,堀科,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,東京家政大学児童学部児童学科教授,0,,
+増沢高,増沢高,,full_name,shingikai/shakai_katei/jidobaishunhogo shingikai/shakai_katei/care-needs,shingikai/shakai_katei/jidobaishunhogo shingikai/shakai_katei/care-needs,,子どもの虹情報研修センターセンター長 | 社会福祉法人横浜博萌会子どもの虹情報研修センター,0,,
 多田由紀,多田由紀,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,東京農業大学応用生物科学部栄養科学科教授,0,,
+大久保法彦,大久保法彦,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,滋賀県中央子ども家庭相談センター 所長,0,,
+大場亜衣,大場亜衣,,full_name,shingikai/shakai_katei/tokubetsu-yoshi,shingikai/shakai_katei/tokubetsu-yoshi,,社会福祉法人日本国際社会事業団理事,0,,
+大山遥,大山遥,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,公益財団法人全国里親会理事,0,,
 大方美香,大方美香,,full_name,hoikujinzai,hoikujinzai,,大阪総合保育大学、大学院学長、教授,0,,
-大竹智,大竹智,,full_name,shingikai/kodomo_ibasho/jidoukan,shingikai/kodomo_ibasho/jidoukan,座長,立正大学社会福祉学部教授,0,,
-大西薫,大西薫,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,,岐阜聖徳学園大学教育学部准教授,0,,
-大豆生田啓友,大豆生田啓友,,full_name,shingikai shingikai/kodomo_sodachi shingikai/hoiku_senmon,shingikai shingikai/kodomo_sodachi shingikai/hoiku_senmon,座長,玉川大学教育学部教授 | 玉川大学教育学部乳幼児発達学科教授,0,,
-奥山千鶴子,奥山千鶴子,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,ＮＰＯ法人子育てひろば全国連絡協議会専務理事  NPO 法人びーのびーの会長,0,,
+大木秀晃,大木秀晃,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,株式会社 OOAA  代表・クリエイティブディレクター,0,,
+大村美保,大村美保,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（おおむら  みほ）,0,,
+大津和夫,大津和夫,,full_name,workinggroup,workinggroup,,読売新聞東京本社編集局社会部編集委員,0,,
+大石亜希子,大石 亜希子,大石,full_name,shingikai,,委員,,5,2023-04-21,2025-01-23
+大竹智,大竹 智,大竹,full_name,shingikai shingikai/kodomo_ibasho shingikai/kodomo_ibasho/jidoukan,shingikai/kodomo_ibasho shingikai/kodomo_ibasho/jidoukan,座長 / 委員,立正大学社会福祉学部教授 | 立正大学社会福祉学部 教授,4,2023-04-21,2025-01-23
+大西薫,大西薫,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,委員,岐阜聖徳学園大学教育学部准教授,2,2024-01-12,2025-12-24
+大豆生田啓友,大豆生田 啓友,大豆生田,full_name,shingikai shingikai/kodomo_sodachi shingikai/hoiku_senmon,shingikai shingikai/kodomo_sodachi shingikai/hoiku_senmon,座長 / 委員,玉川大学教育学部教授 | 玉川大学教育学部乳幼児発達学科教授,6,2023-04-21,2026-01-22
+大隅有紗,大隅 有紗,大隅,full_name,shingikai shingikai/kihon_seisaku,,委員,,3,2024-10-30,2025-01-23
+大須賀穣,大須賀穣,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,東京大学大学院医学系研究科教授,2,2026-01-21,2026-07-15
+太田聰一,太田 聰一,太田,full_name,shingikai/kihon_seisaku,,委員,,10,2023-06-20,2024-12-20
+奥山千鶴子,奥山 千鶴子,奥山,full_name,sukoyaka21 shingikai/kodomo_kosodate shingikai/kodomo_sodachi,sukoyaka21 shingikai/kodomo_sodachi,委員,ＮＰＯ法人子育てひろば全国連絡協議会専務理事  NPO 法人びーのびーの会長 | N P O 法 人   子 育 て ひ ろ ば 全 国 連 絡 協 議 会 理 事 長,4,2025-08-04,2026-08-19
+奥村春香,奥村春香,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,NPO法人第3の家族 理事長,0,,
+宇地原栄斗,宇地原栄斗,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,NPO法人 Learning for All 子ども支援事業部 エリアマネージャー,0,,
+安原理恵,安原 理恵,安原,full_name,kigyou-shudou,,委員,,3,2024-09-30,2025-10-16
 安達久美子,安達久美子,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,東京都立大学健康福祉学部看護学科教授,0,,
 宍戸常寿,宍戸常寿,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,東京大学大学院法学政治学研究科教授,0,,
+定本ゆきこ,定本 ゆきこ,定本,full_name,shingikai/kihon_seisaku,,委員,,10,2023-05-22,2024-12-20
 宮下友美恵,宮下友美惠,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,一般財団法人全日本私立幼稚園幼児教育研究機構副理事長,0,,
-宮島清,宮島清,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,日本社会事業大学専門職大学院客員教授,0,,
-宮島香澄,宮島香澄,,full_name,shingikai,shingikai,,前  日本テレビ報道局解説委員,0,,
+宮城県,宮城県,,full_name,cdr-seidonoarikata,cdr-seidonoarikata,,亘理町立 荒浜中学校 校長,0,,
+宮島清,宮島清,,full_name,kodomokanren-jujisha shingikai/shakai_katei/jidou_shogu,kodomokanren-jujisha shingikai/shakai_katei/jidou_shogu,,日本社会事業大学専門職大学院客員教授 | 社会福祉士、元日本社会事業大学専門職大学院教授,0,,
+宮島香澄,宮島 香澄,宮島,full_name,shingikai,shingikai,委員,前  日本テレビ報道局解説委員,1,2025-04-25,2025-04-25
+宮本みち子,宮本みち子,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,千葉大学 名誉教授,0,,
+宮田秀利,宮田秀利,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,塙町長,0,,
+宮田裕司,宮田 裕司,宮田,full_name,kokoseido-keizokutekimieruka shingikai/kodomo_kosodate,kokoseido-keizokutekimieruka,委員,ＮＰＯ法人 全国認定こども園協会 理事・政策委員長,4,2025-08-04,2026-08-19
 宮脇正道,宮脇正道,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,鳥取県湯梨浜町長,0,,
+家保英隆,家保英隆,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,高知県健康政策部部長,0,,
+實松尊徳,實松尊徳,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,全国後期高齢者医療広域連合協議会  会長,0,,
+寺尾康子,寺尾 康子,寺尾,full_name,shingikai/kodomo_kosodate,,委員,,3,2025-08-04,2026-03-18
+寺田幸弘,寺田幸弘,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,秋田大学大学院医学系研究科教授,2,2026-01-21,2026-02-25
 小原聖子,小原聖子,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,NPO 法人ゆったりーの事務局,0,,
 小国美也子,小國美也子,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,鎌倉女子大学児童学部子ども心理学科教授,0,,
+小室淑恵,小室 淑恵,小室,full_name,shingikai,,委員,,2,2025-04-25,2026-01-22
 小山佐恵,小山佐恵,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,鳥取県  福祉保健部／子ども家庭部（兼）倉吉保健所,0,,
+小崎健次郎,小崎健次郎,,full_name,shingikai/kagaku_gijutsu/nipt,shingikai/kagaku_gijutsu/nipt,委員,慶應義塾大学医学部臨床遺伝学センター教授,5,2023-05-31,2024-02-21
+小川杏子,小川杏子,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,特定非営利活動法人 パノラマ 子ども事業部 統括,0,,
+小平かやの,小平かやの,,full_name,shingikai/shakai_katei/jidou_shogu,shingikai/shakai_katei/jidou_shogu,,東京都児童相談センター治療指導課長,0,,
 小松孝至,小松孝至,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,大阪教育大学教授,0,,
-小枝達也,小枝達也,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,鳥取県立総合療育センター  院長,0,,
-小泉勇人,小泉勇人,,full_name,shingikai shingikai/kodomo_sodachi,shingikai shingikai/kodomo_sodachi,,株式会社 en's life 代表取締役社長,0,,
+小林司,小林司,,full_name,sukoyaka21,sukoyaka21,,日 本 労 働 組 合 総 連 合 会   総 合 政 策 推 進 局 生 活 福 祉 局,0,,
+小林庸平三菱,小林庸平三菱,,full_name,ebpm-society,ebpm-society,,UFJ リサーチ&コンサルティング株式会社,0,,
+小林真理子,小林真理子,,full_name,shingikai/shougaiji_shien,shingikai/shougaiji_shien,,一般社団法人日本発達障害ネットワーク副理事長,0,,
+小枝達也,小枝達也,,full_name,shingikai/hoiku_senmon shingikai/kagaku_gijutsu,shingikai/hoiku_senmon shingikai/kagaku_gijutsu,,鳥取県立総合療育センター  院長 | 鳥取県立総合療育センター 院長,0,,
+小沢俊昭,小澤俊昭,,full_name,shingikai/shakai_katei/jidou_shogu,shingikai/shakai_katei/jidou_shogu,,山口県立育成学校校長,0,,
+小泉勇人,小泉 勇人,小泉,full_name,shingikai shingikai/kihon_seisaku shingikai/kodomo_sodachi,shingikai shingikai/kodomo_sodachi,委員,株式会社 en's life 代表取締役社長,6,2025-04-25,2026-03-30
+小西郁生,小西郁生,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（こにし  いくお）,0,,
+小野善郎,小野 善郎,小野,full_name,shingikai,,委員,,5,2023-04-21,2025-01-23
 山下真,山下真,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,奈良県知事,0,,
 山中龍宏,山中龍宏,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,緑園こどもクリニック院長・NPO 法人 SafeKidsJapan 顧問,0,,
-山内ゆな,山内ゆな,,full_name,shingikai,shingikai,,JETBOOK 作戦代表,0,,
+山内ゆな,山内 ゆな,山内,full_name,shingikai,shingikai,委員,JETBOOK 作戦代表,2,2025-04-25,2026-01-22
+山内清行,山内 清行,山内,full_name,shingikai/kodomo_kosodate shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,委員,日本商工会議所  企画調査部長,2,2025-10-20,2026-08-19
+山口和浩,山口和浩,,full_name,workinggroup,workinggroup,,ＮＰＯ法人全国自死遺族総合支援センター副理事長,0,,
 山口孝子,山口孝子,,full_name,hoikujinzai,hoikujinzai,,公益社団法人全国私立保育連盟常務理事,0,,
+山口有紗,山口有紗,,full_name,shingikai/shakai_katei/care-needs,shingikai/shakai_katei/care-needs,,子どもの虐待防止センター医師,0,,
 山崎元靖,山崎元靖,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,神奈川県健康医療局医務担当部長,0,,
-山崎篤史,山﨑篤史,,full_name,shingikai/kihon_seisaku,shingikai/kihon_seisaku,,大学生（あしなが育英会奨学生）,0,,
-山縣文治,山縣文治,,full_name,shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai/kodomo_sodachi/hoikushi_shikaku,,全国認定こども園協会副代表理事（こども園ふじ,0,,
-山縣然太朗,山縣然太朗,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,国立成育医療研究センター成育こどもシンクタンク副所長,0,,
+山崎篤史,山﨑 篤史,山﨑,full_name,shingikai/kihon_seisaku,shingikai/kihon_seisaku,委員,大学生（あしなが育英会奨学生）,4,2025-09-22,2026-03-30
+山本潤,山本潤,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,茨城県立医療大学保健医療学部看護学科 助教,0,,
+山本秀樹,山本秀樹,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,公益社団法人日本歯科医師会　常務理事,0,,
+山本龍彦,山本龍彦,,full_name,internet-kaigi,internet-kaigi,,慶應義塾大学大学院法務研究科  教授,0,,
+山田満稔,山田満稔,,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,委員,慶應義塾大学医学部産婦人科学教室 准教授 | 慶応義塾大学医学部専任講師,2,2026-01-21,2026-02-25
+山縣文治,山縣 文治,山縣,full_name,shingikai shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai/kodomo_sodachi/hoikushi_shikaku,委員,全国認定こども園協会副代表理事（こども園ふじ,5,2023-04-21,2025-01-23
+山縣然太朗,山縣 然太朗,山縣,full_name,shingikai nyuyojinokenkoushinsatou-kentokai shingikai/seiiku_iryou,nyuyojinokenkoushinsatou-kentokai shingikai/seiiku_iryou,委員,国立成育医療研究センター成育こどもシンクタンク副所長 | 山梨大学大学院総合研究部医学域社会医学講座　教授,5,2023-04-21,2025-01-23
+山谷信夫,山谷信夫,,full_name,shingikai/gyakutai_boushi,shingikai/gyakutai_boushi,,NPO 法人 Giving Tree  ピアカウンセラー,0,,
+岡崎奈穂子,岡﨑 奈穂子,岡﨑,full_name,shingikai/kodomo_kosodate,,委員,,4,2025-08-04,2026-08-19
+岡明,岡明,,full_name,sukoyaka21,sukoyaka21,,埼 玉 県 立 小 児 医 療 セ ン タ ー   病 院 長,0,,
+岡田優子,岡田優子,,full_name,sukoyaka21,sukoyaka21,,K O D O M O L O G Y 株 式 会 社   戦 略 開 発 チ ー ム リ ー ダ ー,0,,
 岡田吉弘,岡田吉弘,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,広島県三原市長,0,,
 岡田就将,岡田就将,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,国立大学法人東京科学大学大学院医歯学総合研究科政策科学分野教授,0,,
+岩崎香,岩崎香,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（いわさき  かおり）,0,,
+岸原孝昌,岸原孝昌,,full_name,internet-kaigi,internet-kaigi,,（一社）モバイル・コンテンツ・フォーラム 専務理事,0,,
+岸田雪子,岸田 雪子,岸田,full_name,shingikai/kihon_seisaku,,委員,,16,2023-05-22,2026-03-30
 川中大輔,川中大輔,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,関西学院大学人間福祉学部専任講師,0,,
 川出敏裕,川出敏裕,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,東京大学大学院法学政治学研究科教授,0,,
-川松亮,川松亮,,full_name,shingikai,shingikai,,明星大学人文学部常勤教授,0,,
+川村涼太郎,川村涼太郎,,full_name,shingikai/gyakutai_boushi,shingikai/gyakutai_boushi,,一般社団法人 Masterpiece  職員,0,,
+川松亮,川松 亮,川松,full_name,shingikai shingikai/shakai_katei/jidou_shogu shingikai/gyakutai_boushi,shingikai shingikai/shakai_katei/jidou_shogu shingikai/gyakutai_boushi,委員,明星大学人文学部常勤教授 | 明星大学教授,2,2025-04-25,2026-01-22
 川端一光,川端一光,,full_name,shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai/kodomo_sodachi/hoikushi_shikaku,,明治学院大学心理学部教授,0,,
-工藤さほ,工藤さほ,,full_name,shingikai,shingikai,,一般社団法人障がい児及び医療的ケア児を育てる親の会会長,0,,
-平井登威,平井登威,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,大学生、NPO 法人  CoCoTELI  代表,0,,
-志賀口大輔,志賀口大輔,,full_name,hoikujinzai,hoikujinzai,,社会福祉法人日本保育協会前青年部長,0,,
-戸巻聖,戸巻聖,,full_name,hoikujinzai,hoikujinzai,,一般社団法人全国認定こども園連絡協議会会長,0,,
+工藤さほ,工藤 さほ,工藤,full_name,shingikai shingikai/seiiku_iryou,shingikai shingikai/seiiku_iryou,委員,一般社団法人障がい児及び医療的ケア児を育てる親の会会長 | 障がい児及び医療的ケア児を育てる親の会代表,2,2025-04-25,2026-01-22
+平井登威,平井登威,,full_name,shingikai/iken_senmon shingikai/shakai_katei/tokubetsu-yoshi,shingikai/iken_senmon shingikai/shakai_katei/tokubetsu-yoshi,,大学生、NPO 法人  CoCoTELI  代表 | NPO 法人  CoCoTELI 代表,0,,
+平川祥子,平川 祥子,平川,full_name,kigyou-shudou,,委員,,2,2023-10-16,2024-03-26
+平沢郁子,平沢郁子,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（ひらさわ  いくこ）,0,,
+平野啓子,平野 啓子,平野,full_name,shingikai,,委員,,5,2023-04-21,2025-01-23
+広田泰,廣田泰,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,東京大学医学部産婦人科 教授,0,,
+広計,広計,,full_name,workinggroup,workinggroup,,学校法人昭和女子大学理事長,0,,
+後藤亜希子,後藤亜希子,,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,,NPO法人家庭的保育全国連絡協議会副理事長,0,,
+徳倉康之,徳倉 康之,徳倉,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,委員,全国国公立幼稚園・こども園長会会長　目黒区立みどりがおかこども園園長,1,2026-03-18,2026-03-18
+志賀口大輔,志賀口大輔,,full_name,hoikujinzai shingikai/kodomo_kosodate,hoikujinzai shingikai/kodomo_kosodate,,社会福祉法人日本保育協会前青年部長,0,,
+忽那ゆみ代,忽那 ゆみ代,忽那,full_name,kigyou-shudou,,委員,,2,2023-10-16,2024-03-26
+戸巻聖,戸巻 聖,戸巻,full_name,hoikujinzai shingikai/kodomo_kosodate,hoikujinzai,委員,一般社団法人全国認定こども園連絡協議会会長,2,2025-08-04,2026-03-18
+戸田綾美,戸田綾美,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（とだ  あやみ）,0,,
+手代木功,手代木功,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,日本製薬工業協会 副会長,0,,
+手島恒明,手島 恒明,手島,full_name,shingikai/kodomo_kosodate,,委員,,4,2025-08-04,2026-08-19
+掛川亜季,掛川亜季,,full_name,kodomonoiken-guideline,kodomonoiken-guideline,委員,弁護士,1,2023-11-29,2023-11-29
+敬称略,敬称略,,full_name,ebpm-society,,,,4,2023-06-21,2024-03-26
+斎藤梓,斎藤梓,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,上智大学総合人間科学部心理学科 准教授,0,,
+斎藤真緒,斎藤真緒,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,立命館大学 産業社会学部  教授,0,,
+斎藤長行,齋藤長行,,full_name,internet-kaigi,internet-kaigi,,仙台大学体育学部スポーツ情報マスメディア学科 教授,0,,
 新井肇,新井肇,,full_name,ijime-judaikayoin,ijime-judaikayoin,,関西外国語大学外国語学部教授,0,,
-新保幸男,新保幸男,,full_name,shingikai,shingikai,,神奈川県立保健福祉大学保健福祉学部教授,0,,
-新居日南恵,新居日南恵,,full_name,shingikai,shingikai,,NPO 法人 manma 理事,0,,
+新保幸男,新保 幸男,新保,full_name,shingikai shingikai/kihon_seisaku,shingikai,委員 / 会長代理,神奈川県立保健福祉大学保健福祉学部教授,23,2023-04-21,2026-03-30
+新保雄希,新保 雄希,新保,full_name,shingikai/kodomo_kosodate,,委員,,3,2025-10-20,2026-08-19
+新居日南恵,新居 日南恵,新居,full_name,shingikai shingikai/kodomo_kosodate,shingikai shingikai/kodomo_kosodate,委員,NPO 法人 manma 理事 | NPO法人manma理事,6,2025-04-25,2026-08-19
+日山恵美,日山恵美,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,,広島大学大学院人間社会科学研究科教授,0,,
 明和政子,明和政子,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,京都大学大学院教育学研究科教授,0,,
-普光院亜紀,普光院亜紀,,full_name,kodomokanren-jujisha shingikai/kodomo_sodachi/azukari_service,kodomokanren-jujisha shingikai/kodomo_sodachi/azukari_service,,保育園を考える親の会 | 保育園を考える親の会顧問・アドバイザー,0,,
-有村大士,有村大士,,full_name,shingikai shingikai/kodomo_sodachi shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai shingikai/kodomo_sodachi shingikai/kodomo_sodachi/hoikushi_shikaku,,日本社会事業大学社会福祉学部教授 | 日本社会事業大学 社会福祉学部 教授,0,,
-杉島理一郎,杉島理一郎,,full_name,shingikai,shingikai,,入間市長,0,,
+星野崇啓,星野崇啓,,full_name,shingikai/shakai_katei/care-needs,shingikai/shakai_katei/care-needs,,さいたま子どものこころクリニック院長,0,,
+普光院亜紀,普光院亜紀,,full_name,kodomokanren-jujisha shingikai/kodomo_sodachi/azukari_service,kodomokanren-jujisha shingikai/kodomo_sodachi/azukari_service,委員,保育園を考える親の会 | 保育園を考える親の会顧問・アドバイザー,2,2024-01-12,2025-12-24
+曽根直樹,曽根直樹,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（そね  なおき）,0,,
+有川正洋,有川正洋,,full_name,kokoseido-keizokutekimieruka,kokoseido-keizokutekimieruka,,横須賀市 民生局 福祉こども部 子育て支援課長,0,,
+有村大士,有村 大士,有村,full_name,shingikai shingikai/kihon_seisaku shingikai/kodomo_sodachi shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai shingikai/kodomo_sodachi shingikai/kodomo_sodachi/hoikushi_shikaku,委員,日本社会事業大学社会福祉学部教授 | 日本社会事業大学 社会福祉学部 教授,24,2023-04-21,2026-03-30
+有田絢音,有田絢音,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,コピーライター,0,,
+木村容子,木村容子,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,明星大学人文学部常勤教授,0,,
+木村正,木村正,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（きむら  ただし）,0,,
+木田秋津,木田 秋津,木田,full_name,shingikai/kihon_seisaku,,委員,,17,2023-05-22,2026-03-30
+末松則子,末松則子,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,鈴鹿市長,0,,
+杉島理一郎,杉島 理一郎,杉島,full_name,shingikai,shingikai,委員,入間市長,2,2025-04-25,2026-01-22
 杉浦至郎,杉浦至郎,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,あいち小児保健医療総合センター保健室長兼アレルギー科医長,0,,
-村宮汐莉,村宮汐莉,,full_name,ijime-judaikayoin,ijime-judaikayoin,,地域・教育コーディネーター,0,,
+杉野茂人,杉野 茂人,杉野,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,委員,全国病児保育協議会会長,1,2026-03-18,2026-03-18
+李炯植,李炯植,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,一般社団法人社会的養育地域支援ネットワーク  代表理事,0,,
+村上慶子,村上慶子,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,東京大学大学院医学系研究科  保健社会行動学分野  准教授,0,,
+村宮汐莉,村宮 汐莉,村宮,full_name,shingikai ijime-judaikayoin shingikai/kihon_seisaku,ijime-judaikayoin,委員,地域・教育コーディネーター,12,2023-04-21,2025-01-23
 村崎弘汰,村﨑弘汰,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,大学生、任意団体ぽかぽか食堂代表,0,,
 松下享,松下享,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,公益社団法人日本小児科医会副会長,0,,
 松井愛奈,松井愛奈,,full_name,shingikai/kodomo_sodachi shingikai/hoiku_senmon,shingikai/kodomo_sodachi shingikai/hoiku_senmon,,甲南女子大学教育学部子ども教育学科教授,0,,
+松井隆明,松井隆明,,full_name,workinggroup,workinggroup,,公益社団法人日本精神科病院協会副会長,0,,
+松島常,松島常,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（まつしま  ひさし）,0,,
+松崎剛,松﨑 剛,松﨑,full_name,shingikai/kodomo_kosodate shingikai/shakai_katei,shingikai/shakai_katei,委員,桑名市子ども未来部子ども総合センターセンター長,1,2026-03-18,2026-03-18
+松本亜樹子,松本 亜樹子,松本,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,,委員,○:座長,6,2024-09-30,2026-10-07
+松本伊智朗,松本 伊智朗,松本,full_name,shingikai/kihon_seisaku,,委員,,2,2024-10-30,2024-12-20
+松本伊知朗,松本 伊知朗,松本,full_name,shingikai/kihon_seisaku,,委員,,11,2023-05-22,2024-03-25
 松本珠実,松本珠実,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,公益社団法人日本看護協会常任理事,0,,
-松田茂樹,松田茂樹,,full_name,shingikai shingikai/kodomo_sodachi/azukari_service,shingikai shingikai/kodomo_sodachi/azukari_service,座長,中京大学現代社会学部教授,0,,
+松村淳子,松村 淳子,松村,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,委員,全国児童養護施設協議会副会長　岡山聖園子供の家施設長,3,2025-08-04,2026-08-19
+松浦民恵,松浦 民恵,松浦,full_name,shingikai/kihon_seisaku,,委員,,10,2023-05-22,2024-10-30
+松田妙子,松田妙子,,full_name,sukoyaka21,sukoyaka21,,N P O 法 人 せ た が や 子 育 て ネ ッ ト   代 表 理 事,0,,
+松田茂樹,松田 茂樹,松田,full_name,shingikai kokoseido-keizokutekimieruka shingikai/kodomo_kosodate shingikai/kodomo_kosodate/kanri shingikai/kihon_seisaku shingikai/kodomo_sodachi/azukari_service,shingikai kokoseido-keizokutekimieruka shingikai/kodomo_kosodate/kanri shingikai/kodomo_sodachi/azukari_service,座長 / 委員 / 分科会長代理 / 部会長代理 / 部会長 / 委員長,中京大学現代社会学部教授 | 中京大学 現代社会学部 教授,28,2023-04-21,2026-08-19
+板東美明,板東美明,,full_name,kodomo-keikaku,,,北海道剣淵町住民課課長,3,2023-11-27,2024-02-14
+林大介,林 大介,林,full_name,kodomonoiken-guideline,kodomonoiken-guideline,委員,浦和大学 社会学部 准教授,1,2023-11-29,2023-11-29
+柏原聖子,柏原聖子,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,狛江市教育委員会教育長,0,,
 柏木剛,柏木剛,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,公益社団法人日本こども育成協議会理事,0,,
+柘植あづみ,柘植あづみ,,full_name,shingikai/kagaku_gijutsu/nipt,shingikai/kagaku_gijutsu/nipt,委員,明治学院大学副学長・社会学部教授,5,2023-05-31,2024-02-21
+柳元陽夏,柳元陽夏,,full_name,internet-kaigi,internet-kaigi,,大学生,0,,
+柴田悠,柴田 悠,柴田,full_name,youthpolicy-expertmeeting shingikai/kihon_seisaku,youthpolicy-expertmeeting,委員,京都大学大学院人間・環境学研究科  教授,2,2025-11-27,2026-02-20
 柿沼平太郎,柿沼平太郎,,full_name,shingikai/kodomo_sodachi shingikai/hoiku_senmon,shingikai/kodomo_sodachi shingikai/hoiku_senmon,,学校法人柿沼学園理事長 | 学校法人柿沼学園  理事長,0,,
+栃堀正信,栃堀正信,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,淑徳大学総合福祉学部社会福祉学科教授,0,,
 栗並えみ,栗並えみ,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,碧南市認可保育所死亡事故被害児童の親,0,,
 栗山博史,栗山博史,,full_name,ijime-judaikayoin,ijime-judaikayoin,,弁護士（神奈川県弁護士会所属）,0,,
 桑田秀幸,桑田秀幸,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,,千葉市こども未来局幼児教育・保育部幼保運営課長,0,,
-桜井彩乃,櫻井彩乃,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,一般社団法人 GENCOURAGE 代表,0,,
+桜井彩乃,櫻井 彩乃,櫻井,full_name,shingikai shingikai/kihon_seisaku shingikai/iken_senmon,shingikai/iken_senmon,委員,一般社団法人 GENCOURAGE 代表,20,2023-04-21,2026-03-30
+桜井鼓,櫻井鼓,,full_name,internet-kaigi,internet-kaigi,,追手門学院大学心理学部 教授,0,,
+森内浩幸,森内浩幸,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,長崎大学高度感染症研究センター センター長,0,,
+森山未来,森山 未来,森山,full_name,shingikai/kodomo_kosodate,,委員,,1,2026-08-19,2026-08-19
+森本洋子,森本洋子,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,三宅町健康子ども部健康子ども課  課長,0,,
 森田信司,森田信司,,full_name,hoikujinzai,hoikujinzai,,社会福祉法人全国社会福祉協議会全国保育協議会副会長,0,,
 植木信一,植木信一,,full_name,shingikai/kodomo_ibasho/jidoukan,shingikai/kodomo_ibasho/jidoukan,,新潟県立大学人間生活学部教授,0,,
-椎木里佳,椎木里佳,,full_name,shingikai,shingikai,,株式会社 AMF 代表取締役社長,0,,
+植田紀美子,植田紀美子,,full_name,shingikai/kagaku_gijutsu/nipt,shingikai/kagaku_gijutsu/nipt,委員,関西大学人間健康学部・人間健康研究科教授,4,2023-05-31,2024-01-19
+椎木里佳,椎木 里佳,椎木,full_name,shingikai shingikai/kihon_seisaku,shingikai,委員,株式会社 AMF 代表取締役社長,6,2025-04-25,2026-03-30
+榎本光宏,榎本光宏,,full_name,kokoseido-keizokutekimieruka,kokoseido-keizokutekimieruka,,東京都 福祉保健局 少子社会対策部 保育支援課長,0,,
+榎裕美,榎裕美,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,愛知淑徳大学大学院健康栄養科学研究科 教授,0,,
+権丈英子,権丈英子,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,亜細亜大学経済学部長・教授,0,,
+横川楓,横川楓,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,一般社団法人日本金融教育推進協会代表理事,0,,
+横溝知主,横溝知主,,full_name,kokoseido-keizokutekimieruka,kokoseido-keizokutekimieruka,,日本公認会計士協会 非営利法人委員会 社会福祉法人専門委員会,0,,
+横田綾子,横田綾子,,full_name,kokoseido-keizokutekimieruka,kokoseido-keizokutekimieruka,,一般社団法人 日本こども育成協議会 副会長,0,,
+橋本佳子,橋本佳子,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,名古屋市中央児童相談所 相談課 担当課長 弁護士,0,,
+橋本和明,橋本和明,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection shingikai/gyakutai_boushi,Judicial-Review-Working-Team-on-Temporary-Protection shingikai/gyakutai_boushi,,国際医療福祉大学医療福祉学研究科臨床心理学専攻 教授 | 国際医療福祉大学大学院教授,0,,
+橋本明,橋本明,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（はしもと  あきら）,0,,
+橋本直也,橋本直也,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,株式会社Kids Public　代表取締役,0,,
+橋本達昌,橋本達昌,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,全国児童心理治療施設協議会会長,0,,
 比嘉里奈,比嘉里奈,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,公益社団法人日本 PTA 全国協議会,0,,
 水嶋昌子,水嶋昌子,,full_name,child-safety-kyoiku-hoiku hoikujinzai,child-safety-kyoiku-hoiku hoikujinzai,,NPO 法人家庭的保育全国連絡協議会理事長 | 特定非営利活動法人家庭的保育全国連絡協議会理事長,0,,
-水枝谷奈央,水枝谷奈央,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,,玉川大学教育学部乳幼児発達学科非常勤講師,0,,
-水野達朗,水野達朗,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,大阪府教育委員会教育長,0,,
+水枝谷奈央,水枝谷奈央,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,委員,玉川大学教育学部乳幼児発達学科非常勤講師,1,2025-12-24,2025-12-24
+水野かおり,水野 かおり,水野,full_name,shingikai/kodomo_kosodate,shingikai/kodomo_kosodate,委員,一般財団法人児童健全育成推進財団企画調査室参事,3,2025-08-04,2026-03-18
+水野達朗,水野達朗,,full_name,shingikai/kodomo_sodachi shingikai/kodomo_ibasho,shingikai/kodomo_sodachi shingikai/kodomo_ibasho,,大阪府教育委員会教育長 | 特定非営利活動法人わかもののまち 代表理事,0,,
+永井幸子,永井 幸子,永井,full_name,shingikai/kodomo_kosodate shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,委員,日本労働組合総連合会  総合政策推進局長,2,2026-03-18,2026-08-19
+永井陽介,永井陽介,,full_name,youthgroups-research,youthgroups-research,,多摩市企画政策部 企画課 企画調整担当主査,0,,
 永光信一郎,永光信一郎,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,福岡大学小児科教授,0,,
 汐見稔幸,汐見稔幸,,full_name,hoikujinzai,hoikujinzai,,一般社団法人全国保育士養成協議会会長,0,,
+江沢和彦,江澤和彦,,full_name,workinggroup,workinggroup,,公益社団法人日本医師会常任理事,0,,
+池田俊明,池田俊明,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,国民健康保険中央会  常務理事,0,,
 沢田真由美,澤田真由美,,full_name,ijime-judaikayoin,ijime-judaikayoin,,株式会社先生の幸せ研究所代表取締役,0,,
 河合優子,河合優子,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,國學院大學人間開発学部教授,0,,
+河島貴子,河島貴子,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,世田谷区児童相談所 所長,0,,
+河野洋子,河野洋子,,full_name,shingikai/shakai_katei shingikai/shakai_katei/tokubetsu-yoshi,shingikai/shakai_katei shingikai/shakai_katei/tokubetsu-yoshi,,大分大学福祉健康科学部社会福祉実践コース講師,0,,
 波田野優,波田野優,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,高校生、FTCJ こどもアンバサダー,0,,
+浅野恭子,浅野恭子,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,甲南女子大学人間科学部心理学科 准教授,0,,
 浜田剛史,濱田剛史,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,大阪府高槻市長,0,,
+浜田真樹,浜田真樹,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection shingikai/shakai_katei/tokubetsu-yoshi,Judicial-Review-Working-Team-on-Temporary-Protection shingikai/shakai_katei/tokubetsu-yoshi,,浜田・木村法律事務所 弁護士,0,,
 淀谷典子,淀谷典子,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,三重県医療保健部医療政策総括監,0,,
 清原慶子,清原慶子,,full_name,ijime-judaikayoin,ijime-judaikayoin,,杏林大学客員教授・前東京都三鷹市長,0,,
-渡辺弘司,渡辺弘司,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,公益社団法人日本医師会常任理事,0,,
+清家武彦,清家武彦,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,日本経済団体連合会  経済政策本部長,0,,
+清水響,清水響,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（しみず  ひびく） | （しみず ひびく）,0,,
+清永奈穂,清永 奈穂,清永,full_name,shingikai/kihon_seisaku,,委員,,13,2023-05-22,2024-12-20
+渡辺守,渡邊守,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,静岡市里親家庭支援センター職員,0,,
+渡辺寛子,渡邊 寛子,渡邊,full_name,shingikai/kodomo_kosodate,,委員,,1,2025-08-04,2025-08-04
+渡辺将,渡辺 将,渡辺,full_name,kigyou-shudou,,委員,,4,2023-10-16,2025-03-31
+渡辺弘司,渡辺 弘司,渡辺,full_name,nyuyojinokenkoushinsatou-kentokai shingikai/kodomo_kosodate shingikai/seiiku_iryou shingikai/kagaku_gijutsu shingikai/shougaiji_shien,nyuyojinokenkoushinsatou-kentokai shingikai/kodomo_kosodate shingikai/seiiku_iryou shingikai/kagaku_gijutsu shingikai/shougaiji_shien,委員,公益社団法人日本医師会常任理事 | 公益社団法人日本医師会 常任理事 | NPO法人全国認定こども園協会理事　社会福祉法人堺暁福祉会理事長 | 公益社団法人日本医師会　常任理事 | 立命館大学産業社会学部教授,4,2025-08-04,2026-08-19
+渡辺睦美,渡辺睦美,,full_name,shingikai/shakai_katei shingikai/shakai_katei/care-needs,shingikai/shakai_katei shingikai/shakai_katei/care-needs,,NPO 法人全国子どもアドボカシー協議会理事 | NPO 法人全国子どもアドボカシー協議会専務理事,0,,
+渡部博昭,渡部 博昭,渡部,full_name,shingikai/kodomo_kosodate,,委員,,1,2026-08-19,2026-08-19
+湯浅誠,湯浅誠,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,東京大学先端科学技術研究センター 特任教授,0,,
+滋賀県,滋賀県,,full_name,cdr-seidonoarikata,cdr-seidonoarikata,,健康医療福祉部 次長（子育て支援課 主席参事 事務取扱）,0,,
+熊谷俊人,熊谷 俊人,熊谷,full_name,shingikai/kodomo_kosodate shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,委員,千葉県知事,3,2025-10-20,2026-08-19
+片岡一樹,片岡 一樹,片岡,full_name,kodomonoiken-guideline,kodomonoiken-guideline,委員,尼崎市立ユース交流センター センター長,1,2023-11-29,2023-11-29
+片桐委員加藤,片桐委員加藤,,full_name,shingikai/kagaku_gijutsu/art,,委員,和,1,2026-07-15,2026-07-15
+片桐由起子,片桐由起子,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,,東邦大学医学部教授,0,,
+牧瀬稔,牧瀬稔,,full_name,kodomo-keikaku,,,関東学院大学法学部地域創生学科教授,3,2023-11-27,2024-02-14
+生貝直人,生貝直人,,full_name,internet-kaigi,internet-kaigi,,一橋大学大学院法学研究科 教授,0,,
+生越照幸,生越照幸,,full_name,workinggroup,workinggroup,,日本弁護士連合会,0,,
+田中れいか,田中 れいか,田中,full_name,shingikai shingikai/kihon_seisaku,,委員,,16,2023-04-21,2025-01-23
+田村綾子,田村綾子,,full_name,workinggroup,workinggroup,,学校法人聖学院大学理事長・聖学院大学心理福祉学部教授,0,,
 畑山麗衣,畑山麗衣,,full_name,shingikai,shingikai,,NPO 法人 Giving Tree  ピアカウンセラー,0,,
+畠山由佳子,畠山由佳子,,full_name,shingikai/gyakutai_boushi,shingikai/gyakutai_boushi,,関西学院大学人間福祉学部  教授,0,,
+當真淳,當眞 淳,當眞,full_name,shingikai/kodomo_kosodate shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,委員,宜野座村長,1,2026-03-18,2026-03-18
 白鳥久美子,白鳥久美子,,full_name,hoikujinzai,hoikujinzai,,お笑い芸人,0,,
+的場康子,的場 康子,的場,full_name,kigyou-shudou,,委員,,3,2023-10-16,2025-10-16
+盛山利紀,盛山 利紀,盛山,full_name,shingikai/kodomo_kosodate,,委員,,4,2025-08-04,2026-08-19
+相沢仁,相澤仁,,full_name,shingikai/shakai_katei/care-needs shingikai/gyakutai_boushi,shingikai/shakai_katei/care-needs shingikai/gyakutai_boushi,,大分大学福祉健康科学部特任教授,0,,
+相沢哲,相澤哲,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（あいざわ  てつ）,0,,
+相良洋子,相良洋子,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,公益社団法人日本産婦人科医会常務理事 さがらレディスクリニック院長,0,,
+矢島洋子,矢島 洋子,矢島,full_name,shingikai/kihon_seisaku,,委員,,14,2023-05-22,2026-03-30
 矢藤誠慈郎,矢藤誠慈郎,,full_name,hoikujinzai,hoikujinzai,,一般社団法人全国保育士養成協議会常務理事,0,,
-石井智康,石井智康,,full_name,shingikai shingikai/kihon_seisaku,shingikai shingikai/kihon_seisaku,,石井食品株式会社代表取締役社長執行役員 | 日本社会事業大学社会福祉学部教授,0,,
-石原理,石原理,,full_name,shingikai,shingikai,,女子栄養大学保健センター所長・栄養クリニック所長,0,,
+石井智康,石井 智康,石井,full_name,shingikai shingikai/kihon_seisaku,shingikai shingikai/kihon_seisaku,委員,石井食品株式会社代表取締役社長執行役員 | 日本社会事業大学社会福祉学部教授,6,2025-04-25,2026-03-30
+石原理,石原 理,石原,full_name,shingikai shingikai/kagaku_gijutsu,shingikai shingikai/kagaku_gijutsu,委員,女子栄養大学保健センター所長・栄養クリニック所長 | 日本栄養大学 保健センター所長・栄養クリニック所長,6,2023-04-21,2026-01-22
 石山潤,石山潤,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,秋田県人口戦略部こども支援課チームリーダー,0,,
 石川悦子,石川悦子,,full_name,ijime-judaikayoin,ijime-judaikayoin,,こども教育宝仙大学 教授,0,,
 石橋万里子,石橋万里子,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,波佐見町子ども・健康保険課長,0,,
-砂上史子,砂上史子,,full_name,shingikai,shingikai,,千葉大学教育学部教授,0,,
-磯谷文明,磯谷文明,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,弁護士,0,,
+石毛和夫,石毛 和夫,石毛,full_name,kigyou-shudou,,委員,,4,2023-10-16,2025-03-31
+石田明義,石田 明義,石田,full_name,shingikai/kodomo_kosodate,,委員,,3,2025-08-04,2026-03-18
+石綿はる美,石綿はる美,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,一橋大学大学院法学研究科 准教授,0,,
+砂上史子,砂上 史子,砂上,full_name,shingikai,shingikai,委員,千葉大学教育学部教授,6,2023-04-21,2026-01-22
+磯谷文明,磯谷文明,,full_name,kodomokanren-jujisha shingikai/seiiku_iryou,kodomokanren-jujisha shingikai/seiiku_iryou,,弁護士 | くれたけ法律事務所　弁護士,0,,
 神吉知郁子,神吉知郁子,,full_name,kodomokanren-jujisha,kodomokanren-jujisha,,東京大学大学院法学政治学研究科教授,0,,
+神里彩子,神里 彩子,神里,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,国立成育医療研究センター医事法制研究部長,6,2024-09-30,2026-10-07
+福井次矢,福井次矢,,full_name,shingikai/kagaku_gijutsu/nipt,shingikai/kagaku_gijutsu/nipt,委員,◎ 東京医科大学茨城医療センター病院長,5,2023-05-31,2024-02-21
 福沢惇也,福澤惇也,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,,中国短期大学保育学科講師,0,,
-秋山千枝子,秋山千枝子,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,医療法人社団千実会理事長  あきやま子どもクリニック院長,0,,
-秋田喜代美,秋田喜代美,,full_name,shingikai shingikai/kihon_seisaku shingikai/hoiku_senmon,shingikai shingikai/kihon_seisaku shingikai/hoiku_senmon,,学習院大学文学部教授、東京大学名誉教授,0,,
+秋山千枝子,秋山千枝子,,full_name,shingikai/seiiku_iryou shingikai/kodomo_sodachi shingikai/gyakutai_boushi,shingikai/seiiku_iryou shingikai/kodomo_sodachi shingikai/gyakutai_boushi,,医療法人社団千実会理事長  あきやま子どもクリニック院長 | 医療法人社団千実会あきやま子どもクリニック 院長,0,,
+秋本可愛,秋本 可愛,秋本,full_name,shingikai/kodomo_kosodate,,委員,,3,2025-08-04,2026-08-19
+秋田喜代美,秋田 喜代美,秋田,full_name,shingikai kokoseido-keizokutekimieruka shingikai/kodomo_kosodate shingikai/kihon_seisaku shingikai/hoiku_senmon,shingikai kokoseido-keizokutekimieruka shingikai/kodomo_kosodate shingikai/kihon_seisaku shingikai/hoiku_senmon,座長 / 委員 / 会長 / 部会長,学習院大学文学部教授、東京大学名誉教授 | 学習院大学文学部教授・東京大学名誉教授 | 学習院大学文学部教授　東京大学名誉教授,24,2023-04-21,2026-02-20
+竹内和雄,竹内和雄,,full_name,internet-kaigi,internet-kaigi,,兵庫県立大学環境人間学部 教授,0,,
+竹島正,竹島正,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（たけしま  ただし）,0,,
+笠原麻里,笠原麻里,,full_name,shingikai/shakai_katei/care-needs,shingikai/shakai_katei/care-needs,,医療法人財団青溪会駒木野病院副院長,0,,
+能島裕介,能島裕介,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,尼崎市  こども政策監,0,,
 舟久保利明,舟久保利明,,full_name,hoikujinzai,hoikujinzai,,一般社団法人大田 CP21 代表 東京都産業教育振興会理事,0,,
+舩越啓仁,舩越啓仁,,full_name,kokoseido-keizokutekimieruka,kokoseido-keizokutekimieruka,,日本公認会計士協会 学校法人委員会 委員,0,,
+苛原稔,苛原 稔,苛原,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,,委員,,6,2024-09-30,2026-10-07
+英彦,英彦,,full_name,workinggroup,workinggroup,,一般社団法人全国自死遺族連絡会副代表理事,0,,
+草間吉夫,草間吉夫,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,新島学園短期大学コミュニティ子ども学科 准教授,0,,
+荒井佑介,荒井佑介,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,特定非営利活動法人サンカクシャ  代表理事,0,,
+荒井和子,荒井和子,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin,,（あらい  かずこ）,0,,
+荒井恵一,荒井惠一,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,明石市こども局明石こどもセンター所長,0,,
+荒川美沙貴,荒川美沙貴,,full_name,shingikai/shakai_katei,shingikai/shakai_katei,,社会的養護経験者向け情報サイト”Iris”編集長,0,,
+荒木裕美,荒木裕美,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,NPO法人ベビースマイル石巻 代表理事,0,,
 莇生田和哉,莇生田和哉,,full_name,shingikai/iken_senmon shingikai/kodomo_sodachi,shingikai/iken_senmon shingikai/kodomo_sodachi,,大学生,0,,
+菅原ますみ,菅原ますみ,,full_name,shingikai/shakai_katei/care-needs,shingikai/shakai_katei/care-needs,,白百合女子大学人間総合学部発達心理学科教授,0,,
+菊地英一,菊地英一,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,東京都調布市子ども生活部児童青少年課 課長,0,,
+菊池洋一,菊池洋一,,full_name,hoshokin-yuseishujutsu,hoshokin-yuseishujutsu,,（きくち  よういち）,0,,
+菊池真梨香,菊池真梨香,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,一般社団法人 Masterpiece 代表理事,0,,
+菊池馨実,菊池馨実,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,早稲田大学理事・法学学術院教授,0,,
+萩原建次郎,萩原建次郎,,full_name,youthgroups-research,youthgroups-research,,駒澤大学 総合教育研究部 教授,0,,
+葛西勇樹,葛西勇樹,,full_name,workinggroup,workinggroup,,社会福祉法人青森県社会福祉協議会地域福祉課長,0,,
+藤井智佳子,藤井智佳子,,full_name,shingikai/seiiku_iryou,shingikai/seiiku_iryou,,NPO法人子育てひろば全国連絡協議会 NPO法人あっと,0,,
+藤井渉,藤井渉,,full_name,kyuyusei-hoshokin hoshokin-yuseishujutsu,kyuyusei-hoshokin hoshokin-yuseishujutsu,,（ふじい  わたる）,0,,
 藤本愛子,藤本愛子,,full_name,shingikai/kodomo_ibasho/jidoukan,shingikai/kodomo_ibasho/jidoukan,,社会福祉法人興望館学童クラブ父母の会前会長,0,,
-角谷正雄,角谷正雄,,full_name,hoikujinzai,hoikujinzai,,全日本私立幼稚園連合会副会長,0,,
-豪田トモ,豪田トモ,,full_name,shingikai,shingikai,,映画監督・映像作家、株式会社インディゴ・フィルムズ代表取締,0,,
-郡司日奈乃,郡司日奈乃,,full_name,shingikai/iken_senmon,shingikai/iken_senmon,,一般社団法人 Spice 代表理事,0,,
+藤林武史,藤林武史,,full_name,shingikai/shakai_katei/tokubetsu-yoshi,shingikai/shakai_katei/tokubetsu-yoshi,,西日本こども研修センターあかしセンター長,0,,
+藤田みさお,藤田みさお,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,京都大学 iPS 細胞研究所上廣倫理研究部門部門長・特定教授,3,2026-02-25,2026-10-07
+藤迫稔,藤迫 稔,藤迫,full_name,shingikai/kodomo_kosodate,,委員,,1,2025-08-04,2025-08-04
+藤間公太,藤間公太,,full_name,shingikai/gyakutai_boushi,shingikai/gyakutai_boushi,,京都大学大学院教育学研究科准教授,0,,
+藥師寺順子,藥師寺順子,,full_name,Judicial-Review-Working-Team-on-Temporary-Protection,Judicial-Review-Working-Team-on-Temporary-Protection,,大阪府中央子ども家庭センター 所長,0,,
+袖井孝子,袖井孝子,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,NPO 法人高齢社会をよくする女性の会  理事,0,,
+西山博之,西山 博之,西山,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,,委員,,5,2024-09-30,2026-10-07
+西郷民紗,西郷民紗,,full_name,shingikai/shakai_katei/tokubetsu-yoshi,shingikai/shakai_katei/tokubetsu-yoshi,,早稲田大学人間科学学術院人間総合研究センター次席研究員・,0,,
+角谷正雄,角谷正雄,,full_name,kokoseido-keizokutekimieruka hoikujinzai,kokoseido-keizokutekimieruka hoikujinzai,,全日本私立幼稚園連合会副会長 | 全日本私立幼稚園連合会 副会長,0,,
+谷口仁史,谷口仁史,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,特定非営利活動法人こおりやま子ども若者ネットワーク,0,,
+谷口和花菜,谷口 和花菜,谷口,full_name,shingikai shingikai/kihon_seisaku,,委員,,7,2023-04-21,2023-09-04
+豪田トモ,豪田 トモ,豪田,full_name,shingikai,shingikai,委員,映画監督・映像作家、株式会社インディゴ・フィルムズ代表取締,1,2026-01-22,2026-01-22
+貞広,貞広,,full_name,ebpm-society,ebpm-society,,斎子（座長）千葉大学教育学部・教授,0,,
+貞広斎子,貞廣 斎子,貞廣,full_name,shingikai/kihon_seisaku,,委員,,12,2023-05-22,2026-02-20
+郡司日奈乃,郡司 日奈乃,郡司,full_name,kodomonoiken-guideline youthgroups-research shingikai/iken_senmon,kodomonoiken-guideline youthgroups-research shingikai/iken_senmon,委員,一般社団法人 Spice 代表理事 | 千葉大学大学院人文公共学府 博士後期課程人文 | 千葉大学大学院人文公共学府博士後期課程 人文公共学専攻公共学コース 1 年千葉市こども基本条例検討委員会 委員一般社団法人 Spice 代表理事,1,2023-11-29,2023-11-29
+酒井康年,酒井康年,,full_name,shingikai/shougaiji_shien,shingikai/shougaiji_shien,,一般社団法人全国児童発達支援協議会事務局長,0,,
 野口晴子,野口晴子,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,早稲田大学政治経済学術院教授,0,,
+野坂祐子,野坂祐子,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,大阪大学大学院人間科学研究科人間科学専攻 教授,0,,
+野崎亜紀子,野崎亜紀子,,full_name,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin shingikai/kagaku_gijutsu/nipt,kyuyusei-hoshokin jinkoninshinchuzetsu-ichijikin shingikai/kagaku_gijutsu/nipt,委員,（のざき  あきこ） | （のざき あきこ） | 獨協大学法学部総合政策学科教授,5,2023-05-31,2024-02-21
 野村文和,野村文和,,full_name,child-safety-kyoiku-hoiku shingikai/kodomo_sodachi/azukari_service,child-safety-kyoiku-hoiku shingikai/kodomo_sodachi/azukari_service,,東京都福祉局子供・子育て支援部認証・認可外保育施設担当課長,0,,
 野沢和弘,野澤和弘,,full_name,ijime-judaikayoin,ijime-judaikayoin,,植草学園大学副学長（教授）,0,,
-鈴木みゆき,鈴木みゆき,,full_name,shingikai shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai shingikai/kodomo_sodachi/hoikushi_shikaku,,國學院大學人間開発学部教授,0,,
+野沢祥子,野澤 祥子,野澤,full_name,shingikai/kodomo_kosodate,,委員,,3,2025-08-04,2026-08-19
+野津岳史,野津岳史,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,認定特定非営利活動法人 D×P  新規事業部マネジャー,0,,
+金井優佳,金井 優佳,金井,full_name,shingikai/kihon_seisaku,,委員,,4,2025-09-22,2026-03-30
+金子陽子,金子陽子,,full_name,shingikai/shakai_katei/jidou_shogu,shingikai/shakai_katei/jidou_shogu,,元法務省高松矯正管区長,0,,
+金田安史,金田安史,,full_name,shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,大阪大学理事・副学長,2,2026-01-21,2026-02-25
+鈴木みゆき,鈴木 みゆき,鈴木,full_name,shingikai shingikai/kodomo_kosodate shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai shingikai/kodomo_kosodate shingikai/kodomo_sodachi/hoikushi_shikaku,委員 / 分科会長,國學院大學人間開発学部教授,11,2023-04-21,2026-08-19
 鈴木一光,鈴木一光,,full_name,hoikujinzai,hoikujinzai,,公益財団法人児童育成協会理事長,0,,
 鈴木俊治,鈴木俊治,,full_name,nyuyojinokenkoushinsatou-kentokai,nyuyojinokenkoushinsatou-kentokai,,公益社団法人日本産婦人科医会常務理事,0,,
 鈴木康之,鈴木康之,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,東京女子医科大学麻酔科臨床卓越教授,0,,
-長崎真由美,長崎真由美,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,,公益社団法人全国保育サービス協会事務局長,0,,
+鈴木浩之,鈴木浩之,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,立正大学社会福祉学部社会福祉学科 教授,0,,
+長崎真由美,長崎真由美,,full_name,shingikai/kodomo_sodachi/azukari_service,shingikai/kodomo_sodachi/azukari_service,委員,公益社団法人全国保育サービス協会事務局長,2,2024-01-12,2025-12-24
+長嶋比呂志,長嶋 比呂志,長嶋,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,shingikai/kagaku_gijutsu/art,委員,明治大学農学部専任教授,6,2024-09-30,2026-10-07
+長瀬有紀,長瀬有紀,,full_name,workinggroup,workinggroup,,長野県健康福祉部疾病・感染症対策課長,0,,
+長田京子,長田 京子,長田,full_name,shingikai/kodomo_kosodate,,委員,,4,2025-08-04,2026-08-19
 関川芳孝,関川芳孝,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,大阪公立大学現代システム科学研究科名誉教授,0,,
+関戸博樹,関戸博樹,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,特定非営利活動法人 日本冒険遊び場づくり協会 代表,0,,
+阿久津英憲,阿久津 英憲,阿久津,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,,委員,,4,2024-09-30,2026-07-15
 阿波,阿波,,full_name,kodomonojisatsutaisaku-kaigi,kodomonojisatsutaisaku-kaigi,,拓洋）,0,,
-青木康太朗,青木康太朗,,full_name,shingikai/kihon_seisaku,shingikai/kihon_seisaku,,独立行政法人国立青少年教育振興機構 理事長,0,,
+陶山えつ子,陶山えつ子,,full_name,shingikai/shougaiji_shien,shingikai/shougaiji_shien,,一般社団法人日本難病・疾病団体協議会 こどもの未来を考える部会 部会長,0,,
+雪田樹理,雪田樹理,,full_name,shingikai/shakai_katei/jidobaishunhogo,shingikai/shakai_katei/jidobaishunhogo,,女性共同法律事務所 弁護士,0,,
+青山鉄兵,青山鉄兵,,full_name,shingikai/kodomo_ibasho,shingikai/kodomo_ibasho,,文教大学人間科学部 准教授,0,,
+青木康太朗,青木 康太朗,青木,full_name,shingikai/kihon_seisaku,shingikai/kihon_seisaku,委員,独立行政法人国立青少年教育振興機構 理事長,13,2023-05-22,2026-05-08
+青砥英一,青砥英一,,full_name,shingikai/gyakutai_boushi,shingikai/gyakutai_boushi,,千葉県松戸市子ども部長,0,,
+風間暁,風間暁,,full_name,shingikai/shakai_katei/jidou_shogu,shingikai/shakai_katei/jidou_shogu,,特定非営利活動法人 ASK、保護司,0,,
 飯沢すみ江,飯沢すみ江,,full_name,child-safety-kyoiku-hoiku,child-safety-kyoiku-hoiku,,川崎市こども未来局総務部監査担当課長,0,,
+飯田委員石毛,飯田委員 石毛,飯田委員,full_name,kigyou-shudou,,委員,,2,2025-10-16,2026-03-16
 飯田美和,飯田美和,,full_name,shingikai/hoiku_senmon shingikai/kodomo_sodachi/hoikushi_shikaku,shingikai/hoiku_senmon shingikai/kodomo_sodachi/hoikushi_shikaku,,舞鶴市乳幼児教育センター所長 | 舞鶴市  乳幼児教育センター所長,0,,
+馬場優子,馬場優子,,full_name,workinggroup,workinggroup,,足立区衛生部長,0,,
+馬場充,馬場 充,馬場,full_name,kigyou-shudou,,委員,,4,2023-10-16,2025-03-31
+馬場通江,馬場通江,,full_name,youthpolicy-expertmeeting,youthpolicy-expertmeeting,,札幌市子ども未来局子ども育成部  子どものくらし・若者支援,0,,
 駒崎弘樹,駒崎弘樹,,full_name,hoikujinzai,hoikujinzai,,特定非営利活動法人全国小規模保育協議会理事,0,,
+駒村康平,駒村 康平,駒村,full_name,shingikai/kihon_seisaku,,委員,,15,2023-05-22,2026-03-30
+高久玲音,高久玲音,,full_name,shingikai/kagaku_gijutsu,shingikai/kagaku_gijutsu,,一橋大学経済学研究科 教授,0,,
+高山佳奈子,髙山 佳奈子,髙山,full_name,shingikai/kagaku_gijutsu shingikai/kagaku_gijutsu/art,,委員,,5,2024-09-30,2026-10-07
 高崎邦子,髙﨑邦子,,full_name,hoikujinzai,hoikujinzai,,株式会社 JTB 執行役員 DEIB 推進担当,0,,
-高橋慶子,高橋慶子,,full_name,hoikujinzai,hoikujinzai,,全国国公立幼稚園・こども園長会会長,0,,
-高祖常子,高祖常子,,full_name,shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,,認定ＮＰＯ法人児童虐待防止全国ネットワーク副理事長,0,,
+高橋あすみ,髙橋あすみ,,full_name,workinggroup,workinggroup,,北星学園大学社会福祉学部心理学科准教授,0,,
+高橋勇太,高橋勇太,,full_name,ebpm-society,ebpm-society,,横浜市行動デザインチーム・代表,0,,
+高橋慶子,高橋 慶子,高橋,full_name,hoikujinzai shingikai/kodomo_kosodate,hoikujinzai,委員,全国国公立幼稚園・こども園長会会長,3,2025-08-04,2026-03-18
+高橋温,髙橋温,,full_name,shingikai/shakai_katei/jidou_shogu,shingikai/shakai_katei/jidou_shogu,,新横浜法律事務所弁護士,0,,
+高祖常子,高祖 常子,高祖,full_name,kigyou-shudou shingikai/kodomo_sodachi,shingikai/kodomo_sodachi,委員,認定ＮＰＯ法人児童虐待防止全国ネットワーク副理事長,4,2023-10-16,2026-03-16
+高谷俊英,髙谷 俊英,髙谷,full_name,kokoseido-keizokutekimieruka shingikai/kodomo_kosodate,kokoseido-keizokutekimieruka shingikai/kodomo_kosodate,委員,公益社団法人 全国私立保育連盟 常務理事 | 公益社団法人全国私立保育連盟常務理事,4,2025-08-04,2026-08-19
 高辻千恵,高辻千恵,,full_name,shingikai/hoiku_senmon,shingikai/hoiku_senmon,,大妻女子大学家政学部児童学科准教授,0,,
-黒木碧恵,黒木碧恵,,full_name,shingikai,shingikai,,大学生,0,,
+鳥潟美夏子,鳥潟美夏子,,full_name,shingikai/kodomo_kosodate/kanri,shingikai/kodomo_kosodate/kanri,,全国健康保険協会  理事,0,,
+黒川寿美江,黒川 寿美江,黒川,full_name,shingikai/kodomo_kosodate,,委員,,1,2026-03-18,2026-03-18
+黒木碧恵,黒木 碧恵,黒木,full_name,shingikai shingikai/kihon_seisaku,shingikai,委員,大学生,4,2025-04-25,2026-01-22
+kigyou-shudou:園田委員的場,園田委員的場,園田委員的場,surname_only,kigyou-shudou,,委員,,1,2026-03-16,2026-03-16
+kigyou-shudou:園田委員馬場,園田委員馬場,園田委員馬場,surname_only,kigyou-shudou,,委員,,1,2025-10-16,2025-10-16
+shingikai/kagaku_gijutsu/art:○五十嵐隆,○五十嵐隆,○五十嵐隆,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:○石原,○石原,○石原,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2024-09-30,2024-09-30
+shingikai/kagaku_gijutsu/art:ヒト受精胚を用いる生殖補助医療研究等に関する専門委員会石原,ヒト受精胚を用いる生殖補助医療研究等に関する専門委員会石原,ヒト受精胚を用いる生殖補助医療研究等に関する専門委員会石原,surname_only,shingikai/kagaku_gijutsu/art,,座長,,2,2026-07-15,2026-10-07
+shingikai/kagaku_gijutsu/art:三浦直美,三浦直美,三浦直美,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:上野,上野,上野,surname_only,shingikai/kagaku_gijutsu/art,,委員,,2,2026-07-15,2026-10-07
+shingikai/kagaku_gijutsu/art:佐原,佐原,佐原,surname_only,shingikai/kagaku_gijutsu/art,,委員,,2,2026-01-21,2026-02-25
+shingikai/kagaku_gijutsu/art:加藤和人,加藤和人,加藤和人,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:北畠,北畠,北畠,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-10-07,2026-10-07
+shingikai/kagaku_gijutsu/art:吉川祐一,吉川祐一,吉川祐一,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:大黒,大黒,大黒,surname_only,shingikai/kagaku_gijutsu/art,,委員,,3,2026-01-21,2026-07-15
+shingikai/kagaku_gijutsu/art:小崎,小崎,小崎,surname_only,shingikai/kagaku_gijutsu/art,,委員,,4,2026-01-21,2026-10-07
+shingikai/kagaku_gijutsu/art:山口委員・ヒト受精胚を用いる遺伝性・先天性疾患研究に関する専門委員会岡,山口委員・ヒト受精胚を用いる遺伝性・先天性疾患研究に関する専門委員会岡,山口委員・ヒト受精胚を用いる遺伝性・先天性疾患研究に関する専門委員会岡,surname_only,shingikai/kagaku_gijutsu/art,,座長,,2,2026-07-15,2026-10-07
+shingikai/kagaku_gijutsu/art:山口照英,山口照英,山口照英,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:山口育子,山口育子,山口育子,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:山田委員・ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する専門委員会五十嵐,山田委員・ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する専門委員会五十嵐,山田委員・ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する専門委員会五十嵐,surname_only,shingikai/kagaku_gijutsu/art,,座長,,2,2026-07-15,2026-10-07
+shingikai/kagaku_gijutsu/art:岡,岡,岡,surname_only,shingikai/kagaku_gijutsu/art,,委員,,2,2026-01-21,2026-02-25
+shingikai/kagaku_gijutsu/art:後藤弘子,後藤弘子,後藤弘子,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:掛江直子,掛江直子,掛江直子,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:杉浦,杉浦,杉浦,surname_only,shingikai/kagaku_gijutsu/art,,委員,,2,2026-07-15,2026-10-07
+shingikai/kagaku_gijutsu/art:村山,村山,村山,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-07-15,2026-07-15
+shingikai/kagaku_gijutsu/art:梅沢,梅澤,梅澤,surname_only,shingikai/kagaku_gijutsu/art,,委員,,4,2026-01-21,2026-10-07
+shingikai/kagaku_gijutsu/art:武田,武田,武田,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-10-07,2026-10-07
+shingikai/kagaku_gijutsu/art:武田委員三浦,武田委員三浦,武田委員三浦,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-07-15,2026-07-15
+shingikai/kagaku_gijutsu/art:渡辺弘司,渡辺弘司,渡辺弘司,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:片桐委員寺田,片桐委員寺田,片桐委員寺田,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-07-15,2026-07-15
+shingikai/kagaku_gijutsu/art:甲斐克則,甲斐克則,甲斐克則,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:石原,石原,石原,surname_only,shingikai/kagaku_gijutsu/art,,座長,,2,2026-01-21,2026-02-25
+shingikai/kagaku_gijutsu/art:石原理,石原理,石原理,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:神里彩子,神里彩子,神里彩子,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:秋元,秋元,秋元,surname_only,shingikai/kagaku_gijutsu/art,,委員,,4,2026-01-21,2026-10-07
+shingikai/kagaku_gijutsu/art:藤岡,藤岡,藤岡,surname_only,shingikai/kagaku_gijutsu/art,,委員,,3,2026-01-21,2026-07-15
+shingikai/kagaku_gijutsu/art:金田委員神里,金田委員神里,金田委員神里,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-07-15,2026-07-15
+shingikai/kagaku_gijutsu/art:門脇孝,門脇孝,門脇孝,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2022-03-18,2022-03-18
+shingikai/kagaku_gijutsu/art:高山委員長嶋,髙山委員長嶋,髙山委員長嶋,surname_only,shingikai/kagaku_gijutsu/art,,委員,,1,2026-07-15,2026-07-15
+shingikai/kagaku_gijutsu/nipt:三上,三上,三上,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,4,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:中西,中西,中西,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,4,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:兵頭,兵頭,兵頭,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:北川,北川,北川,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:和田,和田,和田,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:堀,堀,堀,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,4,2023-05-31,2024-01-19
+shingikai/kagaku_gijutsu/nipt:堤,堤,堤,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,4,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:家保,家保,家保,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,3,2023-05-31,2023-12-14
+shingikai/kagaku_gijutsu/nipt:桜井,櫻井,櫻井,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,3,2023-05-31,2024-01-19
+shingikai/kagaku_gijutsu/nipt:横野,横野,横野,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:河合,河合,河合,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:渡辺,渡辺,渡辺,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:玉井,玉井,玉井,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,5,2023-05-31,2024-02-21
+shingikai/kagaku_gijutsu/nipt:門脇,門脇,門脇,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,3,2023-09-15,2024-02-21
+shingikai/kagaku_gijutsu/nipt:関沢,関沢,関沢,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,4,2023-05-31,2024-01-19
+shingikai/kagaku_gijutsu/nipt:飯野,飯野,飯野,surname_only,shingikai/kagaku_gijutsu/nipt,,委員,,1,2023-05-31,2023-05-31
+shingikai/kagaku_gijutsu:○石原,○石原,○石原,surname_only,shingikai/kagaku_gijutsu,,委員,,1,2024-11-22,2024-11-22
+shingikai/kihon_seisaku:内田由紀子委員岸田雪子委員木田秋津委員黒木碧恵委員小泉勇人委員駒村康平委員桜井彩乃委員貞広斎子委員椎木里佳委員柴田悠委員新保幸男委員南光開斗委員堀有喜衣委員矢島洋子委員山崎篤史,内田由紀子委員岸田雪子委員木田秋津委員黒木碧恵委員小泉勇人委員駒村康平委員櫻井彩乃委員貞広斎子委員椎木里佳委員柴田悠委員新保幸男委員南光開斗委員堀有喜衣委員矢島洋子委員山崎篤史,内田由紀子委員岸田雪子委員木田秋津委員黒木碧恵委員小泉勇人委員駒村康平委員櫻井彩乃委員貞広斎子委員椎木里佳委員柴田悠委員新保幸男委員南光開斗委員堀有喜衣委員矢島洋子委員山崎篤史,surname_only,shingikai/kihon_seisaku,,委員,,1,2026-05-08,2026-05-08
+shingikai/kihon_seisaku:土肥潤也部会長代理青木康太朗委員秋田喜代美,土肥潤也部会長代理青木康太朗委員秋田喜代美,土肥潤也部会長代理青木康太朗委員秋田喜代美,surname_only,shingikai/kihon_seisaku,,委員,,1,2026-03-30,2026-03-30
+shingikai/kihon_seisaku:秋田喜代美委員有村大士委員石井智康,秋田喜代美委員有村大士委員石井智康,秋田喜代美委員有村大士委員石井智康,surname_only,shingikai/kihon_seisaku,,委員,,1,2026-05-08,2026-05-08
+shingikai/kodomo_kosodate:寺尾康子委員當真淳,寺尾康子委員當眞淳,寺尾康子委員當眞淳,surname_only,shingikai/kodomo_kosodate,,委員,,1,2026-08-19,2026-08-19
+shingikai/kodomo_kosodate:徳倉康之委員戸巻聖,徳倉康之委員戸巻聖,徳倉康之委員戸巻聖,surname_only,shingikai/kodomo_kosodate,,委員,,2,2025-10-20,2026-08-19
+shingikai/kodomo_kosodate:松田茂樹分科会長代理赤坂緑,松田茂樹分科会長代理赤坂緑,松田茂樹分科会長代理赤坂緑,surname_only,shingikai/kodomo_kosodate,,委員,,1,2025-10-20,2025-10-20
+shingikai/kodomo_kosodate:橋本浩一委員松崎剛,橋本浩一委員松﨑剛,橋本浩一委員松﨑剛,surname_only,shingikai/kodomo_kosodate,,委員,,1,2026-08-19,2026-08-19
+shingikai/kodomo_kosodate:石田明義委員太田桂,石田明義委員太田桂,石田明義委員太田桂,surname_only,shingikai/kodomo_kosodate,,委員,,1,2026-08-19,2026-08-19
+shingikai/kodomo_sodachi/azukari_service:吉田,吉田,吉田,surname_only,shingikai/kodomo_sodachi/azukari_service,,委員,,2,2024-01-12,2025-12-24
+shingikai/kodomo_sodachi/azukari_service:安原,安原,安原,surname_only,shingikai/kodomo_sodachi/azukari_service,,委員,,1,2025-12-24,2025-12-24
+shingikai/kodomo_sodachi/azukari_service:小林,小林,小林,surname_only,shingikai/kodomo_sodachi/azukari_service,,委員,,1,2024-01-12,2024-01-12
+shingikai/kodomo_sodachi/azukari_service:尾木,尾木,尾木,surname_only,shingikai/kodomo_sodachi/azukari_service,,委員,,1,2024-01-12,2024-01-12
+shingikai/kodomo_sodachi/azukari_service:平川,平川,平川,surname_only,shingikai/kodomo_sodachi/azukari_service,,委員,,1,2024-01-12,2024-01-12
+shingikai/kodomo_sodachi/azukari_service:水嶋,水嶋,水嶋,surname_only,shingikai/kodomo_sodachi/azukari_service,,委員,,1,2024-01-12,2024-01-12
+shingikai:畑山麗衣委員ブローハン聡,畑山麗衣委員ブローハン聡,畑山麗衣委員ブローハン聡,surname_only,shingikai,,委員,,2,2025-04-25,2026-01-22

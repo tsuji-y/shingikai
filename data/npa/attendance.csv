@@ -1,4 +1,98 @@
 meeting_id,council_id,group,seq,name_raw,surname,role,person_id,person_basis,source
+traffic/council#1,traffic/council,1,1,有識者委員,有識者,委員,traffic/council:有識者,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,2,宇佐川 邦子 株式会社リクルートジョブズジョブズリサーチセンター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,3,大久保 堯夫 日本大学名誉教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,4,川端 由美 自動車ジャーナリスト,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,5,川本 哲郎 同志社大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,6,瀬川 誠 株式会社山城自動車教習所交通教育センター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,7,高橋 信行 國學院大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,8,中井 宏 大阪大学人間科学研究科准教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,1,9,藤田 悟郎 科学警察研究所交通科学部付主任研究官,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,2,10,警察庁,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,2,11,桝田 好一 交通局長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,2,12,早川 智之 交通局運転免許課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,3,13,関係省,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,3,14,吉永 隆博 国土交通省自動車局安全政策課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#1,traffic/council,3,15,金指 和彦 国土交通省自動車局旅客課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/01/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,1,有識者委員,有識者,委員,traffic/council:有識者,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,2,宇佐川 邦子 株式会社リクルートジョブズジョブズリサーチセンター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,3,大久保 堯夫 日本大学名誉教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,4,川端 由美 自動車ジャーナリスト,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,5,川本 哲郎 同志社大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,6,瀬川 誠 株式会社山城自動車教習所交通教育センター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,7,高橋 信行 國學院大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,8,中井 宏 大阪大学人間科学研究科准教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,1,9,藤田 悟郎 科学警察研究所交通科学部付主任研究官,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,2,10,警察庁,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,2,11,桝田 好一 交通局長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,2,12,早川 智之 交通局運転免許課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,3,13,関係省,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,3,14,吉永 隆博 国土交通省自動車局安全政策課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,3,15,金指 和彦 国土交通省自動車局旅客課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,4,16,ヒアリング対象者,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,4,17,松本 順 公益社団法人日本バス協会副会長,松本順公益社団法人日本バス協会副,会長,traffic/council:松本順公益社団法人日本バス協会副,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,4,18,梶原 景博 公益社団法人日本バス協会理事長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,4,19,武居 利春 一般社団法人全国ハイヤー・タクシー連合会労務委員長,武居利春一般社団法人全国ハイヤー・タクシー連合会労務,委員長,traffic/council:武居利春一般社団法人全国ハイヤー・タクシー連合会労務,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#2,traffic/council,4,20,小菅 孝嗣 一般社団法人全国ハイヤー・タクシー連合会常務理事,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/02/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,1,有識者委員,有識者,委員,traffic/council:有識者,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,2,宇佐川 邦子 株式会社リクルートジョブズジョブズリサーチセンター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,3,大久保 堯夫 日本大学名誉教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,4,川本 哲郎 同志社大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,5,瀬川 誠 株式会社山城自動車教習所交通教育センター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,6,高橋 信行 國學院大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,7,中井 宏 大阪大学人間科学研究科准教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,1,8,藤田 悟郎 科学警察研究所交通科学部付主任研究官,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,2,9,警察庁,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,2,10,北村 博文 交通局長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,2,11,早川 智之 交通局運転免許課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,3,12,関係省,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,3,13,川村 和久 国土交通省自動車局安全政策課係長(代理出席),,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,3,14,藤井 裕士 国土交通省自動車局旅客課バス事業活性化調整官(代理出席),,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,4,15,ヒアリング対象者,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,4,16,和氣 みち子 全国被害者支援ネットワーク理事,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,4,17,和氣 圭司 被害者支援センターとちぎ自助グループメンバー,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,4,18,慶島 譲治 全日本交通運輸産業労働組合協議会事務局次長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,4,19,池之谷 潤 日本私鉄労働組合総連合会交通政策局長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#3,traffic/council,4,20,松永 次央 全国自動車交通労働組合連合会書記長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/03/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,1,1,有識者委員,有識者,委員,traffic/council:有識者,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,1,2,大久保 堯夫 日本大学名誉教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,1,3,川本 哲郎 同志社大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,1,4,瀬川 誠 株式会社山城自動車教習所交通教育センター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,1,5,中井 宏 大阪大学人間科学研究科准教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,1,6,藤田 悟郎 科学警察研究所交通科学部付主任研究官,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,2,7,警察庁,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,2,8,北村 博文 交通局長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,2,9,早川 智之 交通局運転免許課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,3,10,関係省,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,3,11,山腰 俊博 国土交通省自動車局安全政策課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#4,traffic/council,3,12,金指 和彦 国土交通省自動車局旅客課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/04/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,1,有識者委員,有識者,委員,traffic/council:有識者,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,2,宇佐川 邦子 株式会社リクルートジョブズジョブズリサーチセンター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,3,大久保 堯夫 日本大学名誉教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,4,川本 哲郎 同志社大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,5,瀬川 誠 株式会社山城自動車教習所交通教育センター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,6,高橋 信行 國學院大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,7,中井 宏 大阪大学人間科学研究科准教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,1,8,藤田 悟郎 科学警察研究所交通科学部付主任研究官,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,2,9,警察庁,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,2,10,早川 智之 交通局運転免許課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,3,11,関係省,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,3,12,山腰 俊博 国土交通省自動車局安全政策課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#5,traffic/council,3,13,金指 和彦 国土交通省自動車局旅客課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/05/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,1,有識者委員,有識者,委員,traffic/council:有識者,surname_only,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,2,大久保 堯夫 日本大学名誉教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,3,川端 由美 自動車ジャーナリスト,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,4,川本 哲郎 同志社大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,5,瀬川 誠 株式会社山城自動車教習所交通教育センター長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,6,高橋 信行 國學院大学法学部教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,7,中井 宏 大阪大学大学院人間科学研究科准教授,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,1,8,藤田 悟郎 科学警察研究所交通科学部付主任研究官,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,2,9,警察庁,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,2,10,北村 博文 交通局長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,2,11,早川 智之 交通局運転免許課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,3,12,関係省,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,3,13,山腰 俊博 国土交通省自動車局安全政策課長,,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
+traffic/council#6,traffic/council,3,14,船岡 俊宏 国土交通省自動車局旅客課(代理出席),,,,,https://www.npa.go.jp/koutsuu/menkyo/2shu_menkyo/06/02_gijigaiyou.pdf
 traffic/council/自転車の交通安全教育の充実化に向けた官民連携協議会#1,traffic/council,,1,<構成員>,,,,,https://www.npa.go.jp/koutsuu/kikaku/bicycle/kyougikai/01/gijigaiyou.pdf
 traffic/council/自転車の交通安全教育の充実化に向けた官民連携協議会#1,traffic/council,一財,2,全日本交通安全協会(オンライン),,,,,https://www.npa.go.jp/koutsuu/kikaku/bicycle/kyougikai/01/gijigaiyou.pdf
 traffic/council/自転車の交通安全教育の充実化に向けた官民連携協議会#1,traffic/council,一財,3,自転車産業振興協会,,,,,https://www.npa.go.jp/koutsuu/kikaku/bicycle/kyougikai/01/gijigaiyou.pdf
@@ -285,3 +379,113 @@ traffic/council/良好な自転車交通秩序を実現させるための方策�
 traffic/council/良好な自転車交通秩序を実現させるための方策に関する有識者検討会#5,traffic/council,,20,文部科学省総合教育政策局男女共同参画共生社会学習・安全課長,,,,,https://www.npa.go.jp/koutsuu/kikaku/bicycle/kentokai/05/gijigaiyou.pdf
 traffic/council/良好な自転車交通秩序を実現させるための方策に関する有識者検討会#5,traffic/council,,21,国土交通省道路局参事官(自転車活用推進),,,,,https://www.npa.go.jp/koutsuu/kikaku/bicycle/kentokai/05/gijigaiyou.pdf
 traffic/council/良好な自転車交通秩序を実現させるための方策に関する有識者検討会#5,traffic/council,,22,警視庁交通部交通総務課長,,,,,https://www.npa.go.jp/koutsuu/kikaku/bicycle/kentokai/05/gijigaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,1,有識者委員,有識者,委員,safetylife/stalker:有識者,surname_only,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,2,太田 達也 慶應義塾大学法学部教授,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,3,大橋 真由美 上智大学法学部教授,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,4,久我 弘典 国立研究開発法人国立精神・神経医療研究センター認知行動療法センター長,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,5,柴田 建 逗子ストーカー事件御遺族・ストーカー対策研究会議元共同代表,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,6,曽我部 真裕 京都大学大学院法学研究科教授,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,7,番 敦子 諏訪坂法律事務所 弁護士,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,1,8,星 周一郎 東京都立大学法学部教授,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,2,9,ゲストスピーカー,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,2,10,原田 隆之 筑波大学人間系教授,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,3,11,警察庁,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,3,12,山田 好孝 生活安全局長,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,3,13,服部 準 長官官房審議官(生活安全局担当),,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,3,14,神原 悠介 生活安全局人身安全・少年課長,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,15,オブザーバー,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,16,法務省刑事局 局付,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,17,法務省保護局 局付,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,18,法務省保護局観察課 専門官,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,19,厚生労働省社会・援護局障害保健福祉部精神・障害保健課心の健康支援室 心の健康づくり対策官,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,20,最高裁判所事務総局刑事局第一課長,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#1,safetylife/stalker,4,21,最高裁判所事務総局行政局第二課長,,,,,https://www.npa.go.jp/bureau/safetylife/stalker/1gaiyou.pdf
+safetylife/stalker#2,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,有識者委員,2,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,有識者委員,3,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,有識者委員,4,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,被害者関係委員,5,弁護士元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,被害者関係委員,6,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,被害者関係委員,7,一橋大学教授猪野 憲一(京子) 桶川事件御遺族小早川 明子NPOヒューマニティ理事長警察庁生活安全局長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,関係省庁,8,辻 義之(鈴木 三男 警察庁生活安全局生活安全企画課長),辻,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,関係省庁,9,緒方 禎己 警察庁生活安全局情報技術犯罪対策課長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,関係省庁,10,水本 圭祐 内閣府男女共同参画局推進課暴力対策推進室長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,関係省庁,11,久木元 伸法務省刑事局刑事課長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,関係省庁,12,小野 太一 厚生労働省雇用均等・児童家庭局家庭福祉課長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,ヒアリング参加者,13,近藤 恵子 NPO法人全国女性シェルターネット共同代表,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,ヒアリング参加者,14,中島 幸子 NPO法人レジリエンス,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#2,safetylife/stalker,ヒアリング参加者,15,逗子事件御遺族,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/2/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,有識者委員,2,櫻井 敬子,櫻井,,桜井敬子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,有識者委員,3,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,有識者委員,4,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,有識者委員,5,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,被害者関係委員,6,猪野 憲一小早川 明子弁護士学習院大学教授元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,被害者関係委員,7,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,被害者関係委員,8,一橋大学教授桶川事件御遺族NPOヒューマニティ理事長警察庁生活安全局長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,関係省庁,9,辻 義之(宮城 直樹 警察庁長官官房審議官(生活安全局担当)),辻,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,関係省庁,10,鈴木 三男 警察庁生活安全局生活安全企画課長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,関係省庁,11,水本 圭祐 内閣府男女共同参画局推進課暴力対策推進室長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,関係省庁,12,山元 裕史 法務省刑事局刑事課長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,関係省庁,13,齊藤 克也 厚生労働省雇用均等・児童家庭局家庭福祉課,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,関係省庁,14,女性保護専門官(家庭福祉課長代理),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,ヒアリング参加者,15,竹内 景子 東京都女性相談センター所長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,ヒアリング参加者,16,吉川 誠司 インターネットホットラインセンター長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,ヒアリング参加者,17,福井 裕輝 男女問題解決支援センター代表理事,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#3,safetylife/stalker,ヒアリング参加者,18,岡本 圭司 兵庫県警察本部ストーカー・DV対策室調査官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/3/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,有識者委員,2,櫻井 敬子,櫻井,,桜井敬子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,有識者委員,3,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,有識者委員,4,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,有識者委員,5,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,被害者関係委員,6,猪野 憲一,猪野,,猪野憲一,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,被害者関係委員,7,小早川 明子,小早川,,小早川明子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,関係省庁等,8,弁護士学習院大学教授元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,関係省庁等,9,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,関係省庁等,10,一橋大学教授桶川事件御遺族NPOヒューマニティ理事長辻 義之宮城 直樹鈴木 三男水本 圭祐佐藤 剛小野 太一警察庁生活安全局長警察庁長官官房審議官(生活安全局担当),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,関係省庁等,11,警察庁生活安全局生活安全企画課長内閣府男女共同参画局推進課暴力対策推進室長法務省刑事局参事官(刑事課長代理),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#4,safetylife/stalker,関係省庁等,12,厚生労働省雇用均等・児童家庭局家庭福祉課長鹿士 眞由美 日本司法支援センター犯罪被害者支援課長,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/4/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,有識者委員,2,櫻井 敬子,櫻井,,桜井敬子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,有識者委員,3,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,有識者委員,4,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,有識者委員,5,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,被害者関係委員,6,猪野 憲一,猪野,,猪野憲一,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,被害者関係委員,7,小早川 明子,小早川,,小早川明子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,関係省庁,8,辻 義之宮城 直樹鈴木 三男水本 圭祐山元 裕史小林 昌彦弁護士学習院大学教授元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,関係省庁,9,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,関係省庁,10,一橋大学教授桶川事件御遺族NPOヒューマニティ理事長警察庁生活安全局長警察庁長官官房審議官(生活安全局担当),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#5,safetylife/stalker,関係省庁,11,警察庁生活安全局生活安全企画課長内閣府男女共同参画局推進課暴力対策推進室長法務省刑事局刑事課長厚生労働省雇用均等・児童家庭局家庭福祉課女性保護専門官(家庭福祉課長代理),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/5/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,有識者委員,2,櫻井 敬子,櫻井,,桜井敬子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,有識者委員,3,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,有識者委員,4,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,有識者委員,5,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,被害者関係委員,6,猪野 憲一,猪野,,猪野憲一,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,被害者関係委員,7,小早川 明子,小早川,,小早川明子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,関係省庁,8,辻 義之宮城 直樹鈴木 三男水本 圭祐山元 裕史小林 昌彦弁護士学習院大学教授元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,関係省庁,9,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,関係省庁,10,一橋大学教授桶川事件御遺族NPOヒューマニティ理事長警察庁生活安全局長警察庁長官官房審議官(生活安全局担当),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#6,safetylife/stalker,関係省庁,11,警察庁生活安全局生活安全企画課長内閣府男女共同参画局推進課暴力対策推進室長法務省刑事局刑事課長厚生労働省雇用均等・児童家庭局家庭福祉課女性保護専門官(家庭福祉課長代理),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/6/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,有識者委員,2,櫻井 敬子,櫻井,,桜井敬子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,有識者委員,3,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,有識者委員,4,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,有識者委員,5,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,被害者関係委員,6,猪野 憲一,猪野,,猪野憲一,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,被害者関係委員,7,小早川 明子,小早川,,小早川明子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,関係省庁,8,辻 義之宮城 直樹鈴木 三男水本 圭祐山元 裕史小林 昌彦弁護士学習院大学教授元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,関係省庁,9,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,関係省庁,10,一橋大学教授桶川事件御遺族NPOヒューマニティ理事長警察庁生活安全局長警察庁長官官房審議官(生活安全局担当),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#7,safetylife/stalker,関係省庁,11,警察庁生活安全局生活安全企画課長内閣府男女共同参画局推進課暴力対策推進室長法務省刑事局刑事課長厚生労働省雇用均等・児童家庭局家庭福祉課女性保護専門官(家庭福祉課長代理),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/7/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,有識者委員,1,紀藤 正樹,紀藤,,紀藤正樹,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,有識者委員,2,櫻井 敬子,櫻井,,桜井敬子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,有識者委員,3,田尾 健二郎,田尾,,田尾健二郎,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,有識者委員,4,前田 雅英,前田,,前田雅英,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,有識者委員,5,宮地 尚子,宮地,,宮地尚子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,被害者関係委員,6,猪野 憲一,猪野,,猪野憲一,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,被害者関係委員,7,小早川 明子,小早川,,小早川明子,full_name,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,関係省庁,8,辻 義之宮城 直樹鈴木 三男水本 圭祐山元 裕史小林 昌彦弁護士学習院大学教授元広島高裁長官,,,,,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,関係省庁,9,前国家公安委員会委員首都大学東京法科大学院教授(座長),,座長,,,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,関係省庁,10,一橋大学教授桶川事件御遺族NPOヒューマニティ理事長警察庁生活安全局長警察庁長官官房審議官(生活安全局担当),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf
+safetylife/stalker#8,safetylife/stalker,関係省庁,11,警察庁生活安全局生活安全企画課長内閣府男女共同参画局推進課暴力対策推進室長法務省刑事局刑事課長厚生労働省雇用均等・児童家庭局家庭福祉課女性保護専門官(家庭福祉課長代理),,,,,https://www.npa.go.jp/safetylife/seianki/stalker/8/gijiyoshi.pdf

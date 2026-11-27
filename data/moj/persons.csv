@@ -1,11 +1,29 @@
 person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meetings,first_date,last_date
+パートナー,パートナー,,full_name,1/shingi03600001_00001,1/shingi03600001_00001,,弁 護 士,0,,
 上原一夫,上原一夫,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,東 京 都 教 育 庁 指 導 部 主 任 指 導 主 事,7,2005-08-24,2007-04-27
 上東亘,上東亘,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、Ａ＆Ｓ福岡法律事務所,0,,
+中川丈久,中川丈久,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,神戸大学大学院法学研究科教授,0,,
 中田裕子,中田裕子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,法政大学法学部教授,0,,
+久保田,久保田,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,京 都 大 学 公 共 政 策 連 携 研 究 部 教 授,0,,
+久保野恵美子,久保野恵美子,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,東北大学大学院法学研究科教授,0,,
+久弥子,久弥子,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,（ ウ ェ ブ 参 加 ）,0,,
+井上,井上,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+井上由理,井上由理,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,日本ﾍﾟｲﾝﾄﾎｰﾙﾃﾞｨﾝｸﾞｽ株式会社常務執行役・General Counsel,0,,
+今田幸子,今田幸子,,full_name,1/shingikai_soukai,1/shingikai_soukai,,元独立行政法人労働政策研究・,0,,
+伊丹,伊丹,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+佐々木かをり,佐々木かをり,,full_name,1/shingikai_soukai,1/shingikai_soukai,,株式会社イー・ウーマン代表取,0,,
+佐久間淳一,佐久間淳一,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,名古屋大学副総長・教授、東海国立大学機構機構長補佐,0,,
+八丁地,八丁地,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+前田健,前田健,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,神戸大学大学院法学研究科教授,0,,
+加藤経将,加藤経将,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,法務省大臣官房司法法制部司法法制課長,0,,
+加賀讓治,加賀讓治,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,創価大学法学部教授,0,,
+北居功,北居功,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,慶應義塾大学大学院法務研究科教授,0,,
+北川佳世子,北川佳世子,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,早稲田大学大学院法務研究科教授,0,,
 十枝美紀子,十枝美紀子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、アンダーソン・毛利・友常法律事務所外国,0,,
 吉崎佳弥,吉崎佳弥,,full_name,1/kanbou_houkyo_kyougikai_index,,,,13,2006-04-25,2009-03-16
+吉田,吉田,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
 吉田俊弘,吉田俊弘,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,弁 護 士 ・ 横 浜 弁 護 士 会 所 属,0,,
-土井真一,土井真一,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,進 委 員 会 委 員 長,14,2005-05-25,2007-04-27
+土井真一,土井真一,,full_name,1/kanbou_houkyo_kyougikai_index shihouseido/housei10_00116,1/kanbou_houkyo_kyougikai_index shihouseido/housei10_00116,,進 委 員 会 委 員 長 | 京都大学大学院法学研究科教授,14,2005-05-25,2007-04-27
 土屋智恵子,土屋智恵子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、アンダーソン・毛利・友常法律事務所外国,0,,
 坂田吉郎,坂田吉郎,,full_name,1/kanbou_houkyo_kyougikai_index,,,,1,2009-03-16,2009-03-16
 堀田周吾,堀田周吾,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,東京都立大学法学部教授,0,,
@@ -13,35 +31,105 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 大塲亮太郎,大塲亮太郎,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,法 務 省 大 臣 官 房 参 事 官,11,2005-05-25,2007-04-27
 大杉昭英,大杉昭英,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,文 部 科 学 省 初 等 中 等 教 育 局 視 学 官,15,2005-05-25,2009-03-16
 大村敦志,大村敦志,,full_name,1/kanbou_houkyo_kyougikai_index,,,,5,2007-07-19,2009-03-16
+大沢裕,大澤裕,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,早稲田大学法学部教授,0,,
+大貫裕之,大貫裕之,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,学校法人中央大学常任理事、中央大学大学院法務研究科教授,0,,
 安藤信明,安藤信明,,full_name,1/kanbou_houkyo_kyougikai_index,,,,5,2007-07-19,2009-03-16
 安藤和津,安藤和津,,full_name,1/kanbou_houkyo_kyougikai_index,,,,9,2005-05-25,2009-03-16
+宏志,宏志,,full_name,1/shingikai_soukai,1/shingikai_soukai,,H26.11.11 新たに任命,0,,
+官田中賢二,官田中賢二,,full_name,1/shingi03600001_00001,1/shingi03600001_00001,,内 閣 府 対 日 直 接 投 資 推 進 室 長 村 瀬 佳 史,0,,
+富所浩介,富所浩介,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,読売新聞東京本社論説副委員長,0,,
+小杉,小杉,,full_name,1/shingikai_soukai,1/shingikai_soukai,,れ い こ 独立行政法人労働政策研究・研,0,,
 小林一郎,小林一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,一橋大学大学院法学研究科教授,0,,
 小林昭彦,小林昭彦,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,内 閣 官 房 内 閣 参 事 官,7,2005-05-25,2006-06-29
 山下輝年,山下輝年,,full_name,1/kanbou_houkyo_kyougikai_index,,,,11,2006-07-24,2008-04-16
+山口,山口,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+山根,山根,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
 山田勝之,山田勝之,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,東 京 都 大 田 区 立 御 園 中 学 校 教 諭,0,,
 山田裕香,山田裕香,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（弁護士法,0,,
+岩原,岩原,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+岩間,岩間,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+川副,川副,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
 建部豊,建部豊,,full_name,1/kanbou_houkyo_kyougikai_index,,,,2,2008-04-16,2009-03-16
+引頭,引頭,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員 | ま み 株式会社大和総研常務執行役員,0,,
 斎藤綾,斎藤綾,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、Ｂｉｒｄ＆Ｂｉｒｄ外国法共同事業法律事,0,,
+日立アメリ,日立アメリ,,full_name,1/shingikai_soukai,1/shingikai_soukai,,カ 会 長,0,,
+早川,早川,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
 杉浦保友,杉浦保友,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,柏木総合法律事務所顧問 (イングランド/ウェール,0,,
 村松剛,村松剛,,full_name,1/kanbou_houkyo_kyougikai_index,,,,1,2009-03-16,2009-03-16
+松下淳一,松下淳一,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,座長,学習院大学法学部教授,0,,
 江口勇治,江口勇治,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,筑 波 大 学 教 育 学 系 教 授,18,2005-05-25,2009-03-16
 河本雅也,河本雅也,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,最 高 裁 判 所 事 務 総 局 総 務 局 参 事 官,3,2005-05-25,2005-11-16
 浜辺陽一郎,浜辺陽一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,青山学院大学法学部教授,0,,
+清原慶子,清原慶子,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,杏林大学客員教授、前東京都三鷹市長,0,,
 湊健太郎,湊健太郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（渥美坂井,0,,
+独立行政,独立行政,,full_name,1/shingi03600001_00001,1/shingi03600001_00001,,法 人,0,,
+田村智幸,田村智幸,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,弁護士,0,,
 田沢元章,田澤元章,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,専修大学法学部教授,0,,
 畝本直美,畝本直美,,full_name,1/kanbou_houkyo_kyougikai_index,,,,2,2007-07-19,2007-12-19
+異動事由,異動事由,,full_name,1/shingikai_soukai,1/shingikai_soukai,,伊 藤 眞 早稲田大学大学院教授,0,,
+知恵子,知恵子,,full_name,1/housei02_003007_00014,1/housei02_003007_00014,,（ ウ ェ ブ 参 加 ）,0,,
+石井芳明,石井芳明,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,司法研修所事務局長,0,,
 磯山恭子,磯山恭子,,full_name,1/kanbou_houkyo_kyougikai_index,,,,4,2007-07-19,2009-03-16
-笠井正俊,笠井正俊,,full_name,1/kanbou_houkyo_kyougikai_index,,,,5,2007-07-19,2009-03-16
+礼子,礼子,,full_name,1/shingikai_soukai,1/shingikai_soukai,,修機構特任フェロー,0,,
+笠井正俊,笠井正俊,,full_name,1/kanbou_houkyo_kyougikai_index shihouseido/housei10_00116,shihouseido/housei10_00116,,京都大学副学長・大学院法学研究科教授,5,2007-07-19,2009-03-16
 細谷美明,細谷美明,,full_name,1/kanbou_houkyo_kyougikai_index,,,,2,2007-07-19,2007-12-19
 羽間京子,羽間京子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,千 葉 大 学 大 学 院 教 育 学 研 究 科 助 教 授,14,2005-05-25,2007-04-27
+能見,能見,,full_name,1/shingikai_soukai,1/shingikai_soukai,,委 員,0,,
+菊間千乃,菊間千乃,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,弁護士,0,,
 菱川浩一郎,菱川浩一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、菱川総合法律事務所,0,,
 藤沢尚江,藤澤尚江,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,北海道大学大学院法学研究科教授,0,,
 西嶋美那子,西嶋美那子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,横 河 ヒ ュ ー マ ン ・ ク リ エ イ ト 株 式 会 社 人 財 開 発 ア,11,2005-05-25,2007-04-27
 辻雄一郎,辻雄一郎,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,明治大学法学部教授,0,,
+酒井圭,酒井圭,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,弁護士,0,,
 金子優子,金子優子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（ヴァスコ,0,,
 鈴木啓文,鈴木啓文,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,委員,弁 護 士 ・ 日 本 弁 護 士 連 合 会 市 民 の た め の 法 教 育 委,18,2005-05-25,2008-04-16
 関一穂,関一穂,,full_name,1/kanbou_houkyo_kyougikai_index,,,,1,2009-03-16,2009-03-16
+青竹美佳,青竹美佳,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,大阪大学大学院高等司法研究科教授,0,,
 飯田裕美子,飯田裕美子,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,社 団 法 人 共 同 通 信 社 編 集 局 社 会 部 次 長,13,2005-05-25,2008-04-16
+高橋,高橋,,full_name,1/shingikai_soukai,1/shingikai_soukai,,ひ ろ し 中央大学法科大学院教授,0,,
 高橋文郎,高橋文郎,,full_name,1/kanbou_houkyo_kyougikai_index,1/kanbou_houkyo_kyougikai_index,,司 法 書 士 ・ 日 本 司 法 書 士 会 連 合 会 初 等 中 等 教 育 推,14,2005-05-25,2007-04-27
+高橋真弓,髙橋真弓,,full_name,shihouseido/housei10_00116,shihouseido/housei10_00116,,一橋大学大学院法学研究科准教授,0,,
 高良美紀子,髙良美紀子,,full_name,hourei-shiryou-hanrei/housei03_00006,hourei-shiryou-hanrei/housei03_00006,,弁護士、ＳＡＫＵＲＡ法律事務所,0,,
+麻実,麻実,,full_name,1/shingikai_soukai,1/shingikai_soukai,,調査本部副本部長,0,,
 1/kanbou_houkyo_kyougikai_index:磯山恭子,磯山恭子,磯山恭子,surname_only,1/kanbou_houkyo_kyougikai_index,,委員,,1,2007-09-10,2007-09-10
+shihouseido/housei10_00116:三宅弘副,三宅弘副,三宅弘副,surname_only,shihouseido/housei10_00116,,会長,,2,2015-12-14,2016-01-18
+shihouseido/housei10_00116:上田智司副,上田智司副,上田智司副,surname_only,shihouseido/housei10_00116,,会長,,1,2025-03-04,2025-03-04
+shihouseido/housei10_00116:中村隆副,中村隆副,中村隆副,surname_only,shihouseido/housei10_00116,,会長,,2,2016-07-08,2017-02-08
+shihouseido/housei10_00116:佐々木邦彦高等教育局専門教育課専門職大学院室室長○最高裁判所清藤健一総務局総括参事官○日本弁護士連合会神田安積副,佐々木邦彦高等教育局専門教育課専門職大学院室室長○最高裁判所清藤健一総務局総括参事官○日本弁護士連合会神田安積副,佐々木邦彦高等教育局専門教育課専門職大学院室室長○最高裁判所清藤健一総務局総括参事官○日本弁護士連合会神田安積副,surname_only,shihouseido/housei10_00116,,会長,,1,2022-03-01,2022-03-01
+shihouseido/housei10_00116:佐藤昭彦副,佐藤昭彦副,佐藤昭彦副,surname_only,shihouseido/housei10_00116,,会長,,1,2025-09-25,2025-09-25
+shihouseido/housei10_00116:佐藤隆幸事務総局総務局参事官○,佐藤隆幸事務総局総務局参事官○,佐藤隆幸事務総局総務局参事官○,surname_only,shihouseido/housei10_00116,,会長,,1,2018-07-02,2018-07-02
+shihouseido/housei10_00116:内田哲也事務総局総務局参事官○,内田哲也事務総局総務局参事官○,内田哲也事務総局総務局参事官○,surname_only,shihouseido/housei10_00116,,会長,,1,2019-07-01,2019-07-01
+shihouseido/housei10_00116:冨田秀実副,冨田秀実副,冨田秀実副,surname_only,shihouseido/housei10_00116,,会長,,1,2020-10-23,2020-10-23
+shihouseido/housei10_00116:吉岡康祐副,吉岡康祐副,吉岡康祐副,surname_only,shihouseido/housei10_00116,,会長,,1,2017-10-11,2017-10-11
+shihouseido/housei10_00116:多川一成副,多川一成副,多川一成副,surname_only,shihouseido/housei10_00116,,会長,,1,2022-12-22,2022-12-22
+shihouseido/housei10_00116:大田裕章総務部法務支援室長○日本経済団体連合会長谷川雅巳経済基盤本部副本部長○経済同友会中島美砂子政策調査部担当部長○経営法友会藤井豊久研究部会運営,大田裕章総務部法務支援室長○日本経済団体連合会長谷川雅巳経済基盤本部副本部長○経済同友会中島美砂子政策調査部担当部長○経営法友会藤井豊久研究部会運営,大田裕章総務部法務支援室長○日本経済団体連合会長谷川雅巳経済基盤本部副本部長○経済同友会中島美砂子政策調査部担当部長○経営法友会藤井豊久研究部会運営,surname_only,shihouseido/housei10_00116,,委員,,1,2016-10-17,2016-10-17
+shihouseido/housei10_00116:太田賢二副,太田賢二副,太田賢二副,surname_only,shihouseido/housei10_00116,,会長,,1,2018-07-02,2018-07-02
+shihouseido/housei10_00116:宇加治恭子副,宇加治恭子副,宇加治恭子副,surname_only,shihouseido/housei10_00116,,会長,,2,2023-10-04,2024-02-27
+shihouseido/housei10_00116:小早川龍司副,小早川龍司副,小早川龍司副,surname_only,shihouseido/housei10_00116,,会長,,1,2019-07-01,2019-07-01
+shihouseido/housei10_00116:小田清和副,小田清和副,小田清和副,surname_only,shihouseido/housei10_00116,,会長,,1,2018-07-02,2018-07-02
+shihouseido/housei10_00116:岡大地参事官○,岡大地参事官○,岡大地参事官○,surname_only,shihouseido/housei10_00116,,会長,,1,2020-10-23,2020-10-23
+shihouseido/housei10_00116:岩井一真事務総局総務局参事官○,岩井一真事務総局総務局参事官○,岩井一真事務総局総務局参事官○,surname_only,shihouseido/housei10_00116,,会長,,5,2016-10-17,2018-02-26
+shihouseido/housei10_00116:岩崎淳司副,岩﨑淳司副,岩﨑淳司副,surname_only,shihouseido/housei10_00116,,会長,,2,2022-01-27,2022-03-01
+shihouseido/housei10_00116:川山泰弘総務局兼人事局企画官○,川山泰弘総務局兼人事局企画官○,川山泰弘総務局兼人事局企画官○,surname_only,shihouseido/housei10_00116,,会長,,2,2022-01-27,2022-12-22
+shihouseido/housei10_00116:早稲田祐美子副,早稲田祐美子副,早稲田祐美子副,surname_only,shihouseido/housei10_00116,,会長,,3,2016-07-08,2017-02-08
+shihouseido/housei10_00116:林晃史副,林晃史副,林晃史副,surname_only,shihouseido/housei10_00116,,会長,,1,2022-07-04,2022-07-04
+shihouseido/housei10_00116:森下平高等教育局専門教育課専門職大学院室長○最高裁判所川山泰弘事務総局総務局兼人事局企画官○日本弁護士連合会伊井和彦副,森下平高等教育局専門教育課専門職大学院室長○最高裁判所川山泰弘事務総局総務局兼人事局企画官○日本弁護士連合会伊井和彦副,森下平高等教育局専門教育課専門職大学院室長○最高裁判所川山泰弘事務総局総務局兼人事局企画官○日本弁護士連合会伊井和彦副,surname_only,shihouseido/housei10_00116,,会長,,1,2022-07-04,2022-07-04
+shihouseido/housei10_00116:森健二事務総局総務局参事官○,森健二事務総局総務局参事官○,森健二事務総局総務局参事官○,surname_only,shihouseido/housei10_00116,,会長,,3,2016-01-18,2016-07-08
+shihouseido/housei10_00116:森健二事務総局総務局参事官○日本弁護士連合会伊藤茂昭副,森健二事務総局総務局参事官○日本弁護士連合会伊藤茂昭副,森健二事務総局総務局参事官○日本弁護士連合会伊藤茂昭副,surname_only,shihouseido/housei10_00116,,会長,,1,2015-12-14,2015-12-14
+shihouseido/housei10_00116:正木靖子副,正木靖子副,正木靖子副,surname_only,shihouseido/housei10_00116,,会長,,1,2018-07-02,2018-07-02
+shihouseido/housei10_00116:水中誠三副,水中誠三副,水中誠三副,surname_only,shihouseido/housei10_00116,,会長,,2,2016-10-17,2017-02-08
+shihouseido/housei10_00116:池田桂子副,池田桂子副,池田桂子副,surname_only,shihouseido/housei10_00116,,会長,,1,2017-05-19,2017-05-19
+shihouseido/housei10_00116:田村智幸副,田村智幸副,田村智幸副,surname_only,shihouseido/housei10_00116,,会長,,1,2017-10-11,2017-10-11
+shihouseido/housei10_00116:石田京子事務局長○,石田京子事務局長○,石田京子事務局長○,surname_only,shihouseido/housei10_00116,,会長,,1,2022-12-22,2022-12-22
+shihouseido/housei10_00116:綿引朋子事務総局総務局企画官○,綿引朋子事務総局総務局企画官○,綿引朋子事務総局総務局企画官○,surname_only,shihouseido/housei10_00116,,会長,,1,2024-07-23,2024-07-23
+shihouseido/housei10_00116:綿引朋子総務局兼人事局企画官○,綿引朋子総務局兼人事局企画官○,綿引朋子総務局兼人事局企画官○,surname_only,shihouseido/housei10_00116,,会長,,2,2023-10-04,2024-02-27
+shihouseido/housei10_00116:舩木孝和副,舩木孝和副,舩木孝和副,surname_only,shihouseido/housei10_00116,,会長,,1,2020-10-23,2020-10-23
+shihouseido/housei10_00116:藤本卓司副,藤本卓司副,藤本卓司副,surname_only,shihouseido/housei10_00116,,会長,,1,2016-01-18,2016-01-18
+shihouseido/housei10_00116:蜂須賀太郎副,蜂須賀太郎副,蜂須賀太郎副,surname_only,shihouseido/housei10_00116,,会長,,1,2022-07-04,2022-07-04
+shihouseido/housei10_00116:西川由香高等教育局専門教育課専門職大学院室長○最高裁判所吉岡大地事務総局総務局参事官○日本弁護士連合会平沢郁子副,西川由香高等教育局専門教育課専門職大学院室長○最高裁判所吉岡大地事務総局総務局参事官○日本弁護士連合会平沢郁子副,西川由香高等教育局専門教育課専門職大学院室長○最高裁判所吉岡大地事務総局総務局参事官○日本弁護士連合会平沢郁子副,surname_only,shihouseido/housei10_00116,,会長,,1,2019-12-18,2019-12-18
+shihouseido/housei10_00116:西森やよい副,西森やよい副,西森やよい副,surname_only,shihouseido/housei10_00116,,会長,,1,2025-09-25,2025-09-25
+shihouseido/housei10_00116:遠藤安希歩事務総局総務局企画官兼人事局企画官○,遠藤安希歩事務総局総務局企画官兼人事局企画官○,遠藤安希歩事務総局総務局企画官兼人事局企画官○,surname_only,shihouseido/housei10_00116,,会長,,1,2026-10-13,2026-10-13
+shihouseido/housei10_00116:遠藤安希歩事務総局総務局企画官兼人事局企画官○日本弁護士連合会森本宏副,遠藤安希歩事務総局総務局企画官兼人事局企画官○日本弁護士連合会森本宏副,遠藤安希歩事務総局総務局企画官兼人事局企画官○日本弁護士連合会森本宏副,surname_only,shihouseido/housei10_00116,,会長,,1,2025-09-25,2025-09-25
+shihouseido/housei10_00116:遠藤翼高等教育局専門教育課専門職大学院室長○最高裁判所綿引朋子総務局兼人事局企画官○日本弁護士連合会市川正司副,遠藤翼高等教育局専門教育課専門職大学院室長○最高裁判所綿引朋子総務局兼人事局企画官○日本弁護士連合会市川正司副,遠藤翼高等教育局専門教育課専門職大学院室長○最高裁判所綿引朋子総務局兼人事局企画官○日本弁護士連合会市川正司副,surname_only,shihouseido/housei10_00116,,会長,,1,2025-03-04,2025-03-04
+shihouseido/housei10_00116:関谷文隆副,関谷文隆副,関谷文隆副,surname_only,shihouseido/housei10_00116,,会長,,1,2019-07-01,2019-07-01
+shihouseido/housei10_00116:難波幸一副,難波幸一副,難波幸一副,surname_only,shihouseido/housei10_00116,,会長,,1,2019-07-01,2019-07-01

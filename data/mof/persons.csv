@@ -1,70 +1,218 @@
 person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meetings,first_date,last_date
 三牧正和,三牧正和,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,帝京大学医学部小児科主任教授,0,,
+三石誠司,三石誠司,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,宮城大学食産業学群教授,0,,
+上村敏之,上村敏之,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,40,2021-04-07,2026-10-16
+下坂朝子,下坂朝子,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,（一社）日本経済団体連合会国際協力本部長,0,,
 中出哲,中出哲,,full_name,jishin_benkyoukai,jishin_benkyoukai,,早稲田大学商学学術院教授,0,,
-中空麻奈,中空麻奈,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,(株)かんぽ生命保険エグゼクティブ・フェロー兼かんぽ経済研究所主席研究員,0,,
-丸田健太郎,丸田健太郎,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,有限責任あずさ監査法人専務理事,0,,
-亀坂安紀子,亀坂安紀子,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,青山学院大学経営学部教授,0,,
-佐藤主光,佐藤主光,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system jishin_benkyoukai,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system jishin_benkyoukai,,一橋大学経済学研究科教授 | 一橋大学大学院経済学研究科教授,0,,
-佐野晋平,佐野晋平,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,神戸大学大学院経済学研究科教授,0,,
+中島宏,中島宏,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,（公社）関西経済連合会理事経済調査部長,0,,
+中曽宏,中曽宏,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,日本銀行副総裁,0,,
+中空麻奈,中空麻奈,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,(株)かんぽ生命保険エグゼクティブ・フェロー兼かんぽ経済研究所主席研究員,44,2021-04-07,2026-10-16
+丸田健太郎,丸田健太郎,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,,有限責任あずさ監査法人専務理事 | 有限責任あずさ監査法人常務執行理事,0,,
+亀坂安紀子,亀坂安紀子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_national_property customs_foreign_exchange/sub-foreign_exchange,fiscal_system_council/soukai fiscal_system_council/sub-of_national_property customs_foreign_exchange/sub-foreign_exchange,,青山学院大学経営学部教授,0,,
+五十嵐チカ,五十嵐チカ,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,弁護士,0,,
+伊藤亜聖,伊藤亜聖,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,東京大学社会科学研究所准教授,0,,
+伊藤恵子,伊藤恵子,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,専修大学経済学部教授 | 中央大学商学部教授,0,,
+伊藤由希子,伊藤由希子,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,慶應義塾大学大学院商学研究科教授,0,,
+伊達美和子,伊達美和子,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,12,2021-04-07,2024-10-22
+佐々木伸彦,佐々木伸彦,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,（独）日本貿易振興機構（ジェトロ）理事長,0,,
+佐藤主光,佐藤主光,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system jishin_benkyoukai,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system jishin_benkyoukai,委員,一橋大学経済学研究科教授 | 一橋大学大学院経済学研究科教授,41,2021-04-07,2026-10-16
+佐藤清隆,佐藤清隆,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,横浜国立大学大学院国際社会科研究院教授,0,,
+佐藤英明,佐藤英明,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,慶應義塾大学大学院法務研究科教授,0,,
+佐野晋平,佐野晋平,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,神戸大学大学院経済学研究科教授,8,2025-04-09,2026-10-16
+内田真一,内田眞一,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,日本銀行副総裁,0,,
 内閣府,内閣府,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,政策統括官（経済財政運営担当）,0,,
+冨山和彦,冨山和彦,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,1,2021-11-08,2021-11-08
+冨田俊基,冨田俊基,,full_name,fiscal_system_council/sub-of_fiscal_system fiscal_system_council/sub-of_filp,fiscal_system_council/sub-of_filp,委員,(株)野村資本市場研究所客員研究員,13,2021-04-07,2022-04-20
+別所俊一郎,別所俊一郎,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,9,2021-04-07,2022-04-20
 別添,別添,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,議        長,0,,
 加藤康之,加藤康之,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,京都先端科学大学教授・東京都立大学大学院特任教授・京都大学客員教授,0,,
-十倉雅和,十倉雅和,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,座長,住友化学(株)相談役,0,,
+十倉雅和,十倉雅和,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/soukai,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/soukai,座長 / 委員,住友化学(株)相談役 | (一社)日本経済団体連合会副会長(住友化学(株)代表取締役社長),10,2023-04-14,2026-09-30
+十河ひろ美,十河ひろ美,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,9,2021-04-07,2022-02-16
+半沢淳一,半沢淳一,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,（一社）全国銀行協会会長（（株）三菱ＵＦＪ銀行取締役頭取執行役員）,0,,
+南場智子,南場智子,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,3,2021-04-15,2022-04-13
 厚生労,厚生労,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,働省 雇用環境・均等局長,0,,
-吉川洋,吉川洋,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,東京大学名誉教授,0,,
-土居丈朗,土居丈朗,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,慶應義塾大学経済学部教授,0,,
+原田喜美枝,原田喜美枝,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/soukai customs_foreign_exchange/sub-foreign_exchange,,中央大学商学部教授,0,,
+古城佳子,古城佳子,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,東京大学大学院総合文化研究科教授 | 青山学院大学国際政治経済学部教授,0,,
+古谷由紀子,古谷由紀子,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,(公社)日本消費生活アドバイザー・コンサルタント協会常任顧問,0,,
+吉川洋,吉川洋,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,東京大学名誉教授,34,2021-04-07,2026-10-16
+喜多恒雄,喜多恒雄,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,6,2021-04-21,2022-04-13
+国松麻季,国松麻季,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,中央大学国際経営学部教授,0,,
+国部毅,國部毅,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,19,2023-04-14,2026-09-30
+土井丈朗,土井丈朗,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,5,2021-04-07,2021-10-05
+土居丈朗,土居丈朗,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system fiscal_system_council/sub-of_filp,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system fiscal_system_council/sub-of_filp,委員,慶應義塾大学経済学部教授,36,2021-10-11,2026-10-16
+坂元龍三,坂元龍三,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,(公社)関西経済連合会副会長(東洋紡(株)代表取締役会長) | （公社）関西経済連合会理事（東洋紡（株）相談役）,0,,
 堀田一吉,堀田一吉,,full_name,jishin_benkyoukai,jishin_benkyoukai,,慶應義塾大学名誉教授,0,,
-堀真奈美,堀真奈美,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,東海大学学長補佐・健康学部健康マネジメント学科教授,0,,
-増田寬也,増田寬也,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,(株)野村総合研究所顧問,0,,
-大槻奈那,大槻奈那,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,名古屋商科大学大学院教授・ピクテ・ジャパン(株) シニアフェロー | 名古屋商科大学大学院教授・ピクテ・ジャパン(株)シニアフェロー,0,,
+堀真奈美,堀真奈美,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,東海大学学長補佐・健康学部健康マネジメント学科教授,42,2021-04-07,2026-10-16
+増田寛也,増田寛也,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,22,2021-04-07,2026-10-16
+増田寬也,増田寬也,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,(株)野村総合研究所顧問,20,2023-09-27,2026-04-28
+大久保恭子,大久保恭子,,full_name,fiscal_system_council/sub-of_national_property,fiscal_system_council/sub-of_national_property,,株式会社 風代表取締役,0,,
+大槻奈那,大槻奈那,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,名古屋商科大学大学院教授・ピクテ・ジャパン(株) シニアフェロー | 名古屋商科大学大学院教授・ピクテ・ジャパン(株)シニアフェロー,36,2021-04-07,2026-10-16
+大槻那奈,大槻那奈,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,2,2021-11-01,2021-11-08
+大橋弘,大橋弘,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,東京大学公共政策大学院院長・大学院経済学研究科教授,0,,
+大野早苗,大野早苗,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,武蔵大学経済学部教授,0,,
 大野澄子,大野澄子,,full_name,jishin_benkyoukai,jishin_benkyoukai,,弁護士（永沢総合法律事務所）,0,,
 奥田かつ枝,奥田かつ枝,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,(株)九段緒方総合鑑定代表取締役,0,,
+奥田英信,奥田英信,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,一橋大学大学院経済学研究科教授,0,,
+宇南山卓,宇南山卓,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,10,2021-04-07,2022-04-13
+安永竜夫,安永竜夫,,full_name,fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,委員,（一社）日本貿易会会長（三井物産（株）代表取締役会長）,13,2021-04-07,2024-11-13
 安藤光義,安藤光義,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,東京大学大学院農学生命科学研究科教授,0,,
-宮島香澄,宮島香澄,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,ジャーナリスト,0,,
-家森信善,家森信善,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,神戸大学経済経営研究所教授,0,,
-小林充佳,小林充佳,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,ＮＴＴ西日本(株)相談役,0,,
-小林慶一郎,小林慶一郎,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,慶應義塾大学経済学部教授,0,,
-小黒一正,小黒一正,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,法政大学経済学部教授,0,,
-山口明夫,山口明夫,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,日本アイ・ビー・エム(株)代表取締役社長,0,,
-川口有一郎,川口有一郎,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,早稲田大学名誉教授,0,,
-平野信行,平野信行,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,(株)三菱ＵＦＪ銀行 特別顧問,0,,
-広瀬道明,広瀬道明,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,東京ガス(株)相談役,0,,
+宮島香澄,宮島香澄,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/sub-of_customs,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/sub-of_customs,委員,ジャーナリスト | 日本テレビ放送網（株）報道局解説委員,42,2021-04-07,2026-10-16
+家森信善,家森信善,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,,神戸大学経済経営研究所教授,0,,
+小山田隆,小山田隆,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,(一社)全国銀行協会会長((株)三菱東京UFJ銀行頭取),0,,
+小川英治,小川英治,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,一橋大学大学院商学研究科教授,0,,
+小林健,小林健,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(一社）日本貿易会会長（三菱商事(株)取締役会長）,0,,
+小林充佳,小林充佳,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,ＮＴＴ西日本(株)相談役,12,2025-04-09,2026-10-16
+小林慶一郎,小林慶一郎,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,慶應義塾大学経済学部教授,35,2021-04-07,2026-10-16
+小林栄三,小林栄三,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,(一社)日本貿易会会長(伊藤忠商事(株)取締役会長),0,,
+小林毅,小林毅,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,9,2021-04-21,2022-04-20
+小枝淳子,小枝淳子,,full_name,fiscal_system_council/sub-of_filp customs_foreign_exchange/soukai,fiscal_system_council/sub-of_filp customs_foreign_exchange/soukai,,早稲田大学政治経済学術院准教授 | 早稲田大学政治経済学術院教授,0,,
+小黒一正,小黒一正,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,法政大学経済学部教授,29,2023-04-14,2026-10-16
+山内利夫,山内利夫,,full_name,fiscal_system_council/sub-of_filp,fiscal_system_council/sub-of_filp,,PwCアドバイザリー合同会社ディレクター,0,,
+山口博臣,山口博臣,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,日本労働組合総連合会経済政策局長,0,,
+山口明夫,山口明夫,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,日本アイ・ビー・エム(株)代表取締役社長,7,2025-04-09,2026-04-28
+岡田章裕,岡田章裕,,full_name,fiscal_system_council/sub-of_filp,fiscal_system_council/sub-of_filp,,(株)読売新聞東京本社論説委員,0,,
+川口有一郎,川口有一郎,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_national_property,fiscal_system_council/soukai fiscal_system_council/sub-of_national_property,,早稲田大学名誉教授 | 早稲田大学大学院経営管理研究科教授,0,,
+川嶋三恵子,川嶋三恵子,,full_name,fiscal_system_council/sub-of_national_property,fiscal_system_council/sub-of_national_property,,株式会社 読売新聞東京本社論説委員,0,,
+工藤操,工藤操,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,(一財)消費科学センター,0,,
+工藤禎子,工藤禎子,,full_name,fiscal_system_council/sub-of_filp,fiscal_system_council/sub-of_filp,,(株)三井住友銀行取締役専務執行役員,0,,
+左三川郁子,左三川郁子,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,日本経済研究センター金融研究室長兼主任研究員 事務局長補佐,0,,
+平野信行,平野信行,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,(株)三菱ＵＦＪ銀行 特別顧問,44,2021-04-07,2026-10-16
+広瀬道明,広瀬道明,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,東京ガス(株)相談役,39,2021-04-07,2026-09-30
+斎藤保,斎藤保,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(一社)日本経済団体連合会審議員会副議長（(株)IHI 相談役）,0,,
 日本銀行,日本銀行,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,理事,0,,
-木村旬,木村旬,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,(株)毎日新聞社論説委員,0,,
-村岡彰敏,村岡彰敏,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,(株)読売新聞東京本社代表取締役社長,0,,
-桜井彩乃,櫻井彩乃,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,(一社)ＧＥＮＣＯＵＲＡＧＥ代表理事,0,,
-権丈英子,権丈英子,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,亜細亜大学経済学部長・教授,0,,
-横田響子,横田響子,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,(株)コラボラボ代表取締役,0,,
-武田洋子,武田洋子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,(株)三菱総合研究所常務研究理事,0,,
-河村小百合,河村小百合,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,(株)日本総合研究所調査部主席研究員,0,,
+日比野隆司,日比野隆司,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,日本証券業協会会長,0,,
+春田雄一,春田雄一,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,日本労働組合総連合会総合政策局経済政策局長 | 日本労働組合総連合会経済・社会政策局長,0,,
+木村旬,木村旬,,full_name,fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/sub-foreign_exchange,fiscal_system_council/sub-of_fiscal_system customs_foreign_exchange/sub-foreign_exchange,委員,(株)毎日新聞社論説委員 | （株）毎日新聞社論説委員,46,2021-04-07,2026-10-16
+木村福成,木村福成,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,慶應義塾大学経済学部教授,0,,
+末冨純子,末冨純子,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,弁護士,0,,
+末沢豪謙,末澤豪謙,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,34,2021-04-07,2025-02-13
+杉山晶子,杉山晶子,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,,東洋大学経営学部会計ファイナンス学科教授,0,,
+村上秀徳,村上秀徳,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,（一財）食品産業センター理事長,0,,
+村岡彰敏,村岡彰敏,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,(株)読売新聞東京本社代表取締役社長,14,2021-04-07,2025-11-07
+根本敏則,根本敏則,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,敬愛大学経済学部教授,0,,
+根本直子,根本直子,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,早稲田大学大学院経営管理研究科教授,0,,
+桜井彩乃,櫻井彩乃,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,(一社)ＧＥＮＣＯＵＲＡＧＥ代表理事,9,2025-04-09,2026-10-16
+桜田謙悟,櫻田謙悟,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,3,2021-04-15,2023-11-01
+森田朗,森田朗,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs,,津田塾大学総合政策学部教授 | 東京大学名誉教授,0,,
+植田健一,植田健一,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,東京大学大学院経済学研究科兼公共政策大学院教授,0,,
+榊原定征,榊原定征,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,7,2021-04-07,2022-04-20
+権丈英子,権丈英子,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,亜細亜大学経済学部長・教授,30,2021-04-07,2026-10-16
+横田響子,横田響子,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,(株)コラボラボ代表取締役,36,2021-04-07,2026-10-16
+正記,正記,,full_name,fiscal_system_council/sub-of_national_property,fiscal_system_council/sub-of_national_property,,株式会社 計画技術研究所代表取締役,0,,
+武田洋子,武田洋子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,(株)三菱総合研究所常務研究理事,43,2021-04-07,2026-10-16
+永沢裕美子,永沢裕美子,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,（公社）日本消費生活アドバイザー・コンサルタント・相談員協会 代表理事副会長,0,,
+江藤名保子,江藤名保子,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,学習院大学法学部教授,0,,
+沢田康幸,澤田康幸,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,東京大学大学院経済学研究科教授,0,,
+河村小百合,河村小百合,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,(株)日本総合研究所調査部主席研究員,46,2021-04-07,2026-10-16
+河野真理子,河野真理子,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,,早稲田大学法学学術院教授,0,,
 洲崎博史,洲崎博史,,full_name,jishin_benkyoukai,jishin_benkyoukai,,同志社大学大学院司法研究科教授,0,,
+浦田秀次郎,浦田秀次郎,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,早稲田大学大学院アジア太平洋研究科教授,0,,
 消費,消費,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,者 庁 政策立案総括審議官,0,,
-渡辺努,渡辺努,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,キヤノングローバル戦略研究所研究主幹,0,,
-滝沢美帆,滝澤美帆,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,学習院大学経済学部経済学科教授,0,,
-熊谷亮丸,熊谷亮丸,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,(株)大和総研副理事長,0,,
-田中里沙,田中里沙,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,事業構想大学院大学学長,0,,
-神子田章博,神子田章博,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,日本放送協会解説主幹,0,,
-福田慎一,福田慎一,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,東京都立大学特任教授・武蔵野大学特任教授,0,,
-秋池玲子,秋池玲子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,ボストン・コンサルティング・グループ日本共同代表,0,,
+清水剛,清水剛,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,,東京大学大学院総合文化研究科教授,0,,
+清水順子,清水順子,,full_name,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/soukai customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,,学習院大学経済学部教授,0,,
+渡辺努,渡辺努,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,,キヤノングローバル戦略研究所研究主幹 | 東京大学大学院経済学研究科教授,0,,
+滝川佳代,滝川佳代,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,弁護士,0,,
+滝沢美帆,滝澤美帆,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,学習院大学経済学部経済学科教授,21,2023-04-14,2026-10-16
+熊谷亮丸,熊谷亮丸,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,(株)大和総研副理事長,44,2021-04-07,2026-10-16
+田中理沙,田中理沙,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,2,2021-11-08,2021-11-15
+田中里沙,田中里沙,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,事業構想大学院大学学長,39,2021-04-07,2026-10-16
+田村善之,田村善之,,full_name,customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-of_customs customs_foreign_exchange/sub-foreign_exchange,,東京大学大学院法学政治学研究科教授・北海道大学名誉教授 | 東京大学大学院法学政治学研究科教授,0,,
+田波俊明,田波俊明,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,全国農業協同組合中央会副会長,0,,
+田近栄治,田近栄治,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,14,2021-04-07,2022-04-20
+相沢英孝,相澤英孝,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,一橋大学大学院国際企業戦略研究科教授,0,,
+神作裕之,神作裕之,,full_name,customs_foreign_exchange/sub-foreign_exchange,customs_foreign_exchange/sub-foreign_exchange,座長,学習院大学法学部教授,0,,
+神子田章博,神子田章博,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,日本放送協会解説主幹,44,2021-04-07,2026-10-16
+神津里季生,神津里季生,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,7,2021-04-07,2021-11-01
+祥子,祥子,,full_name,fiscal_system_council/sub-of_national_property,fiscal_system_council/sub-of_national_property,,千葉大学大学院工学研究院教授,0,,
+福田慎一,福田慎一,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,東京都立大学特任教授・武蔵野大学特任教授,43,2021-04-07,2026-10-16
+秋池玲子,秋池玲子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,ボストン・コンサルティング・グループ日本共同代表,31,2021-04-07,2026-04-28
+稲野和利,稲野和利,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,日本証券業協会会長,0,,
+竹中ナミ,竹中ナミ,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,13,2021-04-07,2022-04-20
 筒井義信,筒井義信,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,日本生命保険相互会社特別顧問,0,,
+米良はるか,米良はるか,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,1,2021-04-21,2021-04-21
 経済産,経済産,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,業省 商務・サービス審議官,0,,
 翁百合,翁百合,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,(株)日本総合研究所シニアフェロー・一橋大学大学院特任教授,0,,
-芳野友子,芳野友子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,日本労働組合総連合会会長,0,,
+芳野友子,芳野友子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,日本労働組合総連合会会長,30,2021-11-08,2026-10-16
 若林茂雄,若林茂雄,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,弁護士,0,,
+茂雄,茂雄,,full_name,fiscal_system_council/sub-of_national_property,fiscal_system_council/sub-of_national_property,,日本生命保険相互会社 代表取締役会長,0,,
 草地克紀,草地克紀,,full_name,jishin_benkyoukai,jishin_benkyoukai,,公認会計士（PwC Japan有限責任監査法人）,0,,
+藤原まり子,藤原まり子,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,(株)リ・パブリック フェロー,0,,
+藤岡博,藤岡博,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(公財)日本関税協会理事,0,,
 藤田友敬,藤田友敬,,full_name,jishin_benkyoukai,jishin_benkyoukai,座長,東京大学大学院法学政治学研究科教授,0,,
-藤谷武史,藤谷武史,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,東京大学大学院法学政治学研究科教授,0,,
+藤谷武史,藤谷武史,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,東京大学大学院法学政治学研究科教授,26,2021-04-21,2026-04-28
+裕子,裕子,,full_name,fiscal_system_council/sub-of_national_property,fiscal_system_council/sub-of_national_property,,法政大学法学部教授,0,,
+西野桂子,西野桂子,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,関西学院大学総合政策学部教授／ジーエルエム・インスティチュート代表理事,0,,
+角和夫,角和夫,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,17,2021-04-07,2024-10-16
+赤井伸郎,赤井伸郎,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,10,2021-04-07,2022-04-13
 農林水,農林水,,full_name,meeting_of_cbdcre,meeting_of_cbdcre,,産省 経営局長,0,,
-遠藤典子,遠藤典子,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,,早稲田大学研究院教授,0,,
-野村浩子,野村浩子,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,東京家政学院大学特別招聘教授・(公財)日本女性学習財団理事長,0,,
-長沢仁志,長澤仁志,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,,日本郵船(株)取締役会長,0,,
+遠藤典子,遠藤典子,,full_name,fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/sub-of_fiscal_system,委員,早稲田大学研究院教授,40,2021-04-07,2026-10-16
+野原佐和子,野原佐和子,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(株)イプシ・マーケティング研究所代表取締役社長,0,,
+野村浩子,野村浩子,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,fiscal_system_council/soukai fiscal_system_council/sub-of_filp,,東京家政学院大学特別招聘教授・(公財)日本女性学習財団理事長 | 東京家政学院大学特別招聘教授,0,,
+金原寿秀,金原壽秀,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(一社)全国農業協同組合中央会副会長理事,0,,
+長沢仁志,長澤仁志,,full_name,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,fiscal_system_council/soukai fiscal_system_council/sub-of_fiscal_system,委員,日本郵船(株)取締役会長,2,2026-04-17,2026-04-28
+長谷川秀行,長谷川秀行,,full_name,customs_foreign_exchange/soukai,customs_foreign_exchange/soukai,,(株)産業経済新聞社論説副委員長,0,,
 関ふ佐子,関ふ佐子,,full_name,fiscal_system_council/soukai,fiscal_system_council/soukai,,神奈川大学法学部教授,0,,
-meeting_of_cbdc:井上哲也,井上哲也,井上哲也,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:井上聡,井上聡,井上聡,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:国枝繁樹,國枝繁樹,國枝繁樹,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:小早川周司,小早川周司,小早川周司,surname_only,meeting_of_cbdc,,委員,,1,2025-05-27,2025-05-27
-meeting_of_cbdc:柳川範之,柳川範之,柳川範之,surname_only,meeting_of_cbdc,,座長,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:河野康子,河野康子,河野康子,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:石井夏生利,石井夏生利,石井夏生利,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:翁百合,翁百合,翁百合,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
-meeting_of_cbdc:長内智,長内智,長内智,surname_only,meeting_of_cbdc,,委員,,2,2025-05-27,2026-06-25
+雨宮正佳,雨宮正佳,,full_name,fiscal_system_council/sub-of_fiscal_system,,委員,,1,2021-04-07,2021-04-07
+高山一郎,高山一郎,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(一社)共同通信社論説委員,0,,
+高橋裕子,高橋裕子,,full_name,customs_foreign_exchange/sub-of_customs,customs_foreign_exchange/sub-of_customs,,(一財)消費科学センター,0,,
+customs_disatisfaction_review/soukai:中村嘉孝,中村嘉孝,中村嘉孝,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2023-06-14,2025-06-12
+customs_disatisfaction_review/soukai:井上由里子,井上由里子,井上由里子,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:佐藤英明,佐藤英明,佐藤英明,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2019-06-07,2021-06-07
+customs_disatisfaction_review/soukai:北出真紀恵,北出真紀恵,北出真紀恵,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2025-06-12,2025-06-12
+customs_disatisfaction_review/soukai:吉藤玲子,吉藤玲子,吉藤玲子,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2019-06-07,2023-06-14
+customs_disatisfaction_review/soukai:大谷省吾,大谷省吾,大谷省吾,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2023-06-14,2025-06-12
+customs_disatisfaction_review/soukai:宍倉久里江,宍倉久里江,宍倉久里江,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2025-06-12,2025-06-12
+customs_disatisfaction_review/soukai:宮川美津子,宮川美津子,宮川美津子,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2019-06-07,2023-06-14
+customs_disatisfaction_review/soukai:小室広佐子,小室広佐子,小室広佐子,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2021-06-07,2021-06-07
+customs_disatisfaction_review/soukai:小尾仁,小尾仁,小尾仁,surname_only,customs_disatisfaction_review/soukai,,委員,,4,2019-06-07,2025-06-12
+customs_disatisfaction_review/soukai:小林篤子,小林篤子,小林篤子,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2019-06-07,2021-06-07
+customs_disatisfaction_review/soukai:山本隆司,山本隆司,山本隆司,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:岡本裕樹,岡本裕樹,岡本裕樹,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2025-06-12,2025-06-12
+customs_disatisfaction_review/soukai:岩坪朗彦,岩坪朗彦,岩坪朗彦,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2025-06-12,2025-06-12
+customs_disatisfaction_review/soukai:峰ひろみ,峰ひろみ,峰ひろみ,surname_only,customs_disatisfaction_review/soukai,,委員,,4,2019-06-07,2025-06-12
+customs_disatisfaction_review/soukai:川口晴美,川口晴美,川口晴美,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2021-06-07,2021-06-07
+customs_disatisfaction_review/soukai:木口信之,木口信之,木口信之,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:木村幸俊,木村幸俊,木村幸俊,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:河野聡子,河野聡子,河野聡子,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2023-06-14,2025-06-12
+customs_disatisfaction_review/soukai:浅妻章如,浅妻章如,浅妻章如,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2021-06-07,2025-06-12
+customs_disatisfaction_review/soukai:渋谷雅弘,渋谷雅弘,渋谷雅弘,surname_only,customs_disatisfaction_review/soukai,,委員,,4,2019-06-07,2025-06-12
+customs_disatisfaction_review/soukai:渕圭吾,渕圭吾,渕圭吾,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:渕麻依子,渕麻依子,渕麻依子,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2023-06-14,2025-06-12
+customs_disatisfaction_review/soukai:渡辺徹也,渡辺徹也,渡辺徹也,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2023-06-14,2025-06-12
+customs_disatisfaction_review/soukai:田口尚志,田口尚志,田口尚志,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:田村善之,田村善之,田村善之,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2021-06-07,2025-06-12
+customs_disatisfaction_review/soukai:田村真,田村眞,田村眞,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2021-06-07,2023-06-14
+customs_disatisfaction_review/soukai:相良由里子,相良由里子,相良由里子,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2025-06-12,2025-06-12
+customs_disatisfaction_review/soukai:石原伸志,石原伸志,石原伸志,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2019-06-07,2019-06-07
+customs_disatisfaction_review/soukai:石田美菜子,石田美菜子,石田美菜子,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2019-06-07,2025-06-12
+customs_disatisfaction_review/soukai:稲垣光隆,稲垣光隆,稲垣光隆,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2021-06-07,2025-06-12
+customs_disatisfaction_review/soukai:興津征雄,興津征雄,興津征雄,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2021-06-07,2025-06-12
+customs_disatisfaction_review/soukai:若林広美,若林廣美,若林廣美,surname_only,customs_disatisfaction_review/soukai,,委員,,1,2025-06-12,2025-06-12
+customs_disatisfaction_review/soukai:角田美穂子,角田美穂子,角田美穂子,surname_only,customs_disatisfaction_review/soukai,,委員,,3,2019-06-07,2023-06-14
+customs_disatisfaction_review/soukai:金生由紀子,金生由紀子,金生由紀子,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2019-06-07,2023-06-14
+customs_disatisfaction_review/soukai:長谷川秀行,長谷川秀行,長谷川秀行,surname_only,customs_disatisfaction_review/soukai,,委員,,2,2023-06-14,2025-06-12
+customs_disatisfaction_review/sub-customs:中村嘉孝,中村嘉孝,中村嘉孝,surname_only,customs_disatisfaction_review/sub-customs,,委員,,5,2023-06-14,2025-09-09
+customs_disatisfaction_review/sub-customs:中村嘉孝委員渕麻衣子,中村嘉孝委員渕麻衣子,中村嘉孝委員渕麻衣子,surname_only,customs_disatisfaction_review/sub-customs,,委員,,1,2025-10-03,2025-10-03
+customs_disatisfaction_review/sub-customs:佐藤英明,佐藤英明,佐藤英明,surname_only,customs_disatisfaction_review/sub-customs,,委員,,1,2021-06-07,2021-06-07
+customs_disatisfaction_review/sub-customs:宮川美津子,宮川美津子,宮川美津子,surname_only,customs_disatisfaction_review/sub-customs,,委員,,2,2021-06-07,2023-06-14
+customs_disatisfaction_review/sub-customs:小尾仁,小尾仁,小尾仁,surname_only,customs_disatisfaction_review/sub-customs,,委員,,8,2021-06-07,2026-06-05
+customs_disatisfaction_review/sub-customs:岡本裕樹,岡本裕樹,岡本裕樹,surname_only,customs_disatisfaction_review/sub-customs,,委員,,4,2025-06-12,2026-06-05
+customs_disatisfaction_review/sub-customs:浅妻章如,浅妻章如,浅妻章如,surname_only,customs_disatisfaction_review/sub-customs,,委員,,8,2021-06-07,2026-06-05
+customs_disatisfaction_review/sub-customs:渋谷雅弘,渋谷雅弘,渋谷雅弘,surname_only,customs_disatisfaction_review/sub-customs,,委員,,8,2021-06-07,2026-06-05
+customs_disatisfaction_review/sub-customs:渕麻依子,渕麻依子,渕麻依子,surname_only,customs_disatisfaction_review/sub-customs,,委員,,5,2023-06-14,2026-06-05
+customs_disatisfaction_review/sub-customs:渡辺徹也,渡辺徹也,渡辺徹也,surname_only,customs_disatisfaction_review/sub-customs,,委員,,7,2023-06-14,2026-06-05
+customs_disatisfaction_review/sub-customs:田口尚志,田口尚志,田口尚志,surname_only,customs_disatisfaction_review/sub-customs,,委員,,1,2021-06-07,2021-06-07
+customs_disatisfaction_review/sub-customs:田村善之,田村善之,田村善之,surname_only,customs_disatisfaction_review/sub-customs,,委員,,8,2021-06-07,2026-06-05
+customs_disatisfaction_review/sub-customs:相良由里子,相良由里子,相良由里子,surname_only,customs_disatisfaction_review/sub-customs,,委員,,5,2025-03-21,2026-06-05
+customs_disatisfaction_review/sub-customs:稲垣光隆,稲垣光隆,稲垣光隆,surname_only,customs_disatisfaction_review/sub-customs,,委員,,8,2021-06-07,2026-06-05
+customs_disatisfaction_review/sub-customs:興津征雄,興津征雄,興津征雄,surname_only,customs_disatisfaction_review/sub-customs,,委員,,8,2021-06-07,2026-06-05
+customs_disatisfaction_review/sub-customs:角田美穂子,角田美穂子,角田美穂子,surname_only,customs_disatisfaction_review/sub-customs,,委員,,4,2021-06-07,2025-03-21
+meeting_of_cbdc:井上哲也,井上哲也,井上哲也,surname_only,meeting_of_cbdc,,委員,,7,2023-05-24,2026-06-25
+meeting_of_cbdc:井上聡,井上聡,井上聡,surname_only,meeting_of_cbdc,,委員,,8,2023-05-24,2026-06-25
+meeting_of_cbdc:国枝繁樹,國枝繁樹,國枝繁樹,surname_only,meeting_of_cbdc,,委員,,9,2023-05-24,2026-06-25
+meeting_of_cbdc:小早川周司,小早川周司,小早川周司,surname_only,meeting_of_cbdc,,委員,,7,2023-05-24,2025-05-27
+meeting_of_cbdc:柳川範之,柳川範之,柳川範之,surname_only,meeting_of_cbdc,,座長,,9,2023-05-24,2026-06-25
+meeting_of_cbdc:河野康子,河野康子,河野康子,surname_only,meeting_of_cbdc,,委員,,9,2023-05-24,2026-06-25
+meeting_of_cbdc:石井夏生利,石井夏生利,石井夏生利,surname_only,meeting_of_cbdc,,委員,,8,2023-05-24,2026-06-25
+meeting_of_cbdc:翁百合,翁百合,翁百合,surname_only,meeting_of_cbdc,,委員,,8,2023-05-24,2026-06-25
+meeting_of_cbdc:長内智,長内智,長内智,surname_only,meeting_of_cbdc,,委員,,9,2023-05-24,2026-06-25

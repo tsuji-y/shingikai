@@ -1,10 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T12:46:50+00:00",
+  "generated_at": "2026-11-27T00:48:12+00:00",
   "storage_policy": {
-    "texts_and_indexes": "Git repository (data/<agency>/text/, catalog.csv, catalog.jsonl, data/all/index.json)",
-    "pdf_originals": "GitHub Releases (<agency>-pdfs-YYYY-MM / baseline tar.gz shards), linked via release_url",
-    "subpage_html_originals": "GitHub Releases (<agency>-html-YYYY-MM / tar.gz shards), linked via release_url",
+    "indexes_and_structured_tables": "Git repository (data/<agency>/*.csv, catalog.csv, catalog.jsonl, parsed_texts.json, data/all/index.json)",
+    "extracted_texts": "GitHub Releases (<agency>-texts-YYYY-MM / backfill tar.gz shards), linked via text_release_url (mod keeps data/mod/text/ in Git)",
+    "pdf_originals": "GitHub Releases (<agency>-pdfs-YYYY-MM / backfill tar.gz shards), linked via release_url",
+    "subpage_html_originals": "GitHub Releases (<agency>-html-YYYY-MM / backfill tar.gz shards), linked via release_url",
     "warp_policy": "Excluded from automated fetching (links preserved in documents.csv / catalog)"
   },
   "catalog_fields": [
@@ -26,6 +27,7 @@
     "bytes",
     "release_url",
     "text_path",
+    "text_release_url",
     "text_chars",
     "text_pages",
     "note",
@@ -34,14 +36,15 @@
   "totals": {
     "councils": 1637,
     "meetings": 18348,
-    "documents": 50248,
-    "pdfs_target": 15491,
-    "pdfs_fetched": 1498,
-    "pdfs_archived": 1498,
-    "subpages_fetched": 12,
-    "subpages_archived": 12,
-    "texts": 1510,
-    "pdf_coverage_pct": 9.7
+    "documents": 59696,
+    "pdfs_target": 24901,
+    "pdfs_fetched": 12551,
+    "pdfs_archived": 12551,
+    "subpages_fetched": 1686,
+    "subpages_archived": 1686,
+    "texts": 14236,
+    "texts_archived": 13815,
+    "pdf_coverage_pct": 50.4
   },
   "agencies": [
     {
@@ -51,6 +54,7 @@
       "base_url": "https://www.mod.go.jp",
       "release_tag_prefix": "pdfs",
       "html_release_tag_prefix": "mod-html",
+      "text_release_tag_prefix": "mod-texts",
       "counts": {
         "councils": 67,
         "meetings": 933,
@@ -62,7 +66,8 @@
         "pages": 123,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 421
+        "texts": 421,
+        "texts_archived": 0
       },
       "last_fetched_at": "2026-11-22T02:18:30+00:00",
       "files": {
@@ -83,6 +88,7 @@
       "base_url": "https://www.digital.go.jp",
       "release_tag_prefix": "digital-pdfs",
       "html_release_tag_prefix": "digital-html",
+      "text_release_tag_prefix": "digital-texts",
       "counts": {
         "councils": 70,
         "meetings": 401,
@@ -94,7 +100,8 @@
         "pages": 228,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 92
+        "texts": 92,
+        "texts_archived": 92
       },
       "last_fetched_at": "2026-11-26T04:25:31+00:00",
       "files": {
@@ -115,20 +122,22 @@
       "base_url": "https://www.cfa.go.jp",
       "release_tag_prefix": "cfa-pdfs",
       "html_release_tag_prefix": "cfa-html",
+      "text_release_tag_prefix": "cfa-texts",
       "counts": {
         "councils": 92,
         "meetings": 628,
-        "documents": 973,
-        "pdfs_target": 353,
-        "pdfs_fetched": 31,
-        "pdfs_archived": 31,
-        "pdf_coverage_pct": 8.8,
+        "documents": 6126,
+        "pdfs_target": 5506,
+        "pdfs_fetched": 5504,
+        "pdfs_archived": 5504,
+        "pdf_coverage_pct": 100.0,
         "pages": 110,
-        "subpages_fetched": 0,
-        "subpages_archived": 0,
-        "texts": 31
+        "subpages_fetched": 595,
+        "subpages_archived": 595,
+        "texts": 6098,
+        "texts_archived": 6098
       },
-      "last_fetched_at": "2026-11-26T04:17:28+00:00",
+      "last_fetched_at": "2026-11-26T17:31:08+00:00",
       "files": {
         "catalog_csv": "data/cfa/catalog.csv",
         "catalog_jsonl": "data/cfa/catalog.jsonl",
@@ -147,6 +156,7 @@
       "base_url": "https://www.cas.go.jp",
       "release_tag_prefix": "cas-pdfs",
       "html_release_tag_prefix": "cas-html",
+      "text_release_tag_prefix": "cas-texts",
       "counts": {
         "councils": 284,
         "meetings": 2538,
@@ -158,7 +168,8 @@
         "pages": 264,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 88
+        "texts": 88,
+        "texts_archived": 88
       },
       "last_fetched_at": "2026-11-26T04:22:58+00:00",
       "files": {
@@ -179,6 +190,7 @@
       "base_url": "https://www.cao.go.jp",
       "release_tag_prefix": "cao-pdfs",
       "html_release_tag_prefix": "cao-html",
+      "text_release_tag_prefix": "cao-texts",
       "counts": {
         "councils": 104,
         "meetings": 489,
@@ -190,7 +202,8 @@
         "pages": 118,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 93
+        "texts": 93,
+        "texts_archived": 93
       },
       "last_fetched_at": "2026-11-26T04:14:12+00:00",
       "files": {
@@ -211,6 +224,7 @@
       "base_url": "https://www.maff.go.jp",
       "release_tag_prefix": "maff-pdfs",
       "html_release_tag_prefix": "maff-html",
+      "text_release_tag_prefix": "maff-texts",
       "counts": {
         "councils": 55,
         "meetings": 1155,
@@ -222,7 +236,8 @@
         "pages": 106,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 83
+        "texts": 83,
+        "texts_archived": 83
       },
       "last_fetched_at": "2026-11-26T04:17:16+00:00",
       "files": {
@@ -243,20 +258,22 @@
       "base_url": "https://www.mof.go.jp",
       "release_tag_prefix": "mof-pdfs",
       "html_release_tag_prefix": "mof-html",
+      "text_release_tag_prefix": "mof-texts",
       "counts": {
         "councils": 48,
         "meetings": 302,
-        "documents": 985,
-        "pdfs_target": 194,
-        "pdfs_fetched": 38,
-        "pdfs_archived": 38,
-        "pdf_coverage_pct": 19.6,
+        "documents": 2525,
+        "pdfs_target": 1701,
+        "pdfs_fetched": 1682,
+        "pdfs_archived": 1682,
+        "pdf_coverage_pct": 98.9,
         "pages": 102,
-        "subpages_fetched": 0,
-        "subpages_archived": 0,
-        "texts": 38
+        "subpages_fetched": 726,
+        "subpages_archived": 726,
+        "texts": 2408,
+        "texts_archived": 2408
       },
-      "last_fetched_at": "2026-11-26T04:14:38+00:00",
+      "last_fetched_at": "2026-11-26T14:51:33+00:00",
       "files": {
         "catalog_csv": "data/mof/catalog.csv",
         "catalog_jsonl": "data/mof/catalog.jsonl",
@@ -275,20 +292,22 @@
       "base_url": "https://www.moj.go.jp",
       "release_tag_prefix": "moj-pdfs",
       "html_release_tag_prefix": "moj-html",
+      "text_release_tag_prefix": "moj-texts",
       "counts": {
         "councils": 25,
         "meetings": 239,
-        "documents": 1679,
-        "pdfs_target": 352,
-        "pdfs_fetched": 93,
-        "pdfs_archived": 93,
-        "pdf_coverage_pct": 26.4,
+        "documents": 3711,
+        "pdfs_target": 2384,
+        "pdfs_fetched": 2380,
+        "pdfs_archived": 2380,
+        "pdf_coverage_pct": 99.8,
         "pages": 56,
-        "subpages_fetched": 0,
-        "subpages_archived": 0,
-        "texts": 93
+        "subpages_fetched": 257,
+        "subpages_archived": 257,
+        "texts": 2637,
+        "texts_archived": 2637
       },
-      "last_fetched_at": "2026-11-26T04:13:39+00:00",
+      "last_fetched_at": "2026-11-26T14:51:05+00:00",
       "files": {
         "catalog_csv": "data/moj/catalog.csv",
         "catalog_jsonl": "data/moj/catalog.jsonl",
@@ -307,6 +326,7 @@
       "base_url": "https://www.env.go.jp",
       "release_tag_prefix": "env-pdfs",
       "html_release_tag_prefix": "env-html",
+      "text_release_tag_prefix": "env-texts",
       "counts": {
         "councils": 138,
         "meetings": 2631,
@@ -318,7 +338,8 @@
         "pages": 139,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 45
+        "texts": 45,
+        "texts_archived": 45
       },
       "last_fetched_at": "2026-11-25T05:01:16+00:00",
       "files": {
@@ -339,20 +360,22 @@
       "base_url": "https://www.fsa.go.jp",
       "release_tag_prefix": "fsa-pdfs",
       "html_release_tag_prefix": "fsa-html",
+      "text_release_tag_prefix": "fsa-texts",
       "counts": {
         "councils": 88,
         "meetings": 69,
-        "documents": 1272,
-        "pdfs_target": 325,
-        "pdfs_fetched": 93,
-        "pdfs_archived": 93,
-        "pdf_coverage_pct": 28.6,
+        "documents": 1995,
+        "pdfs_target": 1043,
+        "pdfs_fetched": 1043,
+        "pdfs_archived": 1043,
+        "pdf_coverage_pct": 100.0,
         "pages": 125,
-        "subpages_fetched": 0,
-        "subpages_archived": 0,
-        "texts": 93
+        "subpages_fetched": 96,
+        "subpages_archived": 96,
+        "texts": 1139,
+        "texts_archived": 1139
       },
-      "last_fetched_at": "2026-11-26T04:17:53+00:00",
+      "last_fetched_at": "2026-11-26T13:42:14+00:00",
       "files": {
         "catalog_csv": "data/fsa/catalog.csv",
         "catalog_jsonl": "data/fsa/catalog.jsonl",
@@ -371,6 +394,7 @@
       "base_url": "https://www.caa.go.jp",
       "release_tag_prefix": "caa-pdfs",
       "html_release_tag_prefix": "caa-html",
+      "text_release_tag_prefix": "caa-texts",
       "counts": {
         "councils": 21,
         "meetings": 95,
@@ -382,7 +406,8 @@
         "pages": 52,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 55
+        "texts": 55,
+        "texts_archived": 55
       },
       "last_fetched_at": "2026-11-24T06:10:13+00:00",
       "files": {
@@ -403,6 +428,7 @@
       "base_url": "https://www.mext.go.jp",
       "release_tag_prefix": "mext-pdfs",
       "html_release_tag_prefix": "mext-html",
+      "text_release_tag_prefix": "mext-texts",
       "counts": {
         "councils": 18,
         "meetings": 62,
@@ -414,7 +440,8 @@
         "pages": 95,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 3
+        "texts": 3,
+        "texts_archived": 3
       },
       "last_fetched_at": "2026-11-21T15:37:22+00:00",
       "files": {
@@ -435,6 +462,7 @@
       "base_url": "https://www.mlit.go.jp",
       "release_tag_prefix": "mlit-pdfs",
       "html_release_tag_prefix": "mlit-html",
+      "text_release_tag_prefix": "mlit-texts",
       "counts": {
         "councils": 293,
         "meetings": 26,
@@ -446,7 +474,8 @@
         "pages": 294,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 93
+        "texts": 93,
+        "texts_archived": 93
       },
       "last_fetched_at": "2026-11-26T04:25:19+00:00",
       "files": {
@@ -467,20 +496,22 @@
       "base_url": "https://www.npa.go.jp",
       "release_tag_prefix": "npa-pdfs",
       "html_release_tag_prefix": "npa-html",
+      "text_release_tag_prefix": "npa-texts",
       "counts": {
         "councils": 2,
         "meetings": 27,
         "documents": 808,
         "pdfs_target": 808,
-        "pdfs_fetched": 78,
-        "pdfs_archived": 78,
-        "pdf_coverage_pct": 9.7,
+        "pdfs_fetched": 777,
+        "pdfs_archived": 777,
+        "pdf_coverage_pct": 96.2,
         "pages": 2,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 78
+        "texts": 777,
+        "texts_archived": 777
       },
-      "last_fetched_at": "2026-11-26T04:12:37+00:00",
+      "last_fetched_at": "2026-11-26T13:22:56+00:00",
       "files": {
         "catalog_csv": "data/npa/catalog.csv",
         "catalog_jsonl": "data/npa/catalog.jsonl",
@@ -499,6 +530,7 @@
       "base_url": "https://www.ppc.go.jp",
       "release_tag_prefix": "ppc-pdfs",
       "html_release_tag_prefix": "ppc-html",
+      "text_release_tag_prefix": "ppc-texts",
       "counts": {
         "councils": 3,
         "meetings": 12,
@@ -510,7 +542,8 @@
         "pages": 4,
         "subpages_fetched": 12,
         "subpages_archived": 12,
-        "texts": 111
+        "texts": 111,
+        "texts_archived": 111
       },
       "last_fetched_at": "2026-11-26T12:34:59+00:00",
       "files": {
@@ -531,6 +564,7 @@
       "base_url": "https://www.mhlw.go.jp",
       "release_tag_prefix": "mhlw-pdfs",
       "html_release_tag_prefix": "mhlw-html",
+      "text_release_tag_prefix": "mhlw-texts",
       "counts": {
         "councils": 329,
         "meetings": 8741,
@@ -542,7 +576,8 @@
         "pages": 387,
         "subpages_fetched": 0,
         "subpages_archived": 0,
-        "texts": 93
+        "texts": 93,
+        "texts_archived": 93
       },
       "last_fetched_at": "2026-11-26T04:28:53+00:00",
       "files": {

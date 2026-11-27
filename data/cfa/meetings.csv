@@ -1,187 +1,187 @@
 meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
-shingikai#1,shingikai,,1,,2023-04-21,令和5年4月21日,,,,,,1,link,/councils/shingikai
-shingikai#2,shingikai,,2,,2023-09-25,令和5年9月25日,,,,,,1,link,/councils/shingikai
-shingikai#3,shingikai,,3,,2023-11-22,令和5年11月22日,,,,,,1,link,/councils/shingikai
-shingikai#4,shingikai,,4,,2024-01-29,令和6年1月29日,,,,,,1,link,/councils/shingikai
-shingikai#5,shingikai,,5,,2025-01-23,令和7年1月23日,,,,,,1,link,/councils/shingikai
-shingikai#6,shingikai,,6,,2025-04-25,令和7年4月25日,,,,,,1,link,/councils/shingikai
-shingikai#7,shingikai,,7,,2026-01-22,令和8年1月22日,,,,,,1,link,/councils/shingikai
-ebpm-society#1,ebpm-society,,1,,2023-06-21,令和5年6月21日,,,,,,1,link,/councils/ebpm-society
-ebpm-society#2,ebpm-society,,2,,2023-09-12,令和5年9月12日,,,,,,1,link,/councils/ebpm-society
-ebpm-society#3,ebpm-society,,3,,2023-11-27,令和5年11月27日,,,,,,1,link,/councils/ebpm-society
-ebpm-society#4,ebpm-society,,4,,2024-03-26,令和6年3月26日,,,,,,1,link,/councils/ebpm-society
-ijime-judaikayoin#1,ijime-judaikayoin,,1,,2025-01-20,令和7年1月20日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#2,ijime-judaikayoin,,2,,2025-02-17,令和7年2月17日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#3,ijime-judaikayoin,,3,,2025-03-13,令和7年3月13日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#4,ijime-judaikayoin,,4,,2025-04-14,令和7年4月14日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#5,ijime-judaikayoin,,5,,2025-05-19,令和7年5月19日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#6,ijime-judaikayoin,,6,,2025-06-16,令和7年6月16日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#7,ijime-judaikayoin,,7,,2025-07-28,令和7年7月28日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#8,ijime-judaikayoin,,8,,2025-08-28,令和7年8月28日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-judaikayoin#9,ijime-judaikayoin,,9,,2025-09-30,令和7年9月30日,,,,,,1,link,/councils/ijime-judaikayoin
-ijime-kaigi#1,ijime-kaigi,,1,,2023-09-11,令和5年9月11日,,,,,,1,link,/councils/ijime-kaigi
-ijime-kaigi#2,ijime-kaigi,,2,,2023-10-16,令和5年10月16日,,,,,,1,link,/councils/ijime-kaigi
-ijime-kaigi#3,ijime-kaigi,,3,,2024-03-22,令和6年3月22日,,,,,,1,link,/councils/ijime-kaigi
-ijime-kaigi#4,ijime-kaigi,,4,,2024-11-08,令和6年11月8日,,,,,,1,link,/councils/ijime-kaigi
-ijime-kaigi#5,ijime-kaigi,,5,,2025-11-21,令和7年11月21日,,,,,,1,link,/councils/ijime-kaigi
-ijime-kaigi#6,ijime-kaigi,,6,,2026-01-16,令和8年1月16日,,,,,,1,link,/councils/ijime-kaigi
-Judicial-Review-Working-Team-on-Temporary-Protection#1,Judicial-Review-Working-Team-on-Temporary-Protection,,1,,2023-04-26,令和5年4月26日,,,,,,1,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
-Judicial-Review-Working-Team-on-Temporary-Protection#2,Judicial-Review-Working-Team-on-Temporary-Protection,,2,,2023-06-21,令和5年6月21日,,,,,,1,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
-Judicial-Review-Working-Team-on-Temporary-Protection#3,Judicial-Review-Working-Team-on-Temporary-Protection,,3,,2023-10-02,令和5年10月2日,,,,,,1,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
-Judicial-Review-Working-Team-on-Temporary-Protection#4,Judicial-Review-Working-Team-on-Temporary-Protection,,4,,2023-12-20,令和5年12月20日,,,,,,1,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
-Judicial-Review-Working-Team-on-Temporary-Protection#5,Judicial-Review-Working-Team-on-Temporary-Protection,,5,,2024-10-30,令和6年10月30日,,,,,,1,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
+shingikai#1,shingikai,,1,,2023-04-21,令和5年4月21日,,,,秋田 喜代美 委員 / 有村 大士 委員 / 五十嵐 隆 委員 / 石原 理 委員 / 大石 亜希子 委員 / 大竹 智 委員 / 大豆生田 啓友 委員 / 小野 善郎 委員 / 上鹿渡 和宏 委員 / 倉石 哲也 委員 / 櫻井 彩乃 委員 / 新保 幸男 委員 / 鈴木 みゆき 委員 / 砂上 史子 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 平野 啓子 委員 / 堀江 敦子 委員 / 前田 正子 委員 / 松田 茂樹 委員 / 村宮 汐莉 委員 / 山縣 然太朗 委員 / 山縣 文治 委員,,15,link+pdf,/councils/shingikai
+shingikai#2,shingikai,,2,,2023-09-25,令和5年9月25日,,,,秋田 喜代美 会長 / 五十嵐 隆 会長代理 / 有村 大士 委員 / 石原 理 委員 / 大石 亜希子 委員 / 大竹 智 委員 / 大豆生田 啓友 委員 / 小野 善郎 委員 / 上鹿渡 和宏 委員 / 櫻井 彩乃 委員 / 新保 幸男 委員 / 鈴木 みゆき 委員 / 砂上 史子 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 平野 啓子 委員 / 堀江 敦子 委員 / 前田 正子 委員 / 松田 茂樹 委員 / 村宮 汐莉 委員 / 山縣 然太朗 委員 / 山縣 文治 委員,,19,link+pdf,/councils/shingikai
+shingikai#3,shingikai,,3,,2023-11-22,令和5年11月22日,,,,秋田 喜代美 会長 / 有村 大士 委員 / 大石 亜希子 委員 / 大豆生田 啓友 委員 / 小野 善郎 委員 / 上鹿渡 和宏 委員 / 櫻井 彩乃 委員 / 新保 幸男 委員 / 鈴木 みゆき 委員 / 砂上 史子 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 平野 啓子 委員 / 松田 茂樹 委員 / 村宮 汐莉 委員 / 山縣 然太朗 委員 / 山縣 文治 委員,,11,link+pdf,/councils/shingikai
+shingikai#4,shingikai,,4,,2024-01-29,令和6年1月29日,,,,秋田 喜代美 会長 / 五十嵐 隆 会長代理 / 有村 大士 委員 / 石原 理 委員 / 大石 亜希子 委員 / 大竹 智 委員 / 大豆生田 啓友 委員 / 小野 善郎 委員 / 上鹿渡 和宏 委員 / 倉石 哲也 委員 / 櫻井 彩乃 委員 / 新保 幸男 委員 / 鈴木 みゆき 委員 / 砂上 史子 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 平野 啓子 委員 / 堀江 敦子 委員 / 松田 茂樹 委員 / 村宮 汐莉 委員 / 山縣 然太朗 委員 / 山縣 文治 委員,,12,link+pdf,/councils/shingikai
+shingikai#5,shingikai,,5,,2025-01-23,令和7年1月23日,,,,秋田 喜代美 会長 / 五十嵐 隆 会長代理 / 有村 大士 委員 / 石原 理 委員 / 大石 亜希子 委員 / 大竹 智 委員 / 大豆生田 啓友 / 小野 善郎 委員 / 上鹿渡 和宏 委員 / 櫻井 彩乃 委員 / 新保 幸男 委員 / 鈴木 みゆき 委員 / 田中 れいか 委員 / 大隅 有紗 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 平野 啓子 委員 / 堀江 敦子 委員 / 前田 正子 委員 / 松田 茂樹 委員 / 村宮 汐莉 委員 / 山縣 然太朗 委員 / 山縣 文治 委員,,5,link+pdf,/councils/shingikai
+shingikai#6,shingikai,,6,,2025-04-25,令和7年4月25日,,,,秋田 喜代美 委員 / 有村 大士 委員 / 五十嵐 隆 委員 / 石井 智康 委員 / 石原 理 委員 / 大豆生田 啓友 委員 / 川松 亮 委員 / 工藤 さほ 委員 / 倉石 哲也 委員 / 黒木 碧恵 委員 / 小泉 勇人 委員 / 小室 淑恵 委員 / 椎木 里佳 委員 / 新保 幸男 委員 / 杉島 理一郎 委員 / 鈴木 みゆき 委員 / 砂上 史子 委員 / 南光 開斗 委員 / 新居 日南恵 委員 / 畑山 麗衣 委員 / ブローハン 聡 委員 / 松田 茂樹 委員 / 宮島 香澄 委員 / 山内 ゆな 委員,,14,link+pdf,/councils/shingikai
+shingikai#7,shingikai,,7,,2026-01-22,令和8年1月22日,,,,秋田 喜代美 会長 / 新保 幸男 会長代理 / 有村 大士 委員 / 五十嵐 隆 委員 / 石井 智康 委員 / 石原 理 委員 / 大豆生田 啓友 委員 / 川松 亮 委員 / 工藤 さほ 委員 / 黒木 碧恵 委員 / 小泉 勇人 委員 / 豪田 トモ 委員 / 小室 淑恵 委員 / 椎木 里佳 委員 / 杉島 理一郎 委員 / 鈴木 みゆき 委員 / 砂上 史子 委員 / 新居 日南恵 委員 / 畑山 麗衣 委員 / ブローハン 聡 委員 / 前田 正子 委員 / 松田 茂樹 委員 / 山内 ゆな 委員,,9,link+pdf,/councils/shingikai
+ebpm-society#1,ebpm-society,,1,,2023-06-21,令和5年6月21日,15:40-16:40,,こども家庭庁庁議室 対面・オンライン併用,(政府) / 小倉 將信 / 内閣府特命担当大臣(こども政策 少子化対策 若者活躍 男女共同参画) / 小宮 義之 / こども家庭庁長官官房長 / 黒瀬 敏文 / こども家庭庁長官官房審議官(成育局担当) / 佐藤 勇輔 / こども家庭庁長官官房参事官(総合政策担当) / 野中 嘉人 / こども家庭庁長官官房 EBPM 推進室長 / (構成員)※五十音順、敬称略、○座長 / 阿部 彩 / 東京都立大学人文科学研究科・教授 / 子ども・若者貧困研究センター・センター長 / 小林 庸平 / 三菱 UFJ リサーチ&コンサルティング株式会社 / 政策研究事業本部経済政策部・主任研究員 / ○貞広 斎子 / 千葉大学教育学部・教授 / 高橋 勇太 / 横浜市行動デザインチーム・代表 / 特定非営利活動法人 PolicyGarage・副代表理事 / 竹原 健二 / 国立成育医療研究センター政策科学研究部・部長 / 成育こどもシンクタンク戦略支援室・副室長 / 中室 牧子 / 慶應義塾大学総合政策学部・教授 / デジタル庁・シニアエキスパート / (公財)東京財団政策研究所研究主幹,,10,link+pdf,/councils/ebpm-society
+ebpm-society#2,ebpm-society,,2,,2023-09-12,令和5年9月12日,11:00-13:00,,こども家庭庁長官官房第一会議室 対面・オンライン併用,(政府) / 小宮 義之 こども家庭庁長官官房長 / 高橋 宏治 こども家庭庁長官官房審議官(総合政策等担当) / 本後 健 / こども家庭庁成育局保育政策課長 / 佐藤 勇輔 こども家庭庁長官官房参事官(総合政策担当) / 野中 嘉人 こども家庭庁長官官房 EBPM 推進室長 / (構成員)※五十音順、敬称略、○座長 / 阿部 彩 / 東京都立大学人文科学研究科・教授 / 子ども・若者貧困研究センター・センター長 / 小林 庸平 三菱 UFJ リサーチ&コンサルティング株式会社 / 政策研究事業本部経済政策部・主任研究員 / ○貞広 斎子 千葉大学教育学部・教授 / 高橋 勇太 横浜市行動デザインチーム・代表 / 特定非営利活動法人 PolicyGarage・副代表理事 / 竹原 健二 国立成育医療研究センター政策科学研究部・部長 / 成育こどもシンクタンク戦略支援室・副室長 / 中室 牧子 慶應義塾大学総合政策学部・教授 / デジタル庁・シニアエキスパート / (公財)東京財団政策研究所研究主幹 / (話題提供者) / 石田 直人 広島県庁総務局施策形成支援チーム・主査 / 岡野 雄幸 広島県庁総務局施策形成支援チーム・主査 / 井上 普文 法務省大臣官房秘書課・補佐官 / 田原 英典 法務省・EBPM アドバイザー,,11,link+pdf,/councils/ebpm-society
+ebpm-society#3,ebpm-society,,3,,2023-11-27,令和5年11月27日,10:30-12:00,,こども家庭庁長官官房第一会議室 対面・オンライン併用,(政府) / 小宮 義之 こども家庭庁長官官房長 / 佐藤 勇輔 こども家庭庁長官官房参事官(総合政策担当) / 野中 嘉人 こども家庭庁長官官房 EBPM 推進室長 / (構成員)※五十音順、敬称略、○座長 / 阿部 彩 / 東京都立大学人文科学研究科・教授 / 子ども・若者貧困研究センター・センター長 / 小林 庸平 三菱 UFJ リサーチ&コンサルティング株式会社 / 政策研究事業本部経済政策部・主任研究員 / ○貞広 斎子 千葉大学教育学部・教授 / 高橋 勇太 横浜市行動デザインチーム・代表 / 特定非営利活動法人 PolicyGarage・副代表理事 / 竹原 健二 国立成育医療研究センター政策科学研究部・部長 / 成育こどもシンクタンク戦略支援室・副室長 / 中室 牧子 慶應義塾大学総合政策学部・教授 / デジタル庁・シニアエキスパート / (公財)東京財団政策研究所研究主幹,,7,link+pdf,/councils/ebpm-society
+ebpm-society#4,ebpm-society,,4,,2024-03-26,令和6年3月26日,11:00-12:00,,こども家庭庁長官官房第一会議室 対面・オンライン併用,(政府) / 髙橋 宏治 / こども家庭庁長官官房審議官 / 野中 嘉人 こども家庭庁長官官房 EBPM 推進室長 / (構成員)※五十音順、敬称略、○座長 / 阿部 彩 / 東京都立大学人文科学研究科・教授 / 子ども・若者貧困研究センター・センター長 / 小林 庸平 三菱 UFJ リサーチ&コンサルティング株式会社 / 政策研究事業本部経済政策部・主任研究員 / ○貞広 斎子 千葉大学教育学部・教授 / 高橋 勇太 横浜市行動デザインチーム・代表 / 特定非営利活動法人 PolicyGarage・副代表理事 / 竹原 健二 国立成育医療研究センター政策科学研究部・部長 / 成育こどもシンクタンク戦略支援室・副室長 / 中室 牧子 慶應義塾大学総合政策学部・教授 / デジタル庁・シニアエキスパート / (公財)東京財団政策研究所研究主幹,,4,link+pdf,/councils/ebpm-society
+ijime-judaikayoin#1,ijime-judaikayoin,,1,,2025-01-20,令和7年1月20日,14:00-16:00,,こども家庭庁支援局第二会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、野澤構成員、 / 村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、大須賀副所長 / (こども家庭庁) / 吉住支援局長、髙橋長官官房審議官、山下支援局総務課長、菊地支援局総務課企画官 / (文部科学省) / 松坂大臣官房文部科学戦略官、千々岩初等中等教育局児童生徒課長、仲村初等中等教育局児童生 / 徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#2,ijime-judaikayoin,,2,,2025-02-17,令和7年2月17日,10:00-12:00,,こども家庭庁成育局第一会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、野澤構成員、 / 村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、石橋研究員 / (こども家庭庁) / 髙橋長官官房審議官、山下支援局総務課長、菊地支援局総務課企画官 / (文部科学省) / 千々岩初等中等教育局児童生徒課長、仲村初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#3,ijime-judaikayoin,,3,,2025-03-13,令和7年3月13日,10:00-12:00,,こども家庭庁支援局第一会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、野澤構成員、 / 村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、大須賀副所長 / (こども家庭庁) / 髙橋長官官房審議官、山下支援局総務課長、菊地支援局総務課企画官 / (文部科学省) / 仲村初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#4,ijime-judaikayoin,,4,,2025-04-14,令和7年4月14日,10:00-12:00,,こども家庭庁長官官房第一会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、野澤構成員、 / 村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、石橋研究員 / (こども家庭庁) / 水田長官官房審議官、山下支援局総務課長、星支援局総務課企画官 / (文部科学省) / 千々岩初等中等教育局児童生徒課長、総崎初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#5,ijime-judaikayoin,,5,,2025-05-19,令和7年5月19日,10:00-12:00,,こども家庭庁支援局第一会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、石橋研究員 / (こども家庭庁) / 水田長官官房審議官、山下支援局総務課長、星支援局総務課企画官 / (文部科学省) / 総崎初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#6,ijime-judaikayoin,,6,,2025-06-16,令和7年6月16日,11:00-13:00,,こども家庭庁支援局第一会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、野澤構成員、 / 村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、石橋研究員 / (こども家庭庁) / 水田長官官房審議官、山下支援局総務課長、星支援局総務課企画官 / (文部科学省) / 千々岩初等中等教育局児童生徒課長、総崎初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#7,ijime-judaikayoin,,7,,2025-07-28,令和7年7月28日,13:00-15:00,,こども家庭庁長官官房第一会議室 対面,(構成員) / 石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、石橋研究員 / (こども家庭庁) / 水田長官官房審議官、小野支援局総務課長、星支援局総務課企画官 / (文部科学省) / 千々岩初等中等教育局児童生徒課長、総崎初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#8,ijime-judaikayoin,,8,,2025-08-28,令和7年8月28日,10:00-12:00,,こども家庭庁支援局第一会議室 対面・オンライン併用,(構成員) / 石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、野澤構成員、村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、大須賀副所長 / (こども家庭庁) / 水田長官官房審議官、小野支援局総務課長、星支援局総務課企画官 / (文部科学省) / 千々岩初等中等教育局児童生徒課長、総崎初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-judaikayoin#9,ijime-judaikayoin,,9,,2025-09-30,令和7年9月30日,10:00-12:00,,こども家庭庁支援局第一会議室 対面・オンライン併用,(構成員) / 新井構成員、石川構成員、清原構成員(座長)、栗山構成員、澤田構成員、村宮構成員 / (分析実務担当事業者(公益社団法人子どもの発達科学研究所)) / 和久田所長、大須賀副所長 / (こども家庭庁) / 水田長官官房審議官、小野支援局総務課長、星支援局総務課企画官 / (文部科学省) / 千々岩初等中等教育局児童生徒課長、総崎初等中等教育局児童生徒課生徒指導室長,,2,link+pdf,/councils/ijime-judaikayoin
+ijime-kaigi#1,ijime-kaigi,,1,,2023-09-11,令和5年9月11日,13:20-14:26,,文京区立茗台中学校 多目的室,※[ ]は代理出席者 / 内閣府特命担当大臣(こども政策 少子化対策 若者活躍 男女共同参画) / 文部科学大臣 / 議 長 こども家庭庁支援局長 / 同 / 文部科学省初等中等教育局長 / 構成員 警察庁生活安全局長 / 同 / 総務省総合通信基盤局長[電気通信事業部長] / 同 / 法務省人権擁護局長 / 同 / 経済産業省商務・サービス審議官[大臣官房総括審議官] / ※オブザーバー 文京区立茗台中学校長 / (議事次第) / 1.小倉大臣挨拶、永岡大臣挨拶,,9,link+pdf,/councils/ijime-kaigi
+ijime-kaigi#2,ijime-kaigi,,2,,2023-10-16,令和5年10月16日,,,,,,3,link,/councils/ijime-kaigi
+ijime-kaigi#3,ijime-kaigi,,3,,2024-03-22,令和6年3月22日,18:00-18:30,,こども家庭庁庁議室,※[ ]は代理出席者 / 内閣府特命担当大臣(こども政策 少子化対策 若者活躍 男女共同参画) / 文部科学大臣 / 議 長 こども家庭庁支援局長 / 同 / 文部科学省初等中等教育局長 / 構成員 警察庁生活安全局長 / 同 / 総務省総合通信基盤局長[電気通信事業部長] / 同 / 法務省人権擁護局長 / 同 / 経済産業省商務・サービス審議官[大臣官房総括審議官] / (議事次第) / 1.加藤大臣挨拶、盛山大臣挨拶,,10,link+pdf,/councils/ijime-kaigi
+ijime-kaigi#4,ijime-kaigi,,4,,2024-11-08,令和6年11月8日,15:00-15:30,,こども家庭庁庁議室,※[ ]は代理出席者 / 内閣府特命担当大臣(こども政策 少子化対策 若者活躍 男女共同参画) / 文部科学大臣 / 議 長 こども家庭庁支援局長 / 同 / 文部科学省初等中等教育局長 / 構成員 警察庁生活安全局長[長官官房審議官(生活安全局担当)] / 同 / 総務省大臣官房総括審議官(情報通信担当) / 同 / 法務省人権擁護局長 / 同 / 経済産業省商務・サービス審議官[商務・サービス政策統括調整官] / (議事次第),,12,link+pdf,/councils/ijime-kaigi
+ijime-kaigi#5,ijime-kaigi,,5,,2025-11-21,令和7年11月21日,17:30-18:00,,こども家庭庁庁議室,内閣府特命担当大臣(沖縄及び北方対策 消費者及び食品安全 こども政策 / 少子化対策 若者活躍 男女共同参画 地方創生 / アイヌ施策 共生・共助) / 文部科学大臣 / 議 長 こども家庭庁支援局長 / 同 / 文部科学省初等中等教育局長 / 構成員 警察庁生活安全局長 / 同 / 総務省大臣官房総括審議官(情報通信担当) / 同 / 法務省人権擁護局長 / 同 / 経済産業省商務・サービス審議官 / (議事次第),,16,link+pdf,/councils/ijime-kaigi
+ijime-kaigi#6,ijime-kaigi,,6,,2026-01-16,令和8年1月16日,17:30-18:00,,こども家庭庁庁議室,議 ⻑ こども家庭庁支援局⻑ / 同 / 文部科学省初等中等教育局⻑ / 構成員 警察庁生活安全局⻑ / 同 / 総務省大臣官房総括審議官(情報通信担当) / 同 / 法務省人権擁護局⻑ / 同 / 経済産業省大臣官房審議官(商務・サービス担当) / (議事次第),,7,link+pdf,/councils/ijime-kaigi
+Judicial-Review-Working-Team-on-Temporary-Protection#1,Judicial-Review-Working-Team-on-Temporary-Protection,,1,,2023-04-26,令和5年4月26日,,,,,,11,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
+Judicial-Review-Working-Team-on-Temporary-Protection#2,Judicial-Review-Working-Team-on-Temporary-Protection,,2,,2023-06-21,令和5年6月21日,,,,,,7,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
+Judicial-Review-Working-Team-on-Temporary-Protection#3,Judicial-Review-Working-Team-on-Temporary-Protection,,3,,2023-10-02,令和5年10月2日,,,,,,8,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
+Judicial-Review-Working-Team-on-Temporary-Protection#4,Judicial-Review-Working-Team-on-Temporary-Protection,,4,,2023-12-20,令和5年12月20日,,,,,,15,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
+Judicial-Review-Working-Team-on-Temporary-Protection#5,Judicial-Review-Working-Team-on-Temporary-Protection,,5,,2024-10-30,令和6年10月30日,,,,,,9,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection
 Judicial-Review-Working-Team-on-Temporary-Protection/一時保護時の司法審査に関する児童相談所の対応マニュアル#5,Judicial-Review-Working-Team-on-Temporary-Protection,一時保護時の司法審査に関する児童相談所の対応マニュアル,5,,,,,,,,,1,link,/councils/Judicial-Review-Working-Team-on-Temporary-Protection/manual
-meetings/inclusion#1,meetings/inclusion,,1,,2026-07-24,令和8年7月24日,,,,,,1,link,/councils/meetings/inclusion
-kodomonoiken-guideline#1,kodomonoiken-guideline,,1,,2023-07-28,令和5年7月28日,,,,,,1,link,/councils/kodomonoiken-guideline
-kodomonoiken-guideline#2,kodomonoiken-guideline,,2,,2023-11-29,令和5年11月29日,,,,,,1,link,/councils/kodomonoiken-guideline
-kodomonoiken-guideline#3,kodomonoiken-guideline,,3,,2024-02-02,令和6年2月2日,,,,,,1,link,/councils/kodomonoiken-guideline
-kigyou-shudou#16,kigyou-shudou,,16,,2023-10-16,令和5年10月16日,,,,,,1,link,/councils/kigyou-shudou
-kigyou-shudou#17,kigyou-shudou,,17,,2024-03-26,令和6年3月26日,,,,,,1,link,/councils/kigyou-shudou
-kigyou-shudou#18,kigyou-shudou,,18,,2024-09-30,令和6年9月30日,,,,,,1,link,/councils/kigyou-shudou
-kigyou-shudou#19,kigyou-shudou,,19,,2025-03-31,令和7年3月31日,,,,,,1,link,/councils/kigyou-shudou
-kigyou-shudou#20,kigyou-shudou,,20,,2025-10-16,令和7年10月16日,,,,,,1,link,/councils/kigyou-shudou
-kigyou-shudou#21,kigyou-shudou,,21,,2026-03-16,令和8年3月16日,,,,,,1,link,/councils/kigyou-shudou
-kigyou-shudou#22,kigyou-shudou,,22,,2026-09-30,令和8年9月30日,,,,,,1,link,/councils/kigyou-shudou
-kyuyusei-hoshokin#1,kyuyusei-hoshokin,,1,,2025-02-27,令和7年2月27日,,,,,,1,link,/councils/kyuyusei-hoshokin
-kyuyusei-hoshokin#2,kyuyusei-hoshokin,,2,,2026-11-16,令和8年11月16日,,,,,,1,link,/councils/kyuyusei-hoshokin
-hoshokin-yuseishujutsu#1,hoshokin-yuseishujutsu,,1,,2025-03-06,令和7年3月6日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#2,hoshokin-yuseishujutsu,,2,,2025-04-17,令和7年4月17日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#3,hoshokin-yuseishujutsu,,3,,2025-05-28,令和7年5月28日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#4,hoshokin-yuseishujutsu,,4,,2025-06-19,令和7年6月19日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#5,hoshokin-yuseishujutsu,,5,,2025-07-17,令和7年7月17日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#6,hoshokin-yuseishujutsu,,6,,2025-08-20,令和7年8月20日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#7,hoshokin-yuseishujutsu,,7,,2025-09-09,令和7年9月9日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#8,hoshokin-yuseishujutsu,,8,,2025-10-03,令和7年10月3日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#9,hoshokin-yuseishujutsu,,9,,2025-11-04,令和7年11月4日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#10,hoshokin-yuseishujutsu,,10,,2025-12-04,令和7年12月4日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#11,hoshokin-yuseishujutsu,,11,,2026-01-22,令和8年1月22日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#12,hoshokin-yuseishujutsu,,12,,2026-02-27,令和8年2月27日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#13,hoshokin-yuseishujutsu,,13,,2026-03-16,令和8年3月16日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#14,hoshokin-yuseishujutsu,,14,,2026-04-16,令和8年4月16日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#15,hoshokin-yuseishujutsu,,15,,2026-05-28,令和8年5月28日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#16,hoshokin-yuseishujutsu,,16,,2026-06-18,令和8年6月18日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#17,hoshokin-yuseishujutsu,,17,,2026-07-16,令和8年7月16日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#18,hoshokin-yuseishujutsu,,18,,2026-08-20,令和8年8月20日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#19,hoshokin-yuseishujutsu,,19,,2026-09-15,令和8年9月15日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#20,hoshokin-yuseishujutsu,,20,,2026-10-22,令和8年10月22日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-hoshokin-yuseishujutsu#21,hoshokin-yuseishujutsu,,21,,2026-11-12,令和8年11月12日,,,,,,1,link,/councils/hoshokin-yuseishujutsu
-jinkoninshinchuzetsu-ichijikin#1,jinkoninshinchuzetsu-ichijikin,,1,,2025-03-28,令和7年3月28日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#2,jinkoninshinchuzetsu-ichijikin,,2,,2025-04-21,令和7年4月21日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#3,jinkoninshinchuzetsu-ichijikin,,3,,2025-05-30,令和7年5月30日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#4,jinkoninshinchuzetsu-ichijikin,,4,,2025-06-23,令和7年6月23日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#5,jinkoninshinchuzetsu-ichijikin,,5,,2025-07-28,令和7年7月28日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#6,jinkoninshinchuzetsu-ichijikin,,6,,2025-08-29,令和7年8月29日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#7,jinkoninshinchuzetsu-ichijikin,,7,,2025-09-18,令和7年9月18日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#8,jinkoninshinchuzetsu-ichijikin,,8,,2025-10-10,令和7年10月10日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#9,jinkoninshinchuzetsu-ichijikin,,9,,2025-11-11,令和7年11月11日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#10,jinkoninshinchuzetsu-ichijikin,,10,,2025-12-15,令和7年12月15日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#11,jinkoninshinchuzetsu-ichijikin,,11,,2026-01-27,令和8年1月27日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#12,jinkoninshinchuzetsu-ichijikin,,12,,2026-02-24,令和8年2月24日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#13,jinkoninshinchuzetsu-ichijikin,,13,,2026-03-17,令和8年3月17日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#14,jinkoninshinchuzetsu-ichijikin,,14,,2026-04-21,令和8年4月21日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#15,jinkoninshinchuzetsu-ichijikin,,15,,2026-05-22,令和8年5月22日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#16,jinkoninshinchuzetsu-ichijikin,,16,,2026-06-23,令和8年6月23日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#17,jinkoninshinchuzetsu-ichijikin,,17,,2026-07-24,令和8年7月24日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#18,jinkoninshinchuzetsu-ichijikin,,18,,2026-08-28,令和8年8月28日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#19,jinkoninshinchuzetsu-ichijikin,,19,,2026-09-29,令和8年9月29日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#20,jinkoninshinchuzetsu-ichijikin,,20,,2026-10-27,令和8年10月27日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-jinkoninshinchuzetsu-ichijikin#21,jinkoninshinchuzetsu-ichijikin,,21,,2026-11-16,令和8年11月16日,,,,,,1,link,/councils/jinkoninshinchuzetsu-ichijikin
-kyuyusei-zemmeikaiketsu#1,kyuyusei-zemmeikaiketsu,,1,,2025-03-27,令和7年3月27日,,,,,,1,link,/councils/kyuyusei-zemmeikaiketsu
-kyuyusei-zemmeikaiketsu#2,kyuyusei-zemmeikaiketsu,,2,,2025-09-30,令和7年9月30日,,,,,,1,link,/councils/kyuyusei-zemmeikaiketsu
-kyuyusei-zemmeikaiketsu#3,kyuyusei-zemmeikaiketsu,,3,,2026-09-30,令和8年9月30日,,,,,,1,link,/councils/kyuyusei-zemmeikaiketsu
-child-safety-kyoiku-hoiku#20,child-safety-kyoiku-hoiku,,20,,2023-08-30,令和5年8月30日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-child-safety-kyoiku-hoiku#21,child-safety-kyoiku-hoiku,,21,,2024-03-05,令和6年3月5日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-child-safety-kyoiku-hoiku#22,child-safety-kyoiku-hoiku,,22,,2024-07-30,令和6年7月30日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-child-safety-kyoiku-hoiku#23,child-safety-kyoiku-hoiku,,23,,2025-02-12,令和7年2月12日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-child-safety-kyoiku-hoiku#24,child-safety-kyoiku-hoiku,,24,,2025-07-30,令和7年7月30日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-child-safety-kyoiku-hoiku#25,child-safety-kyoiku-hoiku,,25,,2026-02-10,令和8年2月10日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-child-safety-kyoiku-hoiku#26,child-safety-kyoiku-hoiku,,26,,2026-08-05,令和8年8月5日,,,,,,1,link,/councils/child-safety-kyoiku-hoiku
-kodomokanren-jujisha#1,kodomokanren-jujisha,,1,,2023-06-27,令和5年6月27日,,,,,,1,link,/councils/kodomokanren-jujisha
-kodomokanren-jujisha#2,kodomokanren-jujisha,,2,,2023-07-19,令和5年7月19日,,,,,,1,link,/councils/kodomokanren-jujisha
-kodomokanren-jujisha#3,kodomokanren-jujisha,,3,,2023-08-01,令和5年8月1日,,,,,,1,link,/councils/kodomokanren-jujisha
-kodomokanren-jujisha#4,kodomokanren-jujisha,,4,,2023-08-23,令和5年8月23日,,,,,,1,link,/councils/kodomokanren-jujisha
-kodomokanren-jujisha#5,kodomokanren-jujisha,,5,,2023-09-05,令和5年9月5日,,,,,,1,link,/councils/kodomokanren-jujisha
-kodomokosodateshienhyojunka/令和6年度#1,kodomokosodateshienhyojunka,令和6年度,1,,2024-10-23,令和6年10月23日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和6年度#2,kodomokosodateshienhyojunka,令和6年度,2,,2024-12-10,令和6年12月10日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和7年度#1,kodomokosodateshienhyojunka,令和7年度,1,,2025-08-08,令和7年8月8日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和7年度#2@2025-09-01,kodomokosodateshienhyojunka,令和7年度,2,,2025-09-01,令和7年9月1日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和7年度#2,kodomokosodateshienhyojunka,令和7年度,2,,2025-09-24,令和7年9月24日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和7年度#3@2025-12-10,kodomokosodateshienhyojunka,令和7年度,3,,2025-12-10,令和7年12月10日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和7年度#3,kodomokosodateshienhyojunka,令和7年度,3,,2025-12-26,令和7年12月26日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和8年度#1,kodomokosodateshienhyojunka,令和8年度,1,,2026-07-08,令和8年7月8日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和8年度#2,kodomokosodateshienhyojunka,令和8年度,2,,2026-08-04,令和8年8月4日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kodomokosodateshienhyojunka/令和8年度#3,kodomokosodateshienhyojunka,令和8年度,3,,2026-10-19,令和8年10月19日,,,,,,1,link,/councils/kodomokosodateshienhyojunka
-kokoseido-keizokutekimieruka#4,kokoseido-keizokutekimieruka,,4,,2023-05-31,令和5年5月31日,,,,,,1,link,/councils/kokoseido-keizokutekimieruka
-kokoseido-keizokutekimieruka#5,kokoseido-keizokutekimieruka,,5,,2023-07-05,令和5年7月5日,,,,,,1,link,/councils/kokoseido-keizokutekimieruka
+meetings/inclusion#1,meetings/inclusion,,1,,2026-07-24,令和8年7月24日,,,,,,6,link,/councils/meetings/inclusion
+kodomonoiken-guideline#1,kodomonoiken-guideline,,1,,2023-07-28,令和5年7月28日,15:00-17:00,,2023 年 7 月 28 日(金) 15:00~17:00 Microsoft teams 会議,(委員) / 掛川 亜季 弁護士 / 片岡 一樹 尼崎市立ユース交流センター センター長 / 郡司 日奈乃 千葉大学大学院人文公共学府 / 博士後期課程 人文公共学専攻公共学コース 1 年 / 千葉市こども基本条例検討委員会 委員 / 一般社団法人 Spice 代表理事 / 林 大介 浦和大学 社会学部 准教授 / 吉岡 直 新潟市こども未来部こども政策課 係長(主幹) / (こども家庭庁) / 佐藤 勇輔 長官官房 総合政策担当参事官 / 加藤 朱明子 長官官房 総合政策担当参事官付 こども意見係 専門官 / 遠藤 輝人 長官官房 総合政策担当参事官付 こども意見係 / 篠原 諒 / 長官官房 総合政策担当参事官付 こども意見係,,6,link+pdf,/councils/kodomonoiken-guideline
+kodomonoiken-guideline#2,kodomonoiken-guideline,,2,,2023-11-29,令和5年11月29日,10:00-12:00,西崎  萌,2023 年 11 月 29 日(水) 10:00~12:00 Microsoft teams 会議,(委員) / 掛川 亜季 / 弁護士 / 片岡 一樹 / 尼崎市立ユース交流センター センター長 / 郡司 日奈乃 / 千葉大学大学院人文公共学府 / 博士後期課程 人文公共学専攻公共学コース 1 年 / 千葉市こども基本条例検討委員会 委員 / 一般社団法人 Spice 代表理事 / 浦和大学 社会学部 准教授 / 新潟市こども未来部こども政策課 係長(主幹) / 林 大介 / 吉岡 直 / (こども家庭庁) / 佐藤 勇輔 / 長官官房 総合政策担当参事官 / 加藤 朱明子 / 長官官房 総合政策担当参事官付 こども意見係 専門官,,5,link+pdf,/councils/kodomonoiken-guideline
+kodomonoiken-guideline#3,kodomonoiken-guideline,,3,,2024-02-02,令和6年2月2日,10:00-12:00,,2024 年 2 月 2 日(金) 10:00~12:00 Microsoft teams 会議,(委員) / 掛川 亜季 弁護士 / 片岡 一樹 尼崎市立ユース交流センター センター長 / 郡司 日奈乃 千葉大学大学院人文公共学府 / 博士後期課程 人文公共学専攻公共学コース 1 年 / 千葉市こども基本条例検討委員会 委員 / 一般社団法人 Spice 代表理事 / 林 大介 浦和大学 社会学部 准教授 / 吉岡 直 新潟市こども未来部こども政策課 係長(主幹) / 加藤 朱明子 長官官房 総合政策担当参事官付 こども意見係 専門官 / 遠藤 輝人 長官官房 総合政策担当参事官付 こども意見係 / 西崎 萌 長官官房 総合政策担当参事官付 こども意見係,,4,link+pdf,/councils/kodomonoiken-guideline
+kigyou-shudou#16,kigyou-shudou,,16,,2023-10-16,令和5年10月16日,,,,(委員会委員) / 石毛 和夫委員、忽那 ゆみ代委員、高祖 常子委員、馬場 充委員、 / 平川 祥子委員、的場 康子委員、吉田 正幸座長、渡辺 将委員 / (こども家庭庁) / 藤原 朋子成育局局長、黒瀬 敏文審議官(成育局担当)、 / 伊藤 涼子成育局認可外保育施設担当室長、 / 村井 咲音成育局認可外保育施設担当室室長補佐 / (公益財団法人児童育成協会) / 望月 弘晃業務執行理事、林 克彦事務局長 / 安村 邦彦企業主導型保育事業本部長、 / 藤田 智夫企業主導型保育事業本部企画部長,,5,link+pdf,/councils/kigyou-shudou
+kigyou-shudou#17,kigyou-shudou,,17,,2024-03-26,令和6年3月26日,,,,(委員会委員) / 石毛 和夫委員、忽那 ゆみ代委員、馬場 充委員、 / 平川 祥子委員、的場 康子委員、吉田 正幸座長、渡辺 将委員 / (こども家庭庁) / 藤原 朋子成育局局長、黒瀬 敏文審議官(成育局担当)、 / 伊藤 涼子成育局認可外保育施設担当室長、 / 村井 咲音成育局認可外保育施設担当室室長補佐 / (公益財団法人児童育成協会) / 望月 弘晃業務執行理事、安村 邦彦企業主導型保育事業本部長、 / 林 克彦事務局長、藤田 智夫企業主導型保育事業本部企画部長,,6,link+pdf,/councils/kigyou-shudou
+kigyou-shudou#18,kigyou-shudou,,18,,2024-09-30,令和6年9月30日,,,,(委員会委員) / 石毛 和夫委員、高祖 常子委員、馬場 充委員、 / 安原 理恵委員、吉田 正幸座長、渡辺 将委員 / (こども家庭庁) / 藤原 朋子成育局長、竹林 悟史審議官(成育局担当)、 / 栗原 正明成育局保育政策課長、 / 大部 沙絵子成育局保育政策課認可外保育施設担当室長、 / 髙田 まり成育局認可外保育施設担当室室長補佐 / (公益財団法人児童育成協会) / 望月 弘晃業務執行理事、 / 藤田 智夫企業主導型保育事業本部長、 / 井川 健司企業主導型保育事業本部審査部長、 / 福本 啓介企業主導型保育事業本部指導監査部長、 / 佐藤 浩一企業主導型保育事業本部指導監査部調査課長,,4,link+pdf,/councils/kigyou-shudou
+kigyou-shudou#19,kigyou-shudou,,19,,2025-03-31,令和7年3月31日,,,,(委員会委員) / 石毛 和夫委員、馬場 充委員、安原 理恵委員、吉田 正幸座長、渡辺 将委員 / (こども家庭庁) / 藤原 朋子成育局長、竹林 悟史審議官(成育局担当)、 / 栗原 正明成育局保育政策課長、 / 大部 沙絵子成育局保育政策課認可外保育施設担当室長、 / 髙田 まり成育局認可外保育施設担当室室長補佐 / (公益財団法人児童育成協会) / 望月 弘晃業務執行理事、 / 藤田 智夫企業主導型保育事業本部長、 / 井川 健司企業主導型保育事業本部審査部長、 / 福本 啓介企業主導型保育事業本部指導監査部長,,7,link+pdf,/councils/kigyou-shudou
+kigyou-shudou#20,kigyou-shudou,,20,,2025-10-16,令和7年10月16日,,,,(委員会委員) / 飯田委員 石毛委員、高祖委員 、園田委員 / 馬場委員 、的場委員、安原委員 、吉田座長 / (こども家庭庁) / 中村成育局長、栗原成育局保育政策課長、 / 大部成育局保育政策課認可外保育施設担当室長、 / 古居成育局認可外保育施設担当室 主査 / (公益財団法人児童育成協会) / 望月業務執行理事、藤田 企業主導型保育事業本部長、井川企業主導型保育事 / 業本部審査部長、徳本企業主導型保育事業本部指導監査部次長,,7,link+pdf,/councils/kigyou-shudou
+kigyou-shudou#21,kigyou-shudou,,21,,2026-03-16,令和8年3月16日,,,,(委員会委員) / 飯田委員 石毛委員、高祖委員 、園田委員 / 的場委員、 吉田座長 / (こども家庭庁) / 竹林長官官房審議官(成育局担当) 、 / 大部成育局保育政策課認可外保育施設担当室長、 / 古居成育局 保育政策課認可外保育施設担当室主査 / (公益財団法人児童育成協会) / 望月業務執行理事、藤田 企業主導型保育事業本部長、井川企業主導型保育事 / 業本部審査部長、 福本企業主導型保育事業本部指導監査部部長 、徳本企業主 / 導型保育事業本部指導監査部次長,,7,link+pdf,/councils/kigyou-shudou
+kigyou-shudou#22,kigyou-shudou,,22,,2026-09-30,令和8年9月30日,,,,,,5,link,/councils/kigyou-shudou
+kyuyusei-hoshokin#1,kyuyusei-hoshokin,,1,,2025-02-27,令和7年2月27日,,,,,,8,link,/councils/kyuyusei-hoshokin
+kyuyusei-hoshokin#2,kyuyusei-hoshokin,,2,,2026-11-16,令和8年11月16日,,,,,,5,link,/councils/kyuyusei-hoshokin
+hoshokin-yuseishujutsu#1,hoshokin-yuseishujutsu,,1,,2025-03-06,令和7年3月6日,,,,,,12,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#2,hoshokin-yuseishujutsu,,2,,2025-04-17,令和7年4月17日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#3,hoshokin-yuseishujutsu,,3,,2025-05-28,令和7年5月28日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#4,hoshokin-yuseishujutsu,,4,,2025-06-19,令和7年6月19日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#5,hoshokin-yuseishujutsu,,5,,2025-07-17,令和7年7月17日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#6,hoshokin-yuseishujutsu,,6,,2025-08-20,令和7年8月20日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#7,hoshokin-yuseishujutsu,,7,,2025-09-09,令和7年9月9日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#8,hoshokin-yuseishujutsu,,8,,2025-10-03,令和7年10月3日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#9,hoshokin-yuseishujutsu,,9,,2025-11-04,令和7年11月4日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#10,hoshokin-yuseishujutsu,,10,,2025-12-04,令和7年12月4日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#11,hoshokin-yuseishujutsu,,11,,2026-01-22,令和8年1月22日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#12,hoshokin-yuseishujutsu,,12,,2026-02-27,令和8年2月27日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#13,hoshokin-yuseishujutsu,,13,,2026-03-16,令和8年3月16日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#14,hoshokin-yuseishujutsu,,14,,2026-04-16,令和8年4月16日,,,,,,7,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#15,hoshokin-yuseishujutsu,,15,,2026-05-28,令和8年5月28日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#16,hoshokin-yuseishujutsu,,16,,2026-06-18,令和8年6月18日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#17,hoshokin-yuseishujutsu,,17,,2026-07-16,令和8年7月16日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#18,hoshokin-yuseishujutsu,,18,,2026-08-20,令和8年8月20日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#19,hoshokin-yuseishujutsu,,19,,2026-09-15,令和8年9月15日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#20,hoshokin-yuseishujutsu,,20,,2026-10-22,令和8年10月22日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+hoshokin-yuseishujutsu#21,hoshokin-yuseishujutsu,,21,,2026-11-12,令和8年11月12日,,,,,,6,link,/councils/hoshokin-yuseishujutsu
+jinkoninshinchuzetsu-ichijikin#1,jinkoninshinchuzetsu-ichijikin,,1,,2025-03-28,令和7年3月28日,,,,,,12,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#2,jinkoninshinchuzetsu-ichijikin,,2,,2025-04-21,令和7年4月21日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#3,jinkoninshinchuzetsu-ichijikin,,3,,2025-05-30,令和7年5月30日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#4,jinkoninshinchuzetsu-ichijikin,,4,,2025-06-23,令和7年6月23日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#5,jinkoninshinchuzetsu-ichijikin,,5,,2025-07-28,令和7年7月28日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#6,jinkoninshinchuzetsu-ichijikin,,6,,2025-08-29,令和7年8月29日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#7,jinkoninshinchuzetsu-ichijikin,,7,,2025-09-18,令和7年9月18日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#8,jinkoninshinchuzetsu-ichijikin,,8,,2025-10-10,令和7年10月10日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#9,jinkoninshinchuzetsu-ichijikin,,9,,2025-11-11,令和7年11月11日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#10,jinkoninshinchuzetsu-ichijikin,,10,,2025-12-15,令和7年12月15日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#11,jinkoninshinchuzetsu-ichijikin,,11,,2026-01-27,令和8年1月27日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#12,jinkoninshinchuzetsu-ichijikin,,12,,2026-02-24,令和8年2月24日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#13,jinkoninshinchuzetsu-ichijikin,,13,,2026-03-17,令和8年3月17日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#14,jinkoninshinchuzetsu-ichijikin,,14,,2026-04-21,令和8年4月21日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#15,jinkoninshinchuzetsu-ichijikin,,15,,2026-05-22,令和8年5月22日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#16,jinkoninshinchuzetsu-ichijikin,,16,,2026-06-23,令和8年6月23日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#17,jinkoninshinchuzetsu-ichijikin,,17,,2026-07-24,令和8年7月24日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#18,jinkoninshinchuzetsu-ichijikin,,18,,2026-08-28,令和8年8月28日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#19,jinkoninshinchuzetsu-ichijikin,,19,,2026-09-29,令和8年9月29日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#20,jinkoninshinchuzetsu-ichijikin,,20,,2026-10-27,令和8年10月27日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+jinkoninshinchuzetsu-ichijikin#21,jinkoninshinchuzetsu-ichijikin,,21,,2026-11-16,令和8年11月16日,,,,,,6,link,/councils/jinkoninshinchuzetsu-ichijikin
+kyuyusei-zemmeikaiketsu#1,kyuyusei-zemmeikaiketsu,,1,,2025-03-27,令和7年3月27日,,,,,,7,link,/councils/kyuyusei-zemmeikaiketsu
+kyuyusei-zemmeikaiketsu#2,kyuyusei-zemmeikaiketsu,,2,,2025-09-30,令和7年9月30日,,,,,,8,link,/councils/kyuyusei-zemmeikaiketsu
+kyuyusei-zemmeikaiketsu#3,kyuyusei-zemmeikaiketsu,,3,,2026-09-30,令和8年9月30日,,,,,,7,link,/councils/kyuyusei-zemmeikaiketsu
+child-safety-kyoiku-hoiku#20,child-safety-kyoiku-hoiku,,20,,2023-08-30,令和5年8月30日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+child-safety-kyoiku-hoiku#21,child-safety-kyoiku-hoiku,,21,,2024-03-05,令和6年3月5日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+child-safety-kyoiku-hoiku#22,child-safety-kyoiku-hoiku,,22,,2024-07-30,令和6年7月30日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+child-safety-kyoiku-hoiku#23,child-safety-kyoiku-hoiku,,23,,2025-02-12,令和7年2月12日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+child-safety-kyoiku-hoiku#24,child-safety-kyoiku-hoiku,,24,,2025-07-30,令和7年7月30日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+child-safety-kyoiku-hoiku#25,child-safety-kyoiku-hoiku,,25,,2026-02-10,令和8年2月10日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+child-safety-kyoiku-hoiku#26,child-safety-kyoiku-hoiku,,26,,2026-08-05,令和8年8月5日,14:00-16:00,,,,,2,link+pdf,/councils/child-safety-kyoiku-hoiku
+kodomokanren-jujisha#1,kodomokanren-jujisha,,1,,2023-06-27,令和5年6月27日,,,,,,23,link,/councils/kodomokanren-jujisha
+kodomokanren-jujisha#2,kodomokanren-jujisha,,2,,2023-07-19,令和5年7月19日,,,,,,8,link,/councils/kodomokanren-jujisha
+kodomokanren-jujisha#3,kodomokanren-jujisha,,3,,2023-08-01,令和5年8月1日,,,,,,12,link,/councils/kodomokanren-jujisha
+kodomokanren-jujisha#4,kodomokanren-jujisha,,4,,2023-08-23,令和5年8月23日,,,,,,6,link,/councils/kodomokanren-jujisha
+kodomokanren-jujisha#5,kodomokanren-jujisha,,5,,2023-09-05,令和5年9月5日,,,,,,3,link,/councils/kodomokanren-jujisha
+kodomokosodateshienhyojunka/令和6年度#1,kodomokosodateshienhyojunka,令和6年度,1,,2024-10-23,令和6年10月23日,14:00-15:00,,オンライン会議(Microsoft Teams) 出席者(敬称略): 子ども・子育て支援システム標準化検討会構成員,,,8,link+pdf,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和6年度#2,kodomokosodateshienhyojunka,令和6年度,2,,2024-12-10,令和6年12月10日,10:30-12:00,,オンライン会議(Microsoft Teams) 出席者(敬称略): 子ども・子育て支援システム標準化検討会構成員,,,10,link+pdf,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和7年度#1,kodomokosodateshienhyojunka,令和7年度,1,,2025-08-08,令和7年8月8日,,,,,,6,link,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和7年度#2@2025-09-01,kodomokosodateshienhyojunka,令和7年度,2,,2025-09-01,令和7年9月1日,15:00-16:20,,オンライン会議(Microsoft Teams) 出席者(敬称略): 子ども・子育て支援システム標準化分科会構成員,,,11,link+pdf,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和7年度#2,kodomokosodateshienhyojunka,令和7年度,2,,2025-09-24,令和7年9月24日,15:00-16:10,,オンライン会議(Microsoft Teams) 出席者(敬称略): 子ども・子育て支援システム標準化検討会座長,,,6,link+pdf,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和7年度#3@2025-12-10,kodomokosodateshienhyojunka,令和7年度,3,,2025-12-10,令和7年12月10日,10:00-11:30,,オンライン会議(Microsoft Teams) 出席者(敬称略): 子ども・子育て支援システム標準化分科会構成員,,,6,link+pdf,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和7年度#3,kodomokosodateshienhyojunka,令和7年度,3,,2025-12-26,令和7年12月26日,10:00-11:30,,オンライン会議(Microsoft Teams) 出席者(敬称略): 子ども・子育て支援システム標準化検討会座長,,,5,link+pdf,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和8年度#1,kodomokosodateshienhyojunka,令和8年度,1,,2026-07-08,令和8年7月8日,,,,,,7,link,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和8年度#2,kodomokosodateshienhyojunka,令和8年度,2,,2026-08-04,令和8年8月4日,,,,,,4,link,/councils/kodomokosodateshienhyojunka
+kodomokosodateshienhyojunka/令和8年度#3,kodomokosodateshienhyojunka,令和8年度,3,,2026-10-19,令和8年10月19日,,,,,,6,link,/councils/kodomokosodateshienhyojunka
+kokoseido-keizokutekimieruka#4,kokoseido-keizokutekimieruka,,4,,2023-05-31,令和5年5月31日,,,,,,10,link,/councils/kokoseido-keizokutekimieruka
+kokoseido-keizokutekimieruka#5,kokoseido-keizokutekimieruka,,5,,2023-07-05,令和5年7月5日,,,,,,8,link,/councils/kokoseido-keizokutekimieruka
 kokoseido-keizokutekimieruka#6,kokoseido-keizokutekimieruka,,6,,2023-08-03,令和5年8月3日,,,,,,1,link,/councils/kokoseido-keizokutekimieruka
-kodomo-ai-meetings#1,kodomo-ai-meetings,,1,,2024-06-28,令和6年6月28日,,,,,,1,link,/councils/kodomo-ai-meetings
-kodomo-ai-meetings#2,kodomo-ai-meetings,,2,,2024-08-27,令和6年8月27日,,,,,,1,link,/councils/kodomo-ai-meetings
-kodomo-ai-meetings#3,kodomo-ai-meetings,,3,,2024-10-28,令和6年10月28日,,,,,,1,link,/councils/kodomo-ai-meetings
-kodomo-ai-meetings#4,kodomo-ai-meetings,,4,,2024-12-25,令和6年12月25日,,,,,,1,link,/councils/kodomo-ai-meetings
-kodomo-ai-meetings#5,kodomo-ai-meetings,,5,,2025-03-04,令和7年3月4日,,,,,,1,link,/councils/kodomo-ai-meetings
-kodomo_seisaku_kyougi#1@2023-05-10,kodomo_seisaku_kyougi,,1,,2023-05-10,令和5年5月10日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-kodomo_seisaku_kyougi#1@2024-07-08,kodomo_seisaku_kyougi,,1,,2024-07-08,令和6年7月8日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-kodomo_seisaku_kyougi#1@2025-04-24,kodomo_seisaku_kyougi,,1,,2025-04-24,令和7年4月24日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-kodomo_seisaku_kyougi#1,kodomo_seisaku_kyougi,,1,,2026-04-30,令和8年4月30日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-kodomo_seisaku_kyougi#2@2023-10-27,kodomo_seisaku_kyougi,,2,,2023-10-27,令和5年10月27日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-kodomo_seisaku_kyougi#2@2024-11-26,kodomo_seisaku_kyougi,,2,,2024-11-26,令和6年11月26日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-kodomo_seisaku_kyougi#2,kodomo_seisaku_kyougi,,2,,2025-12-18,令和7年12月18日,,,,,,1,link,/councils/kodomo_seisaku_kyougi
-koseibo-preparation-committee#1,koseibo-preparation-committee,,1,,2025-06-26,令和7年6月26日,,,,,,1,link,/councils/koseibo-preparation-committee
-koseibo-preparation-committee#2,koseibo-preparation-committee,,2,,2025-09-24,令和7年9月24日,,,,,,1,link,/councils/koseibo-preparation-committee
-koseibo-preparation-committee#3,koseibo-preparation-committee,,3,,2025-12-26,令和7年12月26日,,,,,,1,link,/councils/koseibo-preparation-committee
-koseibo-preparation-committee#4,koseibo-preparation-committee,,4,,2026-07-17,令和8年7月17日,,,,,,1,link,/councils/koseibo-preparation-committee
-koseibo-jumbi#1,koseibo-jumbi,,1,,2025-04-21,令和7年4月21日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#2,koseibo-jumbi,,2,,2025-05-26,令和7年5月26日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#3,koseibo-jumbi,,3,,2025-06-05,令和7年6月5日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#4,koseibo-jumbi,,4,,2025-06-30,令和7年6月30日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#5,koseibo-jumbi,,5,,2025-07-22,令和7年7月22日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#6,koseibo-jumbi,,6,,2025-08-22,令和7年8月22日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#7,koseibo-jumbi,,7,,2025-09-12,令和7年9月12日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#8,koseibo-jumbi,,8,,2025-10-09,令和7年10月9日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#9,koseibo-jumbi,,9,,2025-10-30,令和7年10月30日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#10,koseibo-jumbi,,10,,2025-11-21,令和7年11月21日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#11,koseibo-jumbi,,11,,2025-12-22,令和7年12月22日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#12,koseibo-jumbi,,12,,2026-04-23,令和8年4月23日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#13,koseibo-jumbi,,13,,2026-08-25,令和8年8月25日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-jumbi#14,koseibo-jumbi,,14,,2026-11-09,令和8年11月9日,,,,,,1,link,/councils/koseibo-jumbi
-koseibo-conference#1,koseibo-conference,,1,,2024-09-13,令和6年9月13日,,,,,,1,link,/councils/koseibo-conference
-koseibo-conference#2,koseibo-conference,,2,,2025-03-26,令和7年3月26日,,,,,,1,link,/councils/koseibo-conference
-daredemotsuuen#1,daredemotsuuen,,1,,2023-09-21,令和5年9月21日,,,,,,1,link,/councils/daredemotsuuen
-daredemotsuuen#2,daredemotsuuen,,2,,2023-10-16,令和5年10月16日,,,,,,1,link,/councils/daredemotsuuen
-daredemotsuuen#3,daredemotsuuen,,3,,2023-11-08,令和5年11月8日,,,,,,1,link,/councils/daredemotsuuen
-daredemotsuuen#4,daredemotsuuen,,4,,2023-12-25,令和5年12月25日,,,,,,1,link,/councils/daredemotsuuen
-newkyuufudaredemotsuuen#1,newkyuufudaredemotsuuen,,1,,2024-06-26,令和6年6月26日,,,,,,1,link,/councils/newkyuufudaredemotsuuen
-newkyuufudaredemotsuuen#2,newkyuufudaredemotsuuen,,2,,2024-09-26,令和6年9月26日,,,,,,1,link,/councils/newkyuufudaredemotsuuen
-newkyuufudaredemotsuuen#3,newkyuufudaredemotsuuen,,3,,2024-10-30,令和6年10月30日,,,,,,1,link,/councils/newkyuufudaredemotsuuen
-newkyuufudaredemotsuuen#4,newkyuufudaredemotsuuen,,4,,2024-12-26,令和6年12月26日,,,,,,1,link,/councils/newkyuufudaredemotsuuen
-daredemotsuen-kentokai#1,daredemotsuen-kentokai,,1,,2025-07-18,令和7年7月18日,,,,,,1,link,/councils/daredemotsuen-kentokai
-daredemotsuen-kentokai#2,daredemotsuen-kentokai,,2,,2025-10-10,令和7年10月10日,,,,,,1,link,/councils/daredemotsuen-kentokai
-daredemotsuen-kentokai#3,daredemotsuen-kentokai,,3,,2025-12-19,令和7年12月19日,,,,,,1,link,/councils/daredemotsuen-kentokai
-kodomo-data/令和5年度#1,kodomo-data,令和5年度,1,,2023-05-31,令和5年5月31日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#2,kodomo-data,令和5年度,2,,2023-06-28,令和5年6月28日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#3,kodomo-data,令和5年度,3,,2023-07-27,令和5年7月27日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#4,kodomo-data,令和5年度,4,,2023-08-31,令和5年8月31日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#5,kodomo-data,令和5年度,5,,2023-09-28,令和5年9月28日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#6,kodomo-data,令和5年度,6,,2023-10-30,令和5年10月30日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#7,kodomo-data,令和5年度,7,,2023-11-16,令和5年11月16日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#8,kodomo-data,令和5年度,8,,2023-12-22,令和5年12月22日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#9,kodomo-data,令和5年度,9,,2024-01-31,令和6年1月31日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和5年度#10,kodomo-data,令和5年度,10,,2024-03-07,令和6年3月7日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和6年度#1,kodomo-data,令和6年度,1,,2024-11-25,令和6年11月25日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和6年度#2,kodomo-data,令和6年度,2,,2024-12-26,令和6年12月26日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和6年度#3,kodomo-data,令和6年度,3,,2025-01-27,令和7年1月27日,,,,,,1,link,/councils/kodomo-data
-kodomo-data/令和6年度#4,kodomo-data,令和6年度,4,,2025-03-06,令和7年3月6日,,,,,,1,link,/councils/kodomo-data
-kodomo-company-growth-councils#1,kodomo-company-growth-councils,,1,,2026-11-09,令和8年11月9日,,,,,,1,link,/councils/kodomo-company-growth-councils
-child-safety-actions-review-meetings#1@2023-07-13,child-safety-actions-review-meetings,,1,,2023-07-13,令和5年7月13日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#1@2024-07-05,child-safety-actions-review-meetings,,1,,2024-07-05,令和6年7月5日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#1@2025-07-04,child-safety-actions-review-meetings,,1,,2025-07-04,令和7年7月4日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#1,child-safety-actions-review-meetings,,1,,2026-07-01,令和8年7月1日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#2@2024-01-30,child-safety-actions-review-meetings,,2,,2024-01-30,令和6年1月30日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#2@2024-12-20,child-safety-actions-review-meetings,,2,,2024-12-20,令和6年12月20日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#2,child-safety-actions-review-meetings,,2,,2025-12-23,令和7年12月23日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#3@2024-03-26,child-safety-actions-review-meetings,,3,,2024-03-26,令和6年3月26日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#3@2025-03-26,child-safety-actions-review-meetings,,3,,2025-03-26,令和7年3月26日,,,,,,1,link,/councils/child-safety-actions-review-meetings
-child-safety-actions-review-meetings#3,child-safety-actions-review-meetings,,3,,2026-03-17,令和8年3月17日,,,,,,1,link,/councils/child-safety-actions-review-meetings
+kodomo-ai-meetings#1,kodomo-ai-meetings,,1,,2024-06-28,令和6年6月28日,14:15-16:15,(1) 本事業の背景・目的の共有 / (2) 生成 AI の事例調査状況の報告 / (3) 実証事業の進捗報告(速報)  ※議事非公開 / (4) 実証環境についてのご紹介,オンライン(Microsoft Teams 会議),,,8,link+pdf,/councils/kodomo-ai-meetings
+kodomo-ai-meetings#2,kodomo-ai-meetings,,2,,2024-08-27,令和6年8月27日,15:15-17:15,(1) 第 1 回検討委員会までの振り返り / (2) 実証事業の公募結果報告および実証実施状況(速報)  ※議事非公開 / (3) 生成 AI 利活用ガイドライン(案)のご説明,オンライン(Microsoft Teams 会議),,,6,link+pdf,/councils/kodomo-ai-meetings
+kodomo-ai-meetings#3,kodomo-ai-meetings,,3,,2024-10-28,令和6年10月28日,13:15-15:15,(1) 第 2 回検討委員会までの振り返り / (2) 実証事業の実施状況報告 / (3) 生成 AI 利活用ガイドライン(案)のご説明 / (4) 事例調査の実施状況報告,オンライン(Microsoft Teams 会議),,,9,link+pdf,/councils/kodomo-ai-meetings
+kodomo-ai-meetings#4,kodomo-ai-meetings,,4,,2024-12-25,令和6年12月25日,10:00-12:00,(1) 第 3 回検討委員会までの振り返り / (2) 生成 AI 利活用ガイドラインに関するご説明 / (3) 実証事業の状況報告 / (4) 調査事業の状況報告,オンライン(Microsoft Teams 会議),,,9,link+pdf,/councils/kodomo-ai-meetings
+kodomo-ai-meetings#5,kodomo-ai-meetings,,5,,2025-03-04,令和7年3月4日,10:00-12:00,(1) 第 4 回検討委員会の振り返り / (2) 本事業全体の結果報告 / (3) 生成 AI 利活用ガイドラインに関するご説明,オンライン(Microsoft Teams 会議),,,8,link+pdf,/councils/kodomo-ai-meetings
+kodomo_seisaku_kyougi#1@2023-05-10,kodomo_seisaku_kyougi,,1,,2023-05-10,令和5年5月10日,,,,,,17,link,/councils/kodomo_seisaku_kyougi
+kodomo_seisaku_kyougi#1@2024-07-08,kodomo_seisaku_kyougi,,1,,2024-07-08,令和6年7月8日,,,,,,26,link,/councils/kodomo_seisaku_kyougi
+kodomo_seisaku_kyougi#1@2025-04-24,kodomo_seisaku_kyougi,,1,,2025-04-24,令和7年4月24日,,,,,,17,link,/councils/kodomo_seisaku_kyougi
+kodomo_seisaku_kyougi#1,kodomo_seisaku_kyougi,,1,,2026-04-30,令和8年4月30日,17:00-18:40,こども政策に関する意見交換等 / (1)こどもまんなか実行計画2026に向けて / (2)こどもまんなか社会に向けた地域における取組について / (3)こどもの自殺対策について1,対面・オンライン(こども家庭庁庁議室),【地方三団体】 / (全国知事会) / 阿部 守一 / 熊谷 俊人 / (全国市長会) / 都竹 淳也 / (全国町村会) / 棚野 孝夫 / 長野県知事(全国知事会長) / 千葉県知事(子ども・子育て政策推進本部長) / 岐阜県飛騨市長(社会文教委員会委員長)※ / 北海道白糠町長(全国町村会長) / ※オンライン参加 / 【国】 / 内閣府副大臣 / 黄川田 仁志 内閣府特命担当大臣 / 津島 淳 / 古川 直季 内閣府大臣政務官 / 中村 裕之 文部科学副大臣 / 神谷 雅幸 厚生労働大臣政務官 / (こども家庭庁) / 渡辺 由美子 長官 / 長官官房長 / 藤原 朋子 / 成育局長 / 中村 英正 / 支援局長 / 齊藤 馨 / 長官官房審議官(総合政策等担当) / 水田 功,,7,link+pdf,/councils/kodomo_seisaku_kyougi
+kodomo_seisaku_kyougi#2@2023-10-27,kodomo_seisaku_kyougi,,2,,2023-10-27,令和5年10月27日,,,,,,24,link,/councils/kodomo_seisaku_kyougi
+kodomo_seisaku_kyougi#2@2024-11-26,kodomo_seisaku_kyougi,,2,,2024-11-26,令和6年11月26日,,,,,,15,link,/councils/kodomo_seisaku_kyougi
+kodomo_seisaku_kyougi#2,kodomo_seisaku_kyougi,,2,,2025-12-18,令和7年12月18日,,,,,,7,link,/councils/kodomo_seisaku_kyougi
+koseibo-preparation-committee#1,koseibo-preparation-committee,,1,,2025-06-26,令和7年6月26日,,,,,,5,link,/councils/koseibo-preparation-committee
+koseibo-preparation-committee#2,koseibo-preparation-committee,,2,,2025-09-24,令和7年9月24日,,,,,,9,link,/councils/koseibo-preparation-committee
+koseibo-preparation-committee#3,koseibo-preparation-committee,,3,,2025-12-26,令和7年12月26日,,,,,,9,link,/councils/koseibo-preparation-committee
+koseibo-preparation-committee#4,koseibo-preparation-committee,,4,,2026-07-17,令和8年7月17日,,,,,,14,link,/councils/koseibo-preparation-committee
+koseibo-jumbi#1,koseibo-jumbi,,1,,2025-04-21,令和7年4月21日,14:00-17:00,,,,,16,link+pdf,/councils/koseibo-jumbi
+koseibo-jumbi#2,koseibo-jumbi,,2,,2025-05-26,令和7年5月26日,,,,,,11,link,/councils/koseibo-jumbi
+koseibo-jumbi#3,koseibo-jumbi,,3,,2025-06-05,令和7年6月5日,,,,,,10,link,/councils/koseibo-jumbi
+koseibo-jumbi#4,koseibo-jumbi,,4,,2025-06-30,令和7年6月30日,,,,,,13,link,/councils/koseibo-jumbi
+koseibo-jumbi#5,koseibo-jumbi,,5,,2025-07-22,令和7年7月22日,,,,,,15,link,/councils/koseibo-jumbi
+koseibo-jumbi#6,koseibo-jumbi,,6,,2025-08-22,令和7年8月22日,,,,,,24,link,/councils/koseibo-jumbi
+koseibo-jumbi#7,koseibo-jumbi,,7,,2025-09-12,令和7年9月12日,,,,,,11,link,/councils/koseibo-jumbi
+koseibo-jumbi#8,koseibo-jumbi,,8,,2025-10-09,令和7年10月9日,,,,,,13,link,/councils/koseibo-jumbi
+koseibo-jumbi#9,koseibo-jumbi,,9,,2025-10-30,令和7年10月30日,,,,,,16,link,/councils/koseibo-jumbi
+koseibo-jumbi#10,koseibo-jumbi,,10,,2025-11-21,令和7年11月21日,,,,,,19,link,/councils/koseibo-jumbi
+koseibo-jumbi#11,koseibo-jumbi,,11,,2025-12-22,令和7年12月22日,,,,,,10,link,/councils/koseibo-jumbi
+koseibo-jumbi#12,koseibo-jumbi,,12,,2026-04-23,令和8年4月23日,,,,,,27,link,/councils/koseibo-jumbi
+koseibo-jumbi#13,koseibo-jumbi,,13,,2026-08-25,令和8年8月25日,,,,,,25,link,/councils/koseibo-jumbi
+koseibo-jumbi#14,koseibo-jumbi,,14,,2026-11-09,令和8年11月9日,,,,,,14,link,/councils/koseibo-jumbi
+koseibo-conference#1,koseibo-conference,,1,,2024-09-13,令和6年9月13日,14:00-14:45,,こども家庭庁 14 階大会議室,,,8,link+pdf,/councils/koseibo-conference
+koseibo-conference#2,koseibo-conference,,2,,2025-03-26,令和7年3月26日,16:30-17:30,,こども家庭庁 14 階大会議室,,,9,link+pdf,/councils/koseibo-conference
+daredemotsuuen#1,daredemotsuuen,,1,,2023-09-21,令和5年9月21日,,,,,,10,link,/councils/daredemotsuuen
+daredemotsuuen#2,daredemotsuuen,,2,,2023-10-16,令和5年10月16日,,,,,,5,link,/councils/daredemotsuuen
+daredemotsuuen#3,daredemotsuuen,,3,,2023-11-08,令和5年11月8日,,,,,,8,link,/councils/daredemotsuuen
+daredemotsuuen#4,daredemotsuuen,,4,,2023-12-25,令和5年12月25日,,,,,,10,link,/councils/daredemotsuuen
+newkyuufudaredemotsuuen#1,newkyuufudaredemotsuuen,,1,,2024-06-26,令和6年6月26日,,,,,,12,link,/councils/newkyuufudaredemotsuuen
+newkyuufudaredemotsuuen#2,newkyuufudaredemotsuuen,,2,,2024-09-26,令和6年9月26日,,,,,,9,link,/councils/newkyuufudaredemotsuuen
+newkyuufudaredemotsuuen#3,newkyuufudaredemotsuuen,,3,,2024-10-30,令和6年10月30日,,,,,,12,link,/councils/newkyuufudaredemotsuuen
+newkyuufudaredemotsuuen#4,newkyuufudaredemotsuuen,,4,,2024-12-26,令和6年12月26日,,,,,,15,link,/councils/newkyuufudaredemotsuuen
+daredemotsuen-kentokai#1,daredemotsuen-kentokai,,1,,2025-07-18,令和7年7月18日,,,,,,18,link,/councils/daredemotsuen-kentokai
+daredemotsuen-kentokai#2,daredemotsuen-kentokai,,2,,2025-10-10,令和7年10月10日,,,,,,18,link,/councils/daredemotsuen-kentokai
+daredemotsuen-kentokai#3,daredemotsuen-kentokai,,3,,2025-12-19,令和7年12月19日,,,,,,15,link,/councils/daredemotsuen-kentokai
+kodomo-data/令和5年度#1,kodomo-data,令和5年度,1,,2023-05-31,令和5年5月31日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和5年度#2,kodomo-data,令和5年度,2,,2023-06-28,令和5年6月28日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和5年度#3,kodomo-data,令和5年度,3,,2023-07-27,令和5年7月27日,,,,,,3,link,/councils/kodomo-data
+kodomo-data/令和5年度#4,kodomo-data,令和5年度,4,,2023-08-31,令和5年8月31日,,,,,,3,link,/councils/kodomo-data
+kodomo-data/令和5年度#5,kodomo-data,令和5年度,5,,2023-09-28,令和5年9月28日,,,,,,3,link,/councils/kodomo-data
+kodomo-data/令和5年度#6,kodomo-data,令和5年度,6,,2023-10-30,令和5年10月30日,,,,,,3,link,/councils/kodomo-data
+kodomo-data/令和5年度#7,kodomo-data,令和5年度,7,,2023-11-16,令和5年11月16日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和5年度#8,kodomo-data,令和5年度,8,,2023-12-22,令和5年12月22日,,,,,,3,link,/councils/kodomo-data
+kodomo-data/令和5年度#9,kodomo-data,令和5年度,9,,2024-01-31,令和6年1月31日,,,,,,3,link,/councils/kodomo-data
+kodomo-data/令和5年度#10,kodomo-data,令和5年度,10,,2024-03-07,令和6年3月7日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和6年度#1,kodomo-data,令和6年度,1,,2024-11-25,令和6年11月25日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和6年度#2,kodomo-data,令和6年度,2,,2024-12-26,令和6年12月26日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和6年度#3,kodomo-data,令和6年度,3,,2025-01-27,令和7年1月27日,,,,,,4,link,/councils/kodomo-data
+kodomo-data/令和6年度#4,kodomo-data,令和6年度,4,,2025-03-06,令和7年3月6日,,,,,,4,link,/councils/kodomo-data
+kodomo-company-growth-councils#1,kodomo-company-growth-councils,,1,,2026-11-09,令和8年11月9日,14:30-15:00,,こども家庭庁 14 階長官官房第二会議室 (吉住官房長) ただいまから、「第1回「こどもとともに成長する企業構想」に関する関係,,,6,link+pdf,/councils/kodomo-company-growth-councils
+child-safety-actions-review-meetings#1@2023-07-13,child-safety-actions-review-meetings,,1,,2023-07-13,令和5年7月13日,,,,,,12,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#1@2024-07-05,child-safety-actions-review-meetings,,1,,2024-07-05,令和6年7月5日,,,,,,7,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#1@2025-07-04,child-safety-actions-review-meetings,,1,,2025-07-04,令和7年7月4日,,,,,,7,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#1,child-safety-actions-review-meetings,,1,,2026-07-01,令和8年7月1日,,,,,,9,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#2@2024-01-30,child-safety-actions-review-meetings,,2,,2024-01-30,令和6年1月30日,,,,,,14,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#2@2024-12-20,child-safety-actions-review-meetings,,2,,2024-12-20,令和6年12月20日,,,,,,8,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#2,child-safety-actions-review-meetings,,2,,2025-12-23,令和7年12月23日,,,,,,10,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#3@2024-03-26,child-safety-actions-review-meetings,,3,,2024-03-26,令和6年3月26日,,,,,,8,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#3@2025-03-26,child-safety-actions-review-meetings,,3,,2025-03-26,令和7年3月26日,,,,,,8,link,/councils/child-safety-actions-review-meetings
+child-safety-actions-review-meetings#3,child-safety-actions-review-meetings,,3,,2026-03-17,令和8年3月17日,,,,,,5,link,/councils/child-safety-actions-review-meetings
 kodomonojisatsutaisaku-kaigi#1,kodomonojisatsutaisaku-kaigi,,1,第1回,2023-04-27,令和5年4月27日,12:00-12:30,小倉大臣挨拶 / 各省庁からの報告 / 小倉大臣指示 / 議事内容（PDF／78KB）,こども家庭庁庁議室,,https://www.cfa.go.jp/councils/kodomonojisatsutaisaku-kaigi/0a6f2fed92bf/,14,link+page,/councils/kodomonojisatsutaisaku-kaigi /councils/kodomonojisatsutaisaku-kaigi/0a6f2fed92bf
 kodomonojisatsutaisaku-kaigi#2,kodomonojisatsutaisaku-kaigi,,2,第2回,2023-05-19,令和5年5月19日,17:00-19:00,1．小倉大臣挨拶 / 2．有識者等からのヒアリング / 議事内容（PDF／73KB）,こども家庭庁庁議室,,https://www.cfa.go.jp/councils/kodomonojisatsutaisaku-kaigi/3a9c402b/,7,link+page,/councils/kodomonojisatsutaisaku-kaigi /councils/kodomonojisatsutaisaku-kaigi/3a9c402b
 kodomonojisatsutaisaku-kaigi#3,kodomonojisatsutaisaku-kaigi,,3,第3回,2023-05-26,令和5年5月26日,11:00-12:00,1．小倉大臣挨拶 / 2．有識者等からのヒアリング / 議事内容（PDF／58KB）,こども家庭庁庁議室,,https://www.cfa.go.jp/councils/kodomonojisatsutaisaku-kaigi/dcd07b77/,5,link+page,/councils/kodomonojisatsutaisaku-kaigi /councils/kodomonojisatsutaisaku-kaigi/dcd07b77
@@ -202,378 +202,378 @@ child-safety-conference#6,child-safety-conference,,6,,2019-05-24,令和元年5�
 child-safety-conference#7,child-safety-conference,,7,,2020-07-10,令和2年7月10日,,,,,,1,link,/councils/child-safety-conference
 child-safety-conference#8,child-safety-conference,,8,,2021-06-11,令和3年6月11日,,,,,,1,link,/councils/child-safety-conference
 child-safety-conference#9,child-safety-conference,,9,,2022-05-13,令和4年5月13日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#10,child-safety-conference,,10,,2023-06-13,令和5年6月13日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#11,child-safety-conference,,11,,2023-06-27,令和5年6月27日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#12,child-safety-conference,,12,,2023-07-04,令和5年7月4日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#13,child-safety-conference,,13,,2023-07-26,令和5年7月26日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#14,child-safety-conference,,14,,2023-10-16,令和5年10月16日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#15,child-safety-conference,,15,,2024-04-25,令和6年4月25日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#16,child-safety-conference,,16,,2024-08-29,令和6年8月29日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#17,child-safety-conference,,17,,2025-07-11,令和7年7月11日,,,,,,1,link,/councils/child-safety-conference
-child-safety-conference#18,child-safety-conference,,18,,2026-07-28,令和8年7月28日,,,,,,1,link,/councils/child-safety-conference
-kodomo-shelter#1,kodomo-shelter,,1,,2024-06-14,令和6年6月14日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#2,kodomo-shelter,,2,,2024-07-19,令和6年7月19日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#3,kodomo-shelter,,3,,2024-09-09,令和6年9月9日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#4,kodomo-shelter,,4,,2024-10-18,令和6年10月18日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#5,kodomo-shelter,,5,,2024-11-15,令和6年11月15日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#6,kodomo-shelter,,6,,2024-12-20,令和6年12月20日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#7,kodomo-shelter,,7,,2025-02-25,令和7年2月25日,,,,,,1,link,/councils/kodomo-shelter
-kodomo-shelter#8,kodomo-shelter,,8,,2025-03-14,令和7年3月14日,,,,,,1,link,/councils/kodomo-shelter
-workinggroup#1,workinggroup,,1,,2026-11-24,令和8年11月24日,,,,,,1,link,/councils/workinggroup
-nyusyo#1,nyusyo,,1,,2025-05-21,令和7年5月21日,,,,,,1,link,/councils/nyusyo
-nyusyo#1@2025-07-30,nyusyo,,1,,2025-07-30,令和7年7月30日,,,,,,1,link,/councils/nyusyo
-nyusyo#1@2025-08-06,nyusyo,,1,,2025-08-06,令和7年8月6日,,,,,,1,link,/councils/nyusyo
-nyusyo#2,nyusyo,,2,,2025-06-25,令和7年6月25日,,,,,,1,link,/councils/nyusyo
-nyusyo#2@2025-08-25,nyusyo,,2,,2025-08-25,令和7年8月25日,,,,,,1,link,/councils/nyusyo
-nyusyo#2@2025-09-10,nyusyo,,2,,2025-09-10,令和7年9月10日,,,,,,1,link,/councils/nyusyo
-nyusyo#3,nyusyo,,3,,2025-07-09,令和7年7月9日,,,,,,1,link,/councils/nyusyo
-nyusyo#3@2025-09-29,nyusyo,,3,,2025-09-29,令和7年9月29日,,,,,,1,link,/councils/nyusyo
-nyusyo#3@2025-10-06,nyusyo,,3,,2025-10-06,令和7年10月6日,,,,,,1,link,/councils/nyusyo
-nyusyo#4,nyusyo,,4,,2025-12-02,令和7年12月2日,,,,,,1,link,/councils/nyusyo
-nyusyo#5,nyusyo,,5,,2026-01-19,令和8年1月19日,,,,,,1,link,/councils/nyusyo
-nyusyo#6,nyusyo,,6,,2026-02-16,令和8年2月16日,,,,,,1,link,/councils/nyusyo
-nyusyo#7,nyusyo,,7,,2026-03-12,令和8年3月12日,,,,,,1,link,/councils/nyusyo
-shienkin-daijinkonwakai#1,shienkin-daijinkonwakai,,1,,2023-11-09,令和5年11月9日,,,,,,1,link,/councils/shienkin-daijinkonwakai
-shienkin-daijinkonwakai#2,shienkin-daijinkonwakai,,2,,2023-12-11,令和5年12月11日,,,,,,1,link,/councils/shienkin-daijinkonwakai
-kodomo-keikaku#1,kodomo-keikaku,,1,,2023-11-27,令和5年11月27日,,,,,,1,link,/councils/kodomo-keikaku
-kodomo-keikaku#2,kodomo-keikaku,,2,,2023-12-26,令和5年12月26日,,,,,,1,link,/councils/kodomo-keikaku
-kodomo-keikaku#3,kodomo-keikaku,,3,,2024-02-14,令和6年2月14日,,,,,,1,link,/councils/kodomo-keikaku
-kodomo-keikaku#4,kodomo-keikaku,,4,,2024-03-12,令和6年3月12日,,,,,,1,link,/councils/kodomo-keikaku
-cdr-seidonoarikata#1,cdr-seidonoarikata,,1,,2025-04-25,令和7年4月25日,,,,,,1,link,/councils/cdr-seidonoarikata
-cdr-seidonoarikata#2,cdr-seidonoarikata,,2,,2025-07-25,令和7年7月25日,,,,,,1,link,/councils/cdr-seidonoarikata
-cdr-seidonoarikata#3,cdr-seidonoarikata,,3,,2026-01-28,令和8年1月28日,,,,,,1,link,/councils/cdr-seidonoarikata
-cdr-seidonoarikata#4,cdr-seidonoarikata,,4,,2026-07-23,令和8年7月23日,,,,,,1,link,/councils/cdr-seidonoarikata
-cdr-seidonoarikata#5,cdr-seidonoarikata,,5,,2026-11-27,令和8年11月27日,,,,,,1,link,/councils/cdr-seidonoarikata
-kodomokazoku-shien#1,kodomokazoku-shien,,1,,2023-04-20,令和5年4月20日,,,,,,1,link,/councils/kodomokazoku-shien
-syoshika-kpi-team#1,syoshika-kpi-team,,1,,2024-04-15,令和6年4月15日,,,,,,1,link,/councils/syoshika-kpi-team
-syoshika-kpi-team#2,syoshika-kpi-team,,2,,2024-05-10,令和6年5月10日,,,,,,1,link,/councils/syoshika-kpi-team
-syoshika-kpi-team#3,syoshika-kpi-team,,3,,2024-05-27,令和6年5月27日,,,,,,1,link,/councils/syoshika-kpi-team
-syoshika-kpi-team#4,syoshika-kpi-team,,4,,2024-10-18,令和6年10月18日,,,,,,1,link,/councils/syoshika-kpi-team
-support-personnel#1,support-personnel,,1,,2024-12-25,令和6年12月25日,,,,,,1,link,/councils/support-personnel
-support-personnel#1@2025-01-29,support-personnel,,1,,2025-01-29,令和7年1月29日,,,,,,1,link,/councils/support-personnel
-support-personnel#2@2025-03-10,support-personnel,,2,,2025-03-10,令和7年3月10日,,,,,,1,link,/councils/support-personnel
-support-personnel#2,support-personnel,,2,,2025-05-26,令和7年5月26日,,,,,,1,link,/councils/support-personnel
-support-personnel#3@2025-04-14,support-personnel,,3,,2025-04-14,令和7年4月14日,,,,,,1,link,/councils/support-personnel
-support-personnel#3,support-personnel,,3,,2025-07-08,令和7年7月8日,,,,,,1,link,/councils/support-personnel
-support-personnel#4@2025-06-16,support-personnel,,4,,2025-06-16,令和7年6月16日,,,,,,1,link,/councils/support-personnel
-support-personnel#4,support-personnel,,4,,2025-07-28,令和7年7月28日,,,,,,1,link,/councils/support-personnel
-sukoyaka21#23,sukoyaka21,,23,,2023-11-08,令和5年11月8日,,,,,,1,link,/councils/sukoyaka21
-sukoyaka21#24,sukoyaka21,,24,,2024-11-19,令和6年11月19日,,,,,,1,link,/councils/sukoyaka21
-sukoyaka21#25,sukoyaka21,,25,,2025-11-28,令和7年11月28日,,,,,,1,link,/councils/sukoyaka21
-sukoyaka21#26,sukoyaka21,,26,,2026-11-09,令和8年11月9日,,,,,,1,link,/councils/sukoyaka21
+child-safety-conference#10,child-safety-conference,,10,,2023-06-13,令和5年6月13日,,,,,,8,link,/councils/child-safety-conference
+child-safety-conference#11,child-safety-conference,,11,,2023-06-27,令和5年6月27日,,,,,,7,link,/councils/child-safety-conference
+child-safety-conference#12,child-safety-conference,,12,,2023-07-04,令和5年7月4日,,,,,,6,link,/councils/child-safety-conference
+child-safety-conference#13,child-safety-conference,,13,,2023-07-26,令和5年7月26日,,,,,,8,link,/councils/child-safety-conference
+child-safety-conference#14,child-safety-conference,,14,,2023-10-16,令和5年10月16日,,,,,,5,link,/councils/child-safety-conference
+child-safety-conference#15,child-safety-conference,,15,,2024-04-25,令和6年4月25日,,,,,,4,link,/councils/child-safety-conference
+child-safety-conference#16,child-safety-conference,,16,,2024-08-29,令和6年8月29日,,,,,,5,link,/councils/child-safety-conference
+child-safety-conference#17,child-safety-conference,,17,,2025-07-11,令和7年7月11日,,,,,,6,link,/councils/child-safety-conference
+child-safety-conference#18,child-safety-conference,,18,,2026-07-28,令和8年7月28日,,,,,,6,link,/councils/child-safety-conference
+kodomo-shelter#1,kodomo-shelter,,1,,2024-06-14,令和6年6月14日,,,,,,12,link,/councils/kodomo-shelter
+kodomo-shelter#2,kodomo-shelter,,2,,2024-07-19,令和6年7月19日,,,,,,8,link,/councils/kodomo-shelter
+kodomo-shelter#3,kodomo-shelter,,3,,2024-09-09,令和6年9月9日,,,,,,5,link,/councils/kodomo-shelter
+kodomo-shelter#4,kodomo-shelter,,4,,2024-10-18,令和6年10月18日,,,,,,5,link,/councils/kodomo-shelter
+kodomo-shelter#5,kodomo-shelter,,5,,2024-11-15,令和6年11月15日,,,,,,8,link,/councils/kodomo-shelter
+kodomo-shelter#6,kodomo-shelter,,6,,2024-12-20,令和6年12月20日,,,,,,6,link,/councils/kodomo-shelter
+kodomo-shelter#7,kodomo-shelter,,7,,2025-02-25,令和7年2月25日,,,,,,8,link,/councils/kodomo-shelter
+kodomo-shelter#8,kodomo-shelter,,8,,2025-03-14,令和7年3月14日,,,,,,6,link,/councils/kodomo-shelter
+workinggroup#1,workinggroup,,1,,2026-11-24,令和8年11月24日,,,,,,17,link,/councils/workinggroup
+nyusyo#1,nyusyo,,1,,2025-05-21,令和7年5月21日,,,,,,12,link,/councils/nyusyo
+nyusyo#1@2025-07-30,nyusyo,,1,,2025-07-30,令和7年7月30日,,,,,,15,link,/councils/nyusyo
+nyusyo#1@2025-08-06,nyusyo,,1,,2025-08-06,令和7年8月6日,,,,,,14,link,/councils/nyusyo
+nyusyo#2,nyusyo,,2,,2025-06-25,令和7年6月25日,,,,,,15,link,/councils/nyusyo
+nyusyo#2@2025-08-25,nyusyo,,2,,2025-08-25,令和7年8月25日,,,,,,15,link,/councils/nyusyo
+nyusyo#2@2025-09-10,nyusyo,,2,,2025-09-10,令和7年9月10日,,,,,,15,link,/councils/nyusyo
+nyusyo#3,nyusyo,,3,,2025-07-09,令和7年7月9日,,,,,,12,link,/councils/nyusyo
+nyusyo#3@2025-09-29,nyusyo,,3,,2025-09-29,令和7年9月29日,,,,,,16,link,/councils/nyusyo
+nyusyo#3@2025-10-06,nyusyo,,3,,2025-10-06,令和7年10月6日,,,,,,17,link,/councils/nyusyo
+nyusyo#4,nyusyo,,4,,2025-12-02,令和7年12月2日,,,,,,11,link,/councils/nyusyo
+nyusyo#5,nyusyo,,5,,2026-01-19,令和8年1月19日,,,,,,13,link,/councils/nyusyo
+nyusyo#6,nyusyo,,6,,2026-02-16,令和8年2月16日,,,,,,10,link,/councils/nyusyo
+nyusyo#7,nyusyo,,7,,2026-03-12,令和8年3月12日,,,,,,10,link,/councils/nyusyo
+shienkin-daijinkonwakai#1,shienkin-daijinkonwakai,,1,,2023-11-09,令和5年11月9日,,,,,,7,link,/councils/shienkin-daijinkonwakai
+shienkin-daijinkonwakai#2,shienkin-daijinkonwakai,,2,,2023-12-11,令和5年12月11日,,,,,,7,link,/councils/shienkin-daijinkonwakai
+kodomo-keikaku#1,kodomo-keikaku,,1,,2023-11-27,令和5年11月27日,13:30-15:00,,オンライン会議,(有識者) / 吉永真理(昭和薬科大学薬学部臨床心理学研究室教授) / 牧瀬稔(関東学院大学法学部地域創生学科教授、関東学院大学地域創生実践研究所所長) / 園田三惠(滋賀県健康医療福祉部子ども・青少年局局長) / 副島由理(東京都豊島区子ども家庭部部長) / 板東美明(北海道剣淵町住民課課長) / (こども家庭庁) / 清原慶子(こども家庭庁長官官房総務課参与) / 佐藤勇輔(こども家庭庁長官官房総合政策担当参事官) / 新田義純(こども家庭庁長官官房総合政策担当付計画係参事官補佐) / 万木尋己(こども家庭庁長官官房総合政策担当付企画調整係) / 野村祐喜(こども家庭庁長官官房総合政策担当付計画係) / (事務局) / 社会システム株式会社,,3,link+pdf,/councils/kodomo-keikaku
+kodomo-keikaku#2,kodomo-keikaku,,2,,2023-12-26,令和5年12月26日,10:00-11:30,,オンライン会議,(有識者) / 吉永真理(昭和薬科大学薬学部臨床心理学研究室教授) / 牧瀬稔(関東学院大学法学部地域創生学科教授、関東学院大学地域創生実践研究所所長) / 園田三惠(滋賀県健康医療福祉部子ども・青少年局局長) / 副島由理(東京都豊島区子ども家庭部部長) / 板東美明(北海道剣淵町住民課課長) / (こども家庭庁) / 清原慶子(こども家庭庁長官官房総務課参与) / 佐藤勇輔(こども家庭庁長官官房総合政策担当参事官) / 新田義純(こども家庭庁長官官房総合政策担当付計画係参事官補佐) / 万木尋己(こども家庭庁長官官房総合政策担当付企画調整係) / 野村祐喜(こども家庭庁長官官房総合政策担当付計画係) / (事務局) / 社会システム株式会社,,3,link+pdf,/councils/kodomo-keikaku
+kodomo-keikaku#3,kodomo-keikaku,,3,,2024-02-14,令和6年2月14日,,,オンライン会議,(有識者) / 吉永真理(昭和薬科大学薬学部臨床心理学研究室教授) / 牧瀬稔(関東学院大学法学部地域創生学科教授 、 関東学院大学地域創生実践研究所所長) / 園田三惠(滋賀県健康医療福祉部子ども・青少年局局長) / 板東美明(北海道剣淵町住民課課長) / (こども家庭庁) / 清原慶子(こども家庭庁長官官房総務課参与) / 佐藤勇輔(こども家庭庁長官官房総合政策担当参事官) / 新田義純(こども家庭庁長官官房総合政策担当付計画係参事官補佐) / 万木尋己(こども家庭庁長官官房総合政策担当付企画調整係) / 野村祐喜(こども家庭庁長官官房総合政策担当付計画係) / (事務局) / 社会システム株式会社,,3,link+pdf,/councils/kodomo-keikaku
+kodomo-keikaku#4,kodomo-keikaku,,4,,2024-03-12,令和6年3月12日,,,,,,2,link,/councils/kodomo-keikaku
+cdr-seidonoarikata#1,cdr-seidonoarikata,,1,,2025-04-25,令和7年4月25日,,,,,,8,link,/councils/cdr-seidonoarikata
+cdr-seidonoarikata#2,cdr-seidonoarikata,,2,,2025-07-25,令和7年7月25日,10:00-12:00,,,,,11,link+pdf,/councils/cdr-seidonoarikata
+cdr-seidonoarikata#3,cdr-seidonoarikata,,3,,2026-01-28,令和8年1月28日,10:00-12:00,,,,,5,link+pdf,/councils/cdr-seidonoarikata
+cdr-seidonoarikata#4,cdr-seidonoarikata,,4,,2026-07-23,令和8年7月23日,15:00-17:00,,,,,7,link+pdf,/councils/cdr-seidonoarikata
+cdr-seidonoarikata#5,cdr-seidonoarikata,,5,,2026-11-27,令和8年11月27日,,,,,,8,link,/councils/cdr-seidonoarikata
+kodomokazoku-shien#1,kodomokazoku-shien,,1,,2023-04-20,令和5年4月20日,,,,,,7,link,/councils/kodomokazoku-shien
+syoshika-kpi-team#1,syoshika-kpi-team,,1,,2024-04-15,令和6年4月15日,,,,,,11,link,/councils/syoshika-kpi-team
+syoshika-kpi-team#2,syoshika-kpi-team,,2,,2024-05-10,令和6年5月10日,,,,,,6,link,/councils/syoshika-kpi-team
+syoshika-kpi-team#3,syoshika-kpi-team,,3,,2024-05-27,令和6年5月27日,,,,,,7,link,/councils/syoshika-kpi-team
+syoshika-kpi-team#4,syoshika-kpi-team,,4,,2024-10-18,令和6年10月18日,,,,,,10,link,/councils/syoshika-kpi-team
+support-personnel#1,support-personnel,,1,,2024-12-25,令和6年12月25日,,,,,,14,link,/councils/support-personnel
+support-personnel#1@2025-01-29,support-personnel,,1,,2025-01-29,令和7年1月29日,,,,,,18,link,/councils/support-personnel
+support-personnel#2@2025-03-10,support-personnel,,2,,2025-03-10,令和7年3月10日,,,,,,19,link,/councils/support-personnel
+support-personnel#2,support-personnel,,2,,2025-05-26,令和7年5月26日,,,,,,14,link,/councils/support-personnel
+support-personnel#3@2025-04-14,support-personnel,,3,,2025-04-14,令和7年4月14日,,,,,,15,link,/councils/support-personnel
+support-personnel#3,support-personnel,,3,,2025-07-08,令和7年7月8日,,,,,,9,link,/councils/support-personnel
+support-personnel#4@2025-06-16,support-personnel,,4,,2025-06-16,令和7年6月16日,,,,,,9,link,/councils/support-personnel
+support-personnel#4,support-personnel,,4,,2025-07-28,令和7年7月28日,,,,,,10,link,/councils/support-personnel
+sukoyaka21#23,sukoyaka21,,23,,2023-11-08,令和5年11月8日,13:30-15:30,(1)  こども家庭庁成育局母子保健課説明「こども家庭庁における健やか親子21の推進について」 / (2)「令和5年度健やか親子21内閣府特命担当大臣表彰」受賞者による発表 / ・健やか親子表彰  自治体部門優秀賞高知県立特別支援学校・高知県子育て支援課【SVS(スポットビジョンスクリーナー)を用いた特別支援学校の眼科健診】 / ・健やか親子表彰  団体部門優秀賞一般社団法人シュフレ協会【ママのがん検診応援プロジェクト】 / ・健やか親子表彰  最優秀賞岡山県産婦人科医会【「妊娠中からの気になる母子支援」連絡システム(岡山モデル)による虐待防止】 / (3)意見交換等,,,,11,link+pdf,/councils/sukoyaka21
+sukoyaka21#24,sukoyaka21,,24,,2024-11-19,令和6年11月19日,10:00-12:00,(1)こども家庭庁における健やか親子21の推進について / (2)令和6年度健やか親子21内閣府特命担当大臣表彰(健やか親子表彰)受賞者による発表【自治体部門  優秀賞】神奈川県横須賀市地域健康課「妊娠前から乳幼児期までの切れ目ない支援」【団体部門  優秀賞】公益財団法人チャイルド・ケモ・サポート基金「小児がんや重い病気をもつ子どもと家族のための滞在施設の運営と相談支援の実施」【企業部門  優秀賞】株式会社松本山雅「小児入院患者に付き添いをされる保護者の方々へのサポートプロジェクト」【最優秀賞】認定特定非営利活動法人キープ・ママ・スマイリング「「一食・一箱の支援」で、子どもの入院に付き添う家族に寄り添って 10 年~大規模な実態調査を実施し、付き添う家族の声を国へ届ける」 / (3)令和6年度健やか親子21推進本部の取組について / (4)その他,,,,15,link+pdf,/councils/sukoyaka21
+sukoyaka21#25,sukoyaka21,,25,,2025-11-28,令和7年11月28日,13:30-16:00,(1)こども家庭庁における健やか親子21の推進について / (2)令和7年度健やか親子21内閣府特命担当大臣表彰(健やか親子表彰)受賞者による発表【自治体部門  優秀賞】愛知県大府市「10 か月児食べる機能健診」【団体部門  優秀賞】豊田市男性保育師連盟「パパが子育てを楽しめば家族が笑顔になる!~乳幼児期のパパ達と歩んだ成長と次世代へ紡ぐ物語~」【企業部門  優秀賞】三起商行株式会社(ミキハウス)「ミキハウス  プレママ・プレパパセミナー」【最優秀賞】社会福祉法人麦の子会「共に生きる~社会福祉法人麦の子会の実践~」 / (3)令和7年度健やか親子21推進本部の取組について / (4)その他,,,,16,link+pdf,/councils/sukoyaka21
+sukoyaka21#26,sukoyaka21,,26,,2026-11-09,令和8年11月9日,,,,,,15,link,/councils/sukoyaka21
 internet-kaigi#1@2024-11-25,internet-kaigi,,1,,2024-11-25,令和6年11月25日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#1@2025-08-08,internet-kaigi,,1,,2025-08-08,令和7年8月8日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#1,internet-kaigi,,1,,2026-01-19,令和8年1月19日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#2@2025-02-12,internet-kaigi,,2,,2025-02-12,令和7年2月12日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#2@2025-09-29,internet-kaigi,,2,,2025-09-29,令和7年9月29日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#2,internet-kaigi,,2,,2026-02-27,令和8年2月27日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#3@2025-04-07,internet-kaigi,,3,,2025-04-07,令和7年4月7日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#3@2026-03-04,internet-kaigi,,3,,2026-03-04,令和8年3月4日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#3,internet-kaigi,,3,,2026-03-31,令和8年3月31日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#4@2025-04-09,internet-kaigi,,4,,2025-04-09,令和7年4月9日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#4,internet-kaigi,,4,,2026-04-30,令和8年4月30日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#4@2026-07-13,internet-kaigi,,4,,2026-07-13,令和8年7月13日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#5@2025-04-24,internet-kaigi,,5,,2025-04-24,令和7年4月24日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#5,internet-kaigi,,5,,2026-06-15,令和8年6月15日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#5@2026-09-16,internet-kaigi,,5,,2026-09-16,令和8年9月16日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#6@2025-05-23,internet-kaigi,,6,,2025-05-23,令和7年5月23日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#6,internet-kaigi,,6,,2026-06-26,令和8年6月26日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#7@2025-06-23,internet-kaigi,,7,,2025-06-23,令和7年6月23日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#7,internet-kaigi,,7,,2026-07-30,令和8年7月30日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#8@2025-08-07,internet-kaigi,,8,,2025-08-07,令和7年8月7日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#8,internet-kaigi,,8,,2026-08-31,令和8年8月31日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#9,internet-kaigi,,9,,2026-10-06,令和8年10月6日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#10,internet-kaigi,,10,,2026-10-28,令和8年10月28日,,,,,,1,link,/councils/internet-kaigi
+internet-kaigi#1@2025-08-08,internet-kaigi,,1,,2025-08-08,令和7年8月8日,,,こども家庭庁 庁議室,こども家庭庁成育局長、内閣官房内閣審議官(内閣官房副長官補付)、内閣府科学技術・イノベー / ション推進事務局審議官、警察庁生活安全局長、消費者庁次長、総務省大臣官房総括審議官(情 / 報通信担当)、法務省刑事局長、法務省人権擁護局長、文部科学省総合教育政策局長、厚生労働 / 省社会・援護局障害保健福祉部長、経済産業省商務情報政策局長 / オブザーバー / 外務省,,5,link+pdf,/councils/internet-kaigi
+internet-kaigi#1,internet-kaigi,,1,,2026-01-19,令和8年1月19日,,,,,,6,link,/councils/internet-kaigi
+internet-kaigi#2@2025-02-12,internet-kaigi,,2,,2025-02-12,令和7年2月12日,,,,,,12,link,/councils/internet-kaigi
+internet-kaigi#2@2025-09-29,internet-kaigi,,2,,2025-09-29,令和7年9月29日,,,こども家庭庁 成育局 第一会議室,こども家庭庁成育局長、内閣官房内閣参事官(内閣官房副長官補付)、内閣府科学技術・イノベー / ション推進事務局審議官、警察庁生活安全局長、消費者庁次長、総務省情報流通行政局審議官、 / 法務省刑事局長、法務省人権擁護局長、文部科学省総合教育政策局長、厚生労働省社会・援護 / 局障害保健福祉部依存症対策推進室長、経済産業省商務情報政策局情報経済課長 / オブザーバー / デジタル庁,,4,link+pdf,/councils/internet-kaigi
+internet-kaigi#2,internet-kaigi,,2,,2026-02-27,令和8年2月27日,,,,,,10,link,/councils/internet-kaigi
+internet-kaigi#3@2025-04-07,internet-kaigi,,3,,2025-04-07,令和7年4月7日,,,,,,7,link,/councils/internet-kaigi
+internet-kaigi#3@2026-03-04,internet-kaigi,,3,,2026-03-04,令和8年3月4日,,,こども家庭庁 共用大会議室,こども家庭庁成育局長、内閣官房内閣参事官(内閣官房副長官補付)、内閣府科学技術・イノベー / ション推進事務局審議官、警察庁生活安全局長、消費者庁次長、総務省情報流通行政局審議官、 / 法務省刑事局長、法務省人権擁護局長、文部科学省総合教育政策局長、厚生労働省社会・援護 / 局障害保健福祉部依存症対策推進室長、経済産業省商務情報政策局情報経済課長,,3,link+pdf,/councils/internet-kaigi
+internet-kaigi#3,internet-kaigi,,3,,2026-03-31,令和8年3月31日,,,,,,7,link,/councils/internet-kaigi
+internet-kaigi#4@2025-04-09,internet-kaigi,,4,,2025-04-09,令和7年4月9日,,,,,,6,link,/councils/internet-kaigi
+internet-kaigi#4,internet-kaigi,,4,,2026-04-30,令和8年4月30日,,,,,,9,link,/councils/internet-kaigi
+internet-kaigi#4@2026-07-13,internet-kaigi,,4,,2026-07-13,令和8年7月13日,,,こども家庭庁 庁議室,こども家庭庁成育局長、内閣官房内閣参事官(内閣官房副長官補付)、内閣府科学技術・イノベー / ション推進事務局審議官、警察庁生活安全局長、個人情報保護委員会事務局長、消費者庁次長、 / デジタル庁国民向けサービスグループ統括官、総務省情報流通行政局審議官、法務省刑事局公 / 安課長、法務省人権擁護局調査救済課長、文部科学省総合教育政策局審議官、厚生労働省社 / 会・援護局障害保健福祉部精神・障害保健課依存症対策推進室長、経済産業省商務情報政策局 / 情報経済課長,,10,link+pdf,/councils/internet-kaigi
+internet-kaigi#5@2025-04-24,internet-kaigi,,5,,2025-04-24,令和7年4月24日,,,,,,7,link,/councils/internet-kaigi
+internet-kaigi#5,internet-kaigi,,5,,2026-06-15,令和8年6月15日,,,,,,9,link,/councils/internet-kaigi
+internet-kaigi#5@2026-09-16,internet-kaigi,,5,,2026-09-16,令和8年9月16日,,,こども家庭庁 庁議室 (一部出席者は Web 参加),こども家庭庁成育局長、内閣官房内閣参事官(内閣官房副長官補付)、内閣府科学技術・イノベー / ション推進事務局審議官、警察庁生活安全局長、個人情報保護委員会事務局審議官、消費者庁 / 次長、こども家庭庁支援局長、デジタル庁国民向けサービスグループ統括官、総務省大臣官房総 / 括審議官(情報通信担当)、法務省刑事局公安課長、法務省人権擁護局人権擁護支援官、文部科 / 学省総合教育政策局長、厚生労働省社会・援護局障害保健福祉部長、経済産業省商務情報政策 / 局情報経済課長,,5,link+pdf,/councils/internet-kaigi
+internet-kaigi#6@2025-05-23,internet-kaigi,,6,,2025-05-23,令和7年5月23日,,,,,,10,link,/councils/internet-kaigi
+internet-kaigi#6,internet-kaigi,,6,,2026-06-26,令和8年6月26日,,,,,,7,link,/councils/internet-kaigi
+internet-kaigi#7@2025-06-23,internet-kaigi,,7,,2025-06-23,令和7年6月23日,,,,,,10,link,/councils/internet-kaigi
+internet-kaigi#7,internet-kaigi,,7,,2026-07-30,令和8年7月30日,,,,,,8,link,/councils/internet-kaigi
+internet-kaigi#8@2025-08-07,internet-kaigi,,8,,2025-08-07,令和7年8月7日,,,,,,5,link,/councils/internet-kaigi
+internet-kaigi#8,internet-kaigi,,8,,2026-08-31,令和8年8月31日,14:00-16:00,,,,,5,link+pdf,/councils/internet-kaigi
+internet-kaigi#9,internet-kaigi,,9,,2026-10-06,令和8年10月6日,09:00-11:00,,,,,5,link+pdf,/councils/internet-kaigi
+internet-kaigi#10,internet-kaigi,,10,,2026-10-28,令和8年10月28日,09:00-12:00,,,,,5,link+pdf,/councils/internet-kaigi
 internet-kaigi#11,internet-kaigi,,11,,2026-11-10,令和8年11月10日,,,,,,1,link,/councils/internet-kaigi
 internet-kaigi#12,internet-kaigi,,12,,2026-11-16,令和8年11月16日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#13,internet-kaigi,,13,,2026-11-24,令和8年11月24日,,,,,,1,link,/councils/internet-kaigi
+internet-kaigi#13,internet-kaigi,,13,,2026-11-24,令和8年11月24日,,,,,,6,link,/councils/internet-kaigi
 internet-kaigi#53,internet-kaigi,,53,,,,,,,,,1,link,/councils/internet-kaigi
 internet-kaigi#54,internet-kaigi,,54,,2022-12-15,令和4年12月15日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#55,internet-kaigi,,55,,2023-05-09,令和5年5月9日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#56,internet-kaigi,,56,,2023-07-25,令和5年7月25日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#57,internet-kaigi,,57,,2023-10-24,令和5年10月24日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#58,internet-kaigi,,58,,2023-12-19,令和5年12月19日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#59,internet-kaigi,,59,,2024-02-27,令和6年2月27日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#60,internet-kaigi,,60,,2024-05-07,令和6年5月7日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#61,internet-kaigi,,61,,2024-11-25,令和6年11月25日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#62,internet-kaigi,,62,,2024-12-10,令和6年12月10日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#63,internet-kaigi,,63,,2025-01-21,令和7年1月21日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#64,internet-kaigi,,64,,2025-05-20,令和7年5月20日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#65,internet-kaigi,,65,,2025-08-08,令和7年8月8日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#66,internet-kaigi,,66,,2025-12-16,令和7年12月16日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#67,internet-kaigi,,67,,2026-01-19,令和8年1月19日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#68,internet-kaigi,,68,,2026-06-04,令和8年6月4日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#69,internet-kaigi,,69,,2026-08-06,令和8年8月6日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#70,internet-kaigi,,70,,2026-08-20,令和8年8月20日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#71,internet-kaigi,,71,,2026-11-10,令和8年11月10日,,,,,,1,link,/councils/internet-kaigi
-internet-kaigi#72,internet-kaigi,,72,,2026-11-16,令和8年11月16日,,,,,,1,link,/councils/internet-kaigi
+internet-kaigi#55,internet-kaigi,,55,,2023-05-09,令和5年5月9日,,,,,,16,link,/councils/internet-kaigi
+internet-kaigi#56,internet-kaigi,,56,,2023-07-25,令和5年7月25日,,,,,,7,link,/councils/internet-kaigi
+internet-kaigi#57,internet-kaigi,,57,,2023-10-24,令和5年10月24日,,,,,,6,link,/councils/internet-kaigi
+internet-kaigi#58,internet-kaigi,,58,,2023-12-19,令和5年12月19日,,,,,,6,link,/councils/internet-kaigi
+internet-kaigi#59,internet-kaigi,,59,,2024-02-27,令和6年2月27日,,,,,,5,link,/councils/internet-kaigi
+internet-kaigi#60,internet-kaigi,,60,,2024-05-07,令和6年5月7日,,,,,,18,link,/councils/internet-kaigi
+internet-kaigi#61,internet-kaigi,,61,,2024-11-25,令和6年11月25日,,,,,,5,link,/councils/internet-kaigi
+internet-kaigi#62,internet-kaigi,,62,,2024-12-10,令和6年12月10日,,,,,,8,link,/councils/internet-kaigi
+internet-kaigi#63,internet-kaigi,,63,,2025-01-21,令和7年1月21日,,,,,,3,link,/councils/internet-kaigi
+internet-kaigi#64,internet-kaigi,,64,,2025-05-20,令和7年5月20日,,,,,,18,link,/councils/internet-kaigi
+internet-kaigi#65,internet-kaigi,,65,,2025-08-08,令和7年8月8日,,,,,,3,link,/councils/internet-kaigi
+internet-kaigi#66,internet-kaigi,,66,,2025-12-16,令和7年12月16日,,,,,,9,link,/councils/internet-kaigi
+internet-kaigi#67,internet-kaigi,,67,,2026-01-19,令和8年1月19日,,,,,,2,link,/councils/internet-kaigi
+internet-kaigi#68,internet-kaigi,,68,,2026-06-04,令和8年6月4日,,,,,,20,link,/councils/internet-kaigi
+internet-kaigi#69,internet-kaigi,,69,,2026-08-06,令和8年8月6日,,,,,,6,link,/councils/internet-kaigi
+internet-kaigi#70,internet-kaigi,,70,,2026-08-20,令和8年8月20日,,,,,,2,link,/councils/internet-kaigi
+internet-kaigi#71,internet-kaigi,,71,,2026-11-10,令和8年11月10日,,,,,,4,link,/councils/internet-kaigi
+internet-kaigi#72,internet-kaigi,,72,,2026-11-16,令和8年11月16日,,,,,,2,link,/councils/internet-kaigi
 nyuyojinokenkoushinsatou-kentokai#1,nyuyojinokenkoushinsatou-kentokai,,1,乳幼児の健康診査等のあり方に関する検討会 （第1回）,2026-08-19,令和8年8月19日,14:00-16:00,議題 / 乳幼児の健康診査等のあり方に関する検討会の進め方について / 乳幼児の健康診査等について,対面・オンライン開催,,https://www.cfa.go.jp/councils/nyuyojinokenkoushinsatou-kentokai/a7bdb140,5,link+page,/councils/nyuyojinokenkoushinsatou-kentokai /councils/nyuyojinokenkoushinsatou-kentokai/a7bdb140
 nyuyojinokenkoushinsatou-kentokai#2,nyuyojinokenkoushinsatou-kentokai,,2,乳幼児の健康診査等のあり方に関する検討会 （第2回）,2026-10-21,令和8年10月21日,13:00-15:00,議題 / 乳幼児健診に関するヒアリング / 乳幼児健診について,対面・オンライン開催,,https://www.cfa.go.jp/councils/nyuyojinokenkoushinsatou-kentokai/a7f09a0f,8,link+page,/councils/nyuyojinokenkoushinsatou-kentokai /councils/nyuyojinokenkoushinsatou-kentokai/a7f09a0f
 nyuyojinokenkoushinsatou-kentokai#3,nyuyojinokenkoushinsatou-kentokai,,3,乳幼児の健康診査等のあり方に関する検討会 （第3回）,2026-12-02,令和8年12月2日,13:00-15:00,議題（予定） / 乳幼児健診について（2）,対面・オンライン開催 【オンライン配信URL】 乳幼児の健康診査等のあり方に関する検討会 (第3回)の配信(YouTube),,https://www.cfa.go.jp/councils/nyuyojinokenkoushinsatou-kentokai/dc896db6,1,link+page,/councils/nyuyojinokenkoushinsatou-kentokai /councils/nyuyojinokenkoushinsatou-kentokai/dc896db6
-emergency-guideline#1,emergency-guideline,,1,,2025-09-01,令和7年9月1日,,,,,,1,link,/councils/emergency-guideline
-emergency-guideline#2,emergency-guideline,,2,,2025-11-28,令和7年11月28日,,,,,,1,link,/councils/emergency-guideline
-emergency-guideline#3,emergency-guideline,,3,,2026-01-30,令和8年1月30日,,,,,,1,link,/councils/emergency-guideline
-emergency-guideline#4,emergency-guideline,,4,,2026-02-24,令和8年2月24日,,,,,,1,link,/councils/emergency-guideline
-emergency-guideline#5,emergency-guideline,,5,,2026-03-17,令和8年3月17日,,,,,,1,link,/councils/emergency-guideline
-preconception-care#1,preconception-care,,1,,2024-11-28,令和6年11月28日,,,,,,1,link,/councils/preconception-care
-preconception-care#2,preconception-care,,2,,2024-12-25,令和6年12月25日,,,,,,1,link,/councils/preconception-care
-preconception-care#3,preconception-care,,3,,2025-02-19,令和7年2月19日,,,,,,1,link,/councils/preconception-care
-preconception-care#4,preconception-care,,4,,2025-04-02,令和7年4月2日,,,,,,1,link,/councils/preconception-care
-preconception-care#5,preconception-care,,5,,2025-05-21,令和7年5月21日,,,,,,1,link,/councils/preconception-care
-hoikushiyoseikatei#1,hoikushiyoseikatei,,1,,2026-01-23,令和8年1月23日,,,,,,1,link,/councils/hoikushiyoseikatei
-hoikushiyoseikatei#2,hoikushiyoseikatei,,2,,2026-03-02,令和8年3月2日,,,,,,1,link,/councils/hoikushiyoseikatei
-hoikushiyoseikatei#3,hoikushiyoseikatei,,3,,2026-05-27,令和8年5月27日,,,,,,1,link,/councils/hoikushiyoseikatei
-hoikushiyoseikatei#4,hoikushiyoseikatei,,4,,2026-06-23,令和8年6月23日,,,,,,1,link,/councils/hoikushiyoseikatei
-hoikushiyoseikatei#5,hoikushiyoseikatei,,5,,2026-09-10,令和8年9月10日,,,,,,1,link,/councils/hoikushiyoseikatei
-hoikushiyoseikatei#6,hoikushiyoseikatei,,6,,2026-11-05,令和8年11月5日,,,,,,1,link,/councils/hoikushiyoseikatei
+emergency-guideline#1,emergency-guideline,,1,,2025-09-01,令和7年9月1日,15:00-17:15,,令和7年9月1日(月)15:00~17:15 Microsoft Teams 会議,(委員) / 安部 芳絵 工学院大学 教育推進機構 教授 (座長) / 小野寺 観輪 岩手県釜石市 上中島児童館 職員 / 菅野 拓 大阪公立大学大学院 文学研究科 准教授 / 武山 広美 元仙台市こども若者局理事 / 多橋 和輝 金沢大学 大学院生 / 山田 心健 公益社団法人 セーブ・ザ・チルドレン・ジャパン 東京事務所 / 国内事業部 国内緊急支援・防災事業プログラムマネージャー / (こども家庭庁) / 中原 茂仁 長官官房参事官(総合政策担当) / 加藤 朱明子 専門官 長官官房参事官(総合政策担当)付こども意見係 / 齊藤 彩香 長官官房参事官(総合政策担当)付こども意見係,,8,link+pdf,/councils/emergency-guideline
+emergency-guideline#2,emergency-guideline,,2,,2025-11-28,令和7年11月28日,09:00-11:00,,令和7年 11 月 28 日(金)9:00~11:00 Microsoft Teams 会議,(委員) / 安部 芳絵 工学院大学 教育推進機構 教授 (座長) / 小野寺 観輪 岩手県釜石市 上中島児童館 職員 / 菅野 拓 大阪公立大学大学院 文学研究科 准教授 / 武山 広美 元仙台市こども・若者局理事 / 多橋 和輝 金沢大学 大学院生 / 山田 心健 公益社団法人 セーブ・ザ・チルドレン・ジャパン 東京事務所 / 国内事業部 国内緊急支援・防災事業プログラムマネージャー / (こども家庭庁) / 加藤 朱明子 専門官 長官官房参事官(総合政策担当)付こども意見係 / 齊藤 彩香 長官官房参事官(総合政策担当)付こども意見係,,10,link+pdf,/councils/emergency-guideline
+emergency-guideline#3,emergency-guideline,,3,,2026-01-30,令和8年1月30日,09:30-11:30,,令和8年1月 30 日(金)9:30~11:30 Microsoft Teams 会議,(委員) / 安部 芳絵 工学院大学 教育推進機構 教授 (座長) / 小野寺 観輪 岩手県釜石市 上中島児童館 職員 / 菅野 拓 大阪公立大学大学院 文学研究科 准教授 / 武山 広美 元仙台市こども・若者局理事 / 多橋 和輝 金沢大学 大学院生 / 山田 心健 公益社団法人 セーブ・ザ・チルドレン・ジャパン 東京事務所 / 国内事業部 国内緊急支援・防災事業プログラムマネージャー / (こども家庭庁) / 中原 茂仁 長官官房参事官(総合政策担当) / 加藤 朱明子 専門官 長官官房参事官(総合政策担当)付こども意見係 / 齊藤 彩香 長官官房参事官(総合政策担当)付こども意見係 / (文部科学省) / 松田 淳 参事官補佐 大臣官房文教施設企画・防災部参事官(施設防災担当)付 / 中森 慶 係長 大臣官房文教施設企画・防災部参事官(施設防災担当)付 / 緊急支援企画係 / 小西 哉汰 大臣官房文教施設企画・防災部参事官(施設防災担当)付,,7,link+pdf,/councils/emergency-guideline
+emergency-guideline#4,emergency-guideline,,4,,2026-02-24,令和8年2月24日,09:30-11:30,,令和8年 2 月 24 日(火)9:30~11:30 Microsoft Teams 会議,(委員) / 安部 芳絵 工学院大学 教育推進機構 教授 (座長) / 小野寺 観輪 岩手県釜石市 上中島児童館 職員 / 菅野 拓 大阪公立大学大学院 文学研究科 准教授 / 武山 広美 元仙台市こども若者局理事 / 多橋 和輝 金沢大学 大学院生 / 山田 心健 公益社団法人 セーブ・ザ・チルドレン・ジャパン 東京事務所 / 国内事業部 国内緊急支援・防災事業プログラムマネージャー / (こども家庭庁) / 中原 茂仁 長官官房参事官(総合政策担当) / 加藤 朱明子 専門官 長官官房参事官(総合政策担当)付こども意見係 / 齊藤 彩香 長官官房参事官(総合政策担当)付こども意見係,,8,link+pdf,/councils/emergency-guideline
+emergency-guideline#5,emergency-guideline,,5,,2026-03-17,令和8年3月17日,11:00-12:00,,令和8年 3 月 17 日(火)11:00~12:00 Microsoft Teams 会議,(委員) / 安部 芳絵 工学院大学 教育推進機構 教授 (座長) / 小野寺 観輪 岩手県釜石市 上中島児童館 職員 / 菅野 拓 大阪公立大学大学院 文学研究科 准教授 / 武山 広美 元仙台市こども若者局理事 / 多橋 和輝 金沢大学 大学院生 / 山田 心健 公益社団法人 セーブ・ザ・チルドレン・ジャパン 東京事務所 / 国内事業部 国内緊急支援・防災事業プログラムマネージャー / (こども家庭庁) / 中原 茂仁 長官官房参事官(総合政策担当) / 加藤 朱明子 専門官 長官官房参事官(総合政策担当)付こども意見係 / 齊藤 彩香 長官官房参事官(総合政策担当)付こども意見係 / (文部科学省) / 松田 淳 参事官補佐 大臣官房文教施設企画・防災部参事官(施設防災担当)付 / 中森 慶 係長 大臣官房文教施設企画・防災部参事官(施設防災担当)付,,7,link+pdf,/councils/emergency-guideline
+preconception-care#1,preconception-care,,1,,2024-11-28,令和6年11月28日,,,,,,10,link,/councils/preconception-care
+preconception-care#2,preconception-care,,2,,2024-12-25,令和6年12月25日,,,,,,14,link,/councils/preconception-care
+preconception-care#3,preconception-care,,3,,2025-02-19,令和7年2月19日,,,,,,12,link,/councils/preconception-care
+preconception-care#4,preconception-care,,4,,2025-04-02,令和7年4月2日,,,,,,6,link,/councils/preconception-care
+preconception-care#5,preconception-care,,5,,2025-05-21,令和7年5月21日,,,,,,10,link,/councils/preconception-care
+hoikushiyoseikatei#1,hoikushiyoseikatei,,1,,2026-01-23,令和8年1月23日,,,,,,17,link,/councils/hoikushiyoseikatei
+hoikushiyoseikatei#2,hoikushiyoseikatei,,2,,2026-03-02,令和8年3月2日,,,,,,3,link,/councils/hoikushiyoseikatei
+hoikushiyoseikatei#3,hoikushiyoseikatei,,3,,2026-05-27,令和8年5月27日,,,,,,14,link,/councils/hoikushiyoseikatei
+hoikushiyoseikatei#4,hoikushiyoseikatei,,4,,2026-06-23,令和8年6月23日,,,,,,17,link,/councils/hoikushiyoseikatei
+hoikushiyoseikatei#5,hoikushiyoseikatei,,5,,2026-09-10,令和8年9月10日,,,,,,15,link,/councils/hoikushiyoseikatei
+hoikushiyoseikatei#6,hoikushiyoseikatei,,6,,2026-11-05,令和8年11月5日,,,,,,13,link,/councils/hoikushiyoseikatei
 meetings/standardizing#1,meetings/standardizing,,1,第一回検討会（令和7年7月28日）,2025-07-28,令和7年7月28日,,,,,,6,heading,/councils/meetings/standardizing
 meetings/standardizing#2,meetings/standardizing,,2,第二回検討会（令和7年9月25日）,2025-09-25,令和7年9月25日,,,,,,8,heading,/councils/meetings/standardizing
 meetings/standardizing#3,meetings/standardizing,,3,第三回検討会（令和7年12月10日）,2025-12-10,令和7年12月10日,,,,,,8,heading,/councils/meetings/standardizing
-hoikujinzai#1,hoikujinzai,,1,,2024-03-12,令和6年3月12日,,,,,,1,link,/councils/hoikujinzai
-hoikujinzai#2,hoikujinzai,,2,,2024-11-29,令和6年11月29日,,,,,,1,link,/councils/hoikujinzai
-hoikujinzai#3,hoikujinzai,,3,,2025-10-29,令和7年10月29日,,,,,,1,link,/councils/hoikujinzai
-houkagojidoutaisaku#1,houkagojidoutaisaku,,1,,2023-07-28,令和5年7月28日,,,,,,1,link,/councils/houkagojidoutaisaku
-houkagojidoutaisaku#2,houkagojidoutaisaku,,2,,2023-12-25,令和5年12月25日,,,,,,1,link,/councils/houkagojidoutaisaku
-wakaisedaishiten#1,wakaisedaishiten,,1,,2025-07-28,令和7年7月28日,,,,,,1,link,/councils/wakaisedaishiten
-wakaisedaishiten#2,wakaisedaishiten,,2,,2025-08-29,令和7年8月29日,,,,,,1,link,/councils/wakaisedaishiten
-wakaisedaishiten#3,wakaisedaishiten,,3,,2025-12-19,令和7年12月19日,,,,,,1,link,/councils/wakaisedaishiten
-wakaisedaishiten#4,wakaisedaishiten,,4,,2026-02-03,令和8年2月3日,,,,,,1,link,/councils/wakaisedaishiten
-wakaisedaishiten#5,wakaisedaishiten,,5,,2026-03-10,令和8年3月10日,,,,,,1,link,/councils/wakaisedaishiten
-lifedesign-wg#1,lifedesign-wg,,1,,2024-07-19,令和6年7月19日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#2,lifedesign-wg,,2,,2024-08-01,令和6年8月1日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#3,lifedesign-wg,,3,,2024-08-08,令和6年8月8日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#4,lifedesign-wg,,4,,2024-08-26,令和6年8月26日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#5,lifedesign-wg,,5,,2024-11-18,令和6年11月18日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#6,lifedesign-wg,,6,,2024-12-16,令和6年12月16日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#7,lifedesign-wg,,7,,2025-02-17,令和7年2月17日,,,,,,1,link,/councils/lifedesign-wg
-lifedesign-wg#8,lifedesign-wg,,8,,2025-04-21,令和7年4月21日,,,,,,1,link,/councils/lifedesign-wg
-youthgroups-research#1,youthgroups-research,,1,,2024-07-30,令和6年7月30日,,,,,,1,link,/councils/youthgroups-research
-youthgroups-research#2,youthgroups-research,,2,,2024-11-07,令和6年11月7日,,,,,,1,link,/councils/youthgroups-research
-youthgroups-research#3,youthgroups-research,,3,,2025-02-07,令和7年2月7日,,,,,,1,link,/councils/youthgroups-research
-youthpolicy-expertmeeting#1,youthpolicy-expertmeeting,,1,,2026-10-06,令和8年10月6日,,,,,,1,link,/councils/youthpolicy-expertmeeting
-youthpolicy-expertmeeting#2,youthpolicy-expertmeeting,,2,,2026-10-28,令和8年10月28日,,,,,,1,link,/councils/youthpolicy-expertmeeting
-youth-policy-council#1,youth-policy-council,,1,,2026-09-11,令和8年9月11日,,,,,,1,link,/councils/youth-policy-council
-youth-policy-council#2,youth-policy-council,,2,,2026-10-13,令和8年10月13日,,,,,,1,link,/councils/youth-policy-council
-shingikai/kodomo_kosodate#1,shingikai/kodomo_kosodate,,1,,2023-08-01,令和5年8月1日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#2,shingikai/kodomo_kosodate,,2,,2023-10-12,令和5年10月12日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#3,shingikai/kodomo_kosodate,,3,,2023-11-21,令和5年11月21日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#4,shingikai/kodomo_kosodate,,4,,2023-12-06,令和5年12月6日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#5,shingikai/kodomo_kosodate,,5,,2024-02-19,令和6年2月19日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#6,shingikai/kodomo_kosodate,,6,,2024-08-02,令和6年8月2日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#7,shingikai/kodomo_kosodate,,7,,2024-10-17,令和6年10月17日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#8,shingikai/kodomo_kosodate,,8,,2024-12-19,令和6年12月19日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#9,shingikai/kodomo_kosodate,,9,,2025-03-04,令和7年3月4日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#10,shingikai/kodomo_kosodate,,10,,2025-04-18,令和7年4月18日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#11,shingikai/kodomo_kosodate,,11,,2025-08-04,令和7年8月4日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#12,shingikai/kodomo_kosodate,,12,,2025-10-20,令和7年10月20日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#13,shingikai/kodomo_kosodate,,13,,2025-12-23,令和7年12月23日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#14,shingikai/kodomo_kosodate,,14,,2026-03-18,令和8年3月18日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#15,shingikai/kodomo_kosodate,,15,,2026-08-19,令和8年8月19日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate#16,shingikai/kodomo_kosodate,,16,,2026-10-26,令和8年10月26日,,,,,,1,link,/councils/shingikai/kodomo_kosodate
-shingikai/kodomo_kosodate/kikaku#1,shingikai/kodomo_kosodate/kikaku,,1,,2023-10-31,令和5年10月31日,,,,,,1,link,/councils/shingikai/kodomo_kosodate/kikaku
-shingikai/kodomo_kosodate/kikaku#2,shingikai/kodomo_kosodate/kikaku,,2,,2023-11-07,令和5年11月7日,,,,,,1,link,/councils/shingikai/kodomo_kosodate/kikaku
-shingikai/kodomo_kosodate/kanri#1,shingikai/kodomo_kosodate/kanri,,1,,2025-10-28,令和7年10月28日,,,,,,1,link,/councils/shingikai/kodomo_kosodate/kanri
-shingikai/kodomo_kosodate/kanri#2,shingikai/kodomo_kosodate/kanri,,2,,2025-12-26,令和7年12月26日,,,,,,1,link,/councils/shingikai/kodomo_kosodate/kanri
+hoikujinzai#1,hoikujinzai,,1,,2024-03-12,令和6年3月12日,,,,,,7,link,/councils/hoikujinzai
+hoikujinzai#2,hoikujinzai,,2,,2024-11-29,令和6年11月29日,,,,,,8,link,/councils/hoikujinzai
+hoikujinzai#3,hoikujinzai,,3,,2025-10-29,令和7年10月29日,,,,,,9,link,/councils/hoikujinzai
+houkagojidoutaisaku#1,houkagojidoutaisaku,,1,,2023-07-28,令和5年7月28日,,,,,,5,link,/councils/houkagojidoutaisaku
+houkagojidoutaisaku#2,houkagojidoutaisaku,,2,,2023-12-25,令和5年12月25日,,,,,,7,link,/councils/houkagojidoutaisaku
+wakaisedaishiten#1,wakaisedaishiten,,1,,2025-07-28,令和7年7月28日,,,,,,4,link,/councils/wakaisedaishiten
+wakaisedaishiten#2,wakaisedaishiten,,2,,2025-08-29,令和7年8月29日,,,,,,6,link,/councils/wakaisedaishiten
+wakaisedaishiten#3,wakaisedaishiten,,3,,2025-12-19,令和7年12月19日,,,,,,6,link,/councils/wakaisedaishiten
+wakaisedaishiten#4,wakaisedaishiten,,4,,2026-02-03,令和8年2月3日,,,,,,5,link,/councils/wakaisedaishiten
+wakaisedaishiten#5,wakaisedaishiten,,5,,2026-03-10,令和8年3月10日,,,,,,5,link,/councils/wakaisedaishiten
+lifedesign-wg#1,lifedesign-wg,,1,,2024-07-19,令和6年7月19日,,,,,,6,link,/councils/lifedesign-wg
+lifedesign-wg#2,lifedesign-wg,,2,,2024-08-01,令和6年8月1日,,,,,,7,link,/councils/lifedesign-wg
+lifedesign-wg#3,lifedesign-wg,,3,,2024-08-08,令和6年8月8日,,,,,,12,link,/councils/lifedesign-wg
+lifedesign-wg#4,lifedesign-wg,,4,,2024-08-26,令和6年8月26日,,,,,,10,link,/councils/lifedesign-wg
+lifedesign-wg#5,lifedesign-wg,,5,,2024-11-18,令和6年11月18日,,,,,,8,link,/councils/lifedesign-wg
+lifedesign-wg#6,lifedesign-wg,,6,,2024-12-16,令和6年12月16日,,,,,,7,link,/councils/lifedesign-wg
+lifedesign-wg#7,lifedesign-wg,,7,,2025-02-17,令和7年2月17日,,,,,,7,link,/councils/lifedesign-wg
+lifedesign-wg#8,lifedesign-wg,,8,,2025-04-21,令和7年4月21日,,,,,,10,link,/councils/lifedesign-wg
+youthgroups-research#1,youthgroups-research,,1,,2024-07-30,令和6年7月30日,,,2024 年 7 月 30 日(火) 15:00~17:00 Microsoft teams 会議,(委員) / 郡司 日奈乃 一般社団法人 Spice 代表理事 / 四ヶ所 壮汰 全国ユースカウンシル連盟 / 永井 陽介 多摩市企画政策部 企画課 企画調整担当主査 / 萩原 建次郎 駒澤大学 総合教育研究部 教授 / 両角 達平 日本福祉大学 社会福祉学部 講師 / (こども家庭庁) / 中原 茂仁 長官官房 参事官(総合政策担当) / 加藤 朱明子 長官官房 参事官(総合政策担当)付 こども意見係 専門官 / 今津 研 / 長官官房 参事官(総合政策担当)付 こども意見係 主査,,4,link+pdf,/councils/youthgroups-research
+youthgroups-research#2,youthgroups-research,,2,,2024-11-07,令和6年11月7日,,,2024 年 11 月 7 日(火) 15:00~17:00 NTT データ経営研究所会議室・Microsoft teams 会議,(委員/五十音順) / 郡司 日奈乃 一般社団法人 Spice 代表理事 / 四ヶ所 壮汰 全国ユースカウンシル連盟 / 永井 陽介 多摩市企画政策部 企画課 企画調整担当主査 / 萩原 建次郎 駒澤大学 総合教育研究部 教職課程部門 教授 / 両角 達平 日本福祉大学 社会福祉学部 講師 / (こども家庭庁) / 加藤 朱明子 長官官房 参事官(総合政策担当)付 こども意見係 専門官 / 今津 研 / 長官官房 参事官(総合政策担当)付 こども意見係 主査,,4,link+pdf,/councils/youthgroups-research
+youthgroups-research#3,youthgroups-research,,3,,2025-02-07,令和7年2月7日,15:00-17:00,,2025 年 2 月 7 日(金) 15:00~17:00 Microsoft teams 会議,(委員/五十音順) / 【会議出席】 / 郡司 日奈乃 一般社団法人 Spice 代表理事 / 萩原 建次郎 駒澤大学 総合教育研究部 教職課程部門 教授 / 両角 達平 日本福祉大学 社会福祉学部 講師 / 【書面による意見提出】 / 四ヶ所 壮汰 全国ユースカウンシル連盟 / 永井 陽介 多摩市企画政策部 企画課 企画調整担当主査 / (こども家庭庁) / 加藤 朱明子 長官官房 参事官(総合政策担当)付 こども意見係 専門官 / 今津 研 / 長官官房 参事官(総合政策担当)付 こども意見係 主査,,4,link+pdf,/councils/youthgroups-research
+youthpolicy-expertmeeting#1,youthpolicy-expertmeeting,,1,,2026-10-06,令和8年10月6日,,,,,,8,link,/councils/youthpolicy-expertmeeting
+youthpolicy-expertmeeting#2,youthpolicy-expertmeeting,,2,,2026-10-28,令和8年10月28日,,,,,,8,link,/councils/youthpolicy-expertmeeting
+youth-policy-council#1,youth-policy-council,,1,,2026-09-11,令和8年9月11日,,,,,,3,link,/councils/youth-policy-council
+youth-policy-council#2,youth-policy-council,,2,,2026-10-13,令和8年10月13日,,,,,,3,link,/councils/youth-policy-council
+shingikai/kodomo_kosodate#1,shingikai/kodomo_kosodate,,1,,2023-08-01,令和5年8月1日,14:00-15:57,,,,,11,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#2,shingikai/kodomo_kosodate,,2,,2023-10-12,令和5年10月12日,13:00-14:58,,,,,17,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#3,shingikai/kodomo_kosodate,,3,,2023-11-21,令和5年11月21日,12:59-15:02,,,,,16,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#4,shingikai/kodomo_kosodate,,4,,2023-12-06,令和5年12月6日,15:00-17:03,,,,,9,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#5,shingikai/kodomo_kosodate,,5,,2024-02-19,令和6年2月19日,15:00-16:56,,,,,20,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#6,shingikai/kodomo_kosodate,,6,,2024-08-02,令和6年8月2日,16:00-17:58,,,,,21,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#7,shingikai/kodomo_kosodate,,7,,2024-10-17,令和6年10月17日,16:00-17:50,,,,,16,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#8,shingikai/kodomo_kosodate,,8,,2024-12-19,令和6年12月19日,15:00-16:53,,,,,19,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#9,shingikai/kodomo_kosodate,,9,,2025-03-04,令和7年3月4日,17:00-19:13,,,,,27,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#10,shingikai/kodomo_kosodate,,10,,2025-04-18,令和7年4月18日,,,,,,5,link,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#11,shingikai/kodomo_kosodate,,11,,2025-08-04,令和7年8月4日,10:00-12:02,,,鈴木 みゆき 分科会長 / 松田 茂樹 分科会長代理 / 秋本 可愛 委員 / 石田 明義 委員 / 岡﨑 奈穂子 委員 / 奥山 千鶴子 委員 / 加藤 篤彦 委員 / 佐保 昌一 委員 / 盛山 利紀 委員 / 髙谷 俊英 委員 / 高橋 慶子 委員 / 手島 恒明 委員 / 寺尾 康子 委員 / 戸巻 聖 委員 / 長田 京子 委員 / 新居 日南恵 委員 / 野澤 祥子 委員 / 藤迫 稔 委員 / 松村 淳子 委員 / 三日月 大造 委員 / 水野 かおり 委員 / 宮田 裕司 委員 / 渡邊 寛子 委員 / 渡辺 弘司 委員 / 事務局出席者: / こども家庭庁成育局長 中村 英正 / こども家庭庁成育局総務課長 西川 由香 / こども家庭庁成育局保育政策課長 栗原 正明 / こども家庭庁成育局認可外保育施設担当室長 大部 沙絵子 / 1,,22,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#12,shingikai/kodomo_kosodate,,12,,2025-10-20,令和7年10月20日,10:00-11:40,,,鈴木 みゆき 分科会長 / 松田 茂樹 分科会長代理 / 赤坂 緑 委員 / 石田 明義 委員 / 岡﨑 奈穂子 委員 / 奥山 千鶴子 委員 / 加藤 篤彦 委員 / 北野 久美 委員 / 熊谷 俊人 委員 / 新保 雄希 委員 / 盛山 利紀 委員 / 髙谷 俊英 委員 / 高橋 慶子 委員 / 手島 恒明 委員 / 寺尾 康子 委員 / 徳倉 康之 委員 / 戸巻 聖 委員 / 長田 京子 委員 / 新居 日南恵 委員 / 松村 淳子 委員 / 水野 かおり 委員 / 宮田 裕司 委員 / 山内 清行 委員 / 渡辺 弘司 委員 / 事務局出席者: / こども家庭庁成育局長 中村 英正 / こども家庭庁長官官房審議官(成育局担当) 竹林 悟史 / こども家庭庁成育局総務課長 西川 由香 / こども家庭庁成育局保育政策課長 栗原 正明 / こども家庭庁成育局認可外保育施設担当室長 大部 沙絵子,,13,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#13,shingikai/kodomo_kosodate,,13,,2025-12-23,令和7年12月23日,,,,,,12,link,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#14,shingikai/kodomo_kosodate,,14,,2026-03-18,令和8年3月18日,14:00-16:02,,,鈴木 みゆき 分科会長 / 松田 茂樹 分科会長代理 / 秋本 可愛 委員 / 石田 明義 委員 / 岡﨑 奈穂子 委員 / 奥山 千鶴子 委員 / 加藤 篤彦 委員 / 熊谷 俊人 委員 / 黒川 寿美江 委員 / 新保 雄希 委員 / 杉野 茂人 委員 / 盛山 利紀 委員 / 髙谷 俊英 委員 / 高橋 慶子 委員 / 手島 恒明 委員 / 寺尾 康子 委員 / 當眞 淳 委員 / 徳倉 康之 委員 / 戸巻 聖 委員 / 永井 幸子 委員 / 長田 京子 委員 / 新居 日南恵 委員 / 野澤 祥子 委員 / 松﨑 剛 委員 / 水野 かおり 委員 / 宮田 裕司 委員 / 渡辺 弘司 委員 / 渡邊 寛子 委員 / 1,,25,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#15,shingikai/kodomo_kosodate,,15,,2026-08-19,令和8年8月19日,16:00-17:58,,,鈴木 みゆき 分科会長 / 松田 茂樹 分科会長代理 / 秋本 可愛 委員 / 石田 明義 委員 / 太田 桂 委員 / 岡﨑 奈穂子 委員 / 奥山 千鶴子 委員 / 北野 久美 委員 / 熊谷 俊人 委員 / 倉石 哲也 委員 / 新保 雄希 委員 / 盛山 利紀 委員 / 髙谷 俊英 委員 / 手島 恒明 委員 / 寺尾 康子 委員 / 當眞 淳 委員 / 徳倉 康之 委員 / 戸巻 聖 委員 / 永井 幸子 委員 / 長田 京子 委員 / 新居 日南恵 委員 / 野澤 祥子 委員 / 橋本 浩一 委員 / 松﨑 剛 委員 / 松村 淳子 委員 / 宮田 裕司 委員 / 森山 未来 委員 / 山内 清行 委員 / 渡辺 弘司 委員 / 渡部 博昭 委員,,24,link+pdf,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate#16,shingikai/kodomo_kosodate,,16,,2026-10-26,令和8年10月26日,,,,,,12,link,/councils/shingikai/kodomo_kosodate
+shingikai/kodomo_kosodate/kikaku#1,shingikai/kodomo_kosodate/kikaku,,1,,2023-10-31,令和5年10月31日,,,,,,5,link,/councils/shingikai/kodomo_kosodate/kikaku
+shingikai/kodomo_kosodate/kikaku#2,shingikai/kodomo_kosodate/kikaku,,2,,2023-11-07,令和5年11月7日,,,,,,7,link,/councils/shingikai/kodomo_kosodate/kikaku
+shingikai/kodomo_kosodate/kanri#1,shingikai/kodomo_kosodate/kanri,,1,,2025-10-28,令和7年10月28日,,,,,,5,link,/councils/shingikai/kodomo_kosodate/kanri
+shingikai/kodomo_kosodate/kanri#2,shingikai/kodomo_kosodate/kanri,,2,,2025-12-26,令和7年12月26日,,,,,,6,link,/councils/shingikai/kodomo_kosodate/kanri
 shingikai/jidou_fukushi#1,shingikai/jidou_fukushi,,1,,2023-05-30,令和5年5月30日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#2,shingikai/jidou_fukushi,,2,,2023-09-11,令和5年9月11日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#3,shingikai/jidou_fukushi,,3,,2024-03-05,令和6年3月5日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#4,shingikai/jidou_fukushi,,4,,2024-08-30,令和6年8月30日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#5,shingikai/jidou_fukushi,,5,,2025-02-28,令和7年2月28日,,,,,,1,link,/councils/shingikai/jidou_fukushi
+shingikai/jidou_fukushi#2,shingikai/jidou_fukushi,,2,,2023-09-11,令和5年9月11日,,,,,,4,link,/councils/shingikai/jidou_fukushi
+shingikai/jidou_fukushi#3,shingikai/jidou_fukushi,,3,,2024-03-05,令和6年3月5日,,,,,,4,link,/councils/shingikai/jidou_fukushi
+shingikai/jidou_fukushi#4,shingikai/jidou_fukushi,,4,,2024-08-30,令和6年8月30日,,,,,,4,link,/councils/shingikai/jidou_fukushi
+shingikai/jidou_fukushi#5,shingikai/jidou_fukushi,,5,,2025-02-28,令和7年2月28日,,,,,,4,link,/councils/shingikai/jidou_fukushi
 shingikai/jidou_fukushi#6,shingikai/jidou_fukushi,,6,,2025-04-25,令和7年4月25日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#7,shingikai/jidou_fukushi,,7,,2025-08-28,令和7年8月28日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#8,shingikai/jidou_fukushi,,8,,2026-03-03,令和8年3月3日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/jidou_fukushi#9,shingikai/jidou_fukushi,,9,,2026-09-09,令和8年9月9日,,,,,,1,link,/councils/shingikai/jidou_fukushi
-shingikai/seiiku_iryou#1,shingikai/seiiku_iryou,,1,,2023-09-20,令和5年9月20日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#2,shingikai/seiiku_iryou,,2,,2023-11-22,令和5年11月22日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#3,shingikai/seiiku_iryou,,3,,2024-03-14,令和6年3月14日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#4,shingikai/seiiku_iryou,,4,,2024-11-20,令和6年11月20日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#5,shingikai/seiiku_iryou,,5,,2025-03-12,令和7年3月12日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#6,shingikai/seiiku_iryou,,6,,2025-11-12,令和7年11月12日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#7,shingikai/seiiku_iryou,,7,,2025-12-25,令和7年12月25日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#8,shingikai/seiiku_iryou,,8,,2026-03-06,令和8年3月6日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/seiiku_iryou#9,shingikai/seiiku_iryou,,9,,2026-07-09,令和8年7月9日,,,,,,1,link,/councils/shingikai/seiiku_iryou
-shingikai/kihon_seisaku#1,shingikai/kihon_seisaku,,1,,2023-05-22,令和5年5月22日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#2,shingikai/kihon_seisaku,,2,,2023-06-20,令和5年6月20日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#3,shingikai/kihon_seisaku,,3,,2023-06-30,令和5年6月30日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#4,shingikai/kihon_seisaku,,4,,2023-07-13,令和5年7月13日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#5,shingikai/kihon_seisaku,,5,,2023-07-25,令和5年7月25日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#6,shingikai/kihon_seisaku,,6,,2023-08-10,令和5年8月10日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#7,shingikai/kihon_seisaku,,7,,2023-08-31,令和5年8月31日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#8,shingikai/kihon_seisaku,,8,,2023-09-04,令和5年9月4日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#9,shingikai/kihon_seisaku,,9,,2023-09-15,令和5年9月15日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#10,shingikai/kihon_seisaku,,10,,2023-11-17,令和5年11月17日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#11,shingikai/kihon_seisaku,,11,,2024-03-25,令和6年3月25日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#12,shingikai/kihon_seisaku,,12,,2024-05-09,令和6年5月9日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#13,shingikai/kihon_seisaku,,13,,2024-08-22,令和6年8月22日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#14,shingikai/kihon_seisaku,,14,,2024-10-30,令和6年10月30日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#15,shingikai/kihon_seisaku,,15,,2024-12-20,令和6年12月20日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#16,shingikai/kihon_seisaku,,16,,2025-03-27,令和7年3月27日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#17,shingikai/kihon_seisaku,,17,,2025-09-22,令和7年9月22日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#18,shingikai/kihon_seisaku,,18,,2025-11-27,令和7年11月27日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#19,shingikai/kihon_seisaku,,19,,2026-02-20,令和8年2月20日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#20,shingikai/kihon_seisaku,,20,,2026-03-30,令和8年3月30日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#21,shingikai/kihon_seisaku,,21,,2026-05-08,令和8年5月8日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/kihon_seisaku#22,shingikai/kihon_seisaku,,22,,2026-11-16,令和8年11月16日,,,,,,1,link,/councils/shingikai/kihon_seisaku
-shingikai/iken_senmon#1,shingikai/iken_senmon,,1,,2023-07-10,令和5年7月10日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#2,shingikai/iken_senmon,,2,,2023-09-12,令和5年9月12日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#3,shingikai/iken_senmon,,3,,2023-10-26,令和5年10月26日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#4,shingikai/iken_senmon,,4,,2024-01-16,令和6年1月16日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#5,shingikai/iken_senmon,,5,,2024-02-20,令和6年2月20日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#6,shingikai/iken_senmon,,6,,2024-03-12,令和6年3月12日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#7,shingikai/iken_senmon,,7,,2024-06-27,令和6年6月27日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#8,shingikai/iken_senmon,,8,,2024-08-19,令和6年8月19日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#9,shingikai/iken_senmon,,9,,2024-11-20,令和6年11月20日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#10,shingikai/iken_senmon,,10,,2025-02-12,令和7年2月12日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#11,shingikai/iken_senmon,,11,,2025-10-29,令和7年10月29日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#12,shingikai/iken_senmon,,12,,2026-01-29,令和8年1月29日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#13,shingikai/iken_senmon,,13,,2026-03-27,令和8年3月27日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#14,shingikai/iken_senmon,,14,,2026-05-31,令和8年5月31日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#15,shingikai/iken_senmon,,15,,2026-07-29,令和8年7月29日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#16,shingikai/iken_senmon,,16,,2026-09-04,令和8年9月4日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/iken_senmon#17,shingikai/iken_senmon,,17,,2026-11-10,令和8年11月10日,,,,,,1,link,/councils/shingikai/iken_senmon
-shingikai/kodomo_sodachi#1,shingikai/kodomo_sodachi,,1,,2023-05-16,令和5年5月16日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#2,shingikai/kodomo_sodachi,,2,,2023-06-14,令和5年6月14日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#3,shingikai/kodomo_sodachi,,3,,2023-06-26,令和5年6月26日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#4,shingikai/kodomo_sodachi,,4,,2023-07-10,令和5年7月10日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#5,shingikai/kodomo_sodachi,,5,,2023-07-28,令和5年7月28日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#6,shingikai/kodomo_sodachi,,6,,2023-08-29,令和5年8月29日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#7,shingikai/kodomo_sodachi,,7,,2023-09-14,令和5年9月14日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#8,shingikai/kodomo_sodachi,,8,,2023-10-30,令和5年10月30日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#9,shingikai/kodomo_sodachi,,9,,2023-11-13,令和5年11月13日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#10,shingikai/kodomo_sodachi,,10,,2024-02-26,令和6年2月26日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#11,shingikai/kodomo_sodachi,,11,,2024-07-22,令和6年7月22日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#12,shingikai/kodomo_sodachi,,12,,2025-02-18,令和7年2月18日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#13,shingikai/kodomo_sodachi,,13,,2025-06-02,令和7年6月2日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#14,shingikai/kodomo_sodachi,,14,,2026-02-20,令和8年2月20日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#15,shingikai/kodomo_sodachi,,15,,2026-08-31,令和8年8月31日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/kodomo_sodachi#16,shingikai/kodomo_sodachi,,16,,2026-10-23,令和8年10月23日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
+shingikai/jidou_fukushi#7,shingikai/jidou_fukushi,,7,,2025-08-28,令和7年8月28日,,,,,,4,link,/councils/shingikai/jidou_fukushi
+shingikai/jidou_fukushi#8,shingikai/jidou_fukushi,,8,,2026-03-03,令和8年3月3日,,,,,,4,link,/councils/shingikai/jidou_fukushi
+shingikai/jidou_fukushi#9,shingikai/jidou_fukushi,,9,,2026-09-09,令和8年9月9日,,,,,,4,link,/councils/shingikai/jidou_fukushi
+shingikai/seiiku_iryou#1,shingikai/seiiku_iryou,,1,,2023-09-20,令和5年9月20日,,,,,,11,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#2,shingikai/seiiku_iryou,,2,,2023-11-22,令和5年11月22日,,,,,,13,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#3,shingikai/seiiku_iryou,,3,,2024-03-14,令和6年3月14日,,,,,,23,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#4,shingikai/seiiku_iryou,,4,,2024-11-20,令和6年11月20日,,,,,,15,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#5,shingikai/seiiku_iryou,,5,,2025-03-12,令和7年3月12日,,,,,,21,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#6,shingikai/seiiku_iryou,,6,,2025-11-12,令和7年11月12日,,,,,,11,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#7,shingikai/seiiku_iryou,,7,,2025-12-25,令和7年12月25日,,,,,,9,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#8,shingikai/seiiku_iryou,,8,,2026-03-06,令和8年3月6日,,,,,,12,link,/councils/shingikai/seiiku_iryou
+shingikai/seiiku_iryou#9,shingikai/seiiku_iryou,,9,,2026-07-09,令和8年7月9日,,,,,,8,link,/councils/shingikai/seiiku_iryou
+shingikai/kihon_seisaku#1,shingikai/kihon_seisaku,,1,,2023-05-22,令和5年5月22日,,,,秋田 喜代美 委員 / 青木 康太朗 委員 / 有村 大士 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞廣 斎子 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松田 茂樹 委員 / 松本 伊知朗 委員 / 矢島 洋子 委員,,13,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#2,shingikai/kihon_seisaku,,2,,2023-06-20,令和5年6月20日,,,こども家庭庁長官官房第二会議室,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 松本 伊知朗 委員,,16,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#3,shingikai/kihon_seisaku,,3,,2023-06-30,令和5年6月30日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞廣 斎子 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 矢島 洋子 委員,,13,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#4,shingikai/kihon_seisaku,,4,,2023-07-13,令和5年7月13日,,,,秋田 喜代美 部会長 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞廣 斎子 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 矢島 洋子 委員,,8,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#5,shingikai/kihon_seisaku,,5,,2023-07-25,令和5年7月25日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 矢島 洋子 委員,,14,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#6,shingikai/kihon_seisaku,,6,,2023-08-10,令和5年8月10日,,,,秋田 喜代美 部会長 / 青木 康太朗 委員 / 有村 大士 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞廣 斎子 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 矢島 洋子 委員,,20,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#7,shingikai/kihon_seisaku,,7,,2023-08-31,令和5年8月31日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞廣 斎子 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 松田 茂樹 委員 / 松本 伊知朗 委員 / 村宮 汐莉 委員 / 矢島 洋子 委員,,5,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#8,shingikai/kihon_seisaku,,8,,2023-09-04,令和5年9月4日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 谷口 和花菜 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 村宮 汐莉 委員,,8,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#9,shingikai/kihon_seisaku,,9,,2023-09-15,令和5年9月15日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 村宮 汐莉 委員 / 矢島 洋子 委員,,12,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#10,shingikai/kihon_seisaku,,10,,2023-11-17,令和5年11月17日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 村宮 汐莉 委員 / 矢島 洋子 委員,,38,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#11,shingikai/kihon_seisaku,,11,,2024-03-25,令和6年3月25日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 委員 / 有村 大士 委員 / 太田 聰一 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊知朗 委員 / 村宮 汐莉 委員 / 矢島 洋子 委員,,18,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#12,shingikai/kihon_seisaku,,12,,2024-05-09,令和6年5月9日,,,,,,21,link,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#13,shingikai/kihon_seisaku,,13,,2024-08-22,令和6年8月22日,,,,,,22,link,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#14,shingikai/kihon_seisaku,,14,,2024-10-30,令和6年10月30日,,,,秋田 喜代美 会長 / 青木 康太朗 委員 / 有村 大士 委員 / 大隅 有紗 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 土肥 潤也 委員 / 堀江 敦子 委員 / 松浦 民恵 委員 / 松本 伊智朗 委員 / 村宮 汐莉 委員 / 矢島 洋子 委員,,10,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#15,shingikai/kihon_seisaku,,15,,2024-12-20,令和6年12月20日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 有村 大士 委員 / 大隅 有紗 委員 / 太田 聰一 委員 / 木田 秋津 委員 / 清永 奈穂 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞廣 斎子 委員 / 定本 ゆきこ 委員 / 新保 幸男 委員 / 田中 れいか 委員 / 土肥 潤也 委員 / 原田 伊織 委員 / 堀江 敦子 委員 / 松本 伊智朗 委員 / 村宮 汐莉 委員 / 矢島 洋子 委員,,10,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#16,shingikai/kihon_seisaku,,16,,2025-03-27,令和7年3月27日,,,,秋田 喜代美 部会長 / 松田 茂樹 部会長代理 / 青木 康太朗 / 有村 大士 / 大隅 有紗 / 岸田 雪子 / 木田 秋津 / 清永 奈穂 / 駒村 康平 / 櫻井 彩乃 / 貞廣 斎子 / 新保 幸男 / 土肥 潤也 / 原田 伊織 / 堀江 敦子 / 松浦 民恵 / 松本 伊智朗 / 村宮 汐莉,,19,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#17,shingikai/kihon_seisaku,,17,,2025-09-22,令和7年9月22日,,,,秋田 喜代美 委員 / 有村 大士 委員 / 石井 智康 委員 / 内田 由紀子 委員 / 金井 優佳 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 黒木 碧恵 委員 / 小泉 勇人 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 椎木 里佳 委員 / 新保 幸男 委員 / 土肥 潤也 委員 / 南光 開斗 委員 / 堀 有喜衣 委員 / 松田 茂樹 委員 / 矢島 洋子 委員 / 山﨑 篤史 委員,,16,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#18,shingikai/kihon_seisaku,,18,,2025-11-27,令和7年11月27日,,,,松田 茂樹 部会長 / 土肥 潤也 部会長代理 / 青木 康太朗 委員 / 秋田 喜代美 委員 / 有村 大士 委員 / 石井 智康 委員 / 金井 優佳 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 黒木 碧恵 委員 / 小泉 勇人 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 椎木 里佳 委員 / 柴田 悠 委員 / 新保 幸男 委員 / 南光 開斗 委員 / 堀 有喜衣 委員 / 矢島 洋子 委員 / 山﨑 篤史 委員,,16,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#19,shingikai/kihon_seisaku,,19,,2026-02-20,令和8年2月20日,,,,松田 茂樹 部会長 / 土肥 潤也 部会長代理 / 秋田 喜代美 委員 / 有村 大士 委員 / 石井 智康 委員 / 内田 由紀子 委員 / 金井 優佳 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 小泉 勇人 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 椎木 里佳 委員 / 柴田 悠 委員 / 新保 幸男 委員 / 堀 有喜衣 委員 / 山﨑 篤史 委員,,18,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#20,shingikai/kihon_seisaku,,20,,2026-03-30,令和8年3月30日,,,,松田 茂樹 部会長 / 土肥 潤也 部会長代理 / 青木 康太朗 委員 / 秋田 喜代美 委員 / 有村 大士 委員 / 石井 智康 委員 / 金井 優佳 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 駒村 康平 委員 / 小泉 勇人 委員 / 櫻井 彩乃 委員 / 椎木 里佳 委員 / 新保 幸男 委員 / 堀 有喜衣 委員 / 矢島 洋子 委員 / 山﨑 篤史 委員,,9,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#21,shingikai/kihon_seisaku,,21,,2026-05-08,令和8年5月8日,,,,松田 茂樹 部会長 / 土肥 潤也 部会長代理 / 青木 康太朗 委員 / 秋田 喜代美 委員 / 有村 大士 委員 / 石井 智康 委員 / 内田 由紀子 委員 / 岸田 雪子 委員 / 木田 秋津 委員 / 黒木 碧恵 委員 / 小泉 勇人 委員 / 駒村 康平 委員 / 櫻井 彩乃 委員 / 貞広 斎子 委員 / 椎木 里佳 委員 / 柴田 悠 委員 / 新保 幸男 委員 / 南光 開斗 委員 / 堀 有喜衣 委員 / 矢島 洋子 委員 / 山崎 篤史 委員,,11,link+pdf,/councils/shingikai/kihon_seisaku
+shingikai/kihon_seisaku#22,shingikai/kihon_seisaku,,22,,2026-11-16,令和8年11月16日,,,,,,10,link,/councils/shingikai/kihon_seisaku
+shingikai/iken_senmon#1,shingikai/iken_senmon,,1,,2023-07-10,令和5年7月10日,,,,,,21,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#2,shingikai/iken_senmon,,2,,2023-09-12,令和5年9月12日,,,,,,13,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#3,shingikai/iken_senmon,,3,,2023-10-26,令和5年10月26日,,,,,,10,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#4,shingikai/iken_senmon,,4,,2024-01-16,令和6年1月16日,,,,,,21,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#5,shingikai/iken_senmon,,5,,2024-02-20,令和6年2月20日,,,,,,8,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#6,shingikai/iken_senmon,,6,,2024-03-12,令和6年3月12日,,,,,,5,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#7,shingikai/iken_senmon,,7,,2024-06-27,令和6年6月27日,,,,,,11,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#8,shingikai/iken_senmon,,8,,2024-08-19,令和6年8月19日,,,,,,7,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#9,shingikai/iken_senmon,,9,,2024-11-20,令和6年11月20日,,,,,,20,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#10,shingikai/iken_senmon,,10,,2025-02-12,令和7年2月12日,,,,,,12,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#11,shingikai/iken_senmon,,11,,2025-10-29,令和7年10月29日,,,,,,14,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#12,shingikai/iken_senmon,,12,,2026-01-29,令和8年1月29日,,,,,,7,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#13,shingikai/iken_senmon,,13,,2026-03-27,令和8年3月27日,,,,,,8,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#14,shingikai/iken_senmon,,14,,2026-05-31,令和8年5月31日,,,,,,4,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#15,shingikai/iken_senmon,,15,,2026-07-29,令和8年7月29日,,,,,,6,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#16,shingikai/iken_senmon,,16,,2026-09-04,令和8年9月4日,,,,,,7,link,/councils/shingikai/iken_senmon
+shingikai/iken_senmon#17,shingikai/iken_senmon,,17,,2026-11-10,令和8年11月10日,,,,,,10,link,/councils/shingikai/iken_senmon
+shingikai/kodomo_sodachi#1,shingikai/kodomo_sodachi,,1,,2023-05-16,令和5年5月16日,,,,,,21,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#2,shingikai/kodomo_sodachi,,2,,2023-06-14,令和5年6月14日,,,,,,9,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#3,shingikai/kodomo_sodachi,,3,,2023-06-26,令和5年6月26日,,,,,,15,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#4,shingikai/kodomo_sodachi,,4,,2023-07-10,令和5年7月10日,,,,,,14,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#5,shingikai/kodomo_sodachi,,5,,2023-07-28,令和5年7月28日,,,,,,13,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#6,shingikai/kodomo_sodachi,,6,,2023-08-29,令和5年8月29日,,,,,,12,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#7,shingikai/kodomo_sodachi,,7,,2023-09-14,令和5年9月14日,,,,,,10,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#8,shingikai/kodomo_sodachi,,8,,2023-10-30,令和5年10月30日,,,,,,11,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#9,shingikai/kodomo_sodachi,,9,,2023-11-13,令和5年11月13日,,,,,,7,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#10,shingikai/kodomo_sodachi,,10,,2024-02-26,令和6年2月26日,,,,,,13,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#11,shingikai/kodomo_sodachi,,11,,2024-07-22,令和6年7月22日,,,,,,10,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#12,shingikai/kodomo_sodachi,,12,,2025-02-18,令和7年2月18日,,,,,,10,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#13,shingikai/kodomo_sodachi,,13,,2025-06-02,令和7年6月2日,,,,,,17,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#14,shingikai/kodomo_sodachi,,14,,2026-02-20,令和8年2月20日,,,,,,6,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#15,shingikai/kodomo_sodachi,,15,,2026-08-31,令和8年8月31日,,,,,,11,link,/councils/shingikai/kodomo_sodachi
+shingikai/kodomo_sodachi#16,shingikai/kodomo_sodachi,,16,,2026-10-23,令和8年10月23日,,,,,,8,link,/councils/shingikai/kodomo_sodachi
 shingikai/kodomo_sodachi#17,shingikai/kodomo_sodachi,,17,,2026-11-30,令和8年11月30日,,,,,,1,link,/councils/shingikai/kodomo_sodachi
-shingikai/hoiku_senmon#1,shingikai/hoiku_senmon,,1,,2025-10-22,令和7年10月22日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#2,shingikai/hoiku_senmon,,2,,2025-11-17,令和7年11月17日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#3,shingikai/hoiku_senmon,,3,,2025-11-25,令和7年11月25日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#4,shingikai/hoiku_senmon,,4,,2026-01-21,令和8年1月21日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#5,shingikai/hoiku_senmon,,5,,2026-02-05,令和8年2月5日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#6,shingikai/hoiku_senmon,,6,,2026-02-24,令和8年2月24日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#7,shingikai/hoiku_senmon,,7,,2026-03-12,令和8年3月12日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#8,shingikai/hoiku_senmon,,8,,2026-04-09,令和8年4月9日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#9,shingikai/hoiku_senmon,,9,,2026-05-29,令和8年5月29日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/hoiku_senmon#10,shingikai/hoiku_senmon,,10,,2026-06-05,令和8年6月5日,,,,,,1,link,/councils/shingikai/hoiku_senmon
-shingikai/kodomo_sodachi/hoikushi_shikaku#1,shingikai/kodomo_sodachi/hoikushi_shikaku,,1,,2023-10-19,令和5年10月19日,,,,,,1,link,/councils/shingikai/kodomo_sodachi/hoikushi_shikaku
-shingikai/kodomo_sodachi/hoikushi_shikaku#2,shingikai/kodomo_sodachi/hoikushi_shikaku,,2,,2023-11-27,令和5年11月27日,,,,,,1,link,/councils/shingikai/kodomo_sodachi/hoikushi_shikaku
-shingikai/kodomo_sodachi/azukari_service#1,shingikai/kodomo_sodachi/azukari_service,,1,,2024-01-12,令和6年1月12日,,,,,,1,link,/councils/shingikai/kodomo_sodachi/azukari_service
-shingikai/kodomo_sodachi/azukari_service#2,shingikai/kodomo_sodachi/azukari_service,,2,,2025-12-24,令和7年12月24日,,,,,,1,link,/councils/shingikai/kodomo_sodachi/azukari_service
-shingikai/kodomo_sodachi/azukari_service#3,shingikai/kodomo_sodachi/azukari_service,,3,,2026-11-09,令和8年11月9日,,,,,,1,link,/councils/shingikai/kodomo_sodachi/azukari_service
-shingikai/kodomo_ibasho#1,shingikai/kodomo_ibasho,,1,,2023-05-17,令和5年5月17日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#2,shingikai/kodomo_ibasho,,2,,2023-05-31,令和5年5月31日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#3,shingikai/kodomo_ibasho,,3,,2023-06-13,令和5年6月13日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#4,shingikai/kodomo_ibasho,,4,,2023-07-14,令和5年7月14日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#5,shingikai/kodomo_ibasho,,5,,2023-07-31,令和5年7月31日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#6,shingikai/kodomo_ibasho,,6,,2023-08-09,令和5年8月9日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#7,shingikai/kodomo_ibasho,,7,,2023-08-23,令和5年8月23日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#8,shingikai/kodomo_ibasho,,8,,2023-09-06,令和5年9月6日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#9,shingikai/kodomo_ibasho,,9,,2023-09-22,令和5年9月22日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#10,shingikai/kodomo_ibasho,,10,,2023-10-06,令和5年10月6日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#11,shingikai/kodomo_ibasho,,11,,2023-10-20,令和5年10月20日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#12,shingikai/kodomo_ibasho,,12,,2023-10-31,令和5年10月31日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#13,shingikai/kodomo_ibasho,,13,,2023-11-15,令和5年11月15日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#14,shingikai/kodomo_ibasho,,14,,2024-03-06,令和6年3月6日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#15,shingikai/kodomo_ibasho,,15,,2024-09-17,令和6年9月17日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#16,shingikai/kodomo_ibasho,,16,,2025-03-14,令和7年3月14日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#17,shingikai/kodomo_ibasho,,17,,2025-06-02,令和7年6月2日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#18,shingikai/kodomo_ibasho,,18,,2025-08-27,令和7年8月27日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#19,shingikai/kodomo_ibasho,,19,,2025-10-16,令和7年10月16日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#20,shingikai/kodomo_ibasho,,20,,2025-11-17,令和7年11月17日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#21,shingikai/kodomo_ibasho,,21,,2026-02-17,令和8年2月17日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#22,shingikai/kodomo_ibasho,,22,,2026-06-18,令和8年6月18日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho#23,shingikai/kodomo_ibasho,,23,,2026-09-17,令和8年9月17日,,,,,,1,link,/councils/shingikai/kodomo_ibasho
-shingikai/kodomo_ibasho/jidoukan#1,shingikai/kodomo_ibasho/jidoukan,,1,,2024-03-08,令和6年3月8日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#2,shingikai/kodomo_ibasho/jidoukan,,2,,2024-05-29,令和6年5月29日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#3,shingikai/kodomo_ibasho/jidoukan,,3,,2024-08-02,令和6年8月2日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#4,shingikai/kodomo_ibasho/jidoukan,,4,,2025-09-05,令和7年9月5日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#5,shingikai/kodomo_ibasho/jidoukan,,5,,2025-11-27,令和7年11月27日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#6,shingikai/kodomo_ibasho/jidoukan,,6,,2026-02-27,令和8年2月27日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#7,shingikai/kodomo_ibasho/jidoukan,,7,,2026-06-15,令和8年6月15日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kodomo_ibasho/jidoukan#8,shingikai/kodomo_ibasho/jidoukan,,8,,2026-11-04,令和8年11月4日,,,,,,1,link,/councils/shingikai/kodomo_ibasho/jidoukan
-shingikai/kagaku_gijutsu#1,shingikai/kagaku_gijutsu,,1,,2023-05-19,令和5年5月19日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#2,shingikai/kagaku_gijutsu,,2,,2023-07-13,令和5年7月13日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#3,shingikai/kagaku_gijutsu,,3,,2023-09-04,令和5年9月4日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#4,shingikai/kagaku_gijutsu,,4,,2023-12-07,令和5年12月7日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#5,shingikai/kagaku_gijutsu,,5,,2024-03-13,令和6年3月13日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#6,shingikai/kagaku_gijutsu,,6,,2024-05-22,令和6年5月22日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#7,shingikai/kagaku_gijutsu,,7,,2024-07-24,令和6年7月24日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#8,shingikai/kagaku_gijutsu,,8,,2024-11-22,令和6年11月22日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#9,shingikai/kagaku_gijutsu,,9,,2024-12-18,令和6年12月18日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#10,shingikai/kagaku_gijutsu,,10,,2025-03-17,令和7年3月17日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#11,shingikai/kagaku_gijutsu,,11,,2025-05-14,令和7年5月14日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#12,shingikai/kagaku_gijutsu,,12,,2025-08-06,令和7年8月6日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#13,shingikai/kagaku_gijutsu,,13,,2025-12-04,令和7年12月4日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#14,shingikai/kagaku_gijutsu,,14,,2026-03-18,令和8年3月18日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#15,shingikai/kagaku_gijutsu,,15,,2026-06-03,令和8年6月3日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#16,shingikai/kagaku_gijutsu,,16,,2026-08-27,令和8年8月27日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu#17,shingikai/kagaku_gijutsu,,17,,2026-10-09,令和8年10月9日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu
-shingikai/kagaku_gijutsu/art#1,shingikai/kagaku_gijutsu/art,,1,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#2,shingikai/kagaku_gijutsu/art,,2,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#3,shingikai/kagaku_gijutsu/art,,3,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#4,shingikai/kagaku_gijutsu/art,,4,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#5,shingikai/kagaku_gijutsu/art,,5,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#6,shingikai/kagaku_gijutsu/art,,6,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#7,shingikai/kagaku_gijutsu/art,,7,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#8,shingikai/kagaku_gijutsu/art,,8,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#9,shingikai/kagaku_gijutsu/art,,9,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#10,shingikai/kagaku_gijutsu/art,,10,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#11,shingikai/kagaku_gijutsu/art,,11,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#12,shingikai/kagaku_gijutsu/art,,12,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#13,shingikai/kagaku_gijutsu/art,,13,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#14,shingikai/kagaku_gijutsu/art,,14,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#15,shingikai/kagaku_gijutsu/art,,15,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/art#16,shingikai/kagaku_gijutsu/art,,16,,,,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/art
-shingikai/kagaku_gijutsu/nipt#1,shingikai/kagaku_gijutsu/nipt,,1,,2023-05-31,令和5年5月31日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/nipt
-shingikai/kagaku_gijutsu/nipt#2,shingikai/kagaku_gijutsu/nipt,,2,,2023-09-15,令和5年9月15日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/nipt
-shingikai/kagaku_gijutsu/nipt#3,shingikai/kagaku_gijutsu/nipt,,3,,2023-12-14,令和5年12月14日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/nipt
-shingikai/kagaku_gijutsu/nipt#4,shingikai/kagaku_gijutsu/nipt,,4,,2024-01-19,令和6年1月19日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/nipt
-shingikai/kagaku_gijutsu/nipt#5,shingikai/kagaku_gijutsu/nipt,,5,,2024-02-21,令和6年2月21日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/nipt
-shingikai/kagaku_gijutsu/nipt#6,shingikai/kagaku_gijutsu/nipt,,6,,2025-03-03,令和7年3月3日,,,,,,1,link,/councils/shingikai/kagaku_gijutsu/nipt
-shingikai/shakai_katei#1,shingikai/shakai_katei,,1,,2023-05-16,令和5年5月16日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#2,shingikai/shakai_katei,,2,,2023-06-13,令和5年6月13日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#3,shingikai/shakai_katei,,3,,2023-09-12,令和5年9月12日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#4,shingikai/shakai_katei,,4,,2024-01-23,令和6年1月23日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#5,shingikai/shakai_katei,,5,,2024-09-19,令和6年9月19日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#6,shingikai/shakai_katei,,6,,2025-01-29,令和7年1月29日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#7,shingikai/shakai_katei,,7,,2025-10-17,令和7年10月17日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#8,shingikai/shakai_katei,,8,,2026-02-04,令和8年2月4日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei#9,shingikai/shakai_katei,,9,,2026-11-05,令和8年11月5日,,,,,,1,link,/councils/shingikai/shakai_katei
-shingikai/shakai_katei/jidou_shogu#1,shingikai/shakai_katei/jidou_shogu,,1,,2024-02-27,令和6年2月27日,,,,,,1,link,/councils/shingikai/shakai_katei/jidou_shogu
-shingikai/shakai_katei/jidou_shogu#2,shingikai/shakai_katei/jidou_shogu,,2,,2025-03-21,令和7年3月21日,,,,,,1,link,/councils/shingikai/shakai_katei/jidou_shogu
-shingikai/shakai_katei/jidou_shogu#3,shingikai/shakai_katei/jidou_shogu,,3,,2026-03-04,令和8年3月4日,,,,,,1,link,/councils/shingikai/shakai_katei/jidou_shogu
-shingikai/shakai_katei/jidobaishunhogo#1,shingikai/shakai_katei/jidobaishunhogo,,1,,2024-03-18,令和6年3月18日,,,,,,1,link,/councils/shingikai/shakai_katei/jidobaishunhogo
-shingikai/shakai_katei/jidobaishunhogo#2,shingikai/shakai_katei/jidobaishunhogo,,2,,2024-11-28,令和6年11月28日,,,,,,1,link,/councils/shingikai/shakai_katei/jidobaishunhogo
-shingikai/shakai_katei/jidobaishunhogo#3,shingikai/shakai_katei/jidobaishunhogo,,3,,2025-06-24,令和7年6月24日,,,,,,1,link,/councils/shingikai/shakai_katei/jidobaishunhogo
-shingikai/shakai_katei/jidobaishunhogo#4,shingikai/shakai_katei/jidobaishunhogo,,4,,2025-12-17,令和7年12月17日,,,,,,1,link,/councils/shingikai/shakai_katei/jidobaishunhogo
-shingikai/shakai_katei/jidobaishunhogo#5,shingikai/shakai_katei/jidobaishunhogo,,5,,2026-11-10,令和8年11月10日,,,,,,1,link,/councils/shingikai/shakai_katei/jidobaishunhogo
-shingikai/shakai_katei/care-needs#1,shingikai/shakai_katei/care-needs,,1,,2025-11-19,令和7年11月19日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#2,shingikai/shakai_katei/care-needs,,2,,2025-12-25,令和7年12月25日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#3,shingikai/shakai_katei/care-needs,,3,,2026-02-19,令和8年2月19日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#4,shingikai/shakai_katei/care-needs,,4,,2026-03-19,令和8年3月19日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#5,shingikai/shakai_katei/care-needs,,5,,2026-05-27,令和8年5月27日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#6,shingikai/shakai_katei/care-needs,,6,,2026-07-14,令和8年7月14日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#7,shingikai/shakai_katei/care-needs,,7,,2026-09-07,令和8年9月7日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/care-needs#8,shingikai/shakai_katei/care-needs,,8,,2026-11-12,令和8年11月12日,,,,,,1,link,/councils/shingikai/shakai_katei/care-needs
-shingikai/shakai_katei/tokubetsu-yoshi#1,shingikai/shakai_katei/tokubetsu-yoshi,,1,,2025-11-26,令和7年11月26日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#2,shingikai/shakai_katei/tokubetsu-yoshi,,2,,2026-03-04,令和8年3月4日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#3,shingikai/shakai_katei/tokubetsu-yoshi,,3,,2026-03-27,令和8年3月27日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#4,shingikai/shakai_katei/tokubetsu-yoshi,,4,,2026-07-06,令和8年7月6日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#5,shingikai/shakai_katei/tokubetsu-yoshi,,5,,2026-09-28,令和8年9月28日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#6,shingikai/shakai_katei/tokubetsu-yoshi,,6,,2026-10-19,令和8年10月19日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#7,shingikai/shakai_katei/tokubetsu-yoshi,,7,,2026-10-21,令和8年10月21日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/shakai_katei/tokubetsu-yoshi#8,shingikai/shakai_katei/tokubetsu-yoshi,,8,,2026-11-24,令和8年11月24日,,,,,,1,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
-shingikai/gyakutai_boushi#1,shingikai/gyakutai_boushi,,1,,2023-05-12,令和5年5月12日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#2,shingikai/gyakutai_boushi,,2,,2023-09-12,令和5年9月12日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#3,shingikai/gyakutai_boushi,,3,,2023-12-26,令和5年12月26日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#4,shingikai/gyakutai_boushi,,4,,2024-06-25,令和6年6月25日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#5,shingikai/gyakutai_boushi,,5,,2024-12-26,令和6年12月26日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#6,shingikai/gyakutai_boushi,,6,,2025-06-24,令和7年6月24日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#7,shingikai/gyakutai_boushi,,7,,2025-12-25,令和7年12月25日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
-shingikai/gyakutai_boushi#8,shingikai/gyakutai_boushi,,8,,2026-06-08,令和8年6月8日,,,,,,1,link,/councils/shingikai/gyakutai_boushi
+shingikai/hoiku_senmon#1,shingikai/hoiku_senmon,,1,,2025-10-22,令和7年10月22日,,,,,,17,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#2,shingikai/hoiku_senmon,,2,,2025-11-17,令和7年11月17日,,,,,,6,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#3,shingikai/hoiku_senmon,,3,,2025-11-25,令和7年11月25日,,,,,,5,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#4,shingikai/hoiku_senmon,,4,,2026-01-21,令和8年1月21日,,,,,,4,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#5,shingikai/hoiku_senmon,,5,,2026-02-05,令和8年2月5日,,,,,,5,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#6,shingikai/hoiku_senmon,,6,,2026-02-24,令和8年2月24日,,,,,,5,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#7,shingikai/hoiku_senmon,,7,,2026-03-12,令和8年3月12日,,,,,,5,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#8,shingikai/hoiku_senmon,,8,,2026-04-09,令和8年4月9日,,,,,,5,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#9,shingikai/hoiku_senmon,,9,,2026-05-29,令和8年5月29日,,,,,,8,link,/councils/shingikai/hoiku_senmon
+shingikai/hoiku_senmon#10,shingikai/hoiku_senmon,,10,,2026-06-05,令和8年6月5日,,,,,,4,link,/councils/shingikai/hoiku_senmon
+shingikai/kodomo_sodachi/hoikushi_shikaku#1,shingikai/kodomo_sodachi/hoikushi_shikaku,,1,,2023-10-19,令和5年10月19日,,,,,,11,link,/councils/shingikai/kodomo_sodachi/hoikushi_shikaku
+shingikai/kodomo_sodachi/hoikushi_shikaku#2,shingikai/kodomo_sodachi/hoikushi_shikaku,,2,,2023-11-27,令和5年11月27日,,,,,,7,link,/councils/shingikai/kodomo_sodachi/hoikushi_shikaku
+shingikai/kodomo_sodachi/azukari_service#1,shingikai/kodomo_sodachi/azukari_service,,1,,2024-01-12,令和6年1月12日,15:00-16:35,,こども家庭庁 庁議室 ※ハイブリッド開催,委員 / 松田委員長 大西委員 尾木委員 小林委員(オンライン参加) / 長崎委員 平川委員 普光院委員 水嶋委員 吉田委員 / オブザーバー / 独立行政法人国民生活センター相談情報部相談第1課 / 事務局 / 藤原成育局局長 / 黒瀬長官官房審議官(成育局担当) / 伊藤成育局保育政策課認可外保育施設担当室長 / 大津認可外保育施設担当室室長補佐 / 〇議題,,10,link+pdf,/councils/shingikai/kodomo_sodachi/azukari_service
+shingikai/kodomo_sodachi/azukari_service#2,shingikai/kodomo_sodachi/azukari_service,,2,,2025-12-24,令和7年12月24日,14:00-15:55,,こども家庭庁 庁議室 ※ハイブリッド開催,委員 / 松田委員長 / 大西委員 長崎委員 / 福澤委員 / 普光院委員 / 水枝谷委員 安原委員 / 吉田委員 / 和田委員 / オブザーバー / 独立行政法人国民生活センター相談情報部相談第1課 / 事務局 / 竹林長官官房審議官(成育局担当) / 栗原成育局保育政策課課長 / 大部成育局保育政策課認可外保育施設担当室長 / 梅本認可外保育施設担当室課長補佐 / 〇議題,,15,link+pdf,/councils/shingikai/kodomo_sodachi/azukari_service
+shingikai/kodomo_sodachi/azukari_service#3,shingikai/kodomo_sodachi/azukari_service,,3,,2026-11-09,令和8年11月9日,,,,,,13,link,/councils/shingikai/kodomo_sodachi/azukari_service
+shingikai/kodomo_ibasho#1,shingikai/kodomo_ibasho,,1,,2023-05-17,令和5年5月17日,,,,,,13,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#2,shingikai/kodomo_ibasho,,2,,2023-05-31,令和5年5月31日,,,,,,16,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#3,shingikai/kodomo_ibasho,,3,,2023-06-13,令和5年6月13日,,,,,,13,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#4,shingikai/kodomo_ibasho,,4,,2023-07-14,令和5年7月14日,,,,,,13,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#5,shingikai/kodomo_ibasho,,5,,2023-07-31,令和5年7月31日,,,,,,5,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#6,shingikai/kodomo_ibasho,,6,,2023-08-09,令和5年8月9日,,,,,,8,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#7,shingikai/kodomo_ibasho,,7,,2023-08-23,令和5年8月23日,,,,,,9,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#8,shingikai/kodomo_ibasho,,8,,2023-09-06,令和5年9月6日,,,,,,11,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#9,shingikai/kodomo_ibasho,,9,,2023-09-22,令和5年9月22日,,,,,,10,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#10,shingikai/kodomo_ibasho,,10,,2023-10-06,令和5年10月6日,,,,,,9,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#11,shingikai/kodomo_ibasho,,11,,2023-10-20,令和5年10月20日,,,,,,9,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#12,shingikai/kodomo_ibasho,,12,,2023-10-31,令和5年10月31日,,,,,,9,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#13,shingikai/kodomo_ibasho,,13,,2023-11-15,令和5年11月15日,,,,,,8,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#14,shingikai/kodomo_ibasho,,14,,2024-03-06,令和6年3月6日,,,,,,14,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#15,shingikai/kodomo_ibasho,,15,,2024-09-17,令和6年9月17日,,,,,,21,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#16,shingikai/kodomo_ibasho,,16,,2025-03-14,令和7年3月14日,,,,,,15,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#17,shingikai/kodomo_ibasho,,17,,2025-06-02,令和7年6月2日,,,,,,12,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#18,shingikai/kodomo_ibasho,,18,,2025-08-27,令和7年8月27日,,,,,,11,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#19,shingikai/kodomo_ibasho,,19,,2025-10-16,令和7年10月16日,,,,,,8,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#20,shingikai/kodomo_ibasho,,20,,2025-11-17,令和7年11月17日,,,,,,7,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#21,shingikai/kodomo_ibasho,,21,,2026-02-17,令和8年2月17日,,資料1-1「千葉大学・放送大学名誉教授  宮本みち子様ヒアリング資料」資料1-2「筑波大学教授  安藤智子様ヒアリング資料」資料2「令和7年度こどもの居場所部会中間的整理  骨子(案)」参考資料1「奥村委員提出資料」参考資料2「青山委員提出資料」参考資料3「荒木委員提出資料」参考資料4「こどもの居場所部会(第2期)委員名簿」参考資料5「こどもの居場所部会(第2期)における議論の進め方(第18回こどもの居場所部会資料より再掲)」以上、合計9点となっております。資料の欠落等ございましたら事務局までお申しつ けください。事務局からは以上です。 / ○前田部会長  ありがとうございます。それでは、頭撮りはここまでとさせていただきます。(報道関係者退室 ) / ○前田部会長  それでは、議事に入ります。本日は、 現代社会における若者の位置づけに関するヒアリングを実施した後に、中間的整理の骨子案について議論いただきます。1,,,,11,link+pdf,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#22,shingikai/kodomo_ibasho,,22,,2026-06-18,令和8年6月18日,,,,,,8,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho#23,shingikai/kodomo_ibasho,,23,,2026-09-17,令和8年9月17日,,,,,,10,link,/councils/shingikai/kodomo_ibasho
+shingikai/kodomo_ibasho/jidoukan#1,shingikai/kodomo_ibasho/jidoukan,,1,,2024-03-08,令和6年3月8日,,,,,,18,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#2,shingikai/kodomo_ibasho/jidoukan,,2,,2024-05-29,令和6年5月29日,,,,,,16,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#3,shingikai/kodomo_ibasho/jidoukan,,3,,2024-08-02,令和6年8月2日,,,,,,9,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#4,shingikai/kodomo_ibasho/jidoukan,,4,,2025-09-05,令和7年9月5日,,,,,,14,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#5,shingikai/kodomo_ibasho/jidoukan,,5,,2025-11-27,令和7年11月27日,,,,,,11,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#6,shingikai/kodomo_ibasho/jidoukan,,6,,2026-02-27,令和8年2月27日,,,,,,17,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#7,shingikai/kodomo_ibasho/jidoukan,,7,,2026-06-15,令和8年6月15日,,,,,,17,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kodomo_ibasho/jidoukan#8,shingikai/kodomo_ibasho/jidoukan,,8,,2026-11-04,令和8年11月4日,,,,,,11,link,/councils/shingikai/kodomo_ibasho/jidoukan
+shingikai/kagaku_gijutsu#1,shingikai/kagaku_gijutsu,,1,,2023-05-19,令和5年5月19日,,,,,,25,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#2,shingikai/kagaku_gijutsu,,2,,2023-07-13,令和5年7月13日,,,,,,17,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#3,shingikai/kagaku_gijutsu,,3,,2023-09-04,令和5年9月4日,,今後 5 年程度を見据えたこども施策の基本的な方針と重要事項等(中間整理)(案)について,,,,7,link+pdf,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#4,shingikai/kagaku_gijutsu,,4,,2023-12-07,令和5年12月7日,,,,,,17,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#5,shingikai/kagaku_gijutsu,,5,,2024-03-13,令和6年3月13日,,,,,,16,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#6,shingikai/kagaku_gijutsu,,6,,2024-05-22,令和6年5月22日,,,,,,12,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#7,shingikai/kagaku_gijutsu,,7,,2024-07-24,令和6年7月24日,,,,,,12,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#8,shingikai/kagaku_gijutsu,,8,,2024-11-22,令和6年11月22日,,(1)ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方について,持ち回り開催(メール審議),阿久津 英憲委員、○石原 理委員、井田 博幸委員、苛原 稔委員、 / 内田 恵理子委員、神里 彩子委員、髙山 佳奈子委員、長嶋 比呂志委員、 / 西山 博之委員、松本 亜樹子委員(○:座長),,16,link+pdf,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#9,shingikai/kagaku_gijutsu,,9,,2024-12-18,令和6年12月18日,,,,,,17,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#10,shingikai/kagaku_gijutsu,,10,,2025-03-17,令和7年3月17日,,議題 1  「こどもまんなか実行計画 2025」の策定について議題 2  令和8年度こども家庭科学研究事業実施方針(案)の作成に向けた意見伺いについて,,,,10,link+pdf,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#11,shingikai/kagaku_gijutsu,,11,,2025-05-14,令和7年5月14日,,,,,,15,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#12,shingikai/kagaku_gijutsu,,12,,2025-08-06,令和7年8月6日,,,,,,12,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#13,shingikai/kagaku_gijutsu,,13,,2025-12-04,令和7年12月4日,,,,,,12,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#14,shingikai/kagaku_gijutsu,,14,,2026-03-18,令和8年3月18日,,議題 1  「こどもまんなか実行計画 2026」の策定について議題 2  令和9年度こども家庭科学研究事業実施方針(案)の作成に向けた意見伺いについて,,,,11,link+pdf,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#15,shingikai/kagaku_gijutsu,,15,,2026-06-03,令和8年6月3日,,,,,,16,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#16,shingikai/kagaku_gijutsu,,16,,2026-08-27,令和8年8月27日,,,,,,14,link,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu#17,shingikai/kagaku_gijutsu,,17,,2026-10-09,令和8年10月9日,,議題1  ヒトゲノム編集胚等の取扱いの規制に関する法律関係法令の整備状況について議題2  ヒトゲノム編集胚等の取扱いの規制に関する法律の成立に伴う関係指針の見直しについて,,,,9,link+pdf,/councils/shingikai/kagaku_gijutsu
+shingikai/kagaku_gijutsu/art#1,shingikai/kagaku_gijutsu/art,,1,,,,,,,,,23,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#2,shingikai/kagaku_gijutsu/art,,2,,,,,,,,,9,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#3,shingikai/kagaku_gijutsu/art,,3,,,,,,,,,16,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#4,shingikai/kagaku_gijutsu/art,,4,,,,,,,,,10,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#5,shingikai/kagaku_gijutsu/art,,5,,2024-09-30,令和6年9月 30 日(月)~令和6年 10 月2日(水),,,持ち回り開催(メール審議),阿久津 英憲委員、○石原 理委員、井田 博幸委員、苛原 稔委員、 / 内田 恵理子委員、神里 彩子委員、髙山 佳奈子委員、長嶋 比呂志委員、 / 西山 博之委員、松本 亜樹子委員(○:座長),,12,link+pdf,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#6,shingikai/kagaku_gijutsu/art,,6,,2022-03-18,令和4年3月 18 日(金)~令和4年3月 28 日(月),,(1)ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方について,持ち回り開催(メール審議),(委 員)○五十嵐隆委員、石原理委員、甲斐克則委員、掛江直子委員、加藤和人委員、 / 門脇孝委員、神里彩子委員、後藤弘子委員、三浦直美委員、山口育子委員、 / 山口照英委員、吉川祐一委員、渡辺弘司委員 / ○:委員長,,16,link+pdf,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#7,shingikai/kagaku_gijutsu/art,,7,,,,,,,,,17,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#8,shingikai/kagaku_gijutsu/art,,8,,,,,,,,,9,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#9,shingikai/kagaku_gijutsu/art,,9,,2026-01-21,令和 8 年 1 月 21 日(水曜日)14 時 00 分~15 時 10 分,14:00-15:10,1)総合科学技術・イノベーション会議(CSTI)生命倫理専門調査会報告等を踏まえた関係指針の見直しについて / 2)その他,新橋ビジネスフォーラム(WEB 会議),(委員) / 石原座長、秋元委員、阿久津委員、井上委員、苛原委員、内田委員、梅澤委員、大黒委員、 / 大須賀委員、岡委員、金田委員、神里委員、久慈委員、小崎委員、佐原委員、髙山委員、 / 寺田委員、長嶋委員、西山委員、藤岡委員、松本委員、山田委員 / (事務局) / こども家庭庁成育局母子保健課 / 石丸生殖補助医療対策推進官 / 文部科学省研究振興局ライフサイエンス課生命倫理・安全対策室 / 木村安全対策官 / 厚生労働省健康・生活衛生局難病対策課 / 安藤課長補佐、磯島課長補佐、西垣課長補佐,,14,link+pdf,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#10,shingikai/kagaku_gijutsu/art,,10,,2026-02-25,令和8年2月25日(水曜日)10時00分~11時08分,10:00-11:08,1)総合科学技術・イノベーション会議(CSTI)生命倫理専門調査会報告等を踏まえた関係指針の見直しについて / 2)その他,こども家庭庁成育局第一会議室(WEB会議),(委員) / 石原座長、秋元委員、井田委員、井上委員、苛原委員、内田委員、梅澤委員、大黒委員、 / 岡委員、金田委員、神里委員、久慈委員、小崎委員、佐原委員、寺田委員、長嶋委員、藤 / 岡委員、藤田委員、松本委員、山田委員 / (事務局) / こども家庭庁成育局母子保健課 / 石丸生殖補助医療対策推進官、植田課長補佐 / 文部科学省研究振興局ライフサイエンス課生命倫理・安全対策室 / 木村安全対策官 / 厚生労働省健康・生活衛生局難病対策課 / 西垣課長補佐,,12,link+pdf,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#11,shingikai/kagaku_gijutsu/art,,11,,,,,,,,,6,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#12,shingikai/kagaku_gijutsu/art,,12,,2026-07-15,令和 8 年 7 月 15 日(水曜日)17 時 02 分~18 時 36 分,17:02-18:36,,文部科学省東館 17 階 研究振興局 1 会議室(WEB 会議),(委 員)・ヒト受精胚を用いる生殖補助医療研究等に関する専門委員会 / 石原座長、阿久津委員、苛原委員、内田委員、神里委員、髙山委員 / 長嶋委員、西山委員、藤岡委員、村山委員 / ・ヒト受精胚等を用いる研究に関する専門委員会 / 久慈主査、秋元委員、井上委員、内田委員、大須賀委員、片桐委員 / 寺田委員、長嶋委員、藤田委員、山田委員 / ・ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する / 専門委員会 / 五十嵐座長、上野委員、内田委員、大黒委員、片桐委員 / 加藤(和)委員、加藤(豊)委員、神里委員、杉浦委員、武田委員 / 三浦委員、山口委員 / ・ヒト受精胚を用いる遺伝性・先天性疾患研究に関する専門委員会 / 岡座長、苛原委員、梅澤委員、大黒委員、片桐委員、金田委員 / 神里委員、小崎委員、髙山委員、松本委員、村山委員 / (参考人)日本薬科大学薬学部客員教授 山口照英先生 / 日本産科婦人科学会 谷口文紀先生 / (事務局)こども家庭庁成育局母子保健課 松浦推進官、植田課長補佐 / - 1 -,,12,link+pdf,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#13,shingikai/kagaku_gijutsu/art,,13,,,,,,,,,13,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#14,shingikai/kagaku_gijutsu/art,,14,,,,,,,,,13,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#15,shingikai/kagaku_gijutsu/art,,15,,,,,,,,,14,link,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/art#16,shingikai/kagaku_gijutsu/art,,16,,2026-10-07,令和8年 10 月7日(水曜日)14 時 00 分~16 時 00 分,14:00-16:00,1) ゲノム編集技術等を用いたヒト受精胚等の規制の在り方について1-1)  ヒトゲノム編集胚等の取扱いの規制に関する法律に基づく指針(案)について1,航空会館ビジネスフォーラム501+502号室(ハイブリッド会議),(委 員)・ヒト受精胚を用いる生殖補助医療研究等に関する専門委員会 / 石原座長、苛原委員、内田委員、神里委員、 髙山委員、長嶋委員、西 / 山委員、藤岡委員 / ・ヒト受精胚等を用いる研究に関する専門委員会 / 久慈主査、秋元委員、 井上委員、内田委員、長嶋委員、藤田委員、山 / 田委員 / ・ゲノム編集技術等を用いたヒト受精胚等の臨床利用のあり方に関する / 専門委員会 / 五十嵐座長、上野委員、内田委員、加藤(和)委員、加藤(豊)委員、 / 神里委員、杉浦委員、武田委員、三浦(直)委員、山口委員 / ・ヒト受精胚を用いる遺伝性・先天性疾患研究に関する専門委員会 / 岡座長、梅澤委員、神里委員、 北畠委員、小崎 委員、髙山委員、松本 / 委員、三浦(清)委員 / (事務局)こども家庭庁成育局母子保健課 松浦推進官、植田課長補佐 / 文部科学省研究振興局ライフサイエンス課生命倫理・安全対策室 / 永川安全対策官、葛谷室長補佐 / 厚生労働省大臣官房厚生科学課 荒木課長、江田推進官、舩冨課長補佐 / 厚生労働省健康・生活衛生局難病対策課 西垣課長補佐、古藤課長補佐,,15,link+pdf,/councils/shingikai/kagaku_gijutsu/art
+shingikai/kagaku_gijutsu/nipt#1,shingikai/kagaku_gijutsu/nipt,,1,,2023-05-31,令和5年5月31日,13:00-15:00,(1)専門委員会の運営等について / (2)妊婦のNIPTに関する調査結果等について / (3)NIPTの臨床研究について(ヒアリング) / (4)その他,Web開催(こども家庭庁成育局第一会議室),(委員) / 飯野委員、家保委員、植田委員、河合委員、北川委員、小崎委員、櫻井委員、関沢委員、 / 玉井委員、柘植委員、堤委員、中込委員、中西委員、野崎委員、兵頭委員、福井委員、堀 / 委員、三上委員、横野委員、渡辺委員、和田委員 / (参考人) / 昭和大学医学部産婦人科学講座 准教授 白土なほ子 / 北海道大学病院臨床遺伝子診療部 教授 山田崇弘 / (事務局) / 子ども家庭庁成育局母子保健課:山本課長、吉川推進官、上出課長補佐、林専門官,,13,link+pdf,/councils/shingikai/kagaku_gijutsu/nipt
+shingikai/kagaku_gijutsu/nipt#2,shingikai/kagaku_gijutsu/nipt,,2,,2023-09-15,令和5年9月15日,15:00-16:58,(1)NIPTの情報提供について / (2)NIPTの臨床研究について(ヒアリング) / (3)その他,ハイブリット開催(オンライン・こども家庭庁 成育局第一会議室),(委員) / 家保委員、植田委員、門脇委員、河合委員、北川委員、小崎委員、関沢委員、玉井委員、 / 柘植委員、堤委員、中込委員、中西委員、野崎委員、兵頭委員、福井委員、堀委員、横野 / 委員、渡辺委員、和田委員 / (参考人) / 東京慈恵会医科大学附属病院 遺伝診療部 診療部長/教授 川目 裕 / (事務局) / 子ども家庭庁成育局母子保健課 / 木庭課長、吉川推進官、上出課長補佐、林専門官、小倉課長補佐,,12,link+pdf,/councils/shingikai/kagaku_gijutsu/nipt
+shingikai/kagaku_gijutsu/nipt#3,shingikai/kagaku_gijutsu/nipt,,3,,2023-12-14,令和5年12月14日,16:00-17:34,(1)出生前検査認証制度等運営委員会からの報告 / (2)NIPTの臨床研究について(ヒアリング) / (3)その他,ハイブリット開催(オンライン・こども家庭庁 成育局第一会議室),(委員) / 家保委員、植田委員、河合委員、北川委員、小崎委員、 櫻井委員、関沢委員、玉井委員、 / 柘植委員、中込委員、野崎委員、兵頭委員、福井委員、堀委員、三上委員、横野委員、 / 渡辺委員、和田委員 / (参考人) / 出生前検査認証制度等運営委員会委員長 岡 明 / (事務局) / 子ども家庭庁成育局母子保健課 / 木庭課長、吉川推進官、上出課長補佐、林専門官、小倉課長補佐,,15,link+pdf,/councils/shingikai/kagaku_gijutsu/nipt
+shingikai/kagaku_gijutsu/nipt#4,shingikai/kagaku_gijutsu/nipt,,4,,2024-01-19,令和6年1月19日,10:30-11:54,(1)NIPTの臨床研究について / (2)その他,ハイブリット開催(オンライン・こども家庭庁 成育局第一会議室),(委員) / 植田委員、門脇委員、河合委員、北川委員、小崎委員、櫻井委員、関沢委員、玉井委員、 / 柘植委員、堤委員、中込委員、中西委員、野崎委員、兵頭委員、福井委員、堀委員、三上 / 委員、横野委員、渡辺委員、和田委員 / (事務局) / こども家庭庁 成育局 母子保健課 / 木庭課長、上出課長補佐、林専門官、小倉課長補佐,,12,link+pdf,/councils/shingikai/kagaku_gijutsu/nipt
+shingikai/kagaku_gijutsu/nipt#5,shingikai/kagaku_gijutsu/nipt,,5,,2024-02-21,令和6年2月21日,10:30-12:00,(1)NIPTの臨床研究について / (2)その他 / ○福井座長  定刻となりました。ただいまから、第5回「NIPT等の出生前検査に関する専門委員会」を開催いたします。委員の皆様方におかれましては、お忙しい中、御出席を賜り、本当にありがとうございます。まず、本日の委員の出欠状況の報告等を、事務局から、お願いいたします。 / ○上出課長補佐  事務局でございます。本日の会議は、会議とオンラインとの併用で開催しておりますが、会場からは、福井座長、北川委員、堤委員、ほか、事務局が参加しております。本日は、家保委員、植田委員、櫻井委員、関沢委員、堀委員から、御欠席の御連絡をいただいております。また、門脇委員は11時頃より御出席と伺っております。そのほかの委員からは御出席をいただいており、過半数以上の御出席をいただいておりますので、本会議は成立いたします。続きまして、本日の配付資料の確認等を行います。本日はペーパーレス会議としており、オンラインで御参加いただく委員の 先生方にはあらかじめ資料をメールで送らせていただいております。資料の確認をさせていただきます。議事次第に記載の配付資料のとおり、資料1-1、資料1-2、参考資料1~4となっております。過不足等がございましたら、事務局までお申しつけください。1,ハイブリット開催(オンライン・こども家庭庁 成育局第一会議室),(委員) / 門脇委員、河合委員、北川委員、小崎委員、玉井委員、柘植委員、 堤委員、中込委員、中 / 西委員、野崎委員、兵頭委員、福井委員、三上委員、横野委員、渡辺委員、和田委員 / (事務局) / こども家庭庁 成育局 母子保健課 / 木庭課長、上出課長補佐、林専門官、小倉課長補佐,,9,link+pdf,/councils/shingikai/kagaku_gijutsu/nipt
+shingikai/kagaku_gijutsu/nipt#6,shingikai/kagaku_gijutsu/nipt,,6,,2025-03-03,令和7年3月3日,,,持ち回り開催(メール審議),福井次矢 〇、野崎亜紀子、家保英隆、植田紀美子、門脇 孝、河合蘭、 / 北川聡子、小崎健次郎、櫻井浩子、関沢明彦、玉井浩、柘植あづみ、 / 堤正好、中込さと子、中西和代、兵頭麻希、堀優子、鈴木直、横野恵 / 渡辺弘司、和田和子(〇:座長),,10,link+pdf,/councils/shingikai/kagaku_gijutsu/nipt
+shingikai/shakai_katei#1,shingikai/shakai_katei,,1,,2023-05-16,令和5年5月16日,,,,,,11,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#2,shingikai/shakai_katei,,2,,2023-06-13,令和5年6月13日,,,,,,12,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#3,shingikai/shakai_katei,,3,,2023-09-12,令和5年9月12日,,,,,,17,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#4,shingikai/shakai_katei,,4,,2024-01-23,令和6年1月23日,,,,,,12,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#5,shingikai/shakai_katei,,5,,2024-09-19,令和6年9月19日,,,,,,10,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#6,shingikai/shakai_katei,,6,,2025-01-29,令和7年1月29日,,,,,,8,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#7,shingikai/shakai_katei,,7,,2025-10-17,令和7年10月17日,,,,,,11,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#8,shingikai/shakai_katei,,8,,2026-02-04,令和8年2月4日,,,,,,11,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei#9,shingikai/shakai_katei,,9,,2026-11-05,令和8年11月5日,,,,,,14,link,/councils/shingikai/shakai_katei
+shingikai/shakai_katei/jidou_shogu#1,shingikai/shakai_katei/jidou_shogu,,1,,2024-02-27,令和6年2月27日,,,,,,5,link,/councils/shingikai/shakai_katei/jidou_shogu
+shingikai/shakai_katei/jidou_shogu#2,shingikai/shakai_katei/jidou_shogu,,2,,2025-03-21,令和7年3月21日,,,,,,6,link,/councils/shingikai/shakai_katei/jidou_shogu
+shingikai/shakai_katei/jidou_shogu#3,shingikai/shakai_katei/jidou_shogu,,3,,2026-03-04,令和8年3月4日,,,,,,4,link,/councils/shingikai/shakai_katei/jidou_shogu
+shingikai/shakai_katei/jidobaishunhogo#1,shingikai/shakai_katei/jidobaishunhogo,,1,,2024-03-18,令和6年3月18日,,,,,,14,link,/councils/shingikai/shakai_katei/jidobaishunhogo
+shingikai/shakai_katei/jidobaishunhogo#2,shingikai/shakai_katei/jidobaishunhogo,,2,,2024-11-28,令和6年11月28日,,,,,,10,link,/councils/shingikai/shakai_katei/jidobaishunhogo
+shingikai/shakai_katei/jidobaishunhogo#3,shingikai/shakai_katei/jidobaishunhogo,,3,,2025-06-24,令和7年6月24日,,,,,,13,link,/councils/shingikai/shakai_katei/jidobaishunhogo
+shingikai/shakai_katei/jidobaishunhogo#4,shingikai/shakai_katei/jidobaishunhogo,,4,,2025-12-17,令和7年12月17日,,,,,,10,link,/councils/shingikai/shakai_katei/jidobaishunhogo
+shingikai/shakai_katei/jidobaishunhogo#5,shingikai/shakai_katei/jidobaishunhogo,,5,,2026-11-10,令和8年11月10日,,,,,,8,link,/councils/shingikai/shakai_katei/jidobaishunhogo
+shingikai/shakai_katei/care-needs#1,shingikai/shakai_katei/care-needs,,1,,2025-11-19,令和7年11月19日,,,,,,13,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#2,shingikai/shakai_katei/care-needs,,2,,2025-12-25,令和7年12月25日,,,,,,11,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#3,shingikai/shakai_katei/care-needs,,3,,2026-02-19,令和8年2月19日,,,,,,14,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#4,shingikai/shakai_katei/care-needs,,4,,2026-03-19,令和8年3月19日,,,,,,10,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#5,shingikai/shakai_katei/care-needs,,5,,2026-05-27,令和8年5月27日,,,,,,11,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#6,shingikai/shakai_katei/care-needs,,6,,2026-07-14,令和8年7月14日,,,,,,10,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#7,shingikai/shakai_katei/care-needs,,7,,2026-09-07,令和8年9月7日,,,,,,13,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/care-needs#8,shingikai/shakai_katei/care-needs,,8,,2026-11-12,令和8年11月12日,,,,,,12,link,/councils/shingikai/shakai_katei/care-needs
+shingikai/shakai_katei/tokubetsu-yoshi#1,shingikai/shakai_katei/tokubetsu-yoshi,,1,,2025-11-26,令和7年11月26日,,,,,,8,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#2,shingikai/shakai_katei/tokubetsu-yoshi,,2,,2026-03-04,令和8年3月4日,,,,,,11,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#3,shingikai/shakai_katei/tokubetsu-yoshi,,3,,2026-03-27,令和8年3月27日,,,,,,6,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#4,shingikai/shakai_katei/tokubetsu-yoshi,,4,,2026-07-06,令和8年7月6日,,,,,,8,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#5,shingikai/shakai_katei/tokubetsu-yoshi,,5,,2026-09-28,令和8年9月28日,,,,,,6,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#6,shingikai/shakai_katei/tokubetsu-yoshi,,6,,2026-10-19,令和8年10月19日,,,,,,2,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#7,shingikai/shakai_katei/tokubetsu-yoshi,,7,,2026-10-21,令和8年10月21日,,,,,,2,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/shakai_katei/tokubetsu-yoshi#8,shingikai/shakai_katei/tokubetsu-yoshi,,8,,2026-11-24,令和8年11月24日,,,,,,12,link,/councils/shingikai/shakai_katei/tokubetsu-yoshi
+shingikai/gyakutai_boushi#1,shingikai/gyakutai_boushi,,1,,2023-05-12,令和5年5月12日,,,,,,12,link,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#2,shingikai/gyakutai_boushi,,2,,2023-09-12,令和5年9月12日,,,,,,22,link,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#3,shingikai/gyakutai_boushi,,3,,2023-12-26,令和5年12月26日,,,,,,16,link,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#4,shingikai/gyakutai_boushi,,4,,2024-06-25,令和6年6月25日,,,,,,15,link,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#5,shingikai/gyakutai_boushi,,5,,2024-12-26,令和6年12月26日,,,,,,19,link,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#6,shingikai/gyakutai_boushi,,6,,2025-06-24,令和7年6月24日,14:00-16:12,,,,,14,link+pdf,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#7,shingikai/gyakutai_boushi,,7,,2025-12-25,令和7年12月25日,,,,,,11,link,/councils/shingikai/gyakutai_boushi
+shingikai/gyakutai_boushi#8,shingikai/gyakutai_boushi,,8,,2026-06-08,令和8年6月8日,,,,,,8,link,/councils/shingikai/gyakutai_boushi
 shingikai/gyakutai_boushi/hogojirei#128,shingikai/gyakutai_boushi/hogojirei,,128,,2025-11-13,令和7年11月13日,,,,,,1,link,/councils/shingikai/gyakutai_boushi/hogojirei
 shingikai/gyakutai_boushi/hogojirei#129,shingikai/gyakutai_boushi/hogojirei,,129,,2025-12-24,令和7年12月24日,,,,,,1,link,/councils/shingikai/gyakutai_boushi/hogojirei
 shingikai/gyakutai_boushi/hogojirei#130,shingikai/gyakutai_boushi/hogojirei,,130,,2026-02-02,令和8年2月2日,,,,,,1,link,/councils/shingikai/gyakutai_boushi/hogojirei
@@ -582,48 +582,48 @@ shingikai/gyakutai_boushi/hogojirei#132,shingikai/gyakutai_boushi/hogojirei,,132
 shingikai/gyakutai_boushi/hogojirei#133,shingikai/gyakutai_boushi/hogojirei,,133,,2026-06-08,令和8年6月8日,,,,,,1,link,/councils/shingikai/gyakutai_boushi/hogojirei
 shingikai/gyakutai_boushi/hogojirei#134,shingikai/gyakutai_boushi/hogojirei,,134,,2026-07-27,令和8年7月27日,,,,,,1,link,/councils/shingikai/gyakutai_boushi/hogojirei
 shingikai/gyakutai_boushi/hogojirei#135,shingikai/gyakutai_boushi/hogojirei,,135,,2026-12-04,令和8年12月4日,,,,,,1,link,/councils/shingikai/gyakutai_boushi/hogojirei
-shingikai/shougaiji_shien#1,shingikai/shougaiji_shien,,1,,2023-06-28,令和5年6月28日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#2,shingikai/shougaiji_shien,,2,,2023-09-13,令和5年9月13日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#3,shingikai/shougaiji_shien,,3,,2023-10-30,令和5年10月30日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#4,shingikai/shougaiji_shien,,4,,2023-12-11,令和5年12月11日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#5,shingikai/shougaiji_shien,,5,,2024-03-28,令和6年3月28日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#6,shingikai/shougaiji_shien,,6,,2024-07-10,令和6年7月10日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#7,shingikai/shougaiji_shien,,7,,2024-10-22,令和6年10月22日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#8,shingikai/shougaiji_shien,,8,,2024-11-14,令和6年11月14日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#9,shingikai/shougaiji_shien,,9,,2024-12-23,令和6年12月23日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#10,shingikai/shougaiji_shien,,10,,2025-01-30,令和7年1月30日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#11,shingikai/shougaiji_shien,,11,,2025-03-17,令和7年3月17日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#12,shingikai/shougaiji_shien,,12,,2025-07-04,令和7年7月4日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#13,shingikai/shougaiji_shien,,13,,2025-07-29,令和7年7月29日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#14,shingikai/shougaiji_shien,,14,,2025-09-29,令和7年9月29日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#15,shingikai/shougaiji_shien,,15,,2025-10-22,令和7年10月22日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#16,shingikai/shougaiji_shien,,16,,2025-11-12,令和7年11月12日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#17,shingikai/shougaiji_shien,,17,,2025-12-08,令和7年12月8日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#18,shingikai/shougaiji_shien,,18,,2026-01-19,令和8年1月19日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#19,shingikai/shougaiji_shien,,19,,2026-04-27,令和8年4月27日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#20,shingikai/shougaiji_shien,,20,,2026-07-22,令和8年7月22日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#21,shingikai/shougaiji_shien,,21,,2026-08-19,令和8年8月19日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien#22,shingikai/shougaiji_shien,,22,,2026-10-28,令和8年10月28日,,,,,,1,link,/councils/shingikai/shougaiji_shien
-shingikai/shougaiji_shien/tokumei-senmon#1,shingikai/shougaiji_shien/tokumei-senmon,,1,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
-shingikai/shougaiji_shien/tokumei-senmon#2,shingikai/shougaiji_shien/tokumei-senmon,,2,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
-shingikai/shougaiji_shien/tokumei-senmon#3,shingikai/shougaiji_shien/tokumei-senmon,,3,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
+shingikai/shougaiji_shien#1,shingikai/shougaiji_shien,,1,,2023-06-28,令和5年6月28日,,,,,,15,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#2,shingikai/shougaiji_shien,,2,,2023-09-13,令和5年9月13日,,,,,,9,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#3,shingikai/shougaiji_shien,,3,,2023-10-30,令和5年10月30日,,,,,,8,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#4,shingikai/shougaiji_shien,,4,,2023-12-11,令和5年12月11日,,,,,,19,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#5,shingikai/shougaiji_shien,,5,,2024-03-28,令和6年3月28日,,,,,,12,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#6,shingikai/shougaiji_shien,,6,,2024-07-10,令和6年7月10日,,,,,,13,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#7,shingikai/shougaiji_shien,,7,,2024-10-22,令和6年10月22日,,,,,,13,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#8,shingikai/shougaiji_shien,,8,,2024-11-14,令和6年11月14日,,,,,,14,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#9,shingikai/shougaiji_shien,,9,,2024-12-23,令和6年12月23日,,,,,,9,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#10,shingikai/shougaiji_shien,,10,,2025-01-30,令和7年1月30日,,,,,,18,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#11,shingikai/shougaiji_shien,,11,,2025-03-17,令和7年3月17日,,,,,,12,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#12,shingikai/shougaiji_shien,,12,,2025-07-04,令和7年7月4日,,,,,,18,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#13,shingikai/shougaiji_shien,,13,,2025-07-29,令和7年7月29日,,,,,,7,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#14,shingikai/shougaiji_shien,,14,,2025-09-29,令和7年9月29日,,,,,,16,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#15,shingikai/shougaiji_shien,,15,,2025-10-22,令和7年10月22日,,,,,,9,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#16,shingikai/shougaiji_shien,,16,,2025-11-12,令和7年11月12日,,,,,,15,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#17,shingikai/shougaiji_shien,,17,,2025-12-08,令和7年12月8日,,,,,,10,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#18,shingikai/shougaiji_shien,,18,,2026-01-19,令和8年1月19日,,,,,,20,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#19,shingikai/shougaiji_shien,,19,,2026-04-27,令和8年4月27日,,,,,,13,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#20,shingikai/shougaiji_shien,,20,,2026-07-22,令和8年7月22日,,,,,,12,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#21,shingikai/shougaiji_shien,,21,,2026-08-19,令和8年8月19日,,,,,,4,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien#22,shingikai/shougaiji_shien,,22,,2026-10-28,令和8年10月28日,,,,,,10,link,/councils/shingikai/shougaiji_shien
+shingikai/shougaiji_shien/tokumei-senmon#1,shingikai/shougaiji_shien/tokumei-senmon,,1,,2024-09-18,令和6年9月18日(水),,,Web開催 ○事務局(青木) 定刻となりましたので、ただいまより、第1回「匿名障害福祉及び障 害児福祉情報等の提供に関する専門委員会」を開催いたします。,,,9,link+pdf,/councils/shingikai/shougaiji_shien/tokumei-senmon
+shingikai/shougaiji_shien/tokumei-senmon#2,shingikai/shougaiji_shien/tokumei-senmon,,2,,2025-02-27,令和7年2月27日(木),,,Web開催 ○山本委員長 それでは、定刻となりましたので、ただいまより、第2回「匿名障害福祉 及び障害児福祉情報等の提供に関する専門委員会」を開催いたします。,,,8,link+pdf,/councils/shingikai/shougaiji_shien/tokumei-senmon
+shingikai/shougaiji_shien/tokumei-senmon#3,shingikai/shougaiji_shien/tokumei-senmon,,3,,2025-06-27,令和7年6月27日(金)13:00~15:00,13:00-15:00,,Web開催 ○山本委員長 定刻となりましたので、ただいまより、第3回「匿名障害福祉及び障害児 福祉情報等の提供に関する専門委員会」を開催いたします。,,,5,link+pdf,/councils/shingikai/shougaiji_shien/tokumei-senmon
 shingikai/shougaiji_shien/tokumei-senmon#4,shingikai/shougaiji_shien/tokumei-senmon,,4,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
-shingikai/shougaiji_shien/tokumei-senmon#5,shingikai/shougaiji_shien/tokumei-senmon,,5,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
-shingikai/shougaiji_shien/tokumei-senmon#6,shingikai/shougaiji_shien/tokumei-senmon,,6,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
+shingikai/shougaiji_shien/tokumei-senmon#5,shingikai/shougaiji_shien/tokumei-senmon,,5,,2025-09-02,令和7年9月2日(火)15:00~17:00,15:00-17:00,,Web開催 ○事務局(北嶋) これよりYouTube配信を開始いたします。それでは、配信をお願いし ます。,,,7,link+pdf,/councils/shingikai/shougaiji_shien/tokumei-senmon
+shingikai/shougaiji_shien/tokumei-senmon#6,shingikai/shougaiji_shien/tokumei-senmon,,6,,2025-10-10,令和7年 10 月 10 日,,,,,,6,link+pdf,/councils/shingikai/shougaiji_shien/tokumei-senmon
 shingikai/shougaiji_shien/tokumei-senmon#7,shingikai/shougaiji_shien/tokumei-senmon,,7,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
-shingikai/shougaiji_shien/tokumei-senmon#8,shingikai/shougaiji_shien/tokumei-senmon,,8,,,,,,,,,1,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
-shingikai/hinkon_hitorioya/こどもの貧困対策推進ワーキンググループ#1,shingikai/hinkon_hitorioya,こどもの貧困対策推進ワーキンググループ,1,,2025-02-27,令和7年2月27日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/こどもの貧困対策推進ワーキンググループ#2,shingikai/hinkon_hitorioya,こどもの貧困対策推進ワーキンググループ,2,,2026-02-03,令和8年2月3日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
+shingikai/shougaiji_shien/tokumei-senmon#8,shingikai/shougaiji_shien/tokumei-senmon,,8,,,,,,,,,7,link,/councils/shingikai/shougaiji_shien/tokumei-senmon
+shingikai/hinkon_hitorioya/こどもの貧困対策推進ワーキンググループ#1,shingikai/hinkon_hitorioya,こどもの貧困対策推進ワーキンググループ,1,,2025-02-27,令和7年2月27日,,,,,,11,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/こどもの貧困対策推進ワーキンググループ#2,shingikai/hinkon_hitorioya,こどもの貧困対策推進ワーキンググループ,2,,2026-02-03,令和8年2月3日,,,,,,12,link,/councils/shingikai/hinkon_hitorioya
 shingikai/hinkon_hitorioya/こどもの貧困対策推進ワーキンググループ#3,shingikai/hinkon_hitorioya,こどもの貧困対策推進ワーキンググループ,3,,2026-03-10,令和8年3月10日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#1,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,1,,2024-10-31,令和6年10月31日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#2,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,2,,2025-01-23,令和7年1月23日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#3,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,3,,2026-01-15,令和8年1月15日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#4,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,4,,2026-03-10,令和8年3月10日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#5,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,5,,2026-11-16,令和8年11月16日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#1,shingikai/hinkon_hitorioya,開催状況,1,,2023-07-28,令和5年7月28日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#2,shingikai/hinkon_hitorioya,開催状況,2,,2023-09-22,令和5年9月22日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#3,shingikai/hinkon_hitorioya,開催状況,3,,2024-03-11,令和6年3月11日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#4,shingikai/hinkon_hitorioya,開催状況,4,,2024-07-30,令和6年7月30日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#5,shingikai/hinkon_hitorioya,開催状況,5,,2025-05-26,令和7年5月26日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#6,shingikai/hinkon_hitorioya,開催状況,6,,2025-10-09,令和7年10月9日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
-shingikai/hinkon_hitorioya/開催状況#7,shingikai/hinkon_hitorioya,開催状況,7,,2026-06-29,令和8年6月29日,,,,,,1,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#1,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,1,,2024-10-31,令和6年10月31日,,,,,,12,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#2,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,2,,2025-01-23,令和7年1月23日,,,,,,9,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#3,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,3,,2026-01-15,令和8年1月15日,,,,,,10,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#4,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,4,,2026-03-10,令和8年3月10日,,,,,,13,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/ひとり親家庭支援ワーキンググループ#5,shingikai/hinkon_hitorioya,ひとり親家庭支援ワーキンググループ,5,,2026-11-16,令和8年11月16日,,,,,,7,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#1,shingikai/hinkon_hitorioya,開催状況,1,,2023-07-28,令和5年7月28日,,,,,,15,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#2,shingikai/hinkon_hitorioya,開催状況,2,,2023-09-22,令和5年9月22日,,,,,,8,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#3,shingikai/hinkon_hitorioya,開催状況,3,,2024-03-11,令和6年3月11日,,,,,,8,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#4,shingikai/hinkon_hitorioya,開催状況,4,,2024-07-30,令和6年7月30日,,,,,,13,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#5,shingikai/hinkon_hitorioya,開催状況,5,,2025-05-26,令和7年5月26日,,,,,,10,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#6,shingikai/hinkon_hitorioya,開催状況,6,,2025-10-09,令和7年10月9日,,,,,,12,link,/councils/shingikai/hinkon_hitorioya
+shingikai/hinkon_hitorioya/開催状況#7,shingikai/hinkon_hitorioya,開催状況,7,,2026-06-29,令和8年6月29日,,,,,,16,link,/councils/shingikai/hinkon_hitorioya
