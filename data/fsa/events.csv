@@ -604,3 +604,92 @@ detected_at,event_type,council_id,meeting_id,target_key,before,after,source
 2026-11-26T04:12:01+00:00,member_added,transition_finance,,transition_finance/配付資料/長谷川雅巳,,一般社団法人日本経済団体連合会 環境エネルギー本部長,/singi/transition_finance/siryou/20210129.html
 2026-11-26T04:12:01+00:00,member_added,transition_finance,,transition_finance/配付資料/林礼子,,BofA 証券株式会社株式会社 取締役副社長,/singi/transition_finance/siryou/20210129.html
 2026-11-26T04:12:01+00:00,member_added,transition_finance,,transition_finance/配付資料/平林友子,,株式会社みずほ銀行 シンジケーション部 次長,/singi/transition_finance/siryou/20210129.html
+2026-11-27T04:18:44+00:00,page_added,digital_2026,,/singi/digital_2026/gizi/261020.html,,200,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,page_added,digital_2026,,/singi/digital_2026/shiryo/20261020.html,,200,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,page_added,digital_2026,,/singi/digital_2026/shiryo/20261102.html,,200,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,page_added,digital_2026,,/singi/digital_2026/shiryo/20261126.html,,200,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,meeting_added,digital_2026,digital_2026#1,digital_2026#1,,「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第１回）議事要旨,/singi/digital_2026/gizi/261020.html /singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,meeting_added,digital_2026,digital_2026#2,digital_2026#2,,「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第２回）議事次第,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,meeting_added,digital_2026,digital_2026#3,digital_2026#3,,「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第３回）議事次第,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/singi/digital_2026/gizi/261020.html,,議事要旨: 「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第１回）議事要旨,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/index.html,,その他: ホーム,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,twitter.com/share,,その他: Tweet,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/opinion/,,その他: ウェブサイト受付,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/about/index.html,,資料: 金融庁について,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/about/profile/index.html,,その他: 大臣・副大臣・政務官,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/about/fsainfo.html,,資料: 金融庁の概要,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/about/kaikaku/index.html,,その他: 金融庁の改革,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/koueki/index.html,,その他: 所管の法人,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/budget/index.html,,その他: 予算・決算,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/seisaku/index.html,,その他: 政策評価,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/recruit/index.html,,その他: 採用情報,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/kouhou/index.html,,その他: 報道・広報,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/news/index.html,,資料: 報道発表資料,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/conference/index.html,,その他: 記者会見,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/conference/danwa/index.html,,発言: 大臣談話等,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/access/index.html,,その他: アクセスＦＳＡ（広報誌）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/paper/index.html,,報告書: 白書・年次報告,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/conference/danwa/index_kouen.html,,その他: 職員による講演等,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/frtc/kikou/index.html,,その他: 職員による寄稿等新しいウィンドウで開きます,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/user/index.html,,その他: 利用者の方へ,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/ordinary/chuui/chuui.html,,その他: 注意喚起情報,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/ronten/index.html,,その他: 業界団体との意見交換会において金融庁が提起した主な論点,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/popular.html,,その他: よく閲覧されているページ,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/policy/index.html,,その他: 政策・審議会,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/policy/summary.html,,その他: 金融行政方針,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/policy/fsa.html,,その他: 政府方針における金融庁関連の施策,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/news/r8/202609/260915.html,,その他: 政策テーマ等一覧（金融行政方針との関連）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/policy/index_sonota.html,,その他: 政策テーマ等一覧（全体）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/frtc/index.html,,その他: 金融研究センター新しいウィンドウで開きます,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/law/index.html,,規程: 法令・指針等,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/law/houshin.html,,その他: 基本方針・ディスカッションペーパー一覧,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/law/guide.html,,その他: 監督指針一覧,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/law/guide/kaisya/index.html,,その他: 事務ガイドライン（第三分冊：金融会社関係）一覧,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/common/law/kokuji.html,,規程: 告示・ガイドライン・Ｑ＆Ａ・法令解釈事例集一覧,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/status/index.html,,その他: 金融機関情報,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/index.html,,その他: 国際関係情報,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/internationalfinancialcenter/,,その他: 国際金融センター新しいウィンドウで開きます,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/glopac/index.html,,その他: 金融庁グローバル金融連携センター（GLOPAC）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/ifiar/20161207-1.html,,その他: 監査監督機関国際フォーラム（IFIAR）事務局への活動支援,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/fsf/index.html,,その他: 金融安定理事会（FSB）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/bis/bis_menu.html,,その他: バーゼル銀行監督委員会（BCBS）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/iai/index.html,,その他: 保険監督者国際機構（IAIS）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/ios/iosco_04.html,,その他: 証券監督者国際機構（IOSCO）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/fatf/fatf_menu.html,,その他: 金融活動作業部会（FATF）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/inter/etc/etc_menu.html,,その他: その他,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/en/index.html,,その他: Global SiteFinancial Services Agency,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,x.com/fsa_JAPAN,,その他: 金融庁公式X（旧Twitter）（別ウィンドウ）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.youtube.com/channel/UCpIgZIDc-ptkZZTvzqlwGQg,,その他: 金融庁公式YouTubeチャンネル（別ウィンドウ）,/singi/digital_2026/gizi/261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/singi/digital_2026/shiryo/20261020.html,,議事次第: 「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第１回）議事次第,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/singi/digital_2026/shiryo/261020/meibo.pdf,,名簿: メンバー等名簿,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/singi/digital_2026/shiryo/261020/jimukyoku.pdf,,資料: 事務局説明資料,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/singi/digital_2026/shiryo/261020/hearing_1.pdf,,資料: 野村ホールディングス株式会社説明資料,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#1,www.fsa.go.jp/singi/digital_2026/shiryo/261020/hearing_2.pdf,,資料: Securitize Japan株式会社説明資料,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#2,www.fsa.go.jp/singi/digital_2026/shiryo/20261102.html,,議事次第: 「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第２回）議事次第,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#2,www.fsa.go.jp/singi/digital_2026/shiryo/261102/meibo.pdf,,名簿: メンバー等名簿,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#2,www.fsa.go.jp/singi/digital_2026/shiryo/261102/jimukyoku.pdf,,資料: 事務局説明資料,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#2,www.fsa.go.jp/singi/digital_2026/shiryo/261102/hearing_1.pdf,,資料: ＪＰＹＣ株式会社説明資料,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#2,www.fsa.go.jp/singi/digital_2026/shiryo/261102/hearing_2.pdf,,資料: ＳＢＩ ＶＣトレード株式会社説明資料,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#2,www.fsa.go.jp/singi/digital_2026/shiryo/261102/hearing_3.pdf,,資料: 全国銀行協会説明資料,/singi/digital_2026/shiryo/20261102.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#3,www.fsa.go.jp/singi/digital_2026/shiryo/20261126.html,,議事次第: 「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第３回）議事次第,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#3,www.fsa.go.jp/singi/digital_2026/shiryo/261126/meibo.pdf,,名簿: メンバー等名簿,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#3,www.fsa.go.jp/singi/digital_2026/shiryo/261126/jimukyoku.pdf,,資料: 事務局説明資料,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#3,www.fsa.go.jp/singi/digital_2026/shiryo/261126/hearing.pdf,,資料: 日本暗号資産ビジネス協会説明資料,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#3,www.fsa.go.jp/singi/digital_2026/shiryo/261126/membersetsumei_1.pdf,,資料: 松尾真一郎メンバー説明資料①,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,document_added,digital_2026,digital_2026#3,www.fsa.go.jp/singi/digital_2026/shiryo/261126/membersestumei_2.pdf,,資料: 松尾真一郎メンバー説明資料②,/singi/digital_2026/shiryo/20261126.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/神田秀樹,,東京大学名誉教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/伊藤亜紀,,弁護士（片岡総合法律事務所）,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/井上聡,,弁護士（長島・大野・常松法律事務所）,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/岩下直行,,京都大学名誉教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/大槻奈那,,名古屋商科大学大学院マネジメント研究科教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/小川恵子,,公認会計士（ＥＹストラテジー・アンド・コンサルテ,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/加藤貴仁,,東京大学大学院法学政治学研究科教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/栗田太郎,,法政大学情報科学部兼任講師,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/坂勇一郎,,弁護士（東京合同法律事務所）,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/中島真志,,麗澤大学名誉教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/野田俊也,,東京大学大学院経済学研究科講師,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/松尾健一,,京都大学大学院法学研究科教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/松尾真一郎,,ジョージタウン大学研究教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/松元暢子,,慶應義塾大学法学部教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/森下哲朗,,上智大学法学部教授,/singi/digital_2026/shiryo/20261020.html
+2026-11-27T04:18:44+00:00,member_added,digital_2026,,digital_2026/配付資料/オブザーバー,,全国銀行協会 日本証券業協会 資産運用業協会 信託協会,/singi/digital_2026/shiryo/20261020.html

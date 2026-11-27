@@ -1,6 +1,9 @@
 meeting_id,council_id,body,number,label,date,date_raw,time,agenda,place,attendees,page,n_documents,found_by,source
 singi_kinyu/base_tousin#9,singi_kinyu/base_tousin,,9,,2000-12-21,平成12年12月21日,,,,,,6,link,/singi/singi_kinyu/base_tousin.html
 singi_zidousya/zid_base#152,singi_zidousya/zid_base,,152,,,,,,,,,2,link,/singi/singi_zidousya/zid_base.html
+digital_2026#1,digital_2026,,1,「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第１回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/digital_2026/gizi/261020.html,54,page,/singi/digital_2026/gizi/261020.html /singi/digital_2026/shiryo/20261020.html
+digital_2026#2,digital_2026,,2,「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第２回）議事次第,,,,,,,https://www.fsa.go.jp/singi/digital_2026/shiryo/20261102.html,53,page,/singi/digital_2026/shiryo/20261102.html
+digital_2026#3,digital_2026,,3,「デジタル・分散型金融への対応のあり方等に関する研究会」（令和８事務年度第３回）議事次第,,,,,,,https://www.fsa.go.jp/singi/digital_2026/shiryo/20261126.html,53,page,/singi/digital_2026/shiryo/20261126.html
 ai_forum#2,ai_forum,,2,「金融庁 AI官民フォーラム」（第２回）議事要旨,2018-06-22,2018年6月22日,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251024.html,610,page+pdf,/singi/ai_forum/gijiyoshi/20251024.html /singi/ai_forum/siryou/20250912.html
 ai_forum#3,ai_forum,,3,「金融庁 AI官民フォーラム」（第３回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20251112.html,53,page,/singi/ai_forum/gijiyoshi/20251112.html /singi/ai_forum/siryou/20251028.html
 ai_forum#4,ai_forum,,4,「金融庁 AI官民フォーラム」（第４回）議事要旨,,,,,,,https://www.fsa.go.jp/singi/ai_forum/gijiyoshi/20260122.html,53,page,/singi/ai_forum/gijiyoshi/20260122.html /singi/ai_forum/siryou/20251218.html
