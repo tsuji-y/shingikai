@@ -21,7 +21,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 丸井グループ,丸井グループ,,full_name,06earth/yoshi06-16,06earth/yoshi06-16,,執行役員 サステナビリティ部 兼 ESG推進部 部長,0,,
 久美枝,久美枝,,full_name,02policy/yoshi02,02policy/yoshi02,,日本労働組合総連合会 副事務局長,0,,
 亀山康子,亀山康子,,full_name,01chuo/yoshi01 06earth/yoshi06 02policy/yoshi02-06,01chuo/yoshi01 06earth/yoshi06 02policy/yoshi02-06,,大学院大学至善館教授、幸せ経済社会研究所所長 | 東京大学大学院  新領域創成科学研究科附属サステイナブ | 東京大学大学院新領域創成科学研究科附属サステイナブル社,0,,
-二塚信,二塚信,,full_name,55mehg-epidemiol/yoshi55,55mehg-epidemiol/yoshi55,,熊本大学  名誉教授,0,,
+二塚信,二塚信,,full_name,55mehg-epidemiol/yoshi55 o_info,55mehg-epidemiol/yoshi55 o_info,,熊本大学  名誉教授,0,,
 二木玲子,二木玲子,,full_name,03recycle/yoshi03-18,03recycle/yoshi03-18,,全国産業資源循環連合会女性部協議会  会長,0,,
 五箇公一,五箇公一,,full_name,12nature/yoshi12 49wat-doj/yoshi49-04,12nature/yoshi12 49wat-doj/yoshi49-04,,ごか　こういち 国立研究開発法人 国立環境研究所 生物多様性領域 生態リスク評価・対策研究室 特命研究員 | 国立研究開発法人国立環境研究所,0,,
 井上久美枝,井上久美枝,,full_name,06earth/yoshi06 06earth/yoshi06-09,06earth/yoshi06 06earth/yoshi06-09,,日本労働組合総連合会 副事務局長 | 日本労働組合総連合会副事務局長,0,,
@@ -156,7 +156,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 斎藤優子,齋藤優子,,full_name,03recycle/yoshi03-18,03recycle/yoshi03-18,,東北大学大学院環境科学研究科  教授,0,,
 斎藤文代,齋藤文代,,full_name,05hoken/yoshi05-01,05hoken/yoshi05-01,,岡山理科大学  獣医学部  獣医学科  毒性学  准教授,0,,
 新田裕史,新田裕史,,full_name,07air-noise/yoshi07-11,07air-noise/yoshi07-11,,国立研究開発法人 国立環境研究所 名誉研究員,0,,
-新美育文,新美育文,,full_name,55mehg-epidemiol/yoshi55,55mehg-epidemiol/yoshi55,,明治大学  名誉教授,0,,
+新美育文,新美育文,,full_name,55mehg-epidemiol/yoshi55 o_info,55mehg-epidemiol/yoshi55 o_info,座長,明治大学  名誉教授 | 明治大学 名誉教授,0,,
 日向野義幸,日向野義幸,,full_name,12nature/yoshi12,12nature/yoshi12,,ひがの　よしゆき 一般社団法人 大日本猟友会 副会長,0,,
 日経,日経,,full_name,01chuo/yoshi01,01chuo/yoshi01,,BP 日経 ESG シニアエディター、東北大学大学院生命科学研究科教授,0,,
 旭田正浩,旭田正浩,,full_name,03recycle/yoshi03-18,03recycle/yoshi03-18,,一般社団法人ＪＢＲＣ 専務理事,0,,
@@ -199,10 +199,11 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 森口祐一,森口祐一,,full_name,03recycle/yoshi03-04,03recycle/yoshi03-04,,国立環境研究所名誉研究員・東京大学名誉教授,0,,
 森本淳子,森本淳子,,full_name,12nature/yoshi12,12nature/yoshi12,,もりもと　じゅんこ 北海道大学大学院 農学研究院 教授,0,,
 森田香菜子,森田 香菜子,森田,full_name,12nature/yoshi12 02policy/yoshi02-06 02policy/yoshi_aratana,12nature/yoshi12 02policy/yoshi02-06,委員,慶應義塾大学 経済学部 准教授 | もりた　かなこ 慶応義塾大学 経済学部 准教授 | 国立研究開発法人森林研究・整備機構森林総合研究所生物多様性・,2,2022-12-22,2023-02-02
+植田光晴,植田光晴,,full_name,o_info,o_info,,熊本大学大学院生命科学研究部 脳神経内科学講座 教授,0,,
 楠本昌彦,楠本昌彦,,full_name,05hoken/yoshi05-09,05hoken/yoshi05-09,,国立がん研究センター中央病院 副院長 放射線診断科長,0,,
 横山勝英,横山勝英,,full_name,20ari-yatsu/yoshi20-05,20ari-yatsu/yoshi20-05,,東京都立大学  都市基盤環境学科  教授,0,,
 横山唯史,横山唯史,,full_name,07air-noise/yoshi07-10,07air-noise/yoshi07-10,,一般社団法人日本環境衛生施設工業会 技術委員会 委員長,0,,
-横山徹爾,横山徹爾,,full_name,55mehg-epidemiol/yoshi55,55mehg-epidemiol/yoshi55,,国立保健医療科学院生涯健康研究部  部長,0,,
+横山徹爾,横山徹爾,,full_name,55mehg-epidemiol/yoshi55 o_info,55mehg-epidemiol/yoshi55 o_info,,国立保健医療科学院生涯健康研究部  部長 | 国立保健医療科学院 生涯健康研究部 特任研究官,0,,
 横川晋太郎,横川晋太郎,,full_name,35hairyo-keiyaku/yoshi35,35hairyo-keiyaku/yoshi35,委員,電気事業連合会立地電源環境部長,7,2024-08-22,2026-05-29
 横田淳子,横田淳子,,full_name,14animal/kangoshi_1-01_00001,14animal/kangoshi_1-01_00001,,一般社団法人日本愛玩動物看護師会会長,0,,
 橋本,橋本,,full_name,03recycle/yoshi03-14,03recycle/yoshi03-14,,征⼆,0,,
@@ -260,7 +261,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 石川雅紀,石川雅紀,,full_name,03recycle/yoshi03-04,03recycle/yoshi03-04,,叡啓大学ソーシャルシステムデザイン学部 特任教授,0,,
 石田,石田,,full_name,02policy/yoshi02,02policy/yoshi02,,け ん い ち 日本気候リーダーズ・パートナーシップ(JCLP) 顧問,0,,
 神山智美,神山智美,,full_name,03recycle/yoshi03-16,03recycle/yoshi03-16,,富山大学学術研究部社会科学系 教授,0,,
-福田吉治,福田吉治,,full_name,55mehg-epidemiol/yoshi55,55mehg-epidemiol/yoshi55,,帝京大学大学院公衆衛生学研究科  教授,0,,
+福田吉治,福田吉治,,full_name,55mehg-epidemiol/yoshi55 o_info,55mehg-epidemiol/yoshi55 o_info,,帝京大学大学院公衆衛生学研究科  教授 | 帝京大学大学院 公衆衛生学研究科 教授,0,,
 秋元孝之,秋元孝之,,full_name,regional_decarbonization,regional_decarbonization,委員,芝浦工業大学 建築学部長・教授,6,2024-06-28,2024-10-29
 秋沢淳,秋澤淳,,full_name,02policy/yoshi02-06,02policy/yoshi02-06,,東京農工大学工学研究院 先端機械システム部門 教授,0,,
 種別,種別,,full_name,06earth/yoshi06-16,06earth/yoshi06-16,,氏　　名,0,,
@@ -346,6 +347,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 高岡昌輝,高岡昌輝,,full_name,03recycle/yoshi03-17 03recycle/yoshi03-15 07air-noise/yoshi07-10,03recycle/yoshi03-17 03recycle/yoshi03-15 07air-noise/yoshi07-10,委員長,京都大学大学院工学研究科 教授 | 京都大学大学院  工学研究科  教授 | 京都大学大学院 工学研究科 教授,0,,
 高岡秀規,高岡秀規,,full_name,03recycle/yoshi03,03recycle/yoshi03,,全国町村会 副会長（鹿児島県徳之島町長）,0,,
 高島章吉,高島章吉,,full_name,06earth/yoshi06-07,06earth/yoshi06-07,,（一財）日本冷媒・環境保全機構専務理事,0,,
+高嶋博,髙嶋博,,full_name,o_info,o_info,,鹿児島大学大学院医歯学総合研究科  神経病学講座  教授,0,,
 高村,高村,,full_name,02policy/yoshi02,02policy/yoshi02,,ゆ か り 東京大学未来ビジョン研究センター教授,0,,
 高村ゆかり,髙村 ゆかり,髙村,full_name,03recycle/yoshi03 06earth/yoshi06 12nature/yoshi12 03recycle/yoshi03-16 06earth/yoshi06-23 35hairyo-keiyaku/yoshi35 02policy/yoshi_kihonteki 02policy/yoshi_aratana valuechain_decarbonization demandstimulation_decarbonization,03recycle/yoshi03 06earth/yoshi06 12nature/yoshi12 03recycle/yoshi03-16 06earth/yoshi06-23 35hairyo-keiyaku/yoshi35 valuechain_decarbonization demandstimulation_decarbonization,委員,座長 | 東京大学未来ビジョン研究センター  教授 | 東京大学未来ビジョン研究センター教授 | 東京大学未来ビジョン研究センター 教授 | たかむら　ゆかり 東京大学 未来ビジョン研究センター 教授,11,2022-12-14,2025-12-04
 高村典子,髙村典子,,full_name,01chuo/yoshi01,01chuo/yoshi01,,高村  ゆかり  東京大学未来ビジョン研究センター教授,0,,
