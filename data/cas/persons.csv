@@ -7,7 +7,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 上山康博,上山康博,,full_name,kanko_vision,,,一般社団法人日本ファームステイ協会代表理事・株式会社百戦錬磨代表取締役社長 | 株式会社百戦錬磨代表取締役社長,4,2016-10-18,2019-03-13
 上山隆大,上山隆大,,full_name,keizai_anzen_hosyohousei/4index,keizai_anzen_hosyohousei/4index,,政策研究大学院大学 客員教授,0,,
 上沼紫野,上沼紫野,,full_name,cyber_anzen_hosyo,cyber_anzen_hosyo,,LM 虎ノ門南法律事務所弁護士,0,,
-上野,上野,,full_name,cybersecurity_kakuryokaigi nipponseichosenryaku,cybersecurity_kakuryokaigi nipponseichosenryaku,,賢一郎 厚生労働大臣,0,,
+上野,上野,,full_name,cybersecurity_kakuryokaigi nipponseichosenryaku kokuminkaigi,cybersecurity_kakuryokaigi nipponseichosenryaku kokuminkaigi,,賢一郎 厚生労働大臣,0,,
 上野山勝也,上野山勝也,,full_name,digital_gyozaikaikaku,digital_gyozaikaikaku,,株式会社 PKSHA Technology 代表取締役,0,,
 下坂朝子,下坂朝子,,full_name,beneficial_ownership,beneficial_ownership,,（一社）日本経済団体連合会国際協力本部長,0,,
 且田久美,且田久美,,full_name,nousui/noufuku_suishin_kaigi,,,株式会社九神ファームめむろ取締役(エフピコダックス株式会社 障がい者雇用責任者),2,2019-04-25,2019-06-04
@@ -53,6 +53,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 佐藤康博,佐藤康博,,full_name,nousui/noufuku_suishin_kaigi,,,日本経済団体連合会農業活性化委員長,2,2019-04-25,2019-06-04
 佐藤裕久,佐藤裕久,,full_name,kanko_vision,,,株式会社バルニバービ代表取締役社長,1,2015-12-01,2015-12-01
 依田高典,依田高典,,full_name,digitalmarket/kyosokaigi,digitalmarket/kyosokaigi,,京都大学大学院  経済学研究科  教授,0,,
+公開,公開,,full_name,juten_keikaku,juten_keikaku,,2021 年 7 月 17 日,0,,
 兼原信克,兼原信克,,full_name,keizai_anzen_hosyohousei/4index,keizai_anzen_hosyohousei/4index,,公益財団法人笹川平和財団 理事,0,,
 冨山和彦,冨山和彦,,full_name,kodomo_mirai kanko_vision atarashii_sihonsyugi atarashii_chihousousei,kodomo_mirai atarashii_sihonsyugi atarashii_chihousousei,,株式会社経営共創基盤 IGPI グループ会長/ | 株式会社 IGPI グループ会長 | (株)経営共創基盤代表取締役 CEO,5,2015-12-10,2023-12-11
 冨田哲郎,冨田哲郎,,full_name,taii_tokurei,taii_tokurei,,東日本旅客鉄道株式会社取締役会長,0,,
@@ -70,7 +71,8 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 北村滋,北村 滋,北村,full_name,keizai_anzen_hosyohousei/4index keizai_anzen_hosyo_sc,keizai_anzen_hosyohousei/4index keizai_anzen_hosyo_sc,委員,北村エコノミックセキュリティ 代表,10,2023-02-22,2024-01-17
 北野宏明,北野宏明,,full_name,digitalmarket/kyosokaigi,digitalmarket/kyosokaigi,,株式会社ソニーコンピュータサイエン,0,,
 医約,医約,,full_name,zensedai_hosyo,zensedai_hosyo,,9000 人のうち総合診療専門医を目指す専攻医は 2.6%-3.1%に過ぎません。（言葉は悪,0,,
-十倉雅和,十倉雅和,,full_name,kodomo_mirai,kodomo_mirai,,日本経済団体連合会会長,8,2023-04-07,2023-12-11
+十倉雅和,十倉雅和,,full_name,kodomo_mirai gx_jikkou_kaigi,kodomo_mirai gx_jikkou_kaigi,会長,日本経済団体連合会会長 | 原子力発電の稼働想定,8,2023-04-07,2023-12-11
+午後,午後,,full_name,juten_keikaku,juten_keikaku,,7 時、宇都宮市医師会の「社会支援部会」が始まった。医療現場で出会う孤独や貧困などの困難を抱,0,,
 南場智子,南場 智子,南場,full_name,jyouhouhozen digital_gyozaikaikaku,,,東京大学大学院法学政治学研究科教授駒澤大学法学部准教授日本弁護士連合会情報問題対策委員会委員長弁護士株式会社ディー・エヌ・エー取締役 ファウンダー | 株式会社ディー・エヌ・エー取締役 ファウンダー,5,2014-01-17,2023-10-17
 南砂,南砂,,full_name,ful/yusikisyakaigi souyakuryoku,ful/yusikisyakaigi souyakuryoku,,読売新聞東京本社常務取締役  調査研究本部長 | 読売新聞東京本社常務取締役調査研究担当,0,,
 原一郎,原 一郎,原,full_name,keizai_anzen_hosyohousei/4index keizai_anzen_hosyo_sc,keizai_anzen_hosyohousei/4index keizai_anzen_hosyo_sc,委員,日本経済団体連合会 専務理事 | 一般社団法人 日本経済団体連合会 常務理事 | 法政大学人間環境学部 教授一般社団法人 日本経済団体連合会 常務理事 | 日本労働組合総連合会総合政策推進局総合局長法政大学人間環境学部 教授日本商工会議所 常務理事明星大学経営学部 教授一般社団法人 日本経済団体連合会 常務理事,8,2023-02-22,2024-01-17
@@ -79,6 +81,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 原邦彰,原邦彰,,full_name,business_jinken,business_jinken,,法務省,0,,
 原雅広,原雅廣,,full_name,kanko_vision,,,NPO法人匠の町しもすわあきないプロジェクト専務理事,1,2016-10-18,2016-10-18
 及川ゆりこ,及川ゆりこ,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,公益社団法人日本介護福祉士会  会長,0,,
+古川あおい,古川あおい,,full_name,kokuminkaigi,kokuminkaigi,,政務調査会長,0,,
 古川俊治,古川俊治,,full_name,cybersecurity_kakuryokaigi,cybersecurity_kakuryokaigi,,サイバー安全保障担当大臣／内閣府特命担当大臣（サ,0,,
 古田奎輔,古田奎輔,,full_name,kanko_vision,,,株式会社 Payke 代表取締役 CEO,1,2019-08-28,2019-08-28
 古田肇,古田肇,,full_name,nousui/noufuku_suishin_kaigi,,,農福連携全国都道府県ネットワーク会長,1,2024-06-05,2024-06-05
@@ -96,7 +99,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 土居丈朗,土居丈朗,,full_name,gskaigi,gskaigi,,慶應義塾大学経済学部教授,0,,
 土屋大洋,土屋 大洋,土屋,full_name,intelligent_features_kyoka keizai_anzen_hosyohousei/4index cyber_anzen_hosyo,keizai_anzen_hosyohousei/4index cyber_anzen_hosyo,委員,慶應義塾大学大学院政策・メディア研究科 教授 | 慶應義塾大学大学院政策・メディア研究科教授,3,2023-02-08,2026-10-26
 坂元茂樹,坂元茂樹,,full_name,kyouseishakai,kyouseishakai,,公益財団法人世界人権問題研究センター理事長,0,,
-城内実,城内実,,full_name,nipponseichosenryaku,nipponseichosenryaku,,内閣官房長官（副議長）,0,,
+城内実,城内実,,full_name,nipponseichosenryaku kokuminkaigi,nipponseichosenryaku kokuminkaigi,,内閣官房長官（副議長） | 全世代型社会保障改革担当大臣,0,,
 城島茂,城島茂,,full_name,nousui/noufuku_suishin_kaigi,,,TOKIO,2,2019-04-25,2019-06-04
 堀井奈津子,堀井奈津子,,full_name,business_jinken,business_jinken,,文部科学省,0,,
 堀天子,堀天子,,full_name,digital_gyozaikaikaku,digital_gyozaikaikaku,,村岡  嗣政  山口県知事,0,,
@@ -147,6 +150,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 小池邦子,小池邦子,,full_name,nousui/noufuku_suishin_kaigi,,,社会福祉法人花工房福祉会理事長,2,2019-04-25,2019-06-04
 小泉,小泉,,full_name,cybersecurity_kakuryokaigi nipponseichosenryaku,cybersecurity_kakuryokaigi nipponseichosenryaku,,進次郎 防衛大臣,0,,
 小田真弓,小田真弓,,full_name,kanko_vision,,,旅館 加賀屋 女将 | 旅館加賀屋女将,3,2015-11-09,2016-07-26
+小野寺五典,小野寺五典,,full_name,kokuminkaigi,kokuminkaigi,,税制調査会長,0,,
 小野田紀美,小野田紀美,,full_name,nipponseichosenryaku,nipponseichosenryaku,,内閣府特命担当大臣（経済安全保障）,0,,
 尾崎正直,尾﨑正直,,full_name,cybersecurity_kakuryokaigi chiikimirai,cybersecurity_kakuryokaigi chiikimirai,,内閣官房副長官,0,,
 尾身茂,尾身茂,,full_name,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,副座長,独立行政法人地域医療機能推進機構理事長,0,,
@@ -166,6 +170,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 岡野正敬,岡野正敬,,full_name,business_jinken,business_jinken,,財務省,0,,
 岩坪威,岩坪威,,full_name,ninchisho_kankeisha ninchisho,ninchisho_kankeisha ninchisho,,国立研究開発法人国立精神・神経医療研究センター  所長 | 東京大学大学院医学系研究科 教授,0,,
 岩崎甫,岩﨑甫,,full_name,souyakuryoku,souyakuryoku,,山梨大学副学長・融合研究臨床応用推進センター長,0,,
+峰島侑也,峰島侑也,,full_name,kokuminkaigi,kokuminkaigi,,国会対策委員長代理,0,,
 島田由香,島田由香,,full_name,gskaigi,gskaigi,,株式会社ＹｅｅＹ 共同創業者 代表取締役,0,,
 川井元晴,川井元晴,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,公益社団法人認知症の人と家族の会  代表理事,0,,
 川口貴久,川口貴久,,full_name,cyber_anzen_hosyo,cyber_anzen_hosyo,,東京海上ディーアール株式会社主席研究員,0,,
@@ -182,6 +187,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 平野未来,平野未来,,full_name,atarashii_sihonsyugi,atarashii_sihonsyugi,,株式会社シナモン代表取締役社長ＣＥＯ,0,,
 幸本智彦,幸本智彦,,full_name,ful/yusikisyakaigi,ful/yusikisyakaigi,,東京商工会議所議員,0,,
 広瀬陽子,廣瀬陽子,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
+後藤茂,後藤茂,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,之 厚生労働大臣,0,,
 成本迅,成本迅,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,京都府立医科大学大学院医学研究科精神機能病態学  教授,0,,
 戸上守,戸上守,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,一般社団法人日本認知症本人ワーキンググループ  副代表理事,0,,
 戸田祐嗣,戸田祐嗣,,full_name,suisinkaigi,suisinkaigi,,名古屋大学大学院工学研究科教授,0,,
@@ -190,13 +196,15 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 押谷仁,押谷仁,,full_name,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,,東北大学大学院医学系研究科微生物学分野教授 | 東北大学大学院医学系研究科微生物分野教授,0,,
 改正,改正,,full_name,counterintelligence,counterintelligence,,平成19年１月９日 | 平成20年３月４日 | 平成21年９月１日 | 平成21年12月10日 | 平成24年２月10日 | 平成26年１月７日 | 平成27年10月９日 | 平成28年８月29日 | 平成30年４月26日 | 令和２年７月３日 | 令和３年９月17日 | 令和５年４月７日,0,,
 敬称略),敬称略),,full_name,kodomo_mirai,,,,7,2023-04-07,2023-12-11
-斎藤,齋藤,,full_name,digitalmarket/kyosokaigi,digitalmarket/kyosokaigi,,健 経済産業大臣,0,,
+斉藤鉄,斉藤鉄,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,夫 国土交通大臣,0,,
+斎藤,齋藤,,full_name,kokuminkaigi digitalmarket/kyosokaigi,kokuminkaigi digitalmarket/kyosokaigi,,健 経済産業大臣 | アレックス 政務調査会長,0,,
 斎藤智也,齋藤智也,,full_name,ful/taisakusuisin,ful/taisakusuisin,,国立健康危機管理研究機構国立国際医療センター副院長（感染、危機,0,,
 新免修,新免修,,full_name,nousui/noufuku_suishin_kaigi,,,山城就労支援事業所「さんさん山城」 施設長 | 山城就労支援事業所「さんさん山城」施設長,2,2019-04-25,2019-06-04
 新居日南恵,新居日南恵,,full_name,kodomo_mirai,,,,8,2023-04-07,2023-12-11
 新山富左衛門,新山富左衛門,,full_name,kanko_vision,,,道後温泉旅館協同組合理事長,1,2018-08-31,2018-08-31
 新浪剛史,新浪剛史,,full_name,kodomo_mirai atarashii_sihonsyugi,kodomo_mirai atarashii_sihonsyugi,,サントリーホールディングス株式会社代表取締役社長 | 経済同友会代表幹事,6,2023-04-07,2023-10-02
 新田惇一,新田惇一,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,長崎県福祉保健部長,0,,
+日本維新の会,日本維新の会,,full_name,kokuminkaigi,kokuminkaigi,,藤田 文武 共同代表,0,,
 日本電鍍,日本電鍍,,full_name,nipponseichosenryaku,nipponseichosenryaku,,工業株式会社代表取締役,0,,
 日置巴美,日置巴美,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 星野佳路,星野佳路,,full_name,kanko_vision,,,星野リゾート代表,1,2019-12-10,2019-12-10
@@ -205,9 +213,10 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 春日原大樹,春日原大樹,,full_name,business_jinken,business_jinken,,★  議長,0,,
 朝日雅也,朝日雅也,,full_name,nousui/noufuku_suishin_kaigi,,,埼玉県立大学名誉教授,2,2024-06-05,2025-06-26
 朝野和典,朝野和典,,full_name,ful/yusikisyakaigi,ful/yusikisyakaigi,,大阪大学大学院医学系研究科感染制御学教授,0,,
-木原,木原,,full_name,gskaigi,gskaigi,,稔 内閣官房長官,0,,
+木原,木原,,full_name,gskaigi kokuminkaigi,gskaigi kokuminkaigi,,稔 内閣官房長官,0,,
 木原稔,木原稔,,full_name,kumahigai_taisaku cybersecurity_kakuryokaigi,kumahigai_taisaku cybersecurity_kakuryokaigi,,（議長） | 内閣官房長官（議長）,0,,
 木村旬,木村旬,,full_name,beneficial_ownership,beneficial_ownership,,（株）毎日新聞社論説委員,0,,
+末松信介,末松信介,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,文部科学大臣,0,,
 杉原佳尭,杉原佳尭,,full_name,kanko_vision,,,グーグル合同会社執行役員公共政策・政府渉外担当,1,2017-05-16,2017-05-16
 杉山尚美,杉山尚美,,full_name,kanko_vision,,,株式会社ぐるなび執行役員,1,2017-01-30,2017-01-30
 杉山晶子,杉山晶子,,full_name,beneficial_ownership,beneficial_ownership,,東洋大学経営学部会計ファイナンス学科教授,0,,
@@ -230,9 +239,11 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 松原実穂子,松原実穂子,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 松多秀一,松多秀一,,full_name,business_jinken,business_jinken,,消費者庁,0,,
 松尾豊,松尾豊,,full_name,boueiryoku_kaigi/sogoteki_kokuryoku nipponseichosenryaku atarashii_sihonsyugi digitalmarket/kyosokaigi,nipponseichosenryaku atarashii_sihonsyugi digitalmarket/kyosokaigi,,上席執行役員、チーフエコノミスト | 東京大学大学院工学系研究科教授 | 東京大学大学院  工学系研究科  教授,4,2026-04-27,2026-10-27
+松本,松本,,full_name,kokuminkaigi,kokuminkaigi,,尚 デジタル大臣,0,,
 松本尚,松本尚,,full_name,cybersecurity_kakuryokaigi,cybersecurity_kakuryokaigi,,内閣総理大臣補佐官,0,,
 松本正義,松本正義,,full_name,kanko_vision,,,一般財団法人関西観光本部理事長,1,2018-09-21,2018-09-21
 松本総務大臣,松本総務大臣,,full_name,kodomo_mirai,,,,4,2023-05-17,2023-06-13
+松野博,松野博,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,一 内閣官房長官,0,,
 柳川範之,柳川範之,,full_name,atarashii_sihonsyugi,atarashii_sihonsyugi,,東京大学大学院経済学研究科教授,0,,
 柴口里則,柴口里則,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,一般社団法人日本介護支援専門員協会  会長,0,,
 柴田さほり,柴田さほり,,full_name,kanko_vision,,,一般社団法人信州いいやま観光局インバウンド推進室室長,1,2019-05-20,2019-05-20
@@ -241,6 +252,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 栗山真理子,栗山真理子,,full_name,ful/yusikisyakaigi,ful/yusikisyakaigi,,日本患者会情報センター代表,0,,
 桑原悠,桑原悠,,full_name,atarashii_chihousousei,atarashii_chihousousei,,新潟県津南町長,0,,
 桜井彩乃,櫻井彩乃,,full_name,kodomo_mirai,kodomo_mirai,,GENCOURAGE 代表,8,2023-04-07,2023-12-11
+梅村聡,梅村聡,,full_name,kokuminkaigi,kokuminkaigi,,税制調査会長,0,,
 梅沢高明,梅澤高明,,full_name,kanko_vision,,,A.T.カーニー株式会社日本法人会長 | A.T.カーニー株式会社日本法人会長/ナイトタイムエコノミー推進協議会理事,4,2018-04-18,2020-07-27
 梅津英明,梅津 英明,梅津,full_name,keizai_anzen_hosyo_sc,keizai_anzen_hosyo_sc,委員,森・濱田松本法律事務所 パートナー弁護士,10,2023-02-22,2024-01-17
 梶浦秀樹,梶浦秀樹,,full_name,kanko_vision,,,株式会社庵プロデュース代表取締役,1,2016-10-18,2016-10-18
@@ -293,11 +305,12 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 滝沢美帆,滝澤美帆,,full_name,ful/taisakusuisin,ful/taisakusuisin,,学習院大学経済学部経済学科教授,0,,
 漆紫穂子,漆紫穂子,,full_name,gskaigi,gskaigi,,品川女子学院理事長,0,,
 瀬川徳子,瀬川徳子,,full_name,kanko_vision,,,石川県農林水産部里山振興室専門員,1,2016-11-14,2016-11-14
-片山,片山,,full_name,gskaigi nipponseichosenryaku,gskaigi nipponseichosenryaku,,さつき 財務大臣,0,,
+片山,片山,,full_name,gskaigi nipponseichosenryaku kokuminkaigi,gskaigi nipponseichosenryaku kokuminkaigi,,さつき 財務大臣,0,,
 片山さつき,片山さつき,,full_name,cybersecurity_kakuryokaigi,cybersecurity_kakuryokaigi,,内閣府特命担当大臣（金融）／財務大臣,0,,
 片岡剛士,片岡剛士,,full_name,nipponseichosenryaku,nipponseichosenryaku,,PwC コンサルティング合同会社,0,,
 片岡達也,片岡達也,,full_name,atarashii_chihousousei,atarashii_chihousousei,,株式会社横浜銀行代表取締役頭取,0,,
 牧兼充,牧兼充,,full_name,souyakuryoku,souyakuryoku,,早稲田大学大学院経営管理研究科准教授,0,,
+牧島,牧島,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,かれん デジタル大臣,0,,
 牧野友衛,牧野友衛,,full_name,kanko_vision,,,トリップアドバイザー株式会社代表取締役,1,2018-11-29,2018-11-29
 猪子寿之,猪子寿之,,full_name,kanko_vision,,,チームラボ代表,1,2019-10-01,2019-10-01
 生駒芳子,生駒芳子,,full_name,kanko_vision,,,ファッションジャーナリスト・一般社団法人フュートゥラディションワオ代表理事,1,2016-07-26,2016-07-26
@@ -364,19 +377,25 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 経済,経済,,full_name,chiikihatarakikata,chiikihatarakikata,,全国4位,0,,
 総務副大臣,総務副大臣,,full_name,kumahigai_taisaku,kumahigai_taisaku,,高橋 克法（代理出席）,0,,
 総務省,総務省,,full_name,kokuminkaigi,,,,2,2026-04-06,2026-04-28
+総電力需要,総電力需要,,full_name,gx_jikkou_kaigi,gx_jikkou_kaigi,,約9300億kWh | 約1.4兆kWh,0,,
 繁田雅弘,繁田雅弘,,full_name,ninchisho_kankeisha,ninchisho_kankeisha,,東京慈恵会医科大学  名誉教授,0,,
 羽藤秀雄,羽藤 秀雄,羽藤,full_name,keizai_anzen_hosyohousei/4index,keizai_anzen_hosyohousei/4index,委員,住友電気工業株式会社 代表取締役 副社長 | 住友電気工業株式会社 代表取締役 専務取締役原一郎一般社団法人日本経済団体連合会 常務理事松本洋一郎,1,2023-02-08,2023-02-08
 翁百合,翁百合,,full_name,atarashii_sihonsyugi digital_gyozaikaikaku,atarashii_sihonsyugi,,株式会社日本総合研究所理事長,2,2023-10-17,2024-04-16
 老川,老川,,full_name,jyouhouhozen,jyouhouhozen,,祥一（座長） 読売新聞グループ本社代表取締役会長・主筆,0,,
 老川祥一,老川 祥一,老川,full_name,jyouhouhozen,,座長,読売新聞グループ本社取締役最高顧問・主筆代理・国際担当 読売巨人軍取締役オーナー | 読売新聞グループ本社取締役最高顧問・主筆代理 国際担当(The Japan News 主筆) | 読売新聞グループ本社代表取締役会長・主筆代理 国際担当(The Japan News 主筆)読売新聞東京本社取締役論説委員長 | 読売新聞グループ本社代表取締役会長・主筆代理,7,2017-04-24,2025-06-03
 脇田隆字,脇田隆字,,full_name,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,座長,国立感染症研究所所長,0,,
+自由民主党,自由民主党,,full_name,kokuminkaigi,kokuminkaigi,,小林 鷹之 政務調査会長,0,,
 自見はなこ,自見はなこ,,full_name,digitalmarket/kyosokaigi,digitalmarket/kyosokaigi,,内閣府特命担当大臣（消費者及び食品,0,,
 臼田裕一郎,臼田裕一郎,,full_name,suisinkaigi,suisinkaigi,,国立研究開発法人防災科学技術研究所,0,,
 舘田一博,舘田一博,,full_name,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,,東邦大学微生物・感染症学講座教授,0,,
 芳野友子,芳野友子,,full_name,kodomo_mirai nipponseichosenryaku atarashii_sihonsyugi atarashii_chihousousei,kodomo_mirai nipponseichosenryaku atarashii_sihonsyugi atarashii_chihousousei,,日本労働組合総連合会会長 | 五十音順,8,2023-04-07,2023-12-11
+若宮健嗣,若宮健嗣,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,内閣府特命担当大臣（知的財産戦略）,0,,
+若者活躍,若者活躍,,full_name,kokuminkaigi,kokuminkaigi,,男女共同参画）,0,,
+英国が,英国が,,full_name,juten_keikaku,juten_keikaku,,2018 年に孤独担当大臣を任命したというニュースは世界レベルのニュースとなったが、その後の具体的な,0,,
 荒木泰臣,荒木泰臣,,full_name,kodomo_mirai,,,,5,2023-04-07,2023-06-13
 菊池伸,菊池伸,,full_name,kanko_vision,,,株式会社日本政策投資銀行代表取締役副社長,1,2020-01-15,2020-01-15
 菱沼妙子,菱沼妙子,,full_name,kanko_vision,,,松竹株式会社経営企画部地域振興プロジェクトプロデューサー,1,2017-04-24,2017-04-24
+萩生田光一,萩生田光一,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,経済産業大臣、産業競争力担当大臣,0,,
 落合陽一,落合陽一,,full_name,cyber_anzen_hosyo,cyber_anzen_hosyo,,筑波大学デジタルネイチャー開発研究センター長/准,0,,
 葉梨康弘,葉梨康弘,,full_name,cybersecurity_kakuryokaigi,cybersecurity_kakuryokaigi,,国家公安委員会委員長／内閣府特命担当大臣（消費,0,,
 藤井,藤井,,full_name,gskaigi cybersecurity_kakuryokaigi,gskaigi cybersecurity_kakuryokaigi,,比早之 総務大臣,0,,
@@ -406,10 +425,12 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 野口貴公美,野口貴公美,,full_name,intelligent_features_kyoka jyouhouhozen cyber_anzen_hosyo,jyouhouhozen cyber_anzen_hosyo,,一橋大学大学院法学研究科教授 | 一橋大学副学長、法学研究科教授,2,2026-09-28,2026-10-26
 野田由美子,野田由美子,,full_name,atarashii_chihousousei,atarashii_chihousousei,,ヴェオリア・ジャパン合同会社取締役会長,0,,
 金丸恭文,金丸恭文,,full_name,gskaigi digital_gyozaikaikaku,gskaigi,,フューチャー株式会社 代表取締役会長,2,2023-10-17,2024-04-16
+金子,金子,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,原二郎 農林水産大臣,0,,
 金子恭之,金子恭之,,full_name,kumahigai_taisaku,kumahigai_taisaku,,防衛大臣              小泉  進次郎,0,,
 金野幸雄,金野幸雄,,full_name,kanko_vision,,,一般社団法人ノオト代表理事,9,2016-07-26,2018-01-23
 釜萢敏,釜萢敏,,full_name,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,,公益社団法人日本医師会常任理事,0,,
 鈴木一人,鈴木 一人,鈴木,full_name,boueiryoku_kaigi/sogoteki_kokuryoku keizai_anzen_hosyo_sc,keizai_anzen_hosyo_sc,委員,東京大学公共政策大学院 教授 | TMI 総合法律事務所 パートナー弁護士東京大学公共政策大学院 教授,13,2023-03-14,2026-09-17
+鈴木俊一,鈴木俊一,,full_name,keizai_anzen_hosyo,keizai_anzen_hosyo,,財務大臣、内閣府特命担当大臣（金融）,0,,
 鈴木基,鈴木基,,full_name,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,ful/yusikisyakaigi novel_coronavirus/taisaku_honbu,,国立感染症研究所感染症疫学センター長,0,,
 鈴木康裕,鈴木康裕,,full_name,kanko_vision,,,ライブラ株式会社代表取締役社長,1,2019-08-28,2019-08-28
 鈴木秀樹,鈴木秀樹,,full_name,kanko_vision,,,株式会社 EBILAB 東日本支社長,1,2019-08-28,2019-08-28
@@ -433,6 +454,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 馬場重郎,馬場重郎,,full_name,intelligent_features_kyoka,,,,2,2026-09-28,2026-10-26
 高島宗一郎,高島宗一郎,,full_name,gskaigi,gskaigi,,福岡市長,0,,
 高崎邦子,髙﨑邦子,,full_name,kanko_vision,,,株式会社 JTB 執行役員,1,2020-07-27,2020-07-27
+高市,高市,,full_name,kokuminkaigi,kokuminkaigi,,早苗 内閣総理大臣,0,,
 高市早苗,高市早苗,,full_name,nipponseichosenryaku,nipponseichosenryaku,,内閣総理大臣（議長）,0,,
 高橋博之,高橋博之,,full_name,atarashii_chihousousei,atarashii_chihousousei,,株式会社雨風太陽代表取締役社長,0,,
 高橋政代,髙橋政代,,full_name,souyakuryoku,souyakuryoku,,株式会社ビジョンケア代表取締役社長,0,,
@@ -443,7 +465,7 @@ person_id,name,surname,basis,councils,roster_councils,roles,affiliations,n_meeti
 鳥海智絵,鳥海智絵,,full_name,jyouhouhozen,jyouhouhozen,,野村證券株式会社顧問,0,,
 鳥羽研二,鳥羽研二,,full_name,ninchisho,ninchisho,,地方独立行政法人 東京都健康長寿医療センター 理事長,0,,
 鴨下一郎,鴨下一郎,,full_name,souyakuryoku,souyakuryoku,座長代理,内閣官房参与,0,,
-黄川田仁志,黄川田仁志,,full_name,chiikimirai,chiikimirai,,副議長        内閣官房副長官,0,,
+黄川田仁志,黄川田仁志,,full_name,chiikimirai kokuminkaigi,chiikimirai kokuminkaigi,,副議長        内閣官房副長官 | 内閣府特命担当大臣（こども政策 少子化対策,0,,
 黒江哲郎,黒江哲郎,,full_name,boueiryoku_kaigi/sogoteki_kokuryoku,,,,5,2026-04-27,2026-10-27
 黒沢史津乃,黒澤史津乃,,full_name,ninchisho,ninchisho,,株式会社 ＯＡＧライフサポート 代表取締役,0,,
 黒田岳士,黒田岳士,,full_name,business_jinken,business_jinken,,警察庁,0,,

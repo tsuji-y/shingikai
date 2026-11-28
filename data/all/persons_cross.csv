@@ -2,36 +2,37 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 翁百合,翁百合,5,"cas, cao, mof, fsa, mhlw",11,"cas:atarashii_sihonsyugi, cas:digital_gyozaikaikaku, cao:zei-cho, mof:fiscal_system_council/soukai, fsa:singi_kinyu/base, fsa:revision_corporategovernance, fsa:stewardship, fsa:follow-up, fsa:monitoring, fsa:kessai_kanmin, mhlw:shingi-hosho_126692",座長,株式会社日本総合研究所理事長 | ㈱日本総合研究所シニアフェロー | (株)日本総合研究所シニアフェロー・一橋大学大学院特任教授 | 株式会社日本総合研究所シニアフェロー | 株式会社日本総合研究所  シニアフェロー | 株式会社日本総合研究所 理事長 | 株式会社日本総合研究所  理事長 | 株式会社日本総合研究所副理事長 | （株）日本総合研究所理事長 | 日本総合研究所理事長,2
 大橋弘,大橋弘,5,"cas, mof, env, mlit, mhlw",6,"cas:gskaigi, cas:keizai_anzen_hosyohousei/4index, mof:customs_foreign_exchange/sub-of_customs, env:06earth/yoshi06-09, mlit:s103_kokudoseisaku, mhlw:shingi-rousei_471121",委員長,東京大学副学長・大学院経済学研究科教授 | 東京大学大学院経済学研究科 教授 | 東京大学公共政策大学院院長・大学院経済学研究科教授 | 東京大学大学院経済学研究科准教授 | 石﨑 由希子 横浜国立大学大学院国際社会科学研究院教授,0
 宍戸常寿,宍戸常寿,4,"digital, cfa, cas, ppc",10,"digital:data-platform-sub-wg, digital:ai_digital, digital:ai-digital-expert, digital:administrative-research, digital:mynumber-digital-basis-wg, cfa:kodomokanren-jujisha, cas:intelligent_features_kyoka, cas:cyber_anzen_hosyo, cas:digital_gyozaikaikaku, ppc:koutekikenkyukai",委員,東京大学大学院法学政治学研究科  教授 | 東京大学大学院法学政治学研究科教授 | 東京大学大学院法学政治学研究科 教授 | 東京大学大学院法学政治学研究科教授［座長］,3
-神作裕之,神作裕之,4,"cas, mof, fsa, mhlw",7,"cas:beneficial_ownership, mof:customs_foreign_exchange/sub-foreign_exchange, fsa:singi_kinyu/base, fsa:revision_corporategovernance, fsa:stewardship, fsa:follow-up, mhlw:shingi-hosho_126692",座長 / 会長,学習院大学法学部教授 | 学習院大学法学部  教授 | 学習院大学法学部 教授 | 学習院大学大学院法務研究科教授,0
+神作裕之,神作裕之,4,"cas, mof, fsa, mhlw",8,"cas:beneficial_ownership, mof:customs_foreign_exchange/sub-foreign_exchange, fsa:singi_kinyu/base, fsa:revision_corporategovernance, fsa:stewardship, fsa:follow-up, mhlw:shingi-hosho_126692, mhlw:shingi-hosho_439756",座長 / 会長,学習院大学法学部教授 | 学習院大学法学部  教授 | 学習院大学法学部 教授 | 学習院大学大学院法務研究科教授,0
+武田洋子,武田洋子,4,"cas, cao, mof, mhlw",7,"cas:gskaigi, cas:kodomo_mirai, cao:zei-cho, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126721",委員,株式会社三菱総合研究所 常務研究理事 | 株式会社三菱総合研究所  執行役員（兼）研究理事  シンクタン | ㈱三菱総合研究所常務研究理事 | (株)三菱総合研究所常務研究理事 | 三菱総合研究所執行役員（兼）研究理事 シンクタン | 株式会社三菱総合研究所執行役員（兼）研究理事,51
 桜井彩乃,櫻井 彩乃,4,"cfa, cas, cao, mof",6,"cfa:shingikai, cfa:shingikai/kihon_seisaku, cfa:shingikai/iken_senmon, cas:kodomo_mirai, cao:zei-cho, mof:fiscal_system_council/sub-of_fiscal_system",委員,一般社団法人 GENCOURAGE 代表 | GENCOURAGE 代表 | 一般社団法人ＧＥＮＣＯＵＲＡＧＥ  代表理事 | (一社)ＧＥＮＣＯＵＲＡＧＥ代表理事,37
-武田洋子,武田洋子,4,"cas, cao, mof, mhlw",6,"cas:gskaigi, cas:kodomo_mirai, cao:zei-cho, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, mhlw:shingi-hosho_126692",委員,株式会社三菱総合研究所 常務研究理事 | 株式会社三菱総合研究所  執行役員（兼）研究理事  シンクタン | ㈱三菱総合研究所常務研究理事 | (株)三菱総合研究所常務研究理事 | 三菱総合研究所執行役員（兼）研究理事 シンクタン,51
 オブザーバー,オブザーバー,3,"digital, cas, fsa",15,"digital:ai-digital-expert, digital:digital-cybersecurity, cas:chiikimirai, cas:counterintelligence, fsa:digital_2026, fsa:revision_corporategovernance, fsa:nisa_kaigi, fsa:stewardship, fsa:pqc, fsa:vc, fsa:sustainable_finance, fsa:impact, fsa:decarbonization, fsa:kakei, fsa:mdth_kon",,内閣府規制改革推進室 | 望月 明雄 内閣官房 デジタル行財政改革会議事務局長代理 | 人事院事務総局総括審議官 | 全国知事会事務総長 中島 正信 | 全国銀行協会 日本証券業協会 資産運用業協会 信託協会 | 一般社団法人日本取締役協会 | NISA 推進戦略協議会 | 東京証券取引所 信託協会 全国銀行協会 法務省 厚生労働省 | 一般社団法人金融 ISAC、CRYPTREC 事務局、公益財団法人金融 | 信託協会 スタートアップエコシステム協会 生命保険協会 | 財務省 経済産業省 環境省 日本銀行 | 内閣官房 内閣府 財務省 経済産業省 国土交通省 環境省 | 消費者庁 | 長 友 英 資 ㈱東京証券取引所 常務取締役（最高自主規制責任者・自主規制本部長）,0
 冨山和彦,冨山和彦,3,"cas, mof, fsa",8,"cas:kodomo_mirai, cas:kanko_vision, cas:atarashii_sihonsyugi, cas:atarashii_chihousousei, mof:fiscal_system_council/sub-of_fiscal_system, fsa:follow-up, fsa:kinyuchukai, fsa:corporategovernance",委員,株式会社経営共創基盤 IGPI グループ会長/ | 株式会社 IGPI グループ会長 | (株)経営共創基盤代表取締役 CEO | 株式会社 IGPI グループ  会長 | ㈱経営共創基盤 代表取締役 CEO | ㈱経営共創基盤代表取締役ＣＥＯ,6
 松尾豊,松尾豊,3,"digital, cas, fsa",7,"digital:ai_digital, digital:digital-system-reform-technology-based-regulatory-reform, cas:boueiryoku_kaigi/sogoteki_kokuryoku, cas:nipponseichosenryaku, cas:atarashii_sihonsyugi, cas:digitalmarket/kyosokaigi, fsa:index",,東京大学大学院工学系研究科教授 | 東京大学大学院工学系研究科 教授 | 上席執行役員、チーフエコノミスト | 東京大学大学院  工学系研究科  教授,4
 秋田喜代美,秋田 喜代美,3,"cfa, cas, mext",7,"cfa:shingikai, cfa:kokoseido-keizokutekimieruka, cfa:shingikai/kodomo_kosodate, cfa:shingikai/kihon_seisaku, cfa:shingikai/hoiku_senmon, cas:kodomo_mirai, mext:chousa/doppou",座長 / 委員 / 会長 / 部会長,学習院大学文学部教授、東京大学名誉教授 | 学習院大学文学部教授・東京大学名誉教授 | 学習院大学文学部教授　東京大学名誉教授 | 学習院大学文学部教授,32
 芳野友子,芳野友子,3,"cas, cao, mof",7,"cas:kodomo_mirai, cas:nipponseichosenryaku, cas:atarashii_sihonsyugi, cas:atarashii_chihousousei, cao:zei-cho, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",委員,日本労働組合総連合会会長 | 五十音順,38
+井上隆,井上 隆,3,"mod, cas, mhlw",6,"mod:jinji, cas:ninchisho_kankeisha, mhlw:other-hoken_474087_00004, mhlw:shingi-hosho_126719, mhlw:shingi-hosho_439756, mhlw:shingi-hosho_126734",分科会長及び部会長 / 委員 / 部会長,（一社）日本経済団体連合会 参与 | 一般社団法人日本経済団体連合会  専務理事 | 一般社団法人日本経済団体連合会専務理事 | 日本経済団体連合会専務理事,23
 内閣府,内閣府,3,"digital, cfa, mof",6,"digital:digital-system-reform-technology-based-regulatory-reform, digital:local-governments-common-features, digital:local-governments-common-features-datalinkage-wt, digital:local-governments-common-features-identification-management-wt, cfa:kodomonojisatsutaisaku-kaigi, mof:meeting_of_cbdcre",,科学技術・イノベーション推進事務局 | 子ども・子育て本部 | 孤独・孤立対策推進室長 江浪 武志 | 政策統括官（経済財政運営担当）,0
+十倉雅和,十倉雅和,3,"digital, cas, mof",6,"digital:administrative-research, cas:kodomo_mirai, cas:gx_jikkou_kaigi, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, mof:customs_foreign_exchange/soukai",会長 / 座長 / 委員,日本経済団体連合会 会長 | 日本経済団体連合会会長 | 原子力発電の稼働想定 | 住友化学(株)相談役 | (一社)日本経済団体連合会副会長(住友化学(株)代表取締役社長),18
 遠藤典子,遠藤 典子,3,"mod, cas, mof",6,"mod:drastic-reinforcement, mod:space_domain, mod:dstb, cas:boueiryoku_kaigi/sogoteki_kokuryoku, cas:nipponseichosenryaku, mof:fiscal_system_council/sub-of_fiscal_system",委員,早稲田大学研究院 教授 | 早稲田大学研究院教授,60
 上野山勝也,上野山 勝也,3,"mod, digital, cas",5,"mod:dstb, digital:ai-digital-expert, digital:digital-system-reform, digital:administrative-research-wg, cas:digital_gyozaikaikaku",委員,株式会社PKSHA Technology代表取締役 | 株式会社 PKSHA Technology 代表取締役 | （株式会社PKSHA Technology  代表取締役）,1
 五十嵐隆,五十嵐 隆,3,"cfa, cas, mhlw",5,"cfa:shingikai, cfa:shingikai/seiiku_iryou, cas:ful/taisakusuisin, mhlw:shingi-kousei_467561_00003, mhlw:shingi-kousei_127744",委員 / 会長代理 / 座長,国立成育医療研究センター理事長 | 国立成育医療研究センター　理事長 | 国立研究開発法人国立成育医療研究センター　理事長 | 国立成育医療研究センター  理事長,6
-井上隆,井上 隆,3,"mod, cas, mhlw",5,"mod:jinji, cas:ninchisho_kankeisha, mhlw:other-hoken_474087_00004, mhlw:shingi-hosho_126719, mhlw:shingi-hosho_126734",分科会長及び部会長 / 委員 / 部会長,（一社）日本経済団体連合会 参与 | 一般社団法人日本経済団体連合会  専務理事 | 一般社団法人日本経済団体連合会専務理事 | 日本経済団体連合会専務理事,23
 佐藤主光,佐藤主光,3,"cao, mof, mhlw",5,"cao:zei-cho, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, mof:jishin_benkyoukai, mhlw:shingi-hosho_126734",委員,一橋大学大学院経済学研究科教授 | 一橋大学経済学研究科教授 | 一橋大学国際・公共政策大学院、大学院経済学研究科教授,41
-十倉雅和,十倉雅和,3,"digital, cas, mof",5,"digital:administrative-research, cas:kodomo_mirai, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, mof:customs_foreign_exchange/soukai",座長 / 委員,日本経済団体連合会 会長 | 日本経済団体連合会会長 | 住友化学(株)相談役 | (一社)日本経済団体連合会副会長(住友化学(株)代表取締役社長),18
 土居丈朗,土居丈朗,3,"cas, cao, mof",5,"cas:gskaigi, cao:zei-cho, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, mof:fiscal_system_council/sub-of_filp",委員,慶應義塾大学経済学部教授,36
 武藤香織,武藤 香織,3,"mod, cas, mhlw",5,"mod:blood-transfusion, cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu, mhlw:shingi-kousei_127724, mhlw:shingi-kousei_472658_00001",委員,東京大学医科学研究所公共政策研究分野教授 | むとう　かおり 東京大学医科学研究所教授 | 東京大学医科学研究所教授,3
+永井幸子,永井 幸子,3,"cfa, cas, mhlw",5,"cfa:shingikai/kodomo_kosodate, cfa:shingikai/kodomo_kosodate/kanri, cas:ninchisho_kankeisha, mhlw:shingi-hosho_126721, mhlw:shingi-tingin_127939",委員,日本労働組合総連合会  総合政策推進局長 | ＵＡゼンセン副書記長,2
 江沢和彦,江澤和彦,3,"cfa, cas, mhlw",5,"cfa:workinggroup, cas:ninchisho_kankeisha, mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126734",,公益社団法人日本医師会常任理事 | 公益社団法人日本医師会  常任理事,0
 秋池玲子,秋池玲子,3,"cas, cao, mof",5,"cas:boueiryoku_kaigi/sogoteki_kokuryoku, cao:zei-cho, cao:invest-japan/committee, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",委員,ボストン・コンサルティング・グループ日本共同代表 | ボストン・コンサルティング・グループ  日本共同代表,35
 五箇公一,五箇 公一,3,"mod, maff, env",4,"mod:futenma, maff:sizai, env:12nature/yoshi12, env:49wat-doj/yoshi49-04",,（独）国立環境研究所生物・生態系環境研究センター主席研究員 | 国 立 研 究 開 発 法 人 国 立 環 境 研 究 所 生 物 多 様 性 領 域 生 態 リ ス ク 評 価 | ごか　こういち 国立研究開発法人 国立環境研究所 生物多様性領域 生態リスク評価・対策研究室 特命研究員 | 国立研究開発法人国立環境研究所,0
 南場智子,南場 智子,3,"digital, cas, mof",4,"digital:administrative-research, cas:jyouhouhozen, cas:digital_gyozaikaikaku, mof:fiscal_system_council/sub-of_fiscal_system",委員,株式会社ディー・エヌ・エー 代表取締役会長 | 東京大学大学院法学政治学研究科教授駒澤大学法学部准教授日本弁護士連合会情報問題対策委員会委員長弁護士株式会社ディー・エヌ・エー取締役 ファウンダー | 株式会社ディー・エヌ・エー取締役 ファウンダー,8
 大槻奈那,大槻奈那,3,"cas, mof, fsa",4,"cas:digital_gyozaikaikaku, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system, fsa:digital_2026",委員,名古屋商科大学大学院教授・ピクテ・ジャパン(株) シニアフェロー | 名古屋商科大学大学院教授・ピクテ・ジャパン(株)シニアフェロー | 名古屋商科大学大学院マネジメント研究科教授,38
 権丈英子,権丈英子,3,"cfa, mof, mhlw",4,"cfa:shingikai/kodomo_kosodate/kanri, mof:fiscal_system_council/sub-of_fiscal_system, mhlw:shingi-tingin_127939, mhlw:shingi-tingin_127940",委員,亜細亜大学経済学部長・教授,30
-永井幸子,永井 幸子,3,"cfa, cas, mhlw",4,"cfa:shingikai/kodomo_kosodate, cfa:shingikai/kodomo_kosodate/kanri, cas:ninchisho_kankeisha, mhlw:shingi-tingin_127939",委員,日本労働組合総連合会  総合政策推進局長 | ＵＡゼンセン副書記長,2
 米良はるか,米良はるか,3,"digital, cas, mof",4,"digital:digital-days, cas:kanko_vision, cas:atarashii_sihonsyugi, mof:fiscal_system_council/sub-of_fiscal_system",委員,READYFOR 株式会社 代表取締役 CEO | READYFOR 株式会社代表取締役ＣＥＯ | READYFOR株式会社代表取締役 | READYFOR 株式会社代表取締役,3
 黒江哲郎,黒江 哲郎,3,"mod, cas, cao",4,"mod:kiban, mod:sds, cas:boueiryoku_kaigi/sogoteki_kokuryoku, cao:tochi-chosa/shingikai",座長 / 委員,三井住友海上火災保険株式会社顧問 | 三井住友海上火災保険株式会社顧問、元防衛事務次官,21
 加藤,加藤,3,"cfa, fsa, mhlw",3,"cfa:shingikai/kagaku_gijutsu/art, fsa:singi_zidousya/zid_base, mhlw:shingi-kousei_467561_00003",委員,豊 | 和 | 憲 治 一般社団法人日本自動車会議所保険特別委員長,3
 山口博臣,山口博臣,3,"cas, mof, fsa",3,"cas:beneficial_ownership, mof:customs_foreign_exchange/sub-foreign_exchange, fsa:revision_corporategovernance",,日本労働組合総連合会経済政策局長 | 日本労働組合総連合会  総合政策推進局,0
 柳川範之,柳川範之,3,"mod, cas, fsa",3,"mod:drastic-reinforcement, cas:atarashii_sihonsyugi, fsa:impact",,東京大学大学院経済学研究科教授,5
 栗原美津枝,栗原美津枝,3,"fsa, mext, mhlw",3,"fsa:governance_code, mext:gijyutu/gijyutu0, mhlw:shingi-kousei_467561_00004",,（株）価値総合研究所代表取締役会長 | 株式会社価値総合研究所代表取締役会長 | 株式会社価値総合研究所　取締役会長,0
+権丈善一,権丈善一,3,"cas, cao, mhlw",3,"cas:kodomo_mirai, cao:zei-cho, mhlw:shingi-hosho_126721",,慶應義塾大学商学部教授,8
 清原慶子,清原慶子,3,"cfa, moj, mlit",3,"cfa:ijime-judaikayoin, moj:shihouseido/housei10_00116, mlit:s103_kokudoseisaku",,杏林大学客員教授・前東京都三鷹市長 | 杏林大学客員教授、前東京都三鷹市長 | 三鷹市長,0
 落合陽一,落合陽一,3,"mod, digital, cas",3,"mod:drastic-reinforcement, digital:digital-days, cas:cyber_anzen_hosyo",,メディアアーティスト | 筑波大学デジタルネイチャー開発研究センター長/准,2
 遠藤久夫,遠藤 久夫,3,"mod, cas, mhlw",3,"mod:kyumei, cas:kodomo_mirai, mhlw:shingi-hosho_126692",,学習院大学経済学部 教授 | 学習院大学経済学部教授,8
@@ -39,20 +40,21 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 高村ゆかり,髙村 ゆかり,2,"env, fsa",13,"env:03recycle/yoshi03, env:06earth/yoshi06, env:12nature/yoshi12, env:03recycle/yoshi03-16, env:06earth/yoshi06-23, env:35hairyo-keiyaku/yoshi35, env:02policy/yoshi_kihonteki, env:02policy/yoshi_aratana, env:valuechain_decarbonization, env:demandstimulation_decarbonization, fsa:transition_finance, fsa:sustainable_finance, fsa:decarbonization",委員,座長 | 東京大学未来ビジョン研究センター  教授 | 東京大学未来ビジョン研究センター教授 | 東京大学未来ビジョン研究センター 教授 | たかむら　ゆかり 東京大学 未来ビジョン研究センター 教授 | 東京大学 未来ビジョン研究センター教授,11
 渡辺弘司,渡辺 弘司,2,"cfa, mhlw",9,"cfa:nyuyojinokenkoushinsatou-kentokai, cfa:shingikai/kodomo_kosodate, cfa:shingikai/seiiku_iryou, cfa:shingikai/kagaku_gijutsu, cfa:shingikai/shougaiji_shien, mhlw:shingi-hosho_126693, mhlw:shingi-hosho_126709_00002, mhlw:shingi-hosho_126716_00005, mhlw:shingi-kousei_247499",委員,公益社団法人日本医師会常任理事 | 公益社団法人日本医師会 常任理事 | NPO法人全国認定こども園協会理事　社会福祉法人堺暁福祉会理事長 | 公益社団法人日本医師会　常任理事 | 立命館大学産業社会学部教授 | 公益社団法人日本医師会  常任理事,4
 稲谷龍彦,稲谷 龍彦,2,"digital, ppc",8,"digital:ai-digital-expert, digital:digital-system-reform, digital:administrative-research-wg, digital:base-registry-advisory-board, digital:global-data-governance, digital:data-security-wg, digital:global-data-governance-advisory, ppc:koutekikenkyukai",委員,京都大学大学院法学研究科 教授 | （京都大学大学院法学研究科教授） | 京都大学  大学院法学研究科  教授 | 京都大学大学院法学研究科  教授 | 京都大学 大学院法学研究科 教授 | 京都大学大学院法学研究科教授,8
+佐保昌一,佐保 昌一,2,"cfa, mhlw",7,"cfa:shingikai/kodomo_kosodate, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742, mhlw:shingi-hosho_443308, mhlw:shingi-hosho_126719, mhlw:shingi-hosho_126721, mhlw:shingi-hosho_439756",委員,NPO法人全国小規模保育協議会理事　認定NPO法人フローレンス会長 | 日本労働組合総連合会 総合政策推進局長 | 日本労働組合総連合会  総合政策推進局長 | 日本労働組合総連合会総合政策推進局長,1
 岡明,岡明,2,"cfa, mhlw",7,"cfa:sukoyaka21, mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126709_00002, mhlw:shingi-hosho_126716_00005, mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_472658_00001, mhlw:other-kodomo_145015_00003",座長,埼 玉 県 立 小 児 医 療 セ ン タ ー   病 院 長 | 埼玉県立小児医療センター病院長 | 埼玉県立小児医療センター　病院長,0
 神里彩子,神里 彩子,2,"cfa, mhlw",7,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001, mhlw:other-kodomo_145015_00003, mhlw:shingi-kousei_467561_00003, mhlw:shingi-kousei_467561_00004, mhlw:shingi-kousei_429941_00001",委員,国立成育医療研究センター医事法制研究部長 | 東京大学医科学研究所先端医療研究センター生命倫理研究分野 准教授 | 国立成育医療研究センター研究所  医事法制研究部  研究部長 | 国立成育医療研究センター研究所医事法制研究部  研究部長 | 国立成育医療研究センター研究所医事法制研究部  部長 | 国立成育医療研究センター医事法制研究部部長,7
-菊池馨実,菊池馨実,2,"cfa, mhlw",7,"cfa:shingikai/kodomo_kosodate/kanri, mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_443308, mhlw:other-hoken_474087_00004, mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126734",座長,早稲田大学理事・法学学術院教授,0
+菊池馨実,菊池馨実,2,"cfa, mhlw",7,"cfa:shingikai/kodomo_kosodate/kanri, mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_443308, mhlw:other-hoken_474087_00004, mhlw:shingi-hosho_126721, mhlw:shingi-hosho_126734",座長,早稲田大学理事・法学学術院教授,0
 内田恵理子,内田 恵理子,2,"cfa, mhlw",6,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001, mhlw:shingi-kousei_247499, mhlw:shingi-kousei_429941_00001, mhlw:shingi-kousei_429941_00002",委員,国立医薬品食品衛生研究所主任研究官 | 国立医薬品食品衛生研究所遺伝子医薬部  主任研究官 | 国立医薬品食品衛生研究所  遺伝子医薬部  主任研究官 | 国立医薬品食品衛生研究所遺伝子医薬部主任研究官 | 国立医薬品食品衛生研究所 遺伝子医薬部客員研究員,6
 和田隆志,和田隆志,2,"digital, mhlw",6,"digital:digital-cybersecurity, mhlw:shingi-hosho_126716_00005, mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_127703, mhlw:shingi-kousei_127744, mhlw:shingi-kousei_206844",委員,金沢大学長 | 慶應義塾大学商学部　教授 | 金沢大学学長 | 国立大学法人金沢大学長,2
 山縣然太朗,山縣 然太朗,2,"cfa, mhlw",6,"cfa:shingikai, cfa:nyuyojinokenkoushinsatou-kentokai, cfa:shingikai/seiiku_iryou, mhlw:shingi-kousei_284075, mhlw:shingi-kousei_127752_00007, mhlw:0000167071_450973_00001",委員,国立成育医療研究センター成育こどもシンクタンク副所長 | 山梨大学大学院総合研究部医学域社会医学講座　教授 | 山梨大学大学院総合研究部医学域社会医学講座教授 | 国立成育医療研究センター成育こどもシンクタンク  副所長,5
 石原理,石原 理,2,"cfa, mhlw",6,"cfa:shingikai, cfa:shingikai/kagaku_gijutsu, mhlw:shingi-kousei_127724, mhlw:shingi-kousei_472658_00001, mhlw:other-kodomo_145015_00003, mhlw:shingi-kousei_467561_00003",委員 / 委員長,女子栄養大学保健センター所長・栄養クリニック所長 | 日本栄養大学 保健センター所長・栄養クリニック所長 | いしはら　おさむ 女子栄養大学　教授 | 女子栄養大学教授 | 女子栄養大学  教授 | 日本栄養大学保健センター所長・栄養クリニック所長,7
 鳥潟美夏子,鳥潟美夏子,2,"cfa, mhlw",6,"cfa:shingikai/kodomo_kosodate/kanri, mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126707, mhlw:shingi-hosho_126708, mhlw:shingi-hosho_336720, mhlw:shingi-hosho_126734",,全国健康保険協会  理事 | 全国健康保険協会理事,0
-佐保昌一,佐保 昌一,2,"cfa, mhlw",5,"cfa:shingikai/kodomo_kosodate, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742, mhlw:shingi-hosho_443308, mhlw:shingi-hosho_126719",委員,NPO法人全国小規模保育協議会理事　認定NPO法人フローレンス会長 | 日本労働組合総連合会 総合政策推進局長 | 日本労働組合総連合会  総合政策推進局長 | 日本労働組合総連合会総合政策推進局長,1
 及川ゆりこ,及川ゆりこ,2,"cas, mhlw",5,"cas:ninchisho_kankeisha, mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742, mhlw:shingi-hosho_126734",,公益社団法人日本介護福祉士会  会長 | 公益社団法人日本介護福祉士会会長,0
 小崎健次郎,小崎健次郎,2,"cfa, mhlw",5,"cfa:shingikai/kagaku_gijutsu/nipt, mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_127724, mhlw:shingi-kousei_472658_00001, mhlw:other-kodomo_145015_00003",委員,慶應義塾大学医学部臨床遺伝学センター教授 | こさき　けんじろう 慶應義塾大学医学部臨床遺伝学センター　教授,5
 末吉里花,末吉里花,2,"env, caa",5,"env:03recycle/yoshi03, env:03recycle/yoshi03-15, env:regional_decarbonization, env:valuechain_decarbonization, caa:cepc/meeting_materials_7",委員,一般社団法人エシカル協会  代表理事 | 一般社団法人エシカル協会 代表理事 | 一般社団法人エシカル協会代表理事,8
 久保野恵美子,久保野恵美子,2,"cfa, moj",4,"cfa:shingikai/shakai_katei, cfa:shingikai/shakai_katei/tokubetsu-yoshi, cfa:shingikai/gyakutai_boushi, moj:shihouseido/housei10_00116",,東北大学大学院法学研究科教授,0
 井田博幸,井田 博幸,2,"cfa, mhlw",4,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_127724, mhlw:other-kodomo_145015_00003",委員,いだ　ひろゆき 学校法人慈恵大学理事 | 学校法人慈恵大学  理事,3
+堀有喜衣,堀 有喜衣,2,"cfa, mhlw",4,"cfa:shingikai/kihon_seisaku, mhlw:shingi-hosho_126693, mhlw:shingi-hosho_443308, mhlw:shingi-hosho_126721",委員,独立行政法人労働政策研究・研修機構 統括研究員 | 独立行政法人労働政策研究・研修機構  統括研究員 | 独立行政法人労働政策研究・研修機構副統括研究員,4
 堀田聰子,堀田聰子,2,"cas, mhlw",4,"cas:ninchisho_kankeisha, mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742",,慶應義塾大学大学院健康マネジメント研究科教授 | 慶応義塾大学大学院健康マネジメント研究科教授,0
 増田寬也,増田寬也,2,"cas, mof",4,"cas:atarashii_chihousousei, cas:digital_gyozaikaikaku, mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",委員,株式会社野村総合研究所顧問 | (株)野村総合研究所顧問,21
 太田直樹,太田直樹,2,"digital, cao",4,"digital:mynumber-digital-basis-wg, digital:digital-days, digital:smartphone-mynumbercard, cao:zei-cho",座長代理,株式会社 New Stories 代表取締役 | 税理士,6
@@ -71,6 +73,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 西山博之,西山 博之,2,"cfa, mhlw",4,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_127724, mhlw:shingi-kousei_472658_00001",委員,にしやま　ひろゆき 筑波大学医学医療系腎泌尿器外科学教授 | 筑波大学医学医療系臨床医学域腎泌尿器外科学教授,5
 野口晴子,野口晴子,2,"cfa, mhlw",4,"cfa:nyuyojinokenkoushinsatou-kentokai, mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126693, mhlw:shingi-hosho_126734",座長,早稲田大学政治経済学術院教授,0
 長嶋比呂志,長嶋 比呂志,2,"cfa, mhlw",4,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_127724, mhlw:shingi-kousei_472658_00001",委員,明治大学農学部専任教授 | ながしま　ひろし 明治大学農学部生命科学科メディカル・バイオエンジニアリング研究室教授 | 明治大学研究・知財戦略機構研究特別教授,6
+駒村康平,駒村 康平,2,"cfa, mhlw",4,"cfa:shingikai/kihon_seisaku, mhlw:shingi-hosho_443308, mhlw:shingi-hosho_126721, mhlw:shingi-hosho_126730",委員 / 座長,慶應義塾大学経済学部教授 | 慶應義塾大学経済学部  教授,15
 高山佳奈子,髙山 佳奈子,2,"cfa, mhlw",4,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001, mhlw:other-kodomo_145015_00003",委員,京都大学大学院法学研究科教授,5
 上山隆大,上山 隆大,2,"mod, cas",3,"mod:drastic-reinforcement, mod:dstb, cas:keizai_anzen_hosyohousei/4index",委員,前総合科学技術・イノベーション会議議員 | 政策研究大学院大学 客員教授,9
 伊藤悦郎,伊藤悦郎,2,"cfa, mhlw",3,"cfa:shingikai/kodomo_kosodate/kanri, mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126734",,健康保険組合連合会  常務理事 | 健康保険組合連合会常務理事,0
@@ -78,7 +81,6 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 勝又浜子,勝又浜子,2,"cfa, mhlw",3,"cfa:shingikai/kagaku_gijutsu, mhlw:shingi-kousei_127703, mhlw:shingi-kousei_127751",,公益社団法人日本看護協会 副会長 | かわかみ　じゅんいち 公益社団法人日本薬剤師会　副会長,0
 北村滋,北村 滋,2,"cas, cao",3,"cas:keizai_anzen_hosyohousei/4index, cas:keizai_anzen_hosyo_sc, cao:tochi-chosa/shingikai",委員,北村エコノミックセキュリティ 代表 | 北村エコノミックセキュリティ合同会社代表,10
 吉田隆行,吉田隆行,2,"cas, mhlw",3,"cas:kodomo_mirai, cas:digital_gyozaikaikaku, mhlw:shingi-hosho_126692",,全国町村会会長 | 全国町村会会長（広島県坂町長）,3
-堀有喜衣,堀 有喜衣,2,"cfa, mhlw",3,"cfa:shingikai/kihon_seisaku, mhlw:shingi-hosho_126693, mhlw:shingi-hosho_443308",委員,独立行政法人労働政策研究・研修機構 統括研究員 | 独立行政法人労働政策研究・研修機構  統括研究員,4
 大下英和,大下英和,2,"env, mhlw",3,"env:06earth/yoshi06-09, mhlw:shingi-tingin_127939, mhlw:shingi-tingin_127940",,日本商工会議所 産業政策第二部 部長 | 日本商工会議所産業政策第二部長 | 日本商工会議所前産業政策第二部長,0
 大須賀穣,大須賀穣,2,"cfa, mhlw",3,"cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_127724, mhlw:shingi-kousei_472658_00001",委員,東京大学大学院医学系研究科教授 | おおすが　ゆたか 東京大学大学院医学系研究科産婦人科学講座教授 | 帝京大学臨床研究センターセンター長・教授、医学部産婦人 科,2
 家森信善,家森信善,2,"mof, fsa",3,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_filp, fsa:kinyuchukai",,神戸大学経済経営研究所教授 | 神戸大学経済経営研究所 教授,0
@@ -109,6 +111,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 舘田一博,舘田一博,2,"cas, mhlw",3,"cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu, mhlw:shingi-kousei_401608",,東邦大学微生物・感染症学講座教授 | 東邦大学医学部 微生物・感染症学講座 教授,0
 藤村博之,藤村 博之,2,"mod, mhlw",3,"mod:chuuryu-kentou, mhlw:shingi-tingin_127939, mhlw:shingi-tingin_127940",座長,法政大学大学院イノベーション・マネジメント研究科教授 | 独立行政法人労働政策研究・研修機構理事長,0
 金丸恭文,金丸恭文,2,"digital, cas",3,"digital:administrative-research, cas:gskaigi, cas:digital_gyozaikaikaku",,フューチャー株式会社 代表取締役会長兼社長 | フューチャー株式会社 代表取締役会長,2
+釜萢敏,釜萢敏,2,"cas, mhlw",3,"cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu, mhlw:shingi-kousei_263447",,公益社団法人日本医師会常任理事 | （公社）日本医師会常任理事,0
 阿久津英憲,阿久津 英憲,2,"cfa, mhlw",3,"cfa:shingikai/kagaku_gijutsu, cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001",委員,国立成育医療研究センター研究所副所長,4
 ター,ター,2,"maff, env",2,"maff:zyuizi, env:05hoken/yoshi05-02",,教授 | 病理部 主任研究官,0
 三浦,三浦,2,"cfa, mhlw",2,"cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_467561_00003",委員,直 | 清,2
@@ -123,6 +126,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 中谷昇,中谷昇,2,"digital, fsa",2,"digital:digital-cybersecurity, fsa:kessai_kanmin",委員,日本電気株式会社 執行役 Chief Security Officer | 一般社団法人日本 IT 団体連盟専務理事（Z ホールディングス（株）常務執行役員）,2
 久慈直昭,久慈直昭,2,"cfa, mhlw",2,"cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001",委員,東京医科大学客員教授,2
 五十嵐仁一,五十嵐仁一,2,"cao, mext",2,"cao:scjarikata/kondankai, mext:gijyutu/gijyutu0",委員,日本工学アカデミー理事・副会長 | ENEOS 総研株式会社前代表取締役社長,1
+五十嵐克也,五十嵐克也,2,"cfa, mhlw",2,"cfa:shingikai/kodomo_kosodate, mhlw:shingi-hosho_439756",,日本商工会議所理事・企画調査部長 | 日本商工会議所理事,0
 井上永介,井上永介,2,"cfa, mhlw",2,"cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001",委員,昭和大学統括研究推進センター教授 | 昭和医科大学統括研究推進センター教授,4
 今村顕史,今村顕史,2,"cas, mhlw",2,"cas:ful/yusikisyakaigi, mhlw:shingi-kousei_403928",,東京都立駒込病院感染症センター長、感染症科部長 | がん・感染症センター都立駒込病院感染症科部長,0
 伊藤元重,伊藤 元重,2,"cao, env",2,"cao:invest-japan/committee, env:02policy/yoshi_aratana",委員,東京大学  名誉教授,1
@@ -146,10 +150,12 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 大友康裕,大友 康裕,2,"mod, cas",2,"mod:blood-transfusion, cas:suisinkaigi",委員,国立病院機構災害医療センター病院長 | 独立行政法人国立病院機構災害医療センター院長,3
 大屋雄裕,大屋雄裕,2,"digital, ppc",2,"digital:digital-talent-development-policy, ppc:koutekikenkyukai",,（慶應義塾大学法学部 教授） | 慶應義塾大学法学部法律学科教授,0
 大村敦志,大村敦志,2,"moj, mext",2,"moj:1/kanbou_houkyo_kyougikai_index, mext:chousa/kaihatu/016",,学習院大学法科大学院法務研究科  教授,5
+大野早苗,大野早苗,2,"mof, mhlw",2,"mof:customs_foreign_exchange/sub-foreign_exchange, mhlw:shingi-hosho_439756",,武蔵大学経済学部教授,0
 宇南山卓,宇南山卓,2,"mof, mhlw",2,"mof:fiscal_system_council/sub-of_fiscal_system, mhlw:shingi-hosho_126702",委員,京都大学経済研究所教授,10
 宮木由貴子,宮木由貴子,2,"fsa, caa",2,"fsa:singi_zidousya/zid_base, caa:cepc/meeting_materials_7",,元第一生命経済研究所 | 株式会社第一ライフグループ,0
 宮永俊一,宮永俊一,2,"mod, cao",2,"mod:drastic-reinforcement, cao:zei-cho",,三菱重工業㈱名誉顧問,8
 家保英隆,家保英隆,2,"cfa, mhlw",2,"cfa:shingikai/seiiku_iryou, mhlw:shingi-hosho_126716_00005",,高知県健康政策部部長 | 高知県理事（保健医療担当）兼健康政策部　医監 | 高知県理事（保健医療担当）兼健康政策部 医監,0
+寺井公子,寺井公子,2,"cao, mhlw",2,"cao:zei-cho, mhlw:shingi-hosho_126704",,慶應義塾大学経済学部教授,0
 寺田幸弘,寺田幸弘,2,"cfa, mhlw",2,"cfa:shingikai/kagaku_gijutsu/art, mhlw:shingi-kousei_472658_00001",委員,秋田大学大学院医学系研究科教授,2
 小山遊子,小山 遊子,2,"env, caa",2,"env:03recycle/yoshi03-04, caa:consumer_policy/information/food_loss/conference",,日本チェーンストア協会環境委員会委員 | 日本チェーンストア協会 環境委員会委員,2
 小川恵子,小川恵子,2,"digital, fsa",2,"digital:digital-system-reform-technology-based-regulatory-reform, fsa:digital_2026",,EY ストラテジー・アンド・コンサルティング株式会 | 公認会計士（ＥＹストラテジー・アンド・コンサルテ,0
@@ -168,12 +174,12 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 村上明子,村上明子,2,"digital, cas",2,"digital:digital-cybersecurity, cas:gskaigi",委員,ＳＯＭＰＯホールディングス株式会社執行役員常務グループ | ＡＩセーフティ・インスティテュート 所長,2
 東原敏昭,東原敏昭,2,"digital, cas",2,"digital:digital-cybersecurity, cas:digital_gyozaikaikaku",委員,株式会社日立製作所取締役会長代表執行役,2
 松下淳一,松下淳一,2,"moj, fsa",2,"moj:shihouseido/housei10_00116, fsa:soff",座長,学習院大学法学部教授,0
+松本,松本,2,"digital, cas",2,"digital:global-data-governance-advisory, cas:kokuminkaigi",,尚 デジタル大臣,0
 松本正義,松本正義,2,"cas, fsa",2,"cas:kanko_vision, fsa:follow-up",,一般財団法人関西観光本部理事長 | 住友電気工業株式会社  取締役会長,1
 松本珠実,松本珠実,2,"cfa, mhlw",2,"cfa:nyuyojinokenkoushinsatou-kentokai, mhlw:shingi-kousei_401608",,公益社団法人日本看護協会常任理事 | （公社）日本看護協会 常任理事,0
 梅津英明,梅津 英明,2,"cas, caa",2,"cas:keizai_anzen_hosyo_sc, caa:consumer_policy/information/food_loss/conference",委員,森・濱田松本法律事務所 パートナー弁護士 | 森・濱田松本法律事務所(ニューヨークオフィス)パートナー | 森・濱田松本法律事務所外国法共同事業(ニューヨークオフィス)パートナー,14
 植田健一,植田健一,2,"mof, fsa",2,"mof:customs_foreign_exchange/sub-foreign_exchange, fsa:ai_forum",,東京大学大学院経済学研究科兼公共政策大学院教授,0
 榊原定征,榊原定征,2,"mod, mof",2,"mod:drastic-reinforcement, mof:fiscal_system_council/sub-of_fiscal_system",座長 / 委員,,16
-権丈善一,権丈善一,2,"cas, cao",2,"cas:kodomo_mirai, cao:zei-cho",,慶應義塾大学商学部教授,8
 橋本和仁,橋本和仁,2,"mod, cas",2,"mod:drastic-reinforcement, cas:boueiryoku_kaigi/sogoteki_kokuryoku",,,13
 水島郁子,水島郁子,2,"cas, mhlw",2,"cas:kodomo_mirai, mhlw:shingi-rousei_126969_00004",,大阪大学理事・副学長 | 大阪大学大学院高等司法研究科教授,5
 永井良三,永井良三,2,"cas, cao",2,"cas:souyakuryoku, cao:scjarikata/kondankai",,自治医科大学学長 | 自治医科大学長（循環器学）,0
@@ -192,6 +198,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 石原直子,石原直子,2,"digital, mhlw",2,"digital:digital-cybersecurity, mhlw:shingi-rousei_126986",委員,株式会社エクサウィザーズ はたらく AI＆DX 研究所 所長 | 横浜国立大学大学院国際社会科学研究院教授,2
 石山志保,石山志保,2,"cas, cao",2,"cas:atarashii_chihousousei, cao:zei-cho",,福井県大野市長 | 大野市長,0
 福井次矢,福井次矢,2,"cfa, mhlw",2,"cfa:shingikai/kagaku_gijutsu/nipt, mhlw:shingi-kousei_430263",委員,◎ 東京医科大学茨城医療センター病院長 | 東京医科大学茨城医療センター病院長,5
+福田慎一,福田慎一,2,"mof, mhlw",2,"mof:fiscal_system_council/sub-of_fiscal_system, mhlw:shingi-hosho_439756",委員,東京都立大学特任教授・武蔵野大学特任教授 | 東京大学大学院経済学研究科教授,43
 筒井義信,筒井義信,2,"cas, mof",2,"cas:atarashii_sihonsyugi, mof:fiscal_system_council/soukai",,日本経済団体連合会会長 | 日本生命保険相互会社特別顧問,0
 芦沢和人,芦澤和人,2,"env, mhlw",2,"env:05hoken/yoshi05-09, mhlw:shingi-rousei_126975",,長崎大学大学院 医歯薬学総合研究科展開医療科学講座臨床腫瘍学分野教授 | 研究分担者,0
 菰田正信,菰田正信,2,"cao, mlit",2,"cao:invest-japan/committee, mlit:s103_kokudoseisaku",,三井不動産株式会社  代表取締役会長 | 三井不動産株式会社専務取締役,0
@@ -212,11 +219,11 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 郷野智砂子,郷野 智砂子,2,"maff, caa",2,"maff:sizai, caa:consumer_policy/information/food_loss/conference",委員,一 般 社 団 法 人 全 国 消 費 者 団 体 連 絡 会 事 務 局 長 | 一般社団法人 全国消費者団体連絡会 事務局長,6
 酒井啓亘,酒井啓亘,2,"digital, cas",2,"digital:data-security-wg, cas:cyber_anzen_hosyo",,早稲田大学法学学術院 教授 | 早稲田大学法学学術院教授,0
 野沢和弘,野澤和弘,2,"cfa, mhlw",2,"cfa:ijime-judaikayoin, mhlw:shingi-hosho_126730",,植草学園大学副学長（教授） | 植草学園大学副学長（教授）／一般社団法人スローコミュニケーション代表,0
+金子,金子,2,"cas, fsa",2,"cas:keizai_anzen_hosyo, fsa:singi_zidousya/zid_base",,原二郎 農林水産大臣 | 晃 浩 全日本自動車産業労働組合総連合会会長,0
 金田安史,金田安史,2,"cfa, mhlw",2,"cfa:shingikai/kagaku_gijutsu/art, mhlw:other-kodomo_145015_00003",委員,大阪大学理事・副学長 | 大阪大学理事・副学長（兼  共創機構  副機構長）,2
 鈴木康裕,鈴木 康裕,2,"mod, cas",2,"mod:blood-transfusion, cas:kanko_vision",座長,国際医療福祉大学学長 | ライブラ株式会社代表取締役社長,5
 長谷川秀樹,長谷川秀樹,2,"cas, mhlw",2,"cas:ful/yusikisyakaigi, mhlw:shingi-kousei_127717",,国立感染症研究所インフルエンザウイルス研究センター長 | 国立感染症研究所インフルエンザ・呼吸器系ウイルス研究,0
 青木節子,青木 節子,2,"mod, cas",2,"mod:shi-chu, cas:keizai_anzen_hosyohousei/4index",委員,千葉工業大学特別教授 | 慶應義塾大学大学院教授 | 千葉工業大学 審議役・特別教授 | 慶應義塾大学大学院法務研究科 教授北村滋北村エコノミックセキュリティ 代表久貝卓日本商工会議所 常務理事,2
-駒村康平,駒村 康平,2,"cfa, mhlw",2,"cfa:shingikai/kihon_seisaku, mhlw:shingi-hosho_443308",委員,慶應義塾大学経済学部  教授,15
 高崎邦子,髙﨑邦子,2,"cfa, cas",2,"cfa:hoikujinzai, cas:kanko_vision",,株式会社 JTB 執行役員 DEIB 推進担当 | 株式会社 JTB 執行役員,1
 高橋,高橋,2,"moj, env",2,"moj:1/shingikai_soukai, env:02policy/yoshi02",,ひ ろ し 中央大学法科大学院教授 | か つ ひ ろ 稲城市長,0
 高橋政代,髙橋政代,2,"cas, mhlw",2,"cas:souyakuryoku, mhlw:shingi-kousei_247499",,株式会社ビジョンケア代表取締役社長 | 株式会社ビジョンケア  代表取締役社長,0
@@ -230,6 +237,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 金沢貞幸,金澤貞幸,1,env,6,"env:03recycle/yoshi03, env:03recycle/yoshi03-17, env:03recycle/yoshi03-15, env:03recycle/yoshi03-19, env:03recycle/yoshi03-04, env:03recycle/yoshi03-18",,公益社団法人全国都市清掃会議 専務理事 | 公益社団法人全国都市清掃会議  専務理事 | 公益社団法人全国都市清掃会議専務理事,0
 佐原博之,佐原博之,1,mhlw,5,"mhlw:shingi-hosho_126716_00005, mhlw:other-kodomo_145015_00003, mhlw:shingi-kousei_467561_00003, mhlw:shingi-kousei_127745, mhlw:shingi-kousei_127751",,(公社)日本医師会常任理事 | 日本医師会常任理事 | 公益社団法人日本医師会  常任理事 | 公益社団法人日本医師会 常任理事 | 公益社団法人 日本医師会 常任理事,0
 増島雅和,増島 雅和,1,digital,5,"digital:data-platform-sub-wg, digital:digital-system-reform, digital:administrative-research-wg, digital:base-registry-advisory-board, digital:global-data-governance",委員,森・濱田松本法律事務所  パートナー弁護士 | （弁護士  森・濱田松本法律事務所） | 弁護士 森・濱田松本法律事務所 | 弁護士  森・濱田松本法律事務所,6
+新保美香,新保美香,1,mhlw,5,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_126702, mhlw:shingi-hosho_443308, mhlw:shingi-hosho_126730",,明治学院大学教授 | 明治学院大学社会学部教授 | 明治学院大学社会学部  教授,0
 上鹿渡和宏,上鹿渡 和宏,1,cfa,4,"cfa:shingikai, cfa:shingikai/shakai_katei, cfa:shingikai/shakai_katei/care-needs, cfa:shingikai/gyakutai_boushi",委員,早稲田大学人間科学学術院教授,5
 今村英仁,今村英仁,1,mhlw,4,"mhlw:shingi-hosho_443308, mhlw:shingi-hosho_126707, mhlw:shingi-hosho_126708, mhlw:shingi-hosho_336720",,日本医師会  常任理事 | 日本医師会常任理事,0
 倉石哲也,倉石 哲也,1,cfa,4,"cfa:shingikai, cfa:shingikai/kodomo_kosodate, cfa:shingikai/hoiku_senmon, cfa:shingikai/gyakutai_boushi",委員,武庫川女子大学心理・社会福祉学部教授 | 武庫川女子大学心理・社会福祉学部社会福祉学科教授,4
@@ -242,7 +250,6 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 平井伸治,平井 伸治,1,cas,4,"cas:kodomo_mirai, cas:ful/taisakusuisin, cas:ful/yusikisyakaigi, cas:coronavirus_yushiki",会長,鳥取県知事 | 全国市長会,7
 後藤弘子,後藤弘子,1,mhlw,4,"mhlw:shingi-kousei_467561_00003, mhlw:shingi-kousei_247499, mhlw:shingi-kousei_429941, mhlw:shingi-kousei_429941_00001",,千葉大学大学院専門法務研究科  教授 | 千葉大学理事・副学長 | 千葉大学  理事・副学長,0
 所千晴,所千晴,1,env,4,"env:03recycle/yoshi03, env:03recycle/yoshi03-16, env:03recycle/yoshi03-15, env:03recycle/yoshi03-14",,早稲田大学理工学術院長 教授／東京大学大学院工学系研究科 教授 | 早稲田大学理工学術院  創造理工学部  教授 | 早稲⽥⼤学理⼯学術院教授  /  東京⼤学⼤学院⼯学系研究科教授 | 早稲田大学理工学術院創造理工学部 教授,0
-新保美香,新保美香,1,mhlw,4,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126700, mhlw:shingi-hosho_126702, mhlw:shingi-hosho_443308",,明治学院大学社会学部教授 | 明治学院大学社会学部  教授,0
 有村大士,有村 大士,1,cfa,4,"cfa:shingikai, cfa:shingikai/kihon_seisaku, cfa:shingikai/kodomo_sodachi, cfa:shingikai/kodomo_sodachi/hoikushi_shikaku",委員,日本社会事業大学社会福祉学部教授 | 日本社会事業大学 社会福祉学部 教授,24
 松岡直美,松岡直美,1,fsa,4,"fsa:singi_kigyou/top, fsa:revision_corporategovernance, fsa:stewardship, fsa:follow-up",,ソニー銀行(株)代表取締役副社長 | ソニー銀行株式会社  代表取締役副社長 | ソニーグループ株式会社 執行役員,0
 根村玲子,根村玲子,1,env,4,"env:03recycle/yoshi03, env:03recycle/yoshi03-19, env:03recycle/yoshi03-04, env:demandstimulation_decarbonization",,公益社団法人日本消費生活アドバイザー・コンサルタント・相談員協会 | 公益社団法人日本消費生活アドバイザー・コンサルタント・相談員協会環境委員会委員長,0
@@ -256,6 +263,8 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 錦織千佳子,錦織千佳子,1,mhlw,4,"mhlw:shingi-hosho_126716_00005, mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_127744, mhlw:shingi-kousei_206844",,兵庫県赤十字血液センター 所長 | 兵庫県赤十字血液センター　所長,0
 ジェン,ジェン,1,fsa,3,"fsa:revision_corporategovernance, fsa:stewardship, fsa:follow-up",,"シッソン Chief Executive Officer, International Corporate | シッソン Chief Executive Officer,",0
 ブローハン聡,ブローハン聡,1,cfa,3,"cfa:shingikai, cfa:shingikai/shakai_katei, cfa:shingikai/shakai_katei/care-needs",,一般社団法人コンパスナビ代表理事,0
+三沢日出巳,三澤日出巳,1,mhlw,3,"mhlw:shingi-kousei_430263, mhlw:shingi-idou_127804, mhlw:shingi-idou_127805",座長,慶應義塾大学薬学部教授 | 慶應義塾大学薬学部 教授 | 慶應義塾大学 薬学研究科 教授,0
+上野,上野,1,cas,3,"cas:cybersecurity_kakuryokaigi, cas:nipponseichosenryaku, cas:kokuminkaigi",,賢一郎 厚生労働大臣,0
 中村みどり,中村みどり,1,cfa,3,"cfa:Judicial-Review-Working-Team-on-Temporary-Protection, cfa:shingikai/iken_senmon, cfa:shingikai/gyakutai_boushi",,Children's Views & Voices 副代表 | Children's Views & Voices  副代表,0
 亀坂安紀子,亀坂安紀子,1,mof,3,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_national_property, mof:customs_foreign_exchange/sub-foreign_exchange",,青山学院大学経営学部教授,0
 亀山康子,亀山康子,1,env,3,"env:01chuo/yoshi01, env:06earth/yoshi06, env:02policy/yoshi02-06",,大学院大学至善館教授、幸せ経済社会研究所所長 | 東京大学大学院  新領域創成科学研究科附属サステイナブ | 東京大学大学院新領域創成科学研究科附属サステイナブル社,0
@@ -276,6 +285,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 小泉勇人,小泉 勇人,1,cfa,3,"cfa:shingikai, cfa:shingikai/kihon_seisaku, cfa:shingikai/kodomo_sodachi",委員,株式会社 en's life 代表取締役社長,6
 小野田弘士,小野田 弘士,1,env,3,"env:03recycle/yoshi03, env:02policy/yoshi02-06, env:02policy/yoshi_aratana",委員,早稲田大学  理工学術院  大学院環境・エネルギー研究科 | 早稲田大学大学院環境・エネルギー研究科 教授,2
 山口照英,山口照英,1,mhlw,3,"mhlw:other-kodomo_145015_00003, mhlw:shingi-kousei_467561_00003, mhlw:shingi-kousei_247499",,近畿大学医学部内科学教室腫瘍内科部門  教授 | 日本薬科大学  客員教授 | 金沢工業大学・加齢医工学先端技術研究所  所長・特任教授／,0
+山口由紀子,山口由紀子,1,mhlw,3,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_163664_00006, mhlw:shingi-hosho_439756",,相模女子大学教授 | 相模女子大学人間社会学部教授,0
 岡山朋子,岡山朋子,1,env,3,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-19, env:03recycle/yoshi03-18",,大正大学 地域創生学部 地域創生学科 教授 | 大正大学地域創生学部 教授 | 大正大学地域創生学部地域創生学科教授,0
 岡村智教,岡村智教,1,mhlw,3,"mhlw:shingi-kousei_127751, mhlw:shingi-kousei_127752_00007, mhlw:shingi-kousei_127752_00008",,慶應義塾大学医学部教授 | 慶応義塾大学医学部 教授,0
 岡田譲治,岡田譲治,1,fsa,3,"fsa:follow-up, fsa:jyouhouteikyou, fsa:governance_code",,日本航空株式会社  社外監査役 | （ 公社） 日本監査役協会会長 | 日本航空（株）社外監査役,0
@@ -302,8 +312,11 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 水沢英洋,水澤英洋,1,mhlw,3,"mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_467561_00004, mhlw:shingi-kousei_206844",座長,国立研究開発法人国立精神・神経医療研究センター 理事長特任補佐・名誉理事長 | 国立精神・神経医療研究センター 理事長特任補佐・名誉理事長,0
 池田三知子,池田三知子,1,env,3,"env:03recycle/yoshi03-16, env:03recycle/yoshi03-04, env:06earth/yoshi06-09",,（一社）日本経済団体連合会 環境エネルギー本部長 | 一般社団法人日本経済団体連合会環境エネルギー本部長 | 一般社団法人日本経済団体連合会 環境エネルギー本部長 | (一社)日本経済団体連合会環境エネルギー本部長,0
 河野真理子,河野真理子,1,mof,3,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-of_customs, mof:customs_foreign_exchange/sub-foreign_exchange",,早稲田大学法学学術院教授,0
+津谷典子,津谷典子,1,mhlw,3,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126693, mhlw:shingi-hosho_126704",,慶應義塾大学教授 | 慶應義塾大学名誉教授,0
 清水順子,清水順子,1,mof,3,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-of_customs, mof:customs_foreign_exchange/sub-foreign_exchange",,学習院大学経済学部教授,0
+渡辺大記,渡邊大記,1,mhlw,3,"mhlw:shingi-idou_127805, mhlw:shingi-chuo_128157, mhlw:shingi-chuo_128158",,日本医師会常任理事 | 日本医師会副会長 | 愛知学院大学 薬学部 教授,0
 渡部俊也,渡部 俊也,1,cas,3,"cas:intelligent_features_kyoka, cas:keizai_anzen_hosyohousei/4index, cas:keizai_anzen_hosyo_sc",委員 / 座長,東京大学未来ビジョン研究センター 教授 | 東京大学未来ビジョン研究センター 教授【座長】 | 日本労働組合総連合会総合政策推進局総合局長法政大学人間環境学部 教授日本商工会議所 常務理事一般社団法人 日本経済団体連合会 常務理事明星大学経営学部 教授東京大学未来ビジョン研究センター 教授【座長】,12
+片山,片山,1,cas,3,"cas:gskaigi, cas:nipponseichosenryaku, cas:kokuminkaigi",,さつき 財務大臣,0
 甲田恵子,甲田恵子,1,digital,3,"digital:mobility-working-group, digital:mobility-roadmap, digital:digital-transportation-society",,株式会社  AsMama  代表取締役社長 | 株式会社 AsMama 代表取締役社長,0
 町野静,町野静,1,env,3,"env:03recycle/yoshi03-04, env:03recycle/yoshi03-18, env:06earth/yoshi06-07",,弁護士法人イノベンティア 弁護士 | 弁護士,0
 畠山一成,畠山 一成,1,cas,3,"cas:chiikimirai, cas:keizai_anzen_hosyohousei/4index, cas:keizai_anzen_hosyo_sc",委員,日本商工会議所 常務理事 | 経済同友会政策調査部長                  藤井 大樹,3
@@ -328,11 +341,11 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 黒瀨巌,黒瀨巌,1,mhlw,3,"mhlw:shingi-kousei_127744, mhlw:shingi-kousei_127752_00007, mhlw:shingi-kousei_127752_00008",,公益社団法人日本医師会 常任理事 | 公益社団法人日本医師会常任理事 | 公益社団法人日本医師会  常任理事,0
 三井弘樹,三井弘樹,1,env,2,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-15",,一般社団法人全国清掃事業連合会 会長 | 一般社団法人全国清掃事業連合会  会長,0
 三島茂徳,三島 茂徳,1,mod,2,"mod:dstb, mod:ts-ships",委員 / 座長,元防衛装備庁防衛技監,4
-三沢日出巳,三澤日出巳,1,mhlw,2,"mhlw:shingi-kousei_430263, mhlw:shingi-idou_127804",,慶應義塾大学薬学部教授 | 慶應義塾大学薬学部 教授,0
+三浦宏子,三浦宏子,1,mhlw,2,"mhlw:shingi-idou_127794, mhlw:shingi-idou_341268",,北海道医療大学  教授 | 北海道医療大学歯学部特任教授,0
 三瓶裕喜,三瓶裕喜,1,fsa,2,"fsa:stewardship, fsa:follow-up",,アストナリング・アドバイザー合同会社 代表 | アストナリング・アドバイザー合同会社  代表,0
+三田智文,三田智文,1,mhlw,2,"mhlw:shingi-idou_127804, mhlw:shingi-idou_127805",,順天堂大学 特任教授 | 順天堂大学 薬学部薬学教育研究センター 特任教授,0
 三石誠司,三石誠司,1,mof,2,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-of_customs",,宮城大学食産業学群教授,0
 上原哲太郎,上原 哲太郎,1,digital,2,"digital:mynumber-digital-basis-wg, digital:security-architecture",委員,立命館大学情報理工学部教授 | 立命館大学 情報理工学部 教授,2
-上野,上野,1,cas,2,"cas:cybersecurity_kakuryokaigi, cas:nipponseichosenryaku",,賢一郎 厚生労働大臣,0
 下野久里子,下野久里子,1,mhlw,2,"mhlw:shingi-kousei_284075, mhlw:0000167071_450973_00001",,大阪大学大学院連合小児発達学研究科  教授,0
 中山ひとみ,中山ひとみ,1,cas,2,"cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu",,霞ヶ関総合法律事務所  弁護士 | 霞ヶ関総合法律事務所弁護士,0
 中島栄,中島栄,1,mhlw,2,"mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126734",,全国町村会行政委員・茨城県美浦村長,0
@@ -353,7 +366,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 伊藤恵子,伊藤恵子,1,mof,2,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-of_customs",,専修大学経済学部教授 | 中央大学商学部教授,0
 伊藤清美,伊藤清美,1,mhlw,2,"mhlw:shingi-kousei_284075, mhlw:0000167071_450973_00001",,武蔵野大学薬学部薬物動態学研究室 教授,0
 伊藤澄信,伊藤澄信,1,mhlw,2,"mhlw:shingi-kousei_284075, mhlw:0000167071_450973_00001",,順天堂大学医学部附属順天堂医院臨床研究・治験センター長 | 順天堂大学医学部附属順天堂医院臨床研究・治験センター  センター長  特任教授,0
-伊豫雅臣,伊豫雅臣,1,mhlw,2,"mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126733",,（部会長） | 国際医療福祉大学精神医学統括教授,0
+伊豫雅臣,伊豫雅臣,1,mhlw,2,"mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126733",,国際医療福祉大学精神医療統括教授 | （部会長）,0
 佃秀昭,佃秀昭,1,fsa,2,"fsa:stewardship, fsa:follow-up",,株式会社ボードアドバイザーズ 代表取締役社長 | 株式会社ボードアドバイザーズ  代表取締役社長,0
 佐々江賢一郎,佐々江賢一郎,1,cas,2,"cas:boueiryoku_kaigi/sogoteki_kokuryoku, cas:cyber_anzen_hosyo",,公益財団法人 日本国際問題研究所理事長,5
 佐久間一浩,佐久間一浩,1,mhlw,2,"mhlw:shingi-tingin_127939, mhlw:shingi-tingin_127940",,全国中小企業団体中央会事務局次長 | 全国中小企業団体中央会前事務局次長,0
@@ -364,6 +377,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 倉知延章,倉知延章,1,mhlw,2,"mhlw:shingi-hosho_126716_00005, mhlw:shingi-kousei_127744",,九州産業大学 人間科学部臨床心理学科　教授,0
 八木田樹,八木田樹,1,digital,2,"digital:digital-system-reform-wg-legal-practice, digital:administrative-research-wg-legal-practice-team",,（株）Legalscape 代表取締役・最高経営責任者,0
 内堀雅雄,内堀雅雄,1,mhlw,2,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_443308",,全国知事会社会保障常任委員会委員長（福島県知事） | 福島県知事,0
+内田まやこ,内田まやこ,1,mhlw,2,"mhlw:shingi-idou_127804, mhlw:shingi-idou_127805",,九州大学病院 教授・薬剤部長 | 九州大学付属病院 薬剤部長,0
 内田勝彦,内田勝彦,1,cfa,2,"cfa:kyuyusei-hoshokin, cfa:hoshokin-yuseishujutsu",,（うちだ  かつひこ）,0
 内田貴和,内田貴和,1,fsa,2,"fsa:ai_forum, fsa:kessai_kanmin",,三井物産（株）代表取締役専務執行役員 CFO | 株式会社みずほフィナンシャルグループ社外取締役,0
 円谷昭一,円谷昭一,1,fsa,2,"fsa:revision_corporategovernance, fsa:follow-up",,一橋大学大学院経営管理研究科  教授,0
@@ -380,6 +394,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 南光開斗,南光 開斗,1,cfa,2,"cfa:shingikai, cfa:shingikai/kihon_seisaku",委員,大学生,3
 南砂,南砂,1,cas,2,"cas:ful/yusikisyakaigi, cas:souyakuryoku",,読売新聞東京本社常務取締役  調査研究本部長 | 読売新聞東京本社常務取締役調査研究担当,0
 原一郎,原 一郎,1,cas,2,"cas:keizai_anzen_hosyohousei/4index, cas:keizai_anzen_hosyo_sc",委員,日本経済団体連合会 専務理事 | 一般社団法人 日本経済団体連合会 常務理事 | 法政大学人間環境学部 教授一般社団法人 日本経済団体連合会 常務理事 | 日本労働組合総連合会総合政策推進局総合局長法政大学人間環境学部 教授日本商工会議所 常務理事明星大学経営学部 教授一般社団法人 日本経済団体連合会 常務理事,8
+原佳奈子,原佳奈子,1,mhlw,2,"mhlw:shingi-hosho_126721, mhlw:shingi-hosho_439756",,株式会社ＴＩＭコンサルティング取締役,0
 原田伊織,原田 伊織,1,cfa,2,"cfa:shingikai, cfa:shingikai/kihon_seisaku",委員,,16
 原田俊丈,原田俊丈,1,mhlw,2,"mhlw:shingi-hosho_163664_00006, mhlw:shingi-hosho_198345",,ワタナベ  キヌコ | 公益社団法人日本年金数理人会理事長,0
 原田喜美枝,原田喜美枝,1,mof,2,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-foreign_exchange",,中央大学商学部教授,0
@@ -396,6 +411,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 土井真一,土井真一,1,moj,2,"moj:1/kanbou_houkyo_kyougikai_index, moj:shihouseido/housei10_00116",,進 委 員 会 委 員 長 | 京都大学大学院法学研究科教授,14
 坂上博,坂上博,1,mhlw,2,"mhlw:shingi-hosho_126716_00005, mhlw:shingi-kousei_127744",,読売新聞東京本社調査研究本部 主任研究員,0
 坂元龍三,坂元龍三,1,mof,2,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-of_customs",,(公社)関西経済連合会副会長(東洋紡(株)代表取締役会長) | （公社）関西経済連合会理事（東洋紡（株）相談役）,0
+城内実,城内実,1,cas,2,"cas:nipponseichosenryaku, cas:kokuminkaigi",,内閣官房長官（副議長） | 全世代型社会保障改革担当大臣,0
 城守国斗,城守国斗,1,mhlw,2,"mhlw:other-hoken_474087_00004, mhlw:shingi-hosho_126719",,日本医師会常任理事,0
 堀井亮,堀井 亮,1,env,2,"env:06earth/yoshi06-23, env:02policy/yoshi_kihonteki",委員,大阪大学社会経済研究所 教授,3
 堀内麻祐子,堀内麻祐子,1,mhlw,2,"mhlw:shingi-tingin_127939, mhlw:shingi-tingin_127940",,株式会社センショー代表取締役,0
@@ -427,8 +443,10 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 小幡純子,小幡純子,1,cao,2,"cao:sasshin/kondan, cao:scjarikata/kondankai",,上智大学法科大学院教授 | 日本大学大学院法務研究科教授（行政法）,0
 小林いずみ,小林いずみ,1,fsa,2,"fsa:singi_kinyu/base, fsa:mdth_kon",,オムロン株式会社社外取締役 | メリルリンチ日本証券㈱ 代表取締役社長,0
 小林啓孝,小林 啓孝,1,mod,2,"mod:keihiritsu, mod:cho-teki",会長,早稲田大学大学院会計研究科 教授 | 慶應義塾大学商学部教授,0
+小林洋一,小林洋一,1,mhlw,2,"mhlw:shingi-hosho_126721, mhlw:shingi-hosho_163664_00006",,日本商工会議所社会保障専門委員会委員,0
 小枝淳子,小枝淳子,1,mof,2,"mof:fiscal_system_council/sub-of_filp, mof:customs_foreign_exchange/soukai",,早稲田大学政治経済学術院准教授 | 早稲田大学政治経済学術院教授,0
 小枝達也,小枝達也,1,cfa,2,"cfa:shingikai/hoiku_senmon, cfa:shingikai/kagaku_gijutsu",,鳥取県立総合療育センター  院長 | 鳥取県立総合療育センター 院長,0
+小沢孝一郎,小澤孝一郎,1,mhlw,2,"mhlw:shingi-idou_127804, mhlw:shingi-idou_127805",,広島大学大学院医系科学研究科 教授・副学長 | 広島大学 副学長,0
 小泉,小泉,1,cas,2,"cas:cybersecurity_kakuryokaigi, cas:nipponseichosenryaku",,進次郎 防衛大臣,0
 小泉立志,小泉立志,1,mhlw,2,"mhlw:shingi-hosho_126698_00022, mhlw:shingi-hosho_126734",,公益社団法人全国老人福祉施設協議会副会長,0
 小笠原靖治,小笠原靖治,1,mhlw,2,"mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742",,公益社団法人日本介護福祉士養成施設協会理事 | 公益社団法人日本介護福祉士養成施設協会副会長,0
@@ -442,18 +460,21 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 山下英俊,山下英俊,1,mhlw,2,"mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_206844",,山形市保健所 保健医療監,0
 山下輝夫,山下輝夫,1,mhlw,2,"mhlw:shingi-kousei_127752_00007, mhlw:shingi-kanen_128247",,兵庫県保健医療部長（全国衛生部長会） | 全国Ｂ型肝炎訴訟東京原告団,0
 山口敦子,山口敦子,1,env,2,"env:20ari-yatsu/yoshi20-04, env:20ari-yatsu/yoshi20-05",,長崎大学  総合生産科学域  教授,0
-山口由紀子,山口由紀子,1,mhlw,2,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_163664_00006",,相模女子大学教授 | 相模女子大学人間社会学部教授,0
 山本一太,山本一太,1,mhlw,2,"mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742",,全国知事会（群馬県知事）,0
 山本則子,山本則子,1,mhlw,2,"mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126734",,公益社団法人日本看護協会副会長,0
 山本裕史,山本 裕史,1,env,2,"env:05hoken/yoshi05-01, env:49wat-doj/yoshi49-04",委員長,国立研究開発法人国立環境研究所  名誉研究員 | 国立研究開発法人国立環境研究所,1
+山本龍生,山本龍生,1,mhlw,2,"mhlw:shingi-idou_127794, mhlw:shingi-idou_341268",,神奈川歯科大学  副学長 | 神奈川歯科大学教授,0
 山田沢明,山田 澤明,1,mod,2,"mod:seisaku, mod:dokuritsu",委員,株式会社エグゼクティブ・パートナーズ / 理事 | 株式会社野村総合研究所 常勤監査役 | 北海道大学東京オフィス所長・特任教授 | 北海道大学 客員教授,4
 山縣文治,山縣 文治,1,cfa,2,"cfa:shingikai, cfa:shingikai/kodomo_sodachi/hoikushi_shikaku",委員,全国認定こども園協会副代表理事（こども園ふじ,5
 山谷清志,山谷 清志,1,mod,2,"mod:seisaku, mod:dokuritsu",座長,同志社大学 / 名誉教授 | 同志社大学大学院 総合政策科学研究科 教授 | 同志社大学大学院 総合政策科学研究科教授 | 同志社大学 政策学部教授 | 同志社大学大学院 政策学部教授 | 同志社大学 名誉教授,7
 岡本浩,岡本浩,1,digital,2,"digital:mobility-working-group, digital:mobility-roadmap",,東京電力パワーグリッド株式会社 代表取締役副社長 | 東京電力パワーグリッド株式会社代表取締役副社長,0
 岩坪威,岩坪威,1,cas,2,"cas:ninchisho_kankeisha, cas:ninchisho",,国立研究開発法人国立精神・神経医療研究センター  所長 | 東京大学大学院医学系研究科 教授,0
 岩崎香,岩崎香,1,cfa,2,"cfa:kyuyusei-hoshokin, cfa:jinkoninshinchuzetsu-ichijikin",,（いわさき  かおり）,0
+岩月進,岩月進,1,mhlw,2,"mhlw:shingi-idou_127804, mhlw:shingi-idou_127805",,公益社団法人日本薬剤師会　会長 | 株式会社出石薬局 代表取締役,0
 岩船由美子,岩船由美子,1,env,2,"env:06earth/yoshi06-09, env:35hairyo-keiyaku/yoshi35",委員,東京大学生産技術研究所教授 | 東京大学生産技術研究所エネルギーシステムインテグレーシ,7
+島村暁代,島村暁代,1,mhlw,2,"mhlw:shingi-hosho_126721, mhlw:shingi-hosho_163664_00006",,立教大学法学部教授,0
 崎田裕子,崎田裕子,1,env,2,"env:01chuo/yoshi01, env:03recycle/yoshi03-04",,ジャーナリスト・環境カウンセラー | 国立研究開発法人国立環境研究所名誉研究員,0
+嵩さやか,嵩さやか,1,mhlw,2,"mhlw:shingi-hosho_126702, mhlw:shingi-hosho_126721",,東北大学大学院法学研究科教授,0
 川井健,川井 健,1,mod,2,"mod:cho-teki, mod:cho-sei",座長,帝京大学法学部教授 | 帝京大学法学部教授（元一橋大学長）,0
 川井太加子,川井太加子,1,mhlw,2,"mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742",,桃山学院大学社会学部教授,0
 川口有一郎,川口有一郎,1,mof,2,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_national_property",,早稲田大学名誉教授 | 早稲田大学大学院経営管理研究科教授,0
@@ -473,7 +494,9 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 押谷仁,押谷仁,1,cas,2,"cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu",,東北大学大学院医学系研究科微生物学分野教授 | 東北大学大学院医学系研究科微生物分野教授,0
 持田智,持田智,1,mhlw,2,"mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_206844",,埼玉医科大学医学部消化器内科・肝臓内科教授,0
 掛江直子,掛江直子,1,mhlw,2,"mhlw:shingi-kousei_467561_00003, mhlw:shingi-kousei_247499",,国立研究開発法人国立成育医療研究センター生命倫理研究室  室長 | 国立成育医療研究センター研究開発監理部  生命倫理研究室長,0
+斎藤,齋藤,1,cas,2,"cas:kokuminkaigi, cas:digitalmarket/kyosokaigi",,健 経済産業大臣 | アレックス 政務調査会長,0
 斎藤玲子,齋藤玲子,1,mhlw,2,"mhlw:shingi-kousei_284075, mhlw:0000167071_450973_00001",,新潟大学大学院医歯学総合研究科国際保健学分野  教授,0
+斎藤隆史,斎藤隆史,1,mhlw,2,"mhlw:shingi-idou_127794, mhlw:shingi-idou_341268",,北海道医療大学  教授 | 北海道医療大学歯学部教授,0
 新保幸男,新保 幸男,1,cfa,2,"cfa:shingikai, cfa:shingikai/kihon_seisaku",委員 / 会長代理,神奈川県立保健福祉大学保健福祉学部教授,23
 新浪剛史,新浪剛史,1,cas,2,"cas:kodomo_mirai, cas:atarashii_sihonsyugi",,サントリーホールディングス株式会社代表取締役社長 | 経済同友会代表幹事,6
 新田秀司,新田秀司,1,mhlw,2,"mhlw:shingi-tingin_127939, mhlw:shingi-tingin_127940",,一般社団法人日本経済団体連合会労働政策本部長,0
@@ -486,6 +509,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 曽根川紀子,曽根川紀子,1,env,2,"env:03recycle/yoshi03-17, env:03recycle/yoshi03-15",,一般社団法人日本環境保全協会 専務理事 | 一般社団法人日本環境保全協会  専務理事,0
 曽根直樹,曽根直樹,1,cfa,2,"cfa:kyuyusei-hoshokin, cfa:jinkoninshinchuzetsu-ichijikin",,（そね  なおき）,0
 有村俊秀,有村俊秀,1,env,2,"env:01chuo/yoshi01, env:demandstimulation_decarbonization",,座長 | 井上  久美枝  日本労働組合総連合会副事務局長,0
+木原,木原,1,cas,2,"cas:gskaigi, cas:kokuminkaigi",,稔 内閣官房長官,0
 木原稔,木原稔,1,cas,2,"cas:kumahigai_taisaku, cas:cybersecurity_kakuryokaigi",,（議長） | 内閣官房長官（議長）,0
 木戸道子,木戸道子,1,mhlw,2,"mhlw:shingi-hosho_126719, mhlw:shingi-idou_127792",,日本赤十字社医療センター　第一産婦人科部長 | 日本赤十字社医療センター・副院長・第一産婦人科部長,0
 木村正,木村正,1,cfa,2,"cfa:kyuyusei-hoshokin, cfa:hoshokin-yuseishujutsu",,（きむら  ただし）,0
@@ -508,7 +532,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 柿沼平太郎,柿沼平太郎,1,cfa,2,"cfa:shingikai/kodomo_sodachi, cfa:shingikai/hoiku_senmon",,学校法人柿沼学園理事長 | 学校法人柿沼学園  理事長,0
 根本敏則,根本敏則,1,mof,2,"mof:customs_foreign_exchange/soukai, mof:customs_foreign_exchange/sub-of_customs",,敬愛大学経済学部教授,0
 桑名正隆,桑名正隆,1,mhlw,2,"mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_206844",,日本医科大学大学院医学研究科 アレルギー膠原病内科学分野 教授,0
-桜木章司,櫻木章司,1,mhlw,2,"mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126733",,医療法人桜樹会桜木病院理事長 | 公益社団法人日本精神科病院協会常務理事,0
+桜木章司,櫻木章司,1,mhlw,2,"mhlw:shingi-hosho_126730, mhlw:shingi-hosho_126733",,公益社団法人日本精神科病院協会常務理事 | 医療法人桜樹会桜木病院理事長,0
 森公高,森公高,1,fsa,2,"fsa:kaikeikansanoarikata, fsa:corporategovernance",,日本公認会計士協会会長,0
 森昌平,森昌平,1,mhlw,2,"mhlw:shingi-kousei_430263, mhlw:shingi-chuo_128159",,日本薬剤師会副会長 | 日本医師会常任理事,0
 森永耕造,森永 耕造,1,mod,2,"mod:rinri, mod:jinji",委員,元人事院事務総長 | 元人事院 事務総長,35
@@ -531,22 +555,19 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 沢田登志子,沢田登志子,1,digital,2,"digital:data-platform-sub-wg, digital:global-data-governance",委員,一般社団法人 EC ネットワーク 理事,2
 河岡義裕,河岡義裕,1,cas,2,"cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu",,東京大学医科学研究所感染症国際研究センター長,0
 河村小百合,河村小百合,1,mof,2,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",委員,(株)日本総合研究所調査部主席研究員,46
-河野和博,河野和博,1,mhlw,2,"mhlw:shingi-hosho_126730, mhlw:shingi-kousei_467561_00003",,一般社団法人日本難病・疾病団体協議会副代表理事 | 愛媛県腎臓病患者連絡協議会    事務局長,0
 河野康子,河野康子,1,fsa,2,"fsa:singi_kinyu/base, fsa:kessai_kanmin",,一般財団法人日本消費者協会理事,0
 河野洋子,河野洋子,1,cfa,2,"cfa:shingikai/shakai_katei, cfa:shingikai/shakai_katei/tokubetsu-yoshi",,大分大学福祉健康科学部社会福祉実践コース講師,0
 波多野邦道,波多野邦道,1,digital,2,"digital:mobility-working-group, digital:mobility-roadmap",,一般社団法人日本自動車工業会,0
 津下一代,津下一代,1,mhlw,2,"mhlw:shingi-hosho_126734, mhlw:shingi-kousei_127752_00007",,女子栄養大学特任教授,0
-津谷典子,津谷典子,1,mhlw,2,"mhlw:shingi-hosho_126692, mhlw:shingi-hosho_126693",,慶應義塾大学教授,0
 浜田真樹,浜田真樹,1,cfa,2,"cfa:Judicial-Review-Working-Team-on-Temporary-Protection, cfa:shingikai/shakai_katei/tokubetsu-yoshi",,浜田・木村法律事務所 弁護士,0
 清水響,清水響,1,cfa,2,"cfa:kyuyusei-hoshokin, cfa:hoshokin-yuseishujutsu",,（しみず  ひびく） | （しみず ひびく）,0
 渡辺努,渡辺努,1,mof,2,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_filp",,キヤノングローバル戦略研究所研究主幹 | 東京大学大学院経済学研究科教授,0
-渡辺大記,渡邊大記,1,mhlw,2,"mhlw:shingi-chuo_128157, mhlw:shingi-chuo_128158",,日本医師会常任理事 | 日本医師会副会長,0
 渡辺治雄,渡邉 治雄,1,mod,2,"mod:vaccine, mod:seibutu",,国立感染症研究所 細菌部長 | 国立感染症研究所細菌部長,0
 渡辺睦美,渡辺睦美,1,cfa,2,"cfa:shingikai/shakai_katei, cfa:shingikai/shakai_katei/care-needs",,NPO 法人全国子どもアドボカシー協議会理事 | NPO 法人全国子どもアドボカシー協議会専務理事,0
 渡辺絹子,渡邊絹子,1,mhlw,2,"mhlw:shingi-hosho_198345, mhlw:shingi-rousei_126983",委員長代理 / 委員,筑波大学ビジネスサイエンス系准教授,11
 滝本秀美,瀧本秀美,1,mhlw,2,"mhlw:shingi-kousei_127751, mhlw:shingi-kousei_127752_00007",,国立研究開発法人医薬基盤・健康・栄養研究所理事 | 国立研究開発法人 医薬基盤・健康・栄養研究所 理事兼国立健康・栄養研究所,0
 熊谷俊人,熊谷 俊人,1,cfa,2,"cfa:shingikai/kodomo_kosodate, cfa:shingikai/kodomo_kosodate/kanri",委員,千葉県知事,3
-片山,片山,1,cas,2,"cas:gskaigi, cas:nipponseichosenryaku",,さつき 財務大臣,0
+玉木伸介,玉木伸介,1,mhlw,2,"mhlw:shingi-hosho_126721, mhlw:shingi-hosho_439756",,大妻女子大学短期大学部教授,0
 田中れいか,田中 れいか,1,cfa,2,"cfa:shingikai, cfa:shingikai/kihon_seisaku",委員,,16
 田中亘,田中亘,1,fsa,2,"fsa:stewardship, fsa:jyouhouteikyou",,東京大学社会科学研究所 教授 | 東京大学社会科学研究所教授,0
 田村善之,田村善之,1,mof,2,"mof:customs_foreign_exchange/sub-of_customs, mof:customs_foreign_exchange/sub-foreign_exchange",,東京大学大学院法学政治学研究科教授・北海道大学名誉教授 | 東京大学大学院法学政治学研究科教授,0
@@ -589,6 +610,7 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 藤井渉,藤井渉,1,cfa,2,"cfa:kyuyusei-hoshokin, cfa:hoshokin-yuseishujutsu",,（ふじい  わたる）,0
 藤原総一郎,藤原総一郎,1,digital,2,"digital:digital-system-reform-wg-legal-practice, digital:administrative-research-wg-legal-practice-team",,弁護士 長島・大野・常松法律事務所,0
 藤崎隆志,藤崎隆志,1,env,2,"env:valuechain_decarbonization, env:demandstimulation_decarbonization",,,0
+藤沢陽介,藤澤陽介,1,mhlw,2,"mhlw:shingi-hosho_126704, mhlw:shingi-hosho_163664_00006",,早稲田大学大学院会計研究科講師 | 早稲田大学大学院会計研究科客員教授,0
 藤田和子,藤田和子,1,cas,2,"cas:ninchisho_kankeisha, cas:ninchisho",,一般社団法人日本認知症本人ワーキンググループ  相談役理事 | 一般社団法人 日本認知症本人ワーキンググループ 代表理事,0
 藤谷武史,藤谷武史,1,mof,2,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_fiscal_system",委員,東京大学大学院法学政治学研究科教授,26
 西尾チヅル,西尾チヅル,1,env,2,"env:regional_decarbonization, env:demandstimulation_decarbonization",委員,筑波大学 副学長,5
@@ -607,7 +629,6 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 野村文和,野村文和,1,cfa,2,"cfa:child-safety-kyoiku-hoiku, cfa:shingikai/kodomo_sodachi/azukari_service",,東京都福祉局子供・子育て支援部認証・認可外保育施設担当課長,0
 野村浩子,野村浩子,1,mof,2,"mof:fiscal_system_council/soukai, mof:fiscal_system_council/sub-of_filp",,東京家政学院大学特別招聘教授・(公財)日本女性学習財団理事長 | 東京家政学院大学特別招聘教授,0
 野間口千香穂,野間口千香穂,1,mhlw,2,"mhlw:shingi-hosho_126709_00002, mhlw:shingi-hosho_126716_00005",,宮崎大学医学部看護学科 子育て世代・子ども健康看護科学講座,0
-釜萢敏,釜萢敏,1,cas,2,"cas:ful/yusikisyakaigi, cas:novel_coronavirus/taisaku_honbu",,公益社団法人日本医師会常任理事,0
 鈴木一人,鈴木 一人,1,cas,2,"cas:boueiryoku_kaigi/sogoteki_kokuryoku, cas:keizai_anzen_hosyo_sc",委員,東京大学公共政策大学院 教授 | TMI 総合法律事務所 パートナー弁護士東京大学公共政策大学院 教授,13
 鈴木一水,鈴木 一水,1,mod,2,"mod:keiyaku_seido, mod:keihiritsu",委員,西南学院大学商学部教授 | 神戸大学大学院経営学研究科 教授,3
 鈴木俊文,鈴木俊文,1,mhlw,2,"mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742",,静岡県立大学短期大学部社会福祉学科教授,0
@@ -633,12 +654,14 @@ person_id,name,agency_count,agencies,council_count,councils,roles,affiliations,n
 高橋和久,高橋和久,1,mhlw,2,"mhlw:shingi-hosho_126716_00008, mhlw:shingi-kousei_206844",,順天堂大学大学院医学研究科呼吸器内科学 教授,0
 高橋慶子,高橋 慶子,1,cfa,2,"cfa:hoikujinzai, cfa:shingikai/kodomo_kosodate",委員,全国国公立幼稚園・こども園長会会長,3
 高橋玲路,髙橋 玲路,1,mod,2,"mod:keiyaku_seido, mod:keihiritsu",会長代理 / 委員,アンダーソン・毛利・友常法律事務所 パートナー弁護士,3
+高橋秀依,高橋秀依,1,mhlw,2,"mhlw:shingi-idou_127804, mhlw:shingi-idou_127805",,東京理科大学薬学部　教授 | 東京理科大学 薬学部薬学科 教授,0
 高橋秀親,髙橋秀親,1,mhlw,2,"mhlw:shingi-hosho_126700, mhlw:shingi-hosho_224742",,全国福祉高等学校長会理事長,0
 高田礼子,髙田礼子,1,mhlw,2,"mhlw:shingi-kousei_247499, mhlw:shingi-kousei_429941",,聖マリアンナ医科大学予防医学教室  主任教授,0
 高祖常子,高祖 常子,1,cfa,2,"cfa:kigyou-shudou, cfa:shingikai/kodomo_sodachi",委員,認定ＮＰＯ法人児童虐待防止全国ネットワーク副理事長,4
 高谷俊英,髙谷 俊英,1,cfa,2,"cfa:kokoseido-keizokutekimieruka, cfa:shingikai/kodomo_kosodate",委員,公益社団法人 全国私立保育連盟 常務理事 | 公益社団法人全国私立保育連盟常務理事,4
 鬼沢良子,鬼沢良子,1,env,2,"env:03recycle/yoshi03-04, env:03recycle/yoshi03-18",,ＮＰＯ法人持続可能な社会をつくる元気ネット理事長 | 特定非営利活動法人持続可能な社会をつくる元気ネット  理事長,0
 鶴若麻理,鶴若麻理,1,mhlw,2,"mhlw:shingi-kousei_247499, mhlw:shingi-kousei_429941",,聖路加国際大学生命倫理学・看護倫理学分野  教授 | 聖路加国際大学  生命倫理学・看護倫理学分野  教授,0
+黄川田仁志,黄川田仁志,1,cas,2,"cas:chiikimirai, cas:kokuminkaigi",,副議長        内閣官房副長官 | 内閣府特命担当大臣（こども政策 少子化対策,0
 黒木碧恵,黒木 碧恵,1,cfa,2,"cfa:shingikai, cfa:shingikai/kihon_seisaku",委員,大学生,4
 caa:consumer_policy/information/food_loss/conference:三科,三科,1,caa,1,caa:consumer_policy/information/food_loss/conference,委員,,3
 caa:consumer_policy/information/food_loss/conference:上村,上村,1,caa,1,caa:consumer_policy/information/food_loss/conference,委員,,7
@@ -1275,11 +1298,9 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 三沢隆史,三澤隆史,1,env,1,env:05hoken/yoshi05-01,,国立医薬品食品衛生研究所 有機化学部 第三室 室長,0
 三浦亮太朗,三浦亮太朗,1,maff,1,maff:zyuizi,,酪農学園大学獣医学群獣医学類 准教授,0
 三浦元彦,三浦元彦,1,mhlw,1,mhlw:shingi-rousei_126975,,東北大学  環境・安全推進センター,0
-三浦宏子,三浦宏子,1,mhlw,1,mhlw:shingi-idou_127794,,北海道医療大学  教授,0
 三瀬勝利,三瀬 勝利,1,mod,1,mod:seibutu,,元国立医薬品食品衛生研究所副所長,0
 三牧正和,三牧正和,1,mof,1,mof:fiscal_system_council/soukai,,帝京大学医学部小児科主任教授,0
 三田一博,三田一博,1,digital,1,digital:digital-cybersecurity,,総務省 サイバーセキュリティ統括官,0
-三田智文,三田智文,1,mhlw,1,mhlw:shingi-idou_127804,,順天堂大学 特任教授,0
 三輪登信,三輪登信,1,fsa,1,fsa:keizaikachi,,有限責任あずさ監査法人  金融事業部  パートナー,0
 三重県,三重県,1,cfa,1,cfa:cdr-seidonoarikata,,子ども・福祉部 子どもの育ち支援課 母子保健班 係長,0
 上久保祐志,上久保祐志,1,env,1,env:20ari-yatsu/yoshi20-05,,熊本高等専門学校 建築社会デザイン工学科 教授,0
@@ -1289,11 +1310,13 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 上原明,上原明,1,cas,1,cas:souyakuryoku,,大正製薬株式会社取締役会長,0
 上原由紀,上原由紀,1,mhlw,1,mhlw:shingi-kousei_429941_00001,,藤田医科大学  医学部  感染症科  臨床教授,0
 上山康博,上山康博,1,cas,1,cas:kanko_vision,,一般社団法人日本ファームステイ協会代表理事・株式会社百戦錬磨代表取締役社長 | 株式会社百戦錬磨代表取締役社長,4
+上岡寛,上岡寛,1,mhlw,1,mhlw:shingi-idou_341268,,岡山大学医歯薬学総合研究科教授,0
 上村敏之,上村敏之,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,,40
 上村誠,上村誠,1,mhlw,1,mhlw:shingi-kousei_127751,,(高知県安芸郡北川村長)全国町村会 副会長,0
 上東亘,上東亘,1,moj,1,moj:hourei-shiryou-hanrei/housei03_00006,,弁護士、Ａ＆Ｓ福岡法律事務所,0
 上沼紫野,上沼紫野,1,cas,1,cas:cyber_anzen_hosyo,,LM 虎ノ門南法律事務所弁護士,0
 上田佳代,上田佳代,1,env,1,env:07air-noise/yoshi07-11,,国立医薬品食品衛生研究所 安全性生物試験研究センター,0
+上田貴之,上田貴之,1,mhlw,1,mhlw:shingi-idou_341268,,東京歯科大学教授,0
 上野さやか,上野さやか,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,TMI総合法律事務所 弁護士,0
 上野武,上野 武,1,mod,1,mod:bouei_shisetsu,会長代理,千葉大学名誉教授,2
 上野紘志,上野紘志,1,mod,1,mod:cho-teki,,公認会計士 中央青山監査法人,0
@@ -1378,7 +1401,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 丸山雄一郎,丸山雄一郎,1,mhlw,1,mhlw:shingi-rousei_126975,,奈良県総合医療センター  放射線診断科,0
 丸谷浩史,丸谷浩史,1,cas,1,cas:cyber_anzen_hosyo,,株式会社日本経済新聞社常務執行役員 大阪本社代表,0
 丹羽克彦,丹羽克彦,1,digital,1,digital:mobility-working-group,,国土交通省 道路局長,0
-丹羽彩文,丹羽彩文,1,mhlw,1,mhlw:shingi-hosho_126730,,特定非営利活動法人全国地域生活支援ネットワーク事務局長,0
 丹羽由香里,丹羽由香里,1,cfa,1,cfa:sukoyaka21,,岐 阜 県 健 康 福 祉 部   子 ど も ・ 女 性 局,0
 久世和資,久世和資,1,mext,1,mext:gijyutu/gijyutu0,,旭化成株式会社 取締役 副社長執行役員 研究開発・DX 統括,0
 久保山茂樹,久保山茂樹,1,cfa,1,cfa:shingikai/hoiku_senmon,,独立行政法人国立特別支援教育総合研究所,0
@@ -1387,10 +1409,12 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 久保田政一,久保田政一,1,cao,1,cao:scjarikata/kondankai,,日本経済団体連合会副会長・事務総長,0
 久保高伸,久保高伸,1,mhlw,1,mhlw:shingi-rousei_126983,,三井倉庫(株)代表取締役会長,0
 久城真代,久城真代,1,maff,1,maff:sizai,,国 立 研 究 開 発 法 人 農 業 ・ 食 品 産 業 技 術 総 合 研 究 機 構 食 品 研 究 部 門,0
+久山佳代,久山佳代,1,mhlw,1,mhlw:shingi-idou_341268,,日本大学松戸歯学部教授,0
 久弥子,久弥子,1,moj,1,moj:1/housei02_003007_00014,,（ ウ ェ ブ 参 加 ）,0
 久松理一,久松理一,1,mhlw,1,mhlw:shingi-chuo_128167_00018,,杏林大学医学部 消化器内科学教授,0
 久江雅彦,久江 雅彦,1,mod,1,mod:kiban,委員,共同通信社特別編集委員,9
 久波一行,久波一行,1,caa,1,caa:cepc/meeting_materials_7,,広島市市民局消費生活センター所長,0
+久米利明,久米利明,1,mhlw,1,mhlw:shingi-idou_127805,,横浜薬科大学 教授,0
 久米村隼人,久米村隼人,1,caa,1,caa:consumer_policy/information/food_loss/conference,,株式会社ＤＡＴＡＦＬＵＣＴ代表取締役ＣＥＯ,0
 久美枝,久美枝,1,env,1,env:02policy/yoshi02,,日本労働組合総連合会 副事務局長,0
 久芳明,久芳明,1,mhlw,1,mhlw:shingi-kousei_430263,,日本医療機器産業連合会常任理事,0
@@ -1406,7 +1430,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 二宮清治,二宮清治,1,digital,1,digital:local-governments,,デジタル審議官,0
 二木玲子,二木玲子,1,env,1,env:03recycle/yoshi03-18,,全国産業資源循環連合会女性部協議会  会長,0
 五十嵐チカ,五十嵐チカ,1,mof,1,mof:customs_foreign_exchange/sub-foreign_exchange,,弁護士,0
-五十嵐克也,五十嵐克也,1,cfa,1,cfa:shingikai/kodomo_kosodate,,日本商工会議所理事・企画調査部長,0
 五十嵐禎人,五十嵐禎人,1,mhlw,1,mhlw:shingi-hosho_126733,,千葉大学社会精神保健教育研究センター教授,0
 五十嵐立青,五十嵐立青,1,npa,1,npa:traffic/council,,つくば市長,0
 五十音順),五十音順),1,cas,1,cas:digital_gyozaikaikaku,,,2
@@ -1420,6 +1443,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 井上由理,井上由理,1,moj,1,moj:shihouseido/housei10_00116,,日本ﾍﾟｲﾝﾄﾎｰﾙﾃﾞｨﾝｸﾞｽ株式会社常務執行役・General Counsel,0
 井上由里子,井上由里子,1,mhlw,1,mhlw:0000090645_284064_00003,,一橋大学大学院 法学研究科 教授,0
 井上聡,井上聡,1,fsa,1,fsa:digital_2026,,弁護士（長島・大野・常松法律事務所）,0
+井上誠,井上誠,1,mhlw,1,mhlw:shingi-idou_341268,,新潟大学大学院医歯学総合研究科教授,0
 井伊久美子,井伊久美子,1,mhlw,1,mhlw:shingi-hosho_126719,,日本看護協会副会長　香川県立保健医療大学学長,0
 井伊雅子,井伊雅子,1,cao,1,cao:zei-cho,,一橋大学国際・公共政策大学院特任教授,0
 井元清哉,井元清哉,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,東京大学 医科学研究所 教授・ヒトゲノム解析センター センター長,0
@@ -1448,6 +1472,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 代田真理子,代田眞理子,1,maff,1,maff:sizai,委員,,12
 仲林清,仲林清,1,digital,1,digital:education-authentication,,公立大学法人 公立千歳科学技術大学教授,0
 仲田泰祐,仲田泰祐,1,cao,1,cao:zei-cho,,東京大学大学院経済学研究科、公共政策大学院教授,0
+仲野和彦,仲野和彦,1,mhlw,1,mhlw:shingi-idou_341268,,大阪大学大学院歯学研究科教授,0
 仲野道代,仲野道代,1,mhlw,1,mhlw:shingi-idou_127794,,岡山大学  教授,0
 伊丹,伊丹,1,moj,1,moj:1/shingikai_soukai,,委 員,0
 伊吹英明,伊吹英明,1,digital,1,digital:mobility-working-group,,経済産業省 製造産業局長,0
@@ -1496,6 +1521,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 佐伯潤,佐伯潤,1,env,1,env:14animal/kangoshi_1-01_00001,,公益社団法人日本獣医師会動物福祉・愛護担当職域理事,0
 佐村礼二郎,佐村礼二郎,1,fsa,1,fsa:vc,,エー・アイ・キャピタル株式会社 代表取締役社長,0
 佐紺摂子,佐紺摂子,1,caa,1,caa:cepc/meeting_materials_7,,市立函館高等学校校長,0
+佐藤久恵,佐藤久恵,1,mhlw,1,mhlw:shingi-hosho_439756,,学校法人国際基督教大学評議員,0
 佐藤之彦,佐藤之彦,1,mext,1,mext:gijyutu/gijyutu0,,千葉大学大学院工学研究院教授,0
 佐藤元彦,佐藤元彦,1,digital,1,digital:global-data-governance,,楽天グループ株式会社  渉外室  シニアマネージャー,0
 佐藤勉,佐藤勉,1,fsa,1,fsa:decarbonization,,株式会社国際協力銀行 地球環境アドバイザー／中曽根平,0
@@ -1528,20 +1554,22 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 保冨康宏,保冨康宏,1,mhlw,1,mhlw:shingi-kousei_429941_00001,,地方独立行政法人 大阪府立病院機構 大阪はびきの医療センター 次世代創薬創生,0
 信沢枝里,信澤枝里,1,mhlw,1,mhlw:shingi-kousei_127717,,国立感染症研究所インフルエンザ・呼吸器系ウイルス研究セ,0
 俣野哲朗,俣野哲朗,1,mhlw,1,mhlw:shingi-kousei_403928,,国立健康危機管理研究機構国立感染症研究所所長,0
+修一,修一,1,mhlw,1,mhlw:shingi-chuo_128166-2,,所  属,0
 俵幸嗣,俵幸嗣,1,mhlw,1,mhlw:shingi-idou_127794,,文部科学省高等教育局医学教育課長,0
 倉貫浩一,倉貫浩一,1,fsa,1,fsa:kaikeikansanoarikata,,読売新聞東京本社論説委員,0
+倭正也,倭正也,1,mhlw,1,mhlw:shingi-kousei_263447,,地方独立行政法人りんくう総合医療センター総合内科・感染症内科,0
 健次,健次,1,mhlw,1,mhlw:shingi-idou_127790,,小牧市民病院病院長,0
 児童相談所,児童相談所,1,mhlw,1,mhlw:shingi-hosho_211737_00001,,【既に発生している子ども虐待の発見、介入による迅速な子どもの安全確,0
 八丁地,八丁地,1,moj,1,moj:1/shingikai_soukai,,委 員,0
 八木哲也,八木哲也,1,mhlw,1,mhlw:shingi-kousei_401608,,名古屋大学大学院医学系研究科 臨床感染統御学分野 教授,0
 八田進二,八田進二,1,fsa,1,fsa:kaikeikansanoarikata,,青山学院大学大学院教授,0
 公之,公之,1,mhlw,1,mhlw:index_13914,,日本医師会　常任理事,0
+公開,公開,1,cas,1,cas:juten_keikaku,,2021 年 7 月 17 日,0
 共有すべき,共有すべき,1,digital,1,digital:administrative-research-wg-technology_based_regulatory_reform,,Best {Current} Practices,0
 具体的な取組,具体的な取組,1,digital,1,digital:social-concept,,として、どのような人 材 がどの程 度 必 要 かについて、デジタル,0
 兼坂光則,兼坂光則,1,fsa,1,fsa:mdth_kon,,新光証券㈱ 代表取締役会長,0
 兼沢真吾,兼澤 真吾,1,caa,1,caa:consumer_policy/information/food_loss/conference,,三菱 UFJ リサーチ&コンサルティング株式会社政策研究事業本部 持続社会部 研究員 | 三菱 UFJ リサーチ&コンサルティング株式会社政策研究事業本部 持続社会部 副主任研究員,4
 内山徹,内山徹,1,mhlw,1,mhlw:shingi-kousei_429941_00002,,国立成育医療研究センター研究所  成育遺伝研究部  疾患遺伝子構造研究室  室長,0
-内田まやこ,内田まやこ,1,mhlw,1,mhlw:shingi-idou_127804,,九州大学病院 教授・薬剤部長,0
 内田奈緒美,内田奈緒美,1,digital,1,digital:enrich-learning-content,,一般社団法人教科書協会デジタル化専門委員会委員長,0
 内田由紀子,内田 由紀子,1,cfa,1,cfa:shingikai/kihon_seisaku,委員,京都大学人と社会の未来研究院　院長・教授,2
 内田真一,内田眞一,1,mof,1,mof:customs_foreign_exchange/sub-foreign_exchange,,日本銀行副総裁,0
@@ -1552,14 +1580,15 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 内藤悟,内藤悟,1,cao,1,cao:tochi-chosa/shingikai,,東海大学教授,0
 内藤晃,内藤晃,1,mhlw,1,mhlw:shingi-rousei_126980_00007,,航空連合会長,0
 内藤由紀子,内藤由紀子,1,mhlw,1,mhlw:shingi-kousei_127723_00001,,北里大学医療衛生学部教授,0
+内藤真理子,内藤真理子,1,mhlw,1,mhlw:shingi-idou_341268,,広島大学大学院医系科学研究科教授,0
 内閣官房,内閣官房,1,digital,1,digital:global-data-governance-advisory,,デジタル行財政改革会議事務局,0
 冨士幸蔵,冨士幸蔵,1,mhlw,1,mhlw:shingi-chuo_128167,,昭和大学横浜市北部病院泌尿器科 教授,0
-冨岡貴生,冨岡貴生,1,mhlw,1,mhlw:shingi-hosho_126730,,特定非営利活動法人日本相談支援専門員協会代表理事,0
 冨樫幸子,冨樫幸子,1,mhlw,1,mhlw:shingi-hosho_163664_00006,,全日本電機・電子・情報関連産業労働組合連合会,0
 冨田健司,冨田健司,1,mhlw,1,mhlw:shingi-kousei_430263,,同志社大学商学部教授,0
 冨田哲郎,冨田哲郎,1,cas,1,cas:taii_tokurei,,東日本旅客鉄道株式会社取締役会長,0
 冨田珠代,冨田 珠代,1,cas,1,cas:keizai_anzen_hosyo_sc,委員,日本労働組合総連合会 総合政策推進局総合局長 | 日本労働組合総連合会総合政策推進局総合局長,9
 冨田稔,冨田 稔,1,mod,1,mod:jinji-ken,,元１等海佐 元艦船補給処副処長,0
+出口博基,出口博基,1,mhlw,1,mhlw:shingi-hosho_126721,,日本経済団体連合会社会保障委員会年金改革部会長,0
 出口昌義,出口昌義,1,env,1,env:03recycle/yoshi03-04,,一般財団法人食品産業センター サステナビリティ委員会 副委員長,0
 分な体制,分な体制,1,digital,1,digital:social-concept,,と、優 秀 なデジタル人 材 が民 間 とデジタル庁 を行 き来 できる環 境 の,0
 初川浩司,初川浩司,1,fsa,1,fsa:kaikeikansanoarikata,,公認会計士,0
@@ -1592,6 +1621,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 加藤勝也,加藤勝也,1,env,1,env:05hoken/yoshi05-09,,川崎医科大学 総合放射線医学 教授,0
 加藤孝明,加藤孝明,1,cas,1,cas:suisinkaigi,,東京大学生産技術研究所教授,0
 加藤康之,加藤康之,1,mof,1,mof:fiscal_system_council/soukai,,京都先端科学大学教授・東京都立大学大学院特任教授・京都大学客員教授,0
+加藤康幸,加藤康幸,1,mhlw,1,mhlw:shingi-kousei_263447,,国立研究開発法人国立国際医療センター国際感染症センター国際感,0
 加藤庸子,加藤庸子,1,mhlw,1,mhlw:shingi-kousei_127745,,藤田医科大学ばんたね病院　脳神経外科　教授,0
 加藤晶弘,加藤晶弘,1,fsa,1,fsa:transition_finance,,株式会社三菱 UFJ 銀行 ソリューションプロダクツ部,0
 加藤正敏,加藤正敏,1,fsa,1,fsa:kessai_kanmin,,日本商工会議所中小企業振興部長,0
@@ -1600,6 +1630,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 加藤真平,加藤真平,1,digital,1,digital:digital-system-reform-technology-based-regulatory-reform,,東京大学大学院情報理工学系研究科 特任准教授,0
 加藤秀樹,加藤秀樹,1,cao,1,cao:sasshin/kondan,,構想日本代表,0
 加藤経将,加藤経将,1,moj,1,moj:shihouseido/housei10_00116,,法務省大臣官房司法法制部司法法制課長,0
+加藤隆史,加藤隆史,1,mhlw,1,mhlw:shingi-idou_341268,,大阪大学大学院歯学研究科教授,0
 加賀讓治,加賀讓治,1,moj,1,moj:shihouseido/housei10_00116,,創価大学法学部教授,0
 励ごとうれい,励ごとうれい,1,mhlw,1,mhlw:shingi-chuo_128167_00005,,慶應義塾大学　大学院経営管理研究科教授,0
 勇一郎,勇一郎,1,cao,1,cao:index,,以上１１名,0
@@ -1630,6 +1661,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 千葉恭裕,千葉 恭裕,1,mod,1,mod:jinji,委員,元人事院 給与局長,24
 千葉知世,千葉 知世,1,env,1,env:02policy/yoshi_kihonteki,委員,大阪公立大学大学院人間社会システム科学研究科 准教授 | 大阪公立大学大学院現代システム科学研究科 准教授,3
 升田純,升田純,1,cfa,1,cfa:child-safety-kyoiku-hoiku,,升田純法律事務所弁護士,0
+午後,午後,1,cas,1,cas:juten_keikaku,,7 時、宇都宮市医師会の「社会支援部会」が始まった。医療現場で出会う孤独や貧困などの困難を抱,0
 南亜樹,南 亜樹,1,mod,1,mod:dstb,事務局長,防衛装備庁技術戦略部長,0
 南博一,南 博一,1,digital,1,digital:base-registry-advisory-board,,田辺市 保健福祉部 やすらぎ対策課 課長,5
 南博方,南 博方,1,mod,1,mod:arikata,会長,成城大学学長,0
@@ -1658,6 +1690,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 古井祐司,古井祐司,1,mhlw,1,mhlw:shingi-kousei_127752_00007,,東京大学未来ビジョン研究センター,0
 古口達也,古口達也,1,cfa,1,cfa:shingikai/kodomo_kosodate,,公益社団法人全国保育サービス協会理事　大阪総合保育大学大学院教授・学長,0
 古屋康博,古屋康博,1,cfa,1,cfa:shingikai/shakai_katei/care-needs,,社会福祉法人清浄園常務理事,0
+古川あおい,古川あおい,1,cas,1,cas:kokuminkaigi,,政務調査会長,0
 古川俊治,古川俊治,1,cas,1,cas:cybersecurity_kakuryokaigi,,サイバー安全保障担当大臣／内閣府特命担当大臣（サ,0
 古川恵太,古川恵太,1,env,1,env:20ari-yatsu/yoshi20-05,,ＮＰＯ法人  海辺つくり研究会  理事長,0
 古川泰司,古川泰司,1,mhlw,1,mhlw:shingi-chuo_128167_00018,,帝京大学医学部附属病院 中央検査部・部長,0
@@ -1668,6 +1701,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 古田,古田,1,mhlw,1,mhlw:shingi-chuo_128167_00005,,篤 たなか　あつし,0
 古田奎輔,古田奎輔,1,cas,1,cas:kanko_vision,,株式会社 Payke 代表取締役 CEO,1
 古田肇,古田肇,1,cas,1,cas:nousui/noufuku_suishin_kaigi,,農福連携全国都道府県ネットワーク会長,1
+古田要介,古田要介,1,mhlw,1,mhlw:shingi-kousei_263447,,富山化学工業株式会社事業開発部シニアアソシエイト,0
 古田雄一,古田雄一,1,cfa,1,cfa:shingikai/iken_senmon,,筑波大学人間系助教,0
 古笛恵子,古笛恵子,1,mext,1,mext:chousa/kaihatu/016,,弁護士,0
 古谷一之,古谷一之,1,cas,1,cas:digitalmarket/kyosokaigi,,公正取引委員会委員長,0
@@ -1685,7 +1719,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 吉岡直,吉岡 直,1,cfa,1,cfa:kodomonoiken-guideline,委員,新潟市こども未来部こども政策課 係長（主幹）,1
 吉崎亮介,吉崎亮介,1,digital,1,digital:digital-talent-development-policy,,（株式会社和談 代表取締役社長）,0
 吉崎佳弥,吉崎佳弥,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,13
-吉川かおり,吉川かおり,1,mhlw,1,mhlw:shingi-hosho_126730,,明星大学教授,0
 吉川優子,吉川優子,1,cfa,1,cfa:shingikai/seiiku_iryou,,一般社団法人吉川慎之介記念基金　代表理事,0
 吉川洋,吉川洋,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,東京大学名誉教授,34
 吉川肇子,吉川肇子,1,mhlw,1,mhlw:shingi-kousei_127717,,慶應義塾大学商学部教授,0
@@ -1694,12 +1727,14 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 吉松組子,吉松組子,1,maff,1,maff:zyuizi,,国立大学法人北海道大学,0
 吉永真理,吉永真理,1,cfa,1,cfa:kodomo-keikaku,,昭和薬科大学薬学部臨床心理学研究室教授,3
 吉沢正人,吉澤正人,1,fsa,1,fsa:impact,,ダイキン工業株式会社,0
+吉泉豊晴,吉泉豊晴,1,mhlw,1,mhlw:shingi-hosho_126730,,社会福祉法人日本視覚障害者団体連合情報部長・総合相談室長,0
 吉田,吉田,1,moj,1,moj:1/shingikai_soukai,,委 員,0
 吉田伊津美,吉田伊津美,1,cfa,1,cfa:shingikai/hoiku_senmon,,東京学芸大学教職大学院教授,0
 吉田俊之,吉田俊之,1,mhlw,1,mhlw:shingi-hosho_126700,,埼玉県立大学地域連携センター教授,0
 吉田俊弘,吉田俊弘,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,弁 護 士 ・ 横 浜 弁 護 士 会 所 属,0
 吉田博彦,吉田博彦,1,fsa,1,fsa:decarbonization,,株式会社日本政策投資銀行経営企画部サステナビリティ,0
 吉田和恵,吉田和恵,1,mhlw,1,mhlw:shingi-hosho_126716_00008,,国立成育医療研究センター皮膚科診療部長,0
+吉田尚大,吉田尚大,1,mhlw,1,mhlw:shingi-hosho_126704,,読売新聞東京本社編集局生活部編集委員,0
 吉田恒雄,吉田恒雄,1,cfa,1,cfa:Judicial-Review-Working-Team-on-Temporary-Protection,,認定 NPO 法人児童虐待防止全国ネットワーク 副理事長,0
 吉田智恵,吉田智恵,1,mhlw,1,mhlw:shingi-rousei_127002,,（委託者代表）,0
 吉田正樹,吉田正樹,1,cas,1,cas:novel_coronavirus/taisaku_honbu,,東京慈恵会医科大学感染症制御科教授,0
@@ -1724,6 +1759,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 呉村益生,呉村益生,1,fsa,1,fsa:kessai_kanmin,,経済産業省経済産業政策局産業資金課長 兼 企業会計室長 兼 投資機構室長,0
 和泉憲明,和泉憲明,1,digital,1,digital:education-authentication,,国立研究開発法人産業技術総合研究所,0
 和田俊憲,和田 俊憲,1,mod,1,mod:jinji,委員,東京大学大学院 教授,3
+和田光平,和田光平,1,mhlw,1,mhlw:shingi-hosho_126704,,中央大学経済学部教授,0
 和田寛,和田寛,1,cas,1,cas:kanko_vision,,白馬観光開発株式会社代表取締役社長,1
 和田朝美,和田朝美,1,cfa,1,cfa:shingikai/kodomo_sodachi/azukari_service,委員,ＮＰＯ法人家庭的保育全国連絡協議会理事,1
 和美,和美,1,env,1,env:02policy/yoshi02,,(一社)徳島地域エネルギー 代表理事,0
@@ -1773,7 +1809,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 坂田吉郎,坂田吉郎,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,,1
 坂田宏志,坂田宏志,1,env,1,env:12nature/yoshi12,,さかた　ひろし 株式会社野生鳥獣対策連携センター 代表取締役,0
 坂真智子,坂真智子,1,maff,1,maff:sizai,臨時委員,星 薬 科 大 学 薬 学 部 毒 性 学 研 究 室 教 授,6
-城内実,城内実,1,cas,1,cas:nipponseichosenryaku,,内閣官房長官（副議長）,0
 城島茂,城島茂,1,cas,1,cas:nousui/noufuku_suishin_kaigi,,TOKIO,2
 域事業者に開,域事業者に開,1,digital,1,digital:social-concept,,放 していくことで、世 界 に通 じる地 域 IT 人 材 の育 成 を目 指 す,0
 堀井奈津子,堀井奈津子,1,cas,1,cas:business_jinken,,文部科学省,0
@@ -1806,6 +1841,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 増田信行,増田信行,1,mod,1,mod:bo-san,,日本防衛装備工業会会長 経団連防衛生産委員会委員長,0
 増田充男,増田 充男,1,caa,1,caa:consumer_policy/information/food_loss/conference,,日本チェーンストア協会 執行理事(日本チェーンストア協会 環境委員会委員 小山遊子構成員代理),1
 増田和夫,増田和夫,1,cas,1,cas:cybersecurity_kakuryokaigi,,内閣危機管理監,0
+増田幹人,増田幹人,1,mhlw,1,mhlw:shingi-hosho_126704,,駒澤大学経済学部准教授,0
 増田徹,増田徹,1,fsa,1,fsa:vc,,三井住友トラスト・インベストメント株式会社 代表取締役,0
 増田絢,増田絢,1,maff,1,maff:zyuizi,,日本大学 生物資源科学部獣医学科　専任講師,0
 壮陛,壮陛,1,mhlw,1,mhlw:index_13914,,公益財団法人医療機器センター　専務理事,0
@@ -1821,6 +1857,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 大串康夫,大串 康夫,1,mod,1,mod:kondankai,,石川島播磨重工業（株）顧問,0
 大串葉子,大串葉子,1,cas,1,cas:suisinkaigi,,同志社大学大学院ビジネス研究科教授,0
 大久保恭子,大久保恭子,1,mof,1,mof:fiscal_system_council/sub-of_national_property,,株式会社 風代表取締役,0
+大久保憲,大久保憲,1,mhlw,1,mhlw:shingi-kousei_263447,,医療法人幸寿会平岩病院院長（東京医療保健大学名誉教授）,0
 大久保晋吾,大久保晋吾,1,moj,1,moj:hourei-shiryou-hanrei/housei03_00006,,弁護士、ヴァスコ・ダ・ガマ法律会計事務所,0
 大久保法彦,大久保法彦,1,cfa,1,cfa:Judicial-Review-Working-Team-on-Temporary-Protection,,滋賀県中央子ども家庭相談センター 所長,0
 大久保隆,大久保隆,1,fsa,1,fsa:chuukinken,,三菱 UFJ アセットマネジメント株式会社常務執行役員,0
@@ -1839,6 +1876,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 大川陸治,大川陸治,1,mlit,1,mlit:s103_kokudoseisaku,,東京急行電鉄株式会社都市生活創造本部顧問,0
 大幅に増加,大幅に増加,1,digital,1,digital:local-governments-standardization-issues,,24.2%,0
 大幅に減少,大幅に減少,1,digital,1,digital:local-governments-standardization-issues,,0.0%,0
+大平真太郎,大平眞太郎,1,mhlw,1,mhlw:shingi-hosho_126730,,特定非営利活動法人日本相談支援専門員協会代表理事,0
 大方美香,大方美香,1,cfa,1,cfa:hoikujinzai,,大阪総合保育大学、大学院学長、教授,0
 大木秀晃,大木秀晃,1,cfa,1,cfa:youthpolicy-expertmeeting,,株式会社 OOAA  代表・クリエイティブディレクター,0
 大木聖子,大木聖子,1,cas,1,cas:suisinkaigi,,慶應義塾大学環境情報学部地震災害研究室准教授,0
@@ -1850,6 +1888,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 大栗博司,大栗博司,1,cao,1,cao:scjarikata/kondankai,,元政策研究大学院大学副学長（科学技術政策）,0
 大森利夫,大森利夫,1,mhlw,1,mhlw:shingi-kousei_127723_00001,,全国理容生活衛生同業組合連合会理事長,0
 大森啓太郎,大森啓太郎,1,maff,1,maff:zyuizi,,国立大学法人東京農工大学小金井動物救急医療セン,0
+大森孝造,大森孝造,1,mhlw,1,mhlw:shingi-hosho_439756,,大阪経済大学経営学部教授,0
 大森雅夫,大森雅夫,1,mhlw,1,mhlw:shingi-hosho_443308,,岡山市長,0
 大槻那奈,大槻那奈,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,,2
 大橋博信,大橋博信,1,env,1,env:07air-noise/yoshi07-10,,愛知県環境局環境政策部水大気環境課 課長,0
@@ -1886,7 +1925,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 大貫裕之,大貫裕之,1,moj,1,moj:shihouseido/housei10_00116,,学校法人中央大学常任理事、中央大学大学院法務研究科教授,0
 大迫政浩,大迫政浩,1,env,1,env:03recycle/yoshi03-17,,国立研究開発法人国立環境研究所 フェロー,0
 大野健太,大野健太,1,digital,1,digital:data-security-wg,,株式会社 Preferred Networks エンジニアリングマネージャー,0
-大野早苗,大野早苗,1,mof,1,mof:customs_foreign_exchange/sub-foreign_exchange,,武蔵大学経済学部教授,0
 大野澄子,大野澄子,1,mof,1,mof:jishin_benkyoukai,,弁護士（永沢総合法律事務所）,0
 大野英男,大野英男,1,mext,1,mext:gijyutu/gijyutu0,会長,東北大学前総長、東北大学総長特別顧問,0
 大野香代,大野香代,1,env,1,env:07air-noise/yoshi07-10,,一般社団法人産業環境管理協会 国際協力・技術センター長,0
@@ -1908,6 +1946,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 太田順司,太田順司,1,fsa,1,fsa:corporategovernance,,公益社団法人　日本監査役協会会長,0
 夫馬賢治,夫馬 賢治,1,env,1,env:02policy/yoshi_kihonteki,委員,信州大学グリーン社会協創機構 特任教授,3
 奈尾基弘,奈尾基弘,1,cas,1,cas:shushoku_katsudou,,経済産業省経済産業政策局長,0
+奈良信雄,奈良信雄,1,mhlw,1,mhlw:shingi-idou_341268,,一般社団法人日本医学教育評価機構,0
 奈良由美子,奈良由美子,1,cas,1,cas:ful/taisakusuisin,,放送大学教養学部教授,0
 奥塚正典,奥塚正典,1,mhlw,1,mhlw:shingi-hosho_126698_00022,,大分県国民健康保険団体連合会理事長（中津市長）,0
 奥宮京子,奥宮 京子,1,mod,1,mod:sobi-gijutsuiten,,田辺総合法律事務所 弁護士,0
@@ -1979,10 +2018,10 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 富安博隆,富安博隆,1,maff,1,maff:zyuizi,,国立大学法人東京大学大学院農学生命科学研究科  准教,0
 富所浩介,富所浩介,1,moj,1,moj:shihouseido/housei10_00116,,読売新聞東京本社論説副委員長,0
 富沢早苗,富澤早苗,1,maff,1,maff:sizai,専門委員,,18
+富田敬子,富田敬子,1,mhlw,1,mhlw:shingi-hosho_126704,,常磐大学理事・特任教授,0
 富田望,富田望,1,cas,1,cas:nihon_asean50_husyoutyou,,農林水産省 輸出・国際局長,0
 富田裕明,富田裕明,1,maff,1,maff:sizai,,元 神 奈 川 県 農 業 技 術 セ ン タ ー 横 浜 川 崎 地 区 事 務 所 次 長,0
 實松尊徳,實松尊徳,1,cfa,1,cfa:shingikai/kodomo_kosodate/kanri,,全国後期高齢者医療広域連合協議会  会長,0
-寺井公子,寺井公子,1,cao,1,cao:zei-cho,,慶應義塾大学経済学部教授,0
 寺井和弘,寺井和弘,1,mext,1,mext:gijyutu/gijyutu0,委員,株式会社建設技術研究所特別顧問,1
 寺井理,寺井理,1,fsa,1,fsa:pqc,,株式会社みずほフィナンシャルグループ,0
 寺園淳,寺園淳,1,env,1,env:03recycle/yoshi03-17,,国立研究開発法人国立環境研究所 資源循環領域 上級主席研究員,0
@@ -2026,6 +2065,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 小杉,小杉,1,moj,1,moj:1/shingikai_soukai,,れ い こ 独立行政法人労働政策研究・研,0
 小松原正浩,小松原正浩,1,npa,1,npa:traffic/council,,マッキンゼー＆カンパニーシニアパートナー,0
 小松孝至,小松孝至,1,cfa,1,cfa:shingikai/hoiku_senmon,,大阪教育大学教授,0
+小松沢均,小松澤均,1,mhlw,1,mhlw:shingi-idou_341268,,広島大学大学院医系科学研究科教授,0
 小松知子,小松知子,1,mhlw,1,mhlw:shingi-chuo_128154,,佐賀県白石町長,0
 小松郁夫,小松郁夫,1,env,1,env:03recycle/yoshi03-04,,ＰＥＴボトルリサイクル推進協議会専務理事,0
 小林一郎,小林一郎,1,moj,1,moj:hourei-shiryou-hanrei/housei03_00006,,一橋大学大学院法学研究科教授,0
@@ -2042,22 +2082,23 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 小林昭彦,小林昭彦,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,内 閣 官 房 内 閣 参 事 官,7
 小林栄三,小林栄三,1,mof,1,mof:customs_foreign_exchange/soukai,,(一社)日本貿易会会長(伊藤忠商事(株)取締役会長),0
 小林毅,小林毅,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,,9
+小林江梨子,小林江梨子,1,mhlw,1,mhlw:shingi-idou_127805,,城西国際大学 薬学部教授,0
 小林治,小林治,1,mhlw,1,mhlw:shingi-chuo_128167,,国立がん研究センター中央病院感染症部長,0
-小林洋一,小林洋一,1,mhlw,1,mhlw:shingi-hosho_163664_00006,,日本商工会議所社会保障専門委員会委員,0
 小林潔司,小林潔司,1,cas,1,cas:suisinkaigi,,京都大学名誉教授、京都大学経営管理大学院特任教授,0
 小林潤一郎,小林潤一郎,1,mhlw,1,mhlw:shingi-hosho_126708,,日本鍼灸師会副会長,0
 小林由紀子,小林由紀子,1,mhlw,1,mhlw:shingi-hosho_163664_00006,,日本経済団体連合会社会保障委員会年金改革部会部会長代理,0
+小林真之,小林真之,1,mhlw,1,mhlw:shingi-idou_341268,,日本大学歯学部教授,0
 小林貞雄,小林 貞雄,1,mod,1,mod:seisan,,元 技術研究本部 技術顧問,0
 小林陽子,小林陽子,1,mhlw,1,mhlw:shingi-kousei_429941_00001,,独立行政法人  医薬品医療機器総合機構  再生医療製品等審査部  主任専門員（審,0
 小柴満信,小柴 満信,1,cas,1,cas:keizai_anzen_hosyo_sc,委員,経済同友会 経済安全保障委員会 委員長 | 経済同友会 副代表幹事 | 経済同友会 幹事,8
 小栗泉,小栗泉,1,cao,1,cao:tochi-chosa/shingikai,,日本テレビ放送網株式会社,0
 小森谷正敏,小森谷正敏,1,fsa,1,fsa:chuukinken,,株式会社三菱 UFJ フィナンシャル・グループ執行役専務,0
+小椋康光,小椋康光,1,mhlw,1,mhlw:shingi-idou_127805,,岩手医科大学 薬学部 教授,0
 小池英夫,小池英夫,1,cas,1,cas:intelligent_features_kyoka,,,2
 小池英子,小池英子,1,env,1,env:05hoken/yoshi05-01,,国立研究開発法人国立環境研究所 環境リスク・健康,0
 小池邦子,小池邦子,1,cas,1,cas:nousui/noufuku_suishin_kaigi,,社会福祉法人花工房福祉会理事長,2
 小沢一雅,小澤 一雅,1,mod,1,mod:dangou,,東京大学大学院工学系研究科教授,0
 小沢俊昭,小澤俊昭,1,cfa,1,cfa:shingikai/shakai_katei/jidou_shogu,,山口県立育成学校校長,0
-小沢孝一郎,小澤孝一郎,1,mhlw,1,mhlw:shingi-idou_127804,,広島大学大学院医系科学研究科 教授・副学長,0
 小沢康子,小澤康子,1,mhlw,1,mhlw:shingi-kousei_127752_00008,,東京都 保健医療局 保健政策部,0
 小沢聡子,小澤聡子,1,env,1,env:05hoken/yoshi05-09,,横浜労災病院 アスベスト疾患ブロックセンター長,0
 小泉悠,小泉 悠,1,mod,1,mod:space_domain,委員,東京大学先端科学技術研究センター 准教授,2
@@ -2069,12 +2110,15 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 小田真弓,小田真弓,1,cas,1,cas:kanko_vision,,旅館 加賀屋 女将 | 旅館加賀屋女将,3
 小畑史子,小畑史子,1,mhlw,1,mhlw:shingi-rousei_126983,,京都大学大学院人間・環境学研究科教授,0
 小畠結,小畠結,1,maff,1,maff:zyuizi,,国立大学法人東海国立大学機構岐阜大学 応用生物科,0
+小西祥子,小西祥子,1,mhlw,1,mhlw:shingi-hosho_126704,,東京大学大学院医学系研究科准教授,0
 小西美穂,小西美穂,1,mod,1,mod:drastic-reinforcement,,,3
 小西雅子,小西雅子,1,env,1,env:06earth/yoshi06,,公益財団法人世界自然保護基金（WWF)ジャパン 専門ディレクタ,0
 小西靖彦,小西靖彦,1,mhlw,1,mhlw:shingi-idou_127792,,順天堂大学医学部医学教育研究室・特任教授,0
 小谷恭弘,小谷恭弘,1,mhlw,1,mhlw:shingi-kousei_429941_00001,,岡山大学  心臓血管外科  准教授,0
+小野,小野,1,mhlw,1,mhlw:shingi-hosho_126721,,正 昭 年金数理人,0
 小野善郎,小野 善郎,1,cfa,1,cfa:shingikai,委員,,5
 小野塚恵美,小野塚惠美,1,fsa,1,fsa:sustainable_finance,,一般社団法人科学と金融による未来創造イニシアティブ,0
+小野寺五典,小野寺五典,1,cas,1,cas:kokuminkaigi,,税制調査会長,0
 小野敦,小野敦,1,env,1,env:05hoken/yoshi05-01,,岡山大学  医歯薬学総合研究科・薬学系  教授,0
 小野田紀美,小野田紀美,1,cas,1,cas:nipponseichosenryaku,,内閣府特命担当大臣（経済安全保障）,0
 小野行雄,小野行雄,1,fsa,1,fsa:governance_code,,公認会計士,0
@@ -2095,6 +2139,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 山元高士,山元髙士,1,fsa,1,fsa:mdth_kon,,㈱金融ファクシミリ新聞社 顧問,0
 山内ゆな,山内 ゆな,1,cfa,1,cfa:shingikai,委員,JETBOOK 作戦代表,2
 山内利夫,山内利夫,1,mof,1,mof:fiscal_system_council/sub-of_filp,,PwCアドバイザリー合同会社ディレクター,0
+山内昌和,山内昌和,1,mhlw,1,mhlw:shingi-hosho_126704,,早稲田大学教育・総合科学学術院教授,0
 山内洋,山内洋,1,env,1,env:03recycle/yoshi03-03,,一般社団法人日本自動車販売協会連合会参事（兼）業務部長,0
 山口,山口,1,moj,1,moj:1/shingikai_soukai,,委 員,0
 山口利恵,山口利恵,1,cao,1,cao:zei-cho,,東京大学大学院情報理工学系研究科准教授,0
@@ -2104,6 +2149,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 山口弘美,山口弘美,1,env,1,env:03recycle/yoshi03,,全国知事会（栃木県環境森林部参事）,0
 山口彰,山口彰,1,cao,1,cao:tochi-chosa/shingikai,,原子力発電環境整備機構理事長,0
 山口有紗,山口有紗,1,cfa,1,cfa:shingikai/shakai_katei/care-needs,,子どもの虐待防止センター医師,0
+山口秀紀,山口秀紀,1,mhlw,1,mhlw:shingi-idou_341268,,日本大学松戸歯学部教授,0
 山口芳裕,山口 芳裕,1,mod,1,mod:kyumei,,杏林大学医学部 教授,0
 山宮道代,山宮 道代,1,mod,1,mod:rinri,委員,田辺総合法律事務所 弁護士,15
 山家京子,山家京子,1,mhlw,1,mhlw:shingi-kousei_430263,,NPO法人つばめの会代表,0
@@ -2137,12 +2183,12 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 山本陽一,山本陽一,1,env,1,env:03recycle/yoshi03-04,,プラスチック容器包装リサイクル推進協議会 会長,0
 山本陽平,山本陽平,1,cas,1,cas:kanko_vision,,株式会社オマツリジャパン共同代表取締役,1
 山本隆司,山本隆司,1,mhlw,1,mhlw:shingi-kousei_430263,,東京大学大学院法学政治学研究科教授,0
-山本龍生,山本龍生,1,mhlw,1,mhlw:shingi-idou_127794,,神奈川歯科大学  副学長,0
 山根,山根,1,moj,1,moj:1/shingikai_soukai,,委 員,0
 山田,山田,1,mhlw,1,mhlw:shingi-chuo_128167_00005,,健 寿 まえはら　たけとし,0
 山田一郎,山田 一郎,1,mod,1,mod:kondankai,,（財）空港環境整備協会理事、航空環境研究センター所長,0
 山田久,山田久,1,mhlw,1,mhlw:shingi-rousei_471121,,法政大学経営大学院イノベーション・マネジメント研究科教授(兼)(株)日本総合研究所客員研究員,0
 山田伸志,山田 伸志,1,mod,1,mod:futenma,,山梨大学名誉教授,0
+山田光一,山田光一,1,mhlw,1,mhlw:shingi-kousei_263447,,富山化学工業株式会社T-705プロダクトマネージャー理事,0
 山田勝之,山田勝之,1,moj,1,moj:1/kanbou_houkyo_kyougikai_index,,東 京 都 大 田 区 立 御 園 中 学 校 教 諭,0
 山田学,山田学,1,maff,1,maff:zyuizi,,国立大学法人北海道国立大学機構,0
 山田彩乃,山田彩乃,1,mhlw,1,mhlw:shingi-idou_127792,,認定NPO法人 ささえあい医療人権センターCOML・SP（模擬患者）マネジャー,0
@@ -2181,6 +2227,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 岡素之,岡素之,1,cao,1,cao:sasshin/kondan,,住友商事株式会社相談役,0
 岡野栄之,岡野栄之,1,mhlw,1,mhlw:shingi-kousei_247499,,慶應義塾大学医学部生理学教室  教授,0
 岡野正敬,岡野正敬,1,cas,1,cas:business_jinken,,財務省,0
+岡野芙由美,岡野芙由美,1,mhlw,1,mhlw:shingi-hosho_439756,,全日本自動車産業労働組合総連合会中央執行委員,0
 岡野裕樹,岡野裕樹,1,fsa,1,fsa:pqc,,株式会社三菱 UFJ フィナンシャル・グループ  調査役,0
 岩下直行,岩下直行,1,fsa,1,fsa:digital_2026,,京都大学名誉教授,0
 岩並秀一,岩並秀一,1,cao,1,cao:tochi-chosa/shingikai,,公益社団法人東京湾海難防止協会理事長,0
@@ -2193,7 +2240,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 岩崎洋一,岩﨑 洋一,1,mod,1,mod:ts-ships,,元海上自衛隊補給本部副本部長,3
 岩崎甫,岩﨑甫,1,cas,1,cas:souyakuryoku,,山梨大学副学長・融合研究臨床応用推進センター長,0
 岩崎美紀子,岩崎美紀子,1,mlit,1,mlit:s103_kokudoseisaku,,筑波大学大学院人文社会科学研究科教授,0
-岩月進,岩月進,1,mhlw,1,mhlw:shingi-idou_127804,,公益社団法人日本薬剤師会　会長,0
 岩本愛吉,岩本 愛吉,1,mod,1,mod:dstb,,東京大学名誉教授,0
 岩本愛𠮷,岩本 愛𠮷,1,mod,1,mod:dstb,委員,,1
 岩村,岩村,1,digital,1,digital:digital-system-reform,,有広【ご退任】,0
@@ -2213,11 +2259,11 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 岸輝雄,岸輝雄,1,cao,1,cao:scjarikata/kondankai,座長,東京大学名誉教授（材料工学）、元外務大臣科学技術顧問,0
 峰ひろみ,峰 ひろみ,1,mod,1,mod:jinji,審議会長・分科会長及び部会長 / 委員 / 分科会長,東京都立大学法科大学院 教授,34
 峰匡親,峰匡親,1,fsa,1,fsa:pqc,,株式会社三菱 UFJ フィナンシャルグループ  グループ,0
+峰島侑也,峰島侑也,1,cas,1,cas:kokuminkaigi,,国会対策委員長代理,0
 島原康浩,島原康浩,1,env,1,env:06earth/yoshi06-07,,（一社）全国スーパーマーケット協会常務理事,0
 島崎憲明,島崎憲明,1,fsa,1,fsa:mdth_kon,,住友商事㈱ 代表取締役副社長執行役員,0
 島崎謙治,島崎謙治,1,mhlw,1,mhlw:shingi-hosho_126719,,国際医療福祉大学大学院教授,0
 島弘志,島弘志,1,mhlw,1,mhlw:other-hoken_474087_00004,,日本病院会副会長,0
-島村暁代,島村暁代,1,mhlw,1,mhlw:shingi-hosho_163664_00006,,立教大学法学部教授,0
 島正之,島正之,1,env,1,env:07air-noise/yoshi07-11,,兵庫医科大学看護学部 特命教授,0
 島田和久,島田和久,1,mod,1,mod:drastic-reinforcement,,,10
 島田太郎,島田太郎,1,digital,1,digital:digital-system-reform-technology-based-regulatory-reform,,株式会社東芝 代表執行役社長 CEO,0
@@ -2225,7 +2271,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 島田武彦,島田武彦,1,maff,1,maff:sizai,,国 立 研 究 開 発 法 人 農 業 ・ 食 品 産 業 技 術 総 合 研 究 機 構 果 樹 茶 業 研 究,0
 島田由香,島田由香,1,cas,1,cas:gskaigi,,株式会社ＹｅｅＹ 共同創業者 代表取締役,0
 崎村夏彦,崎村 夏彦,1,digital,1,digital:security-architecture,委員,,2
-嵩さやか,嵩さやか,1,mhlw,1,mhlw:shingi-hosho_126702,,東北大学大学院法学研究科教授,0
 嶋寺基,嶋寺基,1,fsa,1,fsa:sonpo,,弁護士（大江橋法律事務所）,0
 川中大輔,川中大輔,1,cfa,1,cfa:shingikai/iken_senmon,,関西学院大学人間福祉学部専任講師,0
 川井元晴,川井元晴,1,cas,1,cas:ninchisho_kankeisha,,公益社団法人認知症の人と家族の会  代表理事,0
@@ -2246,6 +2291,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 川嶋三恵子,川嶋三恵子,1,mof,1,mof:fiscal_system_council/sub-of_national_property,,株式会社 読売新聞東京本社論説委員,0
 川嶋貴治,川嶋貴治,1,env,1,env:05hoken/yoshi05-01,,国立研究開発法人国立環境研究所 環境リスク・健康,0
 川広和,川廣和,1,cao,1,cao:sasshin/kondan,,ＤＯＷＡホールディングス株式会社相談役,0
+川手元,川手元,1,mhlw,1,mhlw:shingi-hosho_126730,,一般社団法人日本難病・疾病団体協議会常務理事,0
 川村涼太郎,川村涼太郎,1,cfa,1,cfa:shingikai/gyakutai_boushi,,一般社団法人 Masterpiece  職員,0
 川村隆浩,川村隆浩,1,digital,1,digital:global-data-governance,,国立研究開発法人農業・食品産業技術総合研究機構,0
 川村雅文,川村雅文,1,mhlw,1,mhlw:shingi-chuo_128167,,帝京大学医学部長 外科学講座教授,0
@@ -2276,6 +2322,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 平沢ゆみ子,平澤ゆみ子,1,mhlw,1,mhlw:shingi-kousei_127745,,福井県済生会病院移植コーディネーター,0
 平沢裕子,平沢裕子,1,maff,1,maff:sizai,,株 式 会 社 産 業 経 済 新 聞 社 東 京 本 社 文 化 部 記 者,0
 平田健正,平田健正,1,env,1,env:49wat-doj/yoshi49,,和歌山大学 名誉教授,0
+平田未緒,平田未緒,1,mhlw,1,mhlw:shingi-hosho_126721,,株式会社働きかた研究所代表取締役,0
 平良朝敬,平良朝敬,1,cas,1,cas:kanko_vision,,一般財団法人沖縄観光コンベンションビューロー会長,1
 平野信行,平野信行,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,(株)三菱ＵＦＪ銀行 特別顧問,44
 平野啓子,平野 啓子,1,cfa,1,cfa:shingikai,委員,,5
@@ -2315,7 +2362,10 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 後藤励,後藤励,1,mhlw,1,mhlw:shingi-chuo_128167_00018,,慶應義塾大学大学院経営管理研究科教授,0
 後藤千枝,後藤千枝,1,env,1,env:49wat-doj/yoshi49-04,,元 国立研究開発法人農業・食品産業技術総合研究機構,0
 後藤温,後藤温,1,mhlw,1,mhlw:shingi-kousei_127752_00008,,横浜市立大学  医学部医学科・大学院医学研究科,0
+後藤茂,後藤茂,1,cas,1,cas:keizai_anzen_hosyo,,之 厚生労働大臣,0
+御代田太一,御代田太一,1,mhlw,1,mhlw:shingi-hosho_126730,,特定非営利活動法人全国地域生活支援ネットワーク副理事長,0
 徳倉康之,徳倉 康之,1,cfa,1,cfa:shingikai/kodomo_kosodate,委員,全国国公立幼稚園・こども園長会会長　目黒区立みどりがおかこども園園長,1
+徳島勝幸,德島勝幸,1,mhlw,1,mhlw:shingi-hosho_439756,,株式会社ニッセイ基礎研究所,0
 徳弘憲一,徳弘憲一,1,env,1,env:03recycle/yoshi03-18,,一般社団法人日本電機工業会  リサイクル関連委員会  委員長,0
 徳永勝士,徳永勝士,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,国立国際医療研究センターゲノム医科学プロジェクト長,0
 徳永暁,德永暁,1,maff,1,maff:zyuizi,,JASMINEどうぶつ総合医療センター　外科長,0
@@ -2359,7 +2409,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 敬称略,敬称略,1,cfa,1,cfa:ebpm-society,,,4
 敬称略),敬称略),1,cas,1,cas:kodomo_mirai,,,7
 斉藤惇,斉藤惇,1,fsa,1,fsa:kakei,,株式会社 KKR ジャパン会長,0
-斎藤,齋藤,1,cas,1,cas:digitalmarket/kyosokaigi,,健 経済産業大臣,0
+斉藤鉄,斉藤鉄,1,cas,1,cas:keizai_anzen_hosyo,,夫 国土交通大臣,0
 斎藤保,斎藤保,1,mof,1,mof:customs_foreign_exchange/sub-of_customs,,(一社)日本経済団体連合会審議員会副議長（(株)IHI 相談役）,0
 斎藤優子,齋藤優子,1,env,1,env:03recycle/yoshi03-18,,東北大学大学院環境科学研究科  教授,0
 斎藤尚登,齋藤尚登,1,fsa,1,fsa:chuukinken,,大和総研調査本部主席研究員,0
@@ -2372,7 +2422,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 斎藤真緒,斎藤真緒,1,cfa,1,cfa:youthpolicy-expertmeeting,,立命館大学 産業社会学部  教授,0
 斎藤綾,斎藤綾,1,moj,1,moj:hourei-shiryou-hanrei/housei03_00006,,弁護士、Ｂｉｒｄ＆Ｂｉｒｄ外国法共同事業法律事,0
 斎藤長行,齋藤長行,1,cfa,1,cfa:internet-kaigi,,仙台大学体育学部スポーツ情報マスメディア学科 教授,0
-斎藤隆史,斎藤隆史,1,mhlw,1,mhlw:shingi-idou_127794,,北海道医療大学  教授,0
 斎藤静樹,斎藤静樹,1,fsa,1,fsa:kaikeikansanoarikata,,東京大学名誉教授,0
 斎野彦弥,齋野 彦弥,1,mod,1,mod:kiban,座長,元横浜国立大学大学院教授 / 弁護士,9
 新井洋由,新井洋由,1,mhlw,1,mhlw:shingi-kousei_247499,,独立行政法人医薬品医療機器総合機構  理事,0
@@ -2388,6 +2437,9 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 方向,方向,1,digital,1,digital:mobility-subworking-group,,[deg],0
 日向野義幸,日向野義幸,1,env,1,env:12nature/yoshi12,,ひがの　よしゆき 一般社団法人 大日本猟友会 副会長,0
 日山恵美,日山恵美,1,cfa,1,cfa:shingikai/kagaku_gijutsu/art,,広島大学大学院人間社会科学研究科教授,0
+日本医師会,日本医師会,1,mhlw,1,mhlw:shingi-chuo_128166-2,,副会長,0
+日本維新の会,日本維新の会,1,cas,1,cas:kokuminkaigi,,藤田 文武 共同代表,0
+日本薬剤師会,日本薬剤師会,1,mhlw,1,mhlw:shingi-chuo_128166-2,,常務理事,0
 日本銀行,日本銀行,1,mof,1,mof:meeting_of_cbdcre,,理事,0
 日本電鍍,日本電鍍,1,cas,1,cas:nipponseichosenryaku,,工業株式会社代表取締役,0
 日比謙一郎,日比謙一郎,1,mhlw,1,mhlw:shingi-idou_127792,,文部科学省高等教育局医学教育課長,0
@@ -2413,6 +2465,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 春日原大樹,春日原大樹,1,cas,1,cas:business_jinken,,★  議長,0
 春田,春田,1,cao,1,cao:index,,ゆ う い ち 日本労働組合総連合会総合政策局経済政策局長,0
 春美,春美,1,env,1,env:02policy/yoshi02,,全国女性団体連絡協議会群馬県地域婦人団体連合会 書記,0
+是枝俊悟,是枝俊悟,1,mhlw,1,mhlw:shingi-hosho_126721,,株式会社大和総研金融調査部主任研究員,0
 時吉重雄,時吉重雄,1,mhlw,1,mhlw:shingi-hosho_336720,,日本義肢協会理事長,0
 晋哉,晋哉,1,mhlw,1,mhlw:index_13914,,産業医科大学医学部公衆衛生学　教授,0
 晴子,晴子,1,mhlw,1,mhlw:index_13914,,早稲田大学政治経済学術院　教授,0
@@ -2432,7 +2485,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 木下斉,木下斉,1,mlit,1,mlit:s103_kokudoseisaku,,一般社団法人エリア・イノベーション・アライアンス代表理事,0
 木下誠也,木下 誠也,1,mod,1,mod:kousei_nyusatu,委員,,2
 木保公美,木保公美,1,fsa,1,fsa:transition_finance,,アクサ・インベストメント・マネージャーズ株式会社 営業部 ディレクター,0
-木原,木原,1,cas,1,cas:gskaigi,,稔 内閣官房長官,0
 木地佳彦,木地佳彦,1,fsa,1,fsa:sustainable_finance,,日本証券業協会,0
 木場弘子,木場弘子,1,env,1,env:06earth/yoshi06-07,,フリーキャスター・千葉大学客員教授,0
 木場紗綾,木場 紗綾,1,mod,1,mod:cap_build,委員,神戸市外国語大学准教授 | 神戸市外国語大学,4
@@ -2451,6 +2503,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 木田千恵,木田千恵,1,fsa,1,fsa:impact,,株式会社横浜銀行,0
 木田秋津,木田 秋津,1,cfa,1,cfa:shingikai/kihon_seisaku,委員,,17
 末冨純子,末冨純子,1,mof,1,mof:customs_foreign_exchange/sub-of_customs,,弁護士,0
+末松信介,末松信介,1,cas,1,cas:keizai_anzen_hosyo,,文部科学大臣,0
 末松則子,末松則子,1,cfa,1,cfa:shingikai/seiiku_iryou,,鈴鹿市長,0
 末沢豪謙,末澤豪謙,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,,34
 本松才二,本松才二,1,env,1,env:06earth/yoshi06-07,,日本チェーンストア協会,0
@@ -2503,9 +2556,11 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 村瀬恭通,村瀬恭通,1,digital,1,digital:digital-transportation-society,,パナソニック株式会社  モビリティソリューションズ担当  参与,0
 村田哲太郎,村田哲太郎,1,cas,1,cas:kanko_vision,,株式会社スリー・ボックス代表取締役,2
 村田啓子,村田啓子,1,mhlw,1,mhlw:shingi-hosho_126702,,立正大学大学院経済学研究科教授,0
+村田比呂司,村田比呂司,1,mhlw,1,mhlw:shingi-idou_341268,,長崎大学大学院医歯薬学総合研究科教授,0
 村田祐介,村田祐介,1,fsa,1,fsa:vc,,インキュベイトファンド株式会社 代表パートナー,0
 東京都,東京都,1,env,1,env:06earth/yoshi06-07,,環境局 環境改善部 部長,0
 東博紀,東博紀,1,env,1,env:20ari-yatsu/yoshi20-05,,国立研究開発法人国立環境研究所  地域環境保全領域,0
+東屋功,東屋功,1,mhlw,1,mhlw:shingi-idou_127805,,明治薬科大学 教授,0
 東江由起夫,東江由起夫,1,mhlw,1,mhlw:shingi-hosho_336720,,日本義肢装具士協会会長,0
 東海幹夫,東海 幹夫,1,mod,1,mod:cho-sei,,青山学院大学経営学部教授,0
 東海明宏,東海明宏,1,env,1,env:05hoken/yoshi05-01,,（部会長）,0
@@ -2536,7 +2591,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 松島紀由,松島紀由,1,mhlw,1,mhlw:shingi-hosho_126698_00022,,公益財団法人全国老人クラブ連合会常務理事,0
 松島綱治,松島綱治,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,東京理科大学 生命医科学研究所　炎症・免疫難病制御部門教授,0
 松崎信,松﨑 信,1,mod,1,mod:cho-teki,,公認会計士 監査法人トーマツ,0
-松本,松本,1,digital,1,digital:global-data-governance-advisory,,尚 デジタル大臣,0
 松本伊智朗,松本 伊智朗,1,cfa,1,cfa:shingikai/kihon_seisaku,委員,,2
 松本伊知朗,松本 伊知朗,1,cfa,1,cfa:shingikai/kihon_seisaku,委員,,11
 松本光司,松本光司,1,mhlw,1,mhlw:shingi-hosho_126707,,日本臨床整形外科学会・医療システム委員会委員,0
@@ -2550,12 +2604,14 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 松村淳子,松村 淳子,1,cfa,1,cfa:shingikai/kodomo_kosodate,委員,全国児童養護施設協議会副会長　岡山聖園子供の家施設長,3
 松永恭興,松永恭興,1,mhlw,1,mhlw:shingi-rousei_126969_00004,,ＪＡＭ副書記長,0
 松沢昭,松澤 昭,1,mod,1,mod:dstb,委員,東京科学大学名誉教授,1
+松浦正佳,松浦正佳,1,mhlw,1,mhlw:shingi-idou_127805,,名古屋市立大学大学院 薬学研究科病態生化学分野 教授,0
 松田千恵子,松田千恵子,1,fsa,1,fsa:revision_corporategovernance,,東京都立大学大学院 経営学研究科 教授,0
 松田妙子,松田妙子,1,cfa,1,cfa:sukoyaka21,,N P O 法 人 せ た が や 子 育 て ネ ッ ト   代 表 理 事,0
 松田明広,松田明広,1,env,1,env:35hairyo-keiyaku/yoshi35,委員,丸紅新電力株式会社 CSO（Chief Strategy Officer）,5
 松田裕之,松田 裕之,1,mod,1,mod:futenma,,横浜国立大学大学院環境情報研究院教授,0
 松田陽作,松田陽作,1,mhlw,1,mhlw:shingi-hosho_163664_00006,,日本労働組合総連合会総合政策推進局生活福祉局局長,0
 松藤寛,松藤寛,1,maff,1,maff:sizai,,日 本 大 学 生 物 資 源 科 学 部 食 品 開 発 学 科 教 授,0
+松野博,松野博,1,cas,1,cas:keizai_anzen_hosyo,,一 内閣官房長官,0
 松野玲子,松野玲子,1,mhlw,1,mhlw:shingi-kousei_127723_00001,,生活協同組合パルシステム東京理事長,0
 板倉陽一郎,板倉陽一郎,1,digital,1,digital:education-authentication,,ひかり総合法律事務所,0
 板場建,板場建,1,fsa,1,fsa:keizaikachi,,アクサ生命保険株式会社  執行役員  チーフリスクオフィサー,0
@@ -2572,6 +2628,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 林隆敏,林隆敏,1,fsa,1,fsa:singi_kigyou/top,,関西学院大学商学部教授,0
 枚方市保健所,枚方市保健所,1,mhlw,1,mhlw:shingi-kousei_127703,,所長,0
 柏原聖子,柏原聖子,1,cfa,1,cfa:shingikai/seiiku_iryou,,狛江市教育委員会教育長,0
+柏崎晴彦,柏崎晴彦,1,mhlw,1,mhlw:shingi-idou_341268,,九州大学大学院歯学研究院教授,0
 柏木剛,柏木剛,1,cfa,1,cfa:child-safety-kyoiku-hoiku,,公益社団法人日本こども育成協議会理事,0
 柏木宏子,柏木宏子,1,mhlw,1,mhlw:shingi-hosho_126733,,国立研究開発法人国立精神・神経医療研究センター病院　司法精神診療部,0
 柏木聖代,柏木聖代,1,mhlw,1,mhlw:shingi-chuo_128167,,東京科学大学 教育研究組織 大学院,0
@@ -2590,6 +2647,8 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 柴田範子,柴田範子,1,cas,1,cas:ninchisho,,特定非営利活動法人 楽 理事長,0
 柴田紀子,柴田紀子,1,cas,1,cas:business_jinken,,外務省,0
 柴田美千子,柴田美千子,1,mhlw,1,mhlw:shingi-tingin_127940,,ＵＡゼンセン労働条件局部長,0
+柴秀樹,柴秀樹,1,mhlw,1,mhlw:shingi-idou_341268,,日本歯科大学新潟生命歯学部教授,0
+柿本直也,柿本直也,1,mhlw,1,mhlw:shingi-idou_341268,,広島大学大学院医系科学研究科教授,0
 柿野成美,柿野成美,1,caa,1,caa:cepc/meeting_materials_7,,昭和女子大学大学院 福祉社会・経営研究科 特命教授,0
 栁沢成江,栁澤成江,1,maff,1,maff:zyuizi,,農林水産省動物検疫所北海道・東北 支所長,0
 栃堀正信,栃堀正信,1,cfa,1,cfa:shingikai/shakai_katei,,淑徳大学総合福祉学部社会福祉学科教授,0
@@ -2615,6 +2674,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 桑原聡子,桑原聡子,1,env,1,env:03recycle/yoshi03-16,,外苑法律事務所パートナー弁護士,0
 桑田秀幸,桑田秀幸,1,cfa,1,cfa:shingikai/kodomo_sodachi/azukari_service,,千葉市こども未来局幼児教育・保育部幼保運営課長,0
 桒形麻樹子,桒形麻樹子,1,maff,1,maff:sizai,専門委員 / 委員,帝 京 平 成 大 学 健 康 医 療 ス ポ ー ツ 学 部 医 療 ス ポ ー ツ 学 科 教 授,14
+桜井努,櫻井努,1,mhlw,1,mhlw:shingi-kousei_263447,,富山化学工業株式会社クリニカルサイエンス部部長,0
 桜井孝,櫻井孝,1,mhlw,1,mhlw:shingi-idou_127794,,神奈川歯科大学  学長,0
 桜井敬子,櫻井 敬子,1,npa,1,npa:safetylife/stalker,,,6
 桜井裕之,櫻井裕之,1,maff,1,maff:sizai,,杏 林 大 学 医 学 部 薬 理 学 教 室 教 授,0
@@ -2623,6 +2683,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 桜林美佐,桜林 美佐,1,mod,1,mod:seisan,,ジャーナリスト,0
 桜田裕,櫻田裕,1,mhlw,1,mhlw:shingi-hosho_126707,,日本柔道整復師会理事,0
 桜田謙悟,櫻田謙悟,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,,3
+梅村聡,梅村聡,1,cas,1,cas:kokuminkaigi,,税制調査会長,0
 梅沢高明,梅澤高明,1,cas,1,cas:kanko_vision,,A.T.カーニー株式会社日本法人会長 | A.T.カーニー株式会社日本法人会長/ナイトタイムエコノミー推進協議会理事,4
 梅田ゆみ,梅田ゆみ,1,maff,1,maff:sizai,委員 / 部会長,,21
 梅田靖,梅田靖,1,env,1,env:03recycle/yoshi03-19,座長,東京大学大学院工学系研究科人工物工学研究センター教授,0
@@ -2640,6 +2701,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 森口祐一,森口祐一,1,env,1,env:03recycle/yoshi03-04,,国立環境研究所名誉研究員・東京大学名誉教授,0
 森山光一,森山光一,1,digital,1,digital:smartphone-mynumbercard,,FIDO アライアンス 執行評議会メンバー・ボードメンバー・FIDO Japan WG 座長,0
 森山未来,森山 未来,1,cfa,1,cfa:shingikai/kodomo_kosodate,委員,,1
+森川和政,森川和政,1,mhlw,1,mhlw:shingi-idou_341268,,九州歯科大学歯学部教授,0
 森幸子,森幸子,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,一般社団法人日本難病・疾病団体協議会　理事,0
 森戸英幸,森戸英幸,1,mhlw,1,mhlw:shingi-hosho_126692,,慶應義塾大学大学院法務研究科教授,0
 森晃,森晃,1,cas,1,cas:kanko_vision,,合資会社酒屋旅館代表社員,1
@@ -2712,6 +2774,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 水上淳一朗,水上淳一朗,1,fsa,1,fsa:singi_zidousya/zid_base,,一般社団法人日本損害保険協会自賠責保険特別委員会委員長,0
 水口智江可,水口智江可,1,maff,1,maff:sizai,委員 / 座長 / 部会長,国 立 大 学 法 人 名 古 屋 大 学 大 学 院 生 命 農 学 研 究 科 准 教 授,19
 水枝谷奈央,水枝谷奈央,1,cfa,1,cfa:shingikai/kodomo_sodachi/azukari_service,委員,玉川大学教育学部乳幼児発達学科非常勤講師,1
+水田健太郎,水田健太郎,1,mhlw,1,mhlw:shingi-idou_341268,,東北大学歯学研究科教授,0
 水田拓,水田拓,1,env,1,env:12nature/yoshi12,,みずた　たく 公益財団法人 山階鳥類研究所　自然誌・保全研究ディレクター,0
 水町,水町,1,cao,1,cao:index,,ゆ う い ち ろ う 東京大学社会科学研究所教授,0
 水谷重夫,水谷重夫,1,env,1,env:03recycle/yoshi03-19,,テラレムグループ株式会社代表取締役会長,0
@@ -2723,6 +2786,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 永井泰山,永井泰山,1,cas,1,cas:kanko_vision,,公益財団法人彫刻の森芸術文化財団事務局長,1
 永井陽介,永井陽介,1,cfa,1,cfa:youthgroups-research,,多摩市企画政策部 企画課 企画調整担当主査,0
 永光信一郎,永光信一郎,1,cfa,1,cfa:nyuyojinokenkoushinsatou-kentokai,,福岡大学小児科教授,0
+永吉希久子,永吉希久子,1,mhlw,1,mhlw:shingi-hosho_126704,,東京大学社会科学研究所教授,0
 永山敏広,永山敏廣,1,maff,1,maff:sizai,専門委員,,9
 永岡謙太郎,永岡謙太郎,1,maff,1,maff:zyuizi,,国立大学法人 東京農工大学農学部共同獣医学科 教授,0
 永松悟,永松悟,1,mhlw,1,mhlw:shingi-hosho_126730,,全国市長会（杵築市長）,0
@@ -2748,10 +2812,12 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 池田貴昭,池田貴昭,1,digital,1,digital:education-authentication,,戸田市教育委員会教育政策室主幹,0
 池田陽子,池田 陽子,1,mod,1,mod:sds,,弁護士（明大昭平・法律事務所）,7
 池田駿介,池田 駿介,1,mod,1,mod:futenma,,東京工業大学名誉教授,0
+池辺哲郎,池邉哲郎,1,mhlw,1,mhlw:shingi-idou_341268,,福岡歯科大学口腔歯学部教授,0
 沖倉智美,沖倉智美,1,mhlw,1,mhlw:shingi-hosho_126730,,大正大学教授,0
 沖田裕子,沖田裕子,1,cas,1,cas:ninchisho_kankeisha,,特定非営利活動法人認知症の人とみんなのサポートセンター  代表理事,0
 沢智博,澤智博,1,mhlw,1,mhlw:shingi-chuo_128167_00018,,帝京大学医療情報システム研究センター 教授,0
 沢田典絵,澤田典絵,1,env,1,env:07air-noise/yoshi07-11,,国立がん研究センター がん対策研究所コホート研究部長,0
+沢田大介,澤田大介,1,mhlw,1,mhlw:shingi-idou_127805,,岡山大学 学術研究院医歯薬学域精密有機合成化学分野 教授,0
 沢田康幸,澤田康幸,1,mof,1,mof:customs_foreign_exchange/sub-foreign_exchange,,東京大学大学院経済学研究科教授,0
 沢田拓子,澤田拓子,1,cas,1,cas:atarashii_sihonsyugi,,塩野義製薬株式会社取締役副会長,0
 沢田昌輝,澤田昌輝,1,fsa,1,fsa:governance_code,,公認会計士、應和監査法人総括代表社員,0
@@ -2772,6 +2838,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 河辺賢裕,河邉賢裕,1,cas,1,cas:cybersecurity_kakuryokaigi,,内閣官房副長官補,0
 河野久美子,河野久美子,1,env,1,env:05hoken/yoshi05-01,,国立研究開発法人水産研究・教育機構水産技術研究所,0
 河野博隆,河野博隆,1,mhlw,1,mhlw:shingi-idou_127792,,帝京大学・医学部長,0
+河野和博,河野和博,1,mhlw,1,mhlw:shingi-kousei_467561_00003,,愛媛県腎臓病患者連絡協議会    事務局長,0
 河野省二,河野 省二,1,digital,1,digital:security-architecture,委員,日本マイクロソフト株式会社 技術統括室 チーフセキュリティオフィサー,2
 河野菜摘子,河野菜摘子,1,mhlw,1,mhlw:shingi-kousei_472658_00001,,明治大学農学部専任教授,0
 河野隆志,河野隆志,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,国立がん研究センター研究所・ゲノム生物学研究分野 分野長,0
@@ -2811,6 +2878,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 消費,消費,1,mof,1,mof:meeting_of_cbdcre,,者 庁 政策立案総括審議官,0
 涌井史郎,涌井史郎,1,cas,1,cas:kanko_vision,,東京都市大学環境情報学部教授,1
 淀谷典子,淀谷典子,1,cfa,1,cfa:nyuyojinokenkoushinsatou-kentokai,,三重県医療保健部医療政策総括監,0
+深尾京司,深尾京司,1,mhlw,1,mhlw:shingi-hosho_126721,,日本貿易振興機構アジア経済研究所所長,0
 深沢祐二,深澤祐二,1,digital,1,digital:global-data-governance-advisory,委員,東日本旅客鉄道株式会社 取締役会長,3
 深田一平,深田一平,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,がん研究会有明病院 ゲノム診療部 医長,0
 淳子,淳子,1,cao,1,cao:index,,三井住友海上火災保険株式会社社外監査役,0
@@ -2888,6 +2956,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 片野田耕太,片野田耕太,1,mhlw,1,mhlw:shingi-kousei_127752_00008,,国立研究開発法人 国立がん研究センター,0
 牛山明,牛山明,1,mhlw,1,mhlw:shingi-kousei_127752_00008,,国立保健医療科学院生活環境研究部  部長,0
 牧兼充,牧兼充,1,cas,1,cas:souyakuryoku,,早稲田大学大学院経営管理研究科准教授,0
+牧島,牧島,1,cas,1,cas:keizai_anzen_hosyo,,かれん デジタル大臣,0
 牧敦生,牧 敦生,1,mod,1,mod:ts-ships,,国立大学法人大阪大学工学部教授,3
 牧瀬稔,牧瀬稔,1,cfa,1,cfa:kodomo-keikaku,,関東学院大学法学部地域創生学科教授,3
 牧野友衛,牧野友衛,1,cas,1,cas:kanko_vision,,トリップアドバイザー株式会社代表取締役,1
@@ -2900,6 +2969,8 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 猪野憲一,猪野 憲一,1,npa,1,npa:safetylife/stalker,,,5
 玉堀雄一,玉堀雄一,1,ppc,1,ppc:koutekikenkyukai,,芽室町総務課ＤＸ推進係係長,0
 玉木諒,玉木諒,1,fsa,1,fsa:vc,,株式会社 LINEA イノベーション CFO,0
+玉置幸道,玉置幸道,1,mhlw,1,mhlw:shingi-idou_341268,,朝日大学歯学部教授,0
+玉置幸雄,玉置幸雄,1,mhlw,1,mhlw:shingi-idou_341268,,福岡歯科大学口腔歯学部教授,0
 玲子,玲子,1,mhlw,1,mhlw:shingi-kousei_127723,,ヤ ツ ハ シ ジ ロ ウ,0
 環五箇公一,環五箇公一,1,env,1,env:49wat-doj/yoshi49-04_00001,,国立研究開発法人国立環境研究所生物多様性領域,0
 環境獣医分野,環境獣医分野,1,env,1,env:05hoken/yoshi05-01,,毒性学教室 教授,0
@@ -2986,6 +3057,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 白石隆夫,白石隆夫,1,cas,1,cas:business_jinken,,防衛省              防衛装備庁長官官房審議官,0
 白須洋子,白須洋子,1,fsa,1,fsa:keizaikachi,,青山学院大学経済学部  教授,0
 白鳥久美子,白鳥久美子,1,cfa,1,cfa:hoikujinzai,,お笑い芸人,0
+百瀬優,百瀬優,1,mhlw,1,mhlw:shingi-hosho_126721,,流通経済大学経済学部教授,0
 百留秀宗,百留秀宗,1,fsa,1,fsa:chuukinken,,代表執行役副社長  グローバル事業部門共同事業部門長,0
 的場康子,的場 康子,1,cfa,1,cfa:kigyou-shudou,委員,,3
 的改善,的改善,1,digital,1,digital:social-concept,,を行 うべき。リモートワークによるバーチャル移 民 や、国 内 外 多 拠,0
@@ -3000,6 +3072,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 相田伸介,相田伸介,1,env,1,env:05hoken/yoshi05-09,,学校法人国際医療福祉大学 三田病院 病理部 病院教授,0
 相良博典,相良博典,1,mhlw,1,mhlw:shingi-idou_127792,,昭和医科大学病院・病院長,0
 相良洋子,相良洋子,1,cfa,1,cfa:shingikai/seiiku_iryou,,公益社団法人日本産婦人科医会常務理事 さがらレディスクリニック院長,0
+相馬義郎,相馬義郎,1,mhlw,1,mhlw:shingi-idou_127805,,山口東京理科大学 副学長 薬学部/薬学系研究科 教授,0
 真下知士,真下知士,1,mhlw,1,mhlw:shingi-kousei_429941_00001,,国立大学法人東京大学医科学研究所  教授,0
 真奈美,真奈美,1,mhlw,1,mhlw:index_13914,,東海大学　健康学部健康マネジメント学科　教授,0
 真弓,真弓,1,mhlw,1,mhlw:index_13914,,東京理科大学薬学部　教授,0
@@ -3079,7 +3152,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 福田健太,福田健太,1,fsa,1,fsa:pqc,,株式会社三井住友フィナンシャルグループ  部長代理,0
 福田充,福田充,1,cas,1,cas:ful/yusikisyakaigi,,日本大学危機管理学部教授・日本大学大学院新聞学研究科教授,0
 福田忠典,福田 忠典,1,mod,1,mod:jinji-ken,,元陸将 元富士学校長,0
-福田慎一,福田慎一,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,東京都立大学特任教授・武蔵野大学特任教授,43
 福田毅,福田毅,1,digital,1,digital:local-governments,,内閣府大臣官房審議官（経済社会システム担当）,0
 福田紀夫,福田 紀夫,1,mod,1,mod:jinji,委員,元人事院 公平審査局長,5
 福田英輝,福田英輝,1,mhlw,1,mhlw:shingi-kousei_127751,,国立保健医療科学院 主任研究官,0
@@ -3110,7 +3182,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 端山亮,端山亮,1,env,1,env:03recycle/yoshi03-04,,段ボールリサイクル協議会理事事務局長,0
 竹ヶ原啓介,竹ヶ原啓介,1,env,1,env:regional_decarbonization,座長,株式会社日本政策投資銀行 エグゼクティブフェロー,0
 竹下さくら,竹下さくら,1,fsa,1,fsa:keizaikachi,,なごみ FP 事務所  代表,0
-竹下義樹,竹下義樹,1,mhlw,1,mhlw:shingi-hosho_126730,,社会福祉法人日本視覚障害者団体連合会長,0
 竹中ナミ,竹中ナミ,1,mof,1,mof:fiscal_system_council/sub-of_fiscal_system,委員,,13
 竹之内隆夫,竹之内隆夫,1,digital,1,digital:data-security-wg,,株式会社 Acompany 執行役員 VP of Public Affairs,0
 竹内努,竹内努,1,digital,1,digital:local-governments,,法務省民事局長,0
@@ -3133,10 +3204,12 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 第二十八条,第二十八条,1,cas,1,cas:ninchisho_suishinhonbu,,本部は、認知症施策推進本部長、認知症施策推進副本部長及び認知症施策推進,0
 第二十六条,第二十六条,1,cas,1,cas:ninchisho_suishinhonbu,,認知症施策を総合的かつ計画的に推進するため、内閣に、認知症施策推進本部,0
 第四章,第四章,1,cas,1,cas:ninchisho_suishinhonbu,,認知症施策推進本部,0
+笹井敬子,笹井敬子,1,mhlw,1,mhlw:shingi-kousei_263447,,東京都福祉保健局技監,0
 笹原宏之,笹原 宏之,1,digital,1,digital:base-registry-advisory-board,専門委員,早稲田大学 社会科学総合学術院 教授,1
 笹尾俊明,笹尾俊明,1,env,1,env:03recycle/yoshi03-04,,立命館大学経済学部教授,0
 笹尾勝,笹尾勝,1,mhlw,1,mhlw:shingi-hosho_126734,,公益財団法人全国老人クラブ連合会常務理事,0
 笹田陽子,笹田陽子,1,maff,1,maff:zyuizi,,農林水産省動物検疫所中部空港支所支所次長,0
+笹野美佐恵,笹野美佐恵,1,mhlw,1,mhlw:shingi-hosho_126704,,茨城大学人文社会科学野講師,0
 筒井伸,筒井伸,1,mhlw,1,mhlw:shingi-rousei_126975,,名誉院長,0
 篠木幹子,篠木幹子,1,env,1,env:03recycle/yoshi03-04,,中央大学総合政策学部 教授,0
 篠田佳奈,篠田佳奈,1,cas,1,cas:cyber_anzen_hosyo,,株式会社 BLUE 代表取締役,0
@@ -3166,6 +3239,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 網塚,網塚,1,mext,1,mext:gijyutu/gijyutu0,,浩  北海道大学グローバルファシリティセンター長、大学院理学研究院長・理学,0
 総務副大臣,総務副大臣,1,cas,1,cas:kumahigai_taisaku,,高橋 克法（代理出席）,0
 総務省,総務省,1,cas,1,cas:kokuminkaigi,,,2
+総電力需要,総電力需要,1,cas,1,cas:gx_jikkou_kaigi,,約9300億kWh | 約1.4兆kWh,0
 緒方誠,緒方誠,1,env,1,env:03recycle/yoshi03-04,,日本製薬団体連合会環境委員会 副委員長,0
 繁田雅弘,繁田雅弘,1,cas,1,cas:ninchisho_kankeisha,,東京慈恵会医科大学  名誉教授,0
 織田有基子,織田 有基子,1,mod,1,mod:kyumei,,日本大学大学院 法務研究科 教授,0
@@ -3182,7 +3256,9 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 能島裕介,能島裕介,1,cfa,1,cfa:youthpolicy-expertmeeting,,尼崎市  こども政策監,0
 能見,能見,1,moj,1,moj:1/shingikai_soukai,,委 員,0
 脇坂光,脇坂光,1,env,1,env:03recycle/yoshi03-04,,ガラスびん３Ｒ促進協議会理事・事務局長,0
+自由民主党,自由民主党,1,cas,1,cas:kokuminkaigi,,小林 鷹之 政務調査会長,0
 自見はなこ,自見はなこ,1,cas,1,cas:digitalmarket/kyosokaigi,,内閣府特命担当大臣（消費者及び食品,0
+自見英治郎,自見英治郎,1,mhlw,1,mhlw:shingi-idou_341268,,九州大学大学院歯学研究院教授,0
 臼井智博,臼井智博,1,fsa,1,fsa:kessai_kanmin,,日本銀行決済機構局決済システム課長,0
 臼田裕一郎,臼田裕一郎,1,cas,1,cas:suisinkaigi,,国立研究開発法人防災科学技術研究所,0
 與口真三,與口真三,1,fsa,1,fsa:kessai_kanmin,,一般社団法人日本クレジット協会理事事務局長,0
@@ -3190,6 +3266,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 舟久保利明,舟久保利明,1,cfa,1,cfa:hoikujinzai,,一般社団法人大田 CP21 代表 東京都産業教育振興会理事,0
 舟場正幸,舟場正幸,1,maff,1,maff:sizai,,国 立 大 学 法 人 京 都 大 学 大 学 院 農 学 研 究 科 応 用 生 物 科 学 専 攻 教 授,0
 舩越啓仁,舩越啓仁,1,cfa,1,cfa:kokoseido-keizokutekimieruka,,日本公認会計士協会 学校法人委員会 委員,0
+船津敬弘,船津敬弘,1,mhlw,1,mhlw:shingi-idou_341268,,昭和医科大学歯学部教授,0
 船越弘文,船越弘文,1,env,1,env:03recycle/yoshi03,,一般社団法人日本経済団体連合会環境委員会地球環境部会長,0
 芝田雄司,芝田 雄司,1,caa,1,caa:consumer_policy/information/food_loss/conference,,公益財団法人 日本フードバンク連盟 政策担当,4
 花俣ふみ代,花俣ふみ代,1,mhlw,1,mhlw:shingi-hosho_126734,,公益社団法人認知症の人と家族の会常任理事,0
@@ -3198,6 +3275,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 花田裕美,花田裕美,1,maff,1,maff:sizai,,和 歌 山 県 農 業 試 験 場 栽 培 部 部 長,0
 芳賀めぐみ,芳賀めぐみ,1,mhlw,1,mhlw:shingi-kousei_467561_00004,,日本医療研究開発機構 ゲノム・データ基盤事業部 次長,0
 芳賀康浩,芳賀康浩,1,mhlw,1,mhlw:shingi-kousei_127723_00001,,青山学院大学経営学部教授,0
+若宮健嗣,若宮健嗣,1,cas,1,cas:keizai_anzen_hosyo,,内閣府特命担当大臣（知的財産戦略）,0
 若宮正子,若宮正子,1,digital,1,digital:digital-days,,特定非営利活動法人ブロードバンドスクール協会 理事,0
 若月寿子,若月壽子,1,mhlw,1,mhlw:shingi-kousei_127723,,全国理容生活衛生同業組合連合会理事長,0
 若林則幸,若林則幸,1,mhlw,1,mhlw:shingi-chuo_128167_00018,,東京科学大学 理事・副学長,0
@@ -3205,7 +3283,9 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 若生,若生,1,digital,1,digital:digital-system-reform,,幸也【新任】,0
 若田部昌澄,若田部昌澄,1,mod,1,mod:drastic-reinforcement,,,9
 若目田光生,若目田光生,1,digital,1,digital:global-data-governance,,一般社団法人日本経済団体連合会 デジタルエコノミー推進委員会 企画部会,0
+若者活躍,若者活躍,1,cas,1,cas:kokuminkaigi,,男女共同参画）,0
 英世,英世,1,mhlw,1,mhlw:shingi-idou_127790,,全 国 知 事 会 （ 新 潟 県 知 事 ）,0
+英国が,英国が,1,cas,1,cas:juten_keikaku,,2018 年に孤独担当大臣を任命したというニュースは世界レベルのニュースとなったが、その後の具体的な,0
 英彦,英彦,1,cfa,1,cfa:workinggroup,,一般社団法人全国自死遺族連絡会副代表理事,0
 茂木友三郎,茂木友三郎,1,cao,1,cao:sasshin/kondan,,キッコーマン株式会社取締役名誉会長 取締役会議長,0
 茂木哲也,茂木哲也,1,fsa,1,fsa:governance_code,,日本公認会計士協会会長,0
@@ -3224,6 +3304,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 荒川隆治,荒川隆治,1,mhlw,1,mhlw:shingi-chuo_128157,,中外製薬株式会社  執行役員  渉外調査担当,0
 荒木泰臣,荒木泰臣,1,cas,1,cas:kodomo_mirai,,,5
 荒木裕美,荒木裕美,1,cfa,1,cfa:shingikai/kodomo_ibasho,,NPO法人ベビースマイル石巻 代表理事,0
+荒田洋一郎,荒田洋一郎,1,mhlw,1,mhlw:shingi-idou_127805,,帝京大学 薬学部長/教授,0
 荒籾忠志,荒籾忠志,1,mhlw,1,mhlw:shingi-kousei_127751,,健康日本 21 推進全国連絡協議会 幹事,0
 荻野司,荻野司,1,digital,1,digital:digital-system-reform-technology-based-regulatory-reform,,一般社団法人重要生活機器連携セキュリティ協議会,0
 荻野均,荻野均,1,mhlw,1,mhlw:shingi-chuo_128167,,医学研究所北野病院心臓血管外科特任部長,0
@@ -3232,6 +3313,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 菅原ますみ,菅原ますみ,1,cfa,1,cfa:shingikai/shakai_katei/care-needs,,白百合女子大学人間総合学部発達心理学科教授,0
 菅原久喜,菅原久喜,1,env,1,env:03recycle/yoshi03-04,,日本洋酒酒造組合 理事,0
 菅原琢磨,菅原琢磨,1,mhlw,1,mhlw:shingi-chuo_128157,,東京大学大学院法学政治学研究科教授,0
+菅谷憲夫,菅谷憲夫,1,mhlw,1,mhlw:shingi-kousei_263447,,一般財団法人神奈川県警友会けいゆう病院小児科参事,0
 菅野了次,菅野了次,1,mext,1,mext:gijyutu/gijyutu0,委員,東京科学大学総合研究院全固体電池研究センター センター長・特命教授,1
 菅野洋平,菅野洋平,1,fsa,1,fsa:pqc,,労働金庫連合会  情報システム部  副部長,0
 菊地英一,菊地英一,1,cfa,1,cfa:shingikai/kodomo_ibasho,,東京都調布市子ども生活部児童青少年課 課長,0
@@ -3244,6 +3326,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 菱沼妙子,菱沼妙子,1,cas,1,cas:kanko_vision,,松竹株式会社経営企画部地域振興プロジェクトプロデューサー,1
 萩原克郎,萩原克郎,1,mhlw,1,mhlw:shingi-kousei_429941_00001,,酪農学園大学  獣医学類  教授,0
 萩原建次郎,萩原建次郎,1,cfa,1,cfa:youthgroups-research,,駒澤大学 総合教育研究部 教授,0
+萩生田光一,萩生田光一,1,cas,1,cas:keizai_anzen_hosyo,,経済産業大臣、産業競争力担当大臣,0
 萩野貴世子,萩野貴世子,1,env,1,env:07air-noise/yoshi07-10,,大阪府環境農林水産部環境管理室事業所指導課 課長,0
 落合由嗣,落合由嗣,1,maff,1,maff:zyuizi,,日本獣医生命科学大学獣医学部 教授,0
 葉梨康弘,葉梨康弘,1,cas,1,cas:cybersecurity_kakuryokaigi,,国家公安委員会委員長／内閣府特命担当大臣（消費,0
@@ -3280,7 +3363,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 藤沢久美,藤沢久美,1,cas,1,cas:suisinkaigi,,株式会社国際社会経済研究所理事長,0
 藤沢尚江,藤澤尚江,1,moj,1,moj:hourei-shiryou-hanrei/housei03_00006,,北海道大学大学院法学研究科教授,0
 藤沢広一,藤澤廣一,1,fsa,1,fsa:mdth_kon,,㈱日本証券クリアリング機構 常務取締役事務統括長,0
-藤沢陽介,藤澤陽介,1,mhlw,1,mhlw:shingi-hosho_163664_00006,,早稲田大学大学院会計研究科講師,0
 藤田,藤田,1,fsa,1,fsa:singi_zidousya/zid_base,会長,友 敬 東京大学大学院法学政治学研究科教授,0
 藤田一雄,藤田一雄,1,mhlw,1,mhlw:shingi-hosho_126719,,日本歯科医師会副会長,0
 藤田光徳,藤田光徳,1,mhlw,1,mhlw:shingi-kousei_127751,,健康保険組合連合会 常務理事,0
@@ -3311,13 +3393,16 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 西村卓,西村卓,1,fsa,1,fsa:index,,AI セーフティ・インスティテュート 副所長兼事務局長,0
 西村博之,西村博之,1,digital,1,digital:digital-days,,東京プラス株式会社 代表取締役,0
 西村幸夫,西村幸夫,1,mlit,1,mlit:s103_kokudoseisaku,,東京大学先端科学技術研究センター教授,0
+西村正宏,西村正宏,1,mhlw,1,mhlw:shingi-idou_341268,,大阪大学大学院歯学研究科教授,0
 西村義明,西村義明,1,fsa,1,fsa:stewardship,,住友理工株式会社 特別顧問,0
 西正典,西 正典,1,mod,1,mod:bouei_gijutsu,,日本生命特別顧問,0
 西沢實,西澤實,1,fsa,1,fsa:mdth_kon,,㈱アーク 代表取締役専務,0
 西沢敬二,西澤敬二,1,env,1,env:12nature/yoshi12,,にしざわ　けいじ 経団連 自然保護協議会 会長,0
 西洋孝,西洋孝,1,mhlw,1,mhlw:shingi-chuo_128167,,東京医科大学 産科婦人科学分野 主任教授,0
 西田一平太,西田 一平太,1,mod,1,mod:cap_build,座長,笹川平和財団上席研究員 | 笹川平和財団,4
+西田孝洋,西田孝洋,1,mhlw,1,mhlw:shingi-idou_127805,,岩手医科大学 薬学部 教授,0
 西郷民紗,西郷民紗,1,cfa,1,cfa:shingikai/shakai_katei/tokubetsu-yoshi,,早稲田大学人間科学学術院人間総合研究センター次席研究員・,0
+西郷浩,西郷浩,1,mhlw,1,mhlw:shingi-hosho_126704,,早稲田大学政治経済学術院教授,0
 西野文孝,西野文孝,1,fsa,1,fsa:kessai_kanmin,,一般社団法人全国信用組合中央協会 専務理事,0
 西野桂子,西野桂子,1,mof,1,mof:customs_foreign_exchange/soukai,,関西学院大学総合政策学部教授／ジーエルエム・インスティチュート代表理事,0
 見目麻子,見目麻子,1,mhlw,1,mhlw:shingi-kousei_127745,,ソニーグループ株式会社,0
@@ -3411,6 +3496,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 野村さちい,野村さちい,1,mhlw,1,mhlw:shingi-hosho_126719,,つながるひろがる子どもの救急代表,0
 野村亜紀子,野村亜紀子,1,fsa,1,fsa:nisa_kaigi,,株式会社野村資本市場研究所  主席研究員,0
 野村修也,野村修也,1,fsa,1,fsa:monitoring,,中央大学法科大学院教授,0
+野村周平,野村周平,1,mhlw,1,mhlw:shingi-hosho_126704,,東北大学災害科学国際研究所グローバルヘルス政策学分野教授,0
 野村圭介,野村圭介,1,mhlw,1,mhlw:shingi-hosho_126698_00022,,公益社団法人日本歯科医師会常務理事,0
 野村裕之,野村裕之,1,fsa,1,fsa:impact,,株式会社かんぽ生命保険 執行役員 兼 運用企画部長,0
 野村靖仁,野村靖仁,1,digital,1,digital:smartphone-mynumbercard,,NPO 法人地域情報化推進機構 副理事長,0
@@ -3422,13 +3508,13 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 野田俊也,野田俊也,1,fsa,1,fsa:digital_2026,,東京大学大学院経済学研究科講師,0
 野田由美子,野田由美子,1,cas,1,cas:atarashii_chihousousei,,ヴェオリア・ジャパン合同会社取締役会長,0
 金井優佳,金井 優佳,1,cfa,1,cfa:shingikai/kihon_seisaku,委員,,4
+金井千尋,金井千尋,1,mhlw,1,mhlw:shingi-hosho_439756,,金井千尋公認会計士事務所所長,0
 金井司,金井司,1,fsa,1,fsa:impact,,三井住友信託銀行株式会社 フェロー役員,0
 金井正美,金井正美,1,mext,1,mext:gijyutu/gijyutu0,,東京科学大学大学院医歯学総合研究科教授,0
 金光碧,金光碧,1,fsa,1,fsa:index,,株式会社 bitFlyer Holdings 執行役員 CPO,0
 金原寿秀,金原壽秀,1,mof,1,mof:customs_foreign_exchange/sub-of_customs,,(一社)全国農業協同組合中央会副会長理事,0
 金城正信,金城正信,1,env,1,env:03recycle/yoshi03-18,,一般社団法人小型家電リサイクル協会 会長,0
 金城紀与史,金城紀与史,1,mhlw,1,mhlw:shingi-idou_127792,,琉球大学医学部医学教育企画室・特命教授,0
-金子,金子,1,fsa,1,fsa:singi_zidousya/zid_base,,晃 浩 全日本自動車産業労働組合総連合会会長,0
 金子信博,金子信博,1,env,1,env:49wat-doj/yoshi49,,福島大学農学群食農学類 教授,0
 金子優子,金子優子,1,moj,1,moj:hourei-shiryou-hanrei/housei03_00006,,弁護士、イングランド/ウェールズ弁護士（ヴァスコ,0
 金子博文,金子 博文,1,mod,1,mod:ts-ships,座長代理,一般財団法人日本海事協会開発本 部技術研究所ストラテジックアドバイザー | 一般財団法人日本海事協会開発本部技術研究所ストラテジックアドバイザー,3
@@ -3436,6 +3522,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 金子恭之,金子恭之,1,cas,1,cas:kumahigai_taisaku,,防衛大臣              小泉  進次郎,0
 金子裕子,金子裕子,1,fsa,1,fsa:singi_kigyou/top,,公認会計士,0
 金子陽子,金子陽子,1,cfa,1,cfa:shingikai/shakai_katei/jidou_shogu,,元法務省高松矯正管区長,0
+金子隆一,金子隆一,1,mhlw,1,mhlw:shingi-hosho_126704,,明治大学政治経済学部特任教授,0
 金岡京子,金岡京子,1,fsa,1,fsa:sonpo,,東京海洋大学理事・副学長,0
 金留正人,金留正人,1,fsa,1,fsa:transition_finance,,DNV GL ビジネス・アシュアランス・ジャパン株式会社,0
 金融,金融,1,fsa,1,fsa:pqc,,ISAC FinTech セキュリティワーキンググループ座長,0
@@ -3445,6 +3532,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 鈴木一光,鈴木一光,1,cfa,1,cfa:hoikujinzai,,公益財団法人児童育成協会理事長,0
 鈴木一十三,鈴木 一十三,1,caa,1,caa:consumer_policy/information/food_loss/conference,,一般社団法人 日本フランチャイズチェーン協会 環境委員会委員長,4
 鈴木亮平,鈴木亮平,1,maff,1,maff:zyuizi,,日本獣医生命科学大学獣医学部獣医学科 講師,0
+鈴木俊一,鈴木俊一,1,cas,1,cas:keizai_anzen_hosyo,,財務大臣、内閣府特命担当大臣（金融）,0
 鈴木俊宏,鈴木俊宏,1,digital,1,digital:global-data-governance,,日本オラクル株式会社  事業戦略統括,0
 鈴木俊治,鈴木俊治,1,cfa,1,cfa:nyuyojinokenkoushinsatou-kentokai,,公益社団法人日本産婦人科医会常務理事,0
 鈴木健一,鈴木健一,1,fsa,1,fsa:chuukinken,,野村アセットマネジメント株式会社執行役員,0
@@ -3484,6 +3572,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 長田繁幸,長田繁幸,1,fsa,1,fsa:pqc,,株式会社日本総合研究所  シニアエキスパート,0
 長脇田良一,長脇田良一,1,fsa,1,fsa:kaikeikansanoarikata,,名古屋経済大学大学院教授,0
 長谷川奉延,長谷川奉延,1,mhlw,1,mhlw:shingi-hosho_126716_00008,,慶應義塾大学医学部教授小児科学教室・慶應義塾大学病院臨床研究推進センター長,0
+長谷川洋一,長谷川洋一,1,mhlw,1,mhlw:shingi-idou_127805,,名城大学 薬学部 教授,0
 長谷川知子,長谷川知子,1,fsa,1,fsa:sustainable_finance,,一般社団法人日本経済団体連合会専務理事,0
 長谷川秀行,長谷川秀行,1,mof,1,mof:customs_foreign_exchange/soukai,,(株)産業経済新聞社論説副委員長,0
 長谷川隆代,長谷川隆代,1,fsa,1,fsa:revision_corporategovernance,,SWCC 株式会社  代表取締役会長・取締役会議長,0
@@ -3535,12 +3624,14 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 革工程表,革工程表,1,mhlw,1,mhlw:newpage_73071,,2020」（令和２年 12 月 18 日経済財政諮問会議）において「2023 年,0
 音無知展,音無知展,1,ppc,1,ppc:koutekikenkyukai,,京都大学大学院法学研究科准教授,0
 須戸幹,須戸幹,1,env,1,env:49wat-doj/yoshi49-04,,公立大学法人滋賀県立大学環境科学部 教授,0
+須田直人,須田直人,1,mhlw,1,mhlw:shingi-idou_341268,,明海大学歯学部教授,0
 須藤加澄,須藤加澄,1,maff,1,maff:zyuizi,,農林水産省動物医薬品検査所 専門官,0
 領域,領域,1,env,1,env:05hoken/yoshi05-01,,副領域長・病態分子解析研究室 室長・統合化 | 環境リスク科学研究推進室 主幹研究員 | 生態毒性研究室 主任研究員,0
 風神佐知子,風神佐知子,1,mhlw,1,mhlw:shingi-rousei_126986,,慶應義塾大学商学部教授,0
 風間暁,風間暁,1,cfa,1,cfa:shingikai/shakai_katei/jidou_shogu,,特定非営利活動法人 ASK、保護司,0
 飯山俊康,飯山俊康,1,fsa,1,fsa:chuukinken,,野村證券株式会社代表取締役副社長,0
 飯島淳子,飯島淳子,1,cao,1,cao:zei-cho,,慶應義塾大学大学院法務研究科教授,0
+飯村菜穂子,飯村菜穂子,1,mhlw,1,mhlw:shingi-idou_127805,,新潟薬科大学 薬学部 教授,0
 飯沢すみ江,飯沢すみ江,1,cfa,1,cfa:child-safety-kyoiku-hoiku,,川崎市こども未来局総務部監査担当課長,0
 飯田委員石毛,飯田委員 石毛,1,cfa,1,cfa:kigyou-shudou,委員,,2
 飯田祐二,飯田祐二,1,cas,1,cas:shushoku_katsudou,,オブザーバー  一般社団法人日本経済団体連合会,0
@@ -3554,9 +3645,12 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 馬場充,馬場 充,1,cfa,1,cfa:kigyou-shudou,委員,,4
 馬場通江,馬場通江,1,cfa,1,cfa:youthpolicy-expertmeeting,,札幌市子ども未来局子ども育成部  子どものくらし・若者支援,0
 馬場重郎,馬場重郎,1,cas,1,cas:intelligent_features_kyoka,,,2
+馬場麻人,馬場麻人,1,mhlw,1,mhlw:shingi-idou_341268,,徳島大学大学院医歯薬学研究部教授,0
 馬奈木,馬奈木,1,env,1,env:02policy/yoshi02,,しゅんすけ 九州大学大学院工学研究院 主幹教授,0
 馬田隆明,馬田隆明,1,fsa,1,fsa:impact,,東京大学 FoundX ディレクター,0
+馳亮太,馳亮太,1,mhlw,1,mhlw:shingi-kousei_263447,,成田赤十字病院感染症科部長,0
 駒崎弘樹,駒崎弘樹,1,cfa,1,cfa:hoikujinzai,,特定非営利活動法人全国小規模保育協議会理事,0
+高下恵美,高下恵美,1,mhlw,1,mhlw:shingi-kousei_263447,,国立感染症研究所インフルエンザウイルス研究センター主任研究官,0
 高久玲音,高久玲音,1,cfa,1,cfa:shingikai/kagaku_gijutsu,,一橋大学経済学研究科 教授,0
 高井潤,高井潤,1,digital,1,digital:enrich-learning-content,,【委員】◎座長、○座長代理                                   （50 音順）,0
 高倉健,高倉 健,1,digital,1,digital:base-registry-advisory-board,,日本土地家屋調査士会連合会 専務理事,3
@@ -3570,6 +3664,7 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 高島弘司,髙島弘司,1,mhlw,1,mhlw:shingi-rousei_126983,,全国港湾労働組合連合会書記次長,0
 高島章吉,高島章吉,1,env,1,env:06earth/yoshi06-07,,（一財）日本冷媒・環境保全機構専務理事,0
 高嶋博,髙嶋博,1,env,1,env:o_info,,鹿児島大学大学院医歯学総合研究科  神経病学講座  教授,0
+高市,高市,1,cas,1,cas:kokuminkaigi,,早苗 内閣総理大臣,0
 高市早苗,高市早苗,1,cas,1,cas:nipponseichosenryaku,,内閣総理大臣（議長）,0
 高木敦,髙木敦,1,mlit,1,mlit:s103_kokudoseisaku,,モルガン・スタンレーＭＵＦＧ証券株式会社マネージング・ディレクター,0
 高村,高村,1,env,1,env:02policy/yoshi02,,ゆ か り 東京大学未来ビジョン研究センター教授,0
@@ -3591,7 +3686,6 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 高橋温,髙橋温,1,cfa,1,cfa:shingikai/shakai_katei/jidou_shogu,,新横浜法律事務所弁護士,0
 高橋真弓,髙橋真弓,1,moj,1,moj:shihouseido/housei10_00116,,一橋大学大学院法学研究科准教授,0
 高橋祥友,高橋祥友,1,mod,1,mod:mental,会長,東京都精神医学総合研究所副参事研究員,0
-高橋秀依,高橋秀依,1,mhlw,1,mhlw:shingi-idou_127804,,東京理科大学薬学部　教授,0
 高橋秀雄,髙橋 秀雄,1,mod,1,mod:sds,,株式会社長谷工コーポレーション上席主幹、元空将補,7
 高橋聡,高橋聡,1,mhlw,1,mhlw:shingi-hosho_198345,委員,ハラダ  トシタケ,8
 高橋若菜,髙橋若菜,1,env,1,env:03recycle/yoshi03,,宇都宮大学国際学部国際学科 教授,0
@@ -3618,13 +3712,13 @@ ppc:kondankai:石井,石井,1,ppc,1,ppc:kondankai,会長代理,,2
 鳥田浩平,鳥田浩平,1,mhlw,1,mhlw:shingi-hosho_126700,,社会福祉法人東京都社会福祉協議会副会長・常務理事,0
 鳥羽研二,鳥羽研二,1,cas,1,cas:ninchisho,,地方独立行政法人 東京都健康長寿医療センター 理事長,0
 鴨下一郎,鴨下一郎,1,cas,1,cas:souyakuryoku,座長代理,内閣官房参与,0
+鵜沢成一,鵜澤成一,1,mhlw,1,mhlw:shingi-idou_341268,,大阪大学大学院歯学研究科教授,0
 鶴崎敬大,鶴崎敬大,1,env,1,env:06earth/yoshi06-09,,株式会社住環境計画研究所研究所長,0
 鶴田浩久,鶴田浩久,1,digital,1,digital:mobility-working-group,,国土交通省  物流・自動車局長,0
 鷹野景子,鷹野景子,1,mext,1,mext:gijyutu/gijyutu0,委員,東京家政学院大学長,1
 鹿野菜穂子,鹿野菜穂子,1,mext,1,mext:chousa/kaihatu/016,,慶應義塾大学大学院  法務研究科  名誉教授,0
 麦倉泰子,麦倉泰子,1,fsa,1,fsa:singi_zidousya/zid_base,,関東学院大学社会学部教授,0
 麻実,麻実,1,moj,1,moj:1/shingikai_soukai,,調査本部副本部長,0
-黄川田仁志,黄川田仁志,1,cas,1,cas:chiikimirai,,副議長        内閣官房副長官,0
 黒坂則子,黒坂則子,1,env,1,env:07air-noise/yoshi07-10,,同志社大学 法学部 教授,0
 黒崎将広,黒﨑将広,1,digital,1,digital:global-data-governance,,防衛大学校総合安全保障研究科  教授,0
 黒崎岳大,黒崎 岳大,1,mod,1,mod:cap_build,委員,東海大学准教授 | 東海大学,4

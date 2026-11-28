@@ -1,5 +1,6 @@
 __pycache__/
 *.tmp
+.DS_Store
 .venv/
 # 取得した PDF・下位 HTML の原本および他省庁の抽出テキスト本体は GitHub Releases へ保管し、
 # Git 本体には台帳（files.csv, subpages.csv, texts.csv）・構造化 CSV・統一索引（catalog）のみを残す。
