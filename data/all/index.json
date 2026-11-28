@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T04:03:05+00:00",
+  "generated_at": "2026-11-28T13:01:31+00:00",
   "storage_policy": {
     "indexes_and_structured_tables": "Git repository (data/<agency>/*.csv, catalog.csv, catalog.jsonl, parsed_texts.json, data/all/index.json)",
     "extracted_texts": "GitHub Releases (<agency>-texts-YYYY-MM / backfill tar.gz shards), linked via text_release_url (mod keeps data/mod/text/ in Git)",
@@ -36,15 +36,15 @@
   "totals": {
     "councils": 1637,
     "meetings": 18673,
-    "documents": 92831,
-    "pdfs_target": 56922,
-    "pdfs_fetched": 45624,
-    "pdfs_archived": 45624,
-    "subpages_fetched": 9133,
-    "subpages_archived": 9133,
-    "texts": 54756,
-    "texts_archived": 54335,
-    "pdf_coverage_pct": 80.2
+    "documents": 101850,
+    "pdfs_target": 65687,
+    "pdfs_fetched": 59525,
+    "pdfs_archived": 59525,
+    "subpages_fetched": 11948,
+    "subpages_archived": 11948,
+    "texts": 71469,
+    "texts_archived": 71048,
+    "pdf_coverage_pct": 90.6
   },
   "agencies": [
     {
@@ -162,16 +162,16 @@
         "meetings": 2541,
         "documents": 17660,
         "pdfs_target": 15114,
-        "pdfs_fetched": 8999,
-        "pdfs_archived": 8999,
-        "pdf_coverage_pct": 59.5,
+        "pdfs_fetched": 13984,
+        "pdfs_archived": 13984,
+        "pdf_coverage_pct": 92.5,
         "pages": 294,
         "subpages_fetched": 1565,
         "subpages_archived": 1565,
-        "texts": 10564,
-        "texts_archived": 10564
+        "texts": 15548,
+        "texts_archived": 15548
       },
-      "last_fetched_at": "2026-11-28T03:58:33+00:00",
+      "last_fetched_at": "2026-11-28T08:21:06+00:00",
       "files": {
         "catalog_csv": "data/cas/catalog.csv",
         "catalog_jsonl": "data/cas/catalog.jsonl",
@@ -330,18 +330,18 @@
       "counts": {
         "councils": 138,
         "meetings": 2631,
-        "documents": 7789,
-        "pdfs_target": 3278,
-        "pdfs_fetched": 3251,
-        "pdfs_archived": 3251,
-        "pdf_coverage_pct": 99.2,
+        "documents": 9980,
+        "pdfs_target": 5406,
+        "pdfs_fetched": 5367,
+        "pdfs_archived": 5367,
+        "pdf_coverage_pct": 99.3,
         "pages": 139,
-        "subpages_fetched": 584,
-        "subpages_archived": 584,
-        "texts": 3835,
-        "texts_archived": 3835
+        "subpages_fetched": 1021,
+        "subpages_archived": 1021,
+        "texts": 6388,
+        "texts_archived": 6388
       },
-      "last_fetched_at": "2026-11-27T14:30:12+00:00",
+      "last_fetched_at": "2026-11-28T06:34:32+00:00",
       "files": {
         "catalog_csv": "data/env/catalog.csv",
         "catalog_jsonl": "data/env/catalog.jsonl",
@@ -568,18 +568,18 @@
       "counts": {
         "councils": 329,
         "meetings": 9050,
-        "documents": 33163,
-        "pdfs_target": 12811,
-        "pdfs_fetched": 12217,
-        "pdfs_archived": 12217,
-        "pdf_coverage_pct": 95.4,
+        "documents": 39991,
+        "pdfs_target": 19448,
+        "pdfs_fetched": 19017,
+        "pdfs_archived": 19017,
+        "pdf_coverage_pct": 97.8,
         "pages": 391,
-        "subpages_fetched": 4047,
-        "subpages_archived": 4047,
-        "texts": 16264,
-        "texts_archived": 16264
+        "subpages_fetched": 6425,
+        "subpages_archived": 6425,
+        "texts": 25440,
+        "texts_archived": 25440
       },
-      "last_fetched_at": "2026-11-28T02:25:37+00:00",
+      "last_fetched_at": "2026-11-28T13:00:38+00:00",
       "files": {
         "catalog_csv": "data/mhlw/catalog.csv",
         "catalog_jsonl": "data/mhlw/catalog.jsonl",
